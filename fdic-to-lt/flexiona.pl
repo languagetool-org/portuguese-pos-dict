@@ -72,7 +72,7 @@ while ( my $line = <$fh> ) {
     # A partir de dues formes, masculí i femení. Ex.: valencià -ana.
     #
 
-    if ($line =~ /^($Flexio::carac+) ($Flexio::carac+)(.*)=categories: ([AMF].*?);/ )
+    if ($line =~ /^($Flexio::carac+) ($Flexio::carac+)(.*)=([AMF].*?);/ )
     {
         $mot_masc   = $1;
         $excepcions = $3;
@@ -221,7 +221,7 @@ while ( my $line = <$fh> ) {
     # Una única forma. Ex.: taula.
     #
 
-    elsif ( $line =~ /^([^#].*)=categories: ([AMF].*?);/ ) {
+    elsif ( $line =~ /^([^#].*)=([AMF].*?);/ ) {
 
         $categoria = $2;
         my $entrada         = $1;
@@ -482,7 +482,7 @@ while ( my $line = <$fh> ) {
         }
 
     }
-    elsif ($line =~ /^($Flexio::carac+)=categories: (RG);/ )
+    elsif ($line =~ /^($Flexio::carac+)=(RG);/ )
     {
         print $ofh "$1 $1 RG\n";
     }

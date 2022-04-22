@@ -250,7 +250,7 @@ sub escriuFormatDiccionari {
                 print $ofh " [pl. $forma[2]]";
             }
 
-            print $ofh "=categories: ";
+            print $ofh "=";
 
             switch ($originTag) {
                 case "NC"  { print $ofh "M"; }
@@ -312,7 +312,7 @@ sub escriuFormatDiccionari {
                 print $ofh " [pl. $forma[3]]";
             }
 
-            print $ofh "=categories: ";
+            print $ofh "=";
             switch ($originTag) {
                 case "NC"  { print $ofh "F"; }
                 case "AQ0" { print $ofh "AF"; }
@@ -339,7 +339,7 @@ sub escriuFormatDiccionari {
                 print $ofh "$forma[0]$numAccepcio ($forma[4]) ???";
             }
 
-            print $ofh "=categories: ";
+            print $ofh "=";
             switch ($originTag) {
                 case "NC"  { print $ofh "MFS"; }
                 case "AQ0" { print $ofh "AS"; }
@@ -362,7 +362,7 @@ sub escriuFormatDiccionari {
                 print $ofh "$forma[2]$numAccepcio ($forma[4]) ???";
             }
 
-            print $ofh "=categories: ";
+            print $ofh "=";
             switch ($originTag) {
                 case "NC"  { print $ofh "MFP"; }
                 case "AQ0" { print $ofh "AP"; }
@@ -451,7 +451,7 @@ sub escriuFormatDiccionari {
                 print $ofh " [sup. $forma[8]]";
             }
 
-            print $ofh "=categories: ";
+            print $ofh "=";
             switch ($originTag) {
                 case "NC"  { print $ofh "MF"; }
                 case "AQ0" { print $ofh "A"; }
@@ -483,7 +483,7 @@ sub escriuFormatDiccionari {
                 print $ofh "$forma[0]$numAccepcio ($forma[4]) ???";
             }
 
-            print $ofh "=categories: ";
+            print $ofh "=";
             switch ($originTag) {
                 case "NC"  { print $ofh "MS"; }
                 case "AQ0" { print $ofh "AMS"; }
@@ -513,7 +513,7 @@ sub escriuFormatDiccionari {
                 print $ofh "$forma[2]$numAccepcio ($forma[6]) ???";
             }
 
-            print $ofh "=categories: ";
+            print $ofh "=";
             switch ($originTag) {
                 case "NC"  { print $ofh "MP"; }
                 case "AQ0" { print $ofh "AMP"; }
@@ -541,7 +541,7 @@ sub escriuFormatDiccionari {
                 print $ofh "$forma[1]$numAccepcio ($forma[5]) ???";
             }
 
-            print $ofh "=categories: ";
+            print $ofh "=";
             switch ($originTag) {
                 case "NC"  { print $ofh "FS"; }
                 case "AQ0" { print $ofh "AFS"; }
@@ -569,7 +569,7 @@ sub escriuFormatDiccionari {
                 print $ofh "$forma[3]$numAccepcio ($forma[7]) ???";
             }
 
-            print $ofh "=categories: ";
+            print $ofh "=";
             switch ($originTag) {
                 case "NC"  { print $ofh "FP"; }
                 case "AQ0" { print $ofh "AFP"; }

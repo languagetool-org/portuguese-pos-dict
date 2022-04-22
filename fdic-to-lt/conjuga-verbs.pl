@@ -17,7 +17,7 @@ open( my $ofh, ">:encoding(UTF-8)", $out );
 while (my $line = <$fh>) {
     chomp($line);
 
-    if ($line =~ /^([^#].+)=categories:(.+?);model:(.+?);/) {
+    if ($line =~ /^([^#].+)=(.+?);model:(.+?);/) {
         my $infinitiu = $1;
         my $categoria = $2;
         my $model = $3;

@@ -180,7 +180,7 @@ while (($key, $value) = each %models) {
     my @verbsdelmodel = split(/,/, $verbs_model);
     foreach my $entradaverb (@verbsdelmodel) {
 		if ($entradaverb =~ /.+/) {
-		    print $ofhfdic "$entradaverb=categories: V;model:$modelverb;fonts: LT;\n";
+		    print $ofhfdic "$entradaverb=V;model:$modelverb;fonts: LT;\n";
 		}
     }
 
