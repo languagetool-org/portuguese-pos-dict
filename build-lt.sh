@@ -1,19 +1,19 @@
 #!/bin/bash
 
-cd diccionari-arrel
+cd src-dict
 ./sort-all.sh
 cd ..
 
 dir_resultat="results/lt"
 rm $dir_resultat/*.txt
 echo "Noms: de FDIC a LT..."
-perl fdic-to-lt/flexiona.pl diccionari-arrel/noms-fdic.txt $dir_resultat/noms-lt.txt
+perl fdic-to-lt/flexiona.pl src-dict/noms-fdic.txt $dir_resultat/noms-lt.txt
 echo "Adjectius: de FDIC a LT..."
-perl fdic-to-lt/flexiona.pl diccionari-arrel/adjectius-fdic.txt $dir_resultat/adjectius-lt.txt
+perl fdic-to-lt/flexiona.pl src-dict/adjectius-fdic.txt $dir_resultat/adjectius-lt.txt
 echo "Verbs: de FDIC a LT..."
-perl fdic-to-lt/conjuga-verbs.pl diccionari-arrel/verbs-fdic.txt $dir_resultat/verbs-lt.txt diccionari-arrel/models-verbals/
+perl fdic-to-lt/conjuga-verbs.pl src-dict/verbs-fdic.txt $dir_resultat/verbs-lt.txt src-dict/models-verbals/
 echo "Afegint la resta de categories..."
-cat diccionari-arrel/*-lt.txt > $dir_resultat/others-lt.txt
+cat src-dict/*-lt.txt > $dir_resultat/others-lt.txt
 
 #remove comments
 echo "Removing comments..."
