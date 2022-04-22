@@ -1,47 +1,47 @@
 #!/bin/bash
-lt_per_a_comparar="results/lt/diccionari.txt"
+lt_per_a_comparar="results/lt/dict.txt"
 dir_programes="test-lt-fdic-lt"
 dir_intermedi="test-lt-fdic-lt/intermedi"
 dir_resultat="results/test-lt-fdic-lt"
 
 rm -rf $dir_intermedi
 mkdir $dir_intermedi
-echo "Separant i ordenant diccionari LT"
+echo "Splitting and sorting LT dict"
 perl $dir_programes/separa-reordena-lt.pl $lt_per_a_comparar $dir_intermedi
-for i in $dir_intermedi/ordenats-*.txt
+for i in $dir_intermedi/sorted-*.txt
 do
     export LC_ALL=C && sort $i -o $i
 done
 
-echo "Adjectius: de LT a FDIC"
-perl lt-to-fdic/lt-to-fdic.pl adjectius $dir_intermedi
-echo "Noms: de LT a FDIC"
-perl lt-to-fdic/lt-to-fdic.pl noms $dir_intermedi
-echo "Verbs: de LT a FDIC"
+echo "Adjectives: LT to FDIC"
+perl lt-to-fdic/lt-to-fdic.pl adjectives $dir_intermedi
+echo "Nouns: LT to FDIC"
+perl lt-to-fdic/lt-to-fdic.pl nouns $dir_intermedi
+echo "Verbs: LT to FDIC"
 mkdir $dir_intermedi/models-verbals
 rm $dir_intermedi/models-verbals/*
 perl lt-to-fdic/extrau-verbs-i-models.pl lt-to-fdic $dir_intermedi
 
 #exit
 
-echo "Noms: de FDIC a LT..."
-perl fdic-to-lt/flexiona.pl $dir_intermedi/noms-fdic.txt $dir_intermedi/noms-lt.txt
-echo "Adjectius: de FDIC a LT..."
-perl fdic-to-lt/flexiona.pl $dir_intermedi/adjectius-fdic.txt $dir_intermedi/adjectius-lt.txt
-echo "Verbs: de FDIC a LT..."
+echo "Nouns: FDIC to LT..."
+perl fdic-to-lt/flexiona.pl $dir_intermedi/nouns-fdic.txt $dir_intermedi/nouns-lt.txt
+echo "Adjectives: FDIC to LT..."
+perl fdic-to-lt/flexiona.pl $dir_intermedi/adjectives-fdic.txt $dir_intermedi/adjectives-lt.txt
+echo "Verbs: FDIC to LT..."
 perl fdic-to-lt/conjuga-verbs.pl $dir_intermedi/verbs-fdic.txt $dir_intermedi/verbs-lt.txt $dir_intermedi/models-verbals/
 
-echo "Comprovant diferències"
+echo "Checking diffs"
 
-echo "*** DIFERÈNCIES ***" > $dir_resultat/diff.txt
-for i in noms adjectius verbs
+echo "*** DIFFS ***" > $dir_resultat/diff.txt
+for i in nouns adjectives verbs
 do
-    echo "** Compara $i **" >> $dir_resultat/diff.txt
+    echo "** Compare $i **" >> $dir_resultat/diff.txt
     export LC_ALL=C && sort $dir_intermedi/$i.txt -o $dir_intermedi/$i.txt
     export LC_ALL=C && sort $dir_intermedi/$i-lt.txt -o $dir_intermedi/$i-lt.txt
     diff $dir_intermedi/$i.txt $dir_intermedi/$i-lt.txt >> $dir_resultat/diff.txt
 done
-echo "** Altres errors **" >> $dir_resultat/diff.txt
+echo "** Other errors **" >> $dir_resultat/diff.txt
 grep "#" $lt_per_a_comparar >> $dir_resultat/diff.txt
 grep "ERROR" $lt_per_a_comparar >> $dir_resultat/diff.txt
 

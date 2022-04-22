@@ -9,7 +9,7 @@ my $dir_entrada = "./" ;#$ARGV[0];
 my $dir_eixida = "./"  ;#$ARGV[1];
 
 my $f1 = $dir_entrada."/verbal_tags.txt";
-my $out = $dir_eixida."/verbal_tags_ordenats.txt";
+my $out = $dir_eixida."/verbal_tags_sorted.txt";
 
 
 open(my $fh, "<:encoding(UTF-8)", $f1);

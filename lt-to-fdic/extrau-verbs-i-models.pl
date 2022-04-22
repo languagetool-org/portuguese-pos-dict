@@ -8,10 +8,10 @@ binmode(STDOUT, ":utf8");
 my $dir_entrada = $ARGV[0];
 my $dir_eixida = $ARGV[1];
 
-my $f1 = $dir_eixida."/ordenats-verbs.txt";
+my $f1 = $dir_eixida."/sorted-verbs.txt";
 my $out = $dir_eixida."/models_flexio_verbal.txt";
 my $out2 = $dir_eixida."/verbs_no_processats.txt";
-my $verbaltagsordenats = $dir_entrada."/verbal_tags_ordenats.txt";
+my $verbaltagssorted = $dir_entrada."/verbal_tags_sorted.txt";
 my $nommodels = $dir_entrada."/nom_models_verbals.txt";
 my $verbs_fdic = $dir_eixida."/verbs-fdic.txt";
 
@@ -123,9 +123,9 @@ close($fh);
 
 
 # Llegeix l'ordre dels postags
-open(my $fh2, '<:encoding(UTF-8)', $verbaltagsordenats)
+open(my $fh2, '<:encoding(UTF-8)', $verbaltagssorted)
     or die "Could not open file!";
-chomp(my @postags_ordenats = <$fh2>);
+chomp(my @postags_sorted = <$fh2>);
 
 # Llegeix la numeració dels models
 open(my $fh3, '<:encoding(UTF-8)', $nommodels )
@@ -189,7 +189,7 @@ while (($key, $value) = each %models) {
     # Escriu tots els models verbals en arxius separats. Ex: cantar.model.
     open(my $ofhmodel, ">:encoding(UTF-8)", $dir_eixida."/models-verbals/".$modelverb.".model");
     my $myMatch;
-    foreach $myPostag (@postags_ordenats) {
+    foreach $myPostag (@postags_sorted) {
 	my @matches = ($key =~ /([^ ,]+ [^ ]+ [^ ]+ \Q$myPostag\E),/g);
 	for $myMatch (@matches)	{
 	    if ($myMatch=~/^([^ ,]+) ([^ ]+) ([^ ]+) (\Q$myPostag\E)$/) {

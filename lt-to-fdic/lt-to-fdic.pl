@@ -10,7 +10,7 @@ binmode( STDOUT, ":utf8" );
 my $arxiucategoria = $ARGV[0];    # adjectius, noms
 my $dir_entrada    = $ARGV[1];
 
-my $f1 = $dir_entrada . "/ordenats-" . $arxiucategoria . ".txt";
+my $f1 = $dir_entrada . "/sorted-" . $arxiucategoria . ".txt";
 
 #my $out = "models_flexio_nominal.txt";
 my $out2 = $dir_entrada . "/mots_no_processats.txt";

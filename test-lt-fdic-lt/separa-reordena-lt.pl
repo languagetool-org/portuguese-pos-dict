@@ -6,53 +6,53 @@ use utf8;
 binmode( STDOUT, ":utf8" );
 
 my $f1 = $ARGV[0];
-my $dir_eixida = $ARGV[1]."/";
+my $dir_output = $ARGV[1]."/";
 open( my $fh_input, "<:encoding(UTF-8)", $f1 );
 
-my $noms = "noms.txt";
-my $adjectius = "adjectius.txt";
+my $nouns = "nouns.txt";
+my $adjectives = "adjectives.txt";
 my $verbs = "verbs.txt";
-my $adv_ment = "adverbis-ment.txt";
-my $adverbis = "adverbis.txt";
-my $nomspropis = "nomspropis.txt";
-my $resta = "resta.txt";
+my $adv_mente = "adverbs-mente.txt";
+my $adverbs = "adverbs.txt";
+my $propernouns = "propernouns.txt";
+my $remainder = "remainder.txt";
 
-my $o_noms = "ordenats-noms.txt";
-my $o_adjectius = "ordenats-adjectius.txt";
-my $o_verbs = "ordenats-verbs.txt";
-my $o_adv_ment = "ordenats-adverbis-ment.txt";
-my $o_adverbis = "ordenats-adverbis.txt";
-my $o_nomspropis = "ordenats-nomspropis.txt";
-my $o_resta = "ordenats-resta.txt";
+my $o_nouns = "sorted-nouns.txt";
+my $o_adjectives = "sorted-adjectives.txt";
+my $o_verbs = "sorted-verbs.txt";
+my $o_adv_mente = "sorted-adverbs-mente.txt";
+my $o_adverbs = "sorted-adverbs.txt";
+my $o_propernouns = "sorted-propernouns.txt";
+my $o_remainder = "sorted-remainder.txt";
 
-open( my $fh_o_noms, ">:encoding(UTF-8)", $dir_eixida.$o_noms );
-open( my $fh_o_adjectius, ">:encoding(UTF-8)", $dir_eixida.$o_adjectius );
-open( my $fh_o_verbs, ">:encoding(UTF-8)", $dir_eixida.$o_verbs );
-open( my $fh_o_adv_ment, ">:encoding(UTF-8)", $dir_eixida.$o_adv_ment );
-open( my $fh_o_nomspropis, ">:encoding(UTF-8)", $dir_eixida.$o_nomspropis );
-open( my $fh_o_adverbis, ">:encoding(UTF-8)", $dir_eixida.$o_adverbis );
-open( my $fh_o_resta, ">:encoding(UTF-8)", $dir_eixida.$o_resta );
+open( my $fh_o_nouns, ">:encoding(UTF-8)", $dir_output.$o_nouns );
+open( my $fh_o_adjectives, ">:encoding(UTF-8)", $dir_output.$o_adjectives );
+open( my $fh_o_verbs, ">:encoding(UTF-8)", $dir_output.$o_verbs );
+open( my $fh_o_adv_mente, ">:encoding(UTF-8)", $dir_output.$o_adv_mente );
+open( my $fh_o_propernouns, ">:encoding(UTF-8)", $dir_output.$o_propernouns );
+open( my $fh_o_adverbs, ">:encoding(UTF-8)", $dir_output.$o_adverbs );
+open( my $fh_o_remainder, ">:encoding(UTF-8)", $dir_output.$o_remainder );
 
-open( my $fh_noms, ">:encoding(UTF-8)", $dir_eixida.$noms );
-open( my $fh_adjectius, ">:encoding(UTF-8)", $dir_eixida.$adjectius );
-open( my $fh_verbs, ">:encoding(UTF-8)", $dir_eixida.$verbs );
-open( my $fh_adv_ment, ">:encoding(UTF-8)", $dir_eixida.$adv_ment );
-open( my $fh_nomspropis, ">:encoding(UTF-8)", $dir_eixida.$nomspropis );
-open( my $fh_adverbis, ">:encoding(UTF-8)", $dir_eixida.$adverbis );
-open( my $fh_resta, ">:encoding(UTF-8)", $dir_eixida.$resta );
+open( my $fh_nouns, ">:encoding(UTF-8)", $dir_output.$nouns );
+open( my $fh_adjectives, ">:encoding(UTF-8)", $dir_output.$adjectives );
+open( my $fh_verbs, ">:encoding(UTF-8)", $dir_output.$verbs );
+open( my $fh_adv_mente, ">:encoding(UTF-8)", $dir_output.$adv_mente );
+open( my $fh_propernouns, ">:encoding(UTF-8)", $dir_output.$propernouns );
+open( my $fh_adverbs, ">:encoding(UTF-8)", $dir_output.$adverbs );
+open( my $fh_remainder, ">:encoding(UTF-8)", $dir_output.$remainder );
 
 
 while(my $line = <$fh_input>){  
     chomp($line);
     if ($line =~ /^([^ +]+) ([^ +]+) (NC....0)$/)
     { 
-	print $fh_noms "$1 $2 $3\n"; 
-	print $fh_o_noms "$2 $3 $1\n"; 
+	print $fh_nouns "$1 $2 $3\n"; 
+	print $fh_o_nouns "$2 $3 $1\n"; 
     }
     elsif ($line =~ /^([^ ]+) ([^ ]+) (A....0)$/)
     { 
-	print $fh_adjectius "$1 $2 $3\n";
-	print $fh_o_adjectius "$2 $3 $1\n"; 
+	print $fh_adjectives "$1 $2 $3\n";
+	print $fh_o_adjectives "$2 $3 $1\n"; 
     }
     elsif ($line =~ /^([^ ]+) ([^ ]+) (V.+)$/)
     { 
@@ -61,39 +61,39 @@ while(my $line = <$fh_input>){
     }
     elsif ($line =~ /^([^ ]+mente) ([^ ]+) (RG)$/)
     { 
-	print $fh_adv_ment "$1 $2 $3\n"; 
-	print $fh_o_adv_ment "$2 $3 $1\n"; 
+	print $fh_adv_mente "$1 $2 $3\n"; 
+	print $fh_o_adv_mente "$2 $3 $1\n"; 
     }
     elsif ($line =~ /^([^ ]+) ([^ ]+) (RG)$/)
     { 
-	print $fh_adverbis "$1 $2 $3\n"; 
-	print $fh_o_adverbis "$2 $3 $1\n"; 
+	print $fh_adverbs "$1 $2 $3\n"; 
+	print $fh_o_adverbs "$2 $3 $1\n"; 
     }
     elsif ($line =~ /^([^ ]+) ([^ ]+) (NP.+)$/)
     { 
-	print $fh_nomspropis "$1 $2 $3\n"; 
-	print $fh_o_nomspropis "$2 $3 $1\n"; 
+	print $fh_propernouns "$1 $2 $3\n"; 
+	print $fh_o_propernouns "$2 $3 $1\n"; 
     } 
     elsif ($line =~ /^([^ ]+) ([^ ]+) (.+)$/)
     {
-	print $fh_resta "$1 $2 $3\n"; 
-	print $fh_o_resta "$2 $3 $1\n"; 
+	print $fh_remainder "$1 $2 $3\n"; 
+	print $fh_o_remainder "$2 $3 $1\n"; 
     }
 }
 close($fh_input); 
 
-close($fh_noms);
-close($fh_adjectius);
+close($fh_nouns);
+close($fh_adjectives);
 close($fh_verbs);
-close($fh_adv_ment);
-close($fh_nomspropis);
-close($fh_adverbis);
-close($fh_resta);
+close($fh_adv_mente);
+close($fh_propernouns);
+close($fh_adverbs);
+close($fh_remainder);
 
-close($fh_o_noms);
-close($fh_o_adjectius);
+close($fh_o_nouns);
+close($fh_o_adjectives);
 close($fh_o_verbs);
-close($fh_o_adv_ment);
-close($fh_o_nomspropis);
-close($fh_o_adverbis);
-close($fh_o_resta);
+close($fh_o_adv_mente);
+close($fh_o_propernouns);
+close($fh_o_adverbs);
+close($fh_o_remainder);
