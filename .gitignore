@@ -1,0 +1,7 @@
+intermedi/
+tmp/
+resultats/lt/*
+target/
+*.dict
+morfologik-lt/*_lt.txt
+morfologik-lt/*.txt
