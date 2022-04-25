@@ -3,12 +3,12 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.softcatala</groupId>
-    <artifactId>spanish-pos-dict</artifactId>
-    <version>1.6</version>
-    <url>http://github.com/jaumeortola/spanish-dict-tools</url>
-    <name>Spanish part-of-speech dictionary</name>
-    <description>A Spanish part-of-speech (POS) dictionary as a Morfologik binary</description>
+    <groupId>org.languagetool</groupId>
+    <artifactId>portuguese-pos-dict</artifactId>
+    <version>0.1</version>
+    <url>http://github.com/languagetool-org/portuguese-dict-tools</url>
+    <name>Portuguese part-of-speech dictionary</name>
+    <description>A Portuguese part-of-speech (POS) dictionary as a Morfologik binary</description>
 
     <licenses>
         <license>
@@ -29,7 +29,7 @@
     </properties>
 
     <scm>
-        <url>http://github.com/jaumeortola/spanish-dict-tools</url>
+        <url>http://github.com/languagetool-org/portuguese-dict-tools</url>
     </scm>
 
     <distributionManagement>
