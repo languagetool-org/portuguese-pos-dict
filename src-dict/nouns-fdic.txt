@@ -4,6 +4,7 @@
 #camita=F;src: dim;
 #capinha=F;src: dim;
 #figurinha=MF;src: LT;
+#para=MF;src: LT;
 #saudita=F;src: dim;
 #tampinha=F;src: dim;
 #terrível=M;src: LT;
@@ -68789,7 +68790,6 @@ para-sol=M;src: LT;
 para-vento=M;src: LT;
 para-água=M;src: LT;
 para-águas=MI;src: LT;
-para=MF;src: LT;
 parabanato=M;src: LT;
 parabiose=F;src: LT;
 parablasto=M;src: LT;
