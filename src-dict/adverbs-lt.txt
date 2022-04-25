@@ -1,3 +1,5 @@
+#no no RG
+#nom nom RG
 abaixo abaixo RG
 abasto abasto RG
 abeterno abeterno RG
@@ -257,8 +259,6 @@ nentes nentes RG
 nessora nessora RG
 nicles nicles RG
 nisto nisto RG
-no no RG
-nom nom RG
 noutrora noutrora RG
 nunca nunca RG
 não não RG
