@@ -270,6 +270,7 @@ chut chut I
 chuta chuta I
 chuts chut I
 ché ché I
+cinco cinco Z0CP0
 com com SPS00
 comigo comigo PP1CSO00
 como como CS
@@ -372,10 +373,12 @@ destoutro de:este:outro SPS00:DD0MS0:DI0MS0
 destoutro de:este:outro SPS00:PD0MS000:PI0MS000
 destoutros de:este:outro SPS00:DD0MP0:DI0MP0
 destoutros de:este:outro SPS00:PD0MP000:PI0MP000
+dez dez Z0CP0
 disso de:isso SPS00:PD0NN00
 disto de:isto SPS00:PD0NN00
 dlim dlim I
 do de:o SPS00:DA0MS0
+dois dois Z0MP0
 domisteco domisteco I
 donde de:onde SPS00:PR0CN000
 donde de:onde SPS00:PT0CN000
@@ -390,6 +393,7 @@ doutro de:outro SPS00:PI0MS000
 doutrora de:outrora SPS00:RG
 doutros de:outro SPS00:DI0MP0
 doutros de:outro SPS00:PI0MP000
+duas dois Z0FP0
 dum de:um SPS00:DI0MS0
 duma de:um SPS00:DI0FS0
 dumas de:um SPS00:DI0FP0
@@ -640,6 +644,7 @@ noutro em:outro SPS00:DI0MS0
 noutro em:outro SPS00:PI0MS000
 noutros em:outro SPS00:DI0MP0
 noutros em:outro SPS00:PI0MP000
+nove nove Z0CP0
 novecentas novecentos Z0FP0
 novecentos novecentos Z0MP0
 num em:um SPS00:DI0MS0
@@ -654,6 +659,7 @@ o o PP3MSA00
 obrigada obrigada I
 obrigado obrigado I
 oh oh I
+oito oito Z0CP0
 oitocentas oitocentos Z0FP0
 oitocentos oitocentos Z0MP0
 olarila olarila I
@@ -780,6 +786,7 @@ quantos quanto PE0MP000
 quantos quanto PI0MP000
 quantos quanto PR0MP000
 quantos quanto PT0MP000
+quatro quatro Z0CP0
 quatrocentas quatrocentos Z0FP0
 quatrocentos quatrocentos Z0MP0
 que que CS
@@ -808,6 +815,7 @@ se se PP3CN000
 sebo sebo I
 segundo segundo CC
 segundo segundo SPS00
+seis seis Z0CP0
 seiscentas seiscentos Z0FP0
 seiscentos seiscentos Z0MP0
 seja seja CS
@@ -815,6 +823,7 @@ seja seja I
 sem sem SPS00
 sentido sentido I
 senão senão CC
+sete sete Z0CP0
 setecentas setecentos Z0FP0
 setecentos setecentos Z0MP0
 seu seu AP0MS3P
@@ -895,6 +904,7 @@ tris tris I
 truz truz I
 trás trás I
 trás trás SPS00
+três três Z0CP0
 tu tu PP2CSN00
 tua teu AP0FS2S
 tua teu DP2FSS
