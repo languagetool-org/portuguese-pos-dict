@@ -1,5 +1,7 @@
 
 #cadelo cadela=A;src: LT;
+#espaço espaça=A;src: LT; unusual Brazil
+#rui=A;src: LT; unusual
 aacheniano aacheniana=A;src: LT;
 aaleniano aaleniana=A;src: LT;
 aaleniense=A;src: LT;
@@ -18528,7 +18530,6 @@ espaventoso espaventosa=A;src: LT;
 espavorido espavorida=A;src: LT;
 espaçado espaçada=A;src: LT;
 espaçador espaçadora=A;src: LT;
-espaço espaça=A;src: LT;
 espaçoso espaçosa=A;src: LT;
 especado especada=A;src: LT;
 especial=A;src: LT;
@@ -40369,7 +40370,6 @@ rugoso rugosa=A;src: LT;
 rugífero rugífera=A;src: LT;
 rui-barbosense=A;src: LT;
 rui-barbosiano rui-barbosiana=A;src: LT;
-rui=A;src: LT;
 ruidoso ruidosa=A;src: LT;
 ruim=A;src: LT;
 ruiniforme=A;src: LT;

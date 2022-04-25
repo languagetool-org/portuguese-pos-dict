@@ -1,3 +1,4 @@
+#exir=V;model:demitir;src: LT; old
 ab-rogar=V;model:alugar;src: LT;
 ababalhar=V;model:amar;src: LT;
 ababelar=V;model:amar;src: LT;
@@ -8630,7 +8631,6 @@ exilar=V;model:amar;src: LT;
 exiliar=V;model:amar;src: LT;
 eximir=V;model:demitir;src: LT;
 exinanir=V;model:demitir;src: LT;
-exir=V;model:demitir;src: LT;
 existir=V;model:demitir;src: LT;
 exonerar=V;model:amar;src: LT;
 exorar=V;model:amar;src: LT;

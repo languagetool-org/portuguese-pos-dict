@@ -261,7 +261,7 @@ nicles nicles RG
 nisto nisto RG
 noutrora noutrora RG
 nunca nunca RG
-não não RG
+não não RN
 offline offline RG
 ogano ogano RG
 oiro-fio oiro-fio RG
