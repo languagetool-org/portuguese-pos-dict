@@ -1,6 +1,6 @@
 intermedi/
 tmp/
-resultats/lt/*
+results/lt/*
 target/
 *.dict
 morfologik-lt/*_lt.txt
