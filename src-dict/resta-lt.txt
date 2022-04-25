@@ -334,10 +334,10 @@ daquém de:aquém SPS00:RG
 das de:as SPS00:DA0FS0
 daí de:aí SPS00:RG
 de de SPS00
-dela de:ela SPS00:PP3FS00
-delas de:elas SPS00:PP3FP00
+dela de:ele SPS00:PP3FS00
+delas de:ele SPS00:PP3FP00
 dele de:ele SPS00:PP3MS00
-deles de:eles SPS00:PP3MP00
+deles de:ele SPS00:PP3MP00
 dentre de:entre SPS00:SP
 depós depós SPS00
 desde desde SPS00
