@@ -1,4 +1,5 @@
 
+#cadelo cadela=A;src: LT;
 aacheniano aacheniana=A;src: LT;
 aaleniano aaleniana=A;src: LT;
 aaleniense=A;src: LT;
@@ -8877,7 +8878,6 @@ cadavérico cadavérica=A;src: LT;
 cadeirado cadeirada=A;src: LT;
 cadeiruda=AF;src: LT;
 cadeleiro cadeleira=A;src: LT;
-cadelo cadela=A;src: LT;
 cadenciado cadenciada=A;src: LT;
 cadencioso cadenciosa=A;src: LT;
 cadente=A;src: LT;
