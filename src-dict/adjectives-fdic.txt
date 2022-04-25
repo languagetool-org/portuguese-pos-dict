@@ -29643,6 +29643,7 @@ matutino matutina=A;src: LT;
 matuto matuta=A;src: LT;
 matável=A;src: LT;
 matíaco matíaca=A;src: LT;
+mau má=A;src: LT;
 mauaense=A;src: LT;
 maubere=A;src: LT;
 maumetano maumetana=A;src: LT;
