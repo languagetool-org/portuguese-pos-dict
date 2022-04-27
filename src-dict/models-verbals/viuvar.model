@@ -5,7 +5,7 @@ r r ar VMN03S0 # viuvar
 r rmos ar VMN01P0 # viuvarmos
 r rdes ar VMN02P0 # viuvardes
 r rem ar VMN03P0 # viuvarem
-ar á ar VMX0000 # viuvá
+ar á ar VMN0000X # viuvá
 r ndo ar VMG0000 # viuvando
 r do ar VMP00SM # viuvado
 r da ar VMP00SF # viuvada

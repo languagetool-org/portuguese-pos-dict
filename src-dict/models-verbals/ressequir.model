@@ -5,7 +5,7 @@ r r ir VMN03S0 # ressequir
 r rmos ir VMN01P0 # ressequirmos
 r rdes ir VMN02P0 # ressequirdes
 r rem ir VMN03P0 # ressequirem
-r 0 ir VMX0000 # ressequi
+r 0 ir VMN0000X # ressequi
 r ndo ir VMG0000 # ressequindo
 r do ir VMP00SM # ressequido
 r da ir VMP00SF # ressequida

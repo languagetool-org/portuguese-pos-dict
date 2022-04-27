@@ -5,7 +5,7 @@ r r ir VMN03S0 # propelir
 r rmos ir VMN01P0 # propelirmos
 r rdes ir VMN02P0 # propelirdes
 r rem ir VMN03P0 # propelirem
-r 0 ir VMX0000 # propeli
+r 0 ir VMN0000X # propeli
 r ndo ir VMG0000 # propelindo
 r do ir VMP00SM # propelido
 r da ir VMP00SF # propelida

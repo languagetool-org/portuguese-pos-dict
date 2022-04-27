@@ -5,7 +5,7 @@ r r ar VMN03S0 # dar
 r rmos ar VMN01P0 # darmos
 r rdes ar VMN02P0 # dardes
 r rem ar VMN03P0 # darem
-ar á ar VMX0000 # dá
+ar á ar VMN0000X # dá
 r ndo ar VMG0000 # dando
 r do ar VMP00SM # dado
 r da ar VMP00SF # dada

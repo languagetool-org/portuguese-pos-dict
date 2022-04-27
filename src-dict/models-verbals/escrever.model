@@ -5,7 +5,7 @@ r r er VMN03S0 # escrever
 r rmos er VMN01P0 # escrevermos
 r rdes er VMN02P0 # escreverdes
 r rem er VMN03P0 # escreverem
-er ê er VMX0000 # escrevê
+er ê er VMN0000X # escrevê
 r ndo er VMG0000 # escrevendo
 ever ito er VMP00SM # escrito
 ever ita er VMP00SF # escrita

@@ -5,7 +5,7 @@ r r ir VMN03S0 # premir
 r rmos ir VMN01P0 # premirmos
 r rdes ir VMN02P0 # premirdes
 r rem ir VMN03P0 # premirem
-r 0 ir VMX0000 # premi
+r 0 ir VMN0000X # premi
 r ndo ir VMG0000 # premindo
 r do ir VMP00SM # premido
 r da ir VMP00SF # premida

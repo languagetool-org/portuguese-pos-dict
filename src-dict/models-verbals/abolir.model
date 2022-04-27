@@ -5,7 +5,7 @@ r r ir VMN03S0 # abolir
 r rmos ir VMN01P0 # abolirmos
 r rdes ir VMN02P0 # abolirdes
 r rem ir VMN03P0 # abolirem
-r 0 ir VMX0000 # aboli
+r 0 ir VMN0000X # aboli
 r ndo ir VMG0000 # abolindo
 r do ir VMP00SM # abolido
 r da ir VMP00SF # abolida

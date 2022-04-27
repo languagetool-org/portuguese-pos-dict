@@ -5,7 +5,7 @@ r r ar VMN03S0 # pelidar
 r rmos ar VMN01P0 # pelidarmos
 r rdes ar VMN02P0 # pelidardes
 r rem ar VMN03P0 # pelidarem
-ar á ar VMX0000 # pelidá
+ar á ar VMN0000X # pelidá
 r ndo ar VMG0000 # pelidando
 r do ar VMP00SM # pelidado
 r da ar VMP00SF # pelidada

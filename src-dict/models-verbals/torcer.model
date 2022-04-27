@@ -5,7 +5,7 @@ r r er VMN03S0 # torcer
 r rmos er VMN01P0 # torcermos
 r rdes er VMN02P0 # torcerdes
 r rem er VMN03P0 # torcerem
-er ê er VMX0000 # torcê
+er ê er VMN0000X # torcê
 r ndo er VMG0000 # torcendo
 er ido er VMP00SM # torcido
 cer to er VMP00SM # torto

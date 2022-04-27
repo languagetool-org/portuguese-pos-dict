@@ -5,7 +5,7 @@ r r ir VMN03S0 # renhir
 r rmos ir VMN01P0 # renhirmos
 r rdes ir VMN02P0 # renhirdes
 r rem ir VMN03P0 # renhirem
-r 0 ir VMX0000 # renhi
+r 0 ir VMN0000X # renhi
 r ndo ir VMG0000 # renhindo
 r do ir VMP00SM # renhido
 r da ir VMP00SF # renhida

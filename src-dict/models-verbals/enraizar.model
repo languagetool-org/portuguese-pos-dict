@@ -5,7 +5,7 @@ r r ar VMN03S0 # enraizar
 r rmos ar VMN01P0 # enraizarmos
 r rdes ar VMN02P0 # enraizardes
 r rem ar VMN03P0 # enraizarem
-ar á ar VMX0000 # enraizá
+ar á ar VMN0000X # enraizá
 r ndo ar VMG0000 # enraizando
 r do ar VMP00SM # enraizado
 r da ar VMP00SF # enraizada

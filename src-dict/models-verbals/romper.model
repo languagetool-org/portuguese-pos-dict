@@ -5,7 +5,7 @@ r r er VMN03S0 # romper
 r rmos er VMN01P0 # rompermos
 r rdes er VMN02P0 # romperdes
 r rem er VMN03P0 # romperem
-er ê er VMX0000 # rompê
+er ê er VMN0000X # rompê
 r ndo er VMG0000 # rompendo
 er ido er VMP00SM # rompido
 mper to er VMP00SM # roto

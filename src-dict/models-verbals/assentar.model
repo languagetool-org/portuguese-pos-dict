@@ -5,7 +5,7 @@ r r ar VMN03S0 # assentar
 r rmos ar VMN01P0 # assentarmos
 r rdes ar VMN02P0 # assentardes
 r rem ar VMN03P0 # assentarem
-ar á ar VMX0000 # assentá
+ar á ar VMN0000X # assentá
 r ndo ar VMG0000 # assentando
 r do ar VMP00SM # assentado
 ar e ar VMP00SM # assente

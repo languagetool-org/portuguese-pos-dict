@@ -5,7 +5,7 @@ r r ar VMN03S0 # apaular
 r rmos ar VMN01P0 # apaularmos
 r rdes ar VMN02P0 # apaulardes
 r rem ar VMN03P0 # apaularem
-ar á ar VMX0000 # apaulá
+ar á ar VMN0000X # apaulá
 r ndo ar VMG0000 # apaulando
 r do ar VMP00SM # apaulado
 r da ar VMP00SF # apaulada

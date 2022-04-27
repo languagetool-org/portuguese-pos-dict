@@ -5,7 +5,7 @@ r r ar VMN03S0 # redar
 r rmos ar VMN01P0 # redarmos
 r rdes ar VMN02P0 # redardes
 r rem ar VMN03P0 # redarem
-ar á ar VMX0000 # redá
+ar á ar VMN0000X # redá
 r ndo ar VMG0000 # redando
 r do ar VMP00SM # redado
 r da ar VMP00SF # redada

@@ -5,7 +5,7 @@ r r ar VMN03S0 # aceitar
 r rmos ar VMN01P0 # aceitarmos
 r rdes ar VMN02P0 # aceitardes
 r rem ar VMN03P0 # aceitarem
-ar á ar VMX0000 # aceitá
+ar á ar VMN0000X # aceitá
 r ndo ar VMG0000 # aceitando
 r do ar VMP00SM # aceitado
 ar e ar VMP00SM # aceite

@@ -5,7 +5,7 @@ r r ar VMN03S0 # miudar
 r rmos ar VMN01P0 # miudarmos
 r rdes ar VMN02P0 # miudardes
 r rem ar VMN03P0 # miudarem
-ar á ar VMX0000 # miudá
+ar á ar VMN0000X # miudá
 r ndo ar VMG0000 # miudando
 r do ar VMP00SM # miudado
 r da ar VMP00SF # miudada

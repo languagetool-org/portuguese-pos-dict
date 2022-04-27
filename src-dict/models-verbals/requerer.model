@@ -5,7 +5,7 @@ r r er VMN03S0 # requerer
 r rmos er VMN01P0 # requerermos
 r rdes er VMN02P0 # requererdes
 r rem er VMN03P0 # requererem
-er ê er VMX0000 # requerê
+er ê er VMN0000X # requerê
 r ndo er VMG0000 # requerendo
 er ido er VMP00SM # requerido
 er ida er VMP00SF # requerida

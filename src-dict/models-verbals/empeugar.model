@@ -5,7 +5,7 @@ r r ar VMN03S0 # empeugar
 r rmos ar VMN01P0 # empeugarmos
 r rdes ar VMN02P0 # empeugardes
 r rem ar VMN03P0 # empeugarem
-ar á ar VMX0000 # empeugá
+ar á ar VMN0000X # empeugá
 r ndo ar VMG0000 # empeugando
 r do ar VMP00SM # empeugado
 r da ar VMP00SF # empeugada

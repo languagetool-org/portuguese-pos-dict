@@ -5,7 +5,7 @@ r r ir VMN03S0 # polir
 r rmos ir VMN01P0 # polirmos
 r rdes ir VMN02P0 # polirdes
 r rem ir VMN03P0 # polirem
-r 0 ir VMX0000 # poli
+r 0 ir VMN0000X # poli
 r ndo ir VMG0000 # polindo
 r do ir VMP00SM # polido
 r da ir VMP00SF # polida

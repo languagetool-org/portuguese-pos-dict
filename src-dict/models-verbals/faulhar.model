@@ -5,7 +5,7 @@ r r ar VMN03S0 # faulhar
 r rmos ar VMN01P0 # faulharmos
 r rdes ar VMN02P0 # faulhardes
 r rem ar VMN03P0 # faulharem
-ar á ar VMX0000 # faulhá
+ar á ar VMN0000X # faulhá
 r ndo ar VMG0000 # faulhando
 r do ar VMP00SM # faulhado
 r da ar VMP00SF # faulhada

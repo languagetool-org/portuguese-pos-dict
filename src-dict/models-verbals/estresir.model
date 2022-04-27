@@ -5,7 +5,7 @@ r r ir VMN03S0 # estresir
 r rmos ir VMN01P0 # estresirmos
 r rdes ir VMN02P0 # estresirdes
 r rem ir VMN03P0 # estresirem
-r 0 ir VMX0000 # estresi
+r 0 ir VMN0000X # estresi
 r ndo ir VMG0000 # estresindo
 r do ir VMP00SM # estresido
 r da ir VMP00SF # estresida

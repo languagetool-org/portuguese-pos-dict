@@ -5,7 +5,7 @@ r r ir VMN03S0 # cerzir
 r rmos ir VMN01P0 # cerzirmos
 r rdes ir VMN02P0 # cerzirdes
 r rem ir VMN03P0 # cerzirem
-r 0 ir VMX0000 # cerzi
+r 0 ir VMN0000X # cerzi
 r ndo ir VMG0000 # cerzindo
 r do ir VMP00SM # cerzido
 r da ir VMP00SF # cerzida

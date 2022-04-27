@@ -5,7 +5,7 @@ r r ir VMN03S0 # inserir
 r rmos ir VMN01P0 # inserirmos
 r rdes ir VMN02P0 # inserirdes
 r rem ir VMN03P0 # inserirem
-r 0 ir VMX0000 # inseri
+r 0 ir VMN0000X # inseri
 r ndo ir VMG0000 # inserindo
 r do ir VMP00SM # inserido
 ir to ir VMP00SM # inserto

@@ -5,7 +5,7 @@ r r ir VMN03S0 # cair
 r rmos ir VMN01P0 # cairmos
 r rdes ir VMN02P0 # cairdes
 ir írem ir VMN03P0 # caírem
-ir í ir VMX0000 # caí
+ir í ir VMN0000X # caí
 r ndo ir VMG0000 # caindo
 ir ído ir VMP00SM # caído
 ir ída ir VMP00SF # caída

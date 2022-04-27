@@ -5,7 +5,7 @@ r r or VMN03S0 # pospor
 r rmos or VMN01P0 # pospormos
 r rdes or VMN02P0 # pospordes
 r rem or VMN03P0 # posporem
-or ô or VMX0000 # pospô
+or ô or VMN0000X # pospô
 r ndo or VMG0000 # pospondo
 r sto or VMP00SM # posposto
 r sta or VMP00SF # posposta

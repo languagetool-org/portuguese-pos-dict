@@ -5,7 +5,7 @@ r r er VMN03S0 # ranger
 r rmos er VMN01P0 # rangermos
 r rdes er VMN02P0 # rangerdes
 r rem er VMN03P0 # rangerem
-er ê er VMX0000 # rangê
+er ê er VMN0000X # rangê
 r ndo er VMG0000 # rangendo
 er ido er VMP00SM # rangido
 er ida er VMP00SF # rangida

@@ -5,7 +5,7 @@ r r ar VMN03S0 # secar
 r rmos ar VMN01P0 # secarmos
 r rdes ar VMN02P0 # secardes
 r rem ar VMN03P0 # secarem
-ar á ar VMX0000 # secá
+ar á ar VMN0000X # secá
 r ndo ar VMG0000 # secando
 r do ar VMP00SM # secado
 ar o ar VMP00SM # seco

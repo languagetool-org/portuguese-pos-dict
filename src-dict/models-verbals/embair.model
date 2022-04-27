@@ -5,7 +5,7 @@ r r ir VMN03S0 # embair
 r rmos ir VMN01P0 # embairmos
 r rdes ir VMN02P0 # embairdes
 ir írem ir VMN03P0 # embaírem
-ir í ir VMX0000 # embaí
+ir í ir VMN0000X # embaí
 r ndo ir VMG0000 # embaindo
 ir ído ir VMP00SM # embaído
 ir ída ir VMP00SF # embaída

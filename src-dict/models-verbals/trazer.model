@@ -5,7 +5,7 @@ r r er VMN03S0 # trazer
 r rmos er VMN01P0 # trazermos
 r rdes er VMN02P0 # trazerdes
 r rem er VMN03P0 # trazerem
-er ê er VMX0000 # trazê
+er ê er VMN0000X # trazê
 r ndo er VMG0000 # trazendo
 er ido er VMP00SM # trazido
 er ida er VMP00SF # trazida

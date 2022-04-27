@@ -5,7 +5,7 @@ r r ar VMN03S0 # cegar
 r rmos ar VMN01P0 # cegarmos
 r rdes ar VMN02P0 # cegardes
 r rem ar VMN03P0 # cegarem
-ar á ar VMX0000 # cegá
+ar á ar VMN0000X # cegá
 r ndo ar VMG0000 # cegando
 r do ar VMP00SM # cegado
 ar o ar VMP00SM # cego

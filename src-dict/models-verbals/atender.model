@@ -5,7 +5,7 @@ r r er VMN03S0 # atender
 r rmos er VMN01P0 # atendermos
 r rdes er VMN02P0 # atenderdes
 r rem er VMN03P0 # atenderem
-er ê er VMX0000 # atendê
+er ê er VMN0000X # atendê
 r ndo er VMG0000 # atendendo
 er ido er VMP00SM # atendido
 der to er VMP00SM # atento

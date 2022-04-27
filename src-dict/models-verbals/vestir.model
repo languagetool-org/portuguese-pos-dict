@@ -5,7 +5,7 @@ r r ir VMN03S0 # vestir
 r rmos ir VMN01P0 # vestirmos
 r rdes ir VMN02P0 # vestirdes
 r rem ir VMN03P0 # vestirem
-r 0 ir VMX0000 # vesti
+r 0 ir VMN0000X # vesti
 r ndo ir VMG0000 # vestindo
 r do ir VMP00SM # vestido
 r da ir VMP00SF # vestida

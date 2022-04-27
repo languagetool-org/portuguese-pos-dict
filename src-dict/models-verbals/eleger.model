@@ -5,7 +5,7 @@ r r er VMN03S0 # eleger
 r rmos er VMN01P0 # elegermos
 r rdes er VMN02P0 # elegerdes
 r rem er VMN03P0 # elegerem
-er ê er VMX0000 # elegê
+er ê er VMN0000X # elegê
 r ndo er VMG0000 # elegendo
 er ido er VMP00SM # elegido
 ger ito er VMP00SM # eleito

@@ -5,7 +5,7 @@ r r ar VMN03S0 # ruidar
 r rmos ar VMN01P0 # ruidarmos
 r rdes ar VMN02P0 # ruidardes
 r rem ar VMN03P0 # ruidarem
-ar á ar VMX0000 # ruidá
+ar á ar VMN0000X # ruidá
 r ndo ar VMG0000 # ruidando
 r do ar VMP00SM # ruidado
 r da ar VMP00SF # ruidada

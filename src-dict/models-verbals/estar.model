@@ -5,7 +5,7 @@ r r ar VMN03S0 # estar
 r rmos ar VMN01P0 # estarmos
 r rdes ar VMN02P0 # estardes
 r rem ar VMN03P0 # estarem
-ar á ar VMX0000 # está
+ar á ar VMN0000X # está
 r ndo ar VMG0000 # estando
 r do ar VMP00SM # estado
 r da ar VMP00SF # estada

@@ -5,7 +5,7 @@ r r ar VMN03S0 # amar
 r rmos ar VMN01P0 # amarmos
 r rdes ar VMN02P0 # amardes
 r rem ar VMN03P0 # amarem
-ar á ar VMX0000 # amá
+ar á ar VMN0000X # amá
 r ndo ar VMG0000 # amando
 r do ar VMP00SM # amado
 r da ar VMP00SF # amada

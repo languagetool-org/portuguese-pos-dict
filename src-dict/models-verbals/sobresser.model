@@ -5,7 +5,7 @@ r r er VMN03S0 # sobresser
 r rmos er VMN01P0 # sobressermos
 r rdes er VMN02P0 # sobresserdes
 r rem er VMN03P0 # sobresserem
-er ê er VMX0000 # sobressê
+er ê er VMN0000X # sobressê
 r ndo er VMG0000 # sobressendo
 er ido er VMP00SM # sobressido
 er ida er VMP00SF # sobressida

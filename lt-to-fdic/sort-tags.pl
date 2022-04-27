@@ -33,7 +33,7 @@ while(my $line = <$fh>){
 
 
 	if ($mode =~ /N/) { $points += 60000}
-	if ($mode =~ /X/) { $points += 55000}
+	#if ($mode =~ /X/) { $points += 55000}
 	if ($mode =~ /G/) { $points += 50000}
 	if ($mode =~ /P/) { $points += 40000}
     if ($mode =~ /I/) { $points += 30000}
@@ -57,6 +57,8 @@ while(my $line = <$fh>){
 
     if ($gender =~ /M/) { $points += 5}
     if ($gender =~ /F/) { $points += 4}
+    
+    if (length($line)>7) { $points -= 1}
 
     $scores{$line} = $points;
 }

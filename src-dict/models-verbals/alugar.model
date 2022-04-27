@@ -5,7 +5,7 @@ r r ar VMN03S0 # alugar
 r rmos ar VMN01P0 # alugarmos
 r rdes ar VMN02P0 # alugardes
 r rem ar VMN03P0 # alugarem
-ar á ar VMX0000 # alugá
+ar á ar VMN0000X # alugá
 r ndo ar VMG0000 # alugando
 r do ar VMP00SM # alugado
 r da ar VMP00SF # alugada

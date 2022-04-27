@@ -5,7 +5,7 @@ r r ar VMN03S0 # premiar
 r rmos ar VMN01P0 # premiarmos
 r rdes ar VMN02P0 # premiardes
 r rem ar VMN03P0 # premiarem
-ar á ar VMX0000 # premiá
+ar á ar VMN0000X # premiá
 r ndo ar VMG0000 # premiando
 r do ar VMP00SM # premiado
 r da ar VMP00SF # premiada

@@ -5,7 +5,7 @@ r r ar VMN03S0 # entregar
 r rmos ar VMN01P0 # entregarmos
 r rdes ar VMN02P0 # entregardes
 r rem ar VMN03P0 # entregarem
-ar á ar VMX0000 # entregá
+ar á ar VMN0000X # entregá
 r ndo ar VMG0000 # entregando
 r do ar VMP00SM # entregado
 ar ue ar VMP00SM # entregue

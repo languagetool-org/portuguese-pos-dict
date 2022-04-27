@@ -5,7 +5,7 @@ r r ir VMN03S0 # confundir
 r rmos ir VMN01P0 # confundirmos
 r rdes ir VMN02P0 # confundirdes
 r rem ir VMN03P0 # confundirem
-r 0 ir VMX0000 # confundi
+r 0 ir VMN0000X # confundi
 r ndo ir VMG0000 # confundindo
 r do ir VMP00SM # confundido
 ndir so ir VMP00SM # confuso

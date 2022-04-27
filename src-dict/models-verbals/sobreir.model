@@ -5,7 +5,7 @@ r r ir VMN03S0 # sobreir
 r rmos ir VMN01P0 # sobreirmos
 r rdes ir VMN02P0 # sobreirdes
 r rem ir VMN03P0 # sobreirem
-r 0 ir VMX0000 # sobrei
+r 0 ir VMN0000X # sobrei
 r ndo ir VMG0000 # sobreindo
 r do ir VMP00SM # sobreido
 r da ir VMP00SF # sobreida

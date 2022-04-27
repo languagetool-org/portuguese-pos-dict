@@ -5,7 +5,7 @@ r r ar VMN03S0 # afiuzar
 r rmos ar VMN01P0 # afiuzarmos
 r rdes ar VMN02P0 # afiuzardes
 r rem ar VMN03P0 # afiuzarem
-ar á ar VMX0000 # afiuzá
+ar á ar VMN0000X # afiuzá
 r ndo ar VMG0000 # afiuzando
 r do ar VMP00SM # afiuzado
 r da ar VMP00SF # afiuzada

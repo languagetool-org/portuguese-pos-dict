@@ -5,7 +5,7 @@ r r ar VMN03S0 # arear
 r rmos ar VMN01P0 # arearmos
 r rdes ar VMN02P0 # areardes
 r rem ar VMN03P0 # arearem
-ar á ar VMX0000 # areá
+ar á ar VMN0000X # areá
 r ndo ar VMG0000 # areando
 r do ar VMP00SM # areado
 r da ar VMP00SF # areada

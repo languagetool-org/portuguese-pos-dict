@@ -5,7 +5,7 @@ r r ar VMN03S0 # gauchar
 r rmos ar VMN01P0 # gaucharmos
 r rdes ar VMN02P0 # gauchardes
 r rem ar VMN03P0 # gaucharem
-ar á ar VMX0000 # gauchá
+ar á ar VMN0000X # gauchá
 r ndo ar VMG0000 # gauchando
 r do ar VMP00SM # gauchado
 r da ar VMP00SF # gauchada

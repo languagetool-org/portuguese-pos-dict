@@ -5,7 +5,7 @@ r r ir VMN03S0 # demitir
 r rmos ir VMN01P0 # demitirmos
 r rdes ir VMN02P0 # demitirdes
 r rem ir VMN03P0 # demitirem
-r 0 ir VMX0000 # demiti
+r 0 ir VMN0000X # demiti
 r ndo ir VMG0000 # demitindo
 r do ir VMP00SM # demitido
 r da ir VMP00SF # demitida

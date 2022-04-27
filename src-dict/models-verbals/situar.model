@@ -5,7 +5,7 @@ r r ar VMN03S0 # situar
 r rmos ar VMN01P0 # situarmos
 r rdes ar VMN02P0 # situardes
 r rem ar VMN03P0 # situarem
-ar á ar VMX0000 # situá
+ar á ar VMN0000X # situá
 r ndo ar VMG0000 # situando
 uar o ar VMP00SM # sito
 r do ar VMP00SM # situado

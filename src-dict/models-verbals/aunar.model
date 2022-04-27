@@ -5,7 +5,7 @@ r r ar VMN03S0 # aunar
 r rmos ar VMN01P0 # aunarmos
 r rdes ar VMN02P0 # aunardes
 r rem ar VMN03P0 # aunarem
-ar á ar VMX0000 # auná
+ar á ar VMN0000X # auná
 r ndo ar VMG0000 # aunando
 r do ar VMP00SM # aunado
 r da ar VMP00SF # aunada

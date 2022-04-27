@@ -5,7 +5,7 @@ r r ir VMN03S0 # coibir
 r rmos ir VMN01P0 # coibirmos
 r rdes ir VMN02P0 # coibirdes
 r rem ir VMN03P0 # coibirem
-r 0 ir VMX0000 # coibi
+r 0 ir VMN0000X # coibi
 r ndo ir VMG0000 # coibindo
 r do ir VMP00SM # coibido
 r da ir VMP00SF # coibida

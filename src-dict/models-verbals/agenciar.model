@@ -5,7 +5,7 @@ r r ar VMN03S0 # agenciar
 r rmos ar VMN01P0 # agenciarmos
 r rdes ar VMN02P0 # agenciardes
 r rem ar VMN03P0 # agenciarem
-ar á ar VMX0000 # agenciá
+ar á ar VMN0000X # agenciá
 r ndo ar VMG0000 # agenciando
 r do ar VMP00SM # agenciado
 r da ar VMP00SF # agenciada
