@@ -1,6 +1,7 @@
 
 #cadelo cadela=A;src: LT;
 #espaço espaça=A;src: LT; unusual Brazil
+#ninguém=A;src: LT; wrong?
 #rui=A;src: LT; unusual
 aacheniano aacheniana=A;src: LT;
 aaleniano aaleniana=A;src: LT;
@@ -32234,7 +32235,6 @@ ninfeáceo ninfeácea=A;src: LT;
 ninfoide=A;src: LT;
 ninfoléptico ninfoléptica=A;src: LT;
 ninfomaníaco ninfomaníaca=A;src: LT;
-ninguém=A;src: LT;
 ninhego ninhega=A;src: LT;
 ninheiro ninheira=A;src: LT;
 ninivita=A;src: LT;

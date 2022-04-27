@@ -5,7 +5,7 @@ r r ar VMN03S0 # ir
 r rmos ar VMN01P0 # irmos
 r rdes ar VMN02P0 # irdes
 r rem ar VMN03P0 # irem
-r 0 ar VMN0000X # i
+#r 0 ar VMN0000X # i
 r ndo ar VMG0000 # indo
 r do ar VMP00SM # ido
 r da ar VMP00SF # ida

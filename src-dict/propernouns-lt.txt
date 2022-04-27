@@ -344,6 +344,7 @@ Agraciana Agraciana NPFS000
 Agraço Agraço NPMSG00
 Agrela Agrela NPCSG00
 Agricolândia Agricolândia NPFS000
+Agripa NPMSSP0
 Agrobacterium Agrobacterium NPCS000
 Agrobom Agrobom NPCSG00
 Agrochão Agrochão NPCSG00
