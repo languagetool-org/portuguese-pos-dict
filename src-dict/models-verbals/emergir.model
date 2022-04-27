@@ -18,7 +18,7 @@ gir sas ir VMP00PF # emersas
 gir jo ir VMIP1S0 # emerjo
 ir es ir VMIP2S0 # emerges
 ir e ir VMIP3S0 # emerge
-r mo ir VMIP1P0 # emergimo
+r mo ir VMIP1P0X # emergimo
 r mos ir VMIP1P0 # emergimos
 r s ir VMIP2P0 # emergis
 ir em ir VMIP3P0 # emergem

@@ -18,7 +18,7 @@ ar es ar VMP00PF # assentes
 ar o ar VMIP1S0 # assento
 r s ar VMIP2S0 # assentas
 r 0 ar VMIP3S0 # assenta
-r mo ar VMIP1P0 # assentamo
+r mo ar VMIP1P0X # assentamo
 r mos ar VMIP1P0 # assentamos
 r is ar VMIP2P0 # assentais
 r m ar VMIP3P0 # assentam

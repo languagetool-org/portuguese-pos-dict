@@ -14,7 +14,7 @@ zer tas er VMP00PF # ditas
 zer go er VMIP1S0 # digo
 r s er VMIP2S0 # dizes
 er 0 er VMIP3S0 # diz
-r mo er VMIP1P0 # dizemo
+r mo er VMIP1P0X # dizemo
 r mos er VMIP1P0 # dizemos
 r is er VMIP2P0 # dizeis
 r m er VMIP3P0 # dizem

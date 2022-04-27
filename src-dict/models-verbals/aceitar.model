@@ -22,7 +22,7 @@ ar es ar VMP00PF # aceites
 ar o ar VMIP1S0 # aceito
 r s ar VMIP2S0 # aceitas
 r 0 ar VMIP3S0 # aceita
-r mo ar VMIP1P0 # aceitamo
+r mo ar VMIP1P0X # aceitamo
 r mos ar VMIP1P0 # aceitamos
 r is ar VMIP2P0 # aceitais
 r m ar VMIP3P0 # aceitam

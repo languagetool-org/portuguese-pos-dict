@@ -17,7 +17,7 @@ iar eias ar VMIP2S0 # agenceias
 r s ar VMIP2S0 # agencias
 iar eia ar VMIP3S0 # agenceia
 r 0 ar VMIP3S0 # agencia
-r mo ar VMIP1P0 # agenciamo
+r mo ar VMIP1P0X # agenciamo
 r mos ar VMIP1P0 # agenciamos
 r is ar VMIP2P0 # agenciais
 iar eiam ar VMIP3P0 # agenceiam

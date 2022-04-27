@@ -14,7 +14,7 @@ r das ir VMP00PF # sumidas
 ir o ir VMIP1S0 # sumo
 umir omes ir VMIP2S0 # somes
 umir ome ir VMIP3S0 # some
-r mo ir VMIP1P0 # sumimo
+r mo ir VMIP1P0X # sumimo
 r mos ir VMIP1P0 # sumimos
 r s ir VMIP2P0 # sumis
 umir omem ir VMIP3P0 # somem

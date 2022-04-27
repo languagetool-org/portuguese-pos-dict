@@ -14,7 +14,7 @@ r das ar VMP00PF # atiçadas
 ar o ar VMIP1S0 # atiço
 r s ar VMIP2S0 # atiças
 r 0 ar VMIP3S0 # atiça
-r mo ar VMIP1P0 # atiçamo
+r mo ar VMIP1P0X # atiçamo
 r mos ar VMIP1P0 # atiçamos
 r is ar VMIP2P0 # atiçais
 r m ar VMIP3P0 # atiçam

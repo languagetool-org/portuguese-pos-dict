@@ -14,7 +14,7 @@ r das ir VMP00PF # prevenidas
 enir ino ir VMIP1S0 # previno
 enir ines ir VMIP2S0 # prevines
 enir ine ir VMIP3S0 # previne
-r mo ir VMIP1P0 # prevenimo
+r mo ir VMIP1P0X # prevenimo
 r mos ir VMIP1P0 # prevenimos
 r s ir VMIP2P0 # prevenis
 enir inem ir VMIP3P0 # previnem

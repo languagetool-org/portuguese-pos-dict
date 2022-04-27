@@ -18,7 +18,7 @@ gir tas ir VMP00PF # aflitas
 gir jo ir VMIP1S0 # aflijo
 ir es ir VMIP2S0 # afliges
 ir e ir VMIP3S0 # aflige
-r mo ir VMIP1P0 # afligimo
+r mo ir VMIP1P0X # afligimo
 r mos ir VMIP1P0 # afligimos
 r s ir VMIP2P0 # afligis
 ir em ir VMIP3P0 # afligem

@@ -14,7 +14,7 @@ r das ir VMP00PF # revelidas
 elir ilo ir VMIP1S0 # revilo
 ir es ir VMIP2S0 # reveles
 ir e ir VMIP3S0 # revele
-r mo ir VMIP1P0 # revelimo
+r mo ir VMIP1P0X # revelimo
 r mos ir VMIP1P0 # revelimos
 r s ir VMIP2P0 # revelis
 ir em ir VMIP3P0 # revelem

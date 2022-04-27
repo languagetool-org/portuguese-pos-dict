@@ -14,7 +14,7 @@ er2 idas r2 VMP00PF # sabidas
 ber2 ibo r2 VMIP1S0 # saibo
 r2 s r2 VMIP2S0 # sabes
 r2 0 r2 VMIP3S0 # sabe
-r2 mo r2 VMIP1P0 # sabemo
+r2 mo r2 VMIP1P0X # sabemo
 r2 mos r2 VMIP1P0 # sabemos
 r2 is r2 VMIP2P0 # sabeis
 r2 m r2 VMIP3P0 # sabem

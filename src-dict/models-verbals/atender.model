@@ -18,7 +18,7 @@ der tas er VMP00PF # atentas
 er o er VMIP1S0 # atendo
 r s er VMIP2S0 # atendes
 r 0 er VMIP3S0 # atende
-r mo er VMIP1P0 # atendemo
+r mo er VMIP1P0X # atendemo
 r mos er VMIP1P0 # atendemos
 r is er VMIP2P0 # atendeis
 r m er VMIP3P0 # atendem

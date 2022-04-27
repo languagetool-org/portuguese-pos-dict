@@ -11,7 +11,7 @@ r do ir VMP00SM # estresido
 r da ir VMP00SF # estresida
 r dos ir VMP00PM # estresidos
 r das ir VMP00PF # estresidas
-r mo ir VMIP1P0 # estresimo
+r mo ir VMIP1P0X # estresimo
 r mos ir VMIP1P0 # estresimos
 r s ir VMIP2P0 # estresis
 r a ir VMII1S0 # estresia

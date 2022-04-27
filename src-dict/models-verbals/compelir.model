@@ -18,7 +18,7 @@ elir ulsas ir VMP00PF # compulsas
 elir ilo ir VMIP1S0 # compilo
 ir es ir VMIP2S0 # compeles
 ir e ir VMIP3S0 # compele
-r mo ir VMIP1P0 # compelimo
+r mo ir VMIP1P0X # compelimo
 r mos ir VMIP1P0 # compelimos
 r s ir VMIP2P0 # compelis
 ir em ir VMIP3P0 # compelem

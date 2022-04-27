@@ -14,7 +14,7 @@ r das ir VMP00PF # demitidas
 ir o ir VMIP1S0 # demito
 ir es ir VMIP2S0 # demites
 ir e ir VMIP3S0 # demite
-r mo ir VMIP1P0 # demitimo
+r mo ir VMIP1P0X # demitimo
 r mos ir VMIP1P0 # demitimos
 r s ir VMIP2P0 # demitis
 ir em ir VMIP3P0 # demitem

@@ -11,7 +11,7 @@ r do ir VMP00SM # ressequido
 r da ir VMP00SF # ressequida
 r dos ir VMP00PM # ressequidos
 r das ir VMP00PF # ressequidas
-r mo ir VMIP1P0 # ressequimo
+r mo ir VMIP1P0X # ressequimo
 r mos ir VMIP1P0 # ressequimos
 r s ir VMIP2P0 # ressequis
 r a ir VMII1S0 # ressequia

@@ -14,7 +14,7 @@ r das ar VMP00PF # colocadas
 ar o ar VMIP1S0 # coloco
 r s ar VMIP2S0 # colocas
 r 0 ar VMIP3S0 # coloca
-r mo ar VMIP1P0 # colocamo
+r mo ar VMIP1P0X # colocamo
 r mos ar VMIP1P0 # colocamos
 r is ar VMIP2P0 # colocais
 r m ar VMIP3P0 # colocam

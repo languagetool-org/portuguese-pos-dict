@@ -18,7 +18,7 @@ nder sas er VMP00PF # defesas
 er o er VMIP1S0 # defendo
 r s er VMIP2S0 # defendes
 r 0 er VMIP3S0 # defende
-r mo er VMIP1P0 # defendemo
+r mo er VMIP1P0X # defendemo
 r mos er VMIP1P0 # defendemos
 r is er VMIP2P0 # defendeis
 r m er VMIP3P0 # defendem

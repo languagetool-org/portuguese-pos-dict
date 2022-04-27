@@ -14,7 +14,7 @@ er idas er VMP00PF # perdidas
 der co er VMIP1S0 # perco
 r s er VMIP2S0 # perdes
 r 0 er VMIP3S0 # perde
-r mo er VMIP1P0 # perdemo
+r mo er VMIP1P0X # perdemo
 r mos er VMIP1P0 # perdemos
 r is er VMIP2P0 # perdeis
 r m er VMIP3P0 # perdem

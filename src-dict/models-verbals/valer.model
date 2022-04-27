@@ -14,7 +14,7 @@ er idas er VMP00PF # validas
 er ho er VMIP1S0 # valho
 r s er VMIP2S0 # vales
 r 0 er VMIP3S0 # vale
-r mo er VMIP1P0 # valemo
+r mo er VMIP1P0X # valemo
 r mos er VMIP1P0 # valemos
 r is er VMIP2P0 # valeis
 r m er VMIP3P0 # valem

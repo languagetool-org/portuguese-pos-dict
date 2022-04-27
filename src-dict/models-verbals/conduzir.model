@@ -14,7 +14,7 @@ r das ir VMP00PF # conduzidas
 ir o ir VMIP1S0 # conduzo
 ir es ir VMIP2S0 # conduzes
 ir 0 ir VMIP3S0 # conduz
-r mo ir VMIP1P0 # conduzimo
+r mo ir VMIP1P0X # conduzimo
 r mos ir VMIP1P0 # conduzimos
 r s ir VMIP2P0 # conduzis
 ir em ir VMIP3P0 # conduzem

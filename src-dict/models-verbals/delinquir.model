@@ -13,7 +13,7 @@ r dos ir VMP00PM # delinquidos
 r das ir VMP00PF # delinquidas
 r s ir VMIP2S0 # delinquis
 r 0 ir VMIP3S0 # delinqui
-r mo ir VMIP1P0 # delinquimo
+r mo ir VMIP1P0X # delinquimo
 r mos ir VMIP1P0 # delinquimos
 ir ís ir VMIP2P0 # delinquís
 ir em ir VMIP3P0 # delinquem

@@ -18,7 +18,7 @@ ar ues ar VMP00PF # entregues
 ar o ar VMIP1S0 # entrego
 r s ar VMIP2S0 # entregas
 r 0 ar VMIP3S0 # entrega
-r mo ar VMIP1P0 # entregamo
+r mo ar VMIP1P0X # entregamo
 r mos ar VMIP1P0 # entregamos
 r is ar VMIP2P0 # entregais
 r m ar VMIP3P0 # entregam

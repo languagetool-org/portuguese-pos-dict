@@ -14,7 +14,7 @@ r das ir VMP00PF # lusquidas
 ir o ir VMIP1S0 # lusquo
 r s ir VMIP2S0 # lusquis
 r 0 ir VMIP3S0 # lusqui
-r mo ir VMIP1P0 # lusquimo
+r mo ir VMIP1P0X # lusquimo
 r mos ir VMIP1P0 # lusquimos
 r s ir VMIP2P0 # lusquis
 ir em ir VMIP3P0 # lusquem

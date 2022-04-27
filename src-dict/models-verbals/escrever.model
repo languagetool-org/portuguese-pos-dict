@@ -14,7 +14,7 @@ ever itas er VMP00PF # escritas
 er o er VMIP1S0 # escrevo
 r s er VMIP2S0 # escreves
 r 0 er VMIP3S0 # escreve
-r mo er VMIP1P0 # escrevemo
+r mo er VMIP1P0X # escrevemo
 r mos er VMIP1P0 # escrevemos
 r is er VMIP2P0 # escreveis
 r m er VMIP3P0 # escrevem

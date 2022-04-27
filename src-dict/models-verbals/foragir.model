@@ -11,7 +11,7 @@ r do ir VMP00SM # foragido
 r da ir VMP00SF # foragida
 r dos ir VMP00PM # foragidos
 r das ir VMP00PF # foragidas
-r mo ir VMIP1P0 # foragimo
+r mo ir VMIP1P0X # foragimo
 r mos ir VMIP1P0 # foragimos
 r s ir VMIP2P0 # foragis
 r a ir VMII1S0 # foragia

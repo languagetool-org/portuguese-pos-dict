@@ -11,7 +11,7 @@ r do ar VMP00SM # pelidado
 r da ar VMP00SF # pelidada
 r dos ar VMP00PM # pelidados
 r das ar VMP00PF # pelidadas
-r mo ar VMIP1P0 # pelidamo
+r mo ar VMIP1P0X # pelidamo
 r mos ar VMIP1P0 # pelidamos
 r is ar VMIP2P0 # pelidais
 r va ar VMII1S0 # pelidava

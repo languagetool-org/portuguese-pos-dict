@@ -14,7 +14,7 @@ r das ir VMP00PF # sobreidas
 ir vou ir VMIP1S0 # sobrevou
 ir vais ir VMIP2S0 # sobrevais
 ir vai ir VMIP3S0 # sobrevai
-ir vamo ir VMIP1P0 # sobrevamo
+ir vamo ir VMIP1P0X # sobrevamo
 ir vamos ir VMIP1P0 # sobrevamos
 r des ir VMIP2P0 # sobreides
 ir vão ir VMIP3P0 # sobrevão

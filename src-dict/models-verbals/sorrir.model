@@ -14,7 +14,7 @@ r das ir VMP00PF # sorridas
 r o ir VMIP1S0 # sorrio
 r s ir VMIP2S0 # sorris
 r 0 ir VMIP3S0 # sorri
-r mo ir VMIP1P0 # sorrimo
+r mo ir VMIP1P0X # sorrimo
 r mos ir VMIP1P0 # sorrimos
 r des ir VMIP2P0 # sorrides
 r em ir VMIP3P0 # sorriem

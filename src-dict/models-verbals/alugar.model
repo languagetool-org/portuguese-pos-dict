@@ -14,7 +14,7 @@ r das ar VMP00PF # alugadas
 ar o ar VMIP1S0 # alugo
 r s ar VMIP2S0 # alugas
 r 0 ar VMIP3S0 # aluga
-r mo ar VMIP1P0 # alugamo
+r mo ar VMIP1P0X # alugamo
 r mos ar VMIP1P0 # alugamos
 r is ar VMIP2P0 # alugais
 r m ar VMIP3P0 # alugam

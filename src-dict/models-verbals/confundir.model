@@ -18,7 +18,7 @@ ndir sas ir VMP00PF # confusas
 ir o ir VMIP1S0 # confundo
 ir es ir VMIP2S0 # confundes
 ir e ir VMIP3S0 # confunde
-r mo ir VMIP1P0 # confundimo
+r mo ir VMIP1P0X # confundimo
 r mos ir VMIP1P0 # confundimos
 r s ir VMIP2P0 # confundis
 ir em ir VMIP3P0 # confundem

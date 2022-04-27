@@ -14,7 +14,7 @@ r das ir VMP00PF # servidas
 ervir irvo ir VMIP1S0 # sirvo
 ir es ir VMIP2S0 # serves
 ir e ir VMIP3S0 # serve
-r mo ir VMIP1P0 # servimo
+r mo ir VMIP1P0X # servimo
 r mos ir VMIP1P0 # servimos
 r s ir VMIP2P0 # servis
 ir em ir VMIP3P0 # servem

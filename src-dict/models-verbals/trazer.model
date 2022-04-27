@@ -14,7 +14,7 @@ er idas er VMP00PF # trazidas
 zer go er VMIP1S0 # trago
 r s er VMIP2S0 # trazes
 er 0 er VMIP3S0 # traz
-r mo er VMIP1P0 # trazemo
+r mo er VMIP1P0X # trazemo
 r mos er VMIP1P0 # trazemos
 r is er VMIP2P0 # trazeis
 r m er VMIP3P0 # trazem

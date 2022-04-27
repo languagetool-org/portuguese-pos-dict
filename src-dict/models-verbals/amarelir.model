@@ -14,7 +14,7 @@ r das ir VMP00PF # amarelidas
 ir o ir VMIP1S0 # amarelo
 ir es ir VMIP2S0 # amareles
 ir e ir VMIP3S0 # amarele
-r mo ir VMIP1P0 # amarelimo
+r mo ir VMIP1P0X # amarelimo
 r mos ir VMIP1P0 # amarelimos
 r s ir VMIP2P0 # amarelis
 ir em ir VMIP3P0 # amarelem

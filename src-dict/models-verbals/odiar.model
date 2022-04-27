@@ -14,7 +14,7 @@ r das ar VMP00PF # odiadas
 iar eio ar VMIP1S0 # odeio
 iar eias ar VMIP2S0 # odeias
 iar eia ar VMIP3S0 # odeia
-r mo ar VMIP1P0 # odiamo
+r mo ar VMIP1P0X # odiamo
 r mos ar VMIP1P0 # odiamos
 r is ar VMIP2P0 # odiais
 iar eiam ar VMIP3P0 # odeiam

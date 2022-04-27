@@ -14,7 +14,7 @@ r das ar VMP00PF # areadas
 ar io ar VMIP1S0 # areio
 ar ias ar VMIP2S0 # areias
 ar ia ar VMIP3S0 # areia
-r mo ar VMIP1P0 # areamo
+r mo ar VMIP1P0X # areamo
 r mos ar VMIP1P0 # areamos
 r is ar VMIP2P0 # areais
 ar iam ar VMIP3P0 # areiam

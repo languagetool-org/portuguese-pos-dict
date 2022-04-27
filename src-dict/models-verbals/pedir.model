@@ -14,7 +14,7 @@ r das ir VMP00PF # pedidas
 dir ço ir VMIP1S0 # peço
 ir es ir VMIP2S0 # pedes
 ir e ir VMIP3S0 # pede
-r mo ir VMIP1P0 # pedimo
+r mo ir VMIP1P0X # pedimo
 r mos ir VMIP1P0 # pedimos
 r s ir VMIP2P0 # pedis
 ir em ir VMIP3P0 # pedem

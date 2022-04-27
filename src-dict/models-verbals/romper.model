@@ -18,7 +18,7 @@ mper tas er VMP00PF # rotas
 er o er VMIP1S0 # rompo
 r s er VMIP2S0 # rompes
 r 0 er VMIP3S0 # rompe
-r mo er VMIP1P0 # rompemo
+r mo er VMIP1P0X # rompemo
 r mos er VMIP1P0 # rompemos
 r is er VMIP2P0 # rompeis
 r m er VMIP3P0 # rompem

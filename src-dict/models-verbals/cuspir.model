@@ -14,7 +14,7 @@ r das ir VMP00PF # cuspidas
 ir o ir VMIP1S0 # cuspo
 uspir ospes ir VMIP2S0 # cospes
 uspir ospe ir VMIP3S0 # cospe
-r mo ir VMIP1P0 # cuspimo
+r mo ir VMIP1P0X # cuspimo
 r mos ir VMIP1P0 # cuspimos
 r s ir VMIP2P0 # cuspis
 uspir ospem ir VMIP3P0 # cospem

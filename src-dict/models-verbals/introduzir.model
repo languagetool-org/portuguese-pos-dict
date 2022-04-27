@@ -14,7 +14,7 @@ r das ir VMP00PF # introduzidas
 ir o ir VMIP1S0 # introduzo
 ir es ir VMIP2S0 # introduzes
 ir 0 ir VMIP3S0 # introduz
-r mo ir VMIP1P0 # introduzimo
+r mo ir VMIP1P0X # introduzimo
 r mos ir VMIP1P0 # introduzimos
 r s ir VMIP2P0 # introduzis
 ir em ir VMIP3P0 # introduzem

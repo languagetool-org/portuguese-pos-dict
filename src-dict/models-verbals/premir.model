@@ -13,7 +13,7 @@ r dos ir VMP00PM # premidos
 r das ir VMP00PF # premidas
 ir es ir VMIP2S0 # premes
 ir e ir VMIP3S0 # preme
-r mo ir VMIP1P0 # premimo
+r mo ir VMIP1P0X # premimo
 r mos ir VMIP1P0 # premimos
 r s ir VMIP2P0 # premis
 ir em ir VMIP3P0 # premem

@@ -14,7 +14,7 @@ r ndas ir VMP00PF # vindas
 ir enho ir VMIP1S0 # venho
 ir ens ir VMIP2S0 # vens
 ir em ir VMIP3S0 # vem
-r mo ir VMIP1P0 # vimo
+r mo ir VMIP1P0X # vimo
 r mos ir VMIP1P0 # vimos
 r ndes ir VMIP2P0 # vindes
 ir êm ir VMIP3P0 # vêm

@@ -14,7 +14,7 @@ ir ídas ir VMP00PF # abluídas
 ir o ir VMIP1S0 # abluo
 r s ir VMIP2S0 # abluis
 r 0 ir VMIP3S0 # ablui
-ir ímo ir VMIP1P0 # abluímo
+ir ímo ir VMIP1P0X # abluímo
 ir ímos ir VMIP1P0 # abluímos
 ir ís ir VMIP2P0 # abluís
 ir em ir VMIP3P0 # abluem

@@ -13,7 +13,7 @@ r dos ir VMP00PM # exauridos
 r das ir VMP00PF # exauridas
 ir es ir VMIP2S0 # exaures
 ir e ir VMIP3S0 # exaure
-r mo ir VMIP1P0 # exaurimo
+r mo ir VMIP1P0X # exaurimo
 r mos ir VMIP1P0 # exaurimos
 r s ir VMIP2P0 # exauris
 ir em ir VMIP3P0 # exaurem

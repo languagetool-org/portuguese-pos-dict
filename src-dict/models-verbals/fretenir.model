@@ -11,7 +11,7 @@ r do ir VMP00SM # fretenido
 r da ir VMP00SF # fretenida
 r dos ir VMP00PM # fretenidos
 r das ir VMP00PF # fretenidas
-r mo ir VMIP1P0 # fretenimo
+r mo ir VMIP1P0X # fretenimo
 r mos ir VMIP1P0 # fretenimos
 r s ir VMIP2P0 # fretenis
 r a ir VMII1S0 # fretenia

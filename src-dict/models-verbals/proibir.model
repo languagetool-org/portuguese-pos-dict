@@ -14,7 +14,7 @@ r das ir VMP00PF # proibidas
 ibir íbo ir VMIP1S0 # proíbo
 ibir íbes ir VMIP2S0 # proíbes
 ibir íbe ir VMIP3S0 # proíbe
-r mo ir VMIP1P0 # proibimo
+r mo ir VMIP1P0X # proibimo
 r mos ir VMIP1P0 # proibimos
 r s ir VMIP2P0 # proibis
 ibir íbem ir VMIP3P0 # proíbem

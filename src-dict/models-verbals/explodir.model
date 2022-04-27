@@ -15,7 +15,7 @@ ir o ir VMIP1S0 # explodo
 odir udo ir VMIP1S0 # expludo
 ir es ir VMIP2S0 # explodes
 ir e ir VMIP3S0 # explode
-r mo ir VMIP1P0 # explodimo
+r mo ir VMIP1P0X # explodimo
 r mos ir VMIP1P0 # explodimos
 r s ir VMIP2P0 # explodis
 ir em ir VMIP3P0 # explodem

@@ -16,7 +16,7 @@ upir opes ir VMIP2S0 # atopes
 ir es ir VMIP2S0 # atupes
 upir ope ir VMIP3S0 # atope
 ir e ir VMIP3S0 # atupe
-r mo ir VMIP1P0 # atupimo
+r mo ir VMIP1P0X # atupimo
 r mos ir VMIP1P0 # atupimos
 r s ir VMIP2P0 # atupis
 upir opem ir VMIP3P0 # atopem

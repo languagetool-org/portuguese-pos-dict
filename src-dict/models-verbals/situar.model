@@ -18,7 +18,7 @@ r das ar VMP00PF # situadas
 ar o ar VMIP1S0 # situo
 r s ar VMIP2S0 # situas
 r 0 ar VMIP3S0 # situa
-r mo ar VMIP1P0 # situamo
+r mo ar VMIP1P0X # situamo
 r mos ar VMIP1P0 # situamos
 r is ar VMIP2P0 # situais
 r m ar VMIP3P0 # situam

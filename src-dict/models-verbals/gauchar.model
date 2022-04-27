@@ -14,7 +14,7 @@ r das ar VMP00PF # gauchadas
 uchar úcho ar VMIP1S0 # gaúcho
 uchar úchas ar VMIP2S0 # gaúchas
 uchar úcha ar VMIP3S0 # gaúcha
-r mo ar VMIP1P0 # gauchamo
+r mo ar VMIP1P0X # gauchamo
 r mos ar VMIP1P0 # gauchamos
 r is ar VMIP2P0 # gauchais
 uchar úcham ar VMIP3P0 # gaúcham

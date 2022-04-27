@@ -14,7 +14,7 @@ r das ar VMP00PF # faiscadas
 iscar ísco ar VMIP1S0 # faísco
 iscar íscas ar VMIP2S0 # faíscas
 iscar ísca ar VMIP3S0 # faísca
-r mo ar VMIP1P0 # faiscamo
+r mo ar VMIP1P0X # faiscamo
 r mos ar VMIP1P0 # faiscamos
 r is ar VMIP2P0 # faiscais
 iscar íscam ar VMIP3P0 # faíscam

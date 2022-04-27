@@ -14,7 +14,7 @@ ir ídas ir VMP00PF # caídas
 r o ir VMIP1S0 # caio
 r s ir VMIP2S0 # cais
 r 0 ir VMIP3S0 # cai
-ir ímo ir VMIP1P0 # caímo
+ir ímo ir VMIP1P0X # caímo
 ir ímos ir VMIP1P0 # caímos
 ir ís ir VMIP2P0 # caís
 ir em ir VMIP3P0 # caem

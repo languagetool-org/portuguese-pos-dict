@@ -14,7 +14,7 @@ r das ir VMP00PF # seguidas
 eguir igo ir VMIP1S0 # sigo
 ir es ir VMIP2S0 # segues
 ir e ir VMIP3S0 # segue
-r mo ir VMIP1P0 # seguimo
+r mo ir VMIP1P0X # seguimo
 r mos ir VMIP1P0 # seguimos
 r s ir VMIP2P0 # seguis
 ir em ir VMIP3P0 # seguem

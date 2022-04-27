@@ -18,7 +18,7 @@ r s ar VMP00PF # fartas
 ar o ar VMIP1S0 # farto
 r s ar VMIP2S0 # fartas
 r 0 ar VMIP3S0 # farta
-r mo ar VMIP1P0 # fartamo
+r mo ar VMIP1P0X # fartamo
 r mos ar VMIP1P0 # fartamos
 r is ar VMIP2P0 # fartais
 r m ar VMIP3P0 # fartam

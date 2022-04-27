@@ -18,7 +18,7 @@ r s ar VMP00PF # secas
 ar o ar VMIP1S0 # seco
 r s ar VMIP2S0 # secas
 r 0 ar VMIP3S0 # seca
-r mo ar VMIP1P0 # secamo
+r mo ar VMIP1P0X # secamo
 r mos ar VMIP1P0 # secamos
 r is ar VMIP2P0 # secais
 r m ar VMIP3P0 # secam

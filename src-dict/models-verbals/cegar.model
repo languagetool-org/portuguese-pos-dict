@@ -18,7 +18,7 @@ r s ar VMP00PF # cegas
 ar o ar VMIP1S0 # cego
 r s ar VMIP2S0 # cegas
 r 0 ar VMIP3S0 # cega
-r mo ar VMIP1P0 # cegamo
+r mo ar VMIP1P0X # cegamo
 r mos ar VMIP1P0 # cegamos
 r is ar VMIP2P0 # cegais
 r m ar VMIP3P0 # cegam

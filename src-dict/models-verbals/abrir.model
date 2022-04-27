@@ -14,7 +14,7 @@ rir ertas ir VMP00PF # abertas
 ir o ir VMIP1S0 # abro
 ir es ir VMIP2S0 # abres
 ir e ir VMIP3S0 # abre
-r mo ir VMIP1P0 # abrimo
+r mo ir VMIP1P0X # abrimo
 r mos ir VMIP1P0 # abrimos
 r s ir VMIP2P0 # abris
 ir em ir VMIP3P0 # abrem
