@@ -14,6 +14,7 @@ azer eitas er VMP00PF # feitas
 zer ço er VMIP1S0 # faço
 r s er VMIP2S0 # fazes
 er 0 er VMIP3S0 # faz
+azer á er VMIP3S0X # fá
 r mo er VMIP1P0X # fazemo
 r mos er VMIP1P0 # fazemos
 r is er VMIP2P0 # fazeis
@@ -25,8 +26,10 @@ er íamos er VMII1P0 # fazíamos
 er íeis er VMII2P0 # fazíeis
 er iam er VMII3P0 # faziam
 azer iz er VMIS1S0 # fiz
+azer i er VMIS1S0X # fi
 azer izeste er VMIS2S0 # fizeste
 azer ez er VMIS3S0 # fez
+azer ê er VMIS3S0X # fê
 azer izemos er VMIS1P0 # fizemos
 azer izestes er VMIS2P0 # fizestes
 azer izeram er VMIS3P0 # fizeram
