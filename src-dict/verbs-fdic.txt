@@ -1,3 +1,4 @@
+#aquelar=V;model:amar;src: LT; regionalism, some matches with aquele
 #atuir=V;model:abluir;src: LT; regionalism, some forms match "atuar"
 #erar=V;model:amar;src: LT; regionalism
 #exir=V;model:demitir;src: LT; old
@@ -1786,7 +1787,6 @@ aquartilhar=V;model:amar;src: LT;
 aquebrantar=V;model:amar;src: LT;
 aquecer=V;model:gerecer;src: LT;
 aquedar=V;model:amar;src: LT;
-aquelar=V;model:amar;src: LT;
 aquentar=V;model:amar;src: LT;
 aquerenciar=V;model:amar;src: LT;
 aquiescer=V;model:gerecer;src: LT;
