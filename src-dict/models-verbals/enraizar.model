@@ -28,7 +28,7 @@ ar ei ar VMIS1S0 # enraizei
 r ste ar VMIS2S0 # enraizaste
 ar ou ar VMIS3S0 # enraizou
 r mos ar VMIS1P0 # enraizamos
-ar ámos ar VMIS1P0 # enraizámos
+ar ámos ar VMIS1P0P # enraizámos
 r stes ar VMIS2P0 # enraizastes
 r ram ar VMIS3P0 # enraizaram
 r rei ar VMIF1S0 # enraizarei

@@ -32,7 +32,7 @@ ar ei ar VMIS1S0 # matei
 r ste ar VMIS2S0 # mataste
 ar ou ar VMIS3S0 # matou
 r mos ar VMIS1P0 # matamos
-ar ámos ar VMIS1P0 # matámos
+ar ámos ar VMIS1P0P # matámos
 r stes ar VMIS2P0 # matastes
 r ram ar VMIS3P0 # mataram
 r rei ar VMIF1S0 # matarei

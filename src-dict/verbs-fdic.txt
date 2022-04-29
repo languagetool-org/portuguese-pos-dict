@@ -2,6 +2,7 @@
 #atuir=V;model:abluir;src: LT; regionalism, some forms match "atuar"
 #erar=V;model:amar;src: LT; regionalism
 #exir=V;model:demitir;src: LT; old
+#sociar=V;model:amar;src: LT; rare
 ab-rogar=V;model:alugar;src: LT;
 ababalhar=V;model:amar;src: LT;
 ababelar=V;model:amar;src: LT;
@@ -13600,7 +13601,6 @@ sochantrear=V;model:arear;src: LT;
 sochear=V;model:arear;src: LT;
 sociabilizar=V;model:amar;src: LT;
 socializar=V;model:amar;src: LT;
-sociar=V;model:amar;src: LT;
 socornar=V;model:amar;src: LT;
 socorrer=V;model:temer;src: LT;
 socratizar=V;model:amar;src: LT;

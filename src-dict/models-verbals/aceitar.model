@@ -36,7 +36,7 @@ ar ei ar VMIS1S0 # aceitei
 r ste ar VMIS2S0 # aceitaste
 ar ou ar VMIS3S0 # aceitou
 r mos ar VMIS1P0 # aceitamos
-ar ámos ar VMIS1P0 # aceitámos
+ar ámos ar VMIS1P0P # aceitámos
 r stes ar VMIS2P0 # aceitastes
 r ram ar VMIS3P0 # aceitaram
 r rei ar VMIF1S0 # aceitarei

@@ -28,7 +28,7 @@ ar ei ar VMIS1S0 # aziumei
 r ste ar VMIS2S0 # aziumaste
 ar ou ar VMIS3S0 # aziumou
 r mos ar VMIS1P0 # aziumamos
-ar ámos ar VMIS1P0 # aziumámos
+ar ámos ar VMIS1P0P # aziumámos
 r stes ar VMIS2P0 # aziumastes
 r ram ar VMIS3P0 # aziumaram
 r rei ar VMIF1S0 # aziumarei

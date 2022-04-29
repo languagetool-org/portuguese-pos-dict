@@ -28,7 +28,7 @@ ar ei ar VMIS1S0 # enviuvei
 r ste ar VMIS2S0 # enviuvaste
 ar ou ar VMIS3S0 # enviuvou
 r mos ar VMIS1P0 # enviuvamos
-ar ámos ar VMIS1P0 # enviuvámos
+ar ámos ar VMIS1P0P # enviuvámos
 r stes ar VMIS2P0 # enviuvastes
 r ram ar VMIS3P0 # enviuvaram
 r rei ar VMIF1S0 # enviuvarei

@@ -28,7 +28,7 @@ ar ei ar VMIS1S0 # apaulei
 r ste ar VMIS2S0 # apaulaste
 ar ou ar VMIS3S0 # apaulou
 r mos ar VMIS1P0 # apaulamos
-ar ámos ar VMIS1P0 # apaulámos
+ar ámos ar VMIS1P0P # apaulámos
 r stes ar VMIS2P0 # apaulastes
 r ram ar VMIS3P0 # apaularam
 r rei ar VMIF1S0 # apaularei

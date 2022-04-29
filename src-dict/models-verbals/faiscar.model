@@ -28,7 +28,7 @@ car quei ar VMIS1S0 # faisquei
 r ste ar VMIS2S0 # faiscaste
 ar ou ar VMIS3S0 # faiscou
 r mos ar VMIS1P0 # faiscamos
-ar ámos ar VMIS1P0 # faiscámos
+ar ámos ar VMIS1P0P # faiscámos
 r stes ar VMIS2P0 # faiscastes
 r ram ar VMIS3P0 # faiscaram
 r rei ar VMIF1S0 # faiscarei

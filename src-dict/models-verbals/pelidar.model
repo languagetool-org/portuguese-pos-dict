@@ -24,7 +24,7 @@ ar ei ar VMIS1S0 # pelidei
 r ste ar VMIS2S0 # pelidaste
 ar ou ar VMIS3S0 # pelidou
 r mos ar VMIS1P0 # pelidamos
-ar ámos ar VMIS1P0 # pelidámos
+ar ámos ar VMIS1P0P # pelidámos
 r stes ar VMIS2P0 # pelidastes
 r ram ar VMIS3P0 # pelidaram
 r rei ar VMIF1S0 # pelidarei

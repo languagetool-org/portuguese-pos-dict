@@ -28,7 +28,7 @@ ar ei ar VMIS1S0 # balaustrei
 r ste ar VMIS2S0 # balaustraste
 ar ou ar VMIS3S0 # balaustrou
 r mos ar VMIS1P0 # balaustramos
-ar ámos ar VMIS1P0 # balaustrámos
+ar ámos ar VMIS1P0P # balaustrámos
 r stes ar VMIS2P0 # balaustrastes
 r ram ar VMIS3P0 # balaustraram
 r rei ar VMIF1S0 # balaustrarei

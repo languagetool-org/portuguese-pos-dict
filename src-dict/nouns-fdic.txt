@@ -39335,6 +39335,7 @@ ex-vice-presidente=M;src: LT;
 ex-vice-rei=M;src: LT;
 ex-vice-reitor=M;src: LT;
 ex-voto=M;src: LT;
+ex=MFI;src: infopédia, colloquial;
 exabundância=F;src: LT;
 exabyte=M;src: added;
 exacerbador=M;src: LT;

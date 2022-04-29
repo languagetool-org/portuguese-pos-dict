@@ -28,7 +28,7 @@ r vam ar VMII3P0 # atiçavam
 r ste ar VMIS2S0 # atiçaste
 ar ou ar VMIS3S0 # atiçou
 r mos ar VMIS1P0 # atiçamos
-ar ámos ar VMIS1P0 # atiçámos
+ar ámos ar VMIS1P0P # atiçámos
 r stes ar VMIS2P0 # atiçastes
 r ram ar VMIS3P0 # atiçaram
 r rei ar VMIF1S0 # atiçarei

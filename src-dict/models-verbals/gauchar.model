@@ -28,7 +28,7 @@ ar ei ar VMIS1S0 # gauchei
 r ste ar VMIS2S0 # gauchaste
 ar ou ar VMIS3S0 # gauchou
 r mos ar VMIS1P0 # gauchamos
-ar ámos ar VMIS1P0 # gauchámos
+ar ámos ar VMIS1P0P # gauchámos
 r stes ar VMIS2P0 # gauchastes
 r ram ar VMIS3P0 # gaucharam
 r rei ar VMIF1S0 # gaucharei

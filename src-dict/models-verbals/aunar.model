@@ -28,7 +28,7 @@ ar ei ar VMIS1S0 # aunei
 r ste ar VMIS2S0 # aunaste
 ar ou ar VMIS3S0 # aunou
 r mos ar VMIS1P0 # aunamos
-ar ámos ar VMIS1P0 # aunámos
+ar ámos ar VMIS1P0P # aunámos
 r stes ar VMIS2P0 # aunastes
 r ram ar VMIS3P0 # aunaram
 r rei ar VMIF1S0 # aunarei

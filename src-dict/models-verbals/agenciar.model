@@ -32,7 +32,7 @@ ar ei ar VMIS1S0 # agenciei
 r ste ar VMIS2S0 # agenciaste
 ar ou ar VMIS3S0 # agenciou
 r mos ar VMIS1P0 # agenciamos
-ar ámos ar VMIS1P0 # agenciámos
+ar ámos ar VMIS1P0P # agenciámos
 r stes ar VMIS2P0 # agenciastes
 r ram ar VMIS3P0 # agenciaram
 r rei ar VMIF1S0 # agenciarei

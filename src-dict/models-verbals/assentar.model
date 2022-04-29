@@ -32,7 +32,7 @@ ar ei ar VMIS1S0 # assentei
 r ste ar VMIS2S0 # assentaste
 ar ou ar VMIS3S0 # assentou
 r mos ar VMIS1P0 # assentamos
-ar ámos ar VMIS1P0 # assentámos
+ar ámos ar VMIS1P0P # assentámos
 r stes ar VMIS2P0 # assentastes
 r ram ar VMIS3P0 # assentaram
 r rei ar VMIF1S0 # assentarei

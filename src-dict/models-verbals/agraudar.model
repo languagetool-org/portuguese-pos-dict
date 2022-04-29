@@ -28,7 +28,7 @@ ar ei ar VMIS1S0 # agraudei
 r ste ar VMIS2S0 # agraudaste
 ar ou ar VMIS3S0 # agraudou
 r mos ar VMIS1P0 # agraudamos
-ar ámos ar VMIS1P0 # agraudámos
+ar ámos ar VMIS1P0P # agraudámos
 r stes ar VMIS2P0 # agraudastes
 r ram ar VMIS3P0 # agraudaram
 r rei ar VMIF1S0 # agraudarei

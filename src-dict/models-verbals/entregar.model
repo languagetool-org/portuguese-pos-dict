@@ -32,7 +32,7 @@ ar uei ar VMIS1S0 # entreguei
 r ste ar VMIS2S0 # entregaste
 ar ou ar VMIS3S0 # entregou
 r mos ar VMIS1P0 # entregamos
-ar ámos ar VMIS1P0 # entregámos
+ar ámos ar VMIS1P0P # entregámos
 r stes ar VMIS2P0 # entregastes
 r ram ar VMIS3P0 # entregaram
 r rei ar VMIF1S0 # entregarei

@@ -373,6 +373,10 @@ doutro de:outro SPS00:PI0MS000
 doutrora de:outrora SPS00:RG
 doutros de:outro SPS00:DI0MP0
 doutros de:outro SPS00:PI0MP000
+dr dr NCMS000
+dra dr NCFS000
+dras dr NCFP000
+drs dr NCMP000
 duas dois Z0FP0
 dum de:um SPS00:DI0MS0
 duma de:um SPS00:DI0FS0

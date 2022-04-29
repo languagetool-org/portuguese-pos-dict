@@ -28,7 +28,7 @@ ar ei ar VMIS1S0 # areei
 r ste ar VMIS2S0 # areaste
 ar ou ar VMIS3S0 # areou
 r mos ar VMIS1P0 # areamos
-ar ámos ar VMIS1P0 # areámos
+ar ámos ar VMIS1P0P # areámos
 r stes ar VMIS2P0 # areastes
 r ram ar VMIS3P0 # arearam
 r rei ar VMIF1S0 # arearei

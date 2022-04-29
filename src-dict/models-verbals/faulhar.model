@@ -28,7 +28,7 @@ ar ei ar VMIS1S0 # faulhei
 r ste ar VMIS2S0 # faulhaste
 ar ou ar VMIS3S0 # faulhou
 r mos ar VMIS1P0 # faulhamos
-ar ámos ar VMIS1P0 # faulhámos
+ar ámos ar VMIS1P0P # faulhámos
 r stes ar VMIS2P0 # faulhastes
 r ram ar VMIS3P0 # faulharam
 r rei ar VMIF1S0 # faulharei

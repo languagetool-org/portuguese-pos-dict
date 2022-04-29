@@ -28,7 +28,7 @@ ar ei ar VMIS1S0 # miudei
 r ste ar VMIS2S0 # miudaste
 ar ou ar VMIS3S0 # miudou
 r mos ar VMIS1P0 # miudamos
-ar ámos ar VMIS1P0 # miudámos
+ar ámos ar VMIS1P0P # miudámos
 r stes ar VMIS2P0 # miudastes
 r ram ar VMIS3P0 # miudaram
 r rei ar VMIF1S0 # miudarei

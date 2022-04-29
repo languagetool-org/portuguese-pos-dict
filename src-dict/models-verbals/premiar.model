@@ -32,7 +32,7 @@ ar ei ar VMIS1S0 # premiei
 r ste ar VMIS2S0 # premiaste
 ar ou ar VMIS3S0 # premiou
 r mos ar VMIS1P0 # premiamos
-ar ámos ar VMIS1P0 # premiámos
+ar ámos ar VMIS1P0P # premiámos
 r stes ar VMIS2P0 # premiastes
 r ram ar VMIS3P0 # premiaram
 r rei ar VMIF1S0 # premiarei
