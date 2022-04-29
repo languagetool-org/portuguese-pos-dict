@@ -71,9 +71,9 @@ r rmos ir VMSF1P0 # emergirmos
 r rdes ir VMSF2P0 # emergirdes
 r rem ir VMSF3P0 # emergirem
 ir e ir VMM02S0 # emerge
-gir jas ir VMM02S0 # emerjas
+#gir jas ir VMM02S0 # emerjas
 gir ja ir VMM03S0 # emerja
 gir jamos ir VMM01P0 # emerjamos
 r 0 ir VMM02P0 # emergi
-gir jais ir VMM02P0 # emerjais
+#gir jais ir VMM02P0 # emerjais
 gir jam ir VMM03P0 # emerjam

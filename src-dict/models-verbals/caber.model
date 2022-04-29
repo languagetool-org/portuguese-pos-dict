@@ -67,9 +67,9 @@ aber oubermos er VMSF1P0 # coubermos
 aber ouberdes er VMSF2P0 # couberdes
 aber ouberem er VMSF3P0 # couberem
 r 0 er VMM02S0 # cabe
-ber ibas er VMM02S0 # caibas
+#ber ibas er VMM02S0 # caibas
 ber iba er VMM03S0 # caiba
 ber ibamos er VMM01P0 # caibamos
 r i er VMM02P0 # cabei
-ber ibais er VMM02P0 # caibais
+#ber ibais er VMM02P0 # caibais
 ber ibam er VMM03P0 # caibam

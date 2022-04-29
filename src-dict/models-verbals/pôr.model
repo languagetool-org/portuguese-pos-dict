@@ -66,10 +66,10 @@ r s ôr VMIS3S0 # pôs
 ôr usermos ôr VMSF1P0 # pusermos
 ôr userdes ôr VMSF2P0 # puserdes
 ôr userem ôr VMSF3P0 # puserem
-ôr onhas ôr VMM02S0 # ponhas
+#ôr onhas ôr VMM02S0 # ponhas
 ôr õe ôr VMM02S0 # põe
 ôr onha ôr VMM03S0 # ponha
 ôr onhamos ôr VMM01P0 # ponhamos
 ôr onde ôr VMM02P0 # ponde
-ôr onhais ôr VMM02P0 # ponhais
+#ôr onhais ôr VMM02P0 # ponhais
 ôr onham ôr VMM03P0 # ponham

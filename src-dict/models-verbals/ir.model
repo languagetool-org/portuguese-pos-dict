@@ -67,9 +67,9 @@ ir formos ar VMSF1P0 # formos
 ir fordes ar VMSF2P0 # fordes
 ir forem ar VMSF3P0 # forem
 ir vai ar VMM02S0 # vai
-ir vás ar VMM02S0 # vás
+#ir vás ar VMM02S0 # vás
 ir vá ar VMM03S0 # vá
 ir vamos ar VMM01P0 # vamos
 r de ar VMM02P0 # ide
-ir vades ar VMM02P0 # vades
+#ir vades ar VMM02P0 # vades
 ir vão ar VMM03P0 # vão

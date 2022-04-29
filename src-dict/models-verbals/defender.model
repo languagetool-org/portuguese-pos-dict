@@ -70,10 +70,10 @@ r r er VMSF3S0 # defender
 r rmos er VMSF1P0 # defendermos
 r rdes er VMSF2P0 # defenderdes
 r rem er VMSF3P0 # defenderem
-er as er VMM02S0 # defendas
+#er as er VMM02S0 # defendas
 r 0 er VMM02S0 # defende
 er a er VMM03S0 # defenda
 er amos er VMM01P0 # defendamos
-er ais er VMM02P0 # defendais
+#er ais er VMM02P0 # defendais
 r i er VMM02P0 # defendei
 er am er VMM03P0 # defendam

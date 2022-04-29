@@ -67,10 +67,10 @@ r r ar VMSF3S0 # enraizar
 r rmos ar VMSF1P0 # enraizarmos
 r rdes ar VMSF2P0 # enraizardes
 r rem ar VMSF3P0 # enraizarem
-ar es ar VMM02S0 # enraizes
+#ar es ar VMM02S0 # enraizes
 izar íza ar VMM02S0 # enraíza
 izar íze ar VMM03S0 # enraíze
 ar emos ar VMM01P0 # enraizemos
 r i ar VMM02P0 # enraizai
-ar eis ar VMM02P0 # enraizeis
+#ar eis ar VMM02P0 # enraizeis
 izar ízem ar VMM03P0 # enraízem

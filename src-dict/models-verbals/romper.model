@@ -70,10 +70,10 @@ r r er VMSF3S0 # romper
 r rmos er VMSF1P0 # rompermos
 r rdes er VMSF2P0 # romperdes
 r rem er VMSF3P0 # romperem
-er as er VMM02S0 # rompas
+#er as er VMM02S0 # rompas
 r 0 er VMM02S0 # rompe
 er a er VMM03S0 # rompa
 er amos er VMM01P0 # rompamos
-er ais er VMM02P0 # rompais
+#er ais er VMM02P0 # rompais
 r i er VMM02P0 # rompei
 er am er VMM03P0 # rompam

@@ -67,9 +67,9 @@ r rmos ir VMSF1P0 # fugirmos
 r rdes ir VMSF2P0 # fugirdes
 r rem ir VMSF3P0 # fugirem
 ugir oge ir VMM02S0 # foge
-gir jas ir VMM02S0 # fujas
+#gir jas ir VMM02S0 # fujas
 gir ja ir VMM03S0 # fuja
 gir jamos ir VMM01P0 # fujamos
 r 0 ir VMM02P0 # fugi
-gir jais ir VMM02P0 # fujais
+#gir jais ir VMM02P0 # fujais
 gir jam ir VMM03P0 # fujam

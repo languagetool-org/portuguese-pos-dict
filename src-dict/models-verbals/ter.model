@@ -67,9 +67,9 @@ er ivermos er VMSF1P0 # tivermos
 er iverdes er VMSF2P0 # tiverdes
 er iverem er VMSF3P0 # tiverem
 r m er VMM02S0 # tem
-r nhas er VMM02S0 # tenhas
+#r nhas er VMM02S0 # tenhas
 r nha er VMM03S0 # tenha
 r nhamos er VMM01P0 # tenhamos
 r nde er VMM02P0 # tende
-r nhais er VMM02P0 # tenhais
+#r nhais er VMM02P0 # tenhais
 r nham er VMM03P0 # tenham

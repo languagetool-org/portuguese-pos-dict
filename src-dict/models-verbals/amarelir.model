@@ -67,9 +67,9 @@ r rmos ir VMSF1P0 # amarelirmos
 r rdes ir VMSF2P0 # amarelirdes
 r rem ir VMSF3P0 # amarelirem
 ir e ir VMM02S0 # amarele
-elir ilas ir VMM02S0 # amarilas
+#elir ilas ir VMM02S0 # amarilas
 ir a ir VMM03S0 # amarela
 ir amos ir VMM01P0 # amarelamos
 r 0 ir VMM02P0 # amareli
-elir ilais ir VMM02P0 # amarilais
+#elir ilais ir VMM02P0 # amarilais
 ir am ir VMM03P0 # amarelam

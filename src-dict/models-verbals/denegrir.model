@@ -66,10 +66,10 @@ r r ir VMSF3S0 # denegrir
 r rmos ir VMSF1P0 # denegrirmos
 r rdes ir VMSF2P0 # denegrirdes
 r rem ir VMSF3P0 # denegrirem
-egrir igras ir VMM02S0 # denigras
+#egrir igras ir VMM02S0 # denigras
 egrir igre ir VMM02S0 # denigre
 egrir igra ir VMM03S0 # denigra
 egrir igramos ir VMM01P0 # denigramos
 r 0 ir VMM02P0 # denegri
-egrir igrais ir VMM02P0 # denigrais
+#egrir igrais ir VMM02P0 # denigrais
 egrir igram ir VMM03P0 # denigram

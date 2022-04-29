@@ -67,11 +67,11 @@ azer ouxer er VMSF3S0 # trouxer
 azer ouxermos er VMSF1P0 # trouxermos
 azer ouxerdes er VMSF2P0 # trouxerdes
 azer ouxerem er VMSF3P0 # trouxerem
-zer gas er VMM02S0 # tragas
+#zer gas er VMM02S0 # tragas
 er 0 er VMM02S0 # traz
 r 0 er VMM02S0 # traze
 zer ga er VMM03S0 # traga
 zer gamos er VMM01P0 # tragamos
-zer gais er VMM02P0 # tragais
+#zer gais er VMM02P0 # tragais
 r i er VMM02P0 # trazei
 zer gam er VMM03P0 # tragam

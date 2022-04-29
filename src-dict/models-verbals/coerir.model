@@ -67,9 +67,9 @@ r rmos ir VMSF1P0 # coerirmos
 r rdes ir VMSF2P0 # coerirdes
 r rem ir VMSF3P0 # coerirem
 ir e ir VMM02S0 # coere
-erir íras ir VMM02S0 # coíras
+#erir íras ir VMM02S0 # coíras
 erir íra ir VMM03S0 # coíra
 erir iramos ir VMM01P0 # coiramos
 r 0 ir VMM02P0 # coeri
-erir irais ir VMM02P0 # coirais
+#erir irais ir VMM02P0 # coirais
 erir íram ir VMM03P0 # coíram

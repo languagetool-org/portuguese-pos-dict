@@ -67,9 +67,9 @@ ir formos ir VMSF1P0 # sobreformos
 ir fordes ir VMSF2P0 # sobrefordes
 ir forem ir VMSF3P0 # sobreforem
 ir vai ir VMM02S0 # sobrevai
-ir vás ir VMM02S0 # sobrevás
+#ir vás ir VMM02S0 # sobrevás
 ir vá ir VMM03S0 # sobrevá
 ir vamos ir VMM01P0 # sobrevamos
 r de ir VMM02P0 # sobreide
-ir vades ir VMM02P0 # sobrevades
+#ir vades ir VMM02P0 # sobrevades
 ir vão ir VMM03P0 # sobrevão

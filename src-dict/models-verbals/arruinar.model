@@ -68,9 +68,9 @@ r rmos ar VMSF1P0 # arruinarmos
 r rdes ar VMSF2P0 # arruinardes
 r rem ar VMSF3P0 # arruinarem
 inar ína ar VMM02S0 # arruína
-inar ínes ar VMM02S0 # arruínes
+#inar ínes ar VMM02S0 # arruínes
 inar íne ar VMM03S0 # arruíne
 ar emos ar VMM01P0 # arruinemos
 r i ar VMM02P0 # arruinai
-ar eis ar VMM02P0 # arruineis
+#ar eis ar VMM02P0 # arruineis
 inar ínem ar VMM03P0 # arruínem

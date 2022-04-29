@@ -70,10 +70,10 @@ r r ir VMSF3S0 # omitir
 r rmos ir VMSF1P0 # omitirmos
 r rdes ir VMSF2P0 # omitirdes
 r rem ir VMSF3P0 # omitirem
-ir as ir VMM02S0 # omitas
+#ir as ir VMM02S0 # omitas
 ir e ir VMM02S0 # omite
 ir a ir VMM03S0 # omita
 ir amos ir VMM01P0 # omitamos
-ir ais ir VMM02P0 # omitais
+#ir ais ir VMM02P0 # omitais
 r 0 ir VMM02P0 # omiti
 ir am ir VMM03P0 # omitam

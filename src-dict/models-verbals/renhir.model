@@ -56,6 +56,6 @@ r r ir VMSF3S0 # renhir
 r rmos ir VMSF1P0 # renhirmos
 r rdes ir VMSF2P0 # renhirdes
 r rem ir VMSF3P0 # renhirem
-ir as ir VMM02S0 # renhas
-ir ais ir VMM02P0 # renhais
+#ir as ir VMM02S0 # renhas
+#ir ais ir VMM02P0 # renhais
 r 0 ir VMM02P0 # renhi

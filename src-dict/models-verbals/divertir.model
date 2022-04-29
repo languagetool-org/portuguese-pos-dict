@@ -67,9 +67,9 @@ r rmos ir VMSF1P0 # divertirmos
 r rdes ir VMSF2P0 # divertirdes
 r rem ir VMSF3P0 # divertirem
 ir e ir VMM02S0 # diverte
-ertir irtas ir VMM02S0 # divirtas
+#ertir irtas ir VMM02S0 # divirtas
 ertir irta ir VMM03S0 # divirta
 ertir irtamos ir VMM01P0 # divirtamos
 r 0 ir VMM02P0 # diverti
-ertir irtais ir VMM02P0 # divirtais
+#ertir irtais ir VMM02P0 # divirtais
 ertir irtam ir VMM03P0 # divirtam

@@ -68,9 +68,9 @@ r rmos ar VMSF1P0 # colocarmos
 r rdes ar VMSF2P0 # colocardes
 r rem ar VMSF3P0 # colocarem
 r 0 ar VMM02S0 # coloca
-car ques ar VMM02S0 # coloques
+#car ques ar VMM02S0 # coloques
 car que ar VMM03S0 # coloque
 car quemos ar VMM01P0 # coloquemos
 r i ar VMM02P0 # colocai
-car queis ar VMM02P0 # coloqueis
+#car queis ar VMM02P0 # coloqueis
 car quem ar VMM03P0 # coloquem

@@ -72,9 +72,9 @@ r rmos ar VMSF1P0 # matarmos
 r rdes ar VMSF2P0 # matardes
 r rem ar VMSF3P0 # matarem
 r 0 ar VMM02S0 # mata
-ar es ar VMM02S0 # mates
+#ar es ar VMM02S0 # mates
 ar e ar VMM03S0 # mate
 ar emos ar VMM01P0 # matemos
 r i ar VMM02P0 # matai
-ar eis ar VMM02P0 # mateis
+#ar eis ar VMM02P0 # mateis
 ar em ar VMM03P0 # matem

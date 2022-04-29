@@ -68,9 +68,9 @@ r rmos ar VMSF1P0 # ajesuitarmos
 r rdes ar VMSF2P0 # ajesuitardes
 r rem ar VMSF3P0 # ajesuitarem
 itar íta ar VMM02S0 # ajesuíta
-itar ítes ar VMM02S0 # ajesuítes
+#itar ítes ar VMM02S0 # ajesuítes
 itar íte ar VMM03S0 # ajesuíte
 ar emos ar VMM01P0 # ajesuitemos
 r i ar VMM02P0 # ajesuitai
-ar eis ar VMM02P0 # ajesuiteis
+#ar eis ar VMM02P0 # ajesuiteis
 itar ítem ar VMM03P0 # ajesuítem

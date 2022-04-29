@@ -67,11 +67,11 @@ zer sser er VMSF3S0 # disser
 zer ssermos er VMSF1P0 # dissermos
 zer sserdes er VMSF2P0 # disserdes
 zer sserem er VMSF3P0 # disserem
-zer gas er VMM02S0 # digas
+#zer gas er VMM02S0 # digas
 er 0 er VMM02S0 # diz
 r 0 er VMM02S0 # dize
 zer ga er VMM03S0 # diga
 zer gamos er VMM01P0 # digamos
-zer gais er VMM02P0 # digais
+#zer gais er VMM02P0 # digais
 r i er VMM02P0 # dizei
 zer gam er VMM03P0 # digam

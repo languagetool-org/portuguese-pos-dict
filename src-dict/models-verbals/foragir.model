@@ -57,4 +57,4 @@ r rmos ir VMSF1P0 # foragirmos
 r rdes ir VMSF2P0 # foragirdes
 r rem ir VMSF3P0 # foragirem
 r 0 ir VMM02P0 # foragi
-gir jais ir VMM02P0 # forajais
+#gir jais ir VMM02P0 # forajais

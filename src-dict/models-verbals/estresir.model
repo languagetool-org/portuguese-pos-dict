@@ -56,6 +56,6 @@ r r ir VMSF3S0 # estresir
 r rmos ir VMSF1P0 # estresirmos
 r rdes ir VMSF2P0 # estresirdes
 r rem ir VMSF3P0 # estresirem
-esir isas ir VMM02S0 # estrisas
+#esir isas ir VMM02S0 # estrisas
 r 0 ir VMM02P0 # estresi
-esir isais ir VMM02P0 # estrisais
+#esir isais ir VMM02P0 # estrisais

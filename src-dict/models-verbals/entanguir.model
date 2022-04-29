@@ -59,7 +59,7 @@ r r ir VMSF3S0 # entanguir
 r rmos ir VMSF1P0 # entanguirmos
 r rdes ir VMSF2P0 # entanguirdes
 r rem ir VMSF3P0 # entanguirem
-uir as ir VMM02S0 # entangas
+#uir as ir VMM02S0 # entangas
 ir e ir VMM02S0 # entangue
-uir ais ir VMM02P0 # entangais
+#uir ais ir VMM02P0 # entangais
 r 0 ir VMM02P0 # entangui

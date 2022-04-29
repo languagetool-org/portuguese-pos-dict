@@ -59,7 +59,7 @@ r r ir VMSF3S0 # colorir
 r rmos ir VMSF1P0 # colorirmos
 r rdes ir VMSF2P0 # colorirdes
 r rem ir VMSF3P0 # colorirem
-ir as ir VMM02S0 # coloras
+#ir as ir VMM02S0 # coloras
 ir e ir VMM02S0 # colore
-ir ais ir VMM02P0 # colorais
+#ir ais ir VMM02P0 # colorais
 r 0 ir VMM02P0 # colori

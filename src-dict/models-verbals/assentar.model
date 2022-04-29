@@ -72,9 +72,9 @@ r rmos ar VMSF1P0 # assentarmos
 r rdes ar VMSF2P0 # assentardes
 r rem ar VMSF3P0 # assentarem
 r 0 ar VMM02S0 # assenta
-ar es ar VMM02S0 # assentes
+#ar es ar VMM02S0 # assentes
 ar e ar VMM03S0 # assente
 ar emos ar VMM01P0 # assentemos
 r i ar VMM02P0 # assentai
-ar eis ar VMM02P0 # assenteis
+#ar eis ar VMM02P0 # assenteis
 ar em ar VMM03P0 # assentem

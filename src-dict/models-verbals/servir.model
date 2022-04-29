@@ -67,9 +67,9 @@ r rmos ir VMSF1P0 # servirmos
 r rdes ir VMSF2P0 # servirdes
 r rem ir VMSF3P0 # servirem
 ir e ir VMM02S0 # serve
-ervir irvas ir VMM02S0 # sirvas
+#ervir irvas ir VMM02S0 # sirvas
 ervir irva ir VMM03S0 # sirva
 ervir irvamos ir VMM01P0 # sirvamos
 r 0 ir VMM02P0 # servi
-ervir irvais ir VMM02P0 # sirvais
+#ervir irvais ir VMM02P0 # sirvais
 ervir irvam ir VMM03P0 # sirvam

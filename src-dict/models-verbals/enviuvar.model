@@ -67,10 +67,10 @@ r r ar VMSF3S0 # enviuvar
 r rmos ar VMSF1P0 # enviuvarmos
 r rdes ar VMSF2P0 # enviuvardes
 r rem ar VMSF3P0 # enviuvarem
-ar es ar VMM02S0 # enviuves
+#ar es ar VMM02S0 # enviuves
 uvar úva ar VMM02S0 # enviúva
 uvar úve ar VMM03S0 # enviúve
 ar emos ar VMM01P0 # enviuvemos
 r i ar VMM02P0 # enviuvai
-ar eis ar VMM02P0 # enviuveis
+#ar eis ar VMM02P0 # enviuveis
 uvar úvem ar VMM03P0 # enviúvem

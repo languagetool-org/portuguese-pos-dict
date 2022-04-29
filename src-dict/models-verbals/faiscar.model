@@ -67,10 +67,10 @@ r r ar VMSF3S0 # faiscar
 r rmos ar VMSF1P0 # faiscarmos
 r rdes ar VMSF2P0 # faiscardes
 r rem ar VMSF3P0 # faiscarem
-car ques ar VMM02S0 # faisques
+#car ques ar VMM02S0 # faisques
 iscar ísca ar VMM02S0 # faísca
 iscar ísque ar VMM03S0 # faísque
 car quemos ar VMM01P0 # faisquemos
 r i ar VMM02P0 # faiscai
-car queis ar VMM02P0 # faisqueis
+#car queis ar VMM02P0 # faisqueis
 iscar ísquem ar VMM03P0 # faísquem

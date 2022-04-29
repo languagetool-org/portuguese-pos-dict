@@ -70,10 +70,10 @@ r r ir VMSF3S0 # imprimir
 r rmos ir VMSF1P0 # imprimirmos
 r rdes ir VMSF2P0 # imprimirdes
 r rem ir VMSF3P0 # imprimirem
-ir as ir VMM02S0 # imprimas
+#ir as ir VMM02S0 # imprimas
 ir e ir VMM02S0 # imprime
 ir a ir VMM03S0 # imprima
 ir amos ir VMM01P0 # imprimamos
-ir ais ir VMM02P0 # imprimais
+#ir ais ir VMM02P0 # imprimais
 r 0 ir VMM02P0 # imprimi
 ir am ir VMM03P0 # imprimam

@@ -70,10 +70,10 @@ r r er VMSF3S0 # pretender
 r rmos er VMSF1P0 # pretendermos
 r rdes er VMSF2P0 # pretenderdes
 r rem er VMSF3P0 # pretenderem
-er as er VMM02S0 # pretendas
+#er as er VMM02S0 # pretendas
 r 0 er VMM02S0 # pretende
 er a er VMM03S0 # pretenda
 er amos er VMM01P0 # pretendamos
-er ais er VMM02P0 # pretendais
+#er ais er VMM02P0 # pretendais
 r i er VMM02P0 # pretendei
 er am er VMM03P0 # pretendam

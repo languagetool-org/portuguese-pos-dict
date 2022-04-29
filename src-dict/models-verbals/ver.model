@@ -66,10 +66,10 @@ er ir er VMSF3S0 # vir
 er irmos er VMSF1P0 # virmos
 er irdes er VMSF2P0 # virdes
 er irem er VMSF3P0 # virem
-r jas er VMM02S0 # vejas
+#r jas er VMM02S0 # vejas
 er ê er VMM02S0 # vê
 r ja er VMM03S0 # veja
 r jamos er VMM01P0 # vejamos
 r de er VMM02P0 # vede
-r jais er VMM02P0 # vejais
+#r jais er VMM02P0 # vejais
 r jam er VMM03P0 # vejam

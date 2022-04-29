@@ -70,10 +70,10 @@ r r er VMSF3S0 # colher
 r rmos er VMSF1P0 # colhermos
 r rdes er VMSF2P0 # colherdes
 r rem er VMSF3P0 # colherem
-er as er VMM02S0 # colhas
+#er as er VMM02S0 # colhas
 r 0 er VMM02S0 # colhe
 er a er VMM03S0 # colha
 er amos er VMM01P0 # colhamos
-er ais er VMM02P0 # colhais
+#er ais er VMM02P0 # colhais
 r i er VMM02P0 # colhei
 er am er VMM03P0 # colham

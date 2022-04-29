@@ -66,10 +66,10 @@ r r er VMSF3S0 # corroer
 r rmos er VMSF1P0 # corroermos
 r rdes er VMSF2P0 # corroerdes
 r rem er VMSF3P0 # corroerem
-er as er VMM02S0 # corroas
+#er as er VMM02S0 # corroas
 oer ói er VMM02S0 # corrói
 er a er VMM03S0 # corroa
 er amos er VMM01P0 # corroamos
-er ais er VMM02P0 # corroais
+#er ais er VMM02P0 # corroais
 r i er VMM02P0 # corroei
 er am er VMM03P0 # corroam

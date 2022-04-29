@@ -66,10 +66,10 @@ r r er VMSF3S0 # prover
 r rmos er VMSF1P0 # provermos
 r rdes er VMSF2P0 # proverdes
 r rem er VMSF3P0 # proverem
-r jas er VMM02S0 # provejas
+#r jas er VMM02S0 # provejas
 er ê er VMM02S0 # provê
 r ja er VMM03S0 # proveja
 r jamos er VMM01P0 # provejamos
 r de er VMM02P0 # provede
-r jais er VMM02P0 # provejais
+#r jais er VMM02P0 # provejais
 r jam er VMM03P0 # provejam

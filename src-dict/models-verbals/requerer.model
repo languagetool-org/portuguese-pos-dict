@@ -66,10 +66,10 @@ r r er VMSF3S0 # requerer
 r rmos er VMSF1P0 # requerermos
 r rdes er VMSF2P0 # requererdes
 r rem er VMSF3P0 # requererem
-rer iras er VMM02S0 # requeiras
+#rer iras er VMM02S0 # requeiras
 r 0 er VMM02S0 # requere
 rer ira er VMM03S0 # requeira
 rer iramos er VMM01P0 # requeiramos
-rer irais er VMM02P0 # requeirais
+#rer irais er VMM02P0 # requeirais
 r i er VMM02P0 # requerei
 rer iram er VMM03P0 # requeiram

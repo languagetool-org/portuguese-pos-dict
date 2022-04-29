@@ -67,9 +67,9 @@ r ermos ir VMSF1P0 # viermos
 r erdes ir VMSF2P0 # vierdes
 r erem ir VMSF3P0 # vierem
 ir em ir VMM02S0 # vem
-ir enhas ir VMM02S0 # venhas
+#ir enhas ir VMM02S0 # venhas
 ir enha ir VMM03S0 # venha
 ir enhamos ir VMM01P0 # venhamos
-ir enhais ir VMM02P0 # venhais
+#ir enhais ir VMM02P0 # venhais
 r nde ir VMM02P0 # vinde
 ir enham ir VMM03P0 # venham

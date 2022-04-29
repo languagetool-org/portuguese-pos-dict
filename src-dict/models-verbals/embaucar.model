@@ -68,9 +68,9 @@ r rmos ar VMSF1P0 # embaucarmos
 r rdes ar VMSF2P0 # embaucardes
 r rem ar VMSF3P0 # embaucarem
 ucar úca ar VMM02S0 # embaúca
-ucar úques ar VMM02S0 # embaúques
+#ucar úques ar VMM02S0 # embaúques
 ucar úque ar VMM03S0 # embaúque
 car quemos ar VMM01P0 # embauquemos
 r i ar VMM02P0 # embaucai
-car queis ar VMM02P0 # embauqueis
+#car queis ar VMM02P0 # embauqueis
 ucar úquem ar VMM03P0 # embaúquem

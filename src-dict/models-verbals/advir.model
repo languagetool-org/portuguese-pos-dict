@@ -66,10 +66,10 @@ r er ir VMSF3S0 # advier
 r ermos ir VMSF1P0 # adviermos
 r erdes ir VMSF2P0 # advierdes
 r erem ir VMSF3P0 # advierem
-ir enhas ir VMM02S0 # advenhas
+#ir enhas ir VMM02S0 # advenhas
 ir ém ir VMM02S0 # advém
 ir enha ir VMM03S0 # advenha
 ir enhamos ir VMM01P0 # advenhamos
-ir enhais ir VMM02P0 # advenhais
+#ir enhais ir VMM02P0 # advenhais
 r nde ir VMM02P0 # advinde
 ir enham ir VMM03P0 # advenham

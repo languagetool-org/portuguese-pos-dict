@@ -66,10 +66,10 @@ r r ir VMSF3S0 # parir
 r rmos ir VMSF1P0 # parirmos
 r rdes ir VMSF2P0 # parirdes
 r rem ir VMSF3P0 # parirem
-rir iras ir VMM02S0 # pairas
+#rir iras ir VMM02S0 # pairas
 ir e ir VMM02S0 # pare
 rir ira ir VMM03S0 # paira
 rir iramos ir VMM01P0 # pairamos
-ir ais ir VMM02P0 # parais
+#ir ais ir VMM02P0 # parais
 r 0 ir VMM02P0 # pari
 rir iram ir VMM03P0 # pairam

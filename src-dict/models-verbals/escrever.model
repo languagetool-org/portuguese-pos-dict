@@ -66,10 +66,10 @@ r r er VMSF3S0 # escrever
 r rmos er VMSF1P0 # escrevermos
 r rdes er VMSF2P0 # escreverdes
 r rem er VMSF3P0 # escreverem
-er as er VMM02S0 # escrevas
+#er as er VMM02S0 # escrevas
 r 0 er VMM02S0 # escreve
 er a er VMM03S0 # escreva
 er amos er VMM01P0 # escrevamos
-er ais er VMM02P0 # escrevais
+#er ais er VMM02P0 # escrevais
 r i er VMM02P0 # escrevei
 er am er VMM03P0 # escrevam

@@ -66,10 +66,10 @@ r r ir VMSF3S0 # polir
 r rmos ir VMSF1P0 # polirmos
 r rdes ir VMSF2P0 # polirdes
 r rem ir VMSF3P0 # polirem
-olir ulas ir VMM02S0 # pulas
+#olir ulas ir VMM02S0 # pulas
 olir ule ir VMM02S0 # pule
 olir ula ir VMM03S0 # pula
 olir ulamos ir VMM01P0 # pulamos
 r 0 ir VMM02P0 # poli
-olir ulais ir VMM02P0 # pulais
+#olir ulais ir VMM02P0 # pulais
 olir ulam ir VMM03P0 # pulam

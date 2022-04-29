@@ -67,9 +67,9 @@ oder udermos er VMSF1P0 # pudermos
 oder uderdes er VMSF2P0 # puderdes
 oder uderem er VMSF3P0 # puderem
 r 0 er VMM02S0 # pode
-der ssas er VMM02S0 # possas
+#der ssas er VMM02S0 # possas
 der ssa er VMM03S0 # possa
 der ssamos er VMM01P0 # possamos
 r i er VMM02P0 # podei
-der ssais er VMM02P0 # possais
+#der ssais er VMM02P0 # possais
 der ssam er VMM03P0 # possam

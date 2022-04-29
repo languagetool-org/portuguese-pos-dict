@@ -56,6 +56,6 @@ r r ir VMSF3S0 # fretenir
 r rmos ir VMSF1P0 # fretenirmos
 r rdes ir VMSF2P0 # fretenirdes
 r rem ir VMSF3P0 # fretenirem
-enir inas ir VMM02S0 # fretinas
+#enir inas ir VMM02S0 # fretinas
 r 0 ir VMM02P0 # freteni
-enir inais ir VMM02P0 # fretinais
+#enir inais ir VMM02P0 # fretinais

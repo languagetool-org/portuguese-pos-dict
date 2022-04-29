@@ -67,9 +67,9 @@ r rmos ir VMSF1P0 # bulirmos
 r rdes ir VMSF2P0 # bulirdes
 r rem ir VMSF3P0 # bulirem
 ulir ole ir VMM02S0 # bole
-ir as ir VMM02S0 # bulas
+#ir as ir VMM02S0 # bulas
 ir a ir VMM03S0 # bula
 ir amos ir VMM01P0 # bulamos
-ir ais ir VMM02P0 # bulais
+#ir ais ir VMM02P0 # bulais
 r 0 ir VMM02P0 # buli
 ir am ir VMM03P0 # bulam

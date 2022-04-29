@@ -68,9 +68,9 @@ r rmos ar VMSF1P0 # reusarmos
 r rdes ar VMSF2P0 # reusardes
 r rem ar VMSF3P0 # reusarem
 usar úsa ar VMM02S0 # reúsa
-usar úses ar VMM02S0 # reúses
+#usar úses ar VMM02S0 # reúses
 usar úse ar VMM03S0 # reúse
 ar emos ar VMM01P0 # reusemos
 r i ar VMM02P0 # reusai
-ar eis ar VMM02P0 # reuseis
+#ar eis ar VMM02P0 # reuseis
 usar úsem ar VMM03P0 # reúsem

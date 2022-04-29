@@ -70,10 +70,10 @@ r r ir VMSF3S0 # extinguir
 r rmos ir VMSF1P0 # extinguirmos
 r rdes ir VMSF2P0 # extinguirdes
 r rem ir VMSF3P0 # extinguirem
-uir as ir VMM02S0 # extingas
+#uir as ir VMM02S0 # extingas
 ir e ir VMM02S0 # extingue
 uir a ir VMM03S0 # extinga
 uir amos ir VMM01P0 # extingamos
-uir ais ir VMM02P0 # extingais
+#uir ais ir VMM02P0 # extingais
 r 0 ir VMM02P0 # extingui
 uir am ir VMM03P0 # extingam

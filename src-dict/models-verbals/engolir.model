@@ -67,9 +67,9 @@ r rmos ir VMSF1P0 # engolirmos
 r rdes ir VMSF2P0 # engolirdes
 r rem ir VMSF3P0 # engolirem
 ir e ir VMM02S0 # engole
-olir ulas ir VMM02S0 # engulas
+#olir ulas ir VMM02S0 # engulas
 olir ula ir VMM03S0 # engula
 olir ulamos ir VMM01P0 # engulamos
 r 0 ir VMM02P0 # engoli
-olir ulais ir VMM02P0 # engulais
+#olir ulais ir VMM02P0 # engulais
 olir ulam ir VMM03P0 # engulam

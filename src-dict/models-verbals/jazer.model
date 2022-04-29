@@ -67,10 +67,10 @@ r rmos er VMSF1P0 # jazermos
 r rdes er VMSF2P0 # jazerdes
 r rem er VMSF3P0 # jazerem
 er 0 er VMM02S0 # jaz
-er as er VMM02S0 # jazas
+#er as er VMM02S0 # jazas
 r 0 er VMM02S0 # jaze
 er a er VMM03S0 # jaza
 er amos er VMM01P0 # jazamos
-er ais er VMM02P0 # jazais
+#er ais er VMM02P0 # jazais
 r i er VMM02P0 # jazei
 er am er VMM03P0 # jazam

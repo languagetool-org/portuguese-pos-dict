@@ -68,9 +68,9 @@ r rmos ar VMSF1P0 # aziumarmos
 r rdes ar VMSF2P0 # aziumardes
 r rem ar VMSF3P0 # aziumarem
 umar úma ar VMM02S0 # aziúma
-umar úmes ar VMM02S0 # aziúmes
+#umar úmes ar VMM02S0 # aziúmes
 umar úme ar VMM03S0 # aziúme
 ar emos ar VMM01P0 # aziumemos
 r i ar VMM02P0 # aziumai
-ar eis ar VMM02P0 # aziumeis
+#ar eis ar VMM02P0 # aziumeis
 umar úmem ar VMM03P0 # aziúmem

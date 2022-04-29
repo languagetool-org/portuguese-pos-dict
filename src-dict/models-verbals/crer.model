@@ -66,10 +66,10 @@ r r er VMSF3S0 # crer
 r rmos er VMSF1P0 # crermos
 r rdes er VMSF2P0 # crerdes
 r rem er VMSF3P0 # crerem
-r ias er VMM02S0 # creias
+#r ias er VMM02S0 # creias
 er ê er VMM02S0 # crê
 r ia er VMM03S0 # creia
 r iamos er VMM01P0 # creiamos
 r de er VMM02P0 # crede
-r iais er VMM02P0 # creiais
+#r iais er VMM02P0 # creiais
 r iam er VMM03P0 # creiam

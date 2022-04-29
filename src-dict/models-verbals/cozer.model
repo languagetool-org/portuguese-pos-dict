@@ -67,10 +67,10 @@ r rmos er VMSF1P0 # cozermos
 r rdes er VMSF2P0 # cozerdes
 r rem er VMSF3P0 # cozerem
 er 0 er VMM02S0 # coz
-er as er VMM02S0 # cozas
+#er as er VMM02S0 # cozas
 r 0 er VMM02S0 # coze
 er a er VMM03S0 # coza
 er amos er VMM01P0 # cozamos
-er ais er VMM02P0 # cozais
+#er ais er VMM02P0 # cozais
 r i er VMM02P0 # cozei
 er am er VMM03P0 # cozam

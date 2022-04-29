@@ -66,10 +66,10 @@ ser for er VMSF3S0 # for
 ser formos er VMSF1P0 # formos
 ser fordes er VMSF2P0 # fordes
 ser forem er VMSF3P0 # forem
-r jas er VMM02S0 # sejas
+#r jas er VMM02S0 # sejas
 er ê er VMM02S0 # sê
 r ja er VMM03S0 # seja
 r jamos er VMM01P0 # sejamos
 r de er VMM02P0 # sede
-r jais er VMM02P0 # sejais
+#r jais er VMM02P0 # sejais
 r jam er VMM03P0 # sejam

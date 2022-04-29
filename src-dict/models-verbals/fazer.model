@@ -71,9 +71,9 @@ azer izerdes er VMSF2P0 # fizerdes
 azer izerem er VMSF3P0 # fizerem
 er 0 er VMM02S0 # faz
 r 0 er VMM02S0 # faze
-zer ças er VMM02S0 # faças
+#zer ças er VMM02S0 # faças
 zer ça er VMM03S0 # faça
 zer çamos er VMM01P0 # façamos
 r i er VMM02P0 # fazei
-zer çais er VMM02P0 # façais
+#zer çais er VMM02P0 # façais
 zer çam er VMM03P0 # façam

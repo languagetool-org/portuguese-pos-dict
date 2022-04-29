@@ -66,10 +66,10 @@ r r ir VMSF3S0 # agredir
 r rmos ir VMSF1P0 # agredirmos
 r rdes ir VMSF2P0 # agredirdes
 r rem ir VMSF3P0 # agredirem
-edir idas ir VMM02S0 # agridas
+#edir idas ir VMM02S0 # agridas
 edir ide ir VMM02S0 # agride
 edir ida ir VMM03S0 # agrida
 edir idamos ir VMM01P0 # agridamos
 r 0 ir VMM02P0 # agredi
-edir idais ir VMM02P0 # agridais
+#edir idais ir VMM02P0 # agridais
 edir idam ir VMM03P0 # agridam

@@ -72,9 +72,9 @@ r rmos ar VMSF1P0 # entregarmos
 r rdes ar VMSF2P0 # entregardes
 r rem ar VMSF3P0 # entregarem
 r 0 ar VMM02S0 # entrega
-ar ues ar VMM02S0 # entregues
+#ar ues ar VMM02S0 # entregues
 ar ue ar VMM03S0 # entregue
 ar uemos ar VMM01P0 # entreguemos
 r i ar VMM02P0 # entregai
-ar ueis ar VMM02P0 # entregueis
+#ar ueis ar VMM02P0 # entregueis
 ar uem ar VMM03P0 # entreguem

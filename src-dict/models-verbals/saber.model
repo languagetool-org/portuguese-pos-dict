@@ -67,9 +67,9 @@ aber oubermos er VMSF1P0 # soubermos
 aber ouberdes er VMSF2P0 # souberdes
 aber ouberem er VMSF3P0 # souberem
 r 0 er VMM02S0 # sabe
-ber ibas er VMM02S0 # saibas
+#ber ibas er VMM02S0 # saibas
 ber iba er VMM03S0 # saiba
 ber ibamos er VMM01P0 # saibamos
 r i er VMM02P0 # sabei
-ber ibais er VMM02P0 # saibais
+#ber ibais er VMM02P0 # saibais
 ber ibam er VMM03P0 # saibam

@@ -77,11 +77,11 @@ r rdes ar VMSF2P0 # premiardes
 r rem ar VMSF3P0 # premiarem
 iar eia ar VMM02S0 # premeia
 r 0 ar VMM02S0 # premia
-ar es ar VMM02S0 # premies
+#ar es ar VMM02S0 # premies
 iar eie ar VMM03S0 # premeie
 ar e ar VMM03S0 # premie
 ar emos ar VMM01P0 # premiemos
 r i ar VMM02P0 # premiai
-ar eis ar VMM02P0 # premieis
+#ar eis ar VMM02P0 # premieis
 iar eiem ar VMM03P0 # premeiem
 ar em ar VMM03P0 # premiem

@@ -67,9 +67,9 @@ r rmos ir VMSF1P0 # flectirmos
 r rdes ir VMSF2P0 # flectirdes
 r rem ir VMSF3P0 # flectirem
 ir e ir VMM02S0 # flecte
-ectir ictas ir VMM02S0 # flictas
+#ectir ictas ir VMM02S0 # flictas
 ectir icta ir VMM03S0 # flicta
 ectir ictamos ir VMM01P0 # flictamos
 r 0 ir VMM02P0 # flecti
-ectir ictais ir VMM02P0 # flictais
+#ectir ictais ir VMM02P0 # flictais
 ectir ictam ir VMM03P0 # flictam

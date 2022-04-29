@@ -68,9 +68,9 @@ r rmos ar VMSF1P0 # arearmos
 r rdes ar VMSF2P0 # areardes
 r rem ar VMSF3P0 # arearem
 ar ia ar VMM02S0 # areia
-ar ies ar VMM02S0 # areies
+#ar ies ar VMM02S0 # areies
 ar ie ar VMM03S0 # areie
 ar emos ar VMM01P0 # areemos
 r i ar VMM02P0 # areai
-ar eis ar VMM02P0 # areeis
+#ar eis ar VMM02P0 # areeis
 ar iem ar VMM03P0 # areiem

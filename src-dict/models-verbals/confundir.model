@@ -70,10 +70,10 @@ r r ir VMSF3S0 # confundir
 r rmos ir VMSF1P0 # confundirmos
 r rdes ir VMSF2P0 # confundirdes
 r rem ir VMSF3P0 # confundirem
-ir as ir VMM02S0 # confundas
+#ir as ir VMM02S0 # confundas
 ir e ir VMM02S0 # confunde
 ir a ir VMM03S0 # confunda
 ir amos ir VMM01P0 # confundamos
-ir ais ir VMM02P0 # confundais
+#ir ais ir VMM02P0 # confundais
 r 0 ir VMM02P0 # confundi
 ir am ir VMM03P0 # confundam

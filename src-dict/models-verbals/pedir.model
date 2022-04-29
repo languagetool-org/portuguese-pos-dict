@@ -67,9 +67,9 @@ r rmos ir VMSF1P0 # pedirmos
 r rdes ir VMSF2P0 # pedirdes
 r rem ir VMSF3P0 # pedirem
 ir e ir VMM02S0 # pede
-dir ças ir VMM02S0 # peças
+#dir ças ir VMM02S0 # peças
 dir ça ir VMM03S0 # peça
 dir çamos ir VMM01P0 # peçamos
 r 0 ir VMM02P0 # pedi
-dir çais ir VMM02P0 # peçais
+#dir çais ir VMM02P0 # peçais
 dir çam ir VMM03P0 # peçam

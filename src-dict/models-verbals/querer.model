@@ -67,11 +67,11 @@ erer iser er VMSF3S0 # quiser
 erer isermos er VMSF1P0 # quisermos
 erer iserdes er VMSF2P0 # quiserdes
 erer iserem er VMSF3P0 # quiserem
-rer iras er VMM02S0 # queiras
+#rer iras er VMM02S0 # queiras
 er 0 er VMM02S0 # quer
 r 0 er VMM02S0 # quere
 rer ira er VMM03S0 # queira
 rer iramos er VMM01P0 # queiramos
-rer irais er VMM02P0 # queirais
+#rer irais er VMM02P0 # queirais
 r i er VMM02P0 # querei
 rer iram er VMM03P0 # queiram

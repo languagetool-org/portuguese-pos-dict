@@ -70,10 +70,10 @@ r r er VMSF3S0 # atender
 r rmos er VMSF1P0 # atendermos
 r rdes er VMSF2P0 # atenderdes
 r rem er VMSF3P0 # atenderem
-er as er VMM02S0 # atendas
+#er as er VMM02S0 # atendas
 r 0 er VMM02S0 # atende
 er a er VMM03S0 # atenda
 er amos er VMM01P0 # atendamos
-er ais er VMM02P0 # atendais
+#er ais er VMM02P0 # atendais
 r i er VMM02P0 # atendei
 er am er VMM03P0 # atendam

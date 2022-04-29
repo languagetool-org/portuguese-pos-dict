@@ -66,10 +66,10 @@ r r ir VMSF3S0 # lusquir
 r rmos ir VMSF1P0 # lusquirmos
 r rdes ir VMSF2P0 # lusquirdes
 r rem ir VMSF3P0 # lusquirem
-ir as ir VMM02S0 # lusquas
+#ir as ir VMM02S0 # lusquas
 r 0 ir VMM02S0 # lusqui
 ir a ir VMM03S0 # lusqua
 ir amos ir VMM01P0 # lusquamos
-ir ais ir VMM02P0 # lusquais
+#ir ais ir VMM02P0 # lusquais
 r 0 ir VMM02P0 # lusqui
 ir am ir VMM03P0 # lusquam

@@ -67,9 +67,9 @@ r rmos ir VMSF1P0 # seguirmos
 r rdes ir VMSF2P0 # seguirdes
 r rem ir VMSF3P0 # seguirem
 ir e ir VMM02S0 # segue
-eguir igas ir VMM02S0 # sigas
+#eguir igas ir VMM02S0 # sigas
 eguir iga ir VMM03S0 # siga
 eguir igamos ir VMM01P0 # sigamos
 r 0 ir VMM02P0 # segui
-eguir igais ir VMM02P0 # sigais
+#eguir igais ir VMM02P0 # sigais
 eguir igam ir VMM03P0 # sigam

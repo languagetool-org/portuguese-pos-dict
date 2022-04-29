@@ -66,10 +66,10 @@ r r ir VMSF3S0 # coibir
 r rmos ir VMSF1P0 # coibirmos
 r rdes ir VMSF2P0 # coibirdes
 r rem ir VMSF3P0 # coibirem
-ir as ir VMM02S0 # coibas
+#ir as ir VMM02S0 # coibas
 ibir íbe ir VMM02S0 # coíbe
 ibir íba ir VMM03S0 # coíba
 ir amos ir VMM01P0 # coibamos
-ir ais ir VMM02P0 # coibais
+#ir ais ir VMM02P0 # coibais
 r 0 ir VMM02P0 # coibi
 ibir íbam ir VMM03P0 # coíbam

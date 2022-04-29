@@ -67,9 +67,9 @@ r rmos ir VMSF1P0 # vestirmos
 r rdes ir VMSF2P0 # vestirdes
 r rem ir VMSF3P0 # vestirem
 ir e ir VMM02S0 # veste
-estir istas ir VMM02S0 # vistas
+#estir istas ir VMM02S0 # vistas
 estir ista ir VMM03S0 # vista
 estir istamos ir VMM01P0 # vistamos
 r 0 ir VMM02P0 # vesti
-estir istais ir VMM02P0 # vistais
+#estir istais ir VMM02P0 # vistais
 estir istam ir VMM03P0 # vistam

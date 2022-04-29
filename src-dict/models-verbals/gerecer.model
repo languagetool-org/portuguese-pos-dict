@@ -67,9 +67,9 @@ r rmos er VMSF1P0 # gerecermos
 r rdes er VMSF2P0 # gerecerdes
 r rem er VMSF3P0 # gerecerem
 r 0 er VMM02S0 # gerece
-cer ças er VMM02S0 # gereças
+#cer ças er VMM02S0 # gereças
 cer ça er VMM03S0 # gereça
 cer çamos er VMM01P0 # gereçamos
 r i er VMM02P0 # gerecei
-cer çais er VMM02P0 # gereçais
+#cer çais er VMM02P0 # gereçais
 cer çam er VMM03P0 # gereçam

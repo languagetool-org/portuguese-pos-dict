@@ -66,10 +66,10 @@ er iver er VMSF3S0 # ativer
 er ivermos er VMSF1P0 # ativermos
 er iverdes er VMSF2P0 # ativerdes
 er iverem er VMSF3P0 # ativerem
-r nhas er VMM02S0 # atenhas
+#r nhas er VMM02S0 # atenhas
 er ém er VMM02S0 # atém
 r nha er VMM03S0 # atenha
 r nhamos er VMM01P0 # atenhamos
 r nde er VMM02P0 # atende
-r nhais er VMM02P0 # atenhais
+#r nhais er VMM02P0 # atenhais
 r nham er VMM03P0 # atenham

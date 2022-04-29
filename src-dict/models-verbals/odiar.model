@@ -68,9 +68,9 @@ r rmos ar VMSF1P0 # odiarmos
 r rdes ar VMSF2P0 # odiardes
 r rem ar VMSF3P0 # odiarem
 iar eia ar VMM02S0 # odeia
-iar eies ar VMM02S0 # odeies
+#iar eies ar VMM02S0 # odeies
 iar eie ar VMM03S0 # odeie
 ar emos ar VMM01P0 # odiemos
 r i ar VMM02P0 # odiai
-ar eis ar VMM02P0 # odieis
+#ar eis ar VMM02P0 # odieis
 iar eiem ar VMM03P0 # odeiem

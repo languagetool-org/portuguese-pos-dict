@@ -67,9 +67,9 @@ r2 ssem r2 VMSI3P0 # redassem
 2 des r2 VMSF2P0 # redardes
 2 em r2 VMSF3P0 # redarem
 r2 0 r2 VMM02S0 # reda
-ar2 es r2 VMM02S0 # redes
+#ar2 es r2 VMM02S0 # redes
 ar2 e r2 VMM03S0 # rede
 ar2 emos r2 VMM01P0 # redemos
 r2 i r2 VMM02P0 # redai
-ar2 eis r2 VMM02P0 # redeis
+#ar2 eis r2 VMM02P0 # redeis
 ar2 em r2 VMM03P0 # redem

@@ -67,9 +67,9 @@ r rmos er VMSF1P0 # rangermos
 r rdes er VMSF2P0 # rangerdes
 r rem er VMSF3P0 # rangerem
 r 0 er VMM02S0 # range
-ger jas er VMM02S0 # ranjas
+#ger jas er VMM02S0 # ranjas
 ger ja er VMM03S0 # ranja
 ger jamos er VMM01P0 # ranjamos
 r i er VMM02P0 # rangei
-ger jais er VMM02P0 # ranjais
+#ger jais er VMM02P0 # ranjais
 ger jam er VMM03P0 # ranjam

@@ -67,9 +67,9 @@ r rmos ir VMSF1P0 # sumirmos
 r rdes ir VMSF2P0 # sumirdes
 r rem ir VMSF3P0 # sumirem
 umir ome ir VMM02S0 # some
-ir as ir VMM02S0 # sumas
+#ir as ir VMM02S0 # sumas
 ir a ir VMM03S0 # suma
 ir amos ir VMM01P0 # sumamos
-ir ais ir VMM02P0 # sumais
+#ir ais ir VMM02P0 # sumais
 r 0 ir VMM02P0 # sumi
 ir am ir VMM03P0 # sumam

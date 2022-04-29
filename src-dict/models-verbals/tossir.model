@@ -67,9 +67,9 @@ r rmos ir VMSF1P0 # tossirmos
 r rdes ir VMSF2P0 # tossirdes
 r rem ir VMSF3P0 # tossirem
 ir e ir VMM02S0 # tosse
-ossir ussas ir VMM02S0 # tussas
+#ossir ussas ir VMM02S0 # tussas
 ossir ussa ir VMM03S0 # tussa
 ossir ussamos ir VMM01P0 # tussamos
 r 0 ir VMM02P0 # tossi
-ossir ussais ir VMM02P0 # tussais
+#ossir ussais ir VMM02P0 # tussais
 ossir ussam ir VMM03P0 # tussam

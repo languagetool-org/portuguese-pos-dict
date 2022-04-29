@@ -67,9 +67,9 @@ r rmos ir VMSF1P0 # benhenhirmos
 r rdes ir VMSF2P0 # benhenhirdes
 r rem ir VMSF3P0 # benhenhirem
 ir e ir VMM02S0 # benhenhe
-enhir inhas ir VMM02S0 # benhinhas
+#enhir inhas ir VMM02S0 # benhinhas
 ir a ir VMM03S0 # benhenha
 ir amos ir VMM01P0 # benhenhamos
 r 0 ir VMM02P0 # benhenhi
-enhir inhais ir VMM02P0 # benhinhais
+#enhir inhais ir VMM02P0 # benhinhais
 ir am ir VMM03P0 # benhenham

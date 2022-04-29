@@ -70,10 +70,10 @@ r r er VMSF3S0 # surpreender
 r rmos er VMSF1P0 # surpreendermos
 r rdes er VMSF2P0 # surpreenderdes
 r rem er VMSF3P0 # surpreenderem
-er as er VMM02S0 # surpreendas
+#er as er VMM02S0 # surpreendas
 r 0 er VMM02S0 # surpreende
 er a er VMM03S0 # surpreenda
 er amos er VMM01P0 # surpreendamos
-er ais er VMM02P0 # surpreendais
+#er ais er VMM02P0 # surpreendais
 r i er VMM02P0 # surpreendei
 er am er VMM03P0 # surpreendam

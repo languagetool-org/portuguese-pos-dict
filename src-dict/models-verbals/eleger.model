@@ -71,9 +71,9 @@ r rmos er VMSF1P0 # elegermos
 r rdes er VMSF2P0 # elegerdes
 r rem er VMSF3P0 # elegerem
 r 0 er VMM02S0 # elege
-ger jas er VMM02S0 # elejas
+#ger jas er VMM02S0 # elejas
 ger ja er VMM03S0 # eleja
 ger jamos er VMM01P0 # elejamos
 r i er VMM02P0 # elegei
-ger jais er VMM02P0 # elejais
+#ger jais er VMM02P0 # elejais
 ger jam er VMM03P0 # elejam

@@ -56,5 +56,5 @@ r r ir VMSF3S0 # florir
 r rmos ir VMSF1P0 # florirmos
 r rdes ir VMSF2P0 # florirdes
 r rem ir VMSF3P0 # florirem
-ir ais ir VMM02P0 # florais
+#ir ais ir VMM02P0 # florais
 r 0 ir VMM02P0 # flori

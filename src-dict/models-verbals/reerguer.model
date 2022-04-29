@@ -66,10 +66,10 @@ r r er VMSF3S0 # reerguer
 r rmos er VMSF1P0 # reerguermos
 r rdes er VMSF2P0 # reerguerdes
 r rem er VMSF3P0 # reerguerem
-uer as er VMM02S0 # reergas
+#uer as er VMM02S0 # reergas
 r 0 er VMM02S0 # reergue
 uer a er VMM03S0 # reerga
 uer amos er VMM01P0 # reergamos
-uer ais er VMM02P0 # reergais
+#uer ais er VMM02P0 # reergais
 r i er VMM02P0 # reerguei
 uer am er VMM03P0 # reergam

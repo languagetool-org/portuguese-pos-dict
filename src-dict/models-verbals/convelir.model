@@ -67,9 +67,9 @@ r rmos ir VMSF1P0 # convelirmos
 r rdes ir VMSF2P0 # convelirdes
 r rem ir VMSF3P0 # convelirem
 ir e ir VMM02S0 # convele
-elir ilas ir VMM02S0 # convilas
+#elir ilas ir VMM02S0 # convilas
 elir ila ir VMM03S0 # convila
 elir ilamos ir VMM01P0 # convilamos
 r 0 ir VMM02P0 # conveli
-elir ilais ir VMM02P0 # convilais
+#elir ilais ir VMM02P0 # convilais
 elir ilam ir VMM03P0 # convilam

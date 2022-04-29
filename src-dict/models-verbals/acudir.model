@@ -67,9 +67,9 @@ r rmos ir VMSF1P0 # acudirmos
 r rdes ir VMSF2P0 # acudirdes
 r rem ir VMSF3P0 # acudirem
 udir ode ir VMM02S0 # acode
-ir as ir VMM02S0 # acudas
+#ir as ir VMM02S0 # acudas
 ir a ir VMM03S0 # acuda
 ir amos ir VMM01P0 # acudamos
-ir ais ir VMM02P0 # acudais
+#ir ais ir VMM02P0 # acudais
 r 0 ir VMM02P0 # acudi
 ir am ir VMM03P0 # acudam

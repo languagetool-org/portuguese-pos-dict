@@ -67,9 +67,9 @@ r rmos ir VMSF1P0 # dormirmos
 r rdes ir VMSF2P0 # dormirdes
 r rem ir VMSF3P0 # dormirem
 ir e ir VMM02S0 # dorme
-ormir urmas ir VMM02S0 # durmas
+#ormir urmas ir VMM02S0 # durmas
 ormir urma ir VMM03S0 # durma
 ormir urmamos ir VMM01P0 # durmamos
 r 0 ir VMM02P0 # dormi
-ormir urmais ir VMM02P0 # durmais
+#ormir urmais ir VMM02P0 # durmais
 ormir urmam ir VMM03P0 # durmam

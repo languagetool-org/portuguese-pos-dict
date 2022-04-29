@@ -67,9 +67,9 @@ r rmos ir VMSF1P0 # cobrirmos
 r rdes ir VMSF2P0 # cobrirdes
 r rem ir VMSF3P0 # cobrirem
 ir e ir VMM02S0 # cobre
-obrir ubras ir VMM02S0 # cubras
+#obrir ubras ir VMM02S0 # cubras
 obrir ubra ir VMM03S0 # cubra
 obrir ubramos ir VMM01P0 # cubramos
 r 0 ir VMM02P0 # cobri
-obrir ubrais ir VMM02P0 # cubrais
+#obrir ubrais ir VMM02P0 # cubrais
 obrir ubram ir VMM03P0 # cubram

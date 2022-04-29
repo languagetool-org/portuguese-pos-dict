@@ -67,10 +67,10 @@ r r ar VMSF3S0 # balaustrar
 r rmos ar VMSF1P0 # balaustrarmos
 r rdes ar VMSF2P0 # balaustrardes
 r rem ar VMSF3P0 # balaustrarem
-ar es ar VMM02S0 # balaustres
+#ar es ar VMM02S0 # balaustres
 ustrar ústra ar VMM02S0 # balaústra
 ustrar ústre ar VMM03S0 # balaústre
 ar emos ar VMM01P0 # balaustremos
 r i ar VMM02P0 # balaustrai
-ar eis ar VMM02P0 # balaustreis
+#ar eis ar VMM02P0 # balaustreis
 ustrar ústrem ar VMM03P0 # balaústrem

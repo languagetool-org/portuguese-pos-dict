@@ -68,9 +68,9 @@ r rmos ar VMSF1P0 # amarmos
 r rdes ar VMSF2P0 # amardes
 r rem ar VMSF3P0 # amarem
 r 0 ar VMM02S0 # ama
-ar es ar VMM02S0 # ames
+#ar es ar VMM02S0 # ames
 ar e ar VMM03S0 # ame
 ar emos ar VMM01P0 # amemos
 r i ar VMM02P0 # amai
-ar eis ar VMM02P0 # ameis
+#ar eis ar VMM02P0 # ameis
 ar em ar VMM03P0 # amem

@@ -71,9 +71,9 @@ r rdes ir VMSF2P0 # cerzirdes
 r rem ir VMSF3P0 # cerzirem
 ir e ir VMM02S0 # cerze
 erzir irza ir VMM02S0 # cirza
-erzir irzas ir VMM02S0 # cirzas
+#erzir irzas ir VMM02S0 # cirzas
 erzir irza ir VMM03S0 # cirza
 erzir irzamos ir VMM01P0 # cirzamos
 r 0 ir VMM02P0 # cerzi
-erzir irzais ir VMM02P0 # cirzais
+#erzir irzais ir VMM02P0 # cirzais
 erzir irzam ir VMM03P0 # cirzam

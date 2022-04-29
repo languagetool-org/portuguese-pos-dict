@@ -67,9 +67,9 @@ r rmos ir VMSF1P0 # ferirmos
 r rdes ir VMSF2P0 # ferirdes
 r rem ir VMSF3P0 # ferirem
 ir e ir VMM02S0 # fere
-erir iras ir VMM02S0 # firas
+#erir iras ir VMM02S0 # firas
 erir ira ir VMM03S0 # fira
 erir iramos ir VMM01P0 # firamos
 r 0 ir VMM02P0 # feri
-erir irais ir VMM02P0 # firais
+#erir irais ir VMM02P0 # firais
 erir iram ir VMM03P0 # firam

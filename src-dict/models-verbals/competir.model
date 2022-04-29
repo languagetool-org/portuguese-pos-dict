@@ -67,9 +67,9 @@ r rmos ir VMSF1P0 # competirmos
 r rdes ir VMSF2P0 # competirdes
 r rem ir VMSF3P0 # competirem
 ir e ir VMM02S0 # compete
-etir itas ir VMM02S0 # compitas
+#etir itas ir VMM02S0 # compitas
 etir ita ir VMM03S0 # compita
 etir itamos ir VMM01P0 # compitamos
 r 0 ir VMM02P0 # competi
-etir itais ir VMM02P0 # compitais
+#etir itais ir VMM02P0 # compitais
 etir itam ir VMM03P0 # compitam

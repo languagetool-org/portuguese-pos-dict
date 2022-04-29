@@ -76,13 +76,13 @@ r rmos ar VMSF1P0 # agenciarmos
 r rdes ar VMSF2P0 # agenciardes
 r rem ar VMSF3P0 # agenciarem
 iar eia ar VMM02S0 # agenceia
-iar eies ar VMM02S0 # agenceies
+#iar eies ar VMM02S0 # agenceies
 r 0 ar VMM02S0 # agencia
-ar es ar VMM02S0 # agencies
+#ar es ar VMM02S0 # agencies
 iar eie ar VMM03S0 # agenceie
 ar e ar VMM03S0 # agencie
 ar emos ar VMM01P0 # agenciemos
 r i ar VMM02P0 # agenciai
-ar eis ar VMM02P0 # agencieis
+#ar eis ar VMM02P0 # agencieis
 iar eiem ar VMM03P0 # agenceiem
 ar em ar VMM03P0 # agenciem

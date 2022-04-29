@@ -67,10 +67,10 @@ r r ar VMSF3S0 # gauchar
 r rmos ar VMSF1P0 # gaucharmos
 r rdes ar VMSF2P0 # gauchardes
 r rem ar VMSF3P0 # gaucharem
-ar es ar VMM02S0 # gauches
+#ar es ar VMM02S0 # gauches
 uchar úcha ar VMM02S0 # gaúcha
 uchar úche ar VMM03S0 # gaúche
 ar emos ar VMM01P0 # gauchemos
 r i ar VMM02P0 # gauchai
-ar eis ar VMM02P0 # gaucheis
+#ar eis ar VMM02P0 # gaucheis
 uchar úchem ar VMM03P0 # gaúchem

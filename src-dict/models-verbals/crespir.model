@@ -67,9 +67,9 @@ r rmos ir VMSF1P0 # crespirmos
 r rdes ir VMSF2P0 # crespirdes
 r rem ir VMSF3P0 # crespirem
 ir e ir VMM02S0 # crespe
-espir ispas ir VMM02S0 # crispas
+#espir ispas ir VMM02S0 # crispas
 espir ispa ir VMM03S0 # crispa
 espir ispamos ir VMM01P0 # crispamos
 r 0 ir VMM02P0 # crespi
-espir ispais ir VMM02P0 # crispais
+#espir ispais ir VMM02P0 # crispais
 espir ispam ir VMM03P0 # crispam

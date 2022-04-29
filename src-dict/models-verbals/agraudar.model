@@ -68,9 +68,9 @@ r rmos ar VMSF1P0 # agraudarmos
 r rdes ar VMSF2P0 # agraudardes
 r rem ar VMSF3P0 # agraudarem
 udar úda ar VMM02S0 # agraúda
-udar údes ar VMM02S0 # agraúdes
+#udar údes ar VMM02S0 # agraúdes
 udar úde ar VMM03S0 # agraúde
 ar emos ar VMM01P0 # agraudemos
 r i ar VMM02P0 # agraudai
-ar eis ar VMM02P0 # agraudeis
+#ar eis ar VMM02P0 # agraudeis
 udar údem ar VMM03P0 # agraúdem

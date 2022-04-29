@@ -67,10 +67,10 @@ r rmos ir VMSF1P0 # conduzirmos
 r rdes ir VMSF2P0 # conduzirdes
 r rem ir VMSF3P0 # conduzirem
 ir 0 ir VMM02S0 # conduz
-ir as ir VMM02S0 # conduzas
+#ir as ir VMM02S0 # conduzas
 ir e ir VMM02S0 # conduze
 ir a ir VMM03S0 # conduza
 ir amos ir VMM01P0 # conduzamos
-ir ais ir VMM02P0 # conduzais
+#ir ais ir VMM02P0 # conduzais
 r 0 ir VMM02P0 # conduzi
 ir am ir VMM03P0 # conduzam

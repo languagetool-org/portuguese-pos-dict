@@ -67,9 +67,9 @@ r rmos ir VMSF1P0 # ressarcirmos
 r rdes ir VMSF2P0 # ressarcirdes
 r rem ir VMSF3P0 # ressarcirem
 ir e ir VMM02S0 # ressarce
-cir ças ir VMM02S0 # ressarças
+#cir ças ir VMM02S0 # ressarças
 cir ça ir VMM03S0 # ressarça
 cir çamos ir VMM01P0 # ressarçamos
 r 0 ir VMM02P0 # ressarci
-cir çais ir VMM02P0 # ressarçais
+#cir çais ir VMM02P0 # ressarçais
 cir çam ir VMM03P0 # ressarçam

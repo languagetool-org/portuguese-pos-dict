@@ -56,5 +56,5 @@ r r ir VMSF3S0 # embair
 r rmos ir VMSF1P0 # embairmos
 r rdes ir VMSF2P0 # embairdes
 ir írem ir VMSF3P0 # embaírem
-r ais ir VMM02P0 # embaiais
+#r ais ir VMM02P0 # embaiais
 ir í ir VMM02P0 # embaí

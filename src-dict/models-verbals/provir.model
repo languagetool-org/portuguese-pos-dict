@@ -66,10 +66,10 @@ r er ir VMSF3S0 # provier
 r ermos ir VMSF1P0 # proviermos
 r erdes ir VMSF2P0 # provierdes
 r erem ir VMSF3P0 # provierem
-ir enhas ir VMM02S0 # provenhas
+#ir enhas ir VMM02S0 # provenhas
 ir ém ir VMM02S0 # provém
 ir enha ir VMM03S0 # provenha
 ir enhamos ir VMM01P0 # provenhamos
-ir enhais ir VMM02P0 # provenhais
+#ir enhais ir VMM02P0 # provenhais
 r nde ir VMM02P0 # provinde
 ir enham ir VMM03P0 # provenham

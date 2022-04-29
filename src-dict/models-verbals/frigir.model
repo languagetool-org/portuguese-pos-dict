@@ -71,9 +71,9 @@ r rmos ir VMSF1P0 # frigirmos
 r rdes ir VMSF2P0 # frigirdes
 r rem ir VMSF3P0 # frigirem
 igir ege ir VMM02S0 # frege
-gir jas ir VMM02S0 # frijas
+#gir jas ir VMM02S0 # frijas
 gir ja ir VMM03S0 # frija
 gir jamos ir VMM01P0 # frijamos
 r 0 ir VMM02P0 # frigi
-gir jais ir VMM02P0 # frijais
+#gir jais ir VMM02P0 # frijais
 gir jam ir VMM03P0 # frijam

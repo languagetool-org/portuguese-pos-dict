@@ -67,9 +67,9 @@ r rmos ir VMSF1P0 # convergirmos
 r rdes ir VMSF2P0 # convergirdes
 r rem ir VMSF3P0 # convergirem
 ir e ir VMM02S0 # converge
-ergir irjas ir VMM02S0 # convirjas
+#ergir irjas ir VMM02S0 # convirjas
 ergir irja ir VMM03S0 # convirja
 ergir irjamos ir VMM01P0 # convirjamos
 r 0 ir VMM02P0 # convergi
-ergir irjais ir VMM02P0 # convirjais
+#ergir irjais ir VMM02P0 # convirjais
 ergir irjam ir VMM03P0 # convirjam

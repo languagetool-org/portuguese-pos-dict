@@ -67,9 +67,9 @@ r rmos ir VMSF1P0 # cairmos
 r rdes ir VMSF2P0 # cairdes
 ir írem ir VMSF3P0 # caírem
 r 0 ir VMM02S0 # cai
-r as ir VMM02S0 # caias
+#r as ir VMM02S0 # caias
 r a ir VMM03S0 # caia
 r amos ir VMM01P0 # caiamos
-r ais ir VMM02P0 # caiais
+#r ais ir VMM02P0 # caiais
 ir í ir VMM02P0 # caí
 r am ir VMM03P0 # caiam

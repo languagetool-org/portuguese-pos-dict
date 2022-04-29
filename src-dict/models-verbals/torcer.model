@@ -71,9 +71,9 @@ r rmos er VMSF1P0 # torcermos
 r rdes er VMSF2P0 # torcerdes
 r rem er VMSF3P0 # torcerem
 r 0 er VMM02S0 # torce
-cer ças er VMM02S0 # torças
+#cer ças er VMM02S0 # torças
 cer ça er VMM03S0 # torça
 cer çamos er VMM01P0 # torçamos
 r i er VMM02P0 # torcei
-cer çais er VMM02P0 # torçais
+#cer çais er VMM02P0 # torçais
 cer çam er VMM03P0 # torçam

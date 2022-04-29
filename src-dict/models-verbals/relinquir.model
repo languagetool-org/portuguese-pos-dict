@@ -66,10 +66,10 @@ r r ir VMSF3S0 # relinquir
 r rmos ir VMSF1P0 # relinquirmos
 r rdes ir VMSF2P0 # relinquirdes
 r rem ir VMSF3P0 # relinquirem
-ir as ir VMM02S0 # relinquas
+#ir as ir VMM02S0 # relinquas
 ir e ir VMM02S0 # relinque
 ir a ir VMM03S0 # relinqua
 ir amos ir VMM01P0 # relinquamos
-ir ais ir VMM02P0 # relinquais
+#ir ais ir VMM02P0 # relinquais
 r 0 ir VMM02P0 # relinqui
 ir am ir VMM03P0 # relinquam

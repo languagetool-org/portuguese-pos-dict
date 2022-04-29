@@ -66,10 +66,10 @@ r r ir VMSF3S0 # abluir
 r rmos ir VMSF1P0 # abluirmos
 r rdes ir VMSF2P0 # abluirdes
 ir írem ir VMSF3P0 # abluírem
-ir as ir VMM02S0 # abluas
+#ir as ir VMM02S0 # abluas
 r 0 ir VMM02S0 # ablui
 ir a ir VMM03S0 # ablua
 ir amos ir VMM01P0 # abluamos
-ir ais ir VMM02P0 # abluais
+#ir ais ir VMM02P0 # abluais
 ir í ir VMM02P0 # abluí
 ir am ir VMM03P0 # abluam

@@ -76,9 +76,9 @@ r rmos ar VMSF1P0 # aceitarmos
 r rdes ar VMSF2P0 # aceitardes
 r rem ar VMSF3P0 # aceitarem
 r 0 ar VMM02S0 # aceita
-ar es ar VMM02S0 # aceites
+#ar es ar VMM02S0 # aceites
 ar e ar VMM03S0 # aceite
 ar emos ar VMM01P0 # aceitemos
 r i ar VMM02P0 # aceitai
-ar eis ar VMM02P0 # aceiteis
+#ar eis ar VMM02P0 # aceiteis
 ar em ar VMM03P0 # aceitem

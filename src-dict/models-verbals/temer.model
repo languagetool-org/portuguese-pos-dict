@@ -66,10 +66,10 @@ r r er VMSF3S0 # temer
 r rmos er VMSF1P0 # temermos
 r rdes er VMSF2P0 # temerdes
 r rem er VMSF3P0 # temerem
-er as er VMM02S0 # temas
+#er as er VMM02S0 # temas
 r 0 er VMM02S0 # teme
 er a er VMM03S0 # tema
 er amos er VMM01P0 # temamos
-er ais er VMM02P0 # temais
+#er ais er VMM02P0 # temais
 r i er VMM02P0 # temei
 er am er VMM03P0 # temam

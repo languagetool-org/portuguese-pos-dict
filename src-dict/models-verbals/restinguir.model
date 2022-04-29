@@ -66,10 +66,10 @@ r r ir VMSF3S0 # restinguir
 r rmos ir VMSF1P0 # restinguirmos
 r rdes ir VMSF2P0 # restinguirdes
 r rem ir VMSF3P0 # restinguirem
-uir as ir VMM02S0 # restingas
+#uir as ir VMM02S0 # restingas
 ir e ir VMM02S0 # restingue
 uir a ir VMM03S0 # restinga
 uir amos ir VMM01P0 # restingamos
-uir ais ir VMM02P0 # restingais
+#uir ais ir VMM02P0 # restingais
 r 0 ir VMM02P0 # restingui
 uir am ir VMM03P0 # restingam

@@ -66,10 +66,10 @@ r r ir VMSF3S0 # demitir
 r rmos ir VMSF1P0 # demitirmos
 r rdes ir VMSF2P0 # demitirdes
 r rem ir VMSF3P0 # demitirem
-ir as ir VMM02S0 # demitas
+#ir as ir VMM02S0 # demitas
 ir e ir VMM02S0 # demite
 ir a ir VMM03S0 # demita
 ir amos ir VMM01P0 # demitamos
-ir ais ir VMM02P0 # demitais
+#ir ais ir VMM02P0 # demitais
 r 0 ir VMM02P0 # demiti
 ir am ir VMM03P0 # demitam

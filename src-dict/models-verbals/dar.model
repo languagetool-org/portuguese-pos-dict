@@ -67,9 +67,9 @@ ar ermos ar VMSF1P0 # dermos
 ar erdes ar VMSF2P0 # derdes
 ar erem ar VMSF3P0 # derem
 ar á ar VMM02S0 # dá
-ar ês ar VMM02S0 # dês
+#ar ês ar VMM02S0 # dês
 ar ê ar VMM03S0 # dê
 ar êmos ar VMM01P0 # dêmos
 r i ar VMM02P0 # dai
-ar eis ar VMM02P0 # deis
+#ar eis ar VMM02P0 # deis
 ar eem ar VMM03P0 # deem

@@ -67,10 +67,10 @@ or user or VMSF3S0 # pospuser
 or usermos or VMSF1P0 # pospusermos
 or userdes or VMSF2P0 # pospuserdes
 or userem or VMSF3P0 # pospuserem
-r nhas or VMM02S0 # posponhas
+#r nhas or VMM02S0 # posponhas
 or õe or VMM02S0 # pospõe
 r nha or VMM03S0 # posponha
 r nhamos or VMM01P0 # posponhamos
 r nde or VMM02P0 # posponde
-r nhais or VMM02P0 # posponhais
+#r nhais or VMM02P0 # posponhais
 r nham or VMM03P0 # posponham

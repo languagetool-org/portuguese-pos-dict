@@ -72,9 +72,9 @@ r rmos ar VMSF1P0 # situarmos
 r rdes ar VMSF2P0 # situardes
 r rem ar VMSF3P0 # situarem
 r 0 ar VMM02S0 # situa
-ar es ar VMM02S0 # situes
+#ar es ar VMM02S0 # situes
 ar e ar VMM03S0 # situe
 ar emos ar VMM01P0 # situemos
 r i ar VMM02P0 # situai
-ar eis ar VMM02P0 # situeis
+#ar eis ar VMM02P0 # situeis
 ar em ar VMM03P0 # situem

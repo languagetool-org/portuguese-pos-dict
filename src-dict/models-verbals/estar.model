@@ -66,10 +66,10 @@ ar iver ar VMSF3S0 # estiver
 ar ivermos ar VMSF1P0 # estivermos
 ar iverdes ar VMSF2P0 # estiverdes
 ar iverem ar VMSF3P0 # estiverem
-ar ejas ar VMM02S0 # estejas
+#ar ejas ar VMM02S0 # estejas
 ar á ar VMM02S0 # está
 ar eja ar VMM03S0 # esteja
 ar ejamos ar VMM01P0 # estejamos
 r i ar VMM02P0 # estai
-ar ejais ar VMM02P0 # estejais
+#ar ejais ar VMM02P0 # estejais
 ar ejam ar VMM03P0 # estejam

@@ -66,10 +66,10 @@ r r er VMSF3S0 # perder
 r rmos er VMSF1P0 # perdermos
 r rdes er VMSF2P0 # perderdes
 r rem er VMSF3P0 # perderem
-der cas er VMM02S0 # percas
+#der cas er VMM02S0 # percas
 r 0 er VMM02S0 # perde
 der ca er VMM03S0 # perca
 der camos er VMM01P0 # percamos
-der cais er VMM02P0 # percais
+#der cais er VMM02P0 # percais
 r i er VMM02P0 # perdei
 der cam er VMM03P0 # percam

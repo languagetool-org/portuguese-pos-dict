@@ -71,9 +71,9 @@ r rmos ir VMSF1P0 # inserirmos
 r rdes ir VMSF2P0 # inserirdes
 r rem ir VMSF3P0 # inserirem
 ir e ir VMM02S0 # insere
-erir iras ir VMM02S0 # insiras
+#erir iras ir VMM02S0 # insiras
 erir ira ir VMM03S0 # insira
 erir iramos ir VMM01P0 # insiramos
 r 0 ir VMM02P0 # inseri
-erir irais ir VMM02P0 # insirais
+#erir irais ir VMM02P0 # insirais
 erir iram ir VMM03P0 # insiram

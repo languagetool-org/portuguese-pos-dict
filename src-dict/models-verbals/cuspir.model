@@ -67,9 +67,9 @@ r rmos ir VMSF1P0 # cuspirmos
 r rdes ir VMSF2P0 # cuspirdes
 r rem ir VMSF3P0 # cuspirem
 uspir ospe ir VMM02S0 # cospe
-ir as ir VMM02S0 # cuspas
+#ir as ir VMM02S0 # cuspas
 ir a ir VMM03S0 # cuspa
 ir amos ir VMM01P0 # cuspamos
-ir ais ir VMM02P0 # cuspais
+#ir ais ir VMM02P0 # cuspais
 r 0 ir VMM02P0 # cuspi
 ir am ir VMM03P0 # cuspam

@@ -67,9 +67,9 @@ r rmos er VMSF1P0 # valermos
 r rdes er VMSF2P0 # valerdes
 r rem er VMSF3P0 # valerem
 r 0 er VMM02S0 # vale
-er has er VMM02S0 # valhas
+#er has er VMM02S0 # valhas
 er ha er VMM03S0 # valha
 er hamos er VMM01P0 # valhamos
 r i er VMM02P0 # valei
-er hais er VMM02P0 # valhais
+#er hais er VMM02P0 # valhais
 er ham er VMM03P0 # valham

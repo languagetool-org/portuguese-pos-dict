@@ -67,10 +67,10 @@ r r ar VMSF3S0 # aunar
 r rmos ar VMSF1P0 # aunarmos
 r rdes ar VMSF2P0 # aunardes
 r rem ar VMSF3P0 # aunarem
-ar es ar VMM02S0 # aunes
+#ar es ar VMM02S0 # aunes
 unar úna ar VMM02S0 # aúna
 unar úne ar VMM03S0 # aúne
 ar emos ar VMM01P0 # aunemos
 r i ar VMM02P0 # aunai
-ar eis ar VMM02P0 # auneis
+#ar eis ar VMM02P0 # auneis
 unar únem ar VMM03P0 # aúnem

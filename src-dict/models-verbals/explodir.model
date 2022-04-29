@@ -73,14 +73,14 @@ r r ir VMSF3S0 # explodir
 r rmos ir VMSF1P0 # explodirmos
 r rdes ir VMSF2P0 # explodirdes
 r rem ir VMSF3P0 # explodirem
-ir as ir VMM02S0 # explodas
+#ir as ir VMM02S0 # explodas
 ir e ir VMM02S0 # explode
-odir udas ir VMM02S0 # expludas
+#odir udas ir VMM02S0 # expludas
 ir a ir VMM03S0 # exploda
 odir uda ir VMM03S0 # expluda
 ir amos ir VMM01P0 # explodamos
 odir udamos ir VMM01P0 # expludamos
-ir ais ir VMM02P0 # explodais
+#ir ais ir VMM02P0 # explodais
 r 0 ir VMM02P0 # explodi
 ir am ir VMM03P0 # explodam
 odir udam ir VMM03P0 # expludam

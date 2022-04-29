@@ -70,10 +70,10 @@ r r er VMSF3S0 # encher
 r rmos er VMSF1P0 # enchermos
 r rdes er VMSF2P0 # encherdes
 r rem er VMSF3P0 # encherem
-er as er VMM02S0 # enchas
+#er as er VMM02S0 # enchas
 r 0 er VMM02S0 # enche
 er a er VMM03S0 # encha
 er amos er VMM01P0 # enchamos
-er ais er VMM02P0 # enchais
+#er ais er VMM02P0 # enchais
 r i er VMM02P0 # enchei
 er am er VMM03P0 # encham

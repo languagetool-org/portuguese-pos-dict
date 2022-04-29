@@ -60,9 +60,9 @@ r rmos ir VMSF1P0 # premirmos
 r rdes ir VMSF2P0 # premirdes
 r rem ir VMSF3P0 # premirem
 ir e ir VMM02S0 # preme
-emir imas ir VMM02S0 # primas
+#emir imas ir VMM02S0 # primas
 ir a ir VMM03S0 # prema
 ir amos ir VMM01P0 # premamos
 r 0 ir VMM02P0 # premi
-emir imais ir VMM02P0 # primais
+#emir imais ir VMM02P0 # primais
 ir am ir VMM03P0 # premam

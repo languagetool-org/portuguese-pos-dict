@@ -72,9 +72,9 @@ r rmos ar VMSF1P0 # secarmos
 r rdes ar VMSF2P0 # secardes
 r rem ar VMSF3P0 # secarem
 r 0 ar VMM02S0 # seca
-car ques ar VMM02S0 # seques
+#car ques ar VMM02S0 # seques
 car que ar VMM03S0 # seque
 car quemos ar VMM01P0 # sequemos
 r i ar VMM02P0 # secai
-car queis ar VMM02P0 # sequeis
+#car queis ar VMM02P0 # sequeis
 car quem ar VMM03P0 # sequem

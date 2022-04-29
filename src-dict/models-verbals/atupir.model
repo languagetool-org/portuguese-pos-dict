@@ -70,10 +70,10 @@ r rmos ir VMSF1P0 # atupirmos
 r rdes ir VMSF2P0 # atupirdes
 r rem ir VMSF3P0 # atupirem
 upir ope ir VMM02S0 # atope
-ir as ir VMM02S0 # atupas
+#ir as ir VMM02S0 # atupas
 ir e ir VMM02S0 # atupe
 ir a ir VMM03S0 # atupa
 ir amos ir VMM01P0 # atupamos
-ir ais ir VMM02P0 # atupais
+#ir ais ir VMM02P0 # atupais
 r 0 ir VMM02P0 # atupi
 ir am ir VMM03P0 # atupam

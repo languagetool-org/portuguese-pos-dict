@@ -68,9 +68,9 @@ r rmos ar VMSF1P0 # viuvarmos
 r rdes ar VMSF2P0 # viuvardes
 r rem ar VMSF3P0 # viuvarem
 uvar úva ar VMM02S0 # viúva
-uvar úves ar VMM02S0 # viúves
+#uvar úves ar VMM02S0 # viúves
 uvar úve ar VMM03S0 # viúve
 ar emos ar VMM01P0 # viuvemos
 r i ar VMM02P0 # viuvai
-ar eis ar VMM02P0 # viuveis
+#ar eis ar VMM02P0 # viuveis
 uvar úvem ar VMM03P0 # viúvem

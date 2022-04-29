@@ -68,9 +68,9 @@ r rmos ar VMSF1P0 # faulharmos
 r rdes ar VMSF2P0 # faulhardes
 r rem ar VMSF3P0 # faulharem
 ulhar úlha ar VMM02S0 # faúlha
-ulhar úlhes ar VMM02S0 # faúlhes
+#ulhar úlhes ar VMM02S0 # faúlhes
 ulhar úlhe ar VMM03S0 # faúlhe
 ar emos ar VMM01P0 # faulhemos
 r i ar VMM02P0 # faulhai
-ar eis ar VMM02P0 # faulheis
+#ar eis ar VMM02P0 # faulheis
 ulhar úlhem ar VMM03P0 # faúlhem

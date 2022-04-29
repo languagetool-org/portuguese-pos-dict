@@ -68,9 +68,9 @@ ar ermos ar VMSF1P0 # redermos
 ar erdes ar VMSF2P0 # rederdes
 ar erem ar VMSF3P0 # rederem
 ar á ar VMM02S0 # redá
-ar ês ar VMM02S0 # redês
+#ar ês ar VMM02S0 # redês
 ar ê ar VMM03S0 # redê
 ar êmos ar VMM01P0 # redêmos
 r i ar VMM02P0 # redai
-ar eis ar VMM02P0 # redeis
+#ar eis ar VMM02P0 # redeis
 ar eem ar VMM03P0 # redeem

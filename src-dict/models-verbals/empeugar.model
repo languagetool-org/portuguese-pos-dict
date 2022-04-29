@@ -68,9 +68,9 @@ r rmos ar VMSF1P0 # empeugarmos
 r rdes ar VMSF2P0 # empeugardes
 r rem ar VMSF3P0 # empeugarem
 ugar úga ar VMM02S0 # empeúga
-ugar úgues ar VMM02S0 # empeúgues
+#ugar úgues ar VMM02S0 # empeúgues
 ugar úgue ar VMM03S0 # empeúgue
 ar uemos ar VMM01P0 # empeuguemos
 r i ar VMM02P0 # empeugai
-ar ueis ar VMM02P0 # empeugueis
+#ar ueis ar VMM02P0 # empeugueis
 ugar úguem ar VMM03P0 # empeúguem

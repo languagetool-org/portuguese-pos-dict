@@ -59,10 +59,10 @@ r r ir VMSF3S0 # pruir
 r rmos ir VMSF1P0 # pruirmos
 r rdes ir VMSF2P0 # pruirdes
 ir írem ir VMSF3P0 # pruírem
-ir as ir VMM02S0 # pruas
+#ir as ir VMM02S0 # pruas
 r 0 ir VMM02S0 # prui
 ir a ir VMM03S0 # prua
 ir amos ir VMM01P0 # pruamos
-ir ais ir VMM02P0 # pruais
+#ir ais ir VMM02P0 # pruais
 ir í ir VMM02P0 # pruí
 ir am ir VMM03P0 # pruam

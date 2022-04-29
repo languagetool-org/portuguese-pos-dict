@@ -66,10 +66,10 @@ r r ir VMSF3S0 # prevenir
 r rmos ir VMSF1P0 # prevenirmos
 r rdes ir VMSF2P0 # prevenirdes
 r rem ir VMSF3P0 # prevenirem
-enir inas ir VMM02S0 # previnas
+#enir inas ir VMM02S0 # previnas
 enir ine ir VMM02S0 # previne
 enir ina ir VMM03S0 # previna
 enir inamos ir VMM01P0 # previnamos
 r 0 ir VMM02P0 # preveni
-enir inais ir VMM02P0 # previnais
+#enir inais ir VMM02P0 # previnais
 enir inam ir VMM03P0 # previnam

@@ -72,9 +72,9 @@ r rmos ar VMSF1P0 # fartarmos
 r rdes ar VMSF2P0 # fartardes
 r rem ar VMSF3P0 # fartarem
 r 0 ar VMM02S0 # farta
-ar es ar VMM02S0 # fartes
+#ar es ar VMM02S0 # fartes
 ar e ar VMM03S0 # farte
 ar emos ar VMM01P0 # fartemos
 r i ar VMM02P0 # fartai
-ar eis ar VMM02P0 # farteis
+#ar eis ar VMM02P0 # farteis
 ar em ar VMM03P0 # fartem

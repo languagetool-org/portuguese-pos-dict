@@ -70,9 +70,9 @@ r rmos ar VMSF1P0 # ruidarmos
 r rdes ar VMSF2P0 # ruidardes
 r rem ar VMSF3P0 # ruidarem
 idar ída ar VMM02S0 # ruída
-idar ídes ar VMM02S0 # ruídes
+#idar ídes ar VMM02S0 # ruídes
 idar íde ar VMM03S0 # ruíde
 ar emos ar VMM01P0 # ruidemos
 r i ar VMM02P0 # ruidai
-ar eis ar VMM02P0 # ruideis
+#ar eis ar VMM02P0 # ruideis
 idar ídem ar VMM03P0 # ruídem

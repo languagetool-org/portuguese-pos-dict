@@ -66,10 +66,10 @@ r r ir VMSF3S0 # reunir
 r rmos ir VMSF1P0 # reunirmos
 r rdes ir VMSF2P0 # reunirdes
 r rem ir VMSF3P0 # reunirem
-unir únas ir VMM02S0 # reúnas
+#unir únas ir VMM02S0 # reúnas
 unir úne ir VMM02S0 # reúne
 unir úna ir VMM03S0 # reúna
 ir amos ir VMM01P0 # reunamos
-ir ais ir VMM02P0 # reunais
+#ir ais ir VMM02P0 # reunais
 r 0 ir VMM02P0 # reuni
 unir únam ir VMM03P0 # reúnam

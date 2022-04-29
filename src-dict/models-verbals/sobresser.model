@@ -66,10 +66,10 @@ sser for er VMSF3S0 # sobrefor
 sser formos er VMSF1P0 # sobreformos
 sser fordes er VMSF2P0 # sobrefordes
 sser forem er VMSF3P0 # sobreforem
-r jas er VMM02S0 # sobressejas
+#r jas er VMM02S0 # sobressejas
 er ê er VMM02S0 # sobressê
 r ja er VMM03S0 # sobresseja
 r jamos er VMM01P0 # sobressejamos
 r de er VMM02P0 # sobressede
-r jais er VMM02P0 # sobressejais
+#r jais er VMM02P0 # sobressejais
 r jam er VMM03P0 # sobressejam
