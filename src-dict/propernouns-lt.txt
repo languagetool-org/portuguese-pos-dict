@@ -119,6 +119,7 @@ Acilina Acilino NPFS000
 Acilino Acilino NPMS000
 Acindina Acindino NPFS000
 Acindino Acindino NPMS000
+Aciso Aciso NPFSO00
 Aclésia Aclésio NPFS000
 Aclésio Aclésio NPMS000
 Aconcágua Aconcágua NPFS000
@@ -313,6 +314,7 @@ Afsana Afsana NPFS000
 Agadão Agadão NPCSG00
 Agapita Agapito NPFS000
 Agapito Agapito NPMS000
+Agar Agar NPFSSP0
 Agaricales Agaricales NPCS000
 Agaricomycetes Agaricomycetes NPCS000
 Agaricomycetidae Agaricomycetidae NPCS000
@@ -5740,6 +5742,7 @@ Haddock Haddock NPMS000
 Hadorão Hadorão NPMS000
 Hafa Hafa NPFS000
 Hafez Hafez NPMS000
+Hagar Hagar NPFSSP0
 Haia Haia NPFSG00
 Haia Haia NPMSG00
 Haifa Haifa NPFS000
@@ -7448,6 +7451,7 @@ Maqueda Maqueda NPFS000
 Maquiavel Maquiavel NPMS000
 Maquiavel Maquiavel NPMSS00
 Mar Mar NPCSG00
+Mara Mara NPCSG00
 Maraba Maraba NPFS000
 Maracajara Maracajara NPFS000
 Maraneyma Maraneyma NPFS000
@@ -7575,8 +7579,8 @@ Maruxa Maruxa NPFS000
 Marvila Marvila NPCSG00
 Marvão Marvão NPCSG00
 Marvão Marvão NPMSG00
-Marx Marx NPMSS00
-Mary Mary NPMSS00
+Marx Marx NPCNSP0
+Mary Mary NPFSSP0
 Marzagão Marzagão NPCSG00
 Marzagão Marzagão NPMS000
 Marão Marão NPMSG00
@@ -8654,7 +8658,7 @@ PGP PGP NPMS000
 PGR PGR NPFS000
 PIB PIB NPMS000
 PIDDAC PIDDAC NPMS000
-PIDE PIDE NPFS000
+PIDE PIDE NPFSO00
 PJ PJ NPFS000
 PME PME NPFS000
 PP PP NPMS000
@@ -9039,6 +9043,7 @@ Pico Pico NPCSG00
 Picornavirales Picornavirales NPCS000
 Picote Picote NPCSG00
 Picão Picão NPCSG00
+Pide Pide NPFSO00
 Piedade Piedade NPCSG00
 Piemonte Piemonte NPMS000
 Piemonte Piemonte NPMSG00

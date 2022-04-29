@@ -1,4 +1,5 @@
 
+#aciso acisa=A;src: LT;
 #cadelo cadela=A;src: LT;
 #coiso coisa=A;src: LT;
 #espaço espaça=A;src: LT; unusual Brazil
@@ -965,7 +966,6 @@ acirrado acirrada=A;src: LT;
 acirrador acirradora=A;src: LT;
 acirrante=A;src: LT;
 acirrável=A;src: LT;
-aciso acisa=A;src: LT;
 acitano acitana=A;src: LT;
 acitrinado acitrinada=A;src: LT;
 aciésico aciésica=A;src: LT;

@@ -1,5 +1,6 @@
 #no no RG
 #nom nom RG
+#sabe sabe RG #Cabo Verde Guiné-Bissau
 abaixo abaixo RG
 abasto abasto RG
 abeterno abeterno RG
@@ -342,7 +343,6 @@ rijo rijo RG
 rinforzando rinforzando RG
 rápido rápido RG
 rés rés RG
-sabe sabe RG
 salvo salvo RG
 samicas samicas RG
 scherzando scherzando RG
