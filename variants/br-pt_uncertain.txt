@@ -723,6 +723,7 @@ refratômetro=refractômetro
 regioleto=regiolecto
 reotático=reotáctico
 respetivamente=respectivamente
+respetivo=respectivo
 retratilidade=retractilidade
 retrativamente=retractivamente
 retrativo=retractivo

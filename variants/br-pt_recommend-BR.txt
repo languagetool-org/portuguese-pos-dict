@@ -28,6 +28,7 @@ ateira=apteira
 ateruro=apteruro
 atitude=aptitude
 ato=apto
+atração=atracção
 atrético=atréptico
 autoinfeção=autoinfecção
 bata=bapta

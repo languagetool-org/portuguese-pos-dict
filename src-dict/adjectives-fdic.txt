@@ -39595,6 +39595,7 @@ resolvente=A;src: LT;
 resolvido resolvida [sup. resolvidíssimo]=A;src: LT;
 resolvível=A;src: LT;
 resolúvel=A;src: LT;
+respectivo respectiva=A;src: LT; Brasil
 respeitado respeitada [sup. respeitadíssimo]=A;src: LT;
 respeitador respeitadora=A;src: LT;
 respeitante=A;src: LT;
