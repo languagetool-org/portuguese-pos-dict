@@ -942,7 +942,7 @@ Andrezinho Andrezinho NPMS000
 Andria Andria NPFS000
 Andrina Andrino NPFS000
 Andrino Andrino NPMS000
-Android Android NPMS000
+Android Android NPCNO00
 Andruscha Andruscha NPFS000
 Andrámaca Andrámaco NPFS000
 Andrámaco Andrámaco NPMS000
@@ -2188,6 +2188,7 @@ Botelho Botelho NPMSS00
 Boticas Boticas NPCSG00
 Botsuana Botsuana NPFSG00
 Botsuana Botsuana NPMSG00
+Botswana Botswana NPFSG00
 Botão Botão NPCSG00
 Bouazizi Bouazizi NPMS000
 Boudica Boudica NPFS000
@@ -5322,7 +5323,7 @@ Gerúncia Gerúncio NPFS000
 Gerúncio Gerúncio NPMS000
 Geslinda Geslinda NPFS000
 Gespública Gespública NPFS000
-Gestapo Gestapo NPMS000
+Gestapo Gestapo NPFSO00
 Gestaçô Gestaçô NPCSG00
 Gesteira Gesteira NPCSG00
 Gesualda Gesualdo NPFS000
@@ -7190,6 +7191,7 @@ Luiziana Luiziana NPFS000
 Luiziânia Luiziânia NPFS000
 Lula Lula NPMS000
 Lulcimara Lulcimara NPFS000
+Lulu Lulu NPFSSP0
 Luma Luma NPFS000
 Lumen Lumen NPMS000
 Lumiar Lumiar NPCSG00
@@ -7454,6 +7456,7 @@ Mar Mar NPCSG00
 Mara Mara NPCSG00
 Maraba Maraba NPFS000
 Maracajara Maracajara NPFS000
+Marambaia Marambaia NPFSG00
 Maraneyma Maraneyma NPFS000
 Maranhão Maranhão NPCSG00
 Maranhão Maranhão NPMSG00
