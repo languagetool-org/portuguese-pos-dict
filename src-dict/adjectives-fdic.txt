@@ -8167,6 +8167,7 @@ bolotado bolotada=A;src: LT;
 bolsado bolsada=A;src: LT;
 bolseiro bolseira=A;src: LT;
 bolsista=A;src: LT;
+bom boa=A;src: LT;
 bombacáceo bombacácea=A;src: LT;
 bombardeado bombardeada=A;src: LT;
 bombardeador bombardeadora=A;src: LT;

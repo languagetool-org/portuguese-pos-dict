@@ -1,5 +1,6 @@
 #no no RG
 #nom nom RG
+#porque porque RG
 #sabe sabe RG #Cabo Verde Guiné-Bissau
 abaixo abaixo RG
 abasto abasto RG
@@ -290,7 +291,6 @@ piano piano RG
 pianíssimo pianíssimo RG
 pior pior RG
 pois pois RG
-porque porque RG
 porquê porquê RG
 porventura porventura RG
 poucachinho poucachinho RG

@@ -227,6 +227,7 @@ caspité caspité I
 catano catano I
 catapus catapus I
 catatraz catatraz I
+catorze catorze Z0CP0
 catrâmbias catrâmbias I
 cebolório cebolório I
 certa certo DI0FS0
@@ -770,6 +771,7 @@ quantos quanto PE0MP000
 quantos quanto PI0MP000
 quantos quanto PR0MP000
 quantos quanto PT0MP000
+quatorze quatorze Z0CP0
 quatro quatro Z0CP0
 quatrocentas quatrocentos Z0FP0
 quatrocentos quatrocentos Z0MP0
