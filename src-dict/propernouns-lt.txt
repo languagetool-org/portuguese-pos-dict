@@ -8721,6 +8721,7 @@ Palme Palme NPCSG00
 Palmeira Palmeira NPCSG00
 Palmeira Palmeira NPFSG00
 Palmeira Palmeira NPMSG00
+Palmeiras Palmeiras NPMS000
 Palmeirina Palmeirina NPFS000
 Palmeirândia Palmeirândia NPFS000
 Palmela Palmela NPCSG00
