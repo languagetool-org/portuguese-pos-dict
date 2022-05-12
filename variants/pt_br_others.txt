@@ -1,1 +1,2 @@
 comumente=comummente
+gameta=gâmeta
