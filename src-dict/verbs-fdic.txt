@@ -14727,6 +14727,7 @@ virginalizar=V;model:amar;src: LT;
 virginizar=V;model:amar;src: LT;
 virgular=V;model:amar;src: LT;
 virilizar=V;model:amar;src: LT;
+virtualizar=V;model:amar;src: priberam;
 visar=V;model:amar;src: LT;
 viscondizar=V;model:amar;src: LT;
 visgar=V;model:alugar;src: LT;
