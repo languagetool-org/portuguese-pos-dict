@@ -221,6 +221,7 @@ caput caput I
 carago carago I
 caralho caralho I
 caramba caramba I
+caraças	caraças	I
 carrega carrega I
 caso caso CS
 caspité caspité I
@@ -278,6 +279,7 @@ cujos cujo PR0MP000
 da de:a SPS00:DA0FS0
 dacolá de:acolá SPS00:RG
 dado dado CS
+dah	dah	I
 dalgo de:algo SPS00:PI0CN00
 dalgum de:algum SPS00:DI0MS0
 dalgum de:algum SPS00:PI0MS000
