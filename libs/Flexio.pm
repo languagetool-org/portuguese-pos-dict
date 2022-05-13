@@ -19,32 +19,10 @@ sub plural {
     my $genere_resultat = defined $_[1] ? $_[1] : 'M';
     my $genere_origen = defined $_[2] ? $_[2] : 'M';
 
-=pod
-    $paraula=~s/án$/anes/;
-    $paraula=~s/én$/enes/;
-    $paraula=~s/ín$/ines/;
-    $paraula=~s/ón$/ones/;
-    $paraula=~s/ún$/unes/;
-
-    $paraula=~s/in$/ines/;    
-    $paraula=~s/an$/anes/;    
-    $paraula=~s/on$/ones/;    
-
-    $paraula=~s/ás$/ases/;    
-    $paraula=~s/és$/eses/;    
-    $paraula=~s/ís$/ises/;    
-    $paraula=~s/ós$/oses/;
-    $paraula=~s/ús$/uses/;    
-
-    $paraula=~s/is$/ises/;
-    $paraula=~s/y$/yes/;
-    $paraula=~s/j$/jes/;
-    
-
-    $paraula=~s/([rdf])$/$1es/;
-=cut
     #$paraula=~s/([ãêôaeiouéáóúcktpb])$/$1s/;
     $paraula=~s/([r])$/$1es/;
+    
+    $paraula=~s/t$/ts/;
     
     $paraula=~s/([áúêíéó].*)il$/$1eis/;
     $paraula=~s/([áúêíéó].*)el$/$1eis/;

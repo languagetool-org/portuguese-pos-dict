@@ -587,6 +587,7 @@ bebedamente bebedamente RG
 belamente belamente RG
 belicamente belicamente RG
 belicosamente belicosamente RG
+beligerantemente beligerantemente RG
 bem-afortunadamente bem-afortunadamente RG
 bem-aventuradamente bem-aventuradamente RG
 bem-encaradamente bem-encaradamente RG
@@ -826,6 +827,7 @@ comummente comummente RG
 comunicativamente comunicativamente RG
 comunitariamente comunitariamente RG
 comutativamente comutativamente RG
+conceitualmente conceitualmente RG
 conceituosamente conceituosamente RG
 concentradamente concentradamente RG
 concentricamente concentricamente RG
@@ -955,6 +957,7 @@ criptograficamente criptograficamente RG
 cristãmente cristãmente RG
 criteriosamente criteriosamente RG
 criticamente criticamente RG
+cronicamente cronicamente RG
 cronograficamente cronograficamente RG
 cronologicamente cronologicamente RG
 cronometricamente cronometricamente RG
@@ -1415,6 +1418,7 @@ enternecidamente enternecidamente RG
 entranhadamente entranhadamente RG
 entusiasticamente entusiasticamente RG
 envaidecidamente envaidecidamente RG
+envergonhadamente envergonhadamente RG
 enviesadamente enviesadamente RG
 enxovalhadamente enxovalhadamente RG
 enxundiosamente enxundiosamente RG
@@ -1580,6 +1584,7 @@ exemplarmente exemplarmente RG
 exemplificativamente exemplificativamente RG
 exiguamente exiguamente RG
 eximiamente eximiamente RG
+exogenamente exogenamente RG
 exorbitantemente exorbitantemente RG
 exortativamente exortativamente RG
 exortatoriamente exortatoriamente RG
@@ -1996,6 +2001,7 @@ imponderavelmente imponderavelmente RG
 imponentemente imponentemente RG
 impopularmente impopularmente RG
 importunamente importunamente RG
+impossivelmente impossivelmente RG
 impotentemente impotentemente RG
 impraticavelmente impraticavelmente RG
 imprecativamente imprecativamente RG
@@ -2340,6 +2346,7 @@ interminavelmente interminavelmente RG
 intermitentemente intermitentemente RG
 internacionalmente internacionalmente RG
 internamente internamente RG
+interplanetariamente interplanetariamente RG
 interpoladamente interpoladamente RG
 interpretativamente interpretativamente RG
 interrogadoramente interrogadoramente RG
@@ -2752,6 +2759,7 @@ munificentemente munificentemente RG
 muscularmente muscularmente RG
 musicalmente musicalmente RG
 musicamente musicamente RG
+mutualmente mutualmente RG
 mutuamente mutuamente RG
 muçulmanamente muçulmanamente RG
 nacionalisticamente nacionalisticamente RG
@@ -3158,6 +3166,7 @@ prioritariamente prioritariamente RG
 privadamente privadamente RG
 privativamente privativamente RG
 privilegiadamente privilegiadamente RG
+probabilisticamente probabilisticamente RG
 probamente probamente RG
 problematicamente problematicamente RG
 processionalmente processionalmente RG
@@ -3286,6 +3295,7 @@ razoadamente razoadamente RG
 razoavelmente razoavelmente RG
 reacionariamente reacionariamente RG
 realengamente realengamente RG
+realistamente realistamente RG
 realisticamente realisticamente RG
 realmente realmente RG
 rebarbativamente rebarbativamente RG
@@ -3309,6 +3319,7 @@ recriminativamente recriminativamente RG
 recriminatoriamente recriminatoriamente RG
 rectangularmente rectangularmente RG
 rectilineamente rectilineamente RG
+recursivamente recursivamente RG
 recurvadamente recurvadamente RG
 redarguitivamente redarguitivamente RG
 redobradamente redobradamente RG
@@ -3830,6 +3841,7 @@ toleravelmente toleravelmente RG
 tonalmente tonalmente RG
 tonicamente tonicamente RG
 topograficamente topograficamente RG
+topologicamente topologicamente RG
 toponimicamente toponimicamente RG
 torcidamente torcidamente RG
 tormentosamente tormentosamente RG
