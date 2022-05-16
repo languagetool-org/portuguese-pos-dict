@@ -1353,6 +1353,7 @@ taquigênese=taquigénese
 targiônia=targiónia
 tartarômetro=tartarómetro
 tarô=taró
+taxinômico=taxinómico
 tectogênese=tectogénese
 tectônica=tectónica
 telefonômetro=telefonómetro
