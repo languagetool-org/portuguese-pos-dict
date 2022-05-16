@@ -4739,6 +4739,7 @@ Famalicão Famalicão NPFSG00
 Famões Famões NPCSG00
 Fanhões Fanhões NPCSG00
 Fanny Fanny NPMSS00
+Far-West Far-West NPMSG00
 Fareja Fareja NPCSG00
 Faria Faria NPCSG00
 Faria Faria NPMSS00
@@ -7696,6 +7697,7 @@ Medicilândia Medicilândia NPFS000
 Medina Medina NPMSS00
 Mediterrâneo Mediterrâneo NPMSG00
 Medrões Medrões NPCSG00
+Mefistófeles Mefistófeles NPMSSP0
 Megachiroptera Megachiroptera NPCS000
 Megadeth Megadeth NPMPO00
 Megida Megido NPFS000
@@ -8272,6 +8274,7 @@ Nespereira Nespereira NPCSG00
 Nestlé Nestlé NPCSO00
 Nestor Nestor NPMS000
 Nestor Nestor NPMSS00
+NetBanco NetBanco NPMSO00
 Netuna Netuno NPFS000
 Netuno Netuno NPMS000
 Neumann Neumann NPMS000

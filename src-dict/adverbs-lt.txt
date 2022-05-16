@@ -208,6 +208,7 @@ incógnito incógnito RG
 inda inda RG
 infra infra RG
 intramuros intramuros RG
+inté inté RG
 jamais jamais RG
 juntinho juntinho RG
 junto junto RG
@@ -240,6 +241,7 @@ mansinho mansinho RG
 manso manso RG
 meio meio RG
 melhor melhor RG
+melhorzinho melhorzinho RG
 menos menos RG
 menos-mal menos-mal RG
 mentes mentes RG

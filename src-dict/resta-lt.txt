@@ -434,6 +434,8 @@ eu eu PP1CSN00
 exactamente exactamente I
 excepto excepto CC
 excepto excepto SPS00
+exceto exceto CC
+exceto exceto SPS00
 fasta fasta I
 figas figas I
 fixe fixe I
@@ -443,8 +445,11 @@ força força I
 fu fu I
 fum fum I
 fó fó I
+g g NCMN000
 garré garré I
 guai guai I
+hail hail I
+heil heil I
 hem hem I
 heureca heureca I
 him him I
@@ -458,6 +463,7 @@ hálas hálas I
 hã hã I
 ih ih I
 in in SPS00
+inté inté I
 irra irra I
 isso isso PD0NN000
 isto isto PD0NN000
@@ -465,6 +471,8 @@ jamais jamais RN
 jesus jesus I
 já já CS
 já já I
+kg kg NCMN000
+km km NCMN000
 la o PP3FSA00
 las o PP3FPA00
 lha lhe:a PP3CSD00:PP3FSA00
@@ -478,7 +486,7 @@ logo logo CS
 los o PP3MPA00
 ma me:a PP1CS000:PP3FSA00
 mal mal CC
-malgrado malgrado CC
+malgrado malgrado SPS00
 mas mas CC
 mas me:as PP1CS00:PP3FPA00
 me me PP1CS000
@@ -607,6 +615,7 @@ nestoutro em:este:outro SPS00:DD0MS0:DI0MS0
 nestoutro em:este:outro SPS00:PD0MS000:PI0MS000
 nestoutros em:este:outro SPS00:DD0MP0:DI0MP0
 nestoutros em:este:outro SPS00:PD0MP000:PI0MP000
+nham nham I
 ninguém ninguém PI0CN000
 nisso em:isso SPS00:PD0NN00
 nisto em:isto SPS00:PD0NN00
@@ -644,6 +653,7 @@ o o DA0MS0
 o o PD0MS000
 o o PP3MSA00
 obrigada obrigada I
+obrigadinho obrigadinho I
 obrigado obrigado I
 oh oh I
 oito oito Z0CP0
