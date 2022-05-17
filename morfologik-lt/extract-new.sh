@@ -11,15 +11,15 @@
 lt_tools=~/target-lt/languagetool.jar
 
 # dump the tagger dictionary
-java -cp $lt_tools org.languagetool.tools.DictionaryExporter -i es-ES.dict -o es-ES_lt.txt -info es-ES.info
+java -cp $lt_tools org.languagetool.tools.DictionaryExporter -i portuguese.dict -o portuguese_lt.txt -info portuguese.info
 
-cp es-ES_lt.txt diccionari_antic.txt
+cp portuguese_lt.txt dict_old.txt
 echo "Preparant diccionari"
-sed -i 's/^\(.*\)\t\(.*\)\t\(.*\)$/\1 \2 \3/' diccionari_antic.txt
+sed -i 's/^\(.*\)\t\(.*\)\t\(.*\)$/\1 \2 \3/' dict_old.txt
 echo "Ordenant diccionari"
-export LC_ALL=C && sort -u diccionari_antic.txt -o diccionari_antic.txt
+export LC_ALL=C && sort -u dict_old.txt -o dict_old.txt
 echo "Comparant diccionaris"
-diff ../results/lt/diccionari.txt diccionari_antic.txt > diff.txt
+diff ../results/lt/dict.txt dict_old.txt > diff.txt
 
 echo "Extraient novetats"
 grep -E "^< " diff.txt > added-body.txt
@@ -31,8 +31,8 @@ sed -i '/^\s*$/d' novetats_sense_tag.txt
 export LC_ALL=C && sort -u novetats_sense_tag.txt -o novetats_sense_tag.txt
 cat spelling.head novetats_sense_tag.txt > spelling.txt
 cat added-tagger.head added-body.txt > added.txt
-cp added.txt /home/jaume/github/languagetool/languagetool-language-modules/es/src/main/resources/org/languagetool/resource/es/
-cp spelling.txt /home/jaume/github/languagetool/languagetool-language-modules/es/src/main/resources/org/languagetool/resource/es/hunspell
+cp added.txt /home/jaume/github/languagetool/languagetool-language-modules/pt/src/main/resources/org/languagetool/resource/pt/
+cp spelling.txt /home/jaume/github/languagetool/languagetool-language-modules/pt/src/main/resources/org/languagetool/resource/pt/hunspell
 
 echo "Extraient paraules esborrades"
 grep -E "^> " diff.txt > removed-body.txt
@@ -45,8 +45,8 @@ sed -i '/^\s*$/d' removed-body.txt
 #export LC_ALL=C && sort -u novetats_sense_tag.txt -o novetats_sense_tag.txt
 #cat spelling.head novetats_sense_tag.txt > spelling.txt
 cat removed-tagger.head removed-body.txt > removed.txt
-cp removed.txt /home/jaume/github/languagetool/languagetool-language-modules/es/src/main/resources/org/languagetool/resource/es/
-#cp spelling.txt /home/jaume/github/languagetool/languagetool-language-modules/es/src/main/resources/org/languagetool/resource/es/hunspell
+cp removed.txt /home/jaume/github/languagetool/languagetool-language-modules/pt/src/main/resources/org/languagetool/resource/pt/
+#cp spelling.txt /home/jaume/github/languagetool/languagetool-language-modules/pt/src/main/resources/org/languagetool/resource/pt/hunspell
 
 echo "Results in: spelling.txt added.txt removed.txt"
 
