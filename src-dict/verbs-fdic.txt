@@ -2,6 +2,7 @@
 #atuir=V;model:abluir;src: LT; regionalism, some forms match "atuar"
 #erar=V;model:amar;src: LT; regionalism
 #exir=V;model:demitir;src: LT; old
+#quentar=V;model:amar;src: LT; -> aquentar
 #sociar=V;model:amar;src: LT; rare
 ab-rogar=V;model:alugar;src: LT;
 ababalhar=V;model:amar;src: LT;
@@ -12002,7 +12003,6 @@ queijar=V;model:amar;src: LT;
 queimar=V;model:amar;src: LT;
 queixar=V;model:amar;src: LT;
 quenhar=V;model:amar;src: LT;
-quentar=V;model:amar;src: LT;
 querar=V;model:amar;src: LT;
 queratinizar=V;model:amar;src: LT;
 querelar=V;model:amar;src: LT;

@@ -797,6 +797,7 @@ aceitador aceitadora=A;src: LT;
 aceitante=A;src: LT;
 aceitativo aceitativa=A;src: LT;
 aceite=A;src: LT;
+aceito aceita=A;src: priberam, Brasil?;
 aceitoso aceitosa=A;src: LT;
 aceitável=A;src: LT;
 acelerado acelerada [sup. aceleradíssimo]=A;src: LT;

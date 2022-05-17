@@ -1,4 +1,11 @@
 
+#Campo Campo NPCSG00
+#Campos Campos NPCSG00
+#Graça Graça NPCSG00
+#Graça Graça NPFS000
+#Graça Graça NPFSS00
+#Igreja Igreja NPFS000
+#Iémene Iémene NPMSG00
 AAC AAC NPFS000
 ABC ABC NPMS000
 AC AC NPCSO00
@@ -1205,7 +1212,6 @@ Archdeacon Archdeacon NPMS000
 Arcibalda Arcibaldo NPFS000
 Arcibaldo Arcibaldo NPMS000
 Arcos Arcos NPCNG00
-Arcos Arcos NPCSG00
 Arcossó Arcossó NPCSG00
 Arcozela Arcozelo NPFS000
 Arcozelo Arcozelo NPCSG00
@@ -1303,8 +1309,7 @@ Aritana Aritana NPFS000
 Arivalda Arivaldo NPFS000
 Arivaldo Arivaldo NPMS000
 Ariz Ariz NPCSG00
-Arizona Arizona NPFSG00
-Arizona Arizona NPMSG00
+Arizona Arizona NPCSG00
 Ariádena Ariádena NPFS000
 Arião Arião NPMS000
 Arkansas Arkansas NPMSG00
@@ -1698,8 +1703,6 @@ Baiona Baiona NPMSG00
 Bairrada Bairrada NPFSG00
 Bairrada Bairrada NPMSG00
 Bairradas Bairradas NPCSG00
-Bairro Bairro NPCSG00
-Bairro Bairro NPMSG00
 Bairros Bairros NPCSG00
 Baião Baião NPCSG00
 Baião Baião NPMSG00
@@ -2185,7 +2188,6 @@ Boston Boston NPMSG00
 Botelho Botelho NPMSS00
 Boticas Boticas NPCSG00
 Botsuana Botsuana NPFSG00
-Botsuana Botsuana NPMSG00
 Botswana Botswana NPFSG00
 Botão Botão NPCSG00
 Bouazizi Bouazizi NPMS000
@@ -2584,11 +2586,9 @@ Campeã Campeã NPCSG00
 Campia Campia NPCSG00
 Campinho Campinho NPCSG00
 Campisa Campisa NPFS000
-Campo Campo NPCSG00
 Campolide Campolide NPCSG00
 Campolide Campolide NPFSG00
 Campos Campos NPCNG00
-Campos Campos NPCSG00
 Campus Campus NPMS000
 Campus Campus NPMSS00
 Campânia Campânia NPFSG00
@@ -3036,8 +3036,7 @@ Chelas Chelas NPFSG00
 Cheleiros Cheleiros NPCSG00
 Chelicerata Chelicerata NPCS000
 Chen Chen NPMSS00
-Cher Cher NPFS000
-Cher Cher NPMSS00
+Cher Cher NPCNSP0
 Cherburga Cherburgo NPFS000
 Cherburgo Cherburgo NPMS000
 Chevalier Chevalier NPMSS00
@@ -3468,9 +3467,7 @@ Covelinhas Covelinhas NPCSG00
 Covelo Covelo NPCSG00
 Covelães Covelães NPCSG00
 Covide Covide NPCSG00
-Covilhã Covilhã NPCSG00
 Covilhã Covilhã NPFSG00
-Covilhã Covilhã NPMSG00
 Covoada Covoada NPCSG00
 Covões Covões NPCSG00
 Coxixola Coxixola NPFS000
@@ -4006,7 +4003,6 @@ Duília Duílio NPFS000
 Duílio Duílio NPMS000
 Dylan Dylan NPMSS00
 Dácia Dácia NPFS000
-Dácia Dácia NPMS000
 Dácios Dácios NPMS000
 Dálvares Dálvares NPCSG00
 Dámasa Dámaso NPFS000
@@ -4504,8 +4500,7 @@ Estrasburgo Estrasburgo NPMS000
 Estreito Estreito NPCSG00
 Estrela Estrela NPFS000
 Estrela Estrela NPFSS00
-Estremadura Estremadura NPFS000
-Estremadura Estremadura NPMS000
+Estremadura Estremadura NPFSG00
 Estremoz Estremoz NPCSG00
 Estremoz Estremoz NPMSG00
 Estugarda Estugarda NPFSG00
@@ -4969,8 +4964,7 @@ Folhada Folhada NPCSG00
 Folhadela Folhadela NPCSG00
 Folhadosa Folhadosa NPCSG00
 Folques Folques NPCSG00
-Fonseca Fonseca NPCSS00
-Fonseca Fonseca NPMSS00
+Fonseca Fonseca NPCNSP0
 Fontainhas Fontainhas NPMS000
 Fontarcada Fontarcada NPCSG00
 Fontelas Fontelas NPCSG00
@@ -5195,8 +5189,7 @@ Gamboarota Gamboarota NPFS000
 Gamil Gamil NPCSG00
 Gammacoronavirus Gammacoronavirus NPCS000
 Gammaproteobacteria Gammaproteobacteria NPCS000
-Gana Gana NPFS000
-Gana Gana NPMS000
+Gana Gana NPMSG00
 Gandarela Gandarela NPCSG00
 Gandhi Gandhi NPMS000
 Gandolfa Gandolfo NPFS000
@@ -5307,7 +5300,6 @@ Germil Germil NPCSG00
 Germiniana Germiniano NPFS000
 Germiniano Germiniano NPMS000
 Germânia Germânia NPFSG00
-Germânia Germânia NPMS000
 Gertrudes Gertrudes NPFS000
 Gertrudes Gertrudes NPFSS00
 Gerusa Gerusa NPFS000
@@ -5567,9 +5559,6 @@ Graziana Graziano NPFS000
 Graziano Graziano NPMS000
 Graziela Graziela NPFS000
 Grazziani Grazziani NPMS000
-Graça Graça NPCSG00
-Graça Graça NPFS000
-Graça Graça NPFSS00
 Greenwich Greenwich NPMSG00
 Gregoriano Gregoriano NPMS000
 Gregório Gregório NPMS000
@@ -5929,10 +5918,8 @@ Hiroíto Hiroíto NPMS000
 Hirão Hirão NPMS000
 Hispano Hispano NPMS000
 Hispânia Hispânia NPFSG00
-Hispânia Hispânia NPMS000
-Hitchcock Hitchcock NPMSS00
-Hitler Hitler NPMS000
-Hitler Hitler NPMSS00
+Hitchcock Hitchcock NPCNSP0
+Hitler Hitler NPMSSP0
 Ho Ha NPFS000
 Ho Ho NPMS000
 Hoare Hoare NPMSS00
@@ -6072,8 +6059,7 @@ Iandeyara Iandeyara NPFS000
 Iapuama Iapuama NPFS000
 Iarinha Iarinha NPFS000
 Iasião Iasião NPMS000
-Ibama Ibama NPFS000
-Ibama Ibama NPMS000
+Ibama Ibama NPMSP00
 Ibarama Ibarama NPFS000
 Ibaretama Ibaretama NPFS000
 Ibateguara Ibateguara NPFS000
@@ -6149,8 +6135,6 @@ Igino Igino NPMS000
 Ignácia Ignácio NPFS000
 Ignácio Ignácio NPMS000
 Igrapiúna Igrapiúna NPFS000
-Igreja Igreja NPFS000
-Igreja Igreja NPMS000
 Igrejinha Igrejinha NPCSG00
 Iguaba Iguaba NPFS000
 Iguara Iguara NPFS000
@@ -6385,7 +6369,7 @@ Izolita Izolita NPFS000
 Iásia Iásio NPFS000
 Iásio Iásio NPMS000
 Iémen Iémen NPMSG00
-Iémene Iémene NPMSG00
+Iêmen Iêmen NPMSG00
 Iúna Iúna NPFS000
 JS JS NPFS000
 JSD JSD NPFS000
@@ -6554,8 +6538,7 @@ Jonas Jonas NPMS000
 Jonas Jonas NPMSS00
 Jonão Jonão NPMS000
 Jordan Jordan NPMSS00
-Jordânia Jordânia NPFS000
-Jordânia Jordânia NPMS000
+Jordânia Jordânia NPFSG00
 Jordão Jordão NPMS000
 Jordão Jordão NPMSS00
 Jorge Jorge NPMS000
@@ -6633,8 +6616,7 @@ Judite Judite NPFS000
 Judite Judite NPFSS00
 Judith Judith NPMSS00
 Judá Judá NPMSG00
-Jugoslávia Jugoslávia NPFS000
-Jugoslávia Jugoslávia NPMS000
+Jugoslávia Jugoslávia NPFSG00
 Jugueiros Jugueiros NPCSG00
 Jules Jules NPMSS00
 Julho-Setembra Julho-Setembro NPFS000
@@ -6818,8 +6800,6 @@ Lajedo Lajedo NPCSG00
 Lajedão Lajedão NPMS000
 Lajeosa Lajeosa NPCSG00
 Lajes Lajes NPCNG00
-Lajes Lajes NPCSG00
-Lajes Lajes NPMSS00
 Lalim Lalim NPCSG00
 Lama Lama NPCSG00
 Lamalonga Lamalonga NPCSG00
@@ -7524,7 +7504,7 @@ Marina Marina NPFS000
 Marina Marina NPFSS00
 Marinha Marinho NPFS000
 Marinhais Marinhais NPCSG00
-Marinhas Marinhas NPCSG00
+Marinhas Marinhas NPFPG00
 Marinho Marinho NPMS000
 Mario Mario NPMS000
 Marisa Marisa NPFS000
@@ -7765,8 +7745,7 @@ Mercúrio Mercúrio NPMS000
 Merufe Merufe NPCSG00
 Meruge Meruge NPCSG00
 Meruoca Meruoca NPFS000
-Mesopotâmia Mesopotâmia NPFS000
-Mesopotâmia Mesopotâmia NPMS000
+Mesopotâmia Mesopotâmia NPFSG00
 Mesquinhata Mesquinhata NPCSG00
 Mesquita Mesquita NPMSS00
 Mesquitela Mesquitela NPCSG00
@@ -8031,8 +8010,7 @@ Mortágua Mortágua NPCSG00
 Mortágua Mortágua NPFSG00
 Mortágua Mortágua NPMSG00
 Morungaba Morungaba NPFS000
-Morávia Morávia NPFS000
-Morávia Morávia NPMS000
+Morávia Morávia NPFSG00
 Morão Morão NPMSS00
 Moscavide Moscavide NPCSG00
 Moscoviana Moscoviano NPFS000
@@ -8285,7 +8263,6 @@ Neuza Neuza NPFS000
 Neva Neva NPFSG00
 Neva Neva NPMSG00
 Neves Neves NPCNS00
-Neves Neves NPMSS00
 Nevogilde Nevogilde NPCSG00
 Nevogilde Nevogilde NPMSG00
 Newcastle Newcastle NPMSG00
@@ -8453,8 +8430,6 @@ Odete Odete NPFS000
 Odete Odete NPFSS00
 Odila Odilo NPFS000
 Odilo Odilo NPMS000
-Odisseia Odisseia NPFS000
-Odisseia Odisseia NPMS000
 Odivelas Odivelas NPCSG00
 Odivelas Odivelas NPMSG00
 Odiáxere Odiáxere NPCSG00
@@ -8711,8 +8686,7 @@ Palau Palau NPMSG00
 Palaçoulo Palaçoulo NPCSG00
 Paleolítico Paleolítico NPMS000
 Palermo Palermo NPMSG00
-Palestina Palestina NPFS000
-Palestina Palestina NPMS000
+Palestina Palestina NPFSG00
 Palhais Palhais NPCSG00
 Palhana Palhano NPFS000
 Palhano Palhano NPMS000
@@ -9432,7 +9406,6 @@ Rabal Rabal NPCSG00
 Rabaçal Rabaçal NPCSG00
 Racevalina Racevalina NPFS000
 Rachel Rachel NPFS000
-Rachel Rachel NPMSS00
 Racine Racine NPMS000
 Radagásia Radagásio NPFS000
 Radagásio Radagásio NPMS000
@@ -9699,9 +9672,9 @@ Rodolfo Rodolfo NPMS000
 Rodolfo Rodolfo NPMSS00
 Rodrigo Rodrigo NPMS000
 Rodrigo Rodrigo NPMSS00
-Rodrigues Rodrigues NPMSS00
-Rodriguez Rodriguez NPMSS00
-Rodríguez Rodríguez NPMSS00
+Rodrigues Rodrigues NPCNSP0
+Rodriguez Rodriguez NPCNSP0
+Rodríguez Rodríguez NPCNSP0
 Rodésia Rodésia NPFSG00
 Roentgênia Roentgênio NPFS000
 Roentgênio Roentgênio NPMS000
@@ -9812,8 +9785,7 @@ Roy Roy NPMSS00
 Royal Royal NPMS000
 Rua Rua NPCSG00
 Ruanda Ruanda NPFSG00
-Ruanda Ruanda NPMSG00
-Rubens Rubens NPMSS00
+Rubens Rubens NPCNSP0
 Rubiataba Rubiataba NPFS000
 Rubineia Rubineia NPFS000
 Rubinha Rubinho NPFS000
@@ -10456,7 +10428,6 @@ Suriname Suriname NPMS000
 Surrey Surrey NPMSG00
 Susan Susan NPMSS00
 Susana Susana NPFSS00
-Susana Susana NPMSS00
 Susaninha Susaninha NPFS000
 Sussuapara Sussuapara NPFS000
 Sutra Sutra NPMS000
@@ -11074,8 +11045,7 @@ Ufersa Ufersa NPFS000
 Ufesba Ufesba NPFS000
 Ufoba Ufoba NPFS000
 Ufopa Ufopa NPFS000
-Uganda Uganda NPFSG00
-Uganda Uganda NPMSG00
+Uganda Uganda NPCSG00
 Ul Ul NPCSG00
 Uldarica Uldarico NPFS000
 Uldarico Uldarico NPMS000
@@ -11291,8 +11261,6 @@ Veade Veade NPCSG00
 Vedelaga Vedelago NPFS000
 Vedelago Vedelago NPMS000
 Vedras Vedras NPMSG00
-Veiga Veiga NPCNS00
-Veiga Veiga NPMSS00
 Veiros Veiros NPCSG00
 Vela Vela NPCSG00
 Velado Velado NPMS000
