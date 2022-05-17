@@ -103,6 +103,7 @@ Shh Shh I
 Silêncio Silêncio I
 Socorro Socorro I
 Stop Stop I
+TB TB NCMN000
 Tchau Tchau I
 Toca Toca I
 Tomara Tomara I
@@ -126,6 +127,7 @@ a o PP3FSA00
 abafa abafa I
 abaixo abaixo I
 aboca aboca I
+abr	abr	NCMS000 # abbreviation month
 abracadabra abracadabra I
 abrenúncio abrenúncio I
 acerca acerca CC
@@ -220,6 +222,8 @@ cantés cantés I
 caput caput I
 carago carago I
 caralho caralho I
+caralhão caralhão I
+caralhões caralhões I
 caramba caramba I
 caraças	caraças	I
 carrega carrega I
@@ -356,6 +360,7 @@ destoutro de:este:outro SPS00:DD0MS0:DI0MS0
 destoutro de:este:outro SPS00:PD0MS000:PI0MS000
 destoutros de:este:outro SPS00:DD0MP0:DI0MP0
 destoutros de:este:outro SPS00:PD0MP000:PI0MP000
+dez	dez	NCMS000 # abbreviation month
 dez dez Z0CP0
 disso de:isso SPS00:PD0NN00
 disto de:isto SPS00:PD0NN00
@@ -437,6 +442,7 @@ excepto excepto SPS00
 exceto exceto CC
 exceto exceto SPS00
 fasta fasta I
+fev	fev	NCMS000 # abbreviation month
 figas figas I
 fixe fixe I
 fogo fogo I
@@ -468,7 +474,10 @@ irra irra I
 isso isso PD0NN000
 isto isto PD0NN000
 jamais jamais RN
+jan	jan	NCMS000 # abbreviation month
 jesus jesus I
+jul	jul	NCMS000 # abbreviation month
+jun	jun	NCMS000 # abbreviation month
 já já CS
 já já I
 kg kg NCMN000
@@ -485,6 +494,7 @@ lo o PP3MSA00
 logo logo CS
 los o PP3MPA00
 ma me:a PP1CS000:PP3FSA00
+mai	mai	NCMS000 # abbreviation month
 mal mal CC
 malgrado malgrado SPS00
 mas mas CC
@@ -640,6 +650,7 @@ noutro em:outro SPS00:DI0MS0
 noutro em:outro SPS00:PI0MS000
 noutros em:outro SPS00:DI0MP0
 noutros em:outro SPS00:PI0MP000
+nov	nov	NCMS000 # abbreviation month
 nove nove Z0CP0
 novecentas novecentos Z0FP0
 novecentos novecentos Z0MP0
@@ -674,6 +685,7 @@ os o DA0MP0
 os o PD0MP000
 os o PP3MPA00
 ou ou CC
+out	out	NCMS000 # abbreviation month
 outra outro DI0FS0
 outra outro PI0FS000
 outras outro DI0FP0
@@ -836,6 +848,7 @@ sim sim I
 sob sob SPS00
 sobre sobre SPS00
 soco soco I
+stop stop I
 sua seu AP0FS3S
 sua seu DP3FSS
 sua sua AP0FS3P
@@ -928,8 +941,10 @@ umas um PI0FP000
 uns um DI0MP0
 uns um PI0MP000
 upa upa I
+ups ups I
 uxte uxte I
 versus versus SPS00
+via via SPS00
 visto visto SPS00
 viva viva I
 vo vos PP2CP000

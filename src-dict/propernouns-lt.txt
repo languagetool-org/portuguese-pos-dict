@@ -11108,6 +11108,7 @@ Unhos Unhos NPCSG00
 Unhão Unhão NPCSG00
 Unibanca Unibanco NPFS000
 Unibanco Unibanco NPMS000
+Unicode Unicode NPCNO00
 Unida Unido NPFS000
 Unido Unido NPMS000
 Unila Unila NPFS000
