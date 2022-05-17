@@ -6059,7 +6059,7 @@ Iandeyara Iandeyara NPFS000
 Iapuama Iapuama NPFS000
 Iarinha Iarinha NPFS000
 Iasião Iasião NPMS000
-Ibama Ibama NPMSP00
+Ibama Ibama NPMSSP0
 Ibarama Ibarama NPFS000
 Ibaretama Ibaretama NPFS000
 Ibateguara Ibateguara NPFS000
