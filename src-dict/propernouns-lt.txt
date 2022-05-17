@@ -4220,6 +4220,7 @@ Elisabete Elisabete NPFSS00
 Elisandra Elisandra NPFS000
 Elisbão Elisbão NPMS000
 Eliscláudia Eliscláudia NPFS000
+Eliseu Eliseu NPMS000
 Elisiária Elisiário NPFS000
 Elisiário Elisiário NPMS000
 Elissa Elissa NPFS000
@@ -5061,6 +5062,7 @@ Fredolino Fredolino NPMS000
 FreeBSD FreeBSD NPMS000
 Frege Frege NPMS000
 Fregim Fregim NPCSG00
+Frei Frei NPMS000
 Freigil Freigil NPCSG00
 Freineda Freineda NPCSG00
 Freire Freire NPMSS00
@@ -11465,6 +11467,7 @@ Virmara Virmara NPFS000
 Visconti Visconti NPMSS00
 Viseu Viseu NPCSG00
 Viseu Viseu NPMSG00
+Vital Vital NPMS000
 Vitalino Vitalino NPMS000
 Vitalino Vitalino NPMSS00
 Viterba Viterbo NPFS000
