@@ -1,0 +1,7 @@
+# list of words to be excluded
+# from the synthesis dictionary
+#
+#dialectal or old
+
+#unusual
+cãos cão AQ0MP0
