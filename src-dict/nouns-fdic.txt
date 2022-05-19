@@ -1,4 +1,3 @@
-
 #aciso=M;src: LT;
 #almofadinha=F;src: dim;
 #antípodas=MP;src: LT;
@@ -11,6 +10,7 @@
 #football=MS;src: English;
 #livre=M;src: LT;
 #lobe=M;src: michaelis;
+#mai=F;src: LT; Moçambique, unusual
 #para=MF;src: LT;
 #pára-quedismo=M;src: LT;
 #ravioli=MP;src: LT;
@@ -57273,7 +57273,6 @@ magusto=M;src: LT;
 magíster=M;src: LT;
 magódia=F;src: LT;
 mah-jong [pl. mah-jongs]=M;src: LT;
-mai=F;src: LT;
 maia=MF;src: LT;
 maiaca=MF;src: LT;
 maianga=F;src: LT;
@@ -63714,7 +63713,7 @@ mãozinha=F;src: dim;
 mãozita=F;src: dim;
 mãozorra=F;src: LT;
 mé=M;src: LT;
-média2=MP;src: inofp; Brasil
+média:2=MP;src: inofp; Brasil
 média=F;src: LT;
 médica=F;src: LT;
 médico=M;src: LT;

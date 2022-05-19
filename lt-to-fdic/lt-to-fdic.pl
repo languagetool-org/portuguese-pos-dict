@@ -77,12 +77,12 @@ while ( my $line = <$fh> ) {
         if ( $lemma !~ /^$prevLemma$/ ) {    #s'acaba el lema
 
             $numAccepcio = "";
-            #if ( $prevLemma !~ /$Flexio::number_exceptions/ )
-            #{    #Excepcions: el número forma part de la paraula
-                #if ( $prevLemma =~ /([0-9])$/ ) {
-                #    $numAccepcio = $1;
-                #}
-            #}
+            if ( $prevLemma !~ /$Flexio::number_exceptions/ )
+            {    #Excepcions: el número forma part de la paraula
+                if ( $prevLemma =~ /(:[0-9])$/ ) {
+                    $numAccepcio = $1;
+                }
+            }
             #print "$lemma $prevLemma $forma[0]\n";
             #if ($prevLemma =~ /^$forma[0]$/ || $prevLemma =~ /^$forma[1]$/ 
             #    || $prevLemma =~ /^$forma[2]$/ || $prevLemma =~ /^$forma[3]$/) {             

@@ -32,7 +32,7 @@ export LC_ALL=C && sort -u novetats_sense_tag.txt -o novetats_sense_tag.txt
 cat spelling.head novetats_sense_tag.txt > spelling.txt
 cat added-tagger.head added-body.txt > added.txt
 cp added.txt /home/jaume/github/languagetool/languagetool-language-modules/pt/src/main/resources/org/languagetool/resource/pt/
-cp spelling.txt /home/jaume/github/languagetool/languagetool-language-modules/pt/src/main/resources/org/languagetool/resource/pt/hunspell
+#cp spelling.txt /home/jaume/github/languagetool/languagetool-language-modules/pt/src/main/resources/org/languagetool/resource/pt/hunspell
 
 echo "Extraient paraules esborrades"
 grep -E "^> " diff.txt > removed-body.txt
