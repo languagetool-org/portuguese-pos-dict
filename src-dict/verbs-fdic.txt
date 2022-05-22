@@ -11386,6 +11386,7 @@ perfilhar=V;model:amar;src: LT;
 perfumar=V;model:amar;src: LT;
 perfurar=V;model:amar;src: LT;
 perguntar=V;model:amar;src: LT;
+periciar=V;model:amar;src: LT;
 periclitar=V;model:amar;src: LT;
 perifrasear=V;model:arear;src: LT;
 perigar=V;model:alugar;src: LT;
