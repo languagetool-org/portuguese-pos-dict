@@ -9868,6 +9868,7 @@ Sabugosa Sabugosa NPCSG00
 Sabugueiro Sabugueiro NPCSG00
 Sabá Sabá NPMS000
 Sabáudia Sabáudia NPFS000
+Sacadura Sacadura NPMSSP0
 Sacavém Sacavém NPCSG00
 Sacavém Sacavém NPMSG00
 Sacramento Sacramento NPCSG00
