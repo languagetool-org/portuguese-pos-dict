@@ -1347,6 +1347,7 @@ Arnaldino Arnaldino NPMS000
 Arnaldo Arnaldo NPMS000
 Arnaldo Arnaldo NPMSS00
 Arnas Arnas NPCSG00
+Arnaut Arnaut NPMSSP0
 Arnira Arnira NPFS000
 Arno Arno NPMSG00
 Arnoia Arnoia NPCSG00

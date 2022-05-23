@@ -31,6 +31,7 @@ sed -i '/^\s*$/d' novetats_sense_tag.txt
 export LC_ALL=C && sort -u novetats_sense_tag.txt -o novetats_sense_tag.txt
 cat spelling.head novetats_sense_tag.txt > spelling.txt
 cat added-tagger.head added-body.txt > added.txt
+echo "# Add entries manually from here" >> added.txt
 cp added.txt /home/jaume/github/languagetool/languagetool-language-modules/pt/src/main/resources/org/languagetool/resource/pt/
 #cp spelling.txt /home/jaume/github/languagetool/languagetool-language-modules/pt/src/main/resources/org/languagetool/resource/pt/hunspell
 
@@ -45,6 +46,7 @@ sed -i '/^\s*$/d' removed-body.txt
 #export LC_ALL=C && sort -u novetats_sense_tag.txt -o novetats_sense_tag.txt
 #cat spelling.head novetats_sense_tag.txt > spelling.txt
 cat removed-tagger.head removed-body.txt > removed.txt
+echo "# Add entries manually from here" >> removed.txt
 cp removed.txt /home/jaume/github/languagetool/languagetool-language-modules/pt/src/main/resources/org/languagetool/resource/pt/
 #cp spelling.txt /home/jaume/github/languagetool/languagetool-language-modules/pt/src/main/resources/org/languagetool/resource/pt/hunspell
 
