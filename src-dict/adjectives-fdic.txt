@@ -33583,6 +33583,7 @@ ornitóideo ornitóidea=A;src: LT;
 ornável=A;src: LT;
 oroboense=A;src: LT;
 orofaríngeo orofaríngea=A;src: LT;
+orogenital=A;src: priberam;
 orogenético orogenética=A;src: LT;
 orognóstico orognóstica=A;src: LT;
 orográfico orográfica=A;src: LT;

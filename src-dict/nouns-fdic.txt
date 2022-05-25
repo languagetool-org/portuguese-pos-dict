@@ -70845,6 +70845,7 @@ pensadura=F;src: LT;
 pensamento=M;src: LT;
 pensar=M;src: LT;
 pensilvano=M;src: LT;
+pensinho=M;src: dim;
 pensionado=M;src: LT;
 pensionato=M;src: LT;
 pensionista=MF;src: LT;

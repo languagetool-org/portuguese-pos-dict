@@ -1,6 +1,7 @@
 
 #Campo Campo NPCSG00
 #Campos Campos NPCSG00
+#Colares Colares NPCSG00
 #Graça Graça NPCSG00
 #Graça Graça NPFS000
 #Graça Graça NPFSS00
@@ -353,6 +354,7 @@ Agraço Agraço NPMSG00
 Agrela Agrela NPCSG00
 Agricolândia Agricolândia NPFS000
 Agripa Agripa NPMSSP0
+Agripina Agripina NPFSSP0
 Agrobacterium Agrobacterium NPCS000
 Agrobom Agrobom NPCSG00
 Agrochão Agrochão NPCSG00
@@ -665,6 +667,7 @@ Almodôvar Almodôvar NPMSG00
 Almofala Almofala NPCSG00
 Almortão Almortão NPMSG00
 Almoster Almoster NPCSG00
+Almoçageme Almoçageme NPFSG00
 Almáquia Almáquio NPFS000
 Almáquio Almáquio NPMS000
 Almão Almão NPMS000
@@ -1844,6 +1847,7 @@ Bavena Baveno NPFS000
 Baveno Baveno NPMS000
 Baviera Baviera NPFSG00
 Baviera Baviera NPMSG00
+Bayer Bayer NPCSO00
 Bayes Bayes NPMS000
 Bayesiana Bayesiano NPFS000
 Bayesiano Bayesiano NPMS000
@@ -3296,7 +3300,7 @@ Coina Coina NPCSG00
 Coitezeira Coitezeiro NPFS000
 Coitezeiro Coitezeiro NPMS000
 Coja Coja NPCSG00
-Colares Colares NPCSG00
+Colares Colares NPFSG00
 Colbert Colbert NPMS000
 Colberta Colberto NPFS000
 Colberto Colberto NPMS000
@@ -7187,7 +7191,7 @@ Lurdes Lurdes NPFS000
 Lurdes Lurdes NPFSS00
 Lusia Lusia NPFS000
 Lusinde Lusinde NPCSG00
-Lusitânia Lusitânia NPMS000
+Lusitânia Lusitânia NPFSG00
 Luso Luso NPCSG00
 Lustosa Lustosa NPCSG00
 Lustosa Lustosa NPFS000
@@ -9496,6 +9500,7 @@ Redondelo Redondelo NPCSG00
 Redondo Redondo NPCSG00
 Refontoura Refontoura NPCSG00
 Regadas Regadas NPCSG00
+Regaleira Regaleira NPFSG00
 Regilde Regilde NPCSG00
 Regina Regina NPFS000
 Regina Regina NPFSS00
