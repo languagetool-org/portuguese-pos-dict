@@ -630,7 +630,7 @@ ninguém ninguém PI0CN000
 nisso em:isso SPS00:PD0NN00
 nisto em:isto SPS00:PD0NN00
 no em:o SPS00:DA0MS0
-nos em:o SPS00::DA0MP0
+nos em:o SPS00:DA0MP0
 nos nos PP1CP000
 nos o PP3MPA00
 nossa nosso AP0FS1P
