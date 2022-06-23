@@ -1,4 +1,3 @@
-
 #aciso acisa=A;src: LT;
 #cadelo cadela=A;src: LT;
 #coiso coisa=A;src: LT;
@@ -6284,6 +6283,7 @@ atrapalhado atrapalhada [sup. atrapalhadíssimo]=A;src: LT;
 atrapalhador atrapalhadora=A;src: LT;
 atrapalhadote=A;src: LT;
 atrapalhável=A;src: LT;
+atrasadinho atrasadinha=A;src: LT;
 atrasado atrasada [sup. atrasadíssimo]=A;src: LT;
 atrasador atrasadora=A;src: LT;
 atratantado atratantada=A;src: LT;
@@ -27792,6 +27792,7 @@ ledeu ledeia=A;src: LT;
 lediano lediana=A;src: LT;
 ledo leda=A;src: LT;
 ledor ledora=A;src: LT;
+legacy=AI;src: English;
 legal=A;src: LT;
 legalista=A;src: LT;
 legalitário legalitária=A;src: LT;

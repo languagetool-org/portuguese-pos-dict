@@ -1,4 +1,3 @@
-
 #Campo Campo NPCSG00
 #Campos Campos NPCSG00
 #Colares Colares NPCSG00
@@ -5163,6 +5162,7 @@ Gal Gal NPFS000
 Gal Gal NPFSS00
 Galafura Galafura NPCSG00
 Galatéla Galatéla NPFS000
+Galaxy	Galaxy	NPMSO00
 Galda Galdo NPFS000
 Galdo Galdo NPMS000
 Galegos Galegos NPCSG00
@@ -5415,6 +5415,7 @@ Glenn Glenn NPMS000
 Gleusa Gleusa NPFS000
 Globo Globo NPFS000
 Glorinha Glorinha NPFS000
+Glovo Glovo NPFSO00
 Glélia Glélia NPFS000
 Glênia Glênio NPFS000
 Glênio Glênio NPMS000
@@ -6044,6 +6045,7 @@ IPC IPC NPMS000
 IPE IPE NPMS000
 IPPAR IPPAR NPMS000
 IPPC IPPC NPMS000
+IRA IRA NPMSO00
 IRC IRC NPMS000
 IRS IRS NPMS000
 ISBN ISBN NPMS000
@@ -6137,6 +6139,7 @@ Igarapava Igarapava NPFS000
 Igaratinga Igaratinga NPFS000
 Igina Igino NPFS000
 Igino Igino NPMS000
+Ignatieff Ignatieff NPMSSP0
 Ignácia Ignácio NPFS000
 Ignácio Ignácio NPMS000
 Igrapiúna Igrapiúna NPFS000

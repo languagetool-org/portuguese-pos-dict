@@ -365,6 +365,10 @@ destoutros de:este:outro SPS00:PD0MP000:PI0MP000
 dez dez Z0CP0
 disso de:isso SPS00:PD0NN00
 disto de:isto SPS00:PD0NN00
+diversas diversos DI0FP0
+diversas diversos PI0FP000
+diversos diversos DI0MP0
+diversos diversos PI0MP000
 dlim dlim I
 do de:o SPS00:DA0MS0
 dois dois Z0MP0
