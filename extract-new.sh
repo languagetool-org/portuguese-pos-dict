@@ -6,7 +6,11 @@
 ###
 
 #LanguageTool folder
-lt_tools=~/target-lt/languagetool.jar
+version=5.9-SNAPSHOT
+lt_tools=../../languagetool/languagetool-standalone/target/LanguageTool-$version/LanguageTool-$version/languagetool.jar
+
+#target dictionary
+target_dict=../../languagetool/languagetool-language-modules/pt/src/main/resources/org/languagetool/resource/pt/
 
 # dump the tagger dictionary
 java -cp $lt_tools org.languagetool.tools.DictionaryExporter -i portuguese.dict -o portuguese_lt.txt -info portuguese.info
@@ -32,8 +36,8 @@ export LC_ALL=C && sort -u novetats_sense_tag.txt -o novetats_sense_tag.txt
 cat spelling.head novetats_sense_tag.txt > spelling.txt
 cat added-tagger.head added-body.txt > added.txt
 echo "# Add entries manually from here" >> added.txt
-cp added.txt /home/jaume/github/languagetool/languagetool-language-modules/pt/src/main/resources/org/languagetool/resource/pt/
-#cp spelling.txt /home/jaume/github/languagetool/languagetool-language-modules/pt/src/main/resources/org/languagetool/resource/pt/hunspell
+cp added.txt $target_dict
+#cp spelling.txt $target_dict/hunspell
 
 echo "Extracting new removed words"
 grep -E "^> " diff.txt > removed-body.txt
@@ -47,8 +51,8 @@ sed -i '/^\s*$/d' removed-body.txt
 #cat spelling.head novetats_sense_tag.txt > spelling.txt
 cat removed-tagger.head removed-body.txt > removed.txt
 echo "# Add entries manually from here" >> removed.txt
-cp removed.txt /home/jaume/github/languagetool/languagetool-language-modules/pt/src/main/resources/org/languagetool/resource/pt/
-#cp spelling.txt /home/jaume/github/languagetool/languagetool-language-modules/pt/src/main/resources/org/languagetool/resource/pt/hunspell
+cp removed.txt $target_dict
+#cp spelling.txt $target_dict/hunspell
 
 echo "Results in: spelling.txt added.txt removed.txt"
 

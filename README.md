@@ -52,3 +52,10 @@ aos a:os SPS00:DA0MP0
 ## Scripts 
 
 * `build-lt.sh`: creates all the inflected forms from the source dictionary
+* `extract-new.sh`: extract new added and removed words with respect to the last compiled version
+* `make-test-lt-fdic.sh`: some testing
+
+## Release
+
+* `build-morfologik-lt.sh`: build a Morfologik dictionary
+* See results/java-lt/README.md to prepare a full release
