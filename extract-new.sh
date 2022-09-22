@@ -1,27 +1,27 @@
 #!/bin/bash
 
 ###
-# Extrau les novetats introduïdes en el diccionari LT
-# respecte a l'última versió compilada
+# Extract new added and removed words with respect to
+# the last compiled version
 ###
 
-#directori LanguageTool
-#lt_tools=~/github/languagetool/languagetool-tools/target/languagetool-tools-3.5-SNAPSHOT-jar-with-dependencies.jar
-#lt_tools=~/languagetool/languagetool.jar
+#LanguageTool folder
 lt_tools=~/target-lt/languagetool.jar
 
 # dump the tagger dictionary
 java -cp $lt_tools org.languagetool.tools.DictionaryExporter -i portuguese.dict -o portuguese_lt.txt -info portuguese.info
 
+cd morfologik-lt
+
 cp portuguese_lt.txt dict_old.txt
-echo "Preparant diccionari"
+echo "Preparing dictionary"
 sed -i 's/^\(.*\)\t\(.*\)\t\(.*\)$/\1 \2 \3/' dict_old.txt
-echo "Ordenant diccionari"
+echo "Sorting dictionary"
 export LC_ALL=C && sort -u dict_old.txt -o dict_old.txt
-echo "Comparant diccionaris"
+echo "Comparing dictionaries"
 diff ../results/lt/dict.txt dict_old.txt > diff.txt
 
-echo "Extraient novetats"
+echo "Extracting new added words"
 grep -E "^< " diff.txt > added-body.txt
 sed -i 's/^< //g' added-body.txt
 sed -i 's/ /\t/g' added-body.txt
@@ -35,7 +35,7 @@ echo "# Add entries manually from here" >> added.txt
 cp added.txt /home/jaume/github/languagetool/languagetool-language-modules/pt/src/main/resources/org/languagetool/resource/pt/
 #cp spelling.txt /home/jaume/github/languagetool/languagetool-language-modules/pt/src/main/resources/org/languagetool/resource/pt/hunspell
 
-echo "Extraient paraules esborrades"
+echo "Extracting new removed words"
 grep -E "^> " diff.txt > removed-body.txt
 sed -i 's/^> //g' removed-body.txt
 sed -i 's/ /\t/g' removed-body.txt
@@ -59,3 +59,5 @@ rm removed-body.txt
 rm removed.txt
 rm spelling.txt
 rm novetats*
+
+cd ..
