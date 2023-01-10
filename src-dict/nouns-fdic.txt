@@ -68285,6 +68285,7 @@ palatógrafo=M;src: LT;
 palauano=M;src: LT;
 palauense=MF;src: LT;
 palava=F;src: LT;
+palavra-chave [pl. palavras-chave]=F;src: LT;
 palavra=F;src: LT;
 palavrada=F;src: LT;
 palavreadinho=M;src: dim;

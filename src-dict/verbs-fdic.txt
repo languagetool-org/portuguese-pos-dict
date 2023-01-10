@@ -14741,6 +14741,7 @@ vinificar=V;model:colocar;src: LT;
 violar=V;model:amar;src: LT;
 violentar=V;model:amar;src: LT;
 vir=V;model:vir;src: LT;
+viralizar=V;model:amar;src: LT;
 virar=V;model:amar;src: LT;
 viravoltar=V;model:amar;src: LT;
 viravoltear=V;model:arear;src: LT;

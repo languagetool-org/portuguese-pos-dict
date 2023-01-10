@@ -168,7 +168,7 @@ amém amém I
 amén amén I
 ante ante SPS00
 ao a:o SPS00:DA0MS0
-aos a:os SPS00:DA0MP0
+aos a:o SPS00:DA0MP0
 apenas apenas CC
 apesar apesar CC
 após após SPS00
