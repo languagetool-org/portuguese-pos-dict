@@ -5162,7 +5162,7 @@ Gal Gal NPFS000
 Gal Gal NPFSS00
 Galafura Galafura NPCSG00
 Galatéla Galatéla NPFS000
-Galaxy	Galaxy	NPMSO00
+Galaxy Galaxy NPMSO00
 Galda Galdo NPFS000
 Galdo Galdo NPMS000
 Galegos Galegos NPCSG00
