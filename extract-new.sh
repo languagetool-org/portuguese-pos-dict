@@ -6,7 +6,7 @@
 ###
 
 #LanguageTool folder
-version=5.9-SNAPSHOT
+version=6.1-SNAPSHOT
 lt_tools=../../languagetool/languagetool-standalone/target/LanguageTool-$version/LanguageTool-$version/languagetool.jar
 
 #target dictionary
