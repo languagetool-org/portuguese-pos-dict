@@ -6,3 +6,4 @@ target/
 morfologik-lt/*_lt.txt
 morfologik-lt/*.txt
 .xpr
+*.dict
