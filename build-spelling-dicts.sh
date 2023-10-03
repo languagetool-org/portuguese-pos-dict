@@ -47,6 +47,6 @@ do
 		freqDict=pt_BR_wordlist.xml
 	fi
 	outputDir="results/java-lt/src/main/resources/org/languagetool/resource/pt/hunspell"
-	java -cp ${ltDir}/languagetool-standalone/target/LanguageTool-${ltVer}/LanguageTool-${ltVer}/languagetool.jar org.languagetool.tools.SpellDictionaryBuilder -i spelling-dict/tmp/${lang}_${variant}2.txt -info spelling-dict/${lang}_${variant}.info -freq spelling-dict/${freqDict} -o ${outputDir}/${lang}_${variant}.dict
-	cp spelling-dict/${lang}_${variant}.info ${outputDir}
+	java -cp ${ltDir}/languagetool-standalone/target/LanguageTool-${ltVer}/LanguageTool-${ltVer}/languagetool.jar org.languagetool.tools.SpellDictionaryBuilder -i spelling-dict/tmp/${lang}_${variant}2.txt -info spelling-dict/${lang}_${variant}.info -freq spelling-dict/${freqDict} -o ${outputDir}/${lang}-${variant}.dict
+	cp spelling-dict/${lang}-${variant}.info ${outputDir}
 done

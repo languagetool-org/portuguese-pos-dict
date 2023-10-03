@@ -5,7 +5,7 @@
 
     <groupId>org.languagetool</groupId>
     <artifactId>portuguese-pos-dict</artifactId>
-    <version>0.3</version>
+    <version>0.4</version>
     <url>http://github.com/languagetool-org/portuguese-dict-tools</url>
     <name>Portuguese part-of-speech dictionary</name>
     <description>A Portuguese part-of-speech (POS) dictionary as a Morfologik binary</description>
