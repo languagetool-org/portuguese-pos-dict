@@ -1,11 +1,11 @@
 Autor/Author: Raimundo Moura <raimundo.smoura@gmail.com>
 
-pt-BR: Este dicion·rio est· em desenvolvimento por Raimundo Moura e sua equipe.
-Ele est· licenciado sob os termos da LicenÁa P˙blica Geral Menor vers„o 3 (LGPLv3),
+pt-BR: Este dicion√°rio est√° em desenvolvimento por Raimundo Moura e sua equipe.
+Ele est√° licenciado sob os termos da Licen√ßa P√∫blica Geral Menor vers√£o 3 (LGPLv3),
 como publicado pela Free Software Foundation e pela Mozilla Public License como
-publicado pela Mozilla Foundation . Os crÈditos est„o disponÌveis em
+publicado pela Mozilla Foundation . Os cr√©ditos est√£o dispon√≠veis em
 http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/
-e vocÍ pode encontrar novas versıes em
+e voc√™ pode encontrar novas vers√µes em
 
 en-US: This dictionary is under development by Raimundo Moura and his team. It is
 licensed under the terms of the GNU Lesser General Public License version 3 (LGPLv3),
@@ -17,118 +17,118 @@ and you can find new releases at
 Copyright (C) 2006 - 2012 por/by Raimundo Santos Moura <raimundo.smoura@gmail.com>
 
 =============
-APRESENTA«√O
+APRESENTA√á√ÉO
 =============
 
-O Projeto Verificador Ortogr·fico do LibreOffice È um projeto
+O Projeto Verificador Ortogr√°fico do LibreOffice √© um projeto
 colaborativo desenvolvido pela comunidade Brasileira.
-A relaÁ„o completa dos colaboradores deste projeto est· em:
+A rela√ß√£o completa dos colaboradores deste projeto est√° em:
 http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/
 
 ***********************************************************************
-* Este È um dicion·rio para correÁ„o ortogr·fica da lÌngua Portuguesa *
+* Este √© um dicion√°rio para corre√ß√£o ortogr√°fica da l√≠ngua Portuguesa *
 * para o Hunspell.                                                    *
-* Este programa È livre e pode ser redistribuÌdo e/ou modificado nos  *
-* termos da GNU Lesser General Public License (LGPL) vers„o 3 e a     *
+* Este programa √© livre e pode ser redistribu√≠do e/ou modificado nos  *
+* termos da GNU Lesser General Public License (LGPL) vers√£o 3 e a     *
 * Mozilla Public License, como publicado pela Mozilla Foundation.     *
 *                                                                     *
 ***********************************************************************
 
 ======================
-SOBRE ESTA ATUALIZA«√O
+SOBRE ESTA ATUALIZA√á√ÉO
 ======================
-.Inclus„o de: SubsumÌvel, sustido - do verbo suster,
- jurÌdico-trabalhistas, subsume: de subsumir e irressarcida. ColaboraÁ„o
- de Jo„o Eduardo Strottmann;
-.Inclus„o de clÌnico-psicolÛgica e ciberÛdio. ColaboraÁ„o Luyse M. Moura.
-.CorreÁ„o de infanto-juvenil para infantojuvenil conforme Acordo
- Ortogr·fico. ColaboraÁ„o de Guilherme Rebecchi.
-.Exclus„o de 'atras',  'muta', 'sitei', 'estoria', 'critozoico',
- e 'objecto'. ColaboraÁ„o de Marcelo Lima.
-.Revis„o da regra 'M' (sufixo mento) em verbos terminados em 'ar'.
- Mais de 2000 supressıes, eliminando termos como: alocamento, alopramento,
+.Inclus√£o de: Subsum√≠vel, sustido - do verbo suster,
+ jur√≠dico-trabalhistas, subsume: de subsumir e irressarcida. Colabora√ß√£o
+ de Jo√£o Eduardo Strottmann;
+.Inclus√£o de cl√≠nico-psicol√≥gica e ciber√≥dio. Colabora√ß√£o Luyse M. Moura.
+.Corre√ß√£o de infanto-juvenil para infantojuvenil conforme Acordo
+ Ortogr√°fico. Colabora√ß√£o de Guilherme Rebecchi.
+.Exclus√£o de 'atras',  'muta', 'sitei', 'estoria', 'critozoico',
+ e 'objecto'. Colabora√ß√£o de Marcelo Lima.
+.Revis√£o da regra 'M' (sufixo mento) em verbos terminados em 'ar'.
+ Mais de 2000 supress√µes, eliminando termos como: alocamento, alopramento,
  ambientamento, amigamento, amolamento, amputamento, animamento,
  antecipamento, aproximamento, argumentamento, azaramento, beijamento,
  bonificamento, buzinamento, cachamento, etc.
-.Inclus„o de 'correpetidor'. ColaboraÁ„o de Guilherme Rebecchi.
-.Inclus„o de: cramunh„o, cabrunco, ruinzinho, sacizinho, carapucinha,
-  taÌ, pererÍ e Poltergeist. ColaboraÁ„o de Marcelo Lima.
-.Inclus„o de: antenÙmero, antialÌsio, antiduna, recirculado,
- abelha-bota-fogo, abelhas-bota-fogo, abelha-m„e, abelhas-m„e,   abelha-mirim, abelhas-mirins, abelha-mosquito, abissopel·gico, acritarco,
- acrÛfita, advectivo-difusivo, advectivo, ·filo, ·grico, agrifÈrrico,
- agrofloresta, aleloquÌmico, alg·lico, ·lico, alissolo, alocl·stico,
- aloquÌmico, aluminossilicatado, amÌnico, amÌtico, an·dromo, ‚ndica,
- andromonoico, anfÌtoca, anomalamente, anquerÌtica, antÈclise, antiforme,
- apidologia, apidÛlogo, apitoxina, aposem·tico, aposematismo, apterigoto,
- aptÈsico, aquÌcludo, aquÌfugo, aquitardo, arcÛsio, Arenigiano, argÌlico,
- argip„, argissolo, arlequim-de-caiena, arlequins-de-caiena, arrenÛtoca,
- pseudoarrenÛtoca, arrenotoquia, aspÌdoto, atolento, autofuncionante,
- autopolinizar, troficamente, adularescÍncia, aventurinizaÁ„o,
+.Inclus√£o de 'correpetidor'. Colabora√ß√£o de Guilherme Rebecchi.
+.Inclus√£o de: cramunh√£o, cabrunco, ruinzinho, sacizinho, carapucinha,
+  ta√≠, perer√™ e Poltergeist. Colabora√ß√£o de Marcelo Lima.
+.Inclus√£o de: anten√¥mero, antial√≠sio, antiduna, recirculado,
+ abelha-bota-fogo, abelhas-bota-fogo, abelha-m√£e, abelhas-m√£e,   abelha-mirim, abelhas-mirins, abelha-mosquito, abissopel√°gico, acritarco,
+ acr√≥fita, advectivo-difusivo, advectivo, √°filo, √°grico, agrif√©rrico,
+ agrofloresta, aleloqu√≠mico, alg√°lico, √°lico, alissolo, alocl√°stico,
+ aloqu√≠mico, aluminossilicatado, am√≠nico, am√≠tico, an√°dromo, √¢ndica,
+ andromonoico, anf√≠toca, anomalamente, anquer√≠tica, ant√©clise, antiforme,
+ apidologia, apid√≥logo, apitoxina, aposem√°tico, aposematismo, apterigoto,
+ apt√©sico, aqu√≠cludo, aqu√≠fugo, aquitardo, arc√≥sio, Arenigiano, arg√≠lico,
+ argip√£, argissolo, arlequim-de-caiena, arlequins-de-caiena, arren√≥toca,
+ pseudoarren√≥toca, arrenotoquia, asp√≠doto, atolento, autofuncionante,
+ autopolinizar, troficamente, adularesc√™ncia, aventuriniza√ß√£o,
  bashkiriano, Baveno, bioacumulador, bioacumulativo, biodiversificado,
- bifenila, bioestratigr·fico, biofloculaÁ„o. ColaboraÁ„o de Evandro Andrade
+ bifenila, bioestratigr√°fico, bioflocula√ß√£o. Colabora√ß√£o de Evandro Andrade
  da Silva.
-.Inclus„o de nomes prÛprios: CleovansÛstenes, Egnaldo, Elionaldo, Elivaldo,
- Floripa, Gilmarcos, Gism·lia, Jaziel, Jozonaldo, Leningrado, Piraparan·,
- Ueliz‚nio, UÌlson.
-.Inclus„o de universo-bolha, recalÁar, entreguerras, nanocanal, oficineiro,
+.Inclus√£o de nomes pr√≥prios: Cleovans√≥stenes, Egnaldo, Elionaldo, Elivaldo,
+ Floripa, Gilmarcos, Gism√°lia, Jaziel, Jozonaldo, Leningrado, Piraparan√°,
+ Ueliz√¢nio, U√≠lson.
+.Inclus√£o de universo-bolha, recal√ßar, entreguerras, nanocanal, oficineiro,
  lobotomista, eletromagnetismo, reacionar;
-.Inclus„o de plural: rastreios, respaldos
-.Inclus„o de prefixos para formaÁ„o de termos como: anti-hidrogÍnio,
+.Inclus√£o de plural: rastreios, respaldos
+.Inclus√£o de prefixos para forma√ß√£o de termos como: anti-hidrog√™nio,
  autocirurgia, autocontido, autoefetivado, autoironia, autorregenerativo,
  autorregenerativo, autosselecionar subparcela superanticorpo microgerador,
- microfolÌculo, macroentidade, microentidade, micropigmentaÁ„o,
- supercapacitor, suborganizaÁ„o, supergene, superlisonjeado, subqu‚ntico,
- semifictÌcio,  minissatÈlite, retrofuturismo, solteirice.
-.Inclus„o da forma feminina em alguns termos com sufÌxos 'Ìneo', '·rio','Ûgeno' e
-Ìvoro (consanguÌneas, multifacet·rias, carcinÛgenas, crudÌvoras);
-.Inclus„o de diminutivos como: textinho, verdurinha, charadinha, encrenquinha, leguminho, produtinho.
+ microfol√≠culo, macroentidade, microentidade, micropigmenta√ß√£o,
+ supercapacitor, suborganiza√ß√£o, supergene, superlisonjeado, subqu√¢ntico,
+ semifict√≠cio,  minissat√©lite, retrofuturismo, solteirice.
+.Inclus√£o da forma feminina em alguns termos com suf√≠xos '√≠neo', '√°rio','√≥geno' e
+√≠voro (consangu√≠neas, multifacet√°rias, carcin√≥genas, crud√≠voras);
+.Inclus√£o de diminutivos como: textinho, verdurinha, charadinha, encrenquinha, leguminho, produtinho.
 
 =======================================================
 COMO INSTALAR O VERIFICADOR BRASILEIRO NO LIBREOFFICE
 =======================================================
 
-O VERO vem dentro do pacote de instalaÁ„o do PortuguÍs do Brasil do
-LibreOffice, como uma extens„o de instalaÁ„o. Ele È automaticametne instalado.
+O VERO vem dentro do pacote de instala√ß√£o do Portugu√™s do Brasil do
+LibreOffice, como uma extens√£o de instala√ß√£o. Ele √© automaticametne instalado.
 
-Caso ele n„o tenha sido instalado na vers„o de seu LibreOffice (por exemplo, se sua
-vers„o È de outro idioma) vocÍ pode instal·-lo como uma extens„o do LibreOffice. Baixe-o de
+Caso ele n√£o tenha sido instalado na vers√£o de seu LibreOffice (por exemplo, se sua
+vers√£o √© de outro idioma) voc√™ pode instal√°-lo como uma extens√£o do LibreOffice. Baixe-o de
 http://extensions.libreoffice.org
 
 ===================
-D⁄VIDAS FREQUENTES
+D√öVIDAS FREQUENTES
 ===================
 
-Os arquivos foram copiados mas o Verificador n„o est· funcionando.
-O Verificador Ortogr·fico n„o deve estar configurado corretamente,
+Os arquivos foram copiados mas o Verificador n√£o est√° funcionando.
+O Verificador Ortogr√°fico n√£o deve estar configurado corretamente,
 isto pode estar ocorrendo por um dos seguintes motivos:
 
-1- O dicion·rio provavelmente n„o est· instalado.
+1- O dicion√°rio provavelmente n√£o est√° instalado.
 
-Para se certificar de que est· utilizando o idioma correto confira como
-est„o as informaÁıes em: Ferramentas >> OpÁıes >>   ConfiguraÁıes de
-Idioma >> Idiomas. O item Ocidental deve apresentar o dicion·rio
+Para se certificar de que est√° utilizando o idioma correto confira como
+est√£o as informa√ß√µes em: Ferramentas >> Op√ß√µes >>   Configura√ß√µes de
+Idioma >> Idiomas. O item Ocidental deve apresentar o dicion√°rio
 selecionado (deve aparecer um logo "Abc" do lado do idioma).
 
-Se n„o estiver PortuguÍs (Brasil) mude para esse idioma. ApÛs
+Se n√£o estiver Portugu√™s (Brasil) mude para esse idioma. Ap√≥s
 configurado clique em 'OK'.
-Feche o LibreOffice, inclusive o Iniciador R·pido,  e em seguida reabra-o;
+Feche o LibreOffice, inclusive o Iniciador R√°pido,  e em seguida reabra-o;
 
 
-2 - O verificador n„o est· configurado para verificar texto ao digitar.
-Neste caso confira como est„o as informaÁıes em:
+2 - O verificador n√£o est√° configurado para verificar texto ao digitar.
+Neste caso confira como est√£o as informa√ß√µes em:
 
-(AtÈ a Vers„o 3.0.X)
-Ferramentas >> OpÁıes>> ConfiguraÁıes de Idiomas >> Recursos de VerificaÁ„o
-Ortogr·fica e, no campo opÁıes deste formul·rio marque a opÁ„o 'Verificar
+(At√© a Vers√£o 3.0.X)
+Ferramentas >> Op√ß√µes>> Configura√ß√µes de Idiomas >> Recursos de Verifica√ß√£o
+Ortogr√°fica e, no campo op√ß√µes deste formul√°rio marque a op√ß√£o 'Verificar
 texto ao digitar';
 
-(Vers„o 3.1 em diante)
-Ferramentas >> OpÁıes >> ConfiguraÁıes de Idiomas >> Recursos para redaÁ„o e,
-no campo opÁıes deste formul·rio marque a opÁ„o 'Verificar ortografia ao digitar
+(Vers√£o 3.1 em diante)
+Ferramentas >> Op√ß√µes >> Configura√ß√µes de Idiomas >> Recursos para reda√ß√£o e,
+no campo op√ß√µes deste formul√°rio marque a op√ß√£o 'Verificar ortografia ao digitar
 
 
-Novas atualizaÁıes estar„o disponÌveis no site do LibreOffice, na
-p·gina do Verificador Ortogr·fico.
+Novas atualiza√ß√µes estar√£o dispon√≠veis no site do LibreOffice, na
+p√°gina do Verificador Ortogr√°fico.
 http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/
 
 
@@ -175,18 +175,18 @@ configured correctly, this may be due to one of the following reasons:
 1- The dictionary is probably not installed.
 
 To make sure that you are using the right language, check the information at
-Ferramentas >> OpÁıes >>  ConfiguraÁıes de Idioma >> Idiomas.
+Ferramentas >> Op√ß√µes >>  Configura√ß√µes de Idioma >> Idiomas.
 The item "Ocidental" must present the selected dictionary (a logo "Abc" should
 appear beside the language).
-If the language selected is not "PortuguÍs (Brasil)" change to this language.
+If the language selected is not "Portugu√™s (Brasil)" change to this language.
 After the configuration is correct, click on 'OK'.
 Close BrOffice and the fast start, and open it afterwards;
 
 2 - The checker is not configured to verify the orthography on typing. For this
 
 problem, check the information at
-"Ferramentas >> OpÁıes >> ConfiguraÁıes de Idiomas >> Recursos de VerificaÁ„o Ortogr·fica"
-and, in the field "OpÁıes" of this form, check the option ''Verificar texto ao digitar';
+"Ferramentas >> Op√ß√µes >> Configura√ß√µes de Idiomas >> Recursos de Verifica√ß√£o Ortogr√°fica"
+and, in the field "Op√ß√µes" of this form, check the option ''Verificar texto ao digitar';
 
 New updates will be available at the LibreOffice website, on the page of the
 Spell Checker.

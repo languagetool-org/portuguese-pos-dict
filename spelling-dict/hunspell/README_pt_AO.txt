@@ -2,13 +2,13 @@ This is a Portuguese (Portugal) dictionary for Hunspell:
 
 Copyright (C) 2017- Tiago F. Santos (tiagofsantos81 at sapo pt) version available on: https://github.com/TiagoSantos81/PortugueseLibreOfficeExtension/
 
-Fork from version Dicion·rios Natura 2016.10.01.2 release
+Fork from version Dicion√°rios Natura 2016.10.01.2 release
 
-Copyright (C) 2006-2012  JosÈ Jo„o de Almeida <jj@di.uminho.pt> , 
+Copyright (C) 2006-2012  Jos√© Jo√£o de Almeida <jj@di.uminho.pt> , 
 	Rui Vilela <ruivilela@di.uminho.pt> ,
-	Alberto Simıes <ambs@di.uminho.pt>
+	Alberto Sim√µes <ambs@di.uminho.pt>
 
-Dep. Inform·tica, Universidade do Minho
+Dep. Inform√°tica, Universidade do Minho
 Portugal
 
 All dictionary files and associated programs are currently covered by
