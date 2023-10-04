@@ -25,7 +25,7 @@ for variant in $variants
 do
 	echo "Unmunching ${lang}_${variant}..."
 	# create all forms from Hunspell dictionaries
-	unmunch spelling-dict/hunspell/${lang}_${variant}.dic spelling-dict/hunspell/${lang}_${variant}.aff | sort -u > spelling-dict/tmp/${lang}_${variant}1.txt
+	unmunch spelling-dict/hunspell/${lang}_${variant}.dic spelling-dict/hunspell/${lang}_${variant}.aff 2>>unmunch.log | sort -u > spelling-dict/tmp/${lang}_${variant}1.txt 
 	# convert to UTF-8
 	if [ "$variant" = "BR" ]
 	then
