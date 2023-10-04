@@ -19,7 +19,7 @@ variants="BR PT AO MZ"
 lang="pt"
 
 #rm -rf spelling-dict/tmp
-mkdir spelling-dict/tmp
+mkdir -p spelling-dict/tmp
 
 for variant in $variants
 do
@@ -47,6 +47,6 @@ do
 		freqDict=pt_BR_wordlist.xml
 	fi
 	outputDir="results/java-lt/src/main/resources/org/languagetool/resource/pt/spelling"
-	java -cp ${ltDir}/languagetool-standalone/target/LanguageTool-${ltVer}/LanguageTool-${ltVer}/languagetool.jar org.languagetool.tools.SpellDictionaryBuilder -i spelling-dict/tmp/${lang}_${variant}2.txt -info spelling-dict/${lang}_${variant}.info -freq spelling-dict/${freqDict} -o ${outputDir}/${lang}-${variant}.dict
+	java -cp ${ltDir}/languagetool-standalone/target/LanguageTool-${ltVer}/LanguageTool-${ltVer}/languagetool.jar org.languagetool.tools.SpellDictionaryBuilder -i spelling-dict/tmp/${lang}_${variant}2.txt -info spelling-dict/${lang}-${variant}.info -freq spelling-dict/${freqDict} -o ${outputDir}/${lang}-${variant}.dict
 	cp spelling-dict/${lang}-${variant}.info ${outputDir}
 done
