@@ -2,15 +2,13 @@
 
 cd morfologik-lt
 
-
-#LanguageTool jar
-#jarfile=~/github/languagetool/languagetool-tools/target/languagetool-tools-3.5-SNAPSHOT-jar-with-dependencies.jar
-jarfile=~/target-lt/languagetool.jar
+ltDir="../../languagetool"
+ltVer="6.4-SNAPSHOT"
+jarfile=${ltDir}/languagetool-standalone/target/LanguageTool-${ltVer}/LanguageTool-${ltVer}/languagetool.jar
 
 target_dir=../results/java-lt/src/main/resources/org/languagetool/resource/pt
 
 #source dictionaries
-# spanish
 cp ../results/lt/dict.txt /tmp/portuguese.txt
 
 for targetdict in portuguese
