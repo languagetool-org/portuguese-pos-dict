@@ -5,7 +5,7 @@
 # `languagetool.jar` is built with 'mvn clean package -DskipTests' in languagetool
 
 ltDir="../languagetool"
-ltVer="6.3-SNAPSHOT"
+ltVer="6.4-SNAPSHOT"
 
 #cd ${ltDir}
 #mvn clean package -DskipTests
@@ -27,11 +27,11 @@ do
 	# create all forms from Hunspell dictionaries
 	unmunch spelling-dict/hunspell/${lang}_${variant}.dic spelling-dict/hunspell/${lang}_${variant}.aff 2>>unmunch.log | sort -u > spelling-dict/tmp/${lang}_${variant}1.txt 
 	# convert to UTF-8
-	if [ "$variant" = "BR" ]
-	then
-		cat spelling-dict/tmp/${lang}_${variant}1.txt | iconv -f ISO-8859-1 -t UTF-8 > spelling-dict/tmp/${lang}_${variant}2.txt
-		mv spelling-dict/tmp/${lang}_${variant}2.txt spelling-dict/tmp/${lang}_${variant}1.txt
-	fi
+	#if [ "$variant" = "BR" ]
+	#then
+	#	cat spelling-dict/tmp/${lang}_${variant}1.txt | iconv -f ISO-8859-1 -t UTF-8 > spelling-dict/tmp/${lang}_${variant}2.txt
+	#	mv spelling-dict/tmp/${lang}_${variant}2.txt spelling-dict/tmp/${lang}_${variant}1.txt
+	#fi
 	# tokenize all forms with LT tokenizer
 	echo "Tokenizing ${lang}_${variant}..."
 	cat spelling-dict/tmp/${lang}_${variant}1.txt | java -cp ${ltDir}/languagetool-standalone/target/LanguageTool-${ltVer}/LanguageTool-${ltVer}/languagetool.jar:$ltDir/languagetool-dev/target/languagetool-dev-${ltVer}-jar-with-dependencies.jar org.languagetool.dev.archive.WordTokenizer $lang | sort -u > spelling-dict/tmp/${lang}_${variant}2.txt
