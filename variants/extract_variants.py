@@ -1,78 +1,67 @@
+"""Extract differences between PT varieties."""
 import re
 
-# Define a function to process a file and collect lemmas
-def process_file(filename, lemmas):
+
+# Define a set to store lemmas
+lemmata = set()
+
+# Define output files
+EXCLUDING_FILENAME = "br-pt_excluding.txt"
+RECOMMEND_FILENAME = "br-pt_recommend-BR.txt"
+UNCERTAIN_FILENAME = "br-pt_uncertain.txt"
+
+# Define sets to store lemmas that match specific patterns
+excluding_set = set()
+recommend_set = set()
+uncertain_set = set()
+
+OUTPUT_SET_MAPPING = [
+    (EXCLUDING_FILENAME, excluding_set),
+    (RECOMMEND_FILENAME, recommend_set),
+    (UNCERTAIN_FILENAME, uncertain_set)
+]
+
+FILES_TO_PROCESS = {
+    "adjectives-fdic.txt", "nouns-fdic.txt", "verbs-fdic.txt",
+    "adverbs-lt.txt", "adv_mente-lt.txt", "propernouns-lt.txt",
+    "resta-lt.txt"
+}
+
+# Set of tuples, where the first element is to be replaced with the second
+# The third element is the specific set that this equivalency belongs to
+# Though this is definitely not the whole story
+GRAPHEME_EQUIVALENCIES = [
+    ('ê', 'é', excluding_set),
+    ('ô', 'ó', excluding_set),
+    ('pt', 't', recommend_set),
+    ('cç', 'ç', recommend_set),
+    ('ct', 't', uncertain_set),
+    ('pç', 'ç', uncertain_set),
+]
+
+
+def process_file(filename: str):
+    """Define a function to process a file and collect lemmata."""
     with open(filename, 'r', encoding='utf-8') as file:
         for line in file:
             line = line.strip()
             match = re.match(r'^([^# =]+)', line)
             if match:
-                lemma = match.group(1)
-                lemmas.add(lemma)
+                lemmata.add(match.group(1))
 
-# Define a set to store lemmas
-lemmas = set()
 
-# Process the first set of files
-files = ["adjectives-fdic.txt", "nouns-fdic.txt", "verbs-fdic.txt"]
-for file in files:
-    filename = f"../src-dict/{file}"
-    process_file(filename, lemmas)
-
-# Process the second set of files
-files = ["adverbs-lt.txt", "adv_mente-lt.txt", "propernouns-lt.txt", "resta-lt.txt"]
-for file in files:
-    filename = f"../src-dict/{file}"
-    process_file(filename, lemmas)
-
-# Define output files
-output_file1 = "br-pt_excluding.txt"
-output_file2 = "br-pt_recommend-BR.txt"
-output_file3 = "br-pt_uncertain.txt"
-
-# Define sets to store lemmas that match specific patterns
-exclude_set1 = set()
-recommend_set = set()
-uncertain_set = set()
+for file_to_process in FILES_TO_PROCESS:
+    process_file(f"../src-dict/{file_to_process}")
 
 # Process lemmas and categorize them
-for lemma in sorted(lemmas):
-    if 'ê' in lemma:
-        lemma2 = lemma.replace('ê', 'é')
-        if lemma2 in lemmas:
-            exclude_set1.add(f"{lemma}={lemma2}")
-
-    if 'ô' in lemma:
-        lemma2 = lemma.replace('ô', 'ó')
-        if lemma2 in lemmas:
-            exclude_set1.add(f"{lemma}={lemma2}")
-
-    if 'pt' in lemma:
-        lemma2 = lemma.replace('pt', 't')
-        if lemma2 in lemmas:
-            recommend_set.add(f"{lemma2}={lemma}")
-
-    if 'cç' in lemma:
-        lemma2 = lemma.replace('cç', 'ç')
-        if lemma2 in lemmas:
-            recommend_set.add(f"{lemma2}={lemma}")
-
-    if 'ct' in lemma:
-        lemma2 = lemma.replace('ct', 't')
-        if lemma2 in lemmas:
-            uncertain_set.add(f"{lemma2}={lemma}")
-
-    if 'pç' in lemma:
-        lemma2 = lemma.replace('pç', 'ç')
-        if lemma2 in lemmas:
-            uncertain_set.add(f"{lemma}={lemma2}")
+for lemma in sorted(lemmata):
+    for equivalency in GRAPHEME_EQUIVALENCIES:
+        if equivalency[0] in lemma:
+            new_lemma = lemma.replace(*equivalency[0:2])
+            if new_lemma in lemmata:
+                equivalency[2].add("=".join([lemma, new_lemma]))
 
 # Write results to output files
-with open(output_file1, 'w', encoding='utf-8') as ofh:
-    ofh.write('\n'.join(sorted(exclude_set1)))
-
-with open(output_file2, 'w', encoding='utf-8') as ofh2:
-    ofh2.write('\n'.join(sorted(recommend_set)))
-
-with open(output_file3, 'w', encoding='utf-8') as ofh3:
-    ofh3.write('\n'.join(sorted(uncertain_set)))
+for output_pair in OUTPUT_SET_MAPPING:
+    with open(output_pair[0], 'w', encoding='utf-8') as output_file:
+        output_file.write('\n'.join(sorted(output_pair[1])))
