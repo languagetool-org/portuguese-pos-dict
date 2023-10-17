@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "portuguese-pos-dict"
+version = "0.1.0"
+description = "Portuguese POS dict utilities"
+authors = [
+    "Pedro Goulart <pedro.goulart@languagetool.com>"
+    ]
+readme = "README.md"
+packages = [ {include = "variants"} ]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tqdm = "^4.66.1"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+pycodestyle = "^2.10.0"
+pydocstyle = "^6.3.0"
+spacy = "^3.6.1"
+spacy_syllables = "^3.0.2"
+isort = "^5.12.0"
+ipykernel = "^6.25.0"
+
+[tool.poetry.group.test]
+optional = true
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.2"
+pytest-md = "^0.2.0"
+pytest-emoji = "^0.2.0"
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "default"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.autopep8]
+max_line_length = 120
+ignore = "E501"
+
+[tool.isort]
+line_length = 120

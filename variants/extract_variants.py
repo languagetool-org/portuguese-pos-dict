@@ -1,67 +1,66 @@
 """Extract differences between PT varieties."""
+from re import Pattern
+
+from tqdm import tqdm
 import re
+from typing import List
 
+from variants.syllabifier import Syllabifier
+from variants.alternation import AlternationContext, Alternation
 
-# Define a set to store lemmas
-lemmata = set()
+SYLLABIFIER = Syllabifier()
 
-# Define output files
-EXCLUDING_FILENAME = "br-pt_excluding.txt"
-RECOMMEND_FILENAME = "br-pt_recommend-BR.txt"
-UNCERTAIN_FILENAME = "br-pt_uncertain.txt"
-
-# Define sets to store lemmas that match specific patterns
-excluding_set = set()
-recommend_set = set()
-uncertain_set = set()
-
-OUTPUT_SET_MAPPING = [
-    (EXCLUDING_FILENAME, excluding_set),
-    (RECOMMEND_FILENAME, recommend_set),
-    (UNCERTAIN_FILENAME, uncertain_set)
-]
-
-FILES_TO_PROCESS = {
-    "adjectives-fdic.txt", "nouns-fdic.txt", "verbs-fdic.txt",
-    "adverbs-lt.txt", "adv_mente-lt.txt", "propernouns-lt.txt",
-    "resta-lt.txt"
+FILES_TO_PROCESS_COMPLEX = {
+    "adjectives-fdic.txt", "nouns-fdic.txt", "verbs-fdic.txt"
 }
 
-# Set of tuples, where the first element is to be replaced with the second
-# The third element is the specific set that this equivalency belongs to
-# Though this is definitely not the whole story
-GRAPHEME_EQUIVALENCIES = [
-    ('ê', 'é', excluding_set),
-    ('ô', 'ó', excluding_set),
-    ('pt', 't', recommend_set),
-    ('cç', 'ç', recommend_set),
-    ('ct', 't', uncertain_set),
-    ('pç', 'ç', uncertain_set),
+FILES_TO_PROCESS_SIMPLE = {
+    "adverbs-lt.txt", "adv_mente-lt.txt", "propernouns-lt.txt", "resta-lt.txt"
+}
+
+alternations = [
+    Alternation(AlternationContext('ê', 'vowel', SYLLABIFIER), 'é', []),
+    Alternation(AlternationContext('ô', 'vowel', SYLLABIFIER), 'ó', []),
+    Alternation(AlternationContext('pt', 'contains', SYLLABIFIER), 't', []),
+    Alternation(AlternationContext('cç', 'contains', SYLLABIFIER), 'ç', []),
+    Alternation(AlternationContext('ct', 'contains', SYLLABIFIER), 't', []),
+    Alternation(AlternationContext('pç', 'contains', SYLLABIFIER), 'ç', []),
 ]
 
 
-def process_file(filename: str):
+def process_file(filename: str, pattern: Pattern) -> List[str]:
     """Define a function to process a file and collect lemmata."""
-    with open(filename, 'r', encoding='utf-8') as file:
+    lemmata = []
+    with open(f"../src-dict/{filename}", 'r', encoding='utf-8') as file:
         for line in file:
             line = line.strip()
-            match = re.match(r'^([^# =]+)', line)
+            match = re.match(pattern, line)
             if match:
-                lemmata.add(match.group(1))
+                lemmata.append(match.group(1))
+    return lemmata
 
 
-for file_to_process in FILES_TO_PROCESS:
-    process_file(f"../src-dict/{file_to_process}")
+def collect_lemmata() -> set[str]:
+    lemmata = []
+    for filepath in FILES_TO_PROCESS_SIMPLE:
+        lemmata.extend(process_file(filepath, re.compile('^.* (.*) .*$')))
+    for filepath in FILES_TO_PROCESS_COMPLEX:
+        lemmata.extend(process_file(filepath, re.compile('^([^# =]+)')))
+    return set(lemmata)
 
-# Process lemmas and categorize them
-for lemma in sorted(lemmata):
-    for equivalency in GRAPHEME_EQUIVALENCIES:
-        if equivalency[0] in lemma:
-            new_lemma = lemma.replace(*equivalency[0:2])
-            if new_lemma in lemmata:
-                equivalency[2].add("=".join([lemma, new_lemma]))
 
-# Write results to output files
-for output_pair in OUTPUT_SET_MAPPING:
-    with open(output_pair[0], 'w', encoding='utf-8') as output_file:
-        output_file.write('\n'.join(sorted(output_pair[1])))
+LEMMATA = sorted(collect_lemmata())
+for lemma in tqdm(LEMMATA):
+    for alternation in alternations:
+        try:
+            alternation.transform(lemma)
+        except TypeError as e:
+            print(f"\"{lemma}\": {e}")
+
+TRANSFORMATIONS = []
+for alternation in alternations:
+    transformations = filter(lambda transformation: transformation.target in LEMMATA, alternation.transformations)
+    TRANSFORMATIONS.extend(transformations)
+
+with open('br-pt.txt', 'a', encoding='utf-8') as output_file:
+    output_file.write("\n".join([transformation.__str__() for transformation in TRANSFORMATIONS]))

@@ -7,3 +7,4 @@ morfologik-lt/*_lt.txt
 morfologik-lt/*.txt
 .xpr
 *.log
+*pycache__/
