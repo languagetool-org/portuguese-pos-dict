@@ -26,7 +26,7 @@ class Variant:
         return path.join(HUNSPELL_DIR, f"{self.underscored}.dic")
 
     def dict(self) -> str:
-        return path.join(OUTPUT_DIR, f"{self.hyphenated}.dic")
+        return path.join(OUTPUT_DIR, f"{self.hyphenated}.dict")
 
     def info(self, directory: Literal['source', 'target']) -> str:
         if directory == 'source':
