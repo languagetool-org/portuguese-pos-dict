@@ -1,7 +1,7 @@
 from typing import List
 import re
 
-from variants.syllabifier import Syllabifier, Syllable
+from pt_dict.variants.syllabifier import Syllabifier, Syllable
 
 
 class TestSyllabifier:
@@ -65,10 +65,11 @@ class TestSyllabifier:
             ('iguaria', ['i', 'gua', 'ri', 'a']),
             ('armário', ['ar', 'má', 'rio']),
             ('baia', ['bai', 'a']),
+            ("olho-d'água", ['o', 'lho', 'dá', 'gua']),
             # these are *not* syllabified the way they should be, but for now we don't *need* them to be
             ('baía', ['ba', 'ía']),
             ('baú', ['baú']),
         ]
-        for syllabification in syllabifications:
-            assert [syl.value for syl in syllabifier.syllabify(syllabification[0]).values] == syllabification[1]
+        for word, syllables in syllabifications:
+            assert [syl.value for syl in syllabifier.syllabify(word).values] == syllables
 

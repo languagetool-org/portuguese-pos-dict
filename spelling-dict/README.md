@@ -1,1 +1,0 @@
-Portuguese frequency dictionaries come from https://github.com/mozilla-b2g/gaia/tree/master/apps/keyboard/js/imes/latin/dictionaries

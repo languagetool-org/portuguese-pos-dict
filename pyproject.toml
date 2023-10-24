@@ -3,6 +3,7 @@ name = "portuguese-pos-dict"
 version = "0.1.0"
 description = "Portuguese POS dict utilities"
 authors = [
+    "Jaume Ortolà i Font <jaume.ortola@languagetool.com>",
     "Pedro Goulart <pedro.goulart@languagetool.com>"
     ]
 readme = "README.md"
@@ -11,6 +12,7 @@ packages = [ {include = "variants"} ]
 [tool.poetry.dependencies]
 python = "^3.10"
 tqdm = "^4.66.1"
+chardet = "^5.2.0"
 
 [tool.poetry.group.dev]
 optional = true
