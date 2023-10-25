@@ -39,9 +39,9 @@ class Variant:
         return path.join(DICT_DIR, f"{self.lang}_{self.association}_wordlist.xml")
 
 
-VARIANTS = [
-    Variant("pt-BR"),
-    Variant("pt-PT"),
-    Variant("pt-AO", "PT"),
-    Variant("pt-MZ", "PT"),
-]
+PT_BR = Variant("pt-BR")
+PT_PT = Variant("pt-PT")
+PT_AO = Variant("pt-AO", "PT")
+PT_MZ = Variant("pt-MZ", "PT")
+
+VARIANTS = [PT_BR, PT_PT, PT_AO, PT_MZ]

@@ -2,6 +2,7 @@
 import logging
 import subprocess
 import shlex
+from datetime import datetime
 from sys import stdout
 from typing import List
 import chardet as chardet
@@ -127,6 +128,7 @@ def build_binary(unmunched_tmps: List[NamedTemporaryFile], variant: Variant):
 
 
 def main():
+    LOGGER.info(f"started at {datetime.now().strftime('%r')}")
     if FORCE_COMPILE:
         compile_lt_dev()
     tasks = []
@@ -144,6 +146,7 @@ def main():
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
         executor.map(lambda var: build_binary(unmunched_files[var.hyphenated], var), VARIANTS)
+    LOGGER.info(f"finished at {datetime.now().strftime('%r')}")
 
 
 if __name__ == "__main__":
