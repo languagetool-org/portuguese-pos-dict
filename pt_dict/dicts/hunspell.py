@@ -9,5 +9,5 @@ class HunspellDict(Dictionary):
 
     def collect_lemmata(self, split_compounds=False):
         for variant in VARIANTS:
-            self.collect_lemmata_from_file(variant.dic(), self.pattern, split_compounds)
+            self.collect_lemmata_from_file(variant.dic(), self.pattern, split_compounds, encoding="ISO-8859-1")
         return self.lemmata

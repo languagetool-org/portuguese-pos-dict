@@ -10,9 +10,9 @@ class Dictionary:
     def lemmata(self):
         return self._lemmata
 
-    def collect_lemmata_from_file(self, filepath: str, pattern: re.Pattern, split_compounds=False):
+    def collect_lemmata_from_file(self, filepath: str, pattern: re.Pattern, split_compounds=False, encoding="utf-8"):
         """Define a function to process a file and collect lemmata."""
-        with open(filepath, 'r', encoding='utf-8') as file:
+        with open(filepath, 'r', encoding=encoding) as file:
             for line in file:
                 match = re.match(pattern, line.strip())
                 if match:
