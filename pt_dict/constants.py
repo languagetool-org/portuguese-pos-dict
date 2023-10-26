@@ -1,5 +1,8 @@
+import logging
 from os import path, environ
 import pathlib
+
+from pt_dict.logger import Logger
 
 LT_VER = "6.4-SNAPSHOT"
 
@@ -17,3 +20,7 @@ TWO_WAY_ALTERNATIONS_FILEPATH = path.join(DATA_DIR, 'two-way-alternations.txt')
 THREE_WAY_ALTERNATIONS_FILEPATH = path.join(DATA_DIR, 'three-way-alternations.txt')
 LT_JAR_PATH = path.join(LT_DIR, 'languagetool-standalone', 'target', f"LanguageTool-{LT_VER}", f"LanguageTool-{LT_VER}",
                         'languagetool.jar')
+
+logging.setLoggerClass(Logger)
+LOGGER = logging.getLogger('build_spelling_dicts')
+LOGGER.setLevel(logging.DEBUG)

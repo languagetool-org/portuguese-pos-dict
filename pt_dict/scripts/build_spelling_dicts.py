@@ -1,17 +1,14 @@
 """This was translated from shell to python iteratively and interactively using ChatGPT 4."""
-import logging
-import subprocess
-import shlex
+import shutil
 from datetime import datetime
-from sys import stdout
 from typing import List
-import chardet as chardet
 import concurrent.futures
 from tempfile import NamedTemporaryFile
-from os import path, chdir, replace
+from os import path
 
-from pt_dict.constants import DICT_DIR, HUNSPELL_DIR, LT_DIR, REPO_DIR, LT_JAR_PATH
-from pt_dict.variants.variant import Variant, VARIANTS
+from pt_dict.constants import DICT_DIR, HUNSPELL_DIR, LT_JAR_PATH, LOGGER
+from pt_dict.utils import run_command, compile_lt_dev
+from pt_dict.variants.variant import Variant, DIC_VARIANTS
 
 TMP_DIR = path.join(DICT_DIR, "tmp")
 
@@ -20,28 +17,16 @@ SAMPLE_SIZE = -1
 
 # 20k should split the pt_BR hunspell dic into 16 parts
 CHUNK_SIZE = 20000
-
-LOGGER = logging.Logger(name='build_spelling_dicts')
-LOGGER.setLevel(logging.INFO)
-LOGGER.addHandler(logging.StreamHandler(stdout))
+MAX_THREADS = 8
 
 FORCE_COMPILE = False
 
 
-def split_dic_file(dic_path, chunk_size):
-    """
-    Splits a dictionary file into smaller files (chunks) of a given number of lines.
-
-    :param dic_path: Path to the dictionary file.
-    :param chunk_size: Number of lines per chunk.
-    :return: List of paths to the chunks.
-    """
-    try:
-        with open(dic_path, 'r', encoding='utf-8') as dic_file:
-            lines = dic_file.readlines()
-    except UnicodeDecodeError:
-        with open(dic_path, 'r', encoding='ISO-8859-1') as dic_file:
-            lines = dic_file.readlines()
+def split_dic_file(dic_path: str, chunk_size: int) -> List[str]:
+    """Splits a dictionary file into smaller files (chunks) of a given number of lines."""
+    with open(dic_path, 'r', encoding='ISO-8859-1') as dic_file:
+        lines = dic_file.readlines()[1:]  # Skip the first line
+    lines = [line for line in lines if not line.startswith("#")]  # Filter out comment lines
     if SAMPLE_SIZE > 0:
         lines = lines[0:SAMPLE_SIZE]
     total_lines = len(lines)
@@ -49,70 +34,43 @@ def split_dic_file(dic_path, chunk_size):
     chunk_paths = []
     for index, chunk in enumerate(chunks):
         chunk_path = dic_path.replace('.dic', f'_chunk{index}.dic').replace(HUNSPELL_DIR, TMP_DIR)
-        try:
-            with open(chunk_path, 'w', encoding='utf-8') as chunk_file:
-                chunk_file.writelines(chunk)
-        except UnicodeEncodeError:
-            with open(chunk_path, 'w', encoding='ISO-8859-1') as chunk_file:
-                chunk_file.writelines(chunk)
+        with open(chunk_path, 'w', encoding='ISO-8859-1') as chunk_file:
+            chunk_file.writelines(chunk)
         chunk_paths.append(chunk_path)
     return chunk_paths
 
 
-def compile_lt_dev():
-    """Build with maven in the languagetool-dev directory."""
-    LOGGER.info("Compiling LT dev...")
-    chdir(path.join(LT_DIR, "languagetool-dev"))
-    run_command("mvn clean compile assembly:single")
-    chdir(REPO_DIR)  # Go back to the repo directory
-
-
-def run_command(command: str) -> str:
-    """Execute the given shell command and return its output."""
-    LOGGER.info(f"Running command: {command}")
-    result = subprocess.run(shlex.split(command), capture_output=True)
-
-    if result.returncode != 0:
-        raise RuntimeError(f"Command failed with error code {result.returncode}: {result.stderr}")
-
-    output: bytes = result.stdout
-    encoding_detected = chardet.detect(output)["encoding"]
-    if encoding_detected == "ISO-8859-1":
-        return output.decode('ISO-8859-1')
-    return output.decode('utf-8')
-
-
-def run_command_with_input(command: str, input_data: str) -> str:
-    """Execute a shell command with the provided input and return its output."""
-    LOGGER.info(f"Running command with piped stdin: {command}")
-    process = subprocess.Popen(shlex.split(command), stdin=subprocess.PIPE, stdout=subprocess.PIPE,
-                               stderr=subprocess.PIPE, text=True)
-    stdout_data, stderr_data = process.communicate(input=input_data)  # Feeding input data and collecting output
-    if process.returncode != 0:
-        raise RuntimeError(f"Command failed with error code {process.returncode}: {stderr_data}")
-    return stdout_data
-
-
 def unmunch(variant: Variant, chunk_path: str) -> tuple[NamedTemporaryFile, str]:
-    """Create all forms from Hunspell dictionaries."""
-    unmunched_tmp = NamedTemporaryFile(delete=False)
-    LOGGER.info(f"Unmunching {path.basename(chunk_path)} into {unmunched_tmp.name}...")
+    """Create all forms from Hunspell dictionaries.
+
+    Args:
+        variant: a Variant object, the source of the dictionary data
+        chunk_path: a path to a dic file chunk
+
+    Returns:
+        a tuple containing the tmp file and the code of the COUNTRY association of the variant; this is because
+        some variants (viz. AO and MZ) supply entries for the PT dictionary, not their own variety.
+    """
+    unmunched_tmp = NamedTemporaryFile(delete=False, mode='wb')
+    LOGGER.debug(f"Unmunching {path.basename(chunk_path)} into {unmunched_tmp.name}...")
     cmd_unmunch = f"unmunch {chunk_path} {variant.aff()}"
     result_unmunch = run_command(cmd_unmunch)
-    with open(unmunched_tmp.name, "w") as f:
-        f.write(result_unmunch)
-    return unmunched_tmp, variant.hyphenated
+    unmunched_tmp.write(result_unmunch)
+    unmunched_tmp.flush()
+    unmunched_tmp.close()
+    return unmunched_tmp, variant.association
 
 
 def build_binary(unmunched_tmps: List[NamedTemporaryFile], variant: Variant):
     LOGGER.info(f"Building binary for {variant}...")
-    megatemp = NamedTemporaryFile(delete=True)
-    lines = []
+    megatemp = NamedTemporaryFile(delete=True, mode='w', encoding='utf-8')  # Open the file with UTF-8 encoding
+    lines = set()
     for tmp in unmunched_tmps:
-        with open(tmp.name, 'r') as t:
-            lines.extend(t.read().split("\n"))
-    with open(megatemp.name, 'w') as f:
-        f.write("\n".join(sorted(set(lines))))
+        with open(tmp.name, 'r', encoding='ISO-8859-1') as t:  # Open the file with ISO-8859-1 encoding
+            lines.update(t.read().split("\n"))
+    # Since megatemp is opened in 'w' mode with UTF-8 encoding, it will write in UTF-8 directly
+    megatemp.write("\n".join(sorted(lines)))
+    LOGGER.debug(f"Found {len(lines)} unique unmunched forms for {variant}.")
     cmd_build = (
         f"java -cp {LT_JAR_PATH} "
         f"org.languagetool.tools.SpellDictionaryBuilder "
@@ -123,30 +81,32 @@ def build_binary(unmunched_tmps: List[NamedTemporaryFile], variant: Variant):
     )
     run_command(cmd_build)
     LOGGER.info(f"Done compiling {variant} dictionary!")
-    replace(variant.info('source'), variant.info('target'))
+    shutil.copy(variant.info('source'), variant.info('target'))
     megatemp.close()
 
 
 def main():
-    LOGGER.info(f"started at {datetime.now().strftime('%r')}")
+    LOGGER.debug(f"started at {datetime.now().strftime('%r')}")
     if FORCE_COMPILE:
         compile_lt_dev()
     tasks = []
     unmunched_files = {}
-    for variant in VARIANTS:
-        unmunched_files[variant.hyphenated] = []
+    # TODO: at some point we need to manage the pre and post-agreement distinction here
+    # the whole 'dict_variant' will need to go, and we will just merge all the unmunched files into one big one
+    # and then split them based on the dialectal and pre/post agreement alternation files
+    for variant in DIC_VARIANTS:
+        unmunched_files[variant.association] = []
         chunk_paths = split_dic_file(variant.dic(), CHUNK_SIZE)
         for chunk_path in chunk_paths:
             tasks.append((variant, chunk_path))
-
-    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
+    LOGGER.info("Starting unmunching process...")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
         tmp_files = executor.map(lambda task: unmunch(task[0], task[1]), tasks)
-        for file, var_code in tmp_files:
-            unmunched_files[var_code].append(file)
-
-    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
-        executor.map(lambda var: build_binary(unmunched_files[var.hyphenated], var), VARIANTS)
-    LOGGER.info(f"finished at {datetime.now().strftime('%r')}")
+        for file, variant_association_code in tmp_files:
+            unmunched_files[variant_association_code].append(file)
+    with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
+        executor.map(lambda var: build_binary(unmunched_files[var.association], var), DIC_VARIANTS)
+    LOGGER.debug(f"finished at {datetime.now().strftime('%r')}")
 
 
 if __name__ == "__main__":

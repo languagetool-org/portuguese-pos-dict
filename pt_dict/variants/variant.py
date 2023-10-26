@@ -5,6 +5,17 @@ from pt_dict.constants import HUNSPELL_DIR, DICT_DIR, OUTPUT_DIR
 
 
 class Variant:
+    """Defines a single variant of the Portuguese language.
+
+    Attributes:
+        hyphenated: the xx-XX code of the variant
+        underscored: the underscored code of the variant, i.e. xx_XX (used for Hunspell files)
+        lang: just the language, i.e. 'pt'
+        country: just the country, e.g. 'BR'
+        association: the specific country that this variant is associated with; for example, Angolan and Mozambican
+                     variants are grouped together with the European one; this may become obsolete soon as those three
+                     dictionaries have been merged.
+    """
     def __init__(self, locale_code: str, country_association: Optional[str] = None):
         parsed = locale_code.split('-')
         self.hyphenated = locale_code
