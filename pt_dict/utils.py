@@ -4,7 +4,7 @@ from os import chdir, path
 
 import chardet as chardet
 
-from pt_dict.constants import LOGGER, LT_DIR, REPO_DIR
+from pt_dict.constants import LOGGER, LT_DIR, REPO_DIR, RESULTS_DIR
 from pt_dict.dicts.dictionary import Dictionary
 from pt_dict.dicts.hunspell import HunspellDict
 from pt_dict.dicts.tagger import TaggerDict
@@ -24,6 +24,14 @@ def compile_lt_dev():
     LOGGER.info("Compiling LT dev...")
     chdir(path.join(LT_DIR, "languagetool-dev"))
     run_command("mvn clean compile assembly:single")
+    chdir(REPO_DIR)  # Go back to the repo directory
+
+
+def install_dictionaries():
+    """Install our dictionaries, I hope."""
+    LOGGER.info("Installing dictionaries...")
+    chdir(RESULTS_DIR)
+    run_command("mvn clean install")
     chdir(REPO_DIR)  # Go back to the repo directory
 
 

@@ -13,6 +13,7 @@ packages = [ {include = "variants"} ]
 python = "^3.10"
 tqdm = "^4.66.1"
 chardet = "^5.2.0"
+termcolor = "^2.3.0"
 
 [tool.poetry.group.dev]
 optional = true
