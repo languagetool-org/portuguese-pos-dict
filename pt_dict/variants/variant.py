@@ -45,3 +45,5 @@ PT_AO = Variant("pt-AO", "PT")
 PT_MZ = Variant("pt-MZ", "PT")
 
 VARIANTS = [PT_BR, PT_PT, PT_AO, PT_MZ]
+
+DIC_VARIANTS = [PT_BR, PT_PT]
