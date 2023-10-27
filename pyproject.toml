@@ -10,10 +10,12 @@ readme = "README.md"
 packages = [ {include = "variants"} ]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.10, <3.12"
 tqdm = "^4.66.1"
 chardet = "^5.2.0"
 termcolor = "^2.3.0"
+spacy = "^3.6.1"
+spacy_syllables = "^3.0.2"
 
 [tool.poetry.group.dev]
 optional = true
@@ -21,8 +23,6 @@ optional = true
 [tool.poetry.group.dev.dependencies]
 pycodestyle = "^2.10.0"
 pydocstyle = "^6.3.0"
-spacy = "^3.6.1"
-spacy_syllables = "^3.0.2"
 isort = "^5.12.0"
 ipykernel = "^6.25.0"
 
