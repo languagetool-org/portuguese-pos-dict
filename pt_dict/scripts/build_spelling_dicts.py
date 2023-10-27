@@ -45,6 +45,8 @@ def split_dic_file(dic_path: str, chunk_size: int) -> List[str]:
     for index, chunk in enumerate(chunks):
         chunk_path = dic_path.replace('.dic', f'_chunk{index}.dic').replace(HUNSPELL_DIR, TMP_DIR)
         with open(chunk_path, 'w', encoding='ISO-8859-1') as chunk_file:
+            # Prepend the count of lines in this chunk and then write all lines
+            chunk_file.write(f"{len(chunk)}\n")
             chunk_file.writelines(chunk)
         chunk_paths.append(chunk_path)
     return chunk_paths
