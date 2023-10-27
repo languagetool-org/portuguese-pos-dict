@@ -45,9 +45,9 @@ class AlternationContext:
             if syllables.antepenultimate and syllables.antepenultimate.contains(self.core) and \
                     syllables.penultimate.startswith(phon.NASALS):
                 return True
-            # check be.bê/be.bé
-            if syllables.last.endswith(self.core):
-                return True
+            # check be.bê/be.bé; too many false positives, switching this off, but leaving it here for now just in case
+            # if syllables.last.endswith(self.core):
+            #     return True
         return False
 
 
