@@ -7,7 +7,8 @@ import concurrent.futures
 from tempfile import NamedTemporaryFile
 from os import path
 
-from pt_dict.constants import DICT_DIR, HUNSPELL_DIR, LT_JAR_PATH, LOGGER, LT_DIR, LT_VER
+from pt_dict.constants import DICT_DIR, HUNSPELL_DIR, LT_JAR_PATH, LOGGER, LT_DIR, LT_VER, LATIN_1_ENCODING, \
+    TWO_WAY_ALTERNATIONS_FILEPATH
 from pt_dict.utils import run_command, compile_lt_dev, run_command_with_input, install_dictionaries
 from pt_dict.variants.variant import Variant, DIC_VARIANTS
 
@@ -34,7 +35,7 @@ class CLI:
 
 def split_dic_file(dic_path: str, chunk_size: int) -> List[str]:
     """Splits a dictionary file into smaller files (chunks) of a given number of lines."""
-    with open(dic_path, 'r', encoding='ISO-8859-1') as dic_file:
+    with open(dic_path, 'r', encoding=LATIN_1_ENCODING) as dic_file:
         lines = dic_file.readlines()[1:]  # Skip the first line
     lines = [line for line in lines if not line.startswith("#")]  # Filter out comment lines
     if SAMPLE_SIZE > 0:
@@ -44,7 +45,7 @@ def split_dic_file(dic_path: str, chunk_size: int) -> List[str]:
     chunk_paths = []
     for index, chunk in enumerate(chunks):
         chunk_path = dic_path.replace('.dic', f'_chunk{index}.dic').replace(HUNSPELL_DIR, TMP_DIR)
-        with open(chunk_path, 'w', encoding='ISO-8859-1') as chunk_file:
+        with open(chunk_path, 'w', encoding=LATIN_1_ENCODING) as chunk_file:
             # Prepend the count of lines in this chunk and then write all lines
             chunk_file.write(f"{len(chunk)}\n")
             chunk_file.writelines(chunk)
@@ -72,6 +73,29 @@ def unmunch(variant: Variant, chunk_path: str) -> NamedTemporaryFile:
 
 
 def tokenise(variant: Variant, unmunched_file: NamedTemporaryFile) -> NamedTemporaryFile:
+    """Tokenise each line of an unmunched file, write it to another temp file and return it.
+
+    The written data looks weird, since the output of the LT word tokeniser inserts newlines between tokens.
+    Original line after unmunch:
+       "far-se-á"
+    Lines after tokenisation:
+        "far"
+        ""
+        "se"
+        ""
+        "á"
+    This may look iffy, but later in the process we will sort and dedupe these files, so don't panic.
+
+    Args:
+        variant: the Variant object for which we are building the dictionary; note that, *for now*, tokenisation is
+                 a *language* thing, i.e. both pt-BR and pt-PT use `pt` tokenisation rules, there is no difference
+                 between variants.
+        unmunched_file: the NamedTemporaryFile object for the unmunched file we'll be tokenising
+
+    Returns:
+        a NamedTemporaryFile with the result of tokenisation written to it; note this is a UTF-8-encoded file; it is not
+        at this stage that we move from latin-1 encoding to UTF-8.
+    """
     tokenised_tmp = NamedTemporaryFile(delete=DELETE_TMP, mode='w')
     LOGGER.debug(f"Tokenising {unmunched_file.name} into {tokenised_tmp.name}...")
     tokenise_cmd = (
@@ -79,7 +103,7 @@ def tokenise(variant: Variant, unmunched_file: NamedTemporaryFile) -> NamedTempo
         f"{LT_DIR}/languagetool-dev/target/languagetool-dev-{LT_VER}-jar-with-dependencies.jar "
         f"org.languagetool.dev.archive.WordTokenizer {variant.lang}"
     )
-    with open(unmunched_file.name, 'r', encoding='ISO-8859-1') as u:
+    with open(unmunched_file.name, 'r', encoding=LATIN_1_ENCODING) as u:
         unmunched_str = u.read()
     unmunched_file.close()
     tokenisation_result = run_command_with_input(tokenise_cmd, input_data=unmunched_str)
@@ -88,9 +112,9 @@ def tokenise(variant: Variant, unmunched_file: NamedTemporaryFile) -> NamedTempo
     return tokenised_tmp
 
 
-def process_variant(variant: Variant, chunk_path: str) -> tuple[str, NamedTemporaryFile]:
+def process_variant(variant: Variant, chunk_path: str) -> tuple[Variant, NamedTemporaryFile]:
     unmunched_file = unmunch(variant, chunk_path)
-    return variant.hyphenated, tokenise(variant, unmunched_file)
+    return variant, tokenise(variant, unmunched_file)
 
 
 def build_binary(tokenised_temps: List[NamedTemporaryFile], variant: Variant):
@@ -98,9 +122,8 @@ def build_binary(tokenised_temps: List[NamedTemporaryFile], variant: Variant):
     megatemp = NamedTemporaryFile(delete=DELETE_TMP, mode='w', encoding='utf-8')  # Open the file with UTF-8 encoding
     lines = set()
     for tmp in tokenised_temps:
-        with open(tmp.name, 'r', encoding='utf-8') as t:  # Open the file with ISO-8859-1 encoding
+        with open(tmp.name, 'r', encoding='utf-8') as t:
             lines.update(t.read().split("\n"))
-    # Since megatemp is opened in 'w' mode with UTF-8 encoding, it will write in UTF-8 directly
     megatemp.write("\n".join(sorted(lines)))
     LOGGER.debug(f"Found {len(lines)} unique unmunched and tokenised forms for {variant}.")
     cmd_build = (
@@ -136,17 +159,17 @@ def main():
     # the whole 'dict_variant' will need to go, and we will just merge all the unmunched files into one big one
     # and then split them based on the dialectal and pre/post agreement alternation files
     for variant in DIC_VARIANTS:
-        tokenised_files[variant.hyphenated] = []
+        tokenised_files[variant] = []
         chunk_paths = split_dic_file(variant.dic(), CHUNK_SIZE)
         for chunk_path in chunk_paths:
             tasks.append((variant, chunk_path))
     LOGGER.info("Starting unmunching and tokenisation process...")
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
         tmp_files = executor.map(lambda task: process_variant(task[0], task[1]), tasks)
-        for variant_code, file in tmp_files:
-            tokenised_files[variant_code].append(file)
+        for variant, file in tmp_files:
+            tokenised_files[variant].append(file)
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
-        executor.map(lambda var: build_binary(tokenised_files[var.hyphenated], var), DIC_VARIANTS)
+        executor.map(lambda var: build_binary(tokenised_files[var], var), DIC_VARIANTS)
     for file_list in tokenised_files.values():
         for file in file_list:
             file.close()

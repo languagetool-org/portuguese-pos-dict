@@ -5,6 +5,7 @@ import pathlib
 from pt_dict.logger import Logger
 
 LT_VER = "6.4-SNAPSHOT"
+LATIN_1_ENCODING = 'ISO-8859-1'
 
 # Paths
 REPO_DIR = pathlib.Path(path.dirname(path.abspath(__file__))).parent

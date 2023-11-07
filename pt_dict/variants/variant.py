@@ -15,11 +15,16 @@ class Variant:
         association: the specific country that this variant is associated with; for example, Angolan and Mozambican
                      variants are grouped together with the European one; this may become obsolete soon as those three
                      dictionaries have been merged.
+        agreement: which specific orthography agreement to use, 1945 or 1990; the default is 90.
     """
-    def __init__(self, locale_code: str, country_association: Optional[str] = None):
+    def __init__(self, locale_code: str, country_association: Optional[str] = None,
+                 agreement: Literal['45', '90'] = '90'):
         parsed = locale_code.split('-')
+        self.agreement = agreement
         self.hyphenated = locale_code
+        self.hyphenated_with_agreement = f"{self.hyphenated}-{self.agreement}"
         self.underscored = locale_code.replace('-', '_')
+        self.underscored_with_agreement = f"{self.underscored}_{self.agreement}"
         self.lang = parsed[0]
         self.country = parsed[1]
         if country_association is None:
@@ -28,33 +33,55 @@ class Variant:
             self.association = country_association
 
     def __str__(self) -> str:
+        if self.country == 'PT':
+            return self.hyphenated_with_agreement
         return self.hyphenated
 
     def aff(self) -> str:
         return path.join(HUNSPELL_DIR, f"{self.underscored}.aff")
 
     def dic(self) -> str:
-        return path.join(HUNSPELL_DIR, f"{self.underscored}.dic")
+        """Path to the plaintext Hunspell file. For pt-PT, includes the agreement."""
+        if self.country == 'PT':
+            filename = f"{self.underscored_with_agreement}.dic"
+        else:
+            filename = f"{self.underscored}.dic"
+        return path.join(HUNSPELL_DIR, filename)
 
     def dict(self) -> str:
-        return path.join(OUTPUT_DIR, f"{self.hyphenated}.dict")
+        """Path to the BINARY. For pt-PT, includes the agreement."""
+        if self.country == 'PT':
+            filename = f"{self.hyphenated_with_agreement}.dict"
+        else:
+            filename = f"{self.hyphenated}.dict"
+        return path.join(OUTPUT_DIR, filename)
 
     def info(self, directory: Literal['source', 'target']) -> str:
+        """The path to the info file can be in the source (current repo) or destination (the java src).
+
+        In the case of pt-PT, there is only a single pt-PT.info file in the source, but in the destination we duplicate
+        them with the full name containing agreement, due to how Morfologik files are treated in LT: the info file must
+        have the same basename as the binary dic file.
+        """
+        filename = f"{self.hyphenated}.info"
         if directory == 'source':
             directory = DICT_DIR
         elif directory == 'target':
             directory = OUTPUT_DIR
-        return path.join(directory, f"{self.hyphenated}.info")
+            if self.country == 'PT':
+                filename = f"{self.hyphenated_with_agreement}.info"
+        return path.join(directory, filename)
 
     def freq(self) -> str:
         return path.join(DICT_DIR, f"{self.lang}_{self.association}_wordlist.xml")
 
 
 PT_BR = Variant("pt-BR")
-PT_PT = Variant("pt-PT")
-PT_AO = Variant("pt-AO", "PT")
-PT_MZ = Variant("pt-MZ", "PT")
+PT_PT_90 = Variant("pt-PT", agreement="90")
+PT_PT_45 = Variant("pt-PT", agreement="45")
+PT_AO = Variant("pt-AO", "PT", "45")
+PT_MZ = Variant("pt-MZ", "PT", "45")
 
-VARIANTS = [PT_BR, PT_PT, PT_AO, PT_MZ]
+VARIANTS = [PT_BR, PT_PT_90, PT_PT_45, PT_AO, PT_MZ]
 
-DIC_VARIANTS = [PT_BR, PT_PT]
+DIC_VARIANTS = [PT_BR, PT_PT_90, PT_PT_45]
