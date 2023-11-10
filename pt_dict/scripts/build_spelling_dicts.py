@@ -7,8 +7,7 @@ import concurrent.futures
 from tempfile import NamedTemporaryFile
 from os import path
 
-from pt_dict.constants import DICT_DIR, HUNSPELL_DIR, LT_JAR_PATH, LOGGER, LT_DIR, LT_VER, LATIN_1_ENCODING, \
-    TWO_WAY_ALTERNATIONS_FILEPATH
+from pt_dict.constants import DICT_DIR, HUNSPELL_DIR, LT_JAR_PATH, LOGGER, LT_DIR, LT_VER, LATIN_1_ENCODING
 from pt_dict.utils import run_command, compile_lt_dev, run_command_with_input, install_dictionaries
 from pt_dict.variants.variant import Variant, DIC_VARIANTS
 

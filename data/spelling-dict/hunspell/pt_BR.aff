@@ -1558,7 +1558,7 @@ SFX J   os    amente       os
 
 # Advérbios -K-  Terminação:  mente (variantes)
 
-SFX K Y 50
+SFX K Y 52
 SFX K   0        amente        dor
 SFX K   a        camente       ia
 SFX K   áfico    aficamente    áfico
@@ -1572,11 +1572,13 @@ SFX K   árquico  arquicamente  árquico
 SFX K   ástico   asticamente   ástico
 SFX K   ático    aticamente    ático
 SFX K   ável     avelmente     ável
+SFX K   édico    edicamente    édico
 SFX K   éfico    eficamente    éfico
 SFX K   égico    egicamente    égico
 SFX K   êmico    emicamente    êmico
 SFX K   ênico    enicamente    ênico
 SFX K   érgico   ergicamente   érgico
+SFX K   éreo     ereamente     éreo
 SFX K   ério     eriamente     ério
 SFX K   ético    eticamente    ético
 SFX K   ícito    icitamente    ícito
@@ -1610,9 +1612,9 @@ SFX K   úrgico   urgicamente   úrgico
 SFX K   ústico   usticamente   ústico
 SFX K   úvel     uvelmente     úvel
 
-# Particípios  -L- Variantes com número/género/grau
+# Particípios  -L- Variantes com número/gênero/grau
 
-SFX L Y 18
+SFX L Y 26
 SFX L   er     idamente     er
 SFX L   er     idão         er
 SFX L   er     idinha       er
@@ -1631,6 +1633,14 @@ SFX L   r      dinhos       [ia]r
 SFX L   r      dões         [ia]r
 SFX L   r      dona         [ia]r
 SFX L   r      donas        [ia]r
+SFX L   er     idita       er
+SFX L   er     iditas      er
+SFX L   er     idito       er
+SFX L   er     iditos      er
+SFX L   r      dita        [ia]r
+SFX L   r      ditas       [ia]r
+SFX L   r      dito        [ia]r
+SFX L   r      ditos       [ia]r
 
 # Substantivos deverbais -M- terminação: mento
 
@@ -1652,9 +1662,9 @@ SFX N   r      tória    r
 SFX N   r      tórios   r
 SFX N   r      tórias   r
 
-# Diminutivos femininos -O- Terminação: inha
+# Diminutivos femininos -O- Terminação: inha/ita
 
-SFX O Y 33
+SFX O Y 70
 SFX O   0      ezinhas z
 SFX O   ês     esinha  ês
 SFX O   ês     esinhas ês
@@ -1688,10 +1698,47 @@ SFX O   os     inha    [^cgç]os
 SFX O   os     inhas   [^cgç]os
 SFX O   os     uinha   gos
 SFX O   os     uinhas  gos
+SFX O   0      zinha   [aeiou]
+SFX O   0      zinhas   [aeiou]
+SFX O   0      ezitas z
+SFX O   ês     esita  ês
+SFX O   ês     esitas ês
+SFX O   0      ita    [lz]
+SFX O   0      itas   l
+SFX O   a      ita    [^cgç]a
+SFX O   a      itas   [^cgç]a
+SFX O   a      uita   ga
+SFX O   a      uitas  ga
+SFX O   ça     cita   ça
+SFX O   ça     citas  ça
+SFX O   ca     quita  ca
+SFX O   ca     quitas ca
+SFX O   ço     cita   ço
+SFX O   ço     citas  ço
+SFX O   ços    cita   ços
+SFX O   ços    citas  ços
+SFX O   co     quita  co
+SFX O   co     quitas co
+SFX O   cos    quita  cos
+SFX O   cos    quitas cos
+SFX O   e      ita    e
+SFX O   e      itas   e
+SFX O   i      ita    i
+SFX O   i      itas   i
+SFX O   o      ita    [^cgç]o
+SFX O   o      itas   [^cgç]o
+SFX O   o      uita   go
+SFX O   o      uitas  go
+SFX O   os     ita    [^cgç]os
+SFX O   os     itas   [^cgç]os
+SFX O   os     uita   gos
+SFX O   os     uitas  gos
+SFX O   0      zita   [aeiou]
+SFX O   0      zitas   [aeiou]
 
-#  Diminutivos masculinos -P- Terminação: inho
+#  Diminutivos masculinos -P- Terminação: inho/ito
 
-SFX P Y 24
+SFX P Y 52
 SFX P   0      inho    z
 SFX P   0      ezinhos z
 SFX P   0      nho     i
@@ -1716,10 +1763,38 @@ SFX P   os     uinho   gos
 SFX P   os     uinhos  gos
 SFX P   ês     esinho  ês
 SFX P   ês     esezinhos ês
+SFX P   0      zinho   [aeoui]
+SFX P   0      zinhos   [aeoui]
+SFX P   0      ito    z
+SFX P   0      ezitos z
+SFX P   0      to     i
+SFX P   0      tos    i
+SFX P   ço     cito   ço
+SFX P   ço     citos  ço
+SFX P   co     quito  co
+SFX P   co     quitos co
+SFX P   ços    cito   ços
+SFX P   ços    citos  ços
+SFX P   cos    quito  cos
+SFX P   cos    quitos cos
+SFX P   e      ito    e
+SFX P   e      itos   e
+SFX P   o      ito    [^cgç]o
+SFX P   o      itos   [^cgç]o
+SFX P   o      uito   go
+SFX P   o      uitos  go
+SFX P   os     ito    [^cgç]os
+SFX P   os     itos   [^cgç]os
+SFX P   os     uito   gos
+SFX P   os     uitos  gos
+SFX P   ês     esito  ês
+SFX P   ês     esezitos ês
+SFX P   0      zito   [aeoui]
+SFX P   0      zitos   [aeoui]
 
-# Diminutivos femininos -Q- Terminação: zinha
+# Diminutivos femininos -Q- Terminação: zinha/zita
 
-SFX Q Y 40
+SFX Q Y 84
 SFX Q   0      azinha   r
 SFX Q   0      azinhas  r
 SFX Q   0      zinha    al
@@ -1760,10 +1835,54 @@ SFX Q   o      zinha    [^xsç]ão
 SFX Q   o      zinhas   [^xsç]ão
 SFX Q   os     azinha   os
 SFX Q   os     azinhas  os
+SFX Q   0      azita   r
+SFX Q   0      azitas  r
+SFX Q   0      zita    al
+SFX Q   l      izitas  al
+SFX Q   0      zita    el
+SFX Q   l      izitas  el
+SFX Q   0      zita    il
+SFX Q   il     eizitas il
+SFX Q   0      zita    ol
+SFX Q   l      izitas  ol
+SFX Q   0      ita     [^o]s
+SFX Q   0      itas    [^o]s
+SFX Q   0      ita     z
+SFX Q   0      ezitas  z
+SFX Q   0      zita    [aeiuã]
+SFX Q   á      azita   á
+SFX Q   é      ezita   é
+SFX Q   ê      ezita   ê
+SFX Q   í      izita   í
+SFX Q   ó      ozita   ó
+SFX Q   ô      ozita   ô
+SFX Q   ú      uzita   ú
+SFX Q   0      zita    [xsç]ão
+SFX Q   0      zitas   [aeiuã]
+SFX Q   á      azitas  á
+SFX Q   é      ezitas  é
+SFX Q   ê      ezitas  ê
+SFX Q   í      izitas  í
+SFX Q   ó      ozitas  ó
+SFX Q   ô      ozitas  ô
+SFX Q   ú      uzitas  ú
+SFX Q   ão     õezitas [xsç]ão
+SFX Q   m      nzita   m
+SFX Q   m      nzitas  m
+SFX Q   o      azita   [^ã]o
+SFX Q   o      azitas  [^ã]o
+SFX Q   o      zita    [^xsç]ão
+SFX Q   o      zitas   [^xsç]ão
+SFX Q   os     azita   os
+SFX Q   os     azitas  os
+SFX Q   0      zinha    k
+SFX Q   0      zinhas   k
+SFX Q   0      zita     k
+SFX Q   0      zitas    k
 
-#  Diminutivos masculinos -R- Terminação: zinho
+#  Diminutivos masculinos -R- Terminação: zinho/zito
 
-SFX R Y 30
+SFX R Y 64
 SFX R   0      ezinhos  r
 SFX R   0      inho     [^o]s
 SFX R   0      ezinhos  [^o]s
@@ -1794,27 +1913,68 @@ SFX R   m      nzinho   m
 SFX R   m      nzinhos  m
 SFX R   s      zinho    os
 SFX R   s      zinhos   os
+SFX R   0      ezitos  r
+SFX R   0      ito     [^o]s
+SFX R   0      ezitos  [^o]s
+SFX R   0      ito     z
+SFX R   0      ezitos  z
+SFX R   0      zito    [aeiulr]
+SFX R   á      azito   á
+SFX R   é      ezito   é
+SFX R   ê      ezito   ê
+SFX R   í      izito   í
+SFX R   ó      ozito   ó
+SFX R   ô      ozito   ô
+SFX R   ú      uzito   ú
+SFX R   0      zito    [^ã]o
+SFX R   0      zitos   [^ã]o
+SFX R   0      zitos   [aeiu]
+SFX R   á      azitos  á
+SFX R   é      ezitos  é
+SFX R   ê      ezitos  ê
+SFX R   í      izitos  í
+SFX R   ó      ozitos  ó
+SFX R   ô      ozitos  ô
+SFX R   ú      uzitos  ú
+SFX R   0      zito    ão
+SFX R   ão     õezitos ão
+SFX R   l      izitos  l
+SFX R   m      nzito   m
+SFX R   m      nzitos  m
+SFX R   s      zito    os
+SFX R   s      zitos   os
+SFX R   0      zinho    k
+SFX R   0      zinhos   k
+SFX R   0      zito     k
+SFX R   0      zitos    k
 
-#  Diminutivos femininos -S- Terminação: zinha
+
+#  Diminutivos femininos -S- Terminação: zinha/zita
 #     para palavras acentuadas
 
-SFX S Y 2
+SFX S Y 4
 SFX S   ônia      oniazinha    ônia
+SFX S   ônia      oniazita     ônia
 SFX S   ônia      oniazinhas   ônia
+SFX S   ônia      oniazitas    ônia
 
-#  Diminutivos masculinos -T- Terminação: zinho
+#  Diminutivos masculinos -T- Terminação: zinho/zito
 #  algumas palavras terminadas em 'ão' (irmão) - ãozinhos 
 
-SFX T Y 2
+SFX T Y 4
 SFX T   0      zinho    ão
+SFX T   0      zito     ão
 SFX T   0      zinhos   ão
+SFX T   0      zitos    ão
 
-#  Diminutivos masculinos -U- Terminação: zinho
+#  Diminutivos masculinos -U- Terminação: zinho/zito
 #  algumas palavras terminadas em 'ão' (pão) - ãezinhos 
 
-SFX U Y 2
+SFX U Y 4
 SFX U   0      zinho    ão
+SFX U   0      zito     ão
 SFX U   o      ezinhos  ão
+SFX U   o      ezitos   ão
 
 #  Aumentativos masculinos -V- Terminação: ão
 
@@ -6794,10 +6954,11 @@ SFX k   er      -nos           jazer
 SFX k   er      -vos           jazer
 SFX k   er      -lhe           jazer
 SFX k   er      -lhes          jazer
-SFX k   zer     -la            jazer
-SFX k   zer     -las           jazer
-SFX k   zer     -lo            jazer
-SFX k   zer     -los           jazer
+# this yields 'ja-la'
+# SFX k   zer     -la            jazer
+# SFX k   zer     -las           jazer
+# SFX k   zer     -lo            jazer
+# SFX k   zer     -los           jazer
 SFX k   er      a-me           [^cgu]er
 SFX k   er      a-te           [^cgu]er
 SFX k   er      a-se           [^cgu]er
@@ -27386,5 +27547,3 @@ SFX w   r        ste          bramir
 SFX w   r        stes         bramir
 SFX w   r        u            bramir
 SFX w   r        0            bramir
-
-
