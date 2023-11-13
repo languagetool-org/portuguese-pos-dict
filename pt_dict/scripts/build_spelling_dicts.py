@@ -1,5 +1,6 @@
 """This was translated from shell to python iteratively and interactively using ChatGPT 4."""
 import argparse
+import codecs
 import shutil
 from datetime import datetime
 from typing import List
@@ -32,42 +33,62 @@ class CLI:
         self.args = self.parser.parse_args()
 
 
-def split_dic_file(dic_path: str, chunk_size: int) -> List[str]:
+class DicChunk:
+    def __init__(self, filepath: str, compounds: bool = False):
+        self.filepath = filepath
+        self.compounds = compounds
+
+    def __str__(self) -> str:
+        basename = path.basename(self.filepath)
+        if self.compounds:
+            return path.join('compounds', basename)
+        return basename
+
+
+def split_dic_file(dic_path: str, chunk_size: int) -> List[DicChunk]:
     """Splits a dictionary file into smaller files (chunks) of a given number of lines."""
+    compounds = (True if 'compounds' in dic_path else False)
     with open(dic_path, 'r', encoding=LATIN_1_ENCODING) as dic_file:
         lines = dic_file.readlines()[1:]  # Skip the first line
     lines = [line for line in lines if not line.startswith("#")]  # Filter out comment lines
     if SAMPLE_SIZE > 0:
         lines = lines[0:SAMPLE_SIZE]
     total_lines = len(lines)
-    chunks = [lines[i:i + chunk_size] for i in range(0, total_lines, chunk_size)]
-    chunk_paths = []
-    for index, chunk in enumerate(chunks):
-        chunk_path = dic_path.replace('.dic', f'_chunk{index}.dic').replace(HUNSPELL_DIR, TMP_DIR)
+    str_chunks = [lines[i:i + chunk_size] for i in range(0, total_lines, chunk_size)]
+    chunks = []
+    for index, chunk in enumerate(str_chunks):
+        if compounds:
+            tmp_dir = path.join(TMP_DIR, 'compounds')
+        else:
+            tmp_dir = TMP_DIR
+        filename = path.basename(dic_path).replace('.dic', f'_chunk{index}.dic')
+        chunk_path = path.join(tmp_dir, filename)
         with open(chunk_path, 'w', encoding=LATIN_1_ENCODING) as chunk_file:
             # Prepend the count of lines in this chunk and then write all lines
             chunk_file.write(f"{len(chunk)}\n")
             chunk_file.writelines(chunk)
-        chunk_paths.append(chunk_path)
-    return chunk_paths
+        chunks.append(DicChunk(chunk_path, compounds))
+    return chunks
 
 
-def unmunch(variant: Variant, chunk_path: str) -> NamedTemporaryFile:
+def unmunch(variant: Variant, dic_chunk: DicChunk) -> NamedTemporaryFile:
     """Create all forms from Hunspell dictionaries.
 
     Args:
         variant: a Variant object, the source of the dictionary data
-        chunk_path: a path to a dic file chunk
+        dic_chunk: a .dic file chunk
 
     Returns:
         the temp file containing the unmunched dictionary
     """
     unmunched_tmp = NamedTemporaryFile(delete=DELETE_TMP, mode='wb')
-    LOGGER.debug(f"Unmunching {path.basename(chunk_path)} into {unmunched_tmp.name}...")
-    cmd_unmunch = f"unmunch {chunk_path} {variant.aff()}"
+    LOGGER.debug(f"Unmunching {dic_chunk} into {unmunched_tmp.name} ...")
+    cmd_unmunch = f"unmunch {dic_chunk.filepath} {variant.aff()}"
     unmunch_result = run_command(cmd_unmunch)
     unmunched_tmp.write(unmunch_result)
     unmunched_tmp.flush()
+    if DELETE_TMP:
+        shutil.rmtree(dic_chunk.filepath)
     return unmunched_tmp
 
 
@@ -96,7 +117,7 @@ def tokenise(variant: Variant, unmunched_file: NamedTemporaryFile) -> NamedTempo
         at this stage that we move from latin-1 encoding to UTF-8.
     """
     tokenised_tmp = NamedTemporaryFile(delete=DELETE_TMP, mode='w')
-    LOGGER.debug(f"Tokenising {unmunched_file.name} into {tokenised_tmp.name}...")
+    LOGGER.debug(f"Tokenising {unmunched_file.name} into {tokenised_tmp.name} ...")
     tokenise_cmd = (
         f"java -cp {LT_JAR_PATH}:"
         f"{LT_DIR}/languagetool-dev/target/languagetool-dev-{LT_VER}-jar-with-dependencies.jar "
@@ -111,9 +132,23 @@ def tokenise(variant: Variant, unmunched_file: NamedTemporaryFile) -> NamedTempo
     return tokenised_tmp
 
 
-def process_variant(variant: Variant, chunk_path: str) -> tuple[Variant, NamedTemporaryFile]:
-    unmunched_file = unmunch(variant, chunk_path)
-    return variant, tokenise(variant, unmunched_file)
+def convert_to_utf8(unmunched_file: NamedTemporaryFile) -> NamedTemporaryFile:
+    """Takes a Latin-1-encoded temp and returns another temp with the same contents but in UTF-8."""
+    utf8_tmp = NamedTemporaryFile(mode='w+', encoding='utf-8', delete=DELETE_TMP)
+    LOGGER.debug(f"Converting {unmunched_file.name} into UTF-8, into {utf8_tmp.name} ...")
+    with codecs.open(unmunched_file.name, 'r', encoding=LATIN_1_ENCODING) as file:
+        shutil.copyfileobj(file, utf8_tmp)
+    utf8_tmp.seek(0)
+    return utf8_tmp
+
+
+def process_variant(variant: Variant, dic_chunk: DicChunk) -> tuple[Variant, NamedTemporaryFile]:
+    unmunched_file = unmunch(variant, dic_chunk)
+    if dic_chunk.compounds:
+        processed_file = convert_to_utf8(unmunched_file)
+    else:
+        processed_file = tokenise(variant, unmunched_file)
+    return variant, processed_file
 
 
 def build_binary(tokenised_temps: List[NamedTemporaryFile], variant: Variant):
@@ -153,23 +188,24 @@ def main():
     if FORCE_COMPILE:
         compile_lt_dev()
     tasks = []
-    tokenised_files: dict[str: List[NamedTemporaryFile]] = {}
+    processed_files: dict[str: List[NamedTemporaryFile]] = {}
     # TODO: at some point we need to manage the pre and post-agreement distinction here
     # the whole 'dict_variant' will need to go, and we will just merge all the unmunched files into one big one
     # and then split them based on the dialectal and pre/post agreement alternation files
     for variant in DIC_VARIANTS:
-        tokenised_files[variant] = []
-        chunk_paths = split_dic_file(variant.dic(), CHUNK_SIZE)
-        for chunk_path in chunk_paths:
-            tasks.append((variant, chunk_path))
+        processed_files[variant] = []
+        dic_chunks: List[DicChunk] = split_dic_file(variant.dic(), CHUNK_SIZE)
+        dic_chunks.extend(split_dic_file(variant.compounds(), CHUNK_SIZE))
+        for chunk in dic_chunks:
+            tasks.append((variant, chunk))
     LOGGER.info("Starting unmunching and tokenisation process...")
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
         tmp_files = executor.map(lambda task: process_variant(task[0], task[1]), tasks)
         for variant, file in tmp_files:
-            tokenised_files[variant].append(file)
+            processed_files[variant].append(file)
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
-        executor.map(lambda var: build_binary(tokenised_files[var], var), DIC_VARIANTS)
-    for file_list in tokenised_files.values():
+        executor.map(lambda var: build_binary(processed_files[var], var), DIC_VARIANTS)
+    for file_list in processed_files.values():
         for file in file_list:
             file.close()
     install_dictionaries()

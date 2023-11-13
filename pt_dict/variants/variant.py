@@ -1,7 +1,7 @@
 from os import path
 from typing import Optional, Literal
 
-from pt_dict.constants import HUNSPELL_DIR, DICT_DIR, OUTPUT_DIR
+from pt_dict.constants import HUNSPELL_DIR, DICT_DIR, OUTPUT_DIR, COMPOUNDS_DIR
 
 
 class Variant:
@@ -38,7 +38,11 @@ class Variant:
         return self.hyphenated
 
     def aff(self) -> str:
-        return path.join(HUNSPELL_DIR, f"{self.underscored}.aff")
+        if self.country == 'PT':
+            filename = self.underscored_with_agreement
+        else:
+            filename = self.underscored
+        return path.join(HUNSPELL_DIR, f"{filename}.aff")
 
     def dic(self) -> str:
         """Path to the plaintext Hunspell file. For pt-PT, includes the agreement."""
@@ -68,9 +72,16 @@ class Variant:
             directory = DICT_DIR
         elif directory == 'target':
             directory = OUTPUT_DIR
-            if self.country == 'PT':
-                filename = f"{self.hyphenated_with_agreement}.info"
+        if self.country == 'PT':
+            filename = f"{self.hyphenated_with_agreement}.info"
         return path.join(directory, filename)
+
+    def compounds(self) -> str:
+        if self.country == 'PT':
+            filename = self.underscored_with_agreement
+        else:
+            filename = self.underscored
+        return path.join(COMPOUNDS_DIR, f"{filename}.dic")
 
     def freq(self) -> str:
         return path.join(DICT_DIR, f"{self.lang}_{self.association}_wordlist.xml")
