@@ -4957,8 +4957,9 @@ SFX g   r       dos       gear
 #                           (refazer descaber  entreouvir   preferir   medir)
 #                          (desfazer              reouvir transferir   pedir)
 #            guar quar     (desaguar coliquar  deslinguar  averiguar adequar)
+# adequar includes the regular forms, which are commonplace in pt-BR
 
-SFX h Y 625
+SFX h Y 632
 SFX h   ar       á            ar
 SFX h   er       ê            er
 SFX h   or       ô            or
@@ -5430,6 +5431,7 @@ SFX h   eguar    égua         eguar
 SFX h   iguar    ígua         iguar
 SFX h   aquar    áqua         aquar
 SFX h   equar    équa         equar
+SFX h   equar    equa         equar
 SFX h   iquar    íqua         iquar
 SFX h   inguar   íngua        inguar
 SFX h   inquar   ínqua        inquar
@@ -5438,6 +5440,7 @@ SFX h   eguar    éguas        eguar
 SFX h   iguar    íguas        iguar
 SFX h   aquar    áquas        aquar
 SFX h   equar    équas        equar
+SFX h   equar    equas        equar
 SFX h   iquar    íquas        iquar
 SFX h   inguar   ínguas       inguar
 SFX h   inquar   ínquas       inquar
@@ -5452,6 +5455,7 @@ SFX h   eguar    éguam        eguar
 SFX h   iguar    íguam        iguar
 SFX h   aquar    áquam        aquar
 SFX h   equar    équam        equar
+SFX h   equar    equam        equar
 SFX h   iquar    íquam        iquar
 SFX h   inguar   ínguam       inguar
 SFX h   inquar   ínquam       inquar
@@ -5494,6 +5498,7 @@ SFX h   eguar    égue         eguar
 SFX h   iguar    ígue         iguar
 SFX h   inguar   íngue        inguar
 SFX h   equar    éque         equar
+SFX h   equar    eque         equar
 SFX h   iquar    íque         iquar
 SFX h   inquar   ínque        inquar
 SFX h   uar      uei          uar
@@ -5503,6 +5508,7 @@ SFX h   eguar    éguem        eguar
 SFX h   iguar    íguem        iguar
 SFX h   inguar   ínguem       inguar
 SFX h   equar    équem        equar
+SFX h   equar    equem        equar
 SFX h   iquar    íquem        iquar
 SFX h   inquar   ínquem       inquar
 SFX h   uar      uemos        uar
@@ -5511,6 +5517,7 @@ SFX h   eguar    égues        eguar
 SFX h   iguar    ígues        iguar
 SFX h   inguar   íngues       inguar
 SFX h   equar    éques        equar
+SFX h   equar    eques        equar
 SFX h   iquar    íques        iquar
 SFX h   inquar   ínques       inquar
 SFX h   aguar    águo         aguar
@@ -5518,6 +5525,7 @@ SFX h   eguar    éguo         eguar
 SFX h   iguar    íguo         iguar
 SFX h   aquar    áquo         aquar
 SFX h   equar    équo         equar
+SFX h   equar    equo         equar
 SFX h   iquar    íquo         iquar
 SFX h   inguar   ínguo        inguar
 SFX h   inquar   ínquo        inquar
