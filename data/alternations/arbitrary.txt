@@ -1,0 +1,3 @@
+dezesseis=dezasseis
+dezessete=dezassete
+dezenove=dezanove
