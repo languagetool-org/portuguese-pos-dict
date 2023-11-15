@@ -121,7 +121,8 @@ def clean_compounds(variant: Variant):
     with open(variant.dic(), 'w', encoding=LATIN_1_ENCODING) as dic_file:
         dic_file.write(str(len(other_lines)) + "\n")
         dic_file.write("\n".join(other_lines))
-    with open(variant.compounds(), 'w', encoding=LATIN_1_ENCODING) as compounds_file:
+    # with 'a' mode this messes up the line count, beware
+    with open(variant.compounds(), 'a', encoding=LATIN_1_ENCODING) as compounds_file:
         compounds_file.write(str(len(compound_lines)) + "\n")
         compounds_file.write("\n".join(compound_lines))
 

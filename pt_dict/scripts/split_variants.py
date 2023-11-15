@@ -191,5 +191,5 @@ def split_agreements():
 
 if __name__ == '__main__':
     # split_dialects()
-    # split_agreements()
-    split_silent_letters()
+    # split_silent_letters()
+    split_agreements()
