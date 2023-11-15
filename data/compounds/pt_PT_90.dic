@@ -1,1341 +1,1341 @@
 1391
-abaixo-assinado/pl	[CAT=nc,G=m,N=s]
-á-bê-cê/pl	[CAT=nc,G=m,N=s]
-abelha-mestra/ph	[CAT=nc,G=f,N=s]
-ab-reação/p	[PREAO90=ab-reacção,CAT=nc,G=f,N=s]
-abre-latas	[CAT=nc,G=m,N=s,N=_]
-acre-doce	[CAT=adj,N=s,G=_]
-afia-lápis	[CAT=nc,G=_,N=s]
-água-ardente/ph	[CAT=nc,G=f,N=s]
-água-chilra	[CAT=nc,G=f,N=s]
-água-forte	[CAT=nc,G=f,N=s]
-água-furtada	[CAT=nc,G=f,N=s]
-água-marinha	[CAT=nc,G=f,N=s]
-água-oxigenada	[CAT=nc,G=f,N=s]
-água-pé/p	[CAT=nc,G=f,N=s]
-águas-furtadas	[$água-furtada$CAT=nc,G=f,N=s$N=p]
-água-tinta	[CAT=nc,G=f,N=s]
-ai-jesus	[CAT=in]
-alcaide-mor	[CAT=nc,G=m,N=s]
-além-fronteiras	[CAT=adv,SUBCAT=lugar]
-além-mar	[CAT=nc,G=m,N=s]
-além-mundo	[CAT=nc,G=m,N=s]
-algodão-doce	[CAT=nc,G=m,N=s]
-alho-porro	[CAT=nc,G=m,N=s]
-alhos-porros	[$alho-porro$CAT=nc,G=m,N=s$N=p]
-altar-mor	[CAT=nc,G=m,N=s]
-alter-ego	[CAT=nc,G=m,N=s]
-alto-falante/pl	[CAT=nc,G=m,N=s]
-alto-relevo	[CAT=nc,G=m,N=s]
-altos-fornos	[CAT=nc,G=m,N=s,N=p]
-amor-perfeito	[CAT=nc,G=m,N=s]
-amor-próprio	[CAT=nc,G=m,N=s]
-anémona-do-mar	[CAT=nc,G=f,N=s]
-anglo-luso	[CAT=adj,N=s,G=m]
-anglo-saxão/pl	[CAT=nc,G=m,N=s]
-anglo-saxónico/fp	[CAT=adj,N=s,G=m]
-ano-luz	[CAT=nc,G=m,N=s]
-anos-luz	[$ano-luz$CAT=nc,G=m,N=s$N=p]
-ante-à-ré	[CAT=adv]
-anti-hemorrágico	[CAT=adj,N=s,G=m]
-anti-hemorroidal	[CAT=adj,N=s,G=_]
-anti-hepático/fp	[CAT=adj,N=s,G=m]
-anti-hipnótico	[CAT=adj,N=s,G=m]
-anti-infecioso	[PREAO90=anti-infeccioso,CAT=adj,N=s,G=m]
-anti-inflamatório/pl	[CAT=nc,G=m,N=s]
-apanha-moscas	[CAT=nc,G=f,N=s]
-apara-lápis	[CAT=nc,G=m,N=s,N=_]
-aquém-fronteiras	[CAT=adv]
-aquém-mar	[CAT=adv]
-aqui-del-rei	[CAT=in]
-arco-celeste	[CAT=nc,G=m,N=s]
-arco-irisar/XYPL	[CAT=v,T=inf,TR=_]
-arco-íris	[CAT=nc,G=m,N=s]
-arraia-miúda	[CAT=nc,G=f,N=s]
-arranha-céu/pl	[CAT=nc,G=m,N=s]
-arre-burrinho	[CAT=nc,G=m,N=s]
-arroz-doce	[CAT=nc,G=m,N=s]
-arte-maior	[CAT=nc,G=f,N=s]
-assembleia-geral	[CAT=nc,G=f,N=s]
-assim-assim	[CAT=adv]
-astro-rei	[CAT=nc,G=m,N=s]
-à-toa	[CAT=adj,N=s,G=_]
-australo-africano	[CAT=adj,N=s,G=m]
-austro-húngaro/fp	[CAT=adj,N=s,G=m]
-auto-hemoterapia/p	[CAT=nc,G=f,N=s]
-ave-maria/ph	[CAT=nc,G=f,N=s]
-à-vontade	[CAT=nc,G=m,N=s]
-azul-celeste	[CAT=adj,N=s,G=m]
-azuis-celestes	[$azul-celeste$CAT=a_nc,G=m,N=s$N=p]
-azul-claro	[CAT=a_nc,G=m,N=s]
-azuis-claros	[$azul-claro$CAT=a_nc,G=m,N=s$N=p]
-azul-escuro	[CAT=a_nc,G=m,N=s]
-azuis-escuros	[$azul-escuro$CAT=a_nc,G=m,N=s$N=p]
-azul-marinho	[CAT=a_nc,G=m,N=s]
-azuis-marinhos	[$azul-marinhos$CAT=a_nc,G=m,N=s$N=p]
-baixa-mar	[CAT=nc,G=f,N=s]
-baixo-relevo	[CAT=nc,G=m,N=s]
-baixos-relevos	[CAT=nc,G=m,N=s,N=p]
-banho-maria	[CAT=nc,G=m,N=s]
-barba-azul	[CAT=nc,G=m,N=s]
-batata-doce	[CAT=nc,G=f,N=s]
-bate-chapa	[CAT=nc,G=m,N=s]
-bate-latas	[CAT=nc,G=m,N=s]
-bate-papo	[CAT=nc,G=m,N=s]
-bate-que-bate	[CAT=nc,G=m,N=s]
-bate-sola	[CAT=nc,G=m,N=s]
-bê-á-bá	[CAT=nc,G=m,N=s]
-beija-flor/pl	[CAT=nc,G=m,N=s]
-beija-mão	[CAT=nc,G=m,N=s]
-beija-pé	[CAT=nc,G=m,N=s]
-beira-mar	[CAT=nc,G=f,N=s]
-belas-artes	[CAT=nc,G=f,N=p]
-bel-prazer	[CAT=adv]
-bem-aventurança	[CAT=nc,G=f,N=s]
-bem-aventurar/XYPL	[CAT=v,T=inf,TR=t]
-bem-ditoso/fp	[CAT=adj,N=s,G=m]
-bem-disposto/p	[CAT=adj,N=s,G=m]
-bem-dizer/KPL	[CAT=v,T=inf,TR=t]
-bem-estar	[CAT=nc,G=m,N=s]
-bem-educado/fp	[CAT=nc,G=m,N=s]
-bem-falante/pm	[CAT=adj,N=s,G=_]
-bem-fazer	[CAT=nc,G=m,N=s]
-bem-fazer/KL	[CAT=v,T=inf,TR=i]
-bem-me-quer	[CAT=nc,G=m,N=s]
-bem-merecer/XYPL	[CAT=v,T=inf,TR=t]
-bem-parecido/p	[CAT=adj,N=s,G=m]
-bem-posto/p	[CAT=adj,N=s,G=m]
-bem-querente/pm	[CAT=adj,N=s,G=_]
-bem-querer	[CAT=nc,G=m,N=s]
-bem-querer/PLn	[CAT=v,T=inf,TR=t,I=3]
-bem-soante/pm	[CAT=adj,N=s,G=_]
-bem-vindo/fp	[CAT=adj,N=s,G=m]
-bem-visto	[CAT=adj,N=s,G=m]
-besta-quadrada	[CAT=nc,G=f,N=s]
-bicha-cadela/ph	[CAT=nc,G=f,N=s]
-bicha-solitária	[CAT=nc,G=f,N=s]
-bicho-careta	[CAT=nc,G=m,N=s]
-bicho-carpinteiro	[CAT=nc,G=m,N=s]
-bicho-dada	[CAT=nc,G=m,N=s]
-bicho-da-seda	[CAT=nc,G=m,N=s]
-bichos-da-seda	[$bicho-da-seda$CAT=nc,G=m,N=s$N=p]
-bicho-de-conta	[CAT=nc,G=m,N=s]
-bicho-papão	[CAT=nc,G=m,N=s]
-bilhete-postal	[CAT=nc,G=m,N=s]
-boa-fé	[CAT=nc,G=f,N=s]
-boa-noite	[CAT=nc,G=f,N=s]
-boa-nova	[CAT=nc,G=f,N=s]
-boas-entradas	[CAT=nc,G=f,N=p]
-boas-festas	[CAT=nc,G=f,N=p]
-boas-noites	[CAT=nc,G=f,N=p]
-boas-tardes	[CAT=nc,G=f,N=p]
-boas-vindas	[CAT=nc,G=f,N=p]
-boca-aberta	[CAT=nc,G=_,N=s]
-boca-doce	[CAT=nc,G=f,N=s]
-boi-marinho	[CAT=nc,G=m,N=s]
-bolo-rei	[CAT=nc,G=m,N=s]
-bom-senso	[CAT=nc,G=m,N=s]
-bom-tom	[CAT=nc,G=m,N=s]
-bons-dias	[CAT=nc,G=m,N=s,N=p]
-borra-botas	[CAT=nc,G=m,N=s]
-bota-fora	[CAT=nc,G=m,N=s]
-bravo-de-esmolfo	[CAT=nc,G=m,N=s]
-bravo-de-mel	[CAT=nc,G=m,N=s]
-brincos-de-princesa	[CAT=nc,G=m,N=s,N=p]
-brincos-de-viúva	[CAT=nc,G=m,N=s,N=p]
-busca-polos	[PREAO90=busca-pólos,CAT=nc,G=m,N=s]
-cabo-verde	[CAT=a_nc,N=s,G=_]
-cabo-verdiano/fp	[CAT=a_nc,G=m,N=s]
-cabra-cega	[CAT=nc,G=f,N=s]
-cabrito-montês	[CAT=nc,G=m,N=s]
-caçador-coletor	[CAT=nc,G=m,N=s]
-caçadores-coletores	[CAT=nc,G=m,N=p]
-caça-minas	[CAT=nc,G=m,N=s]
-caça-moscas	[CAT=nc,G=m,N=s]
-cachorro-quente	[CAT=nc,G=m,N=s]
-caldo-verde	[CAT=nc,G=m,N=s]
-câmara-ardente	[CAT=nc,G=f,N=s]
-cana-de-açúcar	[CAT=nc,G=f,N=s]
-cana-sacarina	[CAT=nc,G=f,N=s]
-caneta-tinteiro	[CAT=nc,G=f,N=s]
-canónico-civil	[CAT=adj,N=s,G=m]
-cão-tinhoso	[CAT=nc,G=m,N=s]
-capela-mor	[CAT=nc,G=f,N=s]
-capitão-general	[CAT=nc,G=m,N=s]
-capitão-mor	[CAT=nc,G=m,N=s]
-capitão-tenente	[CAT=nc,G=m,N=s]
-cara-metade	[CAT=nc,G=f,N=s]
-carro-patrulha	[CAT=nc,G=m,N=s]
-carros-patrulha	[$carro-patrulha$CAT=nc,G=m,N=s$N=p]
-carta-branca	[CAT=nc,G=f,N=s]
-casa-forte	[CAT=nc,G=f,N=s]
-casca-grossa	[CAT=nc,G=_,N=s]
-cata-vento/pl	[CAT=nc,G=m,N=s]
-cavalo-marinho	[CAT=nc,G=m,N=s]
-cavalo-vapor	[CAT=nc,G=m,N=s]
-cê-cedilhado	[CAT=nc,G=m,N=s]
-cedro-do-mato/pl	[CAT=nc,G=m,N=s]
-centro-direita	[CAT=nc,G=m,N=s]
-centro-esquerda	[CAT=nc,G=m,N=s]
-cessar-fogo	[CAT=nc,G=m,N=s]
-chanceler-mor/x	[CAT=nc,G=m,N=s]
-chave-inglesa	[CAT=nc,G=f,N=s]
-chi-coração	[CAT=nc,G=m,N=s]
-chupa-chupa	[CAT=nc,G=m,N=s]
-cidade-estado/p	[CAT=nc,G=f,N=s]
-cinco-réis	[CAT=nc,G=m,N=s]
-cinzento-azulado	[CAT=nc,G=m,N=s]
-cinzento-claro	[CAT=nc,G=m,N=s]
-circum-navegador	[CAT=nc,G=m,N=s]
-circum-navegar/XYPLD	[CAT=v,T=inf,TR=_]
-circum-navegação	[CAT=nc,G=f,N=s]
-claro-escuro	[CAT=nc,G=m,N=s]
-cobra-capelo	[CAT=nc,G=f,N=s]
-cobra-cascavel	[CAT=nc,G=f,N=s]
-cobra-coral	[CAT=nc,G=f,N=s]
-cobra-cuspideira	[CAT=nc,G=f,N=s]
-cobra-de-água	[CAT=nc,G=f,N=s]
-cobra-rateira	[CAT=nc,G=f,N=s]
-co-herdar/XYPL	[CAT=v,T=inf,TR=_]
-co-herdeiro	[CAT=nc,G=m,N=s]
-comandante-chefe	[CAT=nc,G=m,N=s]
-comboio-correio	[CAT=nc,G=m,N=s]
-come-e-cala	[CAT=nc,G=f,N=s]
-conta-corrente/t	[CAT=nc,G=f,N=s]
-conta-gotas	[CAT=nc,G=m,N=s]
-conta-quilómetros	[CAT=nc,G=m,N=s]
-conta-voltas	[CAT=nc,G=m,N=s]
-contra-almirante/xp	[CAT=nc,G=m,N=s]
-contra-assalto	[CAT=nc,G=m,N=s]
-contra-atacante/p	[CAT=a_nc,N=s,G=_]
-contra-atacar/XYPLn	[CAT=v,T=inf,TR=t]
-contra-ataque/pl	[CAT=nc,G=m,N=s]
-convexo-côncavo	[CAT=adj,N=s,G=m]
-corre-corre	[CAT=nc,G=m,N=s]
-corta-fogo/pl	[CAT=nc,G=m,N=s]
-corta-mar	[CAT=nc,G=m,N=s]
-corta-mato	[CAT=nc,G=m,N=s]
-corta-papel	[CAT=nc,G=m,N=s]
-corta-vento/pl	[CAT=nc,G=m,N=s]
-corvo-marinho	[CAT=nc,G=m,N=s]
-costa-riquenho	[CAT=a_nc,N=s,G=_]
-couve-flor	[CAT=nc,G=f,N=s]
-couve-nabiça	[CAT=nc,G=f,N=s]
-curta-metragem	[CAT=nc,G=f,N=s]
-curtas-metragens	[$curta-metragem$CAT=nc,G=f,N=s$N=p]
-curto-circuito	[CAT=nc,G=m,N=s]
-curto-prazo	[CAT=nc,G=m,N=s]
-decreto-lei	[CAT=nc,G=m,N=s]
-decretos-lei	[$decreto-lei$CAT=nc,G=m,N=s$N=p]
-delirium-tremens	[CAT=nc,G=m,N=s]
-democrata-cristão/a	[CAT=nc,G=m,N=s]
-desmancha-prazeres	[CAT=nc,G=_,N=s,N=_]
-deus-dará	[CAT=nc,G=m,N=s]
-dez-réis	[CAT=nc,G=m,N=s]
-diretor-geral/x	[PREAO90=director-geral,CAT=a_nc,G=m,N=s]
-dói-dói	[CAT=nc,G=m,N=s]
-dom-joão	[CAT=nc,G=m,N=s]
-dom-quixote/i	[CAT=nc,G=m,N=s]
-dom-quixotismo	[CAT=nc,G=m,N=s]
-draga-minas	[CAT=nc,G=m,N=s]
-económico-social/p	[CAT=adj,N=s,G=m]
-eletrão-volt	[PREAO90=electrão-volt,CAT=nc,G=m,N=s]
-elefante-do-mar	[CAT=nc,G=m,N=s]
-el-rei	[CAT=nc,G=m,N=s]
-espaço-tempo	[CAT=nc,G=m,N=s]
-espalha-brasas	[CAT=nc,G=_,N=s]
-estado-maior	[CAT=nc,G=m,N=s]
-estado-membro	[CAT=nc,G=m,N=s]
-estados-membros	[$estado-membro$CAT=nc,G=m,N=s$N=p]
-estrela-cadente	[CAT=nc,G=f,N=s]
-estrela-do-mar	[CAT=nc,G=f,N=s]
-estufa-fria/ph	[CAT=nc,G=f,N=s]
-euro-asiático/fp	[CAT=adj,N=s,G=m]
-ex-libris	[CAT=nc,G=m,N=s]
-extra-humano/fp	[CAT=adj,N=s,G=m]
-extrema-direita/ph	[CAT=nc,G=f,N=s]
-extrema-esquerda/ph	[CAT=nc,G=f,N=s]
-ex-voto/pl	[CAT=nc,G=m,N=s]
-fac-similar	[CAT=a_nc,G=2,N=s]
-fac-símile	[CAT=nc,G=m,N=s]
-fala-barato	[CAT=nc,G=_,N=s]
-falcão-peregrino	[CAT=nc,G=m,N=s]
-falcões-peregrinos	[$falcão-peregrino$CAT=nc,G=m,N=s$N=p]
-fato-macaco	[CAT=nc,G=m,N=s]
-faz-tudo	[CAT=nc,G=m,N=s]
-febre-amarela/ph	[CAT=nc,G=f,N=s]
-feijão-frade	[CAT=nc,G=m,N=s]
-feijão-verde	[CAT=nc,G=m,N=s]
-ferro-velho	[CAT=nc,G=m,N=s]
-fiel-amigo	[CAT=nc,G=m,N=s]
-finca-pé	[CAT=nc,G=m,N=s]
-físico-químico/fp	[CAT=adj,N=s,G=m]
-fita-cola	[CAT=nc,G=f,N=s]
-flor-de-lis	[CAT=nc,G=f,N=s]
-flores-de-lis	[CAT=nc,G=f,N=s]
-fogo-fátuo	[CAT=nc,G=m,N=s]
-franco-atirador	[CAT=nc,G=m,N=s]
-franco-mação	[CAT=nc,G=m,N=s]
-franco-maçonaria	[CAT=nc,G=f,N=s]
-franco-maçónico	[CAT=adj,N=s,G=m]
-fura-bolos	[CAT=nc,G=m,N=s]
-fura-paredes	[CAT=nc,G=_,N=s]
-galaico-português	[CAT=adj,N=s,G=m]
-galécio-português	[CAT=adj,N=s,G=m]
-galego-português	[CAT=adj,N=s,G=m]
-galo-hispano	[CAT=adj,N=s,G=m]
-ganha-pão	[CAT=nc,G=m,N=s]
-ganso-bravo	[CAT=nc,G=m,N=s]
-garça-real	[CAT=nc,G=f,N=s]
-gata-borralheira	[CAT=nc,G=f,N=s]
-gato-bravo	[CAT=nc,G=m,N=s]
-gato-montês	[CAT=nc,G=m,N=s]
-gato-pingado	[CAT=nc,G=m,N=s]
-gato-sapato	[CAT=nc,G=m,N=s]
-gentil-homem	[CAT=a_nc,G=m,N=s]
-gil-vicentino	[CAT=adj,N=s,G=m]
-gira-discos	[CAT=nc,G=m,N=s]
-governador-civil/xV	[CAT=nc,G=m,N=s]
-governador-geral/xV	[CAT=nc,G=m,N=s]
-grã-duquesa	[CAT=nc,G=f,N=s]
-grão-de-bico	[CAT=nc,G=m,N=s]
-grão-ducado	[CAT=nc,G=m,N=s]
-grão-ducal	[CAT=adj,N=s,G=_]
-grão-duque	[CAT=nc,G=m,N=s]
-grão-mestrado	[CAT=nc,G=m,N=s]
-grão-mestre/pl	[CAT=nc,G=m,N=s]
-grão-vizirato	[CAT=nc,G=m,N=s]
-grão-vizir	[CAT=nc,G=m,N=s]
-greco-latino/fp	[CAT=adj,N=s,G=m]
-greco-romano/fp	[CAT=adj,N=s,G=m]
-guarda-chuva/pl	[CAT=nc,G=m,N=s]
-guarda-costas	[CAT=nc,G=m,N=s]
-guarda-fatos	[CAT=nc,G=m,N=s]
-guarda-fiscal	[CAT=nc,G=m,N=s]
-guarda-florestal	[CAT=nc,G=m,N=s]
-guarda-freio/pl	[CAT=nc,G=m,N=s]
-guarda-joias	[PREAO90=guarda-jóias,CAT=nc,G=m,N=s]
-guarda-lama/pl	[CAT=nc,G=m,N=s]
-guarda-livros	[CAT=nc,G=m,N=s]
-guarda-loiça	[CAT=nc,G=m,N=s]
-guarda-louça	[CAT=nc,G=m,N=s]
-guarda-marinha	[CAT=nc,G=m,N=s]
-guarda-noturno	[PREAO90=guarda-nocturno,CAT=nc,G=m,N=s]
-guarda-redes	[CAT=nc,G=m,N=s]
-guarda-republicano	[CAT=nc,G=m,N=s]
-guarda-rios	[CAT=nc,G=m,N=s]
-guarda-roupa	[CAT=nc,G=m,N=s]
-guarda-roupa	[CAT=nc,G=_,N=s]
-guarda-sol/pl	[CAT=nc,G=m,N=s]
-guarda-vento/pl	[CAT=nc,G=m,N=s]
-guarda-vestidos	[CAT=nc,G=m,N=s]
-hispano-americano	[CAT=adj,N=s,G=m]
-ibero-americano	[CAT=adj,N=s,G=m]
-indo-chinês	[CAT=adj,N=s,G=m]
-indo-europeia/p	[CAT=adj,N=s,G=m]
-indo-europeu	[CAT=adj,N=s,G=m]
-indo-português	[CAT=a_nc,G=m,N=s]
-inspetor-geral	[PREAO90=inspector-geral,CAT=nc,G=m,N=s]
-inter-regional	[CAT=adj,N=s,G=_]
-inter-relacionar/XYPL	[CAT=v,T=inf,TR=t]
-intra-hepático/p	[CAT=adj,N=s,G=m]
-jardim-escola	[CAT=nc,G=m,N=s]
-joão-pestana	[CAT=nc,G=m,N=s]
-joões-pestanas/;	[$joão-pestana$CAT=nc,G=m,N=s$N=p]
-lança-bombas	[CAT=nc,G=m,N=s]
-lança-chamas	[CAT=nc,G=m,N=s]
-lança-foguetes	[CAT=nc,G=m,N=s]
-lança-granadas	[CAT=nc,G=m,N=s]
-lança-torpedos	[CAT=nc,G=m,N=s,N=_]
-lápis-lazúli	[CAT=nc,G=m,N=_]
-lava-louça	[CAT=nc,G=m,N=s]
-leão-marinho	[CAT=nc,G=m,N=s]
-leite-creme	[CAT=nc,G=m,N=s]
-lenga-lenga	[CAT=nc,G=f,N=s]
-lesa-majestade	[CAT=nc,G=f,N=s]
-lesa-pátria	[CAT=nc,G=f,N=s]
-letra-morta	[CAT=nc,G=f,N=s]
-limpa-chaminés	[CAT=nc,G=m,N=s]
-livre-câmbio	[CAT=nc,G=m,N=s]
-livre-cambismo	[CAT=nc,G=m,N=s]
-livre-cambista	[CAT=nc,G=_,N=s]
-livre-pensador	[CAT=nc,G=m,N=s]
-lobo-marinho	[CAT=nc,G=m,N=s]
-longa-metragem	[CAT=nc,G=f,N=s]
-longas-metragens	[$longa-metragem$CAT=nc,G=f,N=s$N=p]
-louva-a-deus	[CAT=nc,G=m,N=s]
-lufa-lufa	[CAT=nc,G=f,N=s]
-lugar-comum	[CAT=nc,G=m,N=s]
-lugares-comuns	[$lugar-comum$CAT=nc,G=m,N=s$N=p]
-lugar-tenente	[CAT=nc,G=m,N=s]
-lusco-fusco	[CAT=nc,G=m,N=s]
-luso-brasileiro/fp	[CAT=adj,N=s,G=m]
-má-fé	[CAT=nc,G=f,N=s]
-mais-que-perfeito	[CAT=adj,N=s,G=m]
-mais-que-tudo	[CAT=nc,G=_,N=s]
-mais-valia/ph	[CAT=nc,G=f,N=s]
-mal-aconselhado/p	[CAT=adj,N=s,G=m]
-mal-agradecido/p	[CAT=a_nc,G=m,N=s]
-mal-educado/fp	[CAT=adj,N=s,G=m]
-mal-encarado/fp	[CAT=adj,N=s,G=m]
-mala-posta	[CAT=nc,G=f,N=s]
-mal-aventurado/p	[CAT=adj,N=s,G=m]
-mal-empregado	[CAT=in]
-mal-estar	[CAT=nc,G=m,N=s]
-mal-humorado/fpm	[CAT=adj,N=s,G=m]
-má-língua	[CAT=a_nc,N=s,G=_]
-mão-cheia	[CAT=nc,G=f,N=s]
-mãos-largas	[CAT=nc,G=_,N=s]
-mãos-rotas	[CAT=nc,G=_,N=s]
-mapa-múndi	[CAT=nc,G=m,N=s]
-mapa-mundo	[CAT=nc,G=m,N=s]
-marxismo-leninismo	[$marxismo$CAT=nc,G=m,N=s]
-mata-bicho	[CAT=nc,G=m,N=s]
-mata-borrão	[CAT=nc,G=m,N=s]
-mata-moscas	[CAT=nc,G=m,N=p]
-mata-ratos	[CAT=nc,G=m,N=s]
-matéria-prima	[CAT=nc,G=f,N=s]
-matérias-primas	[$matéria-prima$CAT=nc,G=f,N=s$N=p]
-mato-grossense/p	[CAT=a_nc,N=s,G=_]
-mau-humor	[CAT=nc,G=m,N=s]
-mau-olhado	[CAT=nc,G=m,N=s]
-médico-legal	[CAT=adj,N=s,G=_]
-meia-final	[CAT=nc,G=f,N=s]
-meia-idade/ph	[CAT=nc,G=f,N=s]
-meia-lua	[CAT=nc,G=f,N=s]
-meia-noite	[CAT=nc,G=f,N=s]
-meias-finais	[$meia-final$CAT=nc,G=f,N=s$N=p]
-meias-medidas	[CAT=nc,G=f,N=p]
-meias-palavras	[CAT=nc,G=f,N=p]
-meio-campo	[CAT=nc,G=m,N=s]
-meio-dia	[CAT=nc,G=m,N=s]
-meio-irmão	[CAT=nc,G=m,N=s]
-meio-termo	[CAT=nc,G=m,N=s]
-meio-tom	[CAT=nc,G=m,N=s]
-menino-bonito	[CAT=nc,G=m,N=s]
-menino-prodígio	[CAT=nc,G=m,N=s]
-mestre-escola	[CAT=nc,G=m,N=s]
-micro-onda/pl	[CAT=nc,G=m,N=s]
-micro-organismo/p	[PREAO90=microorganismo,CAT=nc,G=m,N=s]
-mil-folhas	[CAT=nc,G=f,N=s]
-ministro-adjunto/x	[CAT=nc,G=m,N=s]
-monta-cargas	[CAT=nc,G=m,N=s]
-montanha-russa	[CAT=nc,G=f,N=s]
-mosca-do-vinagre	[CAT=nc,G=f,N=s]
-mosca-morta	[CAT=nc,G=_,N=s]
-mosquinha-morta	[CAT=nc,G=_,N=s]
-nacional-socialismo	[CAT=nc,G=m,N=s]
-nacional-socialista	[CAT=a_nc,N=_,G=_]
-nadador-salvador	[CAT=nc,G=m,N=s]
-nadadores-salvadores	[$nadador-salvador$CAT=nc,G=m,N=s$N=p]
-naturezas-mortas	[CAT=nc,G=f,N=p]
-navio-escola	[CAT=nc,G=m,N=s]
-navios-escola	[$navio-escola$CAT=nc,G=m,N=s$N=p]
-nipo-chinês	[CAT=adj,N=s,G=m]
-norte-americano/fp	[CAT=adj,N=s,G=m]
-norte-coreano/fp	[CAT=adj,N=s,G=m]
-nova-iorquino/fp	[CAT=a_nc,G=m,N=s]
-novo-rico/i	[CAT=nc,G=m,N=s]
-novos-ricos	[$novo-rico$CAT=nc,G=m,N=s$N=p]
-noz-moscada	[CAT=nc,G=f,N=s]
-obra-mestra	[CAT=nc,G=f,N=s]
-obra-prima	[CAT=nc,G=f,N=s]
-obras-primas	[$obra-prima$CAT=nc,G=f,N=s$N=p]
-ouriço-cacheiro	[CAT=nc,G=m,N=s]
-ouriço-do-mar	[CAT=nc,G=m,N=s]
-ouriço-marinho	[CAT=nc,G=m,N=s]
-ovos-moles	[CAT=nc,G=m,N=p]
-palavra-chave	[CAT=nc,G=m,N=s]
-palavras-chave	[$palavra-chave$CAT=nc,G=m,N=s$N=p]
-palavras-cruzadas	[CAT=nc,G=f,N=p]
-pan-americanismo	[CAT=nc,G=m,N=s]
-pan-africano/fp	[CAT=adj,N=s,G=m]
-pan-eslavismo	[CAT=nc,G=m,N=s]
-pan-eslavista	[CAT=nc,G=_,N=s]
-pan-helenismo	[CAT=nc,G=m,N=s]
-papa-açorda	[CAT=nc,G=_,N=s]
-papa-figos	[CAT=nc,G=m,N=s]
-papa-formigas	[CAT=nc,G=m,N=s]
-papa-léguas	[CAT=nc,G=_,N=s]
-papel-moeda	[CAT=nc,G=m,N=s]
-para-brisas	[PREAO90=pára-brisas,CAT=nc,G=m,N=s]
-para-choque/p	[PREAO90=pára-choque,CAT=nc,G=m,N=s]
-para-lamas	[PREAO90=pára-lamas,CAT=nc,G=m,N=s]
-para-raios	[PREAO90=pára-raios,CAT=nc,G=m,N=s]
-para-vento/pl	[PREAO90=pára-vento,CAT=nc,G=m,N=s]
-passe-vite/pl	[CAT=nc,G=m,N=s]
-pata-choca	[CAT=nc,G=f,N=s]
-pato-bravo	[CAT=nc,G=m,N=s]
-pato-real	[CAT=nc,G=m,N=s]
-pau-mandado	[CAT=nc,G=m,N=s]
-pau-preto	[CAT=nc,G=m,N=s]
-pé-coxinho	[CAT=nc,G=m,N=s]
-pedra-pomes	[CAT=nc,G=f,N=s]
-peixe-agulha	[CAT=nc,G=m,N=s]
-peixes-agulha	[$peixe-agulha$CAT=nc,G=m,N=s$N=p]
-peixe-aranha	[CAT=nc,G=m,N=s]
-peixes-aranha	[$peixe-aranha$CAT=nc,G=m,N=s$N=p]
-peixe-espada	[CAT=nc,G=m,N=s]
-peixes-espada	[$peixe-espada$CAT=nc,G=m,N=s$N=p]
-peixe-voador	[CAT=nc,G=m,N=s]
-pequeno-almoço	[CAT=nc,G=m,N=s]
-peste-negra	[CAT=nc,G=f,N=s]
-pica-pau	[CAT=nc,G=m,N=s]
-pilha-galinhas	[CAT=nc,G=m,N=s]
-pinga-amor	[CAT=nc,G=_,N=s]
-pingo-de-mel	[CAT=nc,G=m,N=s]
-pingue-pongue	[CAT=nc,G=m,N=s]
-pinheiro-bravo	[CAT=nc,G=m,N=s]
-pinheiros-bravos	[$pinheiro-bravo$CAT=nc,G=m,N=s$N=p]
-pinheiro-manso	[CAT=nc,G=m,N=s]
-pinheiros-mansos	[$pinheiro-manso$CAT=nc,G=m,N=s$N=p]
-pisa-papéis	[CAT=nc,G=m,N=s]
-pisca-pisca	[CAT=nc,G=_,N=s]
-pistola-metralhadora	[CAT=nc,G=f,N=s]
-político-social/p	[CAT=adj,N=s,G=_]
-pombo-correio	[CAT=nc,G=m,N=s]
-pombos-correio	[$pombo-correio$CAT=nc,G=m,N=s$N=p]
-porco-espinho	[CAT=nc,G=m,N=s]
-porquinho-da-índia	[CAT=nc,G=m,N=s]
-porta-aviões	[CAT=nc,G=m,N=s]
-porta-bagagem/pl	[CAT=nc,G=m,N=s]
-porta-bandeira	[CAT=nc,G=m,N=s]
-porta-chaves	[CAT=nc]
-porta-estandarte/pl	[CAT=nc,G=m,N=s]
-porta-fólio/pl	[CAT=nc,G=m,N=s]
-porta-joias	[PREAO90=porta-jóias,CAT=nc,G=m,N=p]
-porta-moedas	[CAT=nc,G=m,N=s]
-porta-voz/pl	[CAT=nc,G=m,N=s]
-porto-alegrense/p	[CAT=a_nc,N=s,G=_]
-porto-riquenho	[CAT=a_nc,G=m,N=s]
-pós-clássico	[CAT=adj,N=s,G=m]
-pós-embrionário	[CAT=adj,N=s,G=m]
-pós-escolar	[CAT=adj,N=s,G=_]
-pós-escrito	[CAT=nc,G=m,N=s]
-pós-glaciário	[CAT=adj,N=s,G=m]
-pouca-vergonha	[CAT=nc,G=f,N=s]
-praça-forte	[CAT=nc,G=f,N=s]
-pré-câmbrico/fp	[CAT=nc,G=m,N=s]
-pré-colombiano/fp	[CAT=adj,N=s,G=m]
-pré-histórico/fp	[CAT=adj,N=s,G=m]
-preia-mar	[$praia-mar$CAT=nc,G=f,N=s$]
-prima-dona	[CAT=nc,G=f,N=s]
-primeira-ministra/x	[$primeiro-ministro$CAT=nc,G=m,N=s$G=f]
-primeiro-cabo	[CAT=nc,G=m,N=s]
-primeiro-ministro/x	[CAT=nc,G=m,N=s]
-primeiro-sargento	[CAT=nc,G=m,N=s]
-primeiros-ministros	[$primeiro-ministro$CAT=nc,G=m,N=s$N=p]
-primeiras-ministras	[$primeiro-ministro$CAT=nc,G=m,N=s$G=f,N=p]
-primeiro-tenente	[CAT=nc,G=m,N=s]
-processo-crime	[CAT=nc,G=m,N=s]
-processos-crime	[$processo-crime$CAT=nc,G=m,N=s$N=p]
-procurador-geral/Vx	[CAT=nc,G=m,N=s]
-pró-forma	[CAT=nc,G=m,N=s]
-pró-germânico/p	[CAT=adj,N=s,G=m]
-projeto-lei	[PREAO90=projecto-lei,CAT=nc,G=m,N=s]
-projetos-lei	[$projeto-lei$PREAO90=projecto-lei,CAT=nc,G=m,N=s$N=p]
-pronto-socorro	[CAT=nc,G=m,N=s]
-proto-história	[CAT=nc,G=f,N=s]
-puro-sangue	[CAT=nc,G=m,N=s]
-quarta-feira	[CAT=nc,G=f,N=s]
-quartas-feiras	[$quarta-feira$CAT=nc,G=f,N=s$N=p]
-quartel-general	[CAT=nc,G=m,N=s]
-quase-nada	[CAT=nc,G=m,N=s]
-quebra-cabeças	[CAT=nc,G=m,N=s]
-quebra-gelo	[CAT=nc,G=m,N=s]
-quebra-mar	[CAT=nc,G=m,N=s]
-quebra-nozes	[CAT=nc,G=m,N=s]
-queima-roupa	[CAT=nc,G=f,N=s]
-queixa-crime	[CAT=nc,G=f,N=s]
-queixas-crime	[$queixa-crime$CAT=nc,G=f,N=s$N=p]
-quilograma-padrão	[CAT=nc,G=m,N=s]
-quilograma-peso	[CAT=nc,G=m,N=s]
-quilovátio-hora	[CAT=nc,G=m,N=s]
-quilowatt-hora	[CAT=nc,G=m,N=s]
-quinta-coluna	[CAT=nc,G=f,N=s]
-quinta-essência/ph	[CAT=nc,G=f,N=s]
-quinta-feira	[CAT=nc,G=f,N=s]
-quintas-feiras	[$quinta-feira$CAT=nc,G=f,N=s$N=p]
-quota-parte	[CAT=nc,G=f,N=s]
-raios-X	[$raio-X$CAT=nc,G=m,N=s$N=p]
-raio-X/pl	[CAT=nc,G=m,N=s]
-rato-almiscareiro	[CAT=nc,G=m,N=s]
-recém-casado/fp	[CAT=nc,G=m,N=s]
-recém-chegado/fp	[CAT=nc,G=m,N=s]
-recém-nascido/fp	[CAT=nc,G=m,N=s]
-redator-chefe	[PREAO90=redactor-chefe,CAT=nc,G=m,N=s]
-roda-viva	[CAT=nc,G=f,N=s]
-russo-japonês	[CAT=adj,N=s,G=m]
-saca-rolhas	[CAT=nc,G=m,N=s]
-saco-roto	[CAT=nc,G=m,N=s]
-sal-gema	[CAT=nc,G=m,N=s]
-salta-pocinhas	[CAT=nc,G=m,N=s]
-salva-vidas	[CAT=nc,G=m,N=s]
-salve-rainha	[CAT=nc,G=f,N=s]
-salvo-conduto	[CAT=nc,G=m,N=s]
-sangue-frio	[CAT=nc,G=m,N=s]
-são-bernardo	[CAT=nc,G=m,N=s]
-são-joanense/p	[CAT=a_nc,N=s,G=_]
-são-joanino	[CAT=a_nc,G=m,N=s]
-são-tircense	[CAT=a_nc,N=s,G=_]
-são-tomense/p	[CAT=a_nc,N=s,G=_]
-sargento-ajudante/pl	[CAT=nc,G=m,N=s]
-sargento-mor	[CAT=nc,G=m,N=s]
-secretário-geral/xV	[CAT=nc,G=m,N=s]
-segunda-feira	[CAT=nc,G=f,N=s]
-segundas-feiras	[$segunda-feira$CAT=nc,G=f,N=s$N=p]
-segundo-sargento	[CAT=nc,G=m,N=s]
-segundo-tenente	[CAT=nc,G=m,N=s]
-sem-abrigo	[CAT=nc,G=m,N=s]
-semana-inglesa	[CAT=nc,G=f,N=s]
-sem-cerimónia	[CAT=nc,G=f,N=s]
-sem-fim	[CAT=nc,G=m,N=s]
-semi-inconsciente	[CAT=adj,N=s,G=m]
-semi-internato	[CAT=nc,G=m,N=s]
-semi-interno	[CAT=adj,N=s,G=m]
-sem-nome	[CAT=nc,G=_,N=s]
-sem-número	[CAT=a_nc,G=m,N=s]
-sem-par	[CAT=a_nc,N=s,G=_]
-sem-razão	[CAT=nc,G=f,N=s]
-sem-sabor	[CAT=a_nc,G=2,N=s]
-sem-vergonha	[CAT=nc,G=f,N=s]
-servo-croata	[CAT=nc,G=m,N=s]
-sete-e-meio	[CAT=nc,G=m,N=s]
-sexta-feira	[CAT=nc,G=f,N=s]
-sextas-feiras	[$sexta-feira$CAT=nc,G=f,N=s$N=p]
-sino-japonês/f	[CAT=adj,N=s,G=m]
-sobre-excitar/XYPLc	[PREAO90=sobreexcitar,CAT=v,T=inf,TR=t]
-sobre-humanizar/XYPL	[CAT=v,T=inf,TR=t]
-sobre-humano/fp	[CAT=adj,N=s,G=m]
-sociais-democratas	[$social-democrata$CAT=a_nc,N=s,G=_$N=p]
-social-democracia/qr	[CAT=nc,G=f,N=s]
-sócio-económica/p	[CAT=adj,N=s,G=m]
-sofá-cama	[CAT=nc,G=m,N=s]
-sol-posto	[CAT=nc,G=m,N=s]
-sóis-postos	[$sol-posto$CAT=nc,G=m,N=s$N=p]
-sub-raça	[CAT=nc,G=f,N=s]
-sub-reino	[CAT=nc,G=m,N=s]
-sub-rogante/pm	[CAT=adj,N=s,G=_]
-sub-rogar/XYPLn	[CAT=v,T=inf,TR=t]
-sub-rogatório	[CAT=adj,N=s,G=m]
-sul-africano/fp	[CAT=a_nc,G=m,N=s]
-sul-americano/fp	[CAT=a_nc,G=m,N=s]
-sul-coreano/fp	[CAT=a_nc,G=m,N=s]
-super-herói/pl	[CAT=nc,G=m,N=s]
-super-heroína/p	[$super-herói$CAT=nc,G=m,N=s$G=f]
-super-homem/pl	[CAT=nc,G=m,N=s]
-super-humano/fp	[CAT=adj,N=s,G=m]
-super-realismo	[CAT=nc,G=m,N=s]
-super-realista	[CAT=a_nc,N=s,G=_]
-surdo-mudo/fp	[CAT=a_nc,G=m,N=s]
-su-sudoeste	[CAT=nc,G=m,N=s]
-su-sueste	[CAT=nc,G=m,N=s]
-tão-pouco	[CAT=adv]
-tão-só	[CAT=adv]
-tão-somente	[CAT=adv,SUBCAT=modo]
-tapa-misérias	[CAT=nc,G=m,N=s]
-telégrafo-postal	[CAT=adj,N=s,G=m]
-tenente-coronel	[CAT=nc,G=m,N=s]
-teórico-prático/fp	[CAT=adj,N=s,G=m]
-terça-feira	[CAT=nc,G=f,N=s]
-terças-feiras	[$terça-feira$CAT=nc,G=f,N=s$N=p]
-tia-avó/p	[CAT=nc,G=f,N=s]
-tio-avô/pl	[CAT=nc,G=m,N=s]
-tira-dentes	[CAT=nc,G=m,N=s]
-tira-dúvidas	[CAT=nc,G=m,N=s]
-tira-linhas	[CAT=nc,G=m,N=s]
-tira-nódoas	[CAT=nc,G=m,N=s]
-tira-teimas	[CAT=nc,G=m,N=s]
-todo-o-terreno	[CAT=nc,G=m,N=s]
-todo-poderoso	[CAT=adj,N=s,G=m]
-torrão-de-açúcar	[CAT=nc,G=m,N=s]
-tosta-mista	[CAT=nc,G=f,N=s]
-tostas-mistas	[$tosta-mista$CAT=nc,G=f,N=s$N=p]
-trágico-marítimo	[CAT=adj,N=s,G=m]
-trava-língua/pl	[CAT=nc,G=m,N=s]
-truz-truz	[CAT=in]
-tsé-tsé	[CAT=nc,G=m,N=s]
-tudo-nada	[CAT=nc,G=m,N=s]
-tuta-e-meia	[CAT=nc,G=f,N=s]
-vaca-fria	[CAT=nc,G=f,N=s]
-vaga-lume/pl	[CAT=nc,G=m,N=s]
-vagão-cama	[CAT=nc,G=m,N=s]
-vagão-restaurante/pl	[CAT=nc,G=m,N=s]
-verde-alface	[CAT=a_nc,G=m,N=s]
-verde-claro/p	[CAT=a_nc,G=m,N=s]
-verde-escuro/fp	[CAT=a_nc,G=m,N=s]
-verde-esmeralda	[CAT=a_nc,G=m,N=s]
-verde-garrafa	[CAT=a_nc,G=m,N=s]
-vermelho-púrpura	[CAT=adj,N=s,G=m]
-via-férrea	[CAT=nc,G=f,N=s]
-via-sacra	[CAT=nc,G=f,N=s]
-vice-versa	[CAT=adv]
-vila-condense/p	[CAT=a_nc,N=s,G=_]
-vila-franquense/p	[CAT=a_nc,N=s,G=_]
-vila-novense/p	[CAT=a_nc,N=s,G=_]
-vila-realense/p	[CAT=a_nc,N=s,G=_]
-vira-casaca	[CAT=nc,G=m,N=s]
-viúva-alegre	[CAT=nc,G=f,N=s]
-volt-ampere	[CAT=nc,G=m,N=s]
-watt-hora	[CAT=nc,G=m,N=s]
-x-ato	[PREAO90=x-acto,CAT=nc,G=m,N=s]
-xeque-mate	[CAT=nc,G=m,N=s]
-zás-trás	[CAT=in]
-zé-ninguém	[CAT=nc,G=m,N=s]
-zé-pereira	[CAT=nc,G=m,N=s]
-zé-povinho	[CAT=nc,G=m,N=s]
-CD-ROM	[CAT=np,G=m,N=s,SEM=sigla]
-e-mail	[CAT=nc,G=m,N=s,ORIG=ing]
-e-mails	[$e-mail$CAT=nc,G=m,N=s,ORIG=ing$N=p]
-MS-DOS	[CAT=np,G=m,N=s,SEM=sigla]
-on-line	[CAT=a_nc,G=m,N=s]
-Aix-en-Provence	[CAT=np,SEM=cid,G=m,N=s]
-Aix-la-Chapelle	[CAT=np,SEM=cid,G=m,N=s]
-Albergaria-a-Nova	[CAT=np,SEM=ter,G=m,N=s]
-Albergaria-a-Velha	[CAT=np,SEM=ter,G=m,N=s]
-Bósnia-Herzegovina	[CAT=np,SEM=country,G=f,N=s]
-Condeixa-a-Nova	[CAT=np,SEM=ter,G=m,N=s]
-Direção-Geral	[PREAO90=Direcção-Geral,CAT=nc,G=f,N=s]
-Entre-os-Rios	[CAT=np,SEM=ter,G=m,N=s]
-Grã-Bretanha	[CAT=np]
-Grão-Pará	[CAT=np,SEM=ter,G=m,N=s]
-Guiné-Bissau	[CAT=np,SEM=country,G=f,N=s]
-Hong-Kong	[CAT=np,SEM=country,G=m,N=s]
-Idanha-a-Nova	[CAT=np,SEM=ter,G=m,N=s]
-Idanha-a-Velha	[CAT=np,SEM=ter,G=m,N=s]
-Montemor-o-Novo	[CAT=np,SEM=ter,G=m,N=s]
-Montemor-o-Velho	[CAT=np,SEM=ter,G=m,N=s]
-Padre-Nosso	[CAT=np,G=m]
-Pai-Nosso/p	[CAT=np,G=m]
-Papua-Nova	[$Papua-Nova Guiné$LA=1,CAT=np,SEM=country,G=f,N=s]
-Passo-de-Calais	[CAT=np,SEM=ter,G=m,N=s]
-Peles-Vermelhas	[CAT=np,G=m,N=p]
-Proença-a-Nova	[CAT=np,SEM=ter,G=m,N=s]
-Saxónia-Anhalt	[CAT=np,SEM=ter,G=m,N=s]
-Schleswig-Holstein	[CAT=np,SEM=ter,G=m,N=s]
-Timor-Leste	[CAT=np,SEM=country,G=m,N=s]
-Trás-os-Montes	[CAT=np,SEM=ter,G=m,N=s]
-Via-Láctea	[CAT=np,G=f]
-check-in	[CAT=nc,G=m,N=s,ORIG=ing]
-jiu-jitsu	[CAT=nc,G=m,N=s,ORIG=jap]
-t-shirt/p	[CAT=nc,G=m,N=s,ORIT=ing]
-walkie-talkie/p	[CAT=nc,G=m,N=s,ORIG=pol]
-bem-querendo/L	[$bem-querer$CAT=v,T=inf,TR=_$T=g]
-bem-quero/L	[$bem-querer$CAT=v,T=inf,TR=_$P=1,N=s,T=p]
-bem-queres/L	[$bem-querer$CAT=v,T=inf,TR=_$P=2,N=s,T=p]
-bem-queremos/L	[$bem-querer$CAT=v,T=inf,TR=_$P=1,N=p,T=p]
-bem-quereis/L	[$bem-querer$CAT=v,T=inf,TR=_$P=2,N=p,T=p]
-bem-querem/L	[$bem-querer$CAT=v,T=inf,TR=_$P=3,N=p,T=p]
-bem-querido/L	[$bem-querer$CAT=v,T=inf,TR=_$G=m,N=s,T=ppa]
-bem-querida/L	[$bem-querer$CAT=v,T=inf,TR=_$G=f,N=s,T=ppa]
-bem-queridos/L	[$bem-querer$CAT=v,T=inf,TR=_$G=m,N=p,T=ppa]
-bem-queridas/L	[$bem-querer$CAT=v,T=inf,TR=_$G=f,N=p,T=ppa]
-bem-queria/L	[$bem-querer$CAT=v,T=inf,TR=_$P=1,N=s,T=pi]
-bem-querias/L	[$bem-querer$CAT=v,T=inf,TR=_$P=2,N=s,T=pi]
-bem-queria/L	[$bem-querer$CAT=v,T=inf,TR=_$P=3,N=s,T=pi]
-bem-queríamos/L	[$bem-querer$CAT=v,T=inf,TR=_$P=1,N=p,T=pi]
-bem-queríeis/L	[$bem-querer$CAT=v,T=inf,TR=_$P=2,N=p,T=pi]
-bem-queriam/L	[$bem-querer$CAT=v,T=inf,TR=_$P=3,N=p,T=pi]
-bem-quererei/L	[$bem-querer$CAT=v,T=inf,TR=_$P=1,N=s,T=f]
-bem-quererás/L	[$bem-querer$CAT=v,T=inf,TR=_$P=2,N=s,T=f]
-bem-quererá/L	[$bem-querer$CAT=v,T=inf,TR=_$P=3,N=s,T=f]
-bem-quereremos/L	[$bem-querer$CAT=v,T=inf,TR=_$P=1,N=p,T=f]
-bem-querereis/L	[$bem-querer$CAT=v,T=inf,TR=_$P=2,N=p,T=f]
-bem-quererão/L	[$bem-querer$CAT=v,T=inf,TR=_$P=3,N=p,T=f]
-bem-quereria/L	[$bem-querer$CAT=v,T=inf,TR=_$P=1,N=s,T=c]
-bem-quererias/L	[$bem-querer$CAT=v,T=inf,TR=_$P=2,N=s,T=c]
-bem-quereria/L	[$bem-querer$CAT=v,T=inf,TR=_$P=3,N=s,T=c]
-bem-quereríamos/L	[$bem-querer$CAT=v,T=inf,TR=_$P=1,N=p,T=c]
-bem-quereríeis/L	[$bem-querer$CAT=v,T=inf,TR=_$P=2,N=p,T=c]
-bem-quereriam/L	[$bem-querer$CAT=v,T=inf,TR=_$P=3,N=p,T=c]
-bem-quer/L	[$bem-querer$CAT=v,T=inf,TR=_$P=3,N=s,T=p]
-bem-quis/L	[$bem-querer$CAT=v,T=inf,TR=_$P=1,N=s,T=pp]
-bem-quiseste/L	[$bem-querer$CAT=v,T=inf,TR=_$P=2,N=s,T=pp]
-bem-quis/L	[$bem-querer$CAT=v,T=inf,TR=_$P=3,N=s,T=pp]
-bem-quisemos/L	[$bem-querer$CAT=v,T=inf,TR=_$P=1,N=p,T=pp]
-bem-quisestes/L	[$bem-querer$CAT=v,T=inf,TR=_$P=2,N=p,T=pp]
-bem-quiseram/L	[$bem-querer$CAT=v,T=inf,TR=_$P=3,N=p,T=pp]
-bem-quisera/L	[$bem-querer$CAT=v,T=inf,TR=_$P=1,N=s,T=pmp]
-bem-quiseras/L	[$bem-querer$CAT=v,T=inf,TR=_$P=2,N=s,T=pmp]
-bem-quisera/L	[$bem-querer$CAT=v,T=inf,TR=_$P=3,N=s,T=pmp]
-bem-quiséramos/L	[$bem-querer$CAT=v,T=inf,TR=_$P=1,N=p,T=pmp]
-bem-quiséreis/L	[$bem-querer$CAT=v,T=inf,TR=_$P=2,N=p,T=pmp]
-bem-quiseram/L	[$bem-querer$CAT=v,T=inf,TR=_$P=3,N=p,T=pmp]
-bem-queira/L	[$bem-querer$CAT=v,T=inf,TR=_$P=1,N=s,T=pc]
-bem-queiras/L	[$bem-querer$CAT=v,T=inf,TR=_$P=2,N=s,T=pc]
-bem-queira/L	[$bem-querer$CAT=v,T=inf,TR=_$P=3,N=s,T=pc]
-bem-queiramos/L	[$bem-querer$CAT=v,T=inf,TR=_$P=1,N=p,T=pc]
-bem-queirais/L	[$bem-querer$CAT=v,T=inf,TR=_$P=2,N=p,T=pc]
-bem-queiram/L	[$bem-querer$CAT=v,T=inf,TR=_$P=3,N=p,T=pc]
-bem-quisesse/L	[$bem-querer$CAT=v,T=inf,TR=_$P=1,N=s,T=pic]
-bem-quisesses/L	[$bem-querer$CAT=v,T=inf,TR=_$P=2,N=s,T=pic]
-bem-quisesse/L	[$bem-querer$CAT=v,T=inf,TR=_$P=3,N=s,T=pic]
-bem-quiséssemos/L	[$bem-querer$CAT=v,T=inf,TR=_$P=1,N=p,T=pic]
-bem-quisésseis/L	[$bem-querer$CAT=v,T=inf,TR=_$P=2,N=p,T=pic]
-bem-quisessem/L	[$bem-querer$CAT=v,T=inf,TR=_$P=3,N=p,T=pic]
-bem-quiser/L	[$bem-querer$CAT=v,T=inf,TR=_$P=1,N=s,T=fc]
-bem-quiseres/L	[$bem-querer$CAT=v,T=inf,TR=_$P=2,N=s,T=fc]
-bem-quiser/L	[$bem-querer$CAT=v,T=inf,TR=_$P=3,N=s,T=fc]
-bem-quisermos/L	[$bem-querer$CAT=v,T=inf,TR=_$P=1,N=p,T=fc]
-bem-quiserdes/L	[$bem-querer$CAT=v,T=inf,TR=_$P=2,N=p,T=fc]
-bem-quiserem/L	[$bem-querer$CAT=v,T=inf,TR=_$P=3,N=p,T=fc]
-bem-quer/L	[$bem-querer$CAT=v,T=inf,TR=_$P=2,N=s,T=i]
-bem-queira/L	[$bem-querer$CAT=v,T=inf,TR=_$P=3,N=s,T=i]
-bem-queiramos/L	[$bem-querer$CAT=v,T=inf,TR=_$P=1,N=p,T=i]
-bem-querei/L	[$bem-querer$CAT=v,T=inf,TR=_$P=2,N=p,T=i]
-bem-queiram/L	[$bem-querer$CAT=v,T=inf,TR=_$P=3,N=p,T=i]
-bem-quereres/L	[$bem-querer$CAT=v,T=inf,TR=_$P=2,N=s,T=ip]
-bem-querermos/L	[$bem-querer$CAT=v,T=inf,TR=_$P=1,N=p,T=ip]
-bem-quererdes/L	[$bem-querer$CAT=v,T=inf,TR=_$P=2,N=p,T=ip]
-bem-quererem/L	[$bem-querer$CAT=v,T=inf,TR=_$P=3,N=p,T=ip]
-ab-reativo/fp	[CAT=__,G=m,N=s]
-abutre-do-egipto	[CAT=__,G=_,N=s]
-abutres-do-egipto	[CAT=__,G=_,N=s]
-ad-rectal/p	[CAT=__,G=_,N=s]
-ad-retal/p	[CAT=__,G=_,N=s]
-agrião-do-pará	[CAT=__,G=_,N=s]
-agriões-do-pará	[CAT=__,G=_,N=s]
-águia-de-bonelli	[CAT=__,G=_,N=s]
-águias-de-bonelli	[CAT=__,G=_,N=s]
-álveola-cinzenta	[CAT=__,G=_,N=s]
-álveolas-cinzentas	[CAT=__,G=_,N=p]
-Anderson-Darling	[CAT=__,G=_,N=s]
-anti-ictérico/fp	[CAT=__,G=m,N=s]
-anti-infeciosamente	[CAT=adv,SUBCAT=modo]
-anti-itérico/fp	[CAT=__,G=m,N=s]
-bi-horário/fp	[CAT=__,G=_,N=s]
-Breusch-Godfrey	[CAT=__,G=_,N=s]
-Breusch-Pagan	[CAT=__,G=_,N=s]
-Brown-Forsythe	[CAT=__,G=_,N=s]
-Calvin-Benson	[CAT=__,G=_,N=s]
-carvalho-negral	[CAT=__,G=_,N=s]
-carvalhos-negral	[CAT=__,G=_,N=s]
-CDS-PP	[CAT=__,G=_,N=s]
-cebola-albarrã	[CAT=__,G=_,N=s]
-cebolas-albarrãs	[CAT=__,G=_,N=p]
-chango-da-montanha	[CAT=__,G=_,N=s]
-changos-da-montanha	[CAT=__,G=_,N=s]
-couve-de-saboia/p	[CAT=__,G=f,N=s]
-Cramér-von Mises	[CAT=__,G=_,N=p]
-Cuzick-Edwards	[CAT=__,G=_,N=p]
-Durbin-Wu-Hausman	[CAT=__,G=_,N=s]
-elande-gigante	[CAT=__,G=_,N=s]
-elandes-gigante	[CAT=__,G=_,N=s]
-eletro-ótica/p	[CAT=__,G=f,N=s]
-eletro-ótico/fp	[CAT=__,G=m,N=s]
-estribeiro-mor	[CAT=__,G=_,N=s]
-estribeiros-mor	[CAT=__,G=_,N=s]
-fava-do-egito/p	[CAT=__,G=_,N=s]
-Fisher-Snedecor	[CAT=__,G=_,N=s]
-Goldfeld-Quandt	[CAT=__,G=_,N=s]
-Holm-Bonferroni	[CAT=__,G=_,N=s]
-Hosmer-Lemeshow	[CAT=__,G=_,N=s]
-infanto-juvenis	[CAT=adj,G=_,N=p]
-ítalo-brasileiro/fp	[CAT=__,G=_,N=s]
-Kaplan-Meier	[CAT=__,G=_,N=s]
-Kim Jong-il	[CAT=__,G=_,N=s]
-Kim Jong-un	[CAT=__,G=_,N=s]
-Kolmogorov-Smirnov	[CAT=__,G=_,N=s]
-Kruskal-Wallis	[CAT=__,G=_,N=p]
-loio-de-jardim/p	[CAT=__,G=_,N=s]
-loio-do-jardim/p	[CAT=__,G=_,N=s]
-lúcia-lima	[CAT=__,G=_,N=s]
-Mann-Whitney	[CAT=__,G=_,N=s]
-Mann-Whitney-Wilcoxon	[CAT=__,G=_,N=s]
-Mercedes-Benz	[CAT=__,G=_,N=s]
-mórfico-sintático/fp	[CAT=__,G=m,N=s]
-Neyman-Pearson	[CAT=__,G=_,N=s]
-painho-de-monteiro	[CAT=__,G=_,N=s]
-painhos-de-monteiro	[CAT=__,G=_,N=s]
-passarinho-do-egito/p	[CAT=__,G=_,N=s]
-Peneda-Gerês	[CAT=__,G=_,N=p]
-pera-de-arrátel/p	[CAT=__,G=_,N=s]
-perca-do-nilo	[CAT=__,G=_,N=s]
-percas-do-nilo	[CAT=__,G=_,N=s]
-Phillips-Perron	[CAT=__,G=_,N=s]
-picanço-barreteiro	[CAT=__,G=_,N=s]
-picanços-barreteiros	[CAT=__,G=_,N=p]
-PSD-CDs	[CAT=__,G=_,N=p]
-qui-quadrado	[CAT=__,G=_,N=s]
-rato-do-egito/p	[CAT=__,G=_,N=s]
-redatora-chefe/p	[CAT=__,G=_,N=s]
-roselha-maior	[CAT=__,G=_,N=s]
-roselhas-maiores	[CAT=__,G=_,N=p]
-Saint-Exupéry	[CAT=__,G=_,N=s]
-sanguinho-de-água	[CAT=__,G=_,N=s]
-sanguinhos-de-água	[CAT=__,G=_,N=s]
-Sargan-Hansen	[CAT=__,G=_,N=s]
-semi-intensiva/p	[CAT=__,G=_,N=s]
-Shapiro-Francia	[CAT=__,G=_,N=s]
-Shapiro-Wilk	[CAT=__,G=_,N=s]
-Siegel-Tukey	[CAT=__,G=_,N=s]
-sobre-errogação/p	[CAT=__,G=_,N=s]
-tetra-horário/fp	[CAT=__,G=_,N=s]
-tojo-durázio	[CAT=__,G=_,N=s]
-tojos-durázios	[CAT=__,G=_,N=p]
-tourão-do-mato/p	[CAT=__,G=_,N=s]
-toutinegra-de-barrete	[CAT=__,G=_,N=s]
-toutinegra-de-barrete-preto	[CAT=__,G=_,N=s]
-toutinegra-de-cabeça-preta	[CAT=__,G=_,N=s]
-toutinegras-de-barrete	[CAT=__,G=_,N=s]
-toutinegras-de-barrete-preto	[CAT=__,G=_,N=s]
-toutinegras-de-cabeça-preta	[CAT=__,G=_,N=s]
-trans-humanismo	[CAT=__,G=_,N=s]
-trans-humano/fp	[CAT=__,G=_,N=s]
-tri-horário/fp	[CAT=__,G=_,N=s]
-Tukey-Duckworth	[CAT=__,G=_,N=s]
-azuis-índigo	[CAT=__,G=_,N=s]
-azul-índigo	[CAT=__,G=_,N=s]
-Berlin-Tegel	[CAT=__,G=_,N=s]
-costa-marfinense/p	[CAT=__,G=_,N=s]
-Creutzfeldt-Jakob	[CAT=__,G=_,N=s]
-Guillain-Barré	[CAT=__,G=_,N=s]
-infra-alar	[CAT=__,G=_,N=s]
-infra-alares	[CAT=__,G=_,N=s]
-Kiev-Boryspil	[CAT=__,G=_,N=s]
-micro-organismo/p	[CAT=__,G=_,N=s]
-Milão-Malpensa	[CAT=__,G=_,N=s]
-Montréal-Mirabel	[CAT=__,G=_,N=s]
-orangotango-de-bornéu	[CAT=__,G=_,N=s]
-orangotangos-de-bornéu	[CAT=__,G=_,N=s]
-Paulo-Guarulhos	[CAT=__,G=_,N=s]
-pinguim-de-adélia	[CAT=__,G=_,N=s]
-pinguins-de-adélia	[CAT=__,G=_,N=s]
-rinoceronte-de-java	[CAT=__,G=_,N=s]
-rinocerontes-de-java	[CAT=__,G=_,N=s]
-stand-up	[CAT=__,G=_,N=s]
-Suárez-Barajas	[CAT=__,G=_,N=s]
-Toulouse-Blagnac	[CAT=__,G=_,N=s]
-tupi-guarani	[CAT=__,G=_,N=s]
-víbora-de-Seoane	[CAT=__,G=_,N=s]
-víboras-de-Seoane	[CAT=__,G=_,N=s]
-wallabies-da-areia	[CAT=__,G=_,N=s]
-wallabies-dama	[CAT=__,G=_,N=s]
-wallaby-da-areia	[CAT=__,G=_,N=s]
-wallaby-dama	[CAT=__,G=_,N=s]
-Wi-Fi	[CAT=__,G=_,N=s]
-X-Men	[CAT=__,G=_,N=s]
-Austro-Húngaro	[CAT=__,G=_,N=s]
-pimenta-de-sichuan	[CAT=__,G=_,N=s]
-abat-jour	[CAT=__,G=_,N=_,ORIG=fra]
-abat-jours	[CAT=__,G=_,N=_,ORIG=fra]
-acid-jazz	[CAT=__,G=_,N=_,ORIG=ing]
-agit-prop	[CAT=__,G=_,N=s,ORIG=ing]
-agit-props	[CAT=__,G=_,N=p,ORIG=ing]
-aide-mémoire/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-anti-apartheid	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-anti-apartheids	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-anti-dumping	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-anti-dumpings	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-anti-establishment	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-anti-establishments	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-arrière-pensée/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-avant-garde/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-avant-première/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-avant-scène/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-baby-doll	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-baby-dolls	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-baby-grow	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-baby-grows	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-baby-sitter	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-baby-sitters	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-back-up	[CAT=__,G=_,N=s,ORIG=ing]
-back-ups	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-best-seller	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-best-sellers	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-beta-tester	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-beta-testers	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-big-bang	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-big-bangs	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-blue-jeans	[CAT=__,G=_,N=_,ORIG=_ing_fra_]
-body-building	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-body-buildings	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-box-office/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-bric-à-brac	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-bric-à-bracs	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-buena-dicha/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-bungee-jumping	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-bungee-jumpings	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-bye-bye/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-cache-pot	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-cache-pots	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-cache-sexe/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-case-study	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-case-studies	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-cash-and-carry	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-cash-and-carries	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-cash-flow	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-cash-flows	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-chaise-longue/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-check-in	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-check-ins	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-check-up	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-check-ups	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-cheong-sam	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-cheong-sams	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-close-up	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-close-ups	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-code-share/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-cordon-bleu	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-cordon-bleus	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-cross-country	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-cross-countries	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-cross-selling	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-cross-sellings	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-déjà-vu	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-déjà-vus	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-disc-jockey	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-disc-jockeys	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-drive-in	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-drive-ins	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-e-book	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-e-books	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-e-mail	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-e-mails	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-e-zine/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-eau-de-toilette/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-eye-liner	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-eye-liners	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-fair-play	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-fair-plays	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-fait-divers	[CAT=__,G=_,N=_,ORIG=_ing_fra_]
-flip-flop	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-flip-flops	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-follow-up	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-follow-ups	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-fox-terrier	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-fox-terriers	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-full-time/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-goal-average/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-ham-ioc-chong	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-ham-ioc-chongs	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-hara-kiri/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-hard-core/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-hard-rock	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-hard-rocks	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-heavy-metal	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-heavy-metals	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-hi-fi/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-high-tech	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-high-techs	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-hip-hop	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-hip-hops	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-hors-d'oeuvre/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-ice-cream	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-ice-creams	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-import-export	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-import-exports	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-in-octavo/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-jam-session	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-jam-sessions	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-jet-lag	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-jet-lags	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-jet-set	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-jet-sets	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-jiu-jitsu	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-jiu-jitsus	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-joint-venture/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-knock-out	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-knock-outs	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-know-how	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-know-hows	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-kung-fu	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-kung-fus	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-low-profile/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-mah-jong	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-mah-jongs	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-make-up	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-make-ups	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-match-point	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-match-points	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-mezzo-soprano/fp	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-mise-en-scène/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-music-hall	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-music-halls	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-new-age/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-non-stop	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-non-stops	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-off-line/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-office-boy	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-office-boys	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-on-line/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-part-time/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-passe-partout	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-passe-partouts	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-petit-suisse/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-photo-finish	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-photo-finishs	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-pick-up	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-pick-ups	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-pin-up	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-pin-ups	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-pince-nez	[CAT=__,G=_,N=_,ORIG=_ing_fra_]
-ping-pong	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-ping-pongs	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-play-off	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-play-offs	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-post-it	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-post-its	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-pot-pourri/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-prima-donna/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-prize-money	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-prize-moneys	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-ready-made/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-rendez-vous	[CAT=__,G=_,N=_,ORIG=_ing_fra_]
-rent-a-car	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-rent-a-cars	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-roll-on	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-roll-ons	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-savoir-faire/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-savoir-vivre/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-self-government	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-self-governments	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-self-induction	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-self-inductions	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-self-service/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-serial-killer	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-serial-killers	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-set-point	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-set-points	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-shake-hand	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-shake-hands	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-shar-pei/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-show-off	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-show-offs	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-sit-in	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-sit-ins	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-snack-bar	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-snack-bars	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-soi-disant	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-soi-disants	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-soutien-gorge/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-sub-holding	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-sub-holdings	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-t-shirt	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-t-shirts	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-tai-chi/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-take-off	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-take-offs	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-talk-show	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-talk-shows	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-task-force/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-tax-free	[CAT=__,G=_,N=_,ORIG=_ing_fra_]
-tête-à-tête/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-think-tank	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-think-tanks	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-tie-break	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-tie-breaks	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-time-sharing	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-time-sharings	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-trip-hop	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-trip-hops	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-turbo-diesel	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-turbo-diesels	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-up-to-date/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-very-light	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-very-lights	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-vis-à-vis	[CAT=__,G=_,N=_,ORIG=_ing_fra_]
-voice-mail	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-voice-mails	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-volte-face/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-walkie-talkie/p	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-water-closet	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-water-closets	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-water-polo	[CAT=__,G=_,N=_,ORIG=_ing_fra_]
-wild-card	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-wild-cards	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-yé-yé	[CAT=__,G=_,N=s,ORIG=_ing_fra_]
-yé-yés	[CAT=__,G=_,N=p,ORIG=_ing_fra_]
-Alto-Carabaque	[CAT=__,G=_,N=s]
-dicloro-difenil-tricloroetano/p	[CAT=__,G=_,N=s]
-dimetil-mercúrio/p	[CAT=__,G=_,N=s]
-Akhal-Teke	[CAT=nc,G=_,N=s]
-Adenberg-Nordkirchen	[CAT=nc,G=_,N=s]
-Anglo-Árabe	[CAT=nc,G=_,N=s]
-Anglo-Kabarda	[CAT=nc,G=_,N=s]
-Loup-chow	[CAT=nc,G=_,N=s]
-Shar-Pei	[CAT=nc,G=_,N=s]
-Shih-Tzu	[CAT=nc,G=_,N=s]
-baleia-da-gronelândia	[CAT=__,G=_,N=s]
-baleias-da-gronelândia	[CAT=__,G=_,N=s]
-Böhm-Bawerk	[CAT=__,G=_,N=s]
-não-Hodgkin	[CAT=__,G=_,N=s]
-roaz-corvineiro	[CAT=__,G=_,N=s]
-sub-reptício/p	[CAT=__,G=m,N=s]
-Tsé-Tung	[CAT=__,G=_,N=s]
-tubarão-anequim	[CAT=__,G=_,N=s]
-tubarões-anequim	[CAT=__,G=_,N=s]
-tuia-gigante	[CAT=__,G=_,N=s]
-tuias-gigantes	[CAT=__,G=_,N=p]
-Waku-Kungo	[CAT=__,G=_,N=s]
-Xai-Xai	[CAT=__,G=_,N=s]
-anti-histamínico/p	[CAT=__,G=_,N=s]
-baseámo-nos	[CAT=__,G=_,N=s]
-propomo-nos	[CAT=__,G=_,N=s]
-PS-PCP-BE	[CAT=__,G=_,N=s]
-sobrinhas-trinetas	[CAT=__,G=_,N=p]
-sobrinha-trineta	[CAT=__,G=_,N=s]
-sobrinhos-trinetos	[CAT=__,G=_,N=p]
-sobrinho-trineto	[CAT=__,G=_,N=s]
-covid-19	[CAT=__,G=_,N=s]
-Covid-19	[CAT=__,G=_,N=s]
-COVID-19	[CAT=__,G=_,N=s]
-ciber-segurança	[AO90=cibersegurança,CAT=nc,G=f,N=s]
-diretor-executivo/p	[CAT=__,G=_,N=s]
-couve-de-saboia/p	[CAT=__,G=_,N=s]
-peixe-elétrico/p	[CAT=__,G=_,N=s]
-sobre-elevar	[CAT=__,G=_,N=s]
-eletrão-volt	[AO90=eletrão-volt,CAT=nc,G=m,N=s]
-água-de-colónia	[AO90=,CAT=nc,G=f,N=s]
-ciber-cultura/p	[AO90=cibercultura,CAT=nc,G=m,N=s]
-sobre-eminência/p	[CAT=__,G=_,N=s]
-reta-pronúncia/p	[CAT=__,G=_,N=s]
-sobre-excelência/p	[CAT=__,G=_,N=s]
-micro-ondas	[CAT=__,G=_,N=s]
-quarto-de-hora	[AO90=,CAT=nc,G=m,N=s]
-x-ato	[AO90=x-ato,CAT=nc,G=m,N=s]
-pré-objetal/p	[CAT=__,G=_,N=s]
-autos-de-fé	[$auto-de-fé$AO90=,CAT=nc,G=m,N=s$N=p]
-vice-coletor	[CAT=__,G=_,N=s]
-sobre-expor	[CAT=__,G=_,N=s]
-sobre-excedente/p	[CAT=__,G=_,N=s]
-saca-projétil/p	[CAT=__,G=_,N=s]
-projeto-piloto/p	[CAT=__,G=_,N=s]
-oitavo-de-final	[AO90=,CAT=nc,G=m,N=s]
-para-brisas	[AO90=para-brisas,CAT=nc,G=m,N=s]
-para-chuva/p	[CAT=__,G=_,N=s]
-sobre-eminente/p	[CAT=__,G=_,N=s]
-cartões-de-visita	[$cartão-de-visita$AO90=,CAT=nc,G=m,N=s$N=p]
-há-de	[AO90=,CAT=cp,Verb=haver,Prep=de,G=_,N=s,P=3]
-para-choque/p	[AO90=para-choque,CAT=nc,G=m,N=s]
-fonético-sintaticamente	[CAT=adv,SUBCAT=modo]
-projectos-lei	[$projecto-lei$AO90=projeto-lei,CAT=nc,G=m,N=s$N=p]
-ciber-espionagem	[AO90=ciberespionagem,CAT=nc,G=f,N=s]
-limpa-para-brisas	[CAT=__,G=_,N=s]
-hás-de	[AO90=,CAT=cp,Verb=haver,Prep=de,G=_,N=s,P=2]
-anti-terrorismo	[AO90=antiterrorismo,CAT=nc,G=m,N=s]
-fins-de-semana	[$fim-de-semana$AO90=,CAT=nc,G=m,N=s$N=p]
-sobre-excitar/XYPLc	[AO90=sobre-excitar,CAT=v,T=inf,TR=t]
-limpa-para-brisa/p	[CAT=__,G=_,N=s]
-cine-teatro/p	[AO90=cineteatro,CAT=nc,G=m,N=s]
-eletro-ótica/p	[CAT=__,G=_,N=s]
-meninas-do-olho	[$menina-do-olho$AO90=,CAT=nc,G=f,N=s$N=p]
-anjos-da-guarda	[$anjo-da-guarda$AO90=,CAT=nc,G=m,N=s$N=p]
-sobre-exploração/p	[CAT=__,G=_,N=s]
-manda-chuva/p	[AO90=mandachuva,CAT=nc,G=m,N=s]
-pronto-a-vestir	[AO90=,CAT=nc,G=m,N=s]
-para-brisa/p	[CAT=__,G=_,N=s]
-pé-de-meia	[AO90=,CAT=nc,G=m,N=s]
-adjetivo-particípio/p	[CAT=__,G=_,N=s]
-extra-solar	[AO90=extrasolar,CAT=adj,N=s,G=m]
-para-águas	[CAT=__,G=_,N=s]
-eletro-ótico/p	[CAT=__,G=_,N=s]
-ciber-terrorista/p	[AO90=ciberterrorista,CAT=nc,G=f,N=s]
-ex-diretor	[CAT=__,G=_,N=s]
-pré-selecionado/p	[CAT=__,G=_,N=s]
-cabo-do-mundo	[AO90=,CAT=nc,G=m,N=s]
-co-orientador/fp	[AO90=coorientador,CAT=a_nc,G=m,N=s]
-pré-seletivo/p	[CAT=__,G=_,N=s]
-ab-reativo/p	[CAT=__,G=_,N=s]
-auto-tanque/p	[AO90=autotanque,CAT=nc,G=m,N=s]
-pré-adoção/p	[CAT=__,G=_,N=s]
-direção-regional/p	[CAT=__,G=_,N=s]
-borda-de-água	[AO90=,CAT=nc,G=f,N=s]
-pera-de-bom-cristão/p	[CAT=__,G=_,N=s]
-redator-chefe	[AO90=redator-chefe,CAT=nc,G=m,N=s]
-ciber-ataque/p	[AO90=ciberataque,CAT=nc,G=m,N=s]
-diretor-geral/x	[AO90=diretor-geral,CAT=a_nc,G=m,N=s]
-diretor-adjunto/p	[CAT=__,G=_,N=s]
-não-te-rales	[AO90=,CAT=nc,G=m,N=s]
-inspetor-geral	[AO90=inspetor-geral,CAT=nc,G=m,N=s]
-enguia-elétrica/p	[CAT=__,G=_,N=s]
-cor-de-rosa	[AO90=,CAT=a_nc,N=s,G=_]
-inspeção-geral/p	[CAT=__,G=_,N=s]
-guarda-noturno	[AO90=guarda-noturno,CAT=nc,G=m,N=s]
-diretor-delegado/p	[CAT=__,G=_,N=s]
-inspetor-orientador	[CAT=__,G=_,N=s]
-gaitas-de-foles	[$gaita-de-foles$AO90=,CAT=nc,G=f,N=s$N=p]
-sobre-erguer	[CAT=__,G=_,N=s]
-diretora-geral/p	[CAT=__,G=_,N=s]
-ex-acionista/p	[CAT=__,G=_,N=s]
-vice-diretoria/p	[CAT=__,G=_,N=s]
-ciber-café/p	[AO90=cibercafé,CAT=nc,G=m,N=s]
-inspetor-adjunto/p	[CAT=__,G=_,N=s]
-hei-de	[AO90=,CAT=cp,Verb=haver,Prep=de,G=_,N=s,P=1]
-para-choques	[CAT=__,G=_,N=s]
-ar-condicionado	[AO90=,CAT=nc,G=m,N=s]
-auto-aprendizagem	[AO90=autoaprendizagem,CAT=nc,G=f,N=s]
-rabo-de-cavalo	[AO90=,CAT=nc,G=m,N=s]
-fonético-sintático/p	[CAT=__,G=_,N=s]
-ab-reação/p	[AO90=ab-reação,CAT=nc,G=f,N=s]
-sobre-exceder	[CAT=__,G=_,N=s]
-direção-geral/p	[CAT=__,G=_,N=s]
-fator-chave/p	[CAT=__,G=_,N=s]
-mórfico-sintático/p	[CAT=__,G=_,N=s]
-busca-pólos	[AO90=busca-polos,CAT=nc,G=m,N=s]
-sobre-endividar	[CAT=__,G=_,N=s]
-para-vento	[AO90=para-vento,CAT=nc,G=m,N=s]
-pós-adjetival/p	[CAT=__,G=_,N=s]
-sobre-excitante/p	[CAT=__,G=_,N=s]
-sobre-exaltação/p	[CAT=__,G=_,N=s]
-pão-de-leite	[AO90=,CAT=nc,G=m,N=s]
-para-lama/p	[CAT=__,G=_,N=s]
-ciber-guerra/p	[AO90=ciberguerra,CAT=nc,G=f,N=s]
-diretor-editor	[CAT=__,G=_,N=s]
-boia-fria/p	[CAT=__,G=_,N=s]
-para-fogo/p	[CAT=__,G=_,N=s]
-sobre-excitado/p	[CAT=__,G=_,N=s]
-para-luz/p	[CAT=__,G=_,N=s]
-sobre-emissão/p	[CAT=__,G=_,N=s]
-técnico-tático/p	[CAT=__,G=_,N=s]
-vice-diretor	[CAT=__,G=_,N=s]
-contra-terrorismo	[AO90=contraterrorismo,CAT=nc,G=m,N=s]
-para-água/p	[CAT=__,G=_,N=s]
-diretor-desportivo/p	[CAT=__,G=_,N=s]
-inspetora-geral/p	[CAT=__,G=_,N=s]
-projeto-lei	[AO90=projeto-lei,CAT=nc,G=m,N=s]
-azul-de-metileno	[AO90=,CAT=nc,G=m,N=s]
-sobre-endividamento/p	[CAT=__,G=_,N=s]
-ex-selecionador	[CAT=__,G=_,N=s]
-auto-avaliar	[AO90=autoavaliar,CAT=v,T=inf,TR=t]
-pré-adjetival/p	[CAT=__,G=_,N=s]
-ator-encenador	[CAT=__,G=_,N=s]
-pera-da-terra/p	[CAT=__,G=_,N=s]
-Direcção-Geral	[AO90=Direção-Geral,CAT=nc,G=f,N=s]
-subdiretor-geral/p	[CAT=__,G=_,N=s]
-para-quedista/p	[AO90=paraquedista,CAT=nc,G=_,N=s]
-diretor-proprietário/p	[CAT=__,G=_,N=s]
-ciber-criminalidade/p	[AO90=cibercriminalidade,CAT=nc,G=m,N=s]
-para-sol/p	[CAT=__,G=_,N=s]
-para-lamas	[AO90=para-lamas,CAT=nc,G=m,N=s]
-copo-de-água	[AO90=,CAT=nc,G=m,N=s]
-sobre-excelente/p	[CAT=__,G=_,N=s]
-ex-diretora/p	[CAT=__,G=_,N=s]
-porta-objeto/p	[CAT=__,G=_,N=s]
-ciber-crime/p	[AO90=cibercrime,CAT=nc,G=m,N=s]
-redator-secretário/p	[CAT=__,G=_,N=s]
-fatos-de-treino	[$fato-de-treino$AO90=,CAT=nc,G=m,N=s$N=p]
-vice-diretora/p	[CAT=__,G=_,N=s]
-jardins-de-infância	[$jardim-de-infância$AO90=,CAT=nc,G=m,N=s$N=p]
-anti-infecioso	[AO90=anti-infecioso,CAT=adj,N=s,G=m]
-porta-joias	[AO90=porta-joias,CAT=nc,G=m,N=p]
-pró-ativo/p	[CAT=__,G=_,N=s]
-sobre-exposição/p	[CAT=__,G=_,N=s]
-para-quedas	[AO90=paraquedas,CAT=nc,G=m,N=s]
-arco-da-velha	[AO90=,CAT=nc,G=m,N=s]
-sobre-exaltar	[CAT=__,G=_,N=s]
-para-raios	[AO90=para-raios,CAT=nc,G=m,N=s]
-turbo-reactor	[AO90=turborreator,CAT=nc,G=m,N=s]
-sobre-excitação/p	[CAT=__,G=_,N=s]
-hão-de	[AO90=,CAT=cp,Verb=haver,Prep=de,G=_,N=p,P=3]
-pré-seleção/p	[CAT=__,G=_,N=s]
-vice-direção/p	[CAT=__,G=_,N=s]
-diretora-executiva/p	[CAT=__,G=_,N=s]
-ciber-espaço/p	[AO90=ciberespaço,CAT=nc,G=m,N=s]
-guarda-joias	[AO90=guarda-joias,CAT=nc,G=m,N=s]
-para-quedismo	[AO90=paraquedismo,CAT=nc,G=m,N=s]
-caminhos-de-ferro	[$caminho-de-ferro$AO90=,CAT=nc,G=m,N=s$N=p]
-anti-heroico/fp	[CAT=adj,G=m,N=s]
+abaixo-assinado/pl
+á-bê-cê/pl
+abelha-mestra/ph
+ab-reação/p
+abre-latas
+acre-doce
+afia-lápis
+água-ardente/ph
+água-chilra
+água-forte
+água-furtada
+água-marinha
+água-oxigenada
+água-pé/p
+águas-furtadas
+água-tinta
+ai-jesus
+alcaide-mor
+além-fronteiras
+além-mar
+além-mundo
+algodão-doce
+alho-porro
+alhos-porros
+altar-mor
+alter-ego
+alto-falante/pl
+alto-relevo
+altos-fornos
+amor-perfeito
+amor-próprio
+anémona-do-mar
+anglo-luso
+anglo-saxão/pl
+anglo-saxónico/fp
+ano-luz
+anos-luz
+ante-à-ré
+anti-hemorrágico
+anti-hemorroidal
+anti-hepático/fp
+anti-hipnótico
+anti-infecioso
+anti-inflamatório/pl
+apanha-moscas
+apara-lápis
+aquém-fronteiras
+aquém-mar
+aqui-del-rei
+arco-celeste
+arco-irisar/XYPL
+arco-íris
+arraia-miúda
+arranha-céu/pl
+arre-burrinho
+arroz-doce
+arte-maior
+assembleia-geral
+assim-assim
+astro-rei
+à-toa
+australo-africano
+austro-húngaro/fp
+auto-hemoterapia/p
+ave-maria/ph
+à-vontade
+azul-celeste
+azuis-celestes
+azul-claro
+azuis-claros
+azul-escuro
+azuis-escuros
+azul-marinho
+azuis-marinhos
+baixa-mar
+baixo-relevo
+baixos-relevos
+banho-maria
+barba-azul
+batata-doce
+bate-chapa
+bate-latas
+bate-papo
+bate-que-bate
+bate-sola
+bê-á-bá
+beija-flor/pl
+beija-mão
+beija-pé
+beira-mar
+belas-artes
+bel-prazer
+bem-aventurança
+bem-aventurar/XYPL
+bem-ditoso/fp
+bem-disposto/p
+bem-dizer/KPL
+bem-estar
+bem-educado/fp
+bem-falante/pm
+bem-fazer
+bem-fazer/KL
+bem-me-quer
+bem-merecer/XYPL
+bem-parecido/p
+bem-posto/p
+bem-querente/pm
+bem-querer
+bem-querer/PLn
+bem-soante/pm
+bem-vindo/fp
+bem-visto
+besta-quadrada
+bicha-cadela/ph
+bicha-solitária
+bicho-careta
+bicho-carpinteiro
+bicho-dada
+bicho-da-seda
+bichos-da-seda
+bicho-de-conta
+bicho-papão
+bilhete-postal
+boa-fé
+boa-noite
+boa-nova
+boas-entradas
+boas-festas
+boas-noites
+boas-tardes
+boas-vindas
+boca-aberta
+boca-doce
+boi-marinho
+bolo-rei
+bom-senso
+bom-tom
+bons-dias
+borra-botas
+bota-fora
+bravo-de-esmolfo
+bravo-de-mel
+brincos-de-princesa
+brincos-de-viúva
+busca-polos
+cabo-verde
+cabo-verdiano/fp
+cabra-cega
+cabrito-montês
+caçador-coletor
+caçadores-coletores
+caça-minas
+caça-moscas
+cachorro-quente
+caldo-verde
+câmara-ardente
+cana-de-açúcar
+cana-sacarina
+caneta-tinteiro
+canónico-civil
+cão-tinhoso
+capela-mor
+capitão-general
+capitão-mor
+capitão-tenente
+cara-metade
+carro-patrulha
+carros-patrulha
+carta-branca
+casa-forte
+casca-grossa
+cata-vento/pl
+cavalo-marinho
+cavalo-vapor
+cê-cedilhado
+cedro-do-mato/pl
+centro-direita
+centro-esquerda
+cessar-fogo
+chanceler-mor/x
+chave-inglesa
+chi-coração
+chupa-chupa
+cidade-estado/p
+cinco-réis
+cinzento-azulado
+cinzento-claro
+circum-navegador
+circum-navegar/XYPLD
+circum-navegação
+claro-escuro
+cobra-capelo
+cobra-cascavel
+cobra-coral
+cobra-cuspideira
+cobra-de-água
+cobra-rateira
+co-herdar/XYPL
+co-herdeiro
+comandante-chefe
+comboio-correio
+come-e-cala
+conta-corrente/t
+conta-gotas
+conta-quilómetros
+conta-voltas
+contra-almirante/xp
+contra-assalto
+contra-atacante/p
+contra-atacar/XYPLn
+contra-ataque/pl
+convexo-côncavo
+corre-corre
+corta-fogo/pl
+corta-mar
+corta-mato
+corta-papel
+corta-vento/pl
+corvo-marinho
+costa-riquenho
+couve-flor
+couve-nabiça
+curta-metragem
+curtas-metragens
+curto-circuito
+curto-prazo
+decreto-lei
+decretos-lei
+delirium-tremens
+democrata-cristão/a
+desmancha-prazeres
+deus-dará
+dez-réis
+diretor-geral/x
+dói-dói
+dom-joão
+dom-quixote/i
+dom-quixotismo
+draga-minas
+económico-social/p
+eletrão-volt
+elefante-do-mar
+el-rei
+espaço-tempo
+espalha-brasas
+estado-maior
+estado-membro
+estados-membros
+estrela-cadente
+estrela-do-mar
+estufa-fria/ph
+euro-asiático/fp
+ex-libris
+extra-humano/fp
+extrema-direita/ph
+extrema-esquerda/ph
+ex-voto/pl
+fac-similar
+fac-símile
+fala-barato
+falcão-peregrino
+falcões-peregrinos
+fato-macaco
+faz-tudo
+febre-amarela/ph
+feijão-frade
+feijão-verde
+ferro-velho
+fiel-amigo
+finca-pé
+físico-químico/fp
+fita-cola
+flor-de-lis
+flores-de-lis
+fogo-fátuo
+franco-atirador
+franco-mação
+franco-maçonaria
+franco-maçónico
+fura-bolos
+fura-paredes
+galaico-português
+galécio-português
+galego-português
+galo-hispano
+ganha-pão
+ganso-bravo
+garça-real
+gata-borralheira
+gato-bravo
+gato-montês
+gato-pingado
+gato-sapato
+gentil-homem
+gil-vicentino
+gira-discos
+governador-civil/xV
+governador-geral/xV
+grã-duquesa
+grão-de-bico
+grão-ducado
+grão-ducal
+grão-duque
+grão-mestrado
+grão-mestre/pl
+grão-vizirato
+grão-vizir
+greco-latino/fp
+greco-romano/fp
+guarda-chuva/pl
+guarda-costas
+guarda-fatos
+guarda-fiscal
+guarda-florestal
+guarda-freio/pl
+guarda-joias
+guarda-lama/pl
+guarda-livros
+guarda-loiça
+guarda-louça
+guarda-marinha
+guarda-noturno
+guarda-redes
+guarda-republicano
+guarda-rios
+guarda-roupa
+guarda-roupa
+guarda-sol/pl
+guarda-vento/pl
+guarda-vestidos
+hispano-americano
+ibero-americano
+indo-chinês
+indo-europeia/p
+indo-europeu
+indo-português
+inspetor-geral
+inter-regional
+inter-relacionar/XYPL
+intra-hepático/p
+jardim-escola
+joão-pestana
+joões-pestanas/;
+lança-bombas
+lança-chamas
+lança-foguetes
+lança-granadas
+lança-torpedos
+lápis-lazúli
+lava-louça
+leão-marinho
+leite-creme
+lenga-lenga
+lesa-majestade
+lesa-pátria
+letra-morta
+limpa-chaminés
+livre-câmbio
+livre-cambismo
+livre-cambista
+livre-pensador
+lobo-marinho
+longa-metragem
+longas-metragens
+louva-a-deus
+lufa-lufa
+lugar-comum
+lugares-comuns
+lugar-tenente
+lusco-fusco
+luso-brasileiro/fp
+má-fé
+mais-que-perfeito
+mais-que-tudo
+mais-valia/ph
+mal-aconselhado/p
+mal-agradecido/p
+mal-educado/fp
+mal-encarado/fp
+mala-posta
+mal-aventurado/p
+mal-empregado
+mal-estar
+mal-humorado/fpm
+má-língua
+mão-cheia
+mãos-largas
+mãos-rotas
+mapa-múndi
+mapa-mundo
+marxismo-leninismo
+mata-bicho
+mata-borrão
+mata-moscas
+mata-ratos
+matéria-prima
+matérias-primas
+mato-grossense/p
+mau-humor
+mau-olhado
+médico-legal
+meia-final
+meia-idade/ph
+meia-lua
+meia-noite
+meias-finais
+meias-medidas
+meias-palavras
+meio-campo
+meio-dia
+meio-irmão
+meio-termo
+meio-tom
+menino-bonito
+menino-prodígio
+mestre-escola
+micro-onda/pl
+micro-organismo/p
+mil-folhas
+ministro-adjunto/x
+monta-cargas
+montanha-russa
+mosca-do-vinagre
+mosca-morta
+mosquinha-morta
+nacional-socialismo
+nacional-socialista
+nadador-salvador
+nadadores-salvadores
+naturezas-mortas
+navio-escola
+navios-escola
+nipo-chinês
+norte-americano/fp
+norte-coreano/fp
+nova-iorquino/fp
+novo-rico/i
+novos-ricos
+noz-moscada
+obra-mestra
+obra-prima
+obras-primas
+ouriço-cacheiro
+ouriço-do-mar
+ouriço-marinho
+ovos-moles
+palavra-chave
+palavras-chave
+palavras-cruzadas
+pan-americanismo
+pan-africano/fp
+pan-eslavismo
+pan-eslavista
+pan-helenismo
+papa-açorda
+papa-figos
+papa-formigas
+papa-léguas
+papel-moeda
+para-brisas
+para-choque/p
+para-lamas
+para-raios
+para-vento/pl
+passe-vite/pl
+pata-choca
+pato-bravo
+pato-real
+pau-mandado
+pau-preto
+pé-coxinho
+pedra-pomes
+peixe-agulha
+peixes-agulha
+peixe-aranha
+peixes-aranha
+peixe-espada
+peixes-espada
+peixe-voador
+pequeno-almoço
+peste-negra
+pica-pau
+pilha-galinhas
+pinga-amor
+pingo-de-mel
+pingue-pongue
+pinheiro-bravo
+pinheiros-bravos
+pinheiro-manso
+pinheiros-mansos
+pisa-papéis
+pisca-pisca
+pistola-metralhadora
+político-social/p
+pombo-correio
+pombos-correio
+porco-espinho
+porquinho-da-índia
+porta-aviões
+porta-bagagem/pl
+porta-bandeira
+porta-chaves
+porta-estandarte/pl
+porta-fólio/pl
+porta-joias
+porta-moedas
+porta-voz/pl
+porto-alegrense/p
+porto-riquenho
+pós-clássico
+pós-embrionário
+pós-escolar
+pós-escrito
+pós-glaciário
+pouca-vergonha
+praça-forte
+pré-câmbrico/fp
+pré-colombiano/fp
+pré-histórico/fp
+preia-mar
+prima-dona
+primeira-ministra/x
+primeiro-cabo
+primeiro-ministro/x
+primeiro-sargento
+primeiros-ministros
+primeiras-ministras
+primeiro-tenente
+processo-crime
+processos-crime
+procurador-geral/Vx
+pró-forma
+pró-germânico/p
+projeto-lei
+projetos-lei
+pronto-socorro
+proto-história
+puro-sangue
+quarta-feira
+quartas-feiras
+quartel-general
+quase-nada
+quebra-cabeças
+quebra-gelo
+quebra-mar
+quebra-nozes
+queima-roupa
+queixa-crime
+queixas-crime
+quilograma-padrão
+quilograma-peso
+quilovátio-hora
+quilowatt-hora
+quinta-coluna
+quinta-essência/ph
+quinta-feira
+quintas-feiras
+quota-parte
+raios-X
+raio-X/pl
+rato-almiscareiro
+recém-casado/fp
+recém-chegado/fp
+recém-nascido/fp
+redator-chefe
+roda-viva
+russo-japonês
+saca-rolhas
+saco-roto
+sal-gema
+salta-pocinhas
+salva-vidas
+salve-rainha
+salvo-conduto
+sangue-frio
+são-bernardo
+são-joanense/p
+são-joanino
+são-tircense
+são-tomense/p
+sargento-ajudante/pl
+sargento-mor
+secretário-geral/xV
+segunda-feira
+segundas-feiras
+segundo-sargento
+segundo-tenente
+sem-abrigo
+semana-inglesa
+sem-cerimónia
+sem-fim
+semi-inconsciente
+semi-internato
+semi-interno
+sem-nome
+sem-número
+sem-par
+sem-razão
+sem-sabor
+sem-vergonha
+servo-croata
+sete-e-meio
+sexta-feira
+sextas-feiras
+sino-japonês/f
+sobre-excitar/XYPLc
+sobre-humanizar/XYPL
+sobre-humano/fp
+sociais-democratas
+social-democracia/qr
+sócio-económica/p
+sofá-cama
+sol-posto
+sóis-postos
+sub-raça
+sub-reino
+sub-rogante/pm
+sub-rogar/XYPLn
+sub-rogatório
+sul-africano/fp
+sul-americano/fp
+sul-coreano/fp
+super-herói/pl
+super-heroína/p
+super-homem/pl
+super-humano/fp
+super-realismo
+super-realista
+surdo-mudo/fp
+su-sudoeste
+su-sueste
+tão-pouco
+tão-só
+tão-somente
+tapa-misérias
+telégrafo-postal
+tenente-coronel
+teórico-prático/fp
+terça-feira
+terças-feiras
+tia-avó/p
+tio-avô/pl
+tira-dentes
+tira-dúvidas
+tira-linhas
+tira-nódoas
+tira-teimas
+todo-o-terreno
+todo-poderoso
+torrão-de-açúcar
+tosta-mista
+tostas-mistas
+trágico-marítimo
+trava-língua/pl
+truz-truz
+tsé-tsé
+tudo-nada
+tuta-e-meia
+vaca-fria
+vaga-lume/pl
+vagão-cama
+vagão-restaurante/pl
+verde-alface
+verde-claro/p
+verde-escuro/fp
+verde-esmeralda
+verde-garrafa
+vermelho-púrpura
+via-férrea
+via-sacra
+vice-versa
+vila-condense/p
+vila-franquense/p
+vila-novense/p
+vila-realense/p
+vira-casaca
+viúva-alegre
+volt-ampere
+watt-hora
+x-ato
+xeque-mate
+zás-trás
+zé-ninguém
+zé-pereira
+zé-povinho
+CD-ROM
+e-mail
+e-mails
+MS-DOS
+on-line
+Aix-en-Provence
+Aix-la-Chapelle
+Albergaria-a-Nova
+Albergaria-a-Velha
+Bósnia-Herzegovina
+Condeixa-a-Nova
+Direção-Geral
+Entre-os-Rios
+Grã-Bretanha
+Grão-Pará
+Guiné-Bissau
+Hong-Kong
+Idanha-a-Nova
+Idanha-a-Velha
+Montemor-o-Novo
+Montemor-o-Velho
+Padre-Nosso
+Pai-Nosso/p
+Papua-Nova
+Passo-de-Calais
+Peles-Vermelhas
+Proença-a-Nova
+Saxónia-Anhalt
+Schleswig-Holstein
+Timor-Leste
+Trás-os-Montes
+Via-Láctea
+check-in
+jiu-jitsu
+t-shirt/p
+walkie-talkie/p
+bem-querendo/L
+bem-quero/L
+bem-queres/L
+bem-queremos/L
+bem-quereis/L
+bem-querem/L
+bem-querido/L
+bem-querida/L
+bem-queridos/L
+bem-queridas/L
+bem-queria/L
+bem-querias/L
+bem-queria/L
+bem-queríamos/L
+bem-queríeis/L
+bem-queriam/L
+bem-quererei/L
+bem-quererás/L
+bem-quererá/L
+bem-quereremos/L
+bem-querereis/L
+bem-quererão/L
+bem-quereria/L
+bem-quererias/L
+bem-quereria/L
+bem-quereríamos/L
+bem-quereríeis/L
+bem-quereriam/L
+bem-quer/L
+bem-quis/L
+bem-quiseste/L
+bem-quis/L
+bem-quisemos/L
+bem-quisestes/L
+bem-quiseram/L
+bem-quisera/L
+bem-quiseras/L
+bem-quisera/L
+bem-quiséramos/L
+bem-quiséreis/L
+bem-quiseram/L
+bem-queira/L
+bem-queiras/L
+bem-queira/L
+bem-queiramos/L
+bem-queirais/L
+bem-queiram/L
+bem-quisesse/L
+bem-quisesses/L
+bem-quisesse/L
+bem-quiséssemos/L
+bem-quisésseis/L
+bem-quisessem/L
+bem-quiser/L
+bem-quiseres/L
+bem-quiser/L
+bem-quisermos/L
+bem-quiserdes/L
+bem-quiserem/L
+bem-quer/L
+bem-queira/L
+bem-queiramos/L
+bem-querei/L
+bem-queiram/L
+bem-quereres/L
+bem-querermos/L
+bem-quererdes/L
+bem-quererem/L
+ab-reativo/fp
+abutre-do-egipto
+abutres-do-egipto
+ad-rectal/p
+ad-retal/p
+agrião-do-pará
+agriões-do-pará
+águia-de-bonelli
+águias-de-bonelli
+álveola-cinzenta
+álveolas-cinzentas
+Anderson-Darling
+anti-ictérico/fp
+anti-infeciosamente
+anti-itérico/fp
+bi-horário/fp
+Breusch-Godfrey
+Breusch-Pagan
+Brown-Forsythe
+Calvin-Benson
+carvalho-negral
+carvalhos-negral
+CDS-PP
+cebola-albarrã
+cebolas-albarrãs
+chango-da-montanha
+changos-da-montanha
+couve-de-saboia/p
+Cramér-von Mises
+Cuzick-Edwards
+Durbin-Wu-Hausman
+elande-gigante
+elandes-gigante
+eletro-ótica/p
+eletro-ótico/fp
+estribeiro-mor
+estribeiros-mor
+fava-do-egito/p
+Fisher-Snedecor
+Goldfeld-Quandt
+Holm-Bonferroni
+Hosmer-Lemeshow
+infanto-juvenis
+ítalo-brasileiro/fp
+Kaplan-Meier
+Kim Jong-il
+Kim Jong-un
+Kolmogorov-Smirnov
+Kruskal-Wallis
+loio-de-jardim/p
+loio-do-jardim/p
+lúcia-lima
+Mann-Whitney
+Mann-Whitney-Wilcoxon
+Mercedes-Benz
+mórfico-sintático/fp
+Neyman-Pearson
+painho-de-monteiro
+painhos-de-monteiro
+passarinho-do-egito/p
+Peneda-Gerês
+pera-de-arrátel/p
+perca-do-nilo
+percas-do-nilo
+Phillips-Perron
+picanço-barreteiro
+picanços-barreteiros
+PSD-CDs
+qui-quadrado
+rato-do-egito/p
+redatora-chefe/p
+roselha-maior
+roselhas-maiores
+Saint-Exupéry
+sanguinho-de-água
+sanguinhos-de-água
+Sargan-Hansen
+semi-intensiva/p
+Shapiro-Francia
+Shapiro-Wilk
+Siegel-Tukey
+sobre-errogação/p
+tetra-horário/fp
+tojo-durázio
+tojos-durázios
+tourão-do-mato/p
+toutinegra-de-barrete
+toutinegra-de-barrete-preto
+toutinegra-de-cabeça-preta
+toutinegras-de-barrete
+toutinegras-de-barrete-preto
+toutinegras-de-cabeça-preta
+trans-humanismo
+trans-humano/fp
+tri-horário/fp
+Tukey-Duckworth
+azuis-índigo
+azul-índigo
+Berlin-Tegel
+costa-marfinense/p
+Creutzfeldt-Jakob
+Guillain-Barré
+infra-alar
+infra-alares
+Kiev-Boryspil
+micro-organismo/p
+Milão-Malpensa
+Montréal-Mirabel
+orangotango-de-bornéu
+orangotangos-de-bornéu
+Paulo-Guarulhos
+pinguim-de-adélia
+pinguins-de-adélia
+rinoceronte-de-java
+rinocerontes-de-java
+stand-up
+Suárez-Barajas
+Toulouse-Blagnac
+tupi-guarani
+víbora-de-Seoane
+víboras-de-Seoane
+wallabies-da-areia
+wallabies-dama
+wallaby-da-areia
+wallaby-dama
+Wi-Fi
+X-Men
+Austro-Húngaro
+pimenta-de-sichuan
+abat-jour
+abat-jours
+acid-jazz
+agit-prop
+agit-props
+aide-mémoire/p
+anti-apartheid
+anti-apartheids
+anti-dumping
+anti-dumpings
+anti-establishment
+anti-establishments
+arrière-pensée/p
+avant-garde/p
+avant-première/p
+avant-scène/p
+baby-doll
+baby-dolls
+baby-grow
+baby-grows
+baby-sitter
+baby-sitters
+back-up
+back-ups
+best-seller
+best-sellers
+beta-tester
+beta-testers
+big-bang
+big-bangs
+blue-jeans
+body-building
+body-buildings
+box-office/p
+bric-à-brac
+bric-à-bracs
+buena-dicha/p
+bungee-jumping
+bungee-jumpings
+bye-bye/p
+cache-pot
+cache-pots
+cache-sexe/p
+case-study
+case-studies
+cash-and-carry
+cash-and-carries
+cash-flow
+cash-flows
+chaise-longue/p
+check-in
+check-ins
+check-up
+check-ups
+cheong-sam
+cheong-sams
+close-up
+close-ups
+code-share/p
+cordon-bleu
+cordon-bleus
+cross-country
+cross-countries
+cross-selling
+cross-sellings
+déjà-vu
+déjà-vus
+disc-jockey
+disc-jockeys
+drive-in
+drive-ins
+e-book
+e-books
+e-mail
+e-mails
+e-zine/p
+eau-de-toilette/p
+eye-liner
+eye-liners
+fair-play
+fair-plays
+fait-divers
+flip-flop
+flip-flops
+follow-up
+follow-ups
+fox-terrier
+fox-terriers
+full-time/p
+goal-average/p
+ham-ioc-chong
+ham-ioc-chongs
+hara-kiri/p
+hard-core/p
+hard-rock
+hard-rocks
+heavy-metal
+heavy-metals
+hi-fi/p
+high-tech
+high-techs
+hip-hop
+hip-hops
+hors-d'oeuvre/p
+ice-cream
+ice-creams
+import-export
+import-exports
+in-octavo/p
+jam-session
+jam-sessions
+jet-lag
+jet-lags
+jet-set
+jet-sets
+jiu-jitsu
+jiu-jitsus
+joint-venture/p
+knock-out
+knock-outs
+know-how
+know-hows
+kung-fu
+kung-fus
+low-profile/p
+mah-jong
+mah-jongs
+make-up
+make-ups
+match-point
+match-points
+mezzo-soprano/fp
+mise-en-scène/p
+music-hall
+music-halls
+new-age/p
+non-stop
+non-stops
+off-line/p
+office-boy
+office-boys
+on-line/p
+part-time/p
+passe-partout
+passe-partouts
+petit-suisse/p
+photo-finish
+photo-finishs
+pick-up
+pick-ups
+pin-up
+pin-ups
+pince-nez
+ping-pong
+ping-pongs
+play-off
+play-offs
+post-it
+post-its
+pot-pourri/p
+prima-donna/p
+prize-money
+prize-moneys
+ready-made/p
+rendez-vous
+rent-a-car
+rent-a-cars
+roll-on
+roll-ons
+savoir-faire/p
+savoir-vivre/p
+self-government
+self-governments
+self-induction
+self-inductions
+self-service/p
+serial-killer
+serial-killers
+set-point
+set-points
+shake-hand
+shake-hands
+shar-pei/p
+show-off
+show-offs
+sit-in
+sit-ins
+snack-bar
+snack-bars
+soi-disant
+soi-disants
+soutien-gorge/p
+sub-holding
+sub-holdings
+t-shirt
+t-shirts
+tai-chi/p
+take-off
+take-offs
+talk-show
+talk-shows
+task-force/p
+tax-free
+tête-à-tête/p
+think-tank
+think-tanks
+tie-break
+tie-breaks
+time-sharing
+time-sharings
+trip-hop
+trip-hops
+turbo-diesel
+turbo-diesels
+up-to-date/p
+very-light
+very-lights
+vis-à-vis
+voice-mail
+voice-mails
+volte-face/p
+walkie-talkie/p
+water-closet
+water-closets
+water-polo
+wild-card
+wild-cards
+yé-yé
+yé-yés
+Alto-Carabaque
+dicloro-difenil-tricloroetano/p
+dimetil-mercúrio/p
+Akhal-Teke
+Adenberg-Nordkirchen
+Anglo-Árabe
+Anglo-Kabarda
+Loup-chow
+Shar-Pei
+Shih-Tzu
+baleia-da-gronelândia
+baleias-da-gronelândia
+Böhm-Bawerk
+não-Hodgkin
+roaz-corvineiro
+sub-reptício/p
+Tsé-Tung
+tubarão-anequim
+tubarões-anequim
+tuia-gigante
+tuias-gigantes
+Waku-Kungo
+Xai-Xai
+anti-histamínico/p
+baseámo-nos
+propomo-nos
+PS-PCP-BE
+sobrinhas-trinetas
+sobrinha-trineta
+sobrinhos-trinetos
+sobrinho-trineto
+covid-19
+Covid-19
+COVID-19
+ciber-segurança
+diretor-executivo/p
+couve-de-saboia/p
+peixe-elétrico/p
+sobre-elevar
+eletrão-volt
+água-de-colónia
+ciber-cultura/p
+sobre-eminência/p
+reta-pronúncia/p
+sobre-excelência/p
+micro-ondas
+quarto-de-hora
+x-ato
+pré-objetal/p
+autos-de-fé
+vice-coletor
+sobre-expor
+sobre-excedente/p
+saca-projétil/p
+projeto-piloto/p
+oitavo-de-final
+para-brisas
+para-chuva/p
+sobre-eminente/p
+cartões-de-visita
+há-de
+para-choque/p
+fonético-sintaticamente
+projectos-lei
+ciber-espionagem
+limpa-para-brisas
+hás-de
+anti-terrorismo
+fins-de-semana
+sobre-excitar/XYPLc
+limpa-para-brisa/p
+cine-teatro/p
+eletro-ótica/p
+meninas-do-olho
+anjos-da-guarda
+sobre-exploração/p
+manda-chuva/p
+pronto-a-vestir
+para-brisa/p
+pé-de-meia
+adjetivo-particípio/p
+extra-solar
+para-águas
+eletro-ótico/p
+ciber-terrorista/p
+ex-diretor
+pré-selecionado/p
+cabo-do-mundo
+co-orientador/fp
+pré-seletivo/p
+ab-reativo/p
+auto-tanque/p
+pré-adoção/p
+direção-regional/p
+borda-de-água
+pera-de-bom-cristão/p
+redator-chefe
+ciber-ataque/p
+diretor-geral/x
+diretor-adjunto/p
+não-te-rales
+inspetor-geral
+enguia-elétrica/p
+cor-de-rosa
+inspeção-geral/p
+guarda-noturno
+diretor-delegado/p
+inspetor-orientador
+gaitas-de-foles
+sobre-erguer
+diretora-geral/p
+ex-acionista/p
+vice-diretoria/p
+ciber-café/p
+inspetor-adjunto/p
+hei-de
+para-choques
+ar-condicionado
+auto-aprendizagem
+rabo-de-cavalo
+fonético-sintático/p
+ab-reação/p
+sobre-exceder
+direção-geral/p
+fator-chave/p
+mórfico-sintático/p
+busca-pólos
+sobre-endividar
+para-vento
+pós-adjetival/p
+sobre-excitante/p
+sobre-exaltação/p
+pão-de-leite
+para-lama/p
+ciber-guerra/p
+diretor-editor
+boia-fria/p
+para-fogo/p
+sobre-excitado/p
+para-luz/p
+sobre-emissão/p
+técnico-tático/p
+vice-diretor
+contra-terrorismo
+para-água/p
+diretor-desportivo/p
+inspetora-geral/p
+projeto-lei
+azul-de-metileno
+sobre-endividamento/p
+ex-selecionador
+auto-avaliar
+pré-adjetival/p
+ator-encenador
+pera-da-terra/p
+Direcção-Geral
+subdiretor-geral/p
+para-quedista/p
+diretor-proprietário/p
+ciber-criminalidade/p
+para-sol/p
+para-lamas
+copo-de-água
+sobre-excelente/p
+ex-diretora/p
+porta-objeto/p
+ciber-crime/p
+redator-secretário/p
+fatos-de-treino
+vice-diretora/p
+jardins-de-infância
+anti-infecioso
+porta-joias
+pró-ativo/p
+sobre-exposição/p
+para-quedas
+arco-da-velha
+sobre-exaltar
+para-raios
+turbo-reactor
+sobre-excitação/p
+hão-de
+pré-seleção/p
+vice-direção/p
+diretora-executiva/p
+ciber-espaço/p
+guarda-joias
+para-quedismo
+caminhos-de-ferro
+anti-heroico/fp
 bolo-arménio
 conta-quilómetro
 espelho-de-vénus
