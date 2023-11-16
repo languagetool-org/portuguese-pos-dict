@@ -1,8 +1,10 @@
 import shlex
 import subprocess
 from os import chdir, path
+from typing import List
 
 import chardet as chardet
+import random
 
 from pt_dict.constants import LOGGER, LT_DIR, REPO_DIR, RESULTS_DIR
 from pt_dict.dicts.dictionary import Dictionary
@@ -57,3 +59,7 @@ def run_command_with_input(command: str, input_data: str) -> str:
         LOGGER.warn(msg)
         raise RuntimeError(msg)
     return stdout_data
+
+
+def print_sample(word_list: List[str], sample_size: int):
+    print(', '.join(sorted(word_list, key=lambda i: random.random())[0:sample_size]))

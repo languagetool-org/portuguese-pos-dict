@@ -5,11 +5,8 @@ from pt_dict.constants import COMPOUNDS_FILEPATH, LATIN_1_ENCODING
 from pt_dict.dicts.dictionary import Dictionary
 from pt_dict.dicts.hunspell import HunspellDict
 from pt_dict.dicts.tagger import TaggerDict
+from pt_dict.utils import print_sample
 from pt_dict.variants.variant import PT_BR, PT_PT_45, Variant, PT_PT_90
-
-
-def print_sample(sampled_set: set):
-    print(', '.join(sorted(list(sampled_set), key=lambda i: random.random())[0:SAMPLE_SIZE]))
 
 
 def extract_lt_compounds() -> set[str]:
@@ -62,7 +59,7 @@ def prefixes_from_pt_45():
     lemmata_not_in_compounds_file = hunspell_only_hyphenated_lemmata.difference(LT_COMPOUNDS)
     candidate_lemmata = remove_long_lemmata(lemmata_not_in_compounds_file)
     print("compounds not in LT compounds file: ", len(candidate_lemmata))
-    print_sample(candidate_lemmata)
+    print_sample(list(candidate_lemmata), SAMPLE_SIZE)
     with open('new_lt_prefixed_compounds.txt', 'w') as new_lt_compounds_file:
         new_lt_compounds_file.write("\n".join(sorted([f"{lemma}?" for lemma in candidate_lemmata])))
 
@@ -75,7 +72,7 @@ def consonantal_prefixes():
     not_in_compounds_file = hunspell_lemmata_consonantal_prefixes.difference(LT_COMPOUNDS)
     candidate_lemmata = remove_long_lemmata(not_in_compounds_file)
     print("compounds with consonantal prefixes: ", len(candidate_lemmata))
-    print_sample(candidate_lemmata)
+    print_sample(list(candidate_lemmata), SAMPLE_SIZE)
 
 
 def hyphenated_from_br():
@@ -87,7 +84,7 @@ def hyphenated_from_br():
     lemmata_not_in_compounds_file = hunspell_only_hyphenated_lemmata.difference(LT_COMPOUNDS)
     candidate_lemmata = remove_long_lemmata(lemmata_not_in_compounds_file)
     print("compounds not in LT compounds file: ", len(candidate_lemmata))
-    print_sample(candidate_lemmata)
+    print_sample(list(candidate_lemmata), SAMPLE_SIZE)
     with open('new_lt_compounds.txt', 'w') as new_lt_compounds_file:
         new_lt_compounds_file.write("\n".join(sorted([f"{lemma}*" for lemma in candidate_lemmata])))
 
@@ -99,7 +96,7 @@ def uppercase_hyphenated_from_br():
     hunspell_lemmata_dangerous = set(filter(lambda lemma: has_dangerous_capital(lemma, hunspell_lemmata),
                                             hunspell_lemmata))
     print("dangerous hyphenated: ", len(hunspell_lemmata_dangerous))
-    print_sample(hunspell_lemmata_dangerous)
+    print_sample(list(hunspell_lemmata_dangerous), SAMPLE_SIZE)
     with open('dangerous.txt', 'w') as dangerous_file:
         dangerous_file.write("\n".join(hunspell_lemmata_dangerous))
 

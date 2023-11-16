@@ -1,7 +1,6 @@
-import random
-
 from pt_dict.dicts.hunspell import HunspellDict
 from pt_dict.dicts.tagger import TaggerDict
+from pt_dict.utils import print_sample
 
 if __name__ == "__main__":
     SAMPLE_SIZE = 100
@@ -22,4 +21,4 @@ if __name__ == "__main__":
     print('different lemmata between both:', len(different_lemmata))
     print('hunspell-only lemmata:', len(hunspell_only_lemmata))
     print('tagger-only lemmata:', len(tagger_only_lemmata))
-    print(', '.join(sorted(list(tagger_only_lemmata), key=lambda i: random.random())[0:SAMPLE_SIZE]))
+    print_sample(list(tagger_only_lemmata), SAMPLE_SIZE)
