@@ -1,39 +1,80 @@
 #!/bin/bash
 
-cd src-dict
+# Hacky workaround to make sure we're at the top of the repo, since there's a bunch of hardcoded relative paths here.
+
+if [[ ! -d ".git" ]]; then
+  echo "You are not at the top of the repo: ${PWD}."
+  echo "Move to the top and try again."
+  exit 1
+fi
+
+function check_perl_pkg_installed {
+  if [[ ! $(perldoc -l "${1}") ]]; then
+    echo "The Perl scripts will need '${1}'. Please use cpan to install it and try again."
+    exit 2
+  fi
+}
+
+for pkg in "Switch" "Text::Unaccent::PurePerl"; do
+  check_perl_pkg_installed $pkg
+done
+
+# Detect the operating system so we pick the right sed.
+OS="$(uname)"
+START_DIR=$PWD
+DATA_SRC_DIR="${START_DIR}/data/src-dict"
+RESULTS_DIR="${START_DIR}/results/lt"
+FDIC_DIR="${START_DIR}/fdic-to-lt"
+RESULT_DICT_FILEPATH="${RESULTS_DIR}/dict.txt"
+SORTED_DICT_FILEPATH="${RESULTS_DIR}/dict_sorted.txt"
+DICT_DIFF_FILEPATH="${RESULTS_DIR}/dict.diff"
+OLD_DICT_FILEPATH="${RESULTS_DIR}/dict.old"
+
+# Make sure 'results/lt' dir exists
+mkdir -p "$RESULTS_DIR"
+
+cd "$DATA_SRC_DIR" || exit
 ./sort-all.sh
-cd ..
+cd "$START_DIR" || exit
 
-dir_resultat="results/lt"
-rm $dir_resultat/*.txt
+rm "$RESULTS_DIR"/*.txt
+
 echo "Nouns: FDIC to LT..."
-perl fdic-to-lt/flexiona.pl src-dict/nouns-fdic.txt $dir_resultat/nouns-lt.txt
+perl "${FDIC_DIR}/flexiona.pl" "${DATA_SRC_DIR}/nouns-fdic.txt" "${RESULTS_DIR}/nouns-lt.txt"
+
 echo "Adjectives: FDIC to LT..."
-perl fdic-to-lt/flexiona.pl src-dict/adjectives-fdic.txt $dir_resultat/adjectives-lt.txt
+perl "${FDIC_DIR}/flexiona.pl" "${DATA_SRC_DIR}/adjectives-fdic.txt" "${RESULTS_DIR}/adjectives-lt.txt"
+
 echo "Verbs: FDIC to LT..."
-perl fdic-to-lt/conjuga-verbs.pl src-dict/verbs-fdic.txt $dir_resultat/verbs-lt.txt src-dict/models-verbals/
+perl "${FDIC_DIR}/conjuga-verbs.pl" "${DATA_SRC_DIR}/verbs-fdic.txt" "${RESULTS_DIR}/verbs-lt.txt" "${DATA_SRC_DIR}/models-verbals/"
+
 echo "Remaining categories..."
-cat src-dict/*-lt.txt > $dir_resultat/others-lt.txt
+cat "$DATA_SRC_DIR"/*-lt.txt > "${RESULTS_DIR}/others-lt.txt"
 
-#remove comments
 echo "Removing comments..."
-sed -i 's/ *#.*$//' $dir_resultat/others-lt.txt
-sed -i -E 's/\s+$//' $dir_resultat/others-lt.txt
-sed -i '/^$/d' $dir_resultat/others-lt.txt
+if [[ "$OS" == "Darwin" ]]; then
+    sed -i '' 's/ *#.*$//' "$RESULTS_DIR/others-lt.txt"
+    sed -i '' -E 's/\s+$//' "$RESULTS_DIR/others-lt.txt"
+    sed -i '' '/^$/d' "$RESULTS_DIR/others-lt.txt"
+else
+    sed -i 's/ *#.*$//' "$RESULTS_DIR/others-lt.txt"
+    sed -i -E 's/\s+$//' "$RESULTS_DIR/others-lt.txt"
+    sed -i '/^$/d' "$RESULTS_DIR/others-lt.txt"
+fi
 
-cat $dir_resultat/*-lt.txt > $dir_resultat/dict.txt
-rm $dir_resultat/*-lt.txt
+cat "$RESULTS_DIR"/*-lt.txt > "$RESULT_DICT_FILEPATH"
+rm "$RESULTS_DIR"/*-lt.txt
 
 # sort
-export LC_ALL=C && sort -u $dir_resultat/dict.txt > $dir_resultat/dict_sorted.txt
-rm $dir_resultat/dict.txt
-mv $dir_resultat/dict_sorted.txt $dir_resultat/dict.txt
+export LC_ALL=C && sort -u "$RESULT_DICT_FILEPATH" > "$SORTED_DICT_FILEPATH"
+rm "$RESULT_DICT_FILEPATH"
+mv "$SORTED_DICT_FILEPATH" "$RESULT_DICT_FILEPATH"
 
-diff $dir_resultat/dict.old $dir_resultat/dict.txt > $dir_resultat/dict.diff
-echo "Results in folder $dir_resultat/dict.diff"
+if [[ -f "$OLD_DICT_FILEPATH" ]]; then
+  diff "$OLD_DICT_FILEPATH" "$RESULT_DICT_FILEPATH" > "$DICT_DIFF_FILEPATH"
+  echo "Diff results in folder ${DICT_DIFF_FILEPATH}"
+  grep "ERROR" "$RESULT_DICT_FILEPATH"
+  git --no-pager diff --no-index "$OLD_DICT_FILEPATH" "$RESULT_DICT_FILEPATH"
+fi
+
 echo "DONE!"
-
-grep "ERROR" results/lt/dict.txt
-
-git --no-pager diff --no-index $dir_resultat/dict.old $dir_resultat/dict.txt
-
