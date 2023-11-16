@@ -8,8 +8,14 @@ from pt_dict.dicts.hunspell import HunspellDict
 from pt_dict.variants.variant import PT_BR, PT_PT_90, Variant
 
 
+def tag_word(word: str, tags: str) -> str:
+    if tags == '':
+        return word
+    return f"{word}/{tags}"
+
+
 def tag_words(words: set[str], tags: str) -> set[str]:
-    return set([f"{word}/{tags}" for word in words])
+    return set([f"{tag_word(word, tags)}" for word in words])
 
 
 def new_lookup(br_tags: str, pt_tags: str) -> dict:
@@ -83,6 +89,10 @@ def clean_ador():
     process_file('ador.txt', 'DR', 'fp', normaliser)
 
 
+def clean_adverbs():
+    process_file('adverbs.txt', '', '', lambda w: w)
+
+
 if __name__ == "__main__":
     VARIANTS = [PT_BR, PT_PT_90]
     br_dict = Dictionary()
@@ -94,5 +104,6 @@ if __name__ == "__main__":
         'pt-PT': pt_dict.lemmata
     }
     DRY_RUN = False
-    clean_able()
-    clean_ador()
+    # clean_able()
+    # clean_ador()
+    clean_adverbs()

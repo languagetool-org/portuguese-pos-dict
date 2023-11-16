@@ -1,3 +1,4 @@
 Done:
 - able.txt
 - ador.txt
+- adverbs.txt
