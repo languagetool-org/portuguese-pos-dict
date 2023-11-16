@@ -24,6 +24,7 @@ SILENT_LETTER_ALTERNATIONS_FILEPATH = path.join(ALTERNATIONS_DIR, 'silent_letter
 PT_45_90_ALTERNATIONS_FILEPATH = path.join(ALTERNATIONS_DIR, 'pt_45_90.tsv')
 COMPOUNDS_FILEPATH = path.join(RESOURCE_DIR, "post-reform-compounds.txt")
 COMPOUNDS_DIR = path.join(DATA_DIR, 'compounds')
+TO_ADD_DIR = path.join(DATA_DIR, "to_add")
 
 RESULTS_DIR = path.join(REPO_DIR, 'results', 'java-lt')
 OUTPUT_DIR = path.join(RESULTS_DIR, "src/main/resources/org/languagetool/resource/pt/spelling")

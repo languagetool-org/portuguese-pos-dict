@@ -15,7 +15,7 @@ def main():
             pair = line.split('=')
             alternations.update(pair)
 
-    variants = [PT_PT_90]
+    variants = [PT_BR]
     # variants = [PT_BR, PT_PT_90]
     vowel_pattern = re.compile('[êéôó]')
     for var in variants:
