@@ -12,6 +12,7 @@ REPO_DIR = pathlib.Path(path.dirname(path.abspath(__file__))).parent
 LT_HOME = environ.get('LT_HOME')
 LT_DIR = path.join(pathlib.Path(REPO_DIR).parent, "languagetool") if LT_HOME is None else LT_HOME
 RESOURCE_DIR = path.join(LT_DIR, "languagetool-language-modules/pt/src/main/resources/org/languagetool/resource/pt")
+RULES_DIR = path.join(LT_DIR, "languagetool-language-modules/pt/src/main/resources/org/languagetool/rules/pt")
 DATA_DIR = path.join(REPO_DIR, 'data')
 DICT_DIR = path.join(DATA_DIR, "spelling-dict")
 HUNSPELL_DIR = path.join(DICT_DIR, "hunspell")
