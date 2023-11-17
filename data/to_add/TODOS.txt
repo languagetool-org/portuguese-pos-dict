@@ -2,3 +2,4 @@ Done:
 - able.txt
 - ador.txt
 - adverbs.txt
+- grafia.txt (done manually)
