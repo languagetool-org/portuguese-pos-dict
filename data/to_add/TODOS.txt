@@ -3,3 +3,4 @@ Done:
 - ador.txt
 - adverbs.txt
 - grafia.txt (done manually)
+- orio.txt

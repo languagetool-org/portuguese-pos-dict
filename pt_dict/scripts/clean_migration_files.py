@@ -93,6 +93,12 @@ def clean_adverbs():
     process_file('adverbs.txt', '', '', lambda w: w)
 
 
+def clean_orio():
+    def normaliser(w: str) -> str:
+        return re.compile('(óri)[oa]s?$').sub(r"\1o", w)
+    process_file('orio.txt', 'D', 'fp', normaliser)
+
+
 if __name__ == "__main__":
     VARIANTS = [PT_BR, PT_PT_90]
     br_dict = Dictionary()
@@ -106,4 +112,5 @@ if __name__ == "__main__":
     DRY_RUN = False
     # clean_able()
     # clean_ador()
-    clean_adverbs()
+    # clean_adverbs()
+    clean_orio()
