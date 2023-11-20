@@ -6,6 +6,8 @@ Done:
 - orio.txt
 - logy.txt
 - logue.txt
+- month_abbrevs.txt
 
 Won't do:
 - years.txt
+- laughter.txt (disambiguator)
