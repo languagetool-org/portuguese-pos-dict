@@ -1,6 +1,6 @@
 import re
 from os import path
-from typing import Callable
+from typing import Callable, Optional, List
 
 from pt_dict.constants import TO_ADD_DIR, LATIN_1_ENCODING
 from pt_dict.dicts.dictionary import Dictionary
@@ -63,12 +63,14 @@ def add_word(word: str, variant: Variant, lookup: dict):
         lookup[variant.hyphenated_with_agreement]['new_words'].add(word)
 
 
-def clean_file(filename: str, br_tags: str, pt_tags: str, normaliser: Callable):
+def clean_file(filename: str, br_tags: str, pt_tags: str, normaliser: Callable, variants: Optional[List[Variant]]):
     print(filename)
     filepath = path.join(TO_ADD_DIR, filename)
     lookup = new_lookup(br_tags, pt_tags)
     words = collect_words_from_file(filepath, normaliser)
-    for variant in VARIANTS:
+    if not variants:
+        variants = VARIANTS
+    for variant in variants:
         for word in words:
             add_word(word, variant, lookup)
 
@@ -193,6 +195,11 @@ def clean_verbs_er():
     clean_file("verbs_er.txt", 'XPL', 'XPL', do_nothing)
 
 
+def clean_nasals():
+    clean_file("pt_nasal.txt", '', 'p', number_normaliser, [PT_PT_45, PT_PT_90])
+    clean_file("br_nasal.txt", 'D', '', number_normaliser, [PT_BR])
+
+
 def write_to_txt(filename: str, words: set[str]):
     print(f"{filename}: {len(words)}")
     filepath = path.join(TO_ADD_DIR, filename)
@@ -293,4 +300,5 @@ if __name__ == "__main__":
     # clean_gender_number()
     # clean_verbs_ar()
     # clean_verbs_ir()
-    clean_verbs_er()
+    # clean_verbs_er()
+    clean_nasals()

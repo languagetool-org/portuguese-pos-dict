@@ -29,7 +29,6 @@ Noémio
 Noémios
 Noémia
 Noémias
-Jónatas
 Mónicas
 Semprónia
 Semprónias
@@ -65,8 +64,6 @@ natrómetro
 natrómetros
 nosocómio
 nosocómios
-noz-vómica
-nozes-vómicas
 orómetro
 orómetros
 monómero
@@ -96,7 +93,6 @@ oximorónico
 oximorónicos
 sénio
 sénios
-sémis
 vénero
 véneros
 pornofónica
@@ -105,8 +101,6 @@ pornofónico
 pornofónicos
 potamónimo
 potamónimos
-umbigo-de-vénus
-umbigos-de-vénus
 heliotermómetro
 heliotermómetros
 heteronómico
@@ -226,7 +220,6 @@ epifenómeno
 epifenómenos
 epirogénese
 epirogéneses
-epirogénesis
 epistémico
 epistémicos
 esfigmomanómetro
@@ -253,19 +246,11 @@ antifónico
 antifónicos
 antimónio
 antimónios
-antónia
-antónias
-antónio  
-antónios
-Antónia
-Antónias
-António
-Antónios
-antroponómico  
+antroponómico
 antroponómicos
 antropotómico
 antropotómicos
-apendicectómico  
+apendicectómico
 apendicectómicos
 aquénio
 aquénios
@@ -288,8 +273,6 @@ cacofónico
 cacofónicos
 calcedónia
 calcedónias
-camisa-de-vénus
-camisas-de-vénus
 carbonómetro
 carbonómetros
 sobrevém
@@ -305,14 +288,10 @@ académia
 académias
 acanónico
 acanónicos
-vómer
-vómeres
 zenónico
 zenónicos
 xilarmónico
 xilarmónicos
-xenón
-xenónes
 actinómice
 actinómices
 adansónia
@@ -321,8 +300,6 @@ adónio
 adónios
 aerofónio
 aerofónios
-Németh
-afición
 acrimónia
 acrimónias
 fónix
@@ -353,8 +330,6 @@ carcinogéneas
 carcinogéneo
 carcinogéneos
 colagénio
-dónute
-dónutes
 Eurobarómetro
 génica
 génicas
@@ -431,8 +406,6 @@ pandémico
 pandémicos
 patognomónico
 patognomónicos
-Pokémon
-Pokémons
 prémio
 proscénia
 proscénias
@@ -463,26 +436,11 @@ videogénica
 videogénicas
 videogénico
 videogénicos
-agrément
-agréments
-aide-mémoire
-aide-mémoires
-danzón
-danzóns
-démarche
-démarches
-démodé
-démodés
-Iarém
 fluorantimónico
 fluorantimónicos
 iónico
 iónicos
-Asturcón
-Pónei de Dülmen
-Pónei Shetland
 António
-Iémen
 Ifigénia
 Belém
 Climénia

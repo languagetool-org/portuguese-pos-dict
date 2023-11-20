@@ -18,6 +18,8 @@ Done:
 - initialisms.txt
 - ano.txt
 - gender_number.txt
+- pt/br nasals
+- final vowels
 
 Won't do:
 - years.txt
