@@ -12,6 +12,8 @@ Done:
 - suffixed_nouns.txt
 - adj_e.txt and adj_oa.txt
 - weirdcase.txt
+- ito.txt (split from diminutives)
+- diminutives.txt
 
 Won't do:
 - years.txt

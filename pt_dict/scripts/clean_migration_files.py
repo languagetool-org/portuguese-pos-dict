@@ -8,6 +8,14 @@ from pt_dict.dicts.hunspell import HunspellDict
 from pt_dict.variants.variant import PT_BR, PT_PT_90, PT_PT_45, Variant
 
 
+def oa_normaliser(word: str) -> str:
+    return re.compile('[oa]s?$').sub('o', word)
+
+
+def number_normaliser(word: str) -> str:
+    return re.compile('s?$').sub('', word)
+
+
 def tag_word(word: str, tags: str) -> str:
     if tags == '':
         return word
@@ -98,9 +106,7 @@ def clean_adverbs():
 
 
 def clean_orio():
-    def normaliser(w: str) -> str:
-        return re.compile('(óri)[oa]s?$').sub(r"\1o", w)
-    process_file('orio.txt', 'D', 'fp', normaliser)
+    process_file('orio.txt', 'D', 'fp', oa_normaliser)
 
 
 def clean_logy():
@@ -110,9 +116,7 @@ def clean_logy():
 
 
 def clean_logue():
-    def normaliser(w: str) -> str:
-        return re.compile('[oa]s?$').sub('o', w)
-    process_file('logue.txt', 'D', 'fp', normaliser)
+    process_file('logue.txt', 'D', 'fp', oa_normaliser)
 
 
 def clean_metry():
@@ -122,9 +126,7 @@ def clean_metry():
 
 
 def clean_eiro():
-    def normaliser(w: str) -> str:
-        return re.compile('[oa]s?$').sub('o', w)
-    process_file('eiro_ario.txt', 'D', 'fp', normaliser)
+    process_file('eiro_ario.txt', 'D', 'fp', oa_normaliser)
 
 
 def clean_suffixed_nouns():
@@ -144,15 +146,21 @@ def clean_adj_e():
 
 
 def clean_adj_oa():
-    def normaliser(w: str) -> str:
-        return re.compile('([oa])s?$').sub(r"o", w)
-    process_file('adj_oa.txt', 'D', 'fp', normaliser)
+    process_file('adj_oa.txt', 'D', 'fp', oa_normaliser)
+
+
+def clean_ito():
+    process_file('ito.txt', 'D', 'fp', oa_normaliser)
 
 
 def clean_weirdcase():
     def normaliser(w: str) -> str:
         return w
     process_file('weirdcase.txt', '', '', normaliser)
+
+
+def clean_diminutives():
+    process_file("diminutives.txt", "B", "p", number_normaliser)
 
 
 if __name__ == "__main__":
@@ -180,4 +188,6 @@ if __name__ == "__main__":
     # clean_suffixed_nouns()
     # clean_adj_e()
     # clean_adj_oa()
-    clean_weirdcase()
+    # clean_weirdcase()
+    # clean_ito()
+    clean_diminutives()
