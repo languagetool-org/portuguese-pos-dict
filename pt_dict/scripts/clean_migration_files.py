@@ -8,6 +8,10 @@ from pt_dict.dicts.hunspell import HunspellDict
 from pt_dict.variants.variant import PT_BR, PT_PT_90, PT_PT_45, Variant
 
 
+def do_nothing(word: str) -> str:
+    return word
+
+
 def oa_normaliser(word: str) -> str:
     return re.compile('[oa]s?$').sub('o', word)
 
@@ -102,7 +106,7 @@ def clean_ador():
 
 
 def clean_adverbs():
-    process_file('adverbs.txt', '', '', lambda w: w)
+    process_file('adverbs.txt', '', '', do_nothing)
 
 
 def clean_orio():
@@ -154,13 +158,19 @@ def clean_ito():
 
 
 def clean_weirdcase():
-    def normaliser(w: str) -> str:
-        return w
-    process_file('weirdcase.txt', '', '', normaliser)
+    process_file('weirdcase.txt', '', '', do_nothing)
 
 
 def clean_diminutives():
     process_file("diminutives.txt", "B", "p", number_normaliser)
+
+
+def clean_eiro_proper():
+    process_file("eiro_proper.txt", '', '', do_nothing)
+
+
+def clean_initialisms():
+    process_file("initialisms.txt", '', '', do_nothing)
 
 
 if __name__ == "__main__":
@@ -190,4 +200,6 @@ if __name__ == "__main__":
     # clean_adj_oa()
     # clean_weirdcase()
     # clean_ito()
-    clean_diminutives()
+    # clean_diminutives()
+    # clean_eiro_proper()
+    clean_initialisms()

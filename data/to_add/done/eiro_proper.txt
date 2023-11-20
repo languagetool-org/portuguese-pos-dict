@@ -7,9 +7,6 @@ Campeiro
 Campeiros
 Pantaneiro
 Pantaneiros
-Castro Laboreiro
-Dogo canário
-Dogue Brasileiro
 Chasqueira
 Falagueira
 Juazeiro
@@ -23,5 +20,3 @@ Terceira
 Wikcionário
 Berengária
 Cesária
-Melhoria do Processo de Software Brasileiro
-Mulheres do Imobiliário

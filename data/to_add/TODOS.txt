@@ -14,6 +14,8 @@ Done:
 - weirdcase.txt
 - ito.txt (split from diminutives)
 - diminutives.txt
+- eiro_proper.txt
+- initialisms.txt
 
 Won't do:
 - years.txt
