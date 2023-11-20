@@ -16,6 +16,7 @@ Done:
 - diminutives.txt
 - eiro_proper.txt
 - initialisms.txt
+- ano.txt
 
 Won't do:
 - years.txt

@@ -225,10 +225,6 @@ dir
 infinitude
 infinitudes
 frontman
-magana
-maganas
-magano
-maganos
 randomizar
 referimo
 referirmo
@@ -242,10 +238,6 @@ marulhar
 tensionado
 tensionados
 tensionar
-antediluviana
-antediluvianas
-antediluviano
-antediluvianos
 xixi
 xixis
 oblativo
@@ -266,10 +258,6 @@ plântulas
 supercola
 hematidrose
 aficiones
-alana
-alanas
-alano
-alanos
 malcriadona
 malcriadonas
 malcriadão
@@ -429,10 +417,6 @@ aeronaval
 afear
 afídeo
 afídeos
-afroamericana
-afroamericanas
-afroamericano
-afroamericanos
 afrodescendente
 afrodescendentes
 agrofloresta
@@ -513,8 +497,6 @@ anticlímax
 antiderivada
 antiderivadas
 antigoverno
-antimeridiano
-antimeridianos
 antimotim
 antimotins
 antirrisco
@@ -562,7 +544,7 @@ arouquense
 arouquenses
 arquiduquesa
 arquiduquesas
-art.º
+
 artelho
 artelhos
 artemísia
@@ -597,8 +579,6 @@ auroques
 austericídio
 austericídios
 AutoCAD
-autocaravana
-autocaravanas
 autodescoberta
 autodescobertas
 autoexperimentam
@@ -622,10 +602,6 @@ aziago
 aziagos
 babete
 babetes
-bacana
-bacanas
-bacano
-bacanos
 baconburger
 baconburgers
 bacteriófaga
@@ -641,7 +617,6 @@ balancins
 balanite
 balanopostite
 barbacã
-barbuzano
 baril
 barracada
 barracadas
@@ -726,8 +701,6 @@ biureto
 biuretos
 blastocisto
 blastocistos
-blaugrana
-blaugranas
 blefarite
 blenorragia
 blenorragias
@@ -745,10 +718,6 @@ bólingue
 bólingues
 bolívar
 bolívares
-bolivariana
-bolivarianas
-bolivariano
-bolivarianos
 bombar
 bombril
 bonobo
@@ -869,7 +838,6 @@ carrosséis
 catalepsia
 catamarã
 catamarãs
-catano
 caterva
 catervas
 cateter
@@ -946,8 +914,6 @@ cingulados
 cininas
 ciprinídeo
 ciprinídeos
-circadiano
-circadianos
 circunlóquio
 circunlóquios
 circunstancialmente
@@ -967,10 +933,6 @@ cleptocracias
 clientelar
 clientelares
 clímaxes
-clitoriana
-clitorianas
-clitoriano
-clitorianos
 clorofluorocarboneto
 clorofluorocarbonetos
 clorose
@@ -1020,10 +982,6 @@ contraciclo
 contraciclos
 contramedida
 contramedidas
-contrariana
-contrarianas
-contrariano
-contrarianos
 contratenor
 contratenores
 conversora
@@ -1121,10 +1079,6 @@ demiurga
 demiurgas
 demiurgo
 demiurgos
-denisovana
-denisovanas
-denisovano
-denisovanos
 denticuladas
 dentina
 dermatite
@@ -1313,10 +1267,6 @@ enconada
 enconadas
 enconado
 enconados
-endocraniana
-endocranianas
-endocraniano
-endocranianos
 endogamia
 endogamias
 endometriose
@@ -1490,10 +1440,6 @@ eurocratas
 eurocrato
 eurocratos
 euromilhões
-eurosiberiana
-eurosiberianas
-eurosiberiano
-eurosiberianos
 eutanasiada
 eutanasiadas
 eutanasiado
@@ -1549,8 +1495,6 @@ falsete
 falsetes
 farmacopeia
 farmacopeias
-fartazana
-fartazanas
 fataça
 fataças
 FdP
@@ -1749,7 +1693,6 @@ grupal
 guacamole
 guajajara
 guajajaras
-guano
 guaxinim
 guaxinins
 guqin
@@ -1916,10 +1859,6 @@ intocada
 intocadas
 intocado
 intocados
-intracraniana
-intracranianas
-intracraniano
-intracranianos
 intramatrimoniais
 intramatrimonial
 intravaginais
@@ -1992,7 +1931,6 @@ lânguido
 lânguidos
 laparoscopia
 laparoscopias
-laplaciano
 lapouço
 lapouços
 larila
@@ -2012,16 +1950,10 @@ lerpa
 lerpas
 leucorreia
 leucorreias
-liana
-lianas
 libreto
 libretos
 licra
 licras
-limiana
-limianas
-limiano
-limianos
 limícola
 limícolas
 linfoma
@@ -2048,10 +1980,6 @@ longarina
 longarinas
 lótus
 loxodromia
-luciferiana
-luciferianas
-luciferiano
-luciferianos
 lugre
 lugres
 lupanares
@@ -2082,10 +2010,6 @@ malparecida
 malparecidas
 malparecido
 malparecidos
-maltusiana
-maltusianas
-maltusiano
-maltusianos
 management
 manatim
 manatins
@@ -2150,10 +2074,6 @@ merengue
 merengues
 meritocrata
 meritocratas
-mesoamericana
-mesoamericanas
-mesoamericano
-mesoamericanos
 mesoterapia
 metabolizada
 metabolizadas
@@ -2318,10 +2238,6 @@ neonatais
 neonatal
 neonato
 neonatos
-neopavloviana
-neopavlovianas
-neopavloviano
-neopavlovianos
 neoplasia
 neoplasias
 népia
@@ -2490,10 +2406,6 @@ patifão
 patifões
 pauis
 paul
-pavloviana
-pavlovianas
-pavloviano
-pavlovianos
 PCMark
 pedopsiquiatria
 pedroguense
@@ -2590,8 +2502,6 @@ pleitear
 plenilúnio
 plesiossauro
 plesiossauros
-pliniano
-plinianos
 plissado
 plissados
 pluricarpelar
@@ -2635,8 +2545,6 @@ polinsaturado
 polinsaturados
 poliqueta
 poliquetas
-poliuretano
-poliuretanos
 poncha
 ponchas
 póquer
@@ -3055,10 +2963,6 @@ torque
 torques
 toxoplasmose
 trampolins
-transcraniana
-transcranianas
-transcraniano
-transcranianos
 transdisciplinar
 transdisciplinares
 transecto
@@ -3083,8 +2987,6 @@ trasfega
 trasfegas
 travanca
 travancas
-trépano
-trépanos
 trevos
 triatleta
 triatletas
@@ -3176,10 +3078,6 @@ vasoconstritora
 vasoconstritoras
 vasoconstritores
 vegan
-vegana
-veganas
-vegano
-veganos
 vegans
 velame
 velozmente
@@ -3263,9 +3161,9 @@ bocetas
 
 
 
-a.C.
-d.C.
-A.D.
+
+
+
 
 
 
@@ -4768,8 +4666,6 @@ carbamatos
 carbetos
 catecol
 catecols
-ciclano
-ciclanos
 clorobenzeno
 clorobenzenos
 clorofluorcarboneto
@@ -4804,8 +4700,6 @@ nitrobenzeno
 nitrobenzenos
 nitroderivado
 nitroderivados
-octanitrocubano
-octanitrocubanos
 oxitocina
 paracetamol
 piretroide
@@ -4854,14 +4748,6 @@ TrustedID
 USSearch
 VisualDoD
 WebMD
-raeliana
-raëliana
-raelianas
-raëlianas
-raeliano
-raëliano
-raelianos
-raëlianos
 
 dan
 sensei
@@ -5038,7 +4924,7 @@ mentoria
 metaverso
 minion
 minions
-MPS.BR
+
 pet
 pets
 pilates

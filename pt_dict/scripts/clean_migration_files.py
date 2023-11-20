@@ -173,6 +173,10 @@ def clean_initialisms():
     process_file("initialisms.txt", '', '', do_nothing)
 
 
+def clean_ano():
+    process_file("ano.txt", 'D', 'fp', oa_normaliser)
+
+
 if __name__ == "__main__":
     VARIANTS = [PT_BR, PT_PT_90, PT_PT_45]
     br_dict = Dictionary()
@@ -202,4 +206,5 @@ if __name__ == "__main__":
     # clean_ito()
     # clean_diminutives()
     # clean_eiro_proper()
-    clean_initialisms()
+    # clean_initialisms()
+    clean_ano()
