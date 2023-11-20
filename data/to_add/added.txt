@@ -370,11 +370,6 @@ estertor
 estertores
 ramerrão
 ramerrões
-1D
-2D
-3D
-4D
-5D
 abdominoplastia
 abdominoplastias
 abécula
@@ -395,7 +390,6 @@ acomodativo
 acomodativos
 acromegalia
 acúmulo
-AdC
 adenite
 adenites
 adenocarcinoma
@@ -578,7 +572,6 @@ auroque
 auroques
 austericídio
 austericídios
-AutoCAD
 autodescoberta
 autodescobertas
 autoexperimentam
@@ -643,7 +636,6 @@ bazaste
 bazei
 bazuca
 bazucas
-BdP
 bear
 beatlemania
 beisebol
@@ -1153,11 +1145,9 @@ diádromo
 diádromos
 diclofenaco
 dicogamia
-digiKam
 dildo
 dildos
 dipiridamol
-DirectX
 dirimir
 discalculia
 discalculias
@@ -1196,7 +1186,6 @@ donatella
 dóris
 dorsolaterais
 dorsolateral
-DOSBox
 dossel
 drapeada
 drapeadas
@@ -1497,7 +1486,6 @@ farmacopeia
 farmacopeias
 fataça
 fataças
-FdP
 feiarrão
 felácio
 felácios
@@ -1519,7 +1507,6 @@ festarola
 festarolas
 fezada
 fezadas
-FFmpeg
 fibroblasto
 fibroblastos
 fibromialgia
@@ -1575,7 +1562,6 @@ franchisado
 franchisados
 frecha
 frechas
-FreeCAD
 freixo
 freixos
 frenesi
@@ -1589,7 +1575,6 @@ frugívoros
 frutaria
 frutarias
 frutose
-FullHD
 fundacionais
 fundacional
 funicular
@@ -1678,7 +1663,6 @@ gosma
 gosmas
 governança
 governanças
-GParted
 grandiloquente
 grandiloquentes
 granola
@@ -1696,7 +1680,6 @@ guajajaras
 guaxinim
 guaxinins
 guqin
-GWh
 hail
 halitose
 halitoses
@@ -1867,7 +1850,6 @@ intricada
 intricadas
 ioga
 iogas
-IoT
 irracionais
 irracional
 irredutivelmente
@@ -1905,14 +1887,12 @@ javanesas
 javaneses
 javardice
 javardices
-JDownloader
 jerricã
 jerricãs
 jérsei
 jérseis
 jola
 jolas
-JPMorgan
 judicializada
 judicializadas
 judicializado
@@ -2045,7 +2025,6 @@ massificada
 massificadas
 massificado
 massificados
-MBWay
 meca
 mecas
 mefistófeles
@@ -2118,7 +2097,6 @@ microplaca
 microplacas
 micróporo
 micróporos
-MicroSD
 microtúbulo
 microtúbulos
 mielina
@@ -2174,7 +2152,6 @@ motocrosses
 motosserra
 motosserras
 moxibustão
-MPlayer
 multiagente
 multidimensionais
 multiespectrais
@@ -2194,9 +2171,7 @@ mustelídeos
 mutada
 mutado
 mutualmente
-MWh
 N'dalatando
-N'Zeto
 naja
 najas
 nanomateriais
@@ -2315,8 +2290,6 @@ oclusivos
 oligossacarídeo
 oligossacarídeos
 omícrones
-OpenGL
-openSUSE
 ordália
 ordálias
 ordálio
@@ -2406,7 +2379,6 @@ patifão
 patifões
 pauis
 paul
-PCMark
 pedopsiquiatria
 pedroguense
 pedunculada
@@ -2637,7 +2609,6 @@ putativa
 putativas
 putativo
 putativos
-PuTTY
 quadriciclo
 quadriciclos
 quantiqualitativa
@@ -2761,7 +2732,6 @@ saturninos
 saurópode
 saurópodes
 saxitoxina
-SciELO
 sedã
 sedãs
 sedeada
@@ -2837,7 +2807,6 @@ sonoplastia
 sonoplastias
 soquete
 soquetes
-SpaceX
 subadulta
 subadultas
 subadulto
@@ -2894,8 +2863,6 @@ tartaranhões
 tatâmi
 tatâmis
 táxon
-TdC
-TEDx
 teen
 teens
 tel
@@ -3021,7 +2988,6 @@ tuga
 tugas
 tupi
 tupis
-tvOS
 uau
 úbere
 úberes
@@ -3032,7 +2998,6 @@ ultraterrestre
 ultraterrestres
 umbra
 umbundo
-UNetbootin
 unidimensionais
 unidimensional
 unidose
@@ -3587,7 +3552,6 @@ diesel
 diesels
 dirham
 dirhams
-disCMAN
 discmans
 diseur
 diseurs
@@ -4729,32 +4693,15 @@ mastins
 retriever
 retrievers
 Asset4
-ConnectEDU
-CrowdANALYTIX
-HDScores
 ideas42
 indoo
 Moody's
-optiGov
-OSIsoft
-PeerJ
 Peterson's
-PEV4me
-PlaceILive
-PossibilityU
 realtor
-TrialX
-TrustedID
-USSearch
-VisualDoD
-WebMD
 
 dan
 sensei
 
-McDonald's
-SciELO
-UnB
 vo
 
 gmail
@@ -4764,7 +4711,6 @@ prompt
 prompts
 admin
 admins
-AmigaOS
 app
 applet
 applets
@@ -4785,7 +4731,6 @@ bot
 bots
 build
 builds
-CentOS
 chipada
 chipadas
 chipado
@@ -4797,8 +4742,6 @@ ciberameaças
 codec
 codecs
 contactless
-DALnet
-DDoS
 default
 developer
 developers
@@ -4816,7 +4759,6 @@ flags
 footnote
 footnotes
 fps
-FreeBSD
 gigabit
 gigabits
 homepage
@@ -4827,20 +4769,15 @@ http
 https
 idle
 infomercial
-IRCop
-IRCops
 lag
 lags
 loop
 loops
-macOS
-MiKTeX
 netbanco
 netiqueta
 netiquette
 off
 on
-OpenPGP
 oper
 opers
 patch
@@ -4851,9 +4788,7 @@ píxeis
 píxel
 postmaster
 postmasters
-PowerPC
 proxies
-PTnet
 px
 reboot
 restart
@@ -4895,7 +4830,6 @@ chatbot
 chatbots
 cloud
 compliance
-CoV
 covid
 cropped
 cuzão
