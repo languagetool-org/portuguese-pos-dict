@@ -8,7 +8,11 @@ Done:
 - logue.txt
 - month_abbrevs.txt
 - metria.txt
+- eiro_ario.txt
 
 Won't do:
 - years.txt
 - laughter.txt (disambiguator)
+- lowercase_romans.txt (disambiguator)
+- greek_letters.txt (disambig.)
+- internet.txt (XML)

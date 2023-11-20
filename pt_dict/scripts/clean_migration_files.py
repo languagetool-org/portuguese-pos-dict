@@ -117,6 +117,12 @@ def clean_metry():
     process_file('metria.txt', 'B', 'p', normaliser)
 
 
+def clean_eiro():
+    def normaliser(w: str) -> str:
+        return re.compile('[oa]s?$').sub('o', w)
+    process_file('eiro_ario.txt', 'D', 'fp', normaliser)
+
+
 if __name__ == "__main__":
     VARIANTS = [PT_BR, PT_PT_90]
     br_dict = Dictionary()
@@ -134,4 +140,5 @@ if __name__ == "__main__":
     # clean_orio()
     # clean_logy()
     # clean_logue()
-    clean_metry()
+    # clean_metry()
+    clean_eiro()

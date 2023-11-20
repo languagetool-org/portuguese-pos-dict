@@ -2,8 +2,6 @@ mochileiro
 mochileiros
 mochileira
 mochileiras
-Malveira
-Azueira
 sesquicentenário
 sesquicentenários
 gasolineiro
@@ -14,7 +12,6 @@ roqueiro
 roqueiros
 troneira
 troneiras
-Regaleira
 pieira
 pieiras
 cagadeira
@@ -34,7 +31,6 @@ aroeira
 aroeiras
 atuneiro
 atuneiros
-Aveiras
 azereiro
 azereiros
 bacalhoeira
@@ -191,32 +187,9 @@ vinhateira
 vinhateiras
 vinhateiro
 vinhateiros
-Zambujeira
 zoossanitária
 zoossanitárias
 zoossanitário
 zoossanitários
 putanheiro
 putanheiros
-Campeiro
-Campeiros
-Pantaneiro
-Pantaneiros
-Castro Laboreiro
-Dogo canário
-Dogue Brasileiro
-Chasqueira
-Falagueira
-Juazeiro
-Madeira
-Milheiro
-Palmeiras
-Quarteira
-Reboleira
-Seiceira
-Terceira
-Wikcionário
-Berengária
-Cesária
-Melhoria do Processo de Software Brasileiro
-Mulheres do Imobiliário
