@@ -1488,3 +1488,4 @@ bonehead
 boneheads
 thunderbolt
 löss
+bear

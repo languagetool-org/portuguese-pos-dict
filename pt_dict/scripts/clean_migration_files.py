@@ -181,6 +181,18 @@ def clean_gender_number():
     clean_file("gender_number.txt", 'D', 'fp', oa_normaliser)
 
 
+def clean_verbs_ar():
+    clean_file("verbs_ar.txt", 'akYL', 'ZYL', do_nothing)
+
+
+def clean_verbs_ir():
+    clean_file("verbs_ir.txt", 'cmL', 'KPL', do_nothing)
+
+
+def clean_verbs_er():
+    clean_file("verbs_er.txt", 'XPL', 'XPL', do_nothing)
+
+
 def write_to_txt(filename: str, words: set[str]):
     print(f"{filename}: {len(words)}")
     filepath = path.join(TO_ADD_DIR, filename)
@@ -263,7 +275,7 @@ if __name__ == "__main__":
 
     # clean_able()
     # clean_ador()
-    clean_adverbs()
+    # clean_adverbs()
     # clean_orio()
     # clean_logy()
     # clean_logue()
@@ -279,3 +291,6 @@ if __name__ == "__main__":
     # clean_initialisms()
     # clean_ano()
     # clean_gender_number()
+    # clean_verbs_ar()
+    # clean_verbs_ir()
+    clean_verbs_er()
