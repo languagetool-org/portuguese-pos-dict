@@ -7,6 +7,7 @@ Done:
 - logy.txt
 - logue.txt
 - month_abbrevs.txt
+- metria.txt
 
 Won't do:
 - years.txt
