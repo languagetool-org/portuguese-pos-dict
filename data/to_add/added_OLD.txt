@@ -4841,8 +4841,6 @@ direct
 directs
 emoji
 emojis
-endocanabinóide
-endocanabinóides
 fanfic
 feed
 hangul
@@ -4858,7 +4856,6 @@ mentoria
 metaverso
 minion
 minions
-
 pet
 pets
 pilates

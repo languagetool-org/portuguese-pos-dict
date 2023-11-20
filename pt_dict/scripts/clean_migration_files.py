@@ -63,7 +63,7 @@ def add_word(word: str, variant: Variant, lookup: dict):
         lookup[variant.hyphenated_with_agreement]['new_words'].add(word)
 
 
-def process_file(filename: str, br_tags: str, pt_tags: str, normaliser: Callable):
+def clean_file(filename: str, br_tags: str, pt_tags: str, normaliser: Callable):
     print(filename)
     filepath = path.join(TO_ADD_DIR, filename)
     lookup = new_lookup(br_tags, pt_tags)
@@ -96,41 +96,41 @@ def clean_able():
         if w.endswith("is"):
             return w[:-2] + 'l'
         return w
-    process_file('able.txt', 'KXIB', 'pms', normaliser)
+    clean_file('able.txt', 'KXIB', 'pms', normaliser)
 
 
 def clean_ador():
     def normaliser(w: str) -> str:
         return re.compile('([aei]dor)(es|as?)?$').sub(r"\1", w)
-    process_file('ador.txt', 'DR', 'fp', normaliser)
+    clean_file('ador.txt', 'DR', 'fp', normaliser)
 
 
 def clean_adverbs():
-    process_file('adverbs.txt', '', '', do_nothing)
+    clean_file('adverbs.txt', '', '', do_nothing)
 
 
 def clean_orio():
-    process_file('orio.txt', 'D', 'fp', oa_normaliser)
+    clean_file('orio.txt', 'D', 'fp', oa_normaliser)
 
 
 def clean_logy():
     def normaliser(w: str) -> str:
         return re.compile('s?$').sub('', w)
-    process_file('logy.txt', 'B', 'p', normaliser)
+    clean_file('logy.txt', 'B', 'p', normaliser)
 
 
 def clean_logue():
-    process_file('logue.txt', 'D', 'fp', oa_normaliser)
+    clean_file('logue.txt', 'D', 'fp', oa_normaliser)
 
 
 def clean_metry():
     def normaliser(w: str) -> str:
         return re.compile('s?$').sub('', w)
-    process_file('metria.txt', 'B', 'p', normaliser)
+    clean_file('metria.txt', 'B', 'p', normaliser)
 
 
 def clean_eiro():
-    process_file('eiro_ario.txt', 'D', 'fp', oa_normaliser)
+    clean_file('eiro_ario.txt', 'D', 'fp', oa_normaliser)
 
 
 def clean_suffixed_nouns():
@@ -140,41 +140,108 @@ def clean_suffixed_nouns():
         if w.endswith('ns'):
             return w[:-2] + 'm'
         return re.compile('([oae])s?$').sub(r"\1", w)
-    process_file('suffixed_nouns.txt', 'B', 'p', normaliser)
+    clean_file('suffixed_nouns.txt', 'B', 'p', normaliser)
 
 
 def clean_adj_e():
     def normaliser(w: str) -> str:
         return re.compile('s?$').sub('', w)
-    process_file('adj_e.txt', 'B', 'p', normaliser)
+    clean_file('adj_e.txt', 'B', 'p', normaliser)
 
 
 def clean_adj_oa():
-    process_file('adj_oa.txt', 'D', 'fp', oa_normaliser)
+    clean_file('adj_oa.txt', 'D', 'fp', oa_normaliser)
 
 
 def clean_ito():
-    process_file('ito.txt', 'D', 'fp', oa_normaliser)
+    clean_file('ito.txt', 'D', 'fp', oa_normaliser)
 
 
 def clean_weirdcase():
-    process_file('weirdcase.txt', '', '', do_nothing)
+    clean_file('weirdcase.txt', '', '', do_nothing)
 
 
 def clean_diminutives():
-    process_file("diminutives.txt", "B", "p", number_normaliser)
+    clean_file("diminutives.txt", "B", "p", number_normaliser)
 
 
 def clean_eiro_proper():
-    process_file("eiro_proper.txt", '', '', do_nothing)
+    clean_file("eiro_proper.txt", '', '', do_nothing)
 
 
 def clean_initialisms():
-    process_file("initialisms.txt", '', '', do_nothing)
+    clean_file("initialisms.txt", '', '', do_nothing)
 
 
 def clean_ano():
-    process_file("ano.txt", 'D', 'fp', oa_normaliser)
+    clean_file("ano.txt", 'D', 'fp', oa_normaliser)
+
+
+def clean_gender_number():
+    clean_file("gender_number.txt", 'D', 'fp', oa_normaliser)
+
+
+def write_to_txt(filename: str, words: set[str]):
+    print(f"{filename}: {len(words)}")
+    filepath = path.join(TO_ADD_DIR, filename)
+    with open(filepath, 'w') as file:
+        file.write("\n".join(sorted(words)))
+
+
+def sort_added():
+    filepath = path.join(TO_ADD_DIR, 'added.txt')
+    all_words = collect_words_from_file(filepath, do_nothing)
+    all_words_final = all_words.copy()
+    gender_number_words = set()
+    number_words = set()
+    for word in all_words:
+        if re.compile('[^oa]s$').search(word):
+            normalised = word[:-1]
+            naive_normalised = normalised
+            if word.endswith('ns'):
+                normalised = word[:-2] + 'm'
+            elif re.compile('[aeou]is$').search(word):
+                normalised = word[:-2] + 'l'
+            elif word.endswith('res'):
+                normalised = word[:-2]
+            elif word.endswith('ões') or word.endswith('ães') or word.endswith('ãos'):
+                normalised = word[:-3] + 'ão'
+            elif word.endswith('óis'):
+                normalised = word[:-3] + 'ol'
+            elif word.endswith('éis'):
+                normalised = word[:-3] + 'el'
+            if normalised in all_words:
+                number_words.add(normalised)
+                all_words_final.discard(word)
+                all_words_final.discard(normalised)
+            elif naive_normalised in all_words:
+                number_words.add(naive_normalised)
+                all_words_final.discard(word)
+                all_words_final.discard(naive_normalised)
+        if re.compile('as$').search(word):
+            masc_sg = word[:-2] + 'o'
+            fem_sg = word[:-1]
+            if masc_sg in all_words:
+                gender_number_words.add(masc_sg)
+                all_words_final.discard(word)  # fem_pl
+                all_words_final.discard(masc_sg)
+                all_words_final.discard(fem_sg)  # fem_sg
+                all_words_final.discard(masc_sg + 's')  # masc_pl
+            elif fem_sg in all_words:
+                number_words.add(fem_sg)
+                all_words_final.discard(word)  # fem_pl
+                all_words_final.discard(fem_sg)
+        if re.compile('os$').search(word):
+            masc_sg = word[:-1]
+            fem_sg = masc_sg[:-1] + 'a'
+            if masc_sg in all_words and fem_sg not in all_words:
+                number_words.add(masc_sg)
+                all_words_final.discard(word)  # masc_pl
+                all_words_final.discard(masc_sg)
+    print("starting point:", len(all_words))
+    write_to_txt("added_clean.txt", all_words_final)
+    write_to_txt("number_only.txt", number_words)
+    write_to_txt("gender_number.txt", gender_number_words)
 
 
 if __name__ == "__main__":
@@ -191,9 +258,12 @@ if __name__ == "__main__":
         'pt-PT-45': pt_45_dict.lemmata
     }
     DRY_RUN = False
+
+    # sort_added()
+
     # clean_able()
     # clean_ador()
-    # clean_adverbs()
+    clean_adverbs()
     # clean_orio()
     # clean_logy()
     # clean_logue()
@@ -202,9 +272,10 @@ if __name__ == "__main__":
     # clean_suffixed_nouns()
     # clean_adj_e()
     # clean_adj_oa()
-    clean_weirdcase()
+    # clean_weirdcase()
     # clean_ito()
     # clean_diminutives()
     # clean_eiro_proper()
     # clean_initialisms()
     # clean_ano()
+    # clean_gender_number()

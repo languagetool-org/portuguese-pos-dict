@@ -17,6 +17,7 @@ Done:
 - eiro_proper.txt
 - initialisms.txt
 - ano.txt
+- gender_number.txt
 
 Won't do:
 - years.txt
