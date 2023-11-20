@@ -2140,6 +2140,7 @@ antivírus
 antologia/pq
 antológico/fp
 antoniano/fpm
+antonino/fp
 antonímia/ph
 antónimo/fp
 antracitoso/fpm
@@ -4546,7 +4547,7 @@ berma/ph
 bermudas
 bernardo/fp
 bernense/p
-bernês
+bernês/fp
 berrador/fp
 berra/ph
 berrante/pm
@@ -5067,7 +5068,7 @@ bordoeira/ph
 bordo/pl
 boreal/pm
 borgonha/pl
-borgonhês
+borgonhês/fp
 borguista/p
 bórico/fp
 borlado/fpm
@@ -5165,8 +5166,8 @@ bradicardia/ph
 brado/pl
 bragançano/fp
 braganção/fp
-bragancês
-braguês
+bragancês/fp
+braguês/fp
 braguilha/ph
 braile/pl
 brâmane/pl
@@ -5939,7 +5940,7 @@ canastrado/fpm
 canastra/ph
 canastrão/fp
 canastro/pl
-canavês
+canavês/fp
 canavial/pl
 canção/ph
 cancelada/ph
@@ -16191,7 +16192,7 @@ geminar/XYPLcv
 genealogia/pr
 genealogista/p
 genebrense/p
-genebrês
+genebrês/fp
 genebrino/fp
 gene/pl
 generacionismo/pl
@@ -16744,7 +16745,7 @@ guerrilheiro/fpx
 gueto/pl
 guiador/fp
 guianense/p
-guianês
+guianês/fp
 guião/pl
 guiar/XYPLMD
 guiché/pl
@@ -16815,7 +16816,7 @@ haltere/pl
 halterofilia/pt
 halterofilismo/pl
 hambúrguer/pl
-hamburguês
+hamburguês/fp
 handebol/t
 hangar/pl
 hanoveriano/fpm
@@ -16840,7 +16841,7 @@ hastário/fp
 hastear/ZYPL
 haste/ph
 havaiano/fp
-havanês
+havanês/fp
 havano/fp
 haxixe/pl
 hebraico/fp
@@ -19393,7 +19394,7 @@ jaula/ph
 javalina/ph
 javali/pl
 javalino/fpm
-javanês
+javanês/fp
 javardo/fp
 jazida/ph
 jazigo/pl
@@ -20261,7 +20262,7 @@ lírica/ph
 lírico/fp
 lírio/pl
 lirismo/pl
-lisboês
+lisboês/fp
 lisboeta/p
 lisbonense/p
 liso/fpm
@@ -20411,7 +20412,6 @@ lombeiro/fp
 lombo/pl
 lombriga/ph
 lona/ph
-londrês
 londrino/fp
 longa/p
 longal/pm
@@ -20741,7 +20741,7 @@ malandrim
 malandro/fpG
 malandrote/pl
 mala/ph
-malaquês
+malaquês/fp
 malária/ph
 malar/pl
 malbaratar/XYPLMD
@@ -24476,6 +24476,7 @@ pastorícia/ph
 pastoricida/p
 pastorício/fp
 pastoril/pm
+agropastoril/pm
 pastor/pl
 pastosidade/ph
 pastoso/fpdm
@@ -24680,7 +24681,7 @@ pedregulhento/fpm
 pedregulho/pl
 pedreira/ph
 pedreiro/pl
-pedrês
+pedrês/fp
 pedrista/p
 pedroso/fpm
 pedrouço/pl
@@ -29416,7 +29417,7 @@ sânscrito/pl
 santareno/fpm
 santeiro/fp
 santiagueiro/fpm
-santiaguês
+santiaguês/fp
 santidade/ph
 santificante/pm
 santificar/XYPLcDnv
@@ -33712,6 +33713,7 @@ IBM
 Intel
 Internet
 Java
+JavaScript
 LaTeX
 link
 links
@@ -43478,6 +43480,7 @@ maltusiano/fp
 mandala/p
 manete/p
 mangal
+mangalarga
 mantra/p
 manufatora/p
 manufaturação/p
@@ -44550,8 +44553,7 @@ apneia/p
 apolítico/fp
 Aquaman
 aritmeticamente
-arnês
-arnêses
+arnês/fp
 arouquense/p
 Arsenal
 artificialização
@@ -44633,8 +44635,7 @@ Calgary
 camarinhas
 canábis
 canídeo/p
-cantonês
-cantoneses
+cantonês/fp
 capotamento/p
 carbamazepina
 carcinogéneo/fp
@@ -47874,9 +47875,7 @@ forfetária/p
 forfetário/p
 Fortnite
 Gabela
-gabonês
-gabonesa/p
-gaboneses
+gabonês/fp
 Genilson
 genotoxicidade
 genotóxico/fp
@@ -57641,6 +57640,7 @@ marulhar/ZYL
 periciar/ZYL
 obviar/ZYL
 afear/ZYL
+viralizar/ZYL
 drunfar/ZYL
 esbardalhar/ZYL
 confabular/ZYL
@@ -57662,3 +57662,9 @@ autorreproduzir/KPL
 foder/XPL
 emburrecer/XPL
 raer/XPL
+adenovírus
+retrovírus
+papilomavírus
+coronavírus
+aficiones
+afición
