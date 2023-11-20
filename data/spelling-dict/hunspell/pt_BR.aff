@@ -1422,6 +1422,10 @@ SFX B   l     s        il
 SFX B   l     is       [^i]l
 SFX B   m     ns       m
 
+# Plural -þ- specifically for English words with straightforward -s plurals, e.g. surfer-surfers, jam-jams
+SFX þ Y 1
+SFX þ   0     s        .
+
 # Plural -C-  - (ão ãos) - (el - éis) ...
 
 SFX C Y 6

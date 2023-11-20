@@ -1,29 +1,15 @@
 line-up
 line-ups
-apercebemo-nos
-referimo-nos
-referirmo-nos
-rejeitamo-lo
-defrontamo-nos
-referimo-nos
-rejeitamo-lo
-afastarmo-nos
-expressarmo-nos
-tornarmo-nos
 nem-nem
 rabo-de-palha
 arqui-inimigo
 arqui-inimigos
-baseamo-nos
-referirmo-nos
-deixarmo-nos
 SARS-CoV-1
 SARS-CoV-2
 chave-mestra
 estado-da-arte
 húngaro-americano
 Navier-Stokes
-referimo-nos
 abutre-do-egipto
 abutres-do-egipto
 agrião-do-pará
@@ -32,7 +18,6 @@ agriões-do-pará
 águias-de-bonelli
 águias-perdigueira
 águias-perdigueiras
-ajudamo-lo
 álveola-cinzenta
 álveolas-cinzentas
 Anderson-Darling
@@ -68,25 +53,11 @@ Coca-Cola
 Coca-Colas
 costa-marfinense
 costa-marfinenses
-Cramér-von Mises
-criamo-lo
-criámo-lo
-criamo-los
-criámo-los
-defrontamo-nos
 dói-dóis
 estribeiro-mor
 estribeiros-mor
-far-nos-á
-far-se-ão
 Far-West
-fê-la
-fê-las
-fê-lo
-fê-los
 febre-amarela
-fi-lo
-fizemo-nos
 fruta-pão
 frutas-pão
 grã-cruz
@@ -100,7 +71,6 @@ infra-alares
 ítalo-brasileiro
 ítalo-brasileiros
 joão-da-palha
-julgamo-nos
 lagostim-vermelho-do-Louisiana
 lagostins-vermelhos-do-Louisiana
 lúcia-lima
@@ -127,7 +97,6 @@ pinguins-de-adélia
 porta-moedas
 propomo-nos
 qui-quadrado
-rejeitamo-lo
 rela-meridional
 relas-meridionais
 rinoceronte-de-java
@@ -181,7 +150,6 @@ tubarões-anequim
 tubarões-da-gronelândia
 Tukey-Duckworth
 tupi-guarani
-U de Mann-Whitney
 Ultra-HD
 vespa-volutina
 vespas-volutina
@@ -388,12 +356,7 @@ dimetil-mercúrios
 Akhal-Teke
 Adenberg-Nordkirchen
 Anglo-Árabe
-Anglo-Árabe Sardo
 Anglo-Kabarda
-Cão Anglo-Francês
-Curly-coated retriever
-Flat-coated retriever
-Irish soft-coated wheaten terrier
 Loup-chow
 Code-N
 CONNECT-DOT
@@ -427,8 +390,6 @@ Hosmer-Lemeshow
 ISCTE-IUL
 Kaplan-Meier
 Kiev-Boryspil
-Kim Jong-il
-Kim Jong-un
 Kolmogorov-Smirnov
 Kruskal-Wallis
 Mann-Whitney
@@ -469,12 +430,6 @@ Andorra-a-Velha
 e-commerce
 e-commerce
 ECO-92
-Jeon Jung-kook
-Kim Nam-joon
-Kim Seok-jin
-Kim Tae-Hyung
-Min Yoon-gi
-Park Ji-min
 Rio-92
 aide-mémoire
 aide-mémoires

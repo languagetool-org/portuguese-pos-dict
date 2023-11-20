@@ -159,6 +159,10 @@ SFX p   ês              eses            ês              +N=p
 SFX p   m               ns              m               +N=p
 SFX p   0               es              [rnzx]          +N=p
 
+# Plural -þ- specifically for English words with straightforward -s plurals, e.g. surfer-surfers, jam-jams
+SFX þ Y 1
+SFX þ   0     s        .
+
 SFX a Y 4
 SFX a   0               s               ão              +N=p
 SFX a   il              eis             il              +N=p

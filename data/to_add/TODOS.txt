@@ -20,6 +20,8 @@ Done:
 - gender_number.txt
 - pt/br nasals
 - final vowels
+- simple proper
+- number only
 
 Won't do:
 - years.txt
