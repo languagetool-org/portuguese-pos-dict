@@ -31,7 +31,6 @@ adultização
 adultizações
 agravação
 ajuizamento
-Ajuizamentos
 aleatorização
 aleatorizações
 aliteração
@@ -50,8 +49,6 @@ aquaplanagem
 aquaplanagens
 artificialização
 artificializações
-assumpção
-assumpções
 atingimento
 atingimentos
 atracamento
@@ -99,7 +96,6 @@ dessalinização
 dessecação
 destartarização
 destartarizações
-disrupções
 ecolocalização
 editoração
 efabulação
@@ -163,8 +159,6 @@ liberações
 lipoaspiração
 lipoaspirações
 ludificação
-mação
-mações
 majoração
 majorações
 malnutrição
@@ -219,10 +213,6 @@ sobredosagens
 sobrepopulação
 sovietização
 sovietizações
-subducção
-subducções
-subopção
-subopções
 subpopulação
 subpopulações
 supervisionamento
@@ -240,21 +230,12 @@ vasoconstrição
 vasoconstrições
 vitimização
 vitimizações
-roentgens
-röntgens
 supercomputação
-Adoração
-Anunciação
-Assunção
 gamificação
-Gamificação
 indentação
-Seleção
 psicoeducação
-Psicoeducação
 autocorrelação
 autocorrelações
-impredictibilidade
 otimalidade
 confiabilidade
 alarvidade
@@ -274,8 +255,6 @@ dramaticidade
 equitabilidade
 externalidade
 externalidades
-factualidade
-factualidades
 genotoxicidade
 geodiversidade
 governabilidade
@@ -284,8 +263,6 @@ imprescindibilidade
 impulsividade
 inanidade
 inanidades
-interconectividade
-interconectividades
 interconetividade
 interconetividades
 interdisciplinaridade
@@ -312,15 +289,12 @@ senioridade
 teratogenicidade
 transnacionalidade
 transsexualidade
-Universidade
 idadista
 idadistas
 paraquedismo
 achismo
 achismos
 tantrismo
-seccionista
-seccionistas
 atricionista
 atricionistas
 frequentista
@@ -378,9 +352,9 @@ endemismos
 enoturismo
 esclavagista
 esclavagistas
-estalinismo
-estalinista
-estalinistas
+stalinismo
+stalinista
+stalinistas
 estatismo
 estatismos
 estatista
@@ -431,6 +405,7 @@ libertarianismos
 liturgista
 liturgistas
 maoismo
+maoista
 maximalista
 maximalistas
 mecanicistas
@@ -452,8 +427,6 @@ neoplasticismo
 neurocientista
 neurocientistas
 neurotropismo
-optometrista
-optometristas
 partidarismo
 proibicionismo
 proibicionista
@@ -506,11 +479,9 @@ vulgarismos
 ovnilogista
 ovnilogistas
 ufologista
-Mangalarga paulista
 raelianismo
 raëlianismo
 ciberativismo
-Bela Vista
 bolsonarismo
 bolsonarista
 capacitismo
@@ -554,3 +525,14 @@ gordofobia
 LGBTfobia
 LGBTfobias
 transfobia
+assumpção
+assumpções
+optometrista
+optometristas
+disrupções
+subducção
+subducções
+subopção
+subopções
+factualidade
+factualidades

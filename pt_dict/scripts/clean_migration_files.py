@@ -5,7 +5,7 @@ from typing import Callable
 from pt_dict.constants import TO_ADD_DIR, LATIN_1_ENCODING
 from pt_dict.dicts.dictionary import Dictionary
 from pt_dict.dicts.hunspell import HunspellDict
-from pt_dict.variants.variant import PT_BR, PT_PT_90, Variant
+from pt_dict.variants.variant import PT_BR, PT_PT_90, PT_PT_45, Variant
 
 
 def tag_word(word: str, tags: str) -> str:
@@ -20,11 +20,15 @@ def tag_words(words: set[str], tags: str) -> set[str]:
 
 def new_lookup(br_tags: str, pt_tags: str) -> dict:
     return {
-        'pt-BR': {
+        'pt-BR-90': {
             'tags': br_tags,
             'new_words': set()
         },
-        'pt-PT': {
+        'pt-PT-90': {
+            'tags': pt_tags,
+            'new_words': set()
+        },
+        'pt-PT-45': {
             'tags': pt_tags,
             'new_words': set()
         }
@@ -43,8 +47,8 @@ def collect_words_from_file(filepath: str, normaliser: Callable) -> set[str]:
 
 
 def add_word(word: str, variant: Variant, lookup: dict):
-    if word not in LEMMATA[variant.hyphenated]:
-        lookup[variant.hyphenated]['new_words'].add(word)
+    if word not in LEMMATA[variant.hyphenated_with_agreement]:
+        lookup[variant.hyphenated_with_agreement]['new_words'].add(word)
 
 
 def process_file(filename: str, br_tags: str, pt_tags: str, normaliser: Callable):
@@ -56,9 +60,9 @@ def process_file(filename: str, br_tags: str, pt_tags: str, normaliser: Callable
         for word in words:
             add_word(word, variant, lookup)
 
-        new_words = lookup[variant.hyphenated]['new_words']
-        tags = lookup[variant.hyphenated]['tags']
-        print(f"{variant.country}: {len(new_words)}")
+        new_words = lookup[variant.hyphenated_with_agreement]['new_words']
+        tags = lookup[variant.hyphenated_with_agreement]['tags']
+        print(f"{variant.hyphenated_with_agreement}: {len(new_words)}")
         tagged = tag_words(new_words, tags)
         print("\n".join(tagged))
         if not DRY_RUN:
@@ -123,15 +127,28 @@ def clean_eiro():
     process_file('eiro_ario.txt', 'D', 'fp', normaliser)
 
 
+def clean_suffixed_nouns():
+    def normaliser(w: str) -> str:
+        if w.endswith('ões'):
+            return w[:-3] + 'ão'
+        if w.endswith('ns'):
+            return w[:-2] + 'm'
+        return re.compile('([oae])s?$').sub(r"\1", w)
+    process_file('suffixed_nouns.txt', 'B', 'p', normaliser)
+
+
 if __name__ == "__main__":
-    VARIANTS = [PT_BR, PT_PT_90]
+    VARIANTS = [PT_BR, PT_PT_90, PT_PT_45]
     br_dict = Dictionary()
-    pt_dict = Dictionary()
+    pt_90_dict = Dictionary()
+    pt_45_dict = Dictionary()
     br_dict.collect_lemmata_from_file(PT_BR.dic(), HunspellDict.pattern, encoding=LATIN_1_ENCODING, offset=1)
-    pt_dict.collect_lemmata_from_file(PT_PT_90.dic(), HunspellDict.pattern, encoding=LATIN_1_ENCODING, offset=1)
+    pt_90_dict.collect_lemmata_from_file(PT_PT_90.dic(), HunspellDict.pattern, encoding=LATIN_1_ENCODING, offset=1)
+    pt_45_dict.collect_lemmata_from_file(PT_PT_45.dic(), HunspellDict.pattern, encoding=LATIN_1_ENCODING, offset=1)
     LEMMATA = {
-        'pt-BR': br_dict.lemmata,
-        'pt-PT': pt_dict.lemmata
+        'pt-BR-90': br_dict.lemmata,
+        'pt-PT-90': pt_90_dict.lemmata,
+        'pt-PT-45': pt_45_dict.lemmata
     }
     DRY_RUN = False
     # clean_able()
@@ -141,4 +158,5 @@ if __name__ == "__main__":
     # clean_logy()
     # clean_logue()
     # clean_metry()
-    clean_eiro()
+    # clean_eiro()
+    clean_suffixed_nouns()

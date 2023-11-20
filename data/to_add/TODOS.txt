@@ -9,6 +9,7 @@ Done:
 - month_abbrevs.txt
 - metria.txt
 - eiro_ario.txt
+- suffixed_nouns.txt
 
 Won't do:
 - years.txt
