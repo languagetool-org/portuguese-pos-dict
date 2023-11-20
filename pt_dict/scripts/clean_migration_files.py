@@ -99,6 +99,18 @@ def clean_orio():
     process_file('orio.txt', 'D', 'fp', normaliser)
 
 
+def clean_logy():
+    def normaliser(w: str) -> str:
+        return re.compile('s?$').sub('', w)
+    process_file('logy.txt', 'B', 'p', normaliser)
+
+
+def clean_logue():
+    def normaliser(w: str) -> str:
+        return re.compile('[oa]s?$').sub('o', w)
+    process_file('logue.txt', 'D', 'fp', normaliser)
+
+
 if __name__ == "__main__":
     VARIANTS = [PT_BR, PT_PT_90]
     br_dict = Dictionary()
@@ -113,4 +125,6 @@ if __name__ == "__main__":
     # clean_able()
     # clean_ador()
     # clean_adverbs()
-    clean_orio()
+    # clean_orio()
+    # clean_logy()
+    clean_logue()

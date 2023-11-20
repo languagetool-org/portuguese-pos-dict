@@ -4,3 +4,8 @@ Done:
 - adverbs.txt
 - grafia.txt (done manually)
 - orio.txt
+- logy.txt
+- logue.txt
+
+Won't do:
+- years.txt
