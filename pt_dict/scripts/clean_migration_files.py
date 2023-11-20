@@ -137,6 +137,18 @@ def clean_suffixed_nouns():
     process_file('suffixed_nouns.txt', 'B', 'p', normaliser)
 
 
+def clean_adj_e():
+    def normaliser(w: str) -> str:
+        return re.compile('s?$').sub('', w)
+    process_file('adj_e.txt', 'B', 'p', normaliser)
+
+
+def clean_adj_oa():
+    def normaliser(w: str) -> str:
+        return re.compile('([oa])s?$').sub(r"o", w)
+    process_file('adj_oa.txt', 'D', 'fp', normaliser)
+
+
 if __name__ == "__main__":
     VARIANTS = [PT_BR, PT_PT_90, PT_PT_45]
     br_dict = Dictionary()
@@ -159,4 +171,6 @@ if __name__ == "__main__":
     # clean_logue()
     # clean_metry()
     # clean_eiro()
-    clean_suffixed_nouns()
+    # clean_suffixed_nouns()
+    # clean_adj_e()
+    clean_adj_oa()

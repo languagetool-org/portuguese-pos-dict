@@ -10,6 +10,7 @@ Done:
 - metria.txt
 - eiro_ario.txt
 - suffixed_nouns.txt
+- adj_e.txt and adj_oa.txt
 
 Won't do:
 - years.txt
