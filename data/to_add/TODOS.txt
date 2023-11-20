@@ -11,6 +11,7 @@ Done:
 - eiro_ario.txt
 - suffixed_nouns.txt
 - adj_e.txt and adj_oa.txt
+- weirdcase.txt
 
 Won't do:
 - years.txt

@@ -149,6 +149,12 @@ def clean_adj_oa():
     process_file('adj_oa.txt', 'D', 'fp', normaliser)
 
 
+def clean_weirdcase():
+    def normaliser(w: str) -> str:
+        return w
+    process_file('weirdcase.txt', '', '', normaliser)
+
+
 if __name__ == "__main__":
     VARIANTS = [PT_BR, PT_PT_90, PT_PT_45]
     br_dict = Dictionary()
@@ -173,4 +179,5 @@ if __name__ == "__main__":
     # clean_eiro()
     # clean_suffixed_nouns()
     # clean_adj_e()
-    clean_adj_oa()
+    # clean_adj_oa()
+    clean_weirdcase()
