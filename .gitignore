@@ -8,3 +8,6 @@ morfologik-lt/*.txt
 .xpr
 *.log
 *pycache__/
+**/test.dic
+**/test.aff
+**/test.out
