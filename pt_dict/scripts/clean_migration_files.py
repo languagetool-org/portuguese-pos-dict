@@ -164,6 +164,10 @@ def clean_weirdcase():
     clean_file('weirdcase.txt', '', '', do_nothing)
 
 
+def clean_foreign_weirdcase():
+    clean_file('foreign_weirdcase.txt', '', '', do_nothing)
+
+
 def clean_diminutives():
     clean_file("diminutives.txt", "B", "p", number_normaliser)
 
@@ -219,6 +223,22 @@ def clean_foreign_plural_ing():
 
 def clean_foreign_invariable_ing():
     clean_file("foreign_invariable_ing.txt", '', '', do_nothing)
+
+
+def clean_foreign_plural():
+    clean_file("foreign_plural_certain.txt", 'þ', 'þ', do_nothing)
+
+
+def clean_foreign_invariable():
+    clean_file("foreign_invariable_certain.txt", '', '', do_nothing)
+
+
+def clean_number_only_native_plural():
+    clean_file("number_only.txt", 'B', 'p', do_nothing)
+
+
+def clean_number_only_foreign_plural():
+    clean_file("number_only_uncertain_plural.txt", 'þ', 'þ', do_nothing)
 
 
 def write_to_txt(filename: str, words: set[str]):
@@ -336,4 +356,9 @@ if __name__ == "__main__":
     # clean_simple_proper()
     # clean_foreign_gender_number()
     # clean_foreign_plural_ing()
-    clean_foreign_invariable_ing()
+    # clean_foreign_invariable_ing()
+    # clean_foreign_weirdcase()
+    # clean_foreign_plural()
+    # clean_foreign_invariable()
+    clean_number_only_foreign_plural()
+    clean_number_only_native_plural()
