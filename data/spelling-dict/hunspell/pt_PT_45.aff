@@ -11,7 +11,7 @@ WORDCHARS -
 
 NOSUGGEST Ý
 
-PFX 0 Y 41
+PFX 0 Y 40
 PFX 0   0               atto            [^rsho]           PFSEM=atto+
 PFX 0   0               atto-           [hors]            PFSEM=atto+
 PFX 0   0               centi           [^rshi]           PFSEM=centi+
@@ -1332,7 +1332,7 @@ SFX L   0               -vos-iam        r               +AP=2,AN=p,P=3,N=p,T=c
 SFX L   0               -vos-ia         r               +AP=2,AN=p,P=1_3,N=s,T=c
 SFX L   0               -vos-ias        r               +AP=2,AN=p,P=2,N=s,T=c
 
-SFX P Y 212
+SFX P Y 213
 SFX P   0               -o              [aeiouéê]       +G=m,AN=s
 SFX P   ns              m-lo            ns              +G=m,AN=s
 SFX P   s               -lo             [^ná]s          +G=m,AN=s

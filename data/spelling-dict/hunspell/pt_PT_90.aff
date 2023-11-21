@@ -790,7 +790,7 @@ SFX X   gir             jam             gir             +P=3,N=p,T=i
 SFX X   quir            cam             quir            +P=3,N=p,T=i
 SFX X   uir             am              guir            +P=3,N=p,T=i
 
-SFX Y Y 148
+SFX Y Y 151
 SFX Y   r               va              ar              +P=1_3,N=s,T=pi
 SFX Y   r               vas             ar              +P=2,N=s,T=pi
 SFX Y   ar              ávamos          ar              +P=1,N=p,T=pi
@@ -803,7 +803,7 @@ SFX Y   gar             guei            gar             +P=1,N=s,T=pp
 SFX Y   çar             cei             çar             +P=1,N=s,T=pp
 SFX Y   r               ste             ar              +P=2,N=s,T=pp
 SFX Y   r               mos             ar              +P=2,N=s,T=pp
-SFX Y   r               mo-nos             ar              +P=2,N=s,T=pp
+SFX Y   r               mo-nos          ar              +P=2,N=s,T=pp
 SFX Y   ar              ou              ar              +P=3,N=s,T=pp
 SFX Y   ar              ámos            ar              +P=1,N=p,T=pp
 SFX Y   ar              ámo-nos         ar              +P=1,N=p,T=pp
@@ -853,6 +853,7 @@ SFX Y   er              i               er              +P=1,N=s,T=pp
 SFX Y   r               ste             er              +P=2,N=s,T=pp
 SFX Y   r               u               er              +P=3,N=s,T=pp
 SFX Y   r               mos             er              +P=1,N=p,T=pp
+SFX Y   r               mo-nos          er              +P=1,N=p,T=pp
 SFX Y   r               stes            er              +P=2,N=p,T=pp
 SFX Y   0               am              er              +P=3,N=p,T=pp
 SFX Y   0               a               er              +P=1_3,N=s,T=pmp
@@ -865,7 +866,7 @@ SFX Y   0               ei              er              +P=1,N=s,T=f
 SFX Y   0               ás              er              +P=2,N=s,T=f
 SFX Y   0               á               er              +P=3,N=s,T=f
 SFX Y   0               emos            er              +P=1,N=p,T=f
-SFX Y   0               emo-nos         er              +P=1,N=p,T=f
+SFX Y   0               -nos-emos       er              +P=1,N=p,T=f
 SFX Y   0               eis             er              +P=2,N=p,T=f
 SFX Y   0               ão              er              +P=3,N=p,T=f
 SFX Y   r               sse             er              +P=1_3,N=s,T=pic
@@ -876,12 +877,13 @@ SFX Y   er              êsseis          er              +P=2,N=p,T=pic
 SFX Y   r               ssem            er              +P=3,N=p,T=pic
 SFX Y   0               es              er              +P=2,N=s,T=fc
 SFX Y   0               mos             er              +P=1,N=p,T=fc
+SFX Y   0               mo-lo           er              +P=1,N=p,T=fc
 SFX Y   0               des             er              +P=2,N=p,T=fc
 SFX Y   0               em              er              +P=3,N=p,T=fc
 SFX Y   0               ia              er              +P=1_3,N=s,T=c
 SFX Y   0               ias             er              +P=2,N=s,T=c
 SFX Y   0               íamos           er              +P=1,N=p,T=c
-SFX Y   0               íamo-nos        er              +P=1,N=p,T=c
+SFX Y   0               -nos-íamos      er              +P=1,N=p,T=c
 SFX Y   0               íeis            er              +P=2,N=p,T=c
 SFX Y   0               iam             er              +P=3,N=p,T=c
 SFX Y   r               ndo             er              +T=g
@@ -915,7 +917,7 @@ SFX Y   0               ei              ir              +P=1,N=s,T=f
 SFX Y   0               ás              ir              +P=2,N=s,T=f
 SFX Y   0               á               ir              +P=3,N=s,T=f
 SFX Y   0               emos            ir              +P=1,N=p,T=f
-SFX Y   0               emo-nos         ir              +P=1,N=p,T=f
+SFX Y   0               -nos-emos       ir              +P=1,N=p,T=f
 SFX Y   0               eis             ir              +P=2,N=p,T=f
 SFX Y   0               ão              ir              +P=3,N=p,T=f
 SFX Y   r               sse             ir              +P=1_3,N=s,T=pic
@@ -926,12 +928,13 @@ SFX Y   ir              ísseis          ir              +P=2,N=p,T=pic
 SFX Y   r               ssem            ir              +P=3,N=p,T=pic
 SFX Y   0               es              ir              +P=2,N=s,T=fc
 SFX Y   0               mos             ir              +P=1,N=p,T=fc
+SFX Y   0               mo-nos          ir           +P=1,N=p,T=fc
 SFX Y   0               des             ir              +P=2,N=p,T=fc
 SFX Y   0               em              ir              +P=3,N=p,T=fc
 SFX Y   0               ia              ir              +P=1_3,N=s,T=c
 SFX Y   0               ias             ir              +P=2,N=s,T=c
 SFX Y   0               íamos           ir              +P=1,N=p,T=c
-SFX Y   0               íamo-nos        ir              +P=1,N=p,T=c
+SFX Y   0               -nos-íamos      ir              +P=1,N=p,T=c
 SFX Y   0               íeis            ir              +P=2,N=p,T=c
 SFX Y   0               iam             ir              +P=3,N=p,T=c
 SFX Y   r               ndo             ir              +T=g
@@ -1374,7 +1377,7 @@ SFX L   0               -vos-iam        r               +AP=2,AN=p,P=3,N=p,T=c
 SFX L   0               -vos-ia         r               +AP=2,AN=p,P=1_3,N=s,T=c
 SFX L   0               -vos-ias        r               +AP=2,AN=p,P=2,N=s,T=c
 
-SFX P Y 212
+SFX P Y 213
 SFX P   0               -o              [aeiouéê]       +G=m,AN=s
 SFX P   ns              m-lo            ns              +G=m,AN=s
 SFX P   s               -lo             [^ná]s          +G=m,AN=s
