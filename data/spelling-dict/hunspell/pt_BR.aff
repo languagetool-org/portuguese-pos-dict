@@ -1413,14 +1413,15 @@ SFX A   0     as      [lmr]
 
 # Plural -B- Genérico - (ão ões) - (l lis) - (r res)...
 
-SFX B Y 7
+SFX B Y 8
 SFX B   0     s        [^ã][gpkdywbfcntaiouáéíóúôêã]
 SFX B   0     s        e
-SFX B   0     es       [rsz]
+SFX B   0     es       [rszx]
 SFX B   ão    ões      ão
 SFX B   l     s        il
 SFX B   l     is       [^i]l
 SFX B   m     ns       m
+SFX B   0     es       [cs]h
 
 # Plural -þ- specifically for English words with straightforward -s plurals, e.g. surfer-surfers, jam-jams
 SFX þ Y 1
@@ -2239,10 +2240,7 @@ SFX 7   0      ezinhas  r
 
 # VERBOS REGULARES -a- Todas as terminações
 
-SFX a Y 211
-SFX a   ar      á       ar
-SFX a   or      ô       or
-SFX a   er      ê       er
+SFX a Y 197
 SFX a   0       a       [aei]r
 SFX a   0       á       [aei]r
 SFX a   0       am      [aei]r
@@ -2253,7 +2251,6 @@ SFX a   0       des     [aei]r
 SFX a   0       ei      [aei]r
 SFX a   0       eis     [aei]r
 SFX a   0       em      [aei]r
-SFX a   0       emo     [aei]r
 SFX a   0       emos    [aei]r
 SFX a   0       es      [aei]r
 SFX a   0       ia      [aei]r
@@ -2261,7 +2258,6 @@ SFX a   0       iam     [aei]r
 SFX a   0       íamos   [aei]r
 SFX a   0       ias     [aei]r
 SFX a   0       íeis    [aei]r
-SFX a   0       mo      [aei]r
 SFX a   0       mos     [aei]r
 SFX a   ar      áramos  ar
 SFX a   ar      áreis   ar
@@ -2273,7 +2269,6 @@ SFX a   ar      e       [^cgç]ar
 SFX a   ar      ei      [^cgç]ar
 SFX a   ar      eis     [^cgç]ar
 SFX a   ar      em      [^cgç]ar
-SFX a   ar      emo     [^cgç]ar
 SFX a   ar      emos    [^cgç]ar
 SFX a   ar      es      [^cgç]ar
 SFX a   ar      o       ar
@@ -2283,20 +2278,17 @@ SFX a   çar     ce      çar
 SFX a   çar     cei     çar
 SFX a   çar     ceis    çar
 SFX a   çar     cem     çar
-SFX a   çar     cemo    çar
 SFX a   çar     cemos   çar
 SFX a   çar     ces     çar
 SFX a   car     que     car
 SFX a   car     quei    car
 SFX a   car     queis   car
 SFX a   car     quem    car
-SFX a   car     quemo   car
 SFX a   car     quemos  car
 SFX a   car     ques    car
 SFX a   cer     ça      cer
 SFX a   cer     çais    cer
 SFX a   cer     çam     cer
-SFX a   cer     çamo    cer
 SFX a   cer     çamos   cer
 SFX a   cer     ças     cer
 SFX a   cer     ço      cer
@@ -2345,14 +2337,12 @@ SFX a   ever    itos    screver
 SFX a   ger     ja      ger
 SFX a   ger     jais    ger
 SFX a   ger     jam     ger
-SFX a   ger     jamo    ger
 SFX a   ger     jamos   ger
 SFX a   ger     jas     ger
 SFX a   ger     jo      ger
 SFX a   guer    ga      guer
 SFX a   guer    gais    guer
 SFX a   guer    gam     guer
-SFX a   guer    gamo    guer
 SFX a   guer    gamos   guer
 SFX a   guer    gas     guer
 SFX a   guer    go      guer
@@ -2360,13 +2350,11 @@ SFX a   ir      0       uzir
 SFX a   ir      a       [^c]ir
 SFX a   ir      ais     [^c]ir
 SFX a   ir      am      [^c]ir
-SFX a   ir      amo     [^c]ir
 SFX a   ir      amos    [^c]ir
 SFX a   ir      as      [^c]ir
 SFX a   cir     ça      cir
 SFX a   cir     çais    cir
 SFX a   cir     çam     cir
-SFX a   cir     çamo    cir
 SFX a   cir     çamos   cir
 SFX a   cir     ças     cir
 SFX a   ulir    ole     ulir
@@ -2428,7 +2416,6 @@ SFX a   r       díssimos [^r]ir
 SFX a   r       i       [ae]r
 SFX a   r       is      [ae]r
 SFX a   r       m       [ae]r
-SFX a   r       mo      [aei]r
 SFX a   r       mos     [aei]r
 SFX a   r       ndo     [aei]r
 SFX a   r       s       [aei]r
@@ -2486,11 +2473,7 @@ SFX b   er      ido-lhes  er
 
 # VERBOS -c-  Terminados em VIR TER AIR GUIR GIR GAR: 
 #             intervir convir manter conter sair seguir distinguir  
-
-SFX c Y 902
-SFX c  ar   á     ar
-SFX c  er   ê     er
-SFX c  or   ô     or
+SFX c Y 899
 SFX c   0       á        [üu]ir
 SFX c   0       ão       [üu]ir
 SFX c   0       ás       [üu]ir
@@ -3390,6 +3373,7 @@ SFX c   r      stes      uitar
 SFX c   r      va        uitar
 SFX c   r      vam       uitar
 SFX c   r      vas       uitar
+
 
 
 # VERBOS -d- EXCEÇÕES: rir, sorrir, cerzir, explodir, demolir
@@ -4716,11 +4700,8 @@ SFX g   r       dos       gear
 #                          (desfazer              reouvir transferir   pedir)
 #            guar quar     (desaguar coliquar  deslinguar  averiguar adequar)
 # adequar includes the regular forms, which are commonplace in pt-BR
-
-SFX h Y 632
-SFX h   ar       á            ar
-SFX h   er       ê            er
-SFX h   or       ô            or
+#
+SFX h Y 629
 SFX h   or       õe           or
 SFX h   or       õem          or
 SFX h   or       ões          or
@@ -7445,8 +7426,8 @@ SFX k   udir    odem-nos       cudir
 
 
 # ÊNCLISES E MESÓCLISES -m- Para verbos da regra -c- 
-
-SFX m Y 4681
+#
+SFX m Y 4730
 SFX m   er      ê-la-á         ter
 SFX m   er      ê-las-á        ter
 SFX m   0       -lhe-á         ter
@@ -7486,6 +7467,10 @@ SFX m   er      ê-la-emos      ter
 SFX m   er      ê-lo-emos      ter
 SFX m   er      ê-los-emos     ter
 SFX m   er      ê-las-emos     ter
+SFX m   er      ê-lo-íamos     ter
+SFX m   er      ê-la-íamos     ter
+SFX m   er      ê-los-íamos    ter
+SFX m   er      ê-las-íamos    ter
 SFX m   0       -lhe-emos      ter
 SFX m   0       -lhes-emos     ter
 SFX m   0       -nos-emos      ter
@@ -7499,7 +7484,7 @@ SFX m   0       -lhe-iam       ter
 SFX m   0       -me-iam        ter
 SFX m   0       -se-iam        ter
 SFX m   0       -te-iam        ter
-SFX m   0       íamo-nos       ter
+SFX m   0       -nos-íamos       ter
 SFX m   0       mos-lhe        ter
 SFX m   0       mos-lhes       ter
 SFX m   0       mos-te         ter
@@ -7523,6 +7508,12 @@ SFX m   er      êm-nos         ter
 SFX m   er      êm-se          ter
 SFX m   er      êm-te          ter
 SFX m   er      êm-vos         ter
+SFX m   er      emo-lo         ter
+SFX m   er      emo-la         ter
+SFX m   er      emo-los        ter
+SFX m   er      emo-las        ter
+SFX m   er      emos-lhe       ter
+SFX m   er      emos-lhes      ter
 SFX m   er      inha-me        ter
 SFX m   er      inha-te        ter
 SFX m   er      inha-se        ter
@@ -7554,7 +7545,7 @@ SFX m   er      ive-as         ter
 SFX m   er      ive-o          ter
 SFX m   er      ive-os         ter
 SFX m   er      ivemo-nos      ter
-SFX m   er      ivemo-vos      ter
+SFX m   er      ivemos-vos      ter
 SFX m   er      ivemos-lhe     ter
 SFX m   er      ivemos-lhes    ter
 SFX m   er      ivemos-te      ter
@@ -7583,6 +7574,15 @@ SFX m   er      iveram-nos     ter
 SFX m   er      iveram-se      ter
 SFX m   er      iveram-te      ter
 SFX m   er      iveram-vos     ter
+SFX m   er      ivéramos-vos   ter
+SFX m   er      ivéramos-te    ter
+SFX m   er      ivéramos-lhe   ter
+SFX m   er      ivéramos-lhes  ter
+SFX m   er      ivéramo-lo     ter
+SFX m   er      ivéramo-los    ter
+SFX m   er      ivéramo-la     ter
+SFX m   er      ivéramo-las    ter
+SFX m   er      ivéramo-nos    ter
 SFX m   er      iverem-lhe     ter
 SFX m   er      iverem-lhes    ter
 SFX m   er      iverem-me      ter
@@ -7594,10 +7594,14 @@ SFX m   er      iverem-se      ter
 SFX m   er      iverem-te      ter
 SFX m   er      iverem-vos     ter
 SFX m   er      ivermo-nos     ter
-SFX m   er      ivermo-vos     ter
+SFX m   er      ivermos-vos    ter
 SFX m   er      ivermos-lhe    ter
 SFX m   er      ivermos-lhes   ter
 SFX m   er      ivermos-te     ter
+SFX m   er      ivermo-lo      ter
+SFX m   er      ivermo-los     ter
+SFX m   er      ivermo-la      ter
+SFX m   er      ivermo-las     ter
 SFX m   er      ivesse-a       ter
 SFX m   er      ivesse-as      ter
 SFX m   er      ivesse-lhe     ter
@@ -7619,6 +7623,15 @@ SFX m   er      ivessem-nos    ter
 SFX m   er      ivessem-se     ter
 SFX m   er      ivessem-te     ter
 SFX m   er      ivessem-vos    ter
+SFX m   er      ivéssemo-lo    ter
+SFX m   er      ivéssemo-los   ter
+SFX m   er      ivéssemo-la    ter
+SFX m   er      ivéssemo-las   ter
+SFX m   er      ivéssemos-lhe  ter
+SFX m   er      ivéssemos-lhes ter
+SFX m   er      ivéssemo-nos   ter
+SFX m   er      ivéssemos-vos  ter
+SFX m   er      ivéssemos-te   ter
 SFX m   er      iveste-a       ter
 SFX m   er      iveste-as      ter
 SFX m   er      iveste-lhe     ter
@@ -7631,7 +7644,7 @@ SFX m   er      iveste-se      ter
 SFX m   er      iveste-te      ter
 SFX m   er      iveste-vos     ter
 SFX m   r       mo-nos         ter
-SFX m   r       mo-vos         ter
+SFX m   r       mos-vos        ter
 SFX m   r       mos-lhe        ter
 SFX m   r       mos-lhes       ter
 SFX m   r       mos-te         ter
@@ -7670,10 +7683,14 @@ SFX m   r       nham-se        ter
 SFX m   r       nham-te        ter
 SFX m   r       nham-vos       ter
 SFX m   r       nhamo-nos      ter
-SFX m   r       nhamo-vos      ter
+SFX m   r       nhamos-vos     ter
 SFX m   r       nhamos-lhe     ter
 SFX m   r       nhamos-lhes    ter
 SFX m   r       nhamos-te      ter
+SFX m   r       nhamo-lo       ter
+SFX m   r       nhamo-los      ter
+SFX m   r       nhamo-la       ter
+SFX m   r       nhamo-las      ter
 SFX m   r       nho-a          ter
 SFX m   r       nho-as         ter
 SFX m   r       nho-lhe        ter
@@ -9016,75 +9033,75 @@ SFX m   0       em-vos         ter
 SFX m   0       em-vos         valer
 SFX m   0       em-vos         vestir
 SFX m   0       em-vos         vir
-SFX m   0       íamo-nos       [aüu]ir
-SFX m   0       íamo-nos       boiar
-SFX m   0       íamo-nos       denegrir
-SFX m   0       íamo-nos       gar
-SFX m   0       íamo-nos       gir
-SFX m   0       íamo-nos       iuvar
-SFX m   0       íamo-nos       oer
-SFX m   0       íamo-nos       oibir
-SFX m   0       íamo-nos       prazer
-SFX m   0       íamo-nos       subir
-SFX m   0       íamo-nos       valer
-SFX m   0       íamo-nos       vestir
-SFX m   0       íamo-nos       vir
-SFX m   0       íamo-vos       [aüu]ir
-SFX m   0       íamo-vos       boiar
-SFX m   0       íamo-vos       denegrir
-SFX m   0       íamo-vos       gar
-SFX m   0       íamo-vos       gir
-SFX m   0       íamo-vos       iuvar
-SFX m   0       íamo-vos       oer
-SFX m   0       íamo-vos       oibir
-SFX m   0       íamo-vos       prazer
-SFX m   0       íamo-vos       subir
-SFX m   0       íamo-vos       ter
-SFX m   0       íamo-vos       valer
-SFX m   0       íamo-vos       vestir
-SFX m   0       íamo-vos       vir
-SFX m   0       íamos-lhe      [aüu]ir
-SFX m   0       íamos-lhe      boiar
-SFX m   0       íamos-lhe      denegrir
-SFX m   0       íamos-lhe      gar
-SFX m   0       íamos-lhe      gir
-SFX m   0       íamos-lhe      iuvar
-SFX m   0       íamos-lhe      oer
-SFX m   0       íamos-lhe      oibir
-SFX m   0       íamos-lhe      prazer
-SFX m   0       íamos-lhe      subir
-SFX m   0       íamos-lhe      ter
-SFX m   0       íamos-lhe      valer
-SFX m   0       íamos-lhe      vestir
-SFX m   0       íamos-lhe      vir
-SFX m   0       íamos-lhes     [aüu]ir
-SFX m   0       íamos-lhes     boiar
-SFX m   0       íamos-lhes     denegrir
-SFX m   0       íamos-lhes     gar
-SFX m   0       íamos-lhes     gir
-SFX m   0       íamos-lhes     iuvar
-SFX m   0       íamos-lhes     oer
-SFX m   0       íamos-lhes     oibir
-SFX m   0       íamos-lhes     prazer
-SFX m   0       íamos-lhes     subir
-SFX m   0       íamos-lhes     ter
-SFX m   0       íamos-lhes     valer
-SFX m   0       íamos-lhes     vestir
-SFX m   0       íamos-lhes     vir
-SFX m   0       íamos-te       [aüu]ir
-SFX m   0       íamos-te       boiar
-SFX m   0       íamos-te       denegrir
-SFX m   0       íamos-te       gar
-SFX m   0       íamos-te       gir
-SFX m   0       íamos-te       iuvar
-SFX m   0       íamos-te       oer
-SFX m   0       íamos-te       oibir
-SFX m   0       íamos-te       prazer
-SFX m   0       íamos-te       subir
-SFX m   0       íamos-te       ter
-SFX m   0       íamos-te       valer
-SFX m   0       íamos-te       vestir
-SFX m   0       íamos-te       vir
+SFX m   0       -nos-íamos       [aüu]ir
+SFX m   0       -nos-íamos       boiar
+SFX m   0       -nos-íamos       denegrir
+SFX m   0       -nos-íamos       gar
+SFX m   0       -nos-íamos       gir
+SFX m   0       -nos-íamos       iuvar
+SFX m   0       -nos-íamos       oer
+SFX m   0       -nos-íamos       oibir
+SFX m   0       -nos-íamos       prazer
+SFX m   0       -nos-íamos       subir
+SFX m   0       -nos-íamos       valer
+SFX m   0       -nos-íamos       vestir
+SFX m   0       -nos-íamos       vir
+SFX m   0       -vos-íamos       [aüu]ir
+SFX m   0       -vos-íamos       boiar
+SFX m   0       -vos-íamos       denegrir
+SFX m   0       -vos-íamos       gar
+SFX m   0       -vos-íamos       gir
+SFX m   0       -vos-íamos       iuvar
+SFX m   0       -vos-íamos       oer
+SFX m   0       -vos-íamos       oibir
+SFX m   0       -vos-íamos       prazer
+SFX m   0       -vos-íamos       subir
+SFX m   0       -vos-íamos       ter
+SFX m   0       -vos-íamos       valer
+SFX m   0       -vos-íamos       vestir
+SFX m   0       -vos-íamos       vir
+SFX m   0       -lhe-íamos      [aüu]ir
+SFX m   0       -lhe-íamos      boiar
+SFX m   0       -lhe-íamos      denegrir
+SFX m   0       -lhe-íamos      gar
+SFX m   0       -lhe-íamos      gir
+SFX m   0       -lhe-íamos      iuvar
+SFX m   0       -lhe-íamos      oer
+SFX m   0       -lhe-íamos      oibir
+SFX m   0       -lhe-íamos      prazer
+SFX m   0       -lhe-íamos      subir
+SFX m   0       -lhe-íamos      ter
+SFX m   0       -lhe-íamos      valer
+SFX m   0       -lhe-íamos      vestir
+SFX m   0       -lhe-íamos      vir
+SFX m   0       -lhes-íamos     [aüu]ir
+SFX m   0       -lhes-íamos     boiar
+SFX m   0       -lhes-íamos     denegrir
+SFX m   0       -lhes-íamos     gar
+SFX m   0       -lhes-íamos     gir
+SFX m   0       -lhes-íamos     iuvar
+SFX m   0       -lhes-íamos     oer
+SFX m   0       -lhes-íamos     oibir
+SFX m   0       -lhes-íamos     prazer
+SFX m   0       -lhes-íamos     subir
+SFX m   0       -lhes-íamos     ter
+SFX m   0       -lhes-íamos     valer
+SFX m   0       -lhes-íamos     vestir
+SFX m   0       -lhes-íamos     vir
+SFX m   0       -te-íamos       [aüu]ir
+SFX m   0       -te-íamos       boiar
+SFX m   0       -te-íamos       denegrir
+SFX m   0       -te-íamos       gar
+SFX m   0       -te-íamos       gir
+SFX m   0       -te-íamos       iuvar
+SFX m   0       -te-íamos       oer
+SFX m   0       -te-íamos       oibir
+SFX m   0       -te-íamos       prazer
+SFX m   0       -te-íamos       subir
+SFX m   0       -te-íamos       ter
+SFX m   0       -te-íamos       valer
+SFX m   0       -te-íamos       vestir
+SFX m   0       -te-íamos       vir
 SFX m   0       mo-nos         [aüu]ir
 SFX m   0       mo-nos         boiar
 SFX m   0       mo-nos         denegrir
@@ -9096,23 +9113,27 @@ SFX m   0       mo-nos         oibir
 SFX m   0       mo-nos         prazer
 SFX m   0       mo-nos         subir
 SFX m   0       mo-nos         ter
+SFX m   0       mo-lo          ter
+SFX m   0       mo-los         ter
+SFX m   0       mo-la          ter
+SFX m   0       mo-las         ter
 SFX m   0       mo-nos         valer
 SFX m   0       mo-nos         vestir
 SFX m   0       mo-nos         vir
-SFX m   0       mo-vos         [aüu]ir
-SFX m   0       mo-vos         boiar
-SFX m   0       mo-vos         denegrir
-SFX m   0       mo-vos         gar
-SFX m   0       mo-vos         gir
-SFX m   0       mo-vos         iuvar
-SFX m   0       mo-vos         oer
-SFX m   0       mo-vos         oibir
-SFX m   0       mo-vos         prazer
-SFX m   0       mo-vos         subir
-SFX m   0       mo-vos         ter
-SFX m   0       mo-vos         valer
-SFX m   0       mo-vos         vestir
-SFX m   0       mo-vos         vir
+SFX m   0       mos-vos         [aüu]ir
+SFX m   0       mos-vos         boiar
+SFX m   0       mos-vos         denegrir
+SFX m   0       mos-vos         gar
+SFX m   0       mos-vos         gir
+SFX m   0       mos-vos         iuvar
+SFX m   0       mos-vos         oer
+SFX m   0       mos-vos         oibir
+SFX m   0       mos-vos         prazer
+SFX m   0       mos-vos         subir
+SFX m   0       mos-vos         ter
+SFX m   0       mos-vos         valer
+SFX m   0       mos-vos         vestir
+SFX m   0       mos-vos         vir
 SFX m   0       mos-lhe        [aüu]ir
 SFX m   0       mos-lhe        boiar
 SFX m   0       mos-lhe        denegrir
@@ -9159,9 +9180,9 @@ SFX m   ar      á-los          ar
 SFX m   ar      ávamo-nos      boiar
 SFX m   ar      ávamo-nos      gar
 SFX m   ar      ávamo-nos      iuvar
-SFX m   ar      ávamo-vos      boiar
-SFX m   ar      ávamo-vos      gar
-SFX m   ar      ávamo-vos      iuvar
+SFX m   ar      ávamos-vos      boiar
+SFX m   ar      ávamos-vos      gar
+SFX m   ar      ávamos-vos      iuvar
 SFX m   ar      ávamos-lhe     boiar
 SFX m   ar      ávamos-lhe     gar
 SFX m   ar      ávamos-lhe     iuvar
@@ -9191,8 +9212,8 @@ SFX m   ar      ei-vos         boiar
 SFX m   ar      ei-vos         iuvar
 SFX m   ar      emo-nos        boiar
 SFX m   ar      emo-nos        iuvar
-SFX m   ar      emo-vos        boiar
-SFX m   ar      emo-vos        iuvar
+SFX m   ar      emos-vos        boiar
+SFX m   ar      emos-vos        iuvar
 SFX m   ar      emo-la         boiar
 SFX m   ar      emo-la         iuvar
 SFX m   ar      emo-las        boiar
@@ -9279,7 +9300,7 @@ SFX m   ar      uem-se         gar
 SFX m   ar      uem-te         gar
 SFX m   ar      uem-vos        gar
 SFX m   ar      uemo-nos       gar
-SFX m   ar      uemo-vos       gar
+SFX m   ar      uemos-vos       gar
 SFX m   ar      uemos-lhe      gar
 SFX m   ar      uemos-lhes     gar
 SFX m   ar      uemos-te       gar
@@ -9309,7 +9330,7 @@ SFX m   egrir   igram-se       denegrir
 SFX m   egrir   igram-te       denegrir
 SFX m   egrir   igram-vos      denegrir
 SFX m   egrir   igramo-nos     denegrir
-SFX m   egrir   igramo-vos     denegrir
+SFX m   egrir   igramos-vos     denegrir
 SFX m   egrir   igramos-lhe    denegrir
 SFX m   egrir   igramos-lhes   denegrir
 SFX m   egrir   igramos-te     denegrir
@@ -9424,8 +9445,8 @@ SFX m   er      am-vos         oer
 SFX m   er      am-vos         prazer
 SFX m   er      amo-nos        oer
 SFX m   er      amo-nos        prazer
-SFX m   er      amo-vos        oer
-SFX m   er      amo-vos        prazer
+SFX m   er      amos-vos        oer
+SFX m   er      amos-vos        prazer
 SFX m   er      amos-lhe       oer
 SFX m   er      amos-lhe       prazer
 SFX m   er      amos-lhes      oer
@@ -9439,9 +9460,9 @@ SFX m   er      ê-los          er
 SFX m   er      êramo-nos      oer
 SFX m   er      êramo-nos      prazer
 SFX m   er      êramo-nos      valer
-SFX m   er      êramo-vos      oer
-SFX m   er      êramo-vos      prazer
-SFX m   er      êramo-vos      valer
+SFX m   er      êramos-vos      oer
+SFX m   er      êramos-vos      prazer
+SFX m   er      êramos-vos      valer
 SFX m   er      êramos-lhe     oer
 SFX m   er      êramos-lhe     prazer
 SFX m   er      êramos-lhe     valer
@@ -9547,14 +9568,14 @@ SFX m   er      íam-te         oer
 SFX m   er      iam-te         valer
 SFX m   er      íam-vos        oer
 SFX m   er      iam-vos        valer
-SFX m   er      íamos-lhe      oer
-SFX m   er      íamos-lhe      valer
-SFX m   er      íamos-lhes     oer
-SFX m   er      íamos-lhes     valer
-SFX m   er      íamos-nos      oer
-SFX m   er      íamos-nos      valer
-SFX m   er      íamos-vos      oer
-SFX m   er      íamos-vos      valer
+SFX m   er      -lhe-íamos      oer
+SFX m   er      -lhe-íamos      valer
+SFX m   er      -lhes-íamos     oer
+SFX m   er      -lhes-íamos     valer
+SFX m   er      -nos-íamos      oer
+SFX m   er      -nos-íamos      valer
+SFX m   er      -vos-íamos      oer
+SFX m   er      -vos-íamos      valer
 SFX m   er      inha-a         ter
 SFX m   er      inha-lhes      ter
 SFX m   er      inha-se        ter
@@ -9564,6 +9585,15 @@ SFX m   er      inham-me       ter
 SFX m   er      inham-no       ter
 SFX m   er      inham-se       ter
 SFX m   er      inham-te       ter
+SFX m   er      ínhamo-la      ter
+SFX m   er      ínhamo-las     ter
+SFX m   er      ínhamo-lo      ter
+SFX m   er      ínhamo-los     ter
+SFX m   er      ínhamo-nos     ter
+SFX m   er      ínhamos-vos    ter
+SFX m   er      ínhamos-lhe    ter
+SFX m   er      ínhamos-lhes   ter
+SFX m   er      ínhamos-te     ter
 SFX m   er      o-a            oer
 SFX m   er      o-a            prazer
 SFX m   er      o-as           oer
@@ -9815,9 +9845,9 @@ SFX m   ir      am-vos         subir
 SFX m   ir      amo-nos        uir
 SFX m   ir      amo-nos        oibir
 SFX m   ir      amo-nos        subir
-SFX m   ir      amo-vos        uir
-SFX m   ir      amo-vos        oibir
-SFX m   ir      amo-vos        subir
+SFX m   ir      amos-vos        uir
+SFX m   ir      amos-vos        oibir
+SFX m   ir      amos-vos        subir
 SFX m   ir      amos-lhe       uir
 SFX m   ir      amos-lhe       oibir
 SFX m   ir      amos-lhe       subir
@@ -9900,7 +9930,7 @@ SFX m   ir      emo-las        vir
 SFX m   ir      emo-lo         vir
 SFX m   ir      emo-los        vir
 SFX m   ir      emo-nos        vir
-SFX m   ir      emo-vos        vir
+SFX m   ir      emos-vos        vir
 SFX m   ir      emos-lhe       vir
 SFX m   ir      emos-lhes      vir
 SFX m   ir      emos-te        vir
@@ -9926,7 +9956,7 @@ SFX m   ir      enham-se       vir
 SFX m   ir      enham-te       vir
 SFX m   ir      enham-vos      vir
 SFX m   ir      enhamo-nos     vir
-SFX m   ir      enhamo-vos     vir
+SFX m   ir      enhamos-vos     vir
 SFX m   ir      enhamos-lhe    vir
 SFX m   ir      enhamos-lhes   vir
 SFX m   ir      enhamos-te     vir
@@ -9961,7 +9991,7 @@ SFX m   ir      íam-nos        air
 SFX m   ir      íam-se         air
 SFX m   ir      íam-te         air
 SFX m   ir      íam-vos        air
-SFX m   ir      íamo-nos       air
+SFX m   ir      -nos-íamos       air
 SFX m   ir      ía-a           [^qg]uir
 SFX m   ir      ía-as          [^qg]uir
 SFX m   ir      ía-lhe         [^qg]uir
@@ -9983,7 +10013,7 @@ SFX m   ir      íam-nos        [^qg]uir
 SFX m   ir      íam-se         [^qg]uir
 SFX m   ir      íam-te         [^qg]uir
 SFX m   ir      íam-vos        [^qg]uir
-SFX m   ir      íamo-nos       [^qg]uir
+SFX m   ir      -nos-íamos       [^qg]uir
 SFX m   r       a-a            [qg]uir
 SFX m   r       a-as           [qg]uir
 SFX m   r       a-lhe          [qg]uir
@@ -10006,35 +10036,35 @@ SFX m   r       am-se          [qg]uir
 SFX m   r       am-te          [qg]uir
 SFX m   r       am-vos         [qg]uir
 SFX m   r       amo-nos        [qg]uir
-SFX m   ir      íamo-nos       denegrir
-SFX m   ir      íamo-nos       gir
-SFX m   ir      íamo-nos       oibir
-SFX m   ir      íamo-nos       subir
-SFX m   ir      íamo-nos       vestir
-SFX m   ir      íamo-vos       [aüu]ir
-SFX m   ir      íamo-vos       denegrir
-SFX m   ir      íamo-vos       gir
-SFX m   ir      íamo-vos       oibir
-SFX m   ir      íamo-vos       subir
-SFX m   ir      íamo-vos       vestir
-SFX m   ir      íamos-lhe      [aüu]ir
-SFX m   ir      íamos-lhe      denegrir
-SFX m   ir      íamos-lhe      gir
-SFX m   ir      íamos-lhe      oibir
-SFX m   ir      íamos-lhe      subir
-SFX m   ir      íamos-lhe      vestir
-SFX m   ir      íamos-lhes     [aüu]ir
-SFX m   ir      íamos-lhes     denegrir
-SFX m   ir      íamos-lhes     gir
-SFX m   ir      íamos-lhes     oibir
-SFX m   ir      íamos-lhes     subir
-SFX m   ir      íamos-lhes     vestir
-SFX m   ir      íamos-te       [aüu]ir
-SFX m   ir      íamos-te       denegrir
-SFX m   ir      íamos-te       gir
-SFX m   ir      íamos-te       oibir
-SFX m   ir      íamos-te       subir
-SFX m   ir      íamos-te       vestir
+SFX m   ir      -nos-íamos       denegrir
+SFX m   ir      -nos-íamos       gir
+SFX m   ir      -nos-íamos       oibir
+SFX m   ir      -nos-íamos       subir
+SFX m   ir      -nos-íamos       vestir
+SFX m   ir      -vos-íamos       [aüu]ir
+SFX m   ir      -vos-íamos       denegrir
+SFX m   ir      -vos-íamos       gir
+SFX m   ir      -vos-íamos       oibir
+SFX m   ir      -vos-íamos       subir
+SFX m   ir      -vos-íamos       vestir
+SFX m   ir      -lhe-íamos      [aüu]ir
+SFX m   ir      -lhe-íamos      denegrir
+SFX m   ir      -lhe-íamos      gir
+SFX m   ir      -lhe-íamos      oibir
+SFX m   ir      -lhe-íamos      subir
+SFX m   ir      -lhe-íamos      vestir
+SFX m   ir      -lhes-íamos     [aüu]ir
+SFX m   ir      -lhes-íamos     denegrir
+SFX m   ir      -lhes-íamos     gir
+SFX m   ir      -lhes-íamos     oibir
+SFX m   ir      -lhes-íamos     subir
+SFX m   ir      -lhes-íamos     vestir
+SFX m   ir      -te-íamos       [aüu]ir
+SFX m   ir      -te-íamos       denegrir
+SFX m   ir      -te-íamos       gir
+SFX m   ir      -te-íamos       oibir
+SFX m   ir      -te-íamos       subir
+SFX m   ir      -te-íamos       vestir
 SFX m   ir      ído-a          air
 SFX m   ir      ído-as         air
 SFX m   ir      ído-lhe        air
@@ -10069,12 +10099,12 @@ SFX m   r       do-se          [qg]uir
 SFX m   r       do-te          [qg]uir
 SFX m   r       do-vos         [qg]uir
 SFX m   ir      ímo-nos        [aüu]ir
-SFX m   ir      ímo-vos        [aüu]ir
+SFX m   ir      ímos-vos        [aüu]ir
 SFX m   ir      ímos-lhe       [aüu]ir
 SFX m   ir      ímos-lhes      [aüu]ir
 SFX m   ir      ímos-te        [aüu]ir
 SFX m   ir      ínhamo-nos     vir
-SFX m   ir      ínhamo-vos     vir
+SFX m   ir      ínhamos-vos     vir
 SFX m   ir      ínhamos-lhe    vir
 SFX m   ir      ínhamos-lhes   vir
 SFX m   ir      ínhamos-te     vir
@@ -10669,7 +10699,7 @@ SFX m   r       am-vos         oibir
 SFX m   r       am-vos         subir
 SFX m   r       am-vos         vestir
 SFX m   r       amo-nos        air
-SFX m   r       amo-vos        air
+SFX m   r       amos-vos        air
 SFX m   r       amos-lhe       air
 SFX m   r       amos-lhes      air
 SFX m   r       amos-te        air
@@ -10772,22 +10802,22 @@ SFX m   r       do-vos         iuvar
 SFX m   r       do-vos         oibir
 SFX m   r       do-vos         subir
 SFX m   r       do-vos         vestir
-SFX m   r       ê-la-á         oer
-SFX m   r       ê-la-á         prazer
-SFX m   r       ê-la-á         ter
-SFX m   r       ê-la-á         valer
-SFX m   r       ê-la-emos      oer
-SFX m   r       ê-la-emos      prazer
-SFX m   r       ê-la-emos      ter
-SFX m   r       ê-la-emos      valer
-SFX m   r       ê-las-á        oer
-SFX m   r       ê-las-á        prazer
-SFX m   r       ê-las-á        ter
-SFX m   r       ê-las-á        valer
-SFX m   r       ê-las-emos     oer
-SFX m   r       ê-las-emos     prazer
-SFX m   r       ê-las-emos     ter
-SFX m   r       ê-las-emos     valer
+SFX m   er      ê-la-á         oer
+SFX m   er      ê-la-á         prazer
+SFX m   er      ê-la-á         ter
+SFX m   er      ê-la-á         valer
+SFX m   er      ê-la-emos      oer
+SFX m   er      ê-la-emos      prazer
+SFX m   er      ê-la-emos      ter
+SFX m   er      ê-la-emos      valer
+SFX m   er      ê-las-á        oer
+SFX m   er      ê-las-á        prazer
+SFX m   er      ê-las-á        ter
+SFX m   er      ê-las-á        valer
+SFX m   er      ê-las-emos     oer
+SFX m   er      ê-las-emos     prazer
+SFX m   er      ê-las-emos     ter
+SFX m   er      ê-las-emos     valer
 SFX m   r       er-lhe         vir
 SFX m   r       er-lhes        vir
 SFX m   r       er-me          vir
@@ -10826,7 +10856,7 @@ SFX m   r       erem-se        vir
 SFX m   r       erem-te        vir
 SFX m   r       erem-vos       vir
 SFX m   r       ermo-nos       vir
-SFX m   r       ermo-vos       vir
+SFX m   r       ermos-vos       vir
 SFX m   r       ermos-lhe      vir
 SFX m   r       ermos-lhes     vir
 SFX m   r       ermos-te       vir
@@ -10991,19 +11021,19 @@ SFX m   r       mo-nos         subir
 SFX m   r       mo-nos         valer
 SFX m   r       mo-nos         vestir
 SFX m   r       mo-nos         vir
-SFX m   r       mo-vos         boiar
-SFX m   r       mo-vos         denegrir
-SFX m   r       mo-vos         gar
-SFX m   r       mo-vos         gir
-SFX m   r       mo-vos         guir
-SFX m   r       mo-vos         iuvar
-SFX m   r       mo-vos         oer
-SFX m   r       mo-vos         oibir
-SFX m   r       mo-vos         prazer
-SFX m   r       mo-vos         subir
-SFX m   r       mo-vos         valer
-SFX m   r       mo-vos         vestir
-SFX m   r       mo-vos         vir
+SFX m   r       mos-vos         boiar
+SFX m   r       mos-vos         denegrir
+SFX m   r       mos-vos         gar
+SFX m   r       mos-vos         gir
+SFX m   r       mos-vos         guir
+SFX m   r       mos-vos         iuvar
+SFX m   r       mos-vos         oer
+SFX m   r       mos-vos         oibir
+SFX m   r       mos-vos         prazer
+SFX m   r       mos-vos         subir
+SFX m   r       mos-vos         valer
+SFX m   r       mos-vos         vestir
+SFX m   r       mos-vos         vir
 SFX m   r       mos-lhe        boiar
 SFX m   r       mos-lhe        denegrir
 SFX m   r       mos-lhe        gar
@@ -11946,18 +11976,18 @@ SFX m   0      -nos-iam      uitar
 SFX m   0      -se-iam       uitar
 SFX m   0      -te-iam       uitar
 SFX m   0      -vos-iam      uitar
-SFX m   0      íamo-nos      uitar
-SFX m   0      íamo-vos      uitar
-SFX m   0      íamos-lhe     uitar
-SFX m   0      íamos-lhes    uitar
-SFX m   0      íamos-te      uitar
+SFX m   0      -nos-íamos      uitar
+SFX m   0      -vos-íamos      uitar
+SFX m   0      -lhe-íamos     uitar
+SFX m   0      -lhes-íamos    uitar
+SFX m   0      -te-íamos      uitar
 SFX m   0      mo-nos        uitar
-SFX m   0      mo-vos        uitar
+SFX m   0      mos-vos        uitar
 SFX m   0      mos-lhe       uitar
 SFX m   0      mos-lhes      uitar
 SFX m   0      mos-te        uitar
 SFX m   ar     ávamo-nos     uitar
-SFX m   ar     ávamo-vos     uitar
+SFX m   ar     ávamos-vos     uitar
 SFX m   ar     ávamos-lhe    uitar
 SFX m   ar     ávamos-lhes   uitar
 SFX m   ar     ávamos-te     uitar
@@ -11972,7 +12002,7 @@ SFX m   ar     ei-se         uitar
 SFX m   ar     ei-te         uitar
 SFX m   ar     ei-vos        uitar
 SFX m   ar     emo-nos       uitar
-SFX m   ar     emo-vos       uitar
+SFX m   ar     emos-vos       uitar
 SFX m   ar     emos-lhe      uitar
 SFX m   ar     emos-lhes     uitar
 SFX m   ar     emos-te       uitar
@@ -12061,7 +12091,7 @@ SFX m   r      i-se          uitar
 SFX m   r      i-te          uitar
 SFX m   r      i-vos         uitar
 SFX m   r      mo-nos        uitar
-SFX m   r      mo-vos        uitar
+SFX m   r      mos-vos        uitar
 SFX m   r      mos-lhe       uitar
 SFX m   r      mos-lhes      uitar
 SFX m   r      mos-te        uitar
@@ -12130,10 +12160,7 @@ SFX m   r      vam-te        uitar
 SFX m   r      vam-vos       uitar
 
 
-
-
 # ÊNCLISES E MESÓCLISES -n- Para verbos da regra -d- 
-
 SFX n Y 1072
 SFX n   0      -me             [aei]r
 SFX n   0      -te             [aei]r
@@ -12309,12 +12336,12 @@ SFX n   0       em-nos         rir
 SFX n   0       em-se          rir
 SFX n   0       em-te          rir
 SFX n   0       em-vos         rir
-SFX n   0       -la-emos       rir
-SFX n   0       -las-emos      rir
+SFX n   r       -la-emos       rir
+SFX n   r       -las-emos      rir
 SFX n   0       -lhe-emos      rir
 SFX n   0       -lhes-emos     rir
-SFX n   0       -lo-emos       rir
-SFX n   0       -los-emos      rir
+SFX n   r       -lo-emos       rir
+SFX n   r       -los-emos      rir
 SFX n   0       -nos-emos      rir
 SFX n   0       -te-emos       rir
 SFX n   0       -vos-emos      rir
@@ -18667,7 +18694,7 @@ SFX q   r       do-se          gear
 
 # ÊNCLISES E MESÓCLISES -r- Para verbos da regra -h- 
 
-SFX r Y 3122
+SFX r Y 3155
 SFX r   0        -me             [aeio]r
 SFX r   0        -te             [aeio]r
 SFX r   0        -se             [aeio]r
@@ -19307,15 +19334,23 @@ SFX r   r        m-se            er
 SFX r   r        m-te            er
 SFX r   r        m-vos           er
 SFX r   0        mo-nos          er
-SFX r   0        mo-vos          er
-SFX r   0        mos-lhe         er
+SFX r   0        mos-vos         er
 SFX r   0        mos-lhes        er
+SFX r   0        mos-lhe         er
 SFX r   0        mos-te          er
+SFX r   0        mo-los          er
+SFX r   0        mo-lo           er
+SFX r   0        mo-las          er
+SFX r   0        mo-la           er
 SFX r   r        mo-nos          er
 SFX r   r        mo-vos          er
 SFX r   r        mos-lhe         er
 SFX r   r        mos-lhes        er
 SFX r   r        mos-te          er
+SFX r   r        mo-lo           er
+SFX r   r        mo-lo           er
+SFX r   r        mo-la           er
+SFX r   r        mo-la           er
 SFX r   r        ndo-a           er
 SFX r   r        ndo-as          er
 SFX r   r        ndo-lhe         er
@@ -19362,8 +19397,13 @@ SFX r   er       iam-te          zer
 SFX r   er       iam-vos         zer
 SFX r   er       íamos-lhe       zer
 SFX r   er       íamos-lhes      zer
-SFX r   er       íamos-nos       zer
+SFX r   er       íamos-te        zer
+SFX r   er       íamo-nos        zer
 SFX r   er       íamos-vos       zer
+SFX r   er       íamo-lo         zer
+SFX r   er       íamo-la         zer
+SFX r   er       íamo-los        zer
+SFX r   er       íamo-las        zer
 SFX r   r        -a              zer
 SFX r   r        -as             zer
 SFX r   r        -lhe            zer
@@ -19549,6 +19589,15 @@ SFX r   azer     izeram-nos      fazer
 SFX r   azer     izeram-se       fazer
 SFX r   azer     izeram-te       fazer
 SFX r   azer     izeram-vos      fazer
+SFX r   azer     izéramos-vos    fazer
+SFX r   azer     izéramos-te     fazer
+SFX r   azer     izéramos-lhe    fazer
+SFX r   azer     izéramos-lhes   fazer
+SFX r   azer     izéramo-nos     fazer
+SFX r   azer     izéramo-lo      fazer
+SFX r   azer     izéramo-los     fazer
+SFX r   azer     izéramo-la      fazer
+SFX r   azer     izéramo-las     fazer
 SFX r   azer     izerem-lhe      fazer
 SFX r   azer     izerem-lhes     fazer
 SFX r   azer     izerem-me       fazer
@@ -19560,10 +19609,14 @@ SFX r   azer     izerem-se       fazer
 SFX r   azer     izerem-te       fazer
 SFX r   azer     izerem-vos      fazer
 SFX r   azer     izermo-nos      fazer
-SFX r   azer     izermo-vos      fazer
+SFX r   azer     izermos-vos     fazer
 SFX r   azer     izermos-lhe     fazer
 SFX r   azer     izermos-lhes    fazer
 SFX r   azer     izermos-te      fazer
+SFX r   azer     izermo-los      fazer
+SFX r   azer     izermo-las      fazer
+SFX r   azer     izermo-lo       fazer
+SFX r   azer     izermo-la       fazer
 SFX r   azer     izesse-a        fazer
 SFX r   azer     izesse-as       fazer
 SFX r   azer     izesse-lhe      fazer
@@ -19585,6 +19638,13 @@ SFX r   azer     izessem-nos     fazer
 SFX r   azer     izessem-se      fazer
 SFX r   azer     izessem-te      fazer
 SFX r   azer     izessem-vos     fazer
+SFX r   azer     izéssemos-vos   fazer
+SFX r   azer     izéssemos-te    fazer
+SFX r   azer     izéssemos-lhe   fazer
+SFX r   azer     izéssemos-lhes  fazer
+SFX r   azer     izéssemo-los    fazer
+SFX r   azer     izéssemo-las    fazer
+SFX r   azer     izéssemo-lo     fazer
 SFX r   azer     izeste-a        fazer
 SFX r   azer     izeste-as       fazer
 SFX r   azer     izeste-lhe      fazer
@@ -21790,6 +21850,7 @@ SFX r   ar       ou-os           [aeou]izar
 SFX r   ar       ou-se           [aeou]izar
 SFX r   ar       ou-te           [aeou]izar
 SFX r   ar       ou-vos          [aeou]izar
+
 
 # ÊNCLISES E MESÓCLISES -s- Para verbos da regra -i- 
 

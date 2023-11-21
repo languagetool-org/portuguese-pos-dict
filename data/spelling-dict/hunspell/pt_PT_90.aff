@@ -142,22 +142,23 @@ PFX T   0               tetra           .               PFSEM=4+
 PFX T   0               penta           .               PFSEM=5+
 PFX T   0               hexa            .               PFSEM=6+
 
-SFX p Y 15
-SFX p   0               s               [^ã][^lsmrnzx]  +N=p
-SFX p   0               s               ãe              +N=p
-SFX p   ão              ões             ão              +N=p
-SFX p   l               is              [au]l           +N=p
-SFX p   ol              óis             ol              +N=p
-SFX p   el              éis             [^v]el          +N=p
-SFX p   el              éis             [^áéíóú]vel     +N=p
-SFX p   l               is              [áéíóú]vel      +N=p
-SFX p   l               s               il              +N=p
-SFX p   0               es              [^áéê]s         +N=p
-SFX p   ás              ases            ás              +N=p
-SFX p   és              eses            és              +N=p
-SFX p   ês              eses            ês              +N=p
-SFX p   m               ns              m               +N=p
-SFX p   0               es              [rnzx]          +N=p
+SFX p Y 16
+SFX p   0               s               [^ã][gpkdywbfcntaiouáéíóúôêã]  +N=p
+SFX p   0               s               ãe                             +N=p
+SFX p   ão              ões             ão                             +N=p
+SFX p   l               is              [au]l                          +N=p
+SFX p   ol              óis             ol                             +N=p
+SFX p   el              éis             [^v]el                         +N=p
+SFX p   el              éis             [^áéíóú]vel                    +N=p
+SFX p   l               is              [áéíóú]vel                     +N=p
+SFX p   l               s               il                             +N=p
+SFX p   0               es              [^áéê]s                        +N=p
+SFX p   ás              ases            ás                             +N=p
+SFX p   és              eses            és                             +N=p
+SFX p   ês              eses            ês                             +N=p
+SFX p   m               ns              m                              +N=p
+SFX p   0               es              [rnzx]                         +N=p
+SFX p   0               es              [cs]h                          +N=p
 
 # Plural -þ- specifically for English words with straightforward -s plurals, e.g. surfer-surfers, jam-jams
 SFX þ Y 1
@@ -789,7 +790,7 @@ SFX X   gir             jam             gir             +P=3,N=p,T=i
 SFX X   quir            cam             quir            +P=3,N=p,T=i
 SFX X   uir             am              guir            +P=3,N=p,T=i
 
-SFX Y Y 146
+SFX Y Y 148
 SFX Y   r               va              ar              +P=1_3,N=s,T=pi
 SFX Y   r               vas             ar              +P=2,N=s,T=pi
 SFX Y   ar              ávamos          ar              +P=1,N=p,T=pi
@@ -801,6 +802,8 @@ SFX Y   car             quei            car             +P=1,N=s,T=pp
 SFX Y   gar             guei            gar             +P=1,N=s,T=pp
 SFX Y   çar             cei             çar             +P=1,N=s,T=pp
 SFX Y   r               ste             ar              +P=2,N=s,T=pp
+SFX Y   r               mos             ar              +P=2,N=s,T=pp
+SFX Y   r               mo-nos             ar              +P=2,N=s,T=pp
 SFX Y   ar              ou              ar              +P=3,N=s,T=pp
 SFX Y   ar              ámos            ar              +P=1,N=p,T=pp
 SFX Y   ar              ámo-nos         ar              +P=1,N=p,T=pp
@@ -832,7 +835,7 @@ SFX Y   0               em              ar              +P=3,N=p,T=fc
 SFX Y   0               ia              ar              +P=1_3,N=s,T=c
 SFX Y   0               ias             ar              +P=2,N=s,T=c
 SFX Y   0               íamos           ar              +P=1,N=p,T=c
-SFX Y   0               íamo-nos        ar              +P=1,N=p,T=c
+SFX Y   0               -nos-íamos      ar              +P=1,N=p,T=c
 SFX Y   0               íeis            ar              +P=2,N=p,T=c
 SFX Y   0               iam             ar              +P=3,N=p,T=c
 SFX Y   r               ndo             ar              +T=g
@@ -1371,7 +1374,7 @@ SFX L   0               -vos-iam        r               +AP=2,AN=p,P=3,N=p,T=c
 SFX L   0               -vos-ia         r               +AP=2,AN=p,P=1_3,N=s,T=c
 SFX L   0               -vos-ias        r               +AP=2,AN=p,P=2,N=s,T=c
 
-SFX P Y 114
+SFX P Y 212
 SFX P   0               -o              [aeiouéê]       +G=m,AN=s
 SFX P   ns              m-lo            ns              +G=m,AN=s
 SFX P   s               -lo             [^ná]s          +G=m,AN=s
@@ -1430,6 +1433,15 @@ SFX P   er              ê-lo-ias        er              +P=2,N=s,T=c
 SFX P   er              ê-lo-íamos      er              +P=1,N=p,T=c
 SFX P   er              ê-lo-íeis       er              +P=2,N=p,T=c
 SFX P   er              ê-lo-iam        er              +P=3,N=p,T=c
+SFX P   zer             -lo          dizer           +P=1,N=s,T=f
+SFX P   zer             -la          dizer           +P=1,N=s,T=f
+SFX P   zer             -los          dizer           +P=1,N=s,T=f
+SFX P   zer             -las          dizer           +P=1,N=s,T=f
+SFX P   r             mo-lo          dizer           +P=1,N=s,T=f
+SFX P   r             mo-la          dizer           +P=1,N=s,T=f
+SFX P   r             mo-los          dizer           +P=1,N=s,T=f
+SFX P   r             mo-las          dizer           +P=1,N=s,T=f
+SFX P   r             mo-nos          dizer           +P=1,N=s,T=f
 SFX P   zer             -lo-ei          dizer           +P=1,N=s,T=f
 SFX P   zer             -lo-ás          dizer           +P=2,N=s,T=f
 SFX P   zer             -lo-á           dizer           +P=3,N=s,T=f
@@ -1441,6 +1453,83 @@ SFX P   zer             -lo-ias         dizer           +P=2,N=s,T=c
 SFX P   zer             -lo-íamos       dizer           +P=1,N=p,T=c
 SFX P   zer             -lo-íeis        dizer           +P=2,N=p,T=c
 SFX P   zer             -lo-iam         dizer           +P=3,N=p,T=c
+SFX P   zer             -los-ei          dizer           +P=1,N=s,T=f
+SFX P   zer             -los-ás          dizer           +P=2,N=s,T=f
+SFX P   zer             -los-á           dizer           +P=3,N=s,T=f
+SFX P   zer             -los-emos        dizer           +P=1,N=p,T=f
+SFX P   zer             -los-eis         dizer           +P=2,N=p,T=f
+SFX P   zer             -los-ão          dizer           +P=3,N=p,T=f
+SFX P   zer             -los-ia          dizer           +P=1_3,N=s,T=c
+SFX P   zer             -los-ias         dizer           +P=2,N=s,T=c
+SFX P   zer             -los-íamos       dizer           +P=1,N=p,T=c
+SFX P   zer             -los-íeis        dizer           +P=2,N=p,T=c
+SFX P   zer             -los-iam         dizer           +P=3,N=p,T=c
+SFX P   zer             -la-ei          dizer           +P=1,N=s,T=f
+SFX P   zer             -la-ás          dizer           +P=2,N=s,T=f
+SFX P   zer             -la-á           dizer           +P=3,N=s,T=f
+SFX P   zer             -la-emos        dizer           +P=1,N=p,T=f
+SFX P   zer             -la-eis         dizer           +P=2,N=p,T=f
+SFX P   zer             -la-ão          dizer           +P=3,N=p,T=f
+SFX P   zer             -la-ia          dizer           +P=1_3,N=s,T=c
+SFX P   zer             -la-ias         dizer           +P=2,N=s,T=c
+SFX P   zer             -la-íamos       dizer           +P=1,N=p,T=c
+SFX P   zer             -la-íeis        dizer           +P=2,N=p,T=c
+SFX P   zer             -la-iam         dizer           +P=3,N=p,T=c
+SFX P   zer             -las-ei          dizer           +P=1,N=s,T=f
+SFX P   zer             -las-ás          dizer           +P=2,N=s,T=f
+SFX P   zer             -las-á           dizer           +P=3,N=s,T=f
+SFX P   zer             -las-emos        dizer           +P=1,N=p,T=f
+SFX P   zer             -las-eis         dizer           +P=2,N=p,T=f
+SFX P   zer             -las-ão          dizer           +P=3,N=p,T=f
+SFX P   zer             -las-ia          dizer           +P=1_3,N=s,T=c
+SFX P   zer             -las-ias         dizer           +P=2,N=s,T=c
+SFX P   zer             -las-íamos       dizer           +P=1,N=p,T=c
+SFX P   zer             -las-íeis        dizer           +P=2,N=p,T=c
+SFX P   zer             -las-iam         dizer           +P=3,N=p,T=c
+SFX P   zer             r-lhe-ei          dizer           +P=1,N=s,T=f
+SFX P   zer             r-lhe-ás          dizer           +P=2,N=s,T=f
+SFX P   zer             r-lhe-á           dizer           +P=3,N=s,T=f
+SFX P   zer             r-lhe-emos        dizer           +P=1,N=p,T=f
+SFX P   zer             r-lhe-eis         dizer           +P=2,N=p,T=f
+SFX P   zer             r-lhe-ão          dizer           +P=3,N=p,T=f
+SFX P   zer             r-lhe-ia          dizer           +P=1_3,N=s,T=c
+SFX P   zer             r-lhe-ias         dizer           +P=2,N=s,T=c
+SFX P   zer             r-lhe-íamos       dizer           +P=1,N=p,T=c
+SFX P   zer             r-lhe-íeis        dizer           +P=2,N=p,T=c
+SFX P   zer             r-lhe-iam         dizer           +P=3,N=p,T=c
+SFX P   zer             r-lhes-ei          dizer           +P=1,N=s,T=f
+SFX P   zer             r-lhes-ás          dizer           +P=2,N=s,T=f
+SFX P   zer             r-lhes-á           dizer           +P=3,N=s,T=f
+SFX P   zer             r-lhes-emos        dizer           +P=1,N=p,T=f
+SFX P   zer             r-lhes-eis         dizer           +P=2,N=p,T=f
+SFX P   zer             r-lhes-ão          dizer           +P=3,N=p,T=f
+SFX P   zer             r-lhes-ia          dizer           +P=1_3,N=s,T=c
+SFX P   zer             r-lhes-ias         dizer           +P=2,N=s,T=c
+SFX P   zer             r-lhes-íamos       dizer           +P=1,N=p,T=c
+SFX P   zer             r-lhes-íeis        dizer           +P=2,N=p,T=c
+SFX P   zer             r-lhes-iam         dizer           +P=3,N=p,T=c
+SFX P   zer             r-nos-ei          dizer           +P=1,N=s,T=f
+SFX P   zer             r-nos-ás          dizer           +P=2,N=s,T=f
+SFX P   zer             r-nos-á           dizer           +P=3,N=s,T=f
+SFX P   zer             r-nos-emos        dizer           +P=1,N=p,T=f
+SFX P   zer             r-nos-eis         dizer           +P=2,N=p,T=f
+SFX P   zer             r-nos-ão          dizer           +P=3,N=p,T=f
+SFX P   zer             r-nos-ia          dizer           +P=1_3,N=s,T=c
+SFX P   zer             r-nos-ias         dizer           +P=2,N=s,T=c
+SFX P   zer             r-nos-íamos       dizer           +P=1,N=p,T=c
+SFX P   zer             r-nos-íeis        dizer           +P=2,N=p,T=c
+SFX P   zer             r-nos-iam         dizer           +P=3,N=p,T=c
+SFX P   zer             r-vos-ei          dizer           +P=1,N=s,T=f
+SFX P   zer             r-vos-ás          dizer           +P=2,N=s,T=f
+SFX P   zer             r-vos-á           dizer           +P=3,N=s,T=f
+SFX P   zer             r-vos-emos        dizer           +P=1,N=p,T=f
+SFX P   zer             r-vos-eis         dizer           +P=2,N=p,T=f
+SFX P   zer             r-vos-ão          dizer           +P=3,N=p,T=f
+SFX P   zer             r-vos-ia          dizer           +P=1_3,N=s,T=c
+SFX P   zer             r-vos-ias         dizer           +P=2,N=s,T=c
+SFX P   zer             r-vos-íamos       dizer           +P=1,N=p,T=c
+SFX P   zer             r-vos-íeis        dizer           +P=2,N=p,T=c
+SFX P   zer             r-vos-iam         dizer           +P=3,N=p,T=c
 SFX P   azer            á-lo            azer            +G=m,N=s
 SFX P   azer            á-la            azer            +G=f,N=s
 SFX P   azer            á-los           azer            +G=m,N=p
@@ -1456,6 +1545,19 @@ SFX P   azer            á-lo-ias        azer            +P=2,N=s,T=c
 SFX P   azer            á-lo-íamos      azer            +P=1,N=p,T=c
 SFX P   azer            á-lo-íeis       azer            +P=2,N=p,T=c
 SFX P   azer            á-lo-iam        azer            +P=3,N=p,T=c
+SFX P   azer            i-lo            fazer            +G=m,N=s
+SFX P   azer            i-la            fazer            +G=f,N=s
+SFX P   azer            i-los           fazer            +G=m,N=p
+SFX P   azer            i-las           fazer            +G=f,N=p
+SFX P   azer            izemo-lo            fazer            +G=m,N=s
+SFX P   azer            izemo-la            fazer            +G=f,N=s
+SFX P   azer            izemo-los           fazer            +G=m,N=p
+SFX P   azer            izemo-nos           fazer            +G=m,N=p
+SFX P   azer            izemo-las           fazer            +G=f,N=p
+SFX P   azer            ê-lo            fazer            +G=m,N=s
+SFX P   azer            ê-la            fazer            +G=f,N=s
+SFX P   azer            ê-los           fazer            +G=m,N=p
+SFX P   azer            ê-las           fazer            +G=f,N=p
 SFX P   r               -lo             ir              +G=m,N=s
 SFX P   r               -la             ir              +G=f,N=s
 SFX P   r               -los            ir              +G=m,N=p

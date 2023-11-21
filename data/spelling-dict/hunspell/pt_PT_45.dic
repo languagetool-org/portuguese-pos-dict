@@ -14494,6 +14494,7 @@ fender/XYPLMDn
 fé/p
 fenício/fp
 fénix
+fénices
 fenol
 fenomenal/pd
 fenomenalidade/ph
@@ -16587,6 +16588,7 @@ hindu/p
 hinduísmo/pl
 hinógrafo/pl
 hino/pl
+híper
 hiperácido/fp
 hipérbole/ph
 hiperbólico/fpH
@@ -18940,6 +18942,7 @@ joio/pl
 jónico/fp
 jónio/pl
 jóquei/pl
+jóquer/p
 jordano/fp
 jornada/ph
 jornalada/ph
@@ -39659,9 +39662,9 @@ quererias/L
 quereríamos/L
 quereríeis/L
 quereriam/L
-quis/L
+quis/LP
 quiseste/L
-quisemos/L
+quisemos/LP
 quisestes/L
 quiseram/L
 quisera/L
@@ -41162,8 +41165,7 @@ capacitância/p
 caquexia
 caracterizável/p
 Caramulo
-cardioprotector
-cardioprotectores
+cardioprotector/p
 cardiopunctura/p
 Cáritas
 Carlucio
@@ -42508,8 +42510,7 @@ carenado/fp
 Carregosa
 catalepsia
 Catarino
-cateter
-cateteres
+cateter/p
 Catroga
 causídico/fp
 CCAMLR
@@ -43070,7 +43071,7 @@ polifacetado/fp
 polineuropatia/p
 polinevrite/p
 politológico/fp
-póquer
+póquer/p
 Porsche
 PPM
 ppp
@@ -43523,8 +43524,9 @@ allegro/p
 alzheimer
 alzheimers
 amabile/p
-angström
-angströms
+angstrom/þ
+angström/þ
+ångström/þ
 anorak
 anoraks
 anschluss
@@ -44233,8 +44235,8 @@ hall
 halls
 hamburger
 hamburgers
-hamster
-hamsters
+hamster/þ
+hámster/p
 handicap
 handicaps
 handling
@@ -45005,8 +45007,7 @@ soufflés
 soul
 souls
 souplesse/p
-souvenir
-souvenirs
+souvenir/þ
 spa
 spaghetti/p
 spam
@@ -45909,7 +45910,7 @@ Aveiras
 bacteriófago/fp
 batíscafo/p
 bimilenar/p
-buldózeres
+buldózer/p
 Bundesbank
 cabouqueiro/p
 Caltech
@@ -46165,10 +46166,10 @@ inflictam/L
 acupuncturador
 revêem/PL
 peras
-géiser
+géiser/p
 minorada
 lombarda
- datilozoide/p
+datilozoide/p
 reflicto/L
 primates
 dêem/PL
@@ -58589,3 +58590,4 @@ Puma
 Mossad
 Escherichia
 Paxata
+Alzheimer
