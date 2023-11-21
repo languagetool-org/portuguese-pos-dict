@@ -21,7 +21,6 @@ charter
 chauffeur
 cheddar
 cheeseburger
-chofer
 clear
 clipper
 cluster

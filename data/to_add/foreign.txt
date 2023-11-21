@@ -4,7 +4,6 @@ hackerzinho
 hackerzinhos
 pacemaker
 Wright
-knowing-doing
 eureka
 heights
 bunkai
@@ -22,13 +21,11 @@ bayesiana
 bayesiano
 bazooka
 bazookas
-bear market
 birdwatching
 blockchain
 blockchains
 bodyboarder
 bodyboarders
-bull market
 bullying
 crowdfunding
 crowdfundings
@@ -55,7 +52,6 @@ mayday
 maydays
 milkshake
 milkshakes
-não-Hodgkin
 neodarwiniana
 neodarwinianas
 neodarwiniano
@@ -87,7 +83,6 @@ stakeholders
 stalking
 style
 styles
-top-down
 trackpad
 trackpads
 trademark
@@ -95,8 +90,6 @@ tweeter
 tweeters
 voyeurista
 voyeuristas
-wallaby-da-areia
-wallaby-dama
 whalewatching
 wok
 woks
@@ -115,14 +108,6 @@ apparatchiks
 ayatollah
 ayatollahs
 baby
-baby-doll
-baby-dolls
-baby-grow
-baby-grows
-baby-sitter
-baby-sitters
-back-up
-back-ups
 background
 backgrounds
 backstage
@@ -145,8 +130,6 @@ blockbusters
 bobsleigh
 bobsleighs
 body
-body-building
-body-buildings
 bodyboard
 bodyboards
 bowling
@@ -170,8 +153,6 @@ bungalow
 bungalows
 bunker
 bunkers
-bye-bye
-bye-byes
 bypass
 bypasses
 byte
@@ -179,15 +160,7 @@ bytes
 caddy
 canyoning
 canyonings
-case-study
-cash-and-carry
-cash-flow
-cash-flows
 chantilly
-check-in
-check-ins
-check-up
-check-ups
 checklist
 checklists
 checkout
@@ -225,7 +198,6 @@ crawls
 crayon
 cricket
 crickets
-cross-country
 currency
 cyberspace
 cyberspaces
@@ -240,8 +212,6 @@ delivery
 derby
 destroyer
 destroyers
-disc-jockey
-disc-jockeys
 diskette
 diskettes
 display
@@ -256,16 +226,10 @@ downtown
 downtowns
 drink
 drinks
-e-book
-e-books
 ecstasy
 eighties
-eye-liner
-eye-liners
 eyeliner
 eyeliners
-fair-play
-fair-plays
 faraday
 faradays
 fatwa
@@ -281,8 +245,6 @@ flashback
 flashbacks
 folk
 folks
-follow-up
-follow-ups
 forward
 foyer
 foyers
@@ -314,17 +276,9 @@ gruyère
 gruyères
 hacker
 hackers
-hara-kiri
-hara-kiris
-hard-rock
-hard-rocks
 hardware
 hardwares
-heavy-metal
-heavy-metals
 henry
-high-tech
-high-techs
 hippy
 hobby
 horsepower
@@ -375,12 +329,8 @@ kiwi
 kiwis
 kjökkenmödding
 kjökkenmöddings
-knock-out
-knock-outs
 knockout
 knockouts
-know-how
-know-hows
 kwacha
 kwachas
 kwanza
@@ -406,12 +356,8 @@ lockout
 lockouts
 look
 looks
-low-profile
-low-profiles
 lycra
 lycras
-make-up
-make-ups
 marketeer
 marketeers
 marketing
@@ -435,8 +381,6 @@ monokini
 monokinis
 network
 networks
-new-age
-new-ages
 newsletter
 newsletters
 newton
@@ -445,8 +389,6 @@ nomenklatura
 nomenklaturas
 nylon
 nylons
-office-boy
-office-boys
 ostpolitik
 ostpolitiks
 ouguiya
@@ -471,14 +413,10 @@ patchworks
 penalty
 perestroika
 perestroikas
-pick-up
-pick-ups
 pickle
 pickles
 pickpocket
 pickpockets
-play-off
-play-offs
 playback
 playbacks
 playboy
@@ -490,8 +428,6 @@ playmakers
 playstations
 poker
 pokers
-prize-money
-prize-moneys
 punk
 punks
 pyrex
@@ -503,8 +439,6 @@ quarks
 rally
 ranking
 rankings
-ready-made
-ready-mades
 realpolitik
 realpolitiks
 redneck
@@ -535,11 +469,7 @@ sandwich
 sandwichs
 screwball
 screwballs
-serial-killer
-serial-killers
 sexy
-shake-hand
-shake-hands
 shaker
 shakers
 shareware
@@ -551,8 +481,6 @@ shekels
 shocking
 shockings
 show
-show-off
-show-offs
 showbiz
 showman
 showmans
@@ -584,8 +512,6 @@ slows
 smoking
 smokings
 snack
-snack-bar
-snack-bars
 snacks
 snooker
 snookers
@@ -625,29 +551,19 @@ swings
 taekwondo
 taekwondos
 take
-take-off
-take-offs
 takeaway
 takeaways
 takeover
 takeovers
 takes
-talk-show
-talk-shows
-task-force
-task-forces
 telemarketing
 telemarketings
 teleski
 teleskis
 terylene
 terylenes
-think-tank
-think-tanks
 ticket
 tickets
-tie-break
-tie-breaks
 toolkit
 toolkits
 tory
@@ -667,8 +583,6 @@ twist
 twists
 underwear
 underwears
-very-light
-very-lights
 videowall
 videowalls
 viking
@@ -679,8 +593,6 @@ volley
 volleys
 voyeur
 voyeurs
-walkie-talkie
-walkie-talkies
 walkman
 walkmans
 weekend
@@ -697,18 +609,12 @@ workstation
 workstations
 yankee
 yankees
-yé-yé
-yé-yés
 zekel
 zekels
 zloty
-cookie-cutter
-cookie-cutters
 smiley
 smileys
 ayurveda
-baby boomer
-baby boomers
 carjacking
 commodity
 crowdsourcing
@@ -721,38 +627,21 @@ geeks
 hatchback
 hatchbacks
 hockey
-hot link
-hot links
 legacy
 malware
-market share
-market shares
 physalis
-ring light
-Ring light
-ring lights
-Ring lights
 tawnie
 tawnies
 tweet
 tweets
-Australian Draught Horse
-Afghan hound
 Sloughi
-West highland white terrier
 Brightscope
-CB Insights
-Civic Insight
-Copyright Clearance Center
 FlightAware
 FlightStats
 FlightView
 Headlight
 iRecycle
 OptumInsight
-Oversight Systems
-Social Health Insights
-Weight Watchers
 xDayta
 aikidoka
 aikidokas
@@ -765,7 +654,6 @@ Buckingham
 eBay
 Lamborghini
 Middlesbrough
-Nottingham Forest
 Wright
 switch
 switches
@@ -774,22 +662,14 @@ backbone
 backbones
 backdoor
 backdoors
-blu-ray
-blu-rays
 bookmark
 bookmarks
-cover disk
-cover disks
 cracker
 crackers
 cracking
 downgrade
 downgrades
 downtime
-e-bullying
-e-democracy
-e-newsletter
-e-newsletters
 exabyte
 exabytes
 firewall
@@ -820,7 +700,6 @@ helpdesks
 homebanking
 layer
 layers
-low-tech
 newsgroup
 newsgroups
 nick
@@ -844,7 +723,6 @@ terabytes
 token
 tokens
 tracking
-user friendly
 wiki
 wikis
 yottabyte
@@ -858,8 +736,6 @@ check
 checklist
 copywriting
 coworking
-data book
-data books
 desktop
 endomarketing
 fake
@@ -881,7 +757,6 @@ nobreak
 book
 karateca
 karatecas
-knowing-doing
 widths
 whiskas
 kafkiana
@@ -910,15 +785,9 @@ kosovares
 kuduro
 kVA
 kWh
-wallabies-da-areia
-wallabies-dama
-wallaby-da-areia
-wallaby-dama
 wargame
 wargames
 watchOS
-web camera
-web cameras
 whalewatching
 wok
 woks
@@ -1000,12 +869,8 @@ klaxon
 klaxons
 kleenex
 kleenexs
-knock-out
-knock-outs
 knockout
 knockouts
-know-how
-know-hows
 koala
 koalas
 kraft
@@ -1018,8 +883,6 @@ krípton
 kríptons
 kuna
 kunas
-kung-fu
-kung-fus
 kwacha
 kwachas
 kwanza
@@ -1032,19 +895,12 @@ wad
 wads
 waffle
 waffles
-walkie-talkie
-walkie-talkies
 walkman
 walkmans
-warm-up
-warm-ups
 warrant
 warrants
 wasp
 wasps
-water-closet
-water-closets
-water-polo
 watergate
 watergates
 waterproof
@@ -1064,8 +920,6 @@ whisky
 whiskies
 whist
 whists
-wild-card
-wild-cards
 windsurf
 windsurfs
 winner
@@ -1086,11 +940,8 @@ yankee
 yankees
 yard
 yards
-yé-yé
-yé-yés
 yen
 yens
-yes-man
 yeti
 yetis
 yiddish
@@ -1109,7 +960,6 @@ yuppie
 yuppies
 webcam
 webcams
-yes-man
 yeah
 karmadata
 karategi

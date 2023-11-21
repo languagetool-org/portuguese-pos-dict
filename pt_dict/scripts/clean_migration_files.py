@@ -63,7 +63,8 @@ def add_word(word: str, variant: Variant, lookup: dict):
         lookup[variant.hyphenated_with_agreement]['new_words'].add(word)
 
 
-def clean_file(filename: str, br_tags: str, pt_tags: str, normaliser: Callable, variants: Optional[List[Variant]]):
+def clean_file(filename: str, br_tags: str, pt_tags: str, normaliser: Callable,
+               variants: Optional[List[Variant]] = None):
     print(filename)
     filepath = path.join(TO_ADD_DIR, filename)
     lookup = new_lookup(br_tags, pt_tags)
@@ -200,6 +201,26 @@ def clean_nasals():
     clean_file("br_nasal.txt", 'D', '', number_normaliser, [PT_BR])
 
 
+def clean_number_only():
+    clean_file("number_only.txt", 'B', 'p', number_normaliser)
+
+
+def clean_simple_proper():
+    clean_file("simple_proper.txt", '', '', do_nothing)
+
+
+def clean_foreign_gender_number():
+    clean_file("foreign_gender_number.txt", 'D', 'fp', do_nothing)
+
+
+def clean_foreign_plural_ing():
+    clean_file("foreign_number_only_ing.txt", 'þ', 'þ', do_nothing)
+
+
+def clean_foreign_invariable_ing():
+    clean_file("foreign_invariable_ing.txt", '', '', do_nothing)
+
+
 def write_to_txt(filename: str, words: set[str]):
     print(f"{filename}: {len(words)}")
     filepath = path.join(TO_ADD_DIR, filename)
@@ -208,7 +229,15 @@ def write_to_txt(filename: str, words: set[str]):
 
 
 def sort_added():
-    filepath = path.join(TO_ADD_DIR, 'added.txt')
+    sort_file("added")
+
+
+def sort_foreign():
+    sort_file("foreign")
+
+
+def sort_file(filename: str):
+    filepath = path.join(TO_ADD_DIR, f"{filename}.txt")
     all_words = collect_words_from_file(filepath, do_nothing)
     all_words_final = all_words.copy()
     gender_number_words = set()
@@ -258,9 +287,9 @@ def sort_added():
                 all_words_final.discard(word)  # masc_pl
                 all_words_final.discard(masc_sg)
     print("starting point:", len(all_words))
-    write_to_txt("added_clean.txt", all_words_final)
-    write_to_txt("number_only.txt", number_words)
-    write_to_txt("gender_number.txt", gender_number_words)
+    write_to_txt(f"{filename}_clean.txt", all_words_final)
+    write_to_txt(f"{filename}_number_only.txt", number_words)
+    write_to_txt(f"{filename}_gender_number.txt", gender_number_words)
 
 
 if __name__ == "__main__":
@@ -279,6 +308,7 @@ if __name__ == "__main__":
     DRY_RUN = False
 
     # sort_added()
+    # sort_foreign()
 
     # clean_able()
     # clean_ador()
@@ -301,4 +331,9 @@ if __name__ == "__main__":
     # clean_verbs_ar()
     # clean_verbs_ir()
     # clean_verbs_er()
-    clean_nasals()
+    # clean_nasals()
+    # clean_number_only()
+    # clean_simple_proper()
+    # clean_foreign_gender_number()
+    # clean_foreign_plural_ing()
+    clean_foreign_invariable_ing()

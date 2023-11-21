@@ -3600,10 +3600,7 @@ SFX d   ar      ou        ear
 #              apoiar, atear, dar, estar, odiar, passear, saudar 
 
 
-SFX e Y 464
-SFX e   ar      á            ar
-SFX e   er      ê            [^l]er
-SFX e   or      ô            or
+SFX e Y 461
 SFX e   0       a            [ei]ar
 SFX e   0       a            udar
 SFX e   0       am           [ei]ar
@@ -13237,7 +13234,7 @@ SFX n   ar      ou-vos         ear
 
 # ÊNCLISES E MESÓCLISES -o- Para verbos da regra -e- 
 
-SFX o Y 2393
+SFX o Y 2387
 SFX o   0        -me             [aei]r
 SFX o   0        -te             [aei]r
 SFX o   0        -se             [aei]r
@@ -13245,12 +13242,6 @@ SFX o   0        -nos            [aei]r
 SFX o   0        -vos            [aei]r
 SFX o   0        -lhe            [aei]r
 SFX o   0        -lhes           [aei]r
-SFX o   ar       á-me            ar
-SFX o   ar       á-te            ar
-SFX o   ar       á-se            ar
-SFX o   ar       á-lhe           ar
-SFX o   ar       á-lhes          ar
-SFX o   ar       á-nos           ar
 SFX o   ar       á-la            ar
 SFX o   ar       á-las           ar
 SFX o   ar       á-lo            ar
