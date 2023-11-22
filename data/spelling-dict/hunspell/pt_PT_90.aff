@@ -483,15 +483,17 @@ SFX t   a               uistas          ga              +CAT=a_nc,N=p,FSEM=ista
 SFX t   e               istas           e               +CAT=a_nc,N=p,FSEM=ista
 SFX t   0               istas           [lr]            +CAT=a_nc,N=p,FSEM=ista
 
-SFX l Y 38
+SFX l Y 40
 SFX l   o               inho            [^cgçãi]o       +GR=dim
+SFX l   e               inho            [^i]e           +GR=dim
+SFX l   e               nho             ie              +GR=dim
 SFX l   co              quinho          co              +GR=dim
 SFX l   ço              cinho           ço              +GR=dim
 SFX l   o               uinho           go              +GR=dim
 SFX l   0               zinho           ão              +GR=dim
 SFX l   0               inho            [^ê][sz]        +G=m,GR=dim
 SFX l   ês              esinho          ês              +GR=dim
-SFX l   0               zinho           [eirunl]         +G=m,GR=dim
+SFX l   0               zinho           [eirunl]        +G=m,GR=dim
 SFX l   ó               ozinho          ó               +GR=dim
 SFX l   ô               ozinho          ô               +GR=dim
 SFX l   é               ezinho          é               +G=m,GR=dim
