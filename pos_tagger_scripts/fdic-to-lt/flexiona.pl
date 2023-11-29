@@ -3,7 +3,9 @@ use warnings;
 use autodie;
 use utf8;
 use Switch;
-require "./libs/Flexio.pm";
+use FindBin;
+use lib "$FindBin::Bin/../libs";
+use Flexio;
 
 binmode( STDOUT, ":utf8" );
 
