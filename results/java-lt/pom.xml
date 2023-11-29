@@ -5,7 +5,7 @@
 
     <groupId>org.languagetool</groupId>
     <artifactId>portuguese-pos-dict</artifactId>
-    <version>0.4</version>
+    <version>0.6</version>
     <url>http://github.com/languagetool-org/portuguese-dict-tools</url>
     <name>Portuguese part-of-speech dictionary</name>
     <description>A Portuguese part-of-speech (POS) dictionary as a Morfologik binary</description>
@@ -21,6 +21,11 @@
         <developer>
             <name>Jaume Ortolà</name>
             <url>http://github.com/jaumeortola</url>
+        </developer>
+
+        <developer>
+            <name>Pedro Goulart</name>
+            <url>http://github.com/p-goulart</url>
         </developer>
     </developers>
 

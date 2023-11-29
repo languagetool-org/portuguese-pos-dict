@@ -101,7 +101,7 @@ PFX T   0               penta           .               PFSEM=5+
 PFX T   0               hexa            .               PFSEM=6+
 
 SFX p Y 16
-SFX p   0               s               [^„][gpkdywbfcntaiou·ÈÌÛ˙ÙÍ„]  +N=p
+SFX p   0               s               [^„][gpkdywbfcntaieou·ÈÌÛ˙ÙÍ„] +N=p
 SFX p   0               s               „e                             +N=p
 SFX p   „o              ıes             „o                             +N=p
 SFX p   l               is              [au]l                          +N=p
