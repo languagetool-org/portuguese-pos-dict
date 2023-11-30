@@ -70,9 +70,14 @@ forms are also output. These files are **fragile** – so be careful when editin
 
 ### Compound lexicon
 
-One directory up, in [/data/compounds](../compounds), we have three `.dic` files, one for each
+In [/hunspell/compounds](./hunspell/compounds), we have three `.dic` files, one for each
 variety (viz. `pt_BR`, `pt_PT_90`, and `pt_PT_45`). These files contain **only** compound words
 that should be kept hyphenated in the final version of the dictionary.
+
+We use these files because, in the process of generating of binaries, we also **tokenise** the `unmunch`ed list of
+word forms. Since the tokenisation depends on the compounds present in the [POS tagging dictionary](../src-dict/README.md),
+we would end up splitting many hyphenated compounds that exist in the Hunspell source data but not in the POS tagger
+dictionary source data.
 
 ## `.info` files
 
