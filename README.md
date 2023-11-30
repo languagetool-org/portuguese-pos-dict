@@ -1,3 +1,5 @@
+[![Flake8](https://github.com/languagetool-org/portuguese-pos-dict/actions/workflows/flake8.yml/badge.svg)](https://github.com/languagetool-org/portuguese-pos-dict/actions/workflows/flake8.yml)
+
 # portuguese-pos-dict
 
 This repository contains data and tools used to build dictionaries for Portuguese.
