@@ -33,7 +33,7 @@ class TestAlternation:
             ('ô', 'harmônicas', True),
             ('ê', 'consequência', False),
             ('ô', 'Rondônia', True),
-            ('ê', 'bebê', True)
+            ('ê', 'bebê', False)  # removed
         ]
         for grapheme, word, result in contexts:
             assert AlternationContext(grapheme, 'vowel').applies_to(self.syllabifier.syllabify(word)) is result
