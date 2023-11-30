@@ -1,4 +1,3 @@
-import re
 from os import path
 
 from pt_dict.constants import RULES_DIR, ALTERNATIONS_DIR
@@ -15,9 +14,7 @@ def main():
             pair = line.split('=')
             alternations.update(pair)
 
-    variants = [PT_BR]
-    # variants = [PT_BR, PT_PT_90]
-    vowel_pattern = re.compile('[êéôó]')
+    variants = [PT_BR, PT_PT_90]
     for var in variants:
         replacements_filepath = path.join(RULES_DIR, var.hyphenated, "replace.txt")
         with open(replacements_filepath, 'r') as replacements_file:

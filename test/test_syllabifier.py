@@ -72,4 +72,3 @@ class TestSyllabifier:
         ]
         for word, syllables in syllabifications:
             assert [syl.value for syl in syllabifier.syllabify(word).values] == syllables
-

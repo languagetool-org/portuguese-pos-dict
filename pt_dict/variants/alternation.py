@@ -1,7 +1,7 @@
 """In this module we define the logic for alternations between variants."""
 from typing import Literal, Optional, List
 
-from pt_dict.variants.syllabifier import Syllabifier, Syllables
+from pt_dict.variants.syllabifier import Syllables
 import pt_dict.variants.phonology as phon
 
 

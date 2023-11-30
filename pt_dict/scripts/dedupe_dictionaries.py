@@ -31,12 +31,15 @@ def main():
         print(var)
         total_all_lines = len(all_lines)
         total_unique_lines = len(unique_lines)
-        print(f"total - unique = duplicated lines || {total_all_lines} - {total_unique_lines} = {total_all_lines - total_unique_lines}")
+        print(f"total - unique = duplicated lines ||"
+              f"{total_all_lines} - {total_unique_lines} = {total_all_lines - total_unique_lines}")
 
-        lemmata_with_multiple_lines = set(filter(lambda l: len(lemma_to_line_mapping[l]) > 1, lemma_to_line_mapping.keys()))
+        lemmata_with_multiple_lines = set(filter(lambda lemma: len(lemma_to_line_mapping[lemma]) > 1,
+                                                 lemma_to_line_mapping.keys()))
         print(f"duplicated lemmata: {len(lemmata_with_multiple_lines)}")
 
-        lemmata_with_multiple_unique_lines = set(filter(lambda l: len(set(lemma_to_line_mapping[l])) > 1, lemma_to_line_mapping.keys()))
+        lemmata_with_multiple_unique_lines = set(filter(lambda lemma: len(set(lemma_to_line_mapping[lemma])) > 1,
+                                                        lemma_to_line_mapping.keys()))
         print(f"duplicated lemmata with multiple unique lines: {len(lemmata_with_multiple_unique_lines)}")
         print(sorted(lemmata_with_multiple_unique_lines))
 
@@ -48,7 +51,7 @@ def main():
             for line in lines:
                 try:
                     write_lines.remove(line)
-                except:
+                except:  # noqa: E722
                     pass
                 tag_match = tag_pattern.search(line)
                 if tag_match:

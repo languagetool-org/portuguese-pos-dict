@@ -3,7 +3,6 @@ import subprocess
 from os import chdir, path
 from typing import List
 
-import chardet as chardet
 import random
 
 from pt_dict.constants import LOGGER, LT_DIR, REPO_DIR, RESULTS_DIR

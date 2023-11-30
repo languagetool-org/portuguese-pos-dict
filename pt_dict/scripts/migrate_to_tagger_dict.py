@@ -3,7 +3,6 @@ some kind of heuristics to determine the POS."""
 import re
 
 from pt_dict.constants import LATIN_1_ENCODING
-from pt_dict.dicts.hunspell import HunspellDict
 from pt_dict.dicts.tagger import TaggerDict
 from pt_dict.utils import print_sample
 from pt_dict.variants.variant import Variant, PT_BR, PT_PT_90
@@ -34,7 +33,7 @@ def collect_tagged_lemmata(variant: Variant):
 
 
 def main():
-    for var in [PT_BR]:
+    for var in [PT_BR, PT_PT_90]:
         collect_tagged_lemmata(var)
 
 

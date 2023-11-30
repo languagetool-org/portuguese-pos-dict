@@ -6,7 +6,7 @@ import re
 from re import Pattern
 
 import spacy
-from spacy_syllables import SpacySyllables
+from spacy_syllables import SpacySyllables  # noqa:F401
 from typing import List, Union, Optional
 
 import pt_dict.variants.phonology as ph

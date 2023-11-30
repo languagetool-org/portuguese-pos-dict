@@ -1,5 +1,3 @@
-import re
-
 from pt_dict.constants import LATIN_1_ENCODING
 from pt_dict.variants.variant import PT_PT_90, PT_PT_45
 

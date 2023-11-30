@@ -48,4 +48,3 @@ class TestAlternation:
         alternation.transform(self.syllabifier.syllabify('armênio'))  # context applies
         assert len(alternation.transformations) == 1
         assert alternation.transformations[0].target == 'arménio'
-

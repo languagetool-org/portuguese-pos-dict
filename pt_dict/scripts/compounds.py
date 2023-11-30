@@ -1,4 +1,3 @@
-import random
 import re
 
 from pt_dict.constants import COMPOUNDS_FILEPATH, LATIN_1_ENCODING
