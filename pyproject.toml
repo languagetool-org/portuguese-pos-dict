@@ -7,7 +7,7 @@ authors = [
     "Pedro Goulart <pedro.goulart@languagetool.com>"
     ]
 readme = "README.md"
-packages = [ {include = "variants"} ]
+packages = [ {include = "pt_dict"} ]
 
 [tool.poetry.dependencies]
 python = "^3.10, <3.12"
