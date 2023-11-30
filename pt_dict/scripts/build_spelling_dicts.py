@@ -14,8 +14,25 @@ from pt_dict.variants.variant import Variant, DIC_VARIANTS
 
 
 class CLI:
+    prog_name = "poetry run python build_spelling_dicts.py"
+    epilogue = "In case of problems when running this script, address a Github issue to the repository maintainer."
+    description = ("This script takes Hunspell data for Portuguese and builds Morfologik-format binary files to be used"
+                   "by LT's Java speller rule. It does so in four steps:\n\n"
+                   "1. split the plaintext .dic files into chunks to be run in parallel;\n"
+                   "2. run unmunch on each chunk, thus expanding all word forms therein;\n"
+                   "3. run LT's word tokenisation on the unmunched word forms, thus splitting them;\n"
+                   "4. merge all the unmunched and tokenised forms, add a list of compounds and then use LT to compile"
+                   "the files into the appropriate format.\n\n"
+                   "At the end of the execution, the script will also automatically install the binary files locally so"
+                   "you can test them on a local instance of LT.")
+
     def __init__(self):
-        self.parser = argparse.ArgumentParser()
+        self.parser = argparse.ArgumentParser(
+            prog=self.prog_name,
+            description=self.description,
+            epilog=self.epilogue,
+            formatter_class=argparse.RawTextHelpFormatter
+        )
 
         self.parser.add_argument('--tmp-dir', default=path.join(DICT_DIR, "tmp"),
                                  help='Temporary directory for processing. Default is the "tmp" directory inside '
@@ -34,6 +51,13 @@ class CLI:
 
 
 class DicChunk:
+    """This class represents a single chunk of a Hunspell dictionary file.
+
+    Attributes:
+        filepath (str): the path to the chunk
+        compounds (bool): whether this is a file containing compounds or not; if True, this chunk will *not* be
+                          tokenised;
+    """
     def __init__(self, filepath: str, compounds: bool = False):
         self.filepath = filepath
         self.compounds = compounds
@@ -143,6 +167,7 @@ def convert_to_utf8(unmunched_file: NamedTemporaryFile) -> NamedTemporaryFile:
 
 
 def process_variant(variant: Variant, dic_chunk: DicChunk) -> tuple[Variant, NamedTemporaryFile]:
+    """For each file, runs unmunch, tokenisation (if applicable), and returns a tuple of the Variant and temp file."""
     unmunched_file = unmunch(variant, dic_chunk)
     if dic_chunk.compounds:
         processed_file = convert_to_utf8(unmunched_file)
@@ -152,6 +177,18 @@ def process_variant(variant: Variant, dic_chunk: DicChunk) -> tuple[Variant, Nam
 
 
 def build_binary(tokenised_temps: List[NamedTemporaryFile], variant: Variant):
+    """Merge all unmunched and tokenised files into *one* plaintext file and used that to build a Morfologik dictionary.
+
+    The files must be merged and converted into UTF-8 before we can do anything with them. Once we have a single
+    'master' temp file per variant, we can pass that file as an input parameter to the Java tool that builds spelling
+    dictionaries.
+
+    If the shell command is successful, we will have a new output file saved to the appropriate result directory. This
+    will be a binary file ready to be released and used by Morfologik.
+
+    Returns:
+        void
+    """
     LOGGER.info(f"Building binary for {variant}...")
     megatemp = NamedTemporaryFile(delete=DELETE_TMP, mode='w', encoding='utf-8')  # Open the file with UTF-8 encoding
     lines = set()
