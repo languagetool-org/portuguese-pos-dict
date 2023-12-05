@@ -24,9 +24,28 @@ Out of these, only [pt_br.txt](./alternations/pt_br.txt) sees the light of day: 
 `resource/pt/dialect_alternations.txt` file. It is then used by the Morfologik Java rule to provide users with more
 specific messages (and, potentially, at some point also the possibility to switch to the other variety).
 
+## Ignore
+
+The files in [./ignore](./ignore) are used to generate the contents of the `ignore.txt` file that the LT rule uses. The
+words contained here are weird but *mostly* correct. We don't want to flag them, but we also do not want to provide them
+to users as suggestions.
+
+## Prohibit
+
+Much like the [ignore](#ignore) files above, these are words to be moved to the `prohibit.txt` file, and used by LT.
+They contain words that should **not** be allowed, even if they are present in the Hunspell source data. Ideally, this
+file will be empty, as we can just adjust the source data not to contain illegal words, but this may not always be very
+straightforward due to unforeseen effects of [affixation](./spelling-dict/README.md#affix-files).
+
 ## Miscellaneous
 
 The files in [misc](./misc) are, well, a bit of a hodgepodge.
+
+### Names
+
+The [names.txt](./misc/names.txt) file is a collection of given names and surnames taken from various sources. They are
+kept separate because, depending on the performance, we may want to have them in either in the main dictionary or in
+the ignore file.
 
 ### Abbreviations
 
