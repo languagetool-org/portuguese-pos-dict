@@ -1,6 +1,6 @@
 from os import path
 
-from pt_dict.constants import REPO_DIR, LATIN_1_ENCODING, DATA_DIR
+from pt_dict.constants import LATIN_1_ENCODING, DATA_DIR
 from pt_dict.dicts.dictionary import Dictionary
 from pt_dict.dicts.hunspell import HunspellDict
 from pt_dict.variants.variant import PT_BR
