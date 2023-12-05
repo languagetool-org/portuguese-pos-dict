@@ -18,6 +18,7 @@ jobs:
     env:
       LT_HOME: lt/languagetool
       PT_DICT_HOME: lt/portuguese-pos-dict
+      LT_TMP_DIR: lt/tmp
     steps:
     - uses: actions/checkout@v3
       with:
@@ -38,7 +39,7 @@ jobs:
         POETRY_HTTP_BASIC_GITLAB_PASSWORD: ${{ secrets.POETRY_HTTP_BASIC_GITLAB_PASSWORD }}
     - name: Set dictionary version
       run: |
-        echo ${{ env.PT_DICT_HOME }}/.git/HEAD
+        cat ${{ env.PT_DICT_HOME }}/.git/HEAD
         echo "PT_DICT_VERSION=$(git --work-tree=${{ env.PT_DICT_HOME }} describe --tags --abbrev=0 | sed 's/^v//g')" >> $GITHUB_ENV
     - name: Set up Perl
       uses: shogo82148/actions-setup-perl@v1
@@ -64,7 +65,9 @@ jobs:
         path: ${{ env.LT_HOME }}
         token: ${{ secrets.LT_OS_TOKEN }}
     - name: Build spelling dictionaries
-      run: | 
+      run: |
+        mkdir -p ${{ env.LT_TMP_DIR }}
         poetry run -C ${{ env.PT_DICT_HOME }} \
-          python "${{ env.PT_DICT_HOME }}/pt_dict/scripts/build_spelling_dicts.py"
+          python "${{ env.PT_DICT_HOME }}/pt_dict/scripts/build_spelling_dicts.py" \
+          --temp-dir ${{ env.LT_TMP_DIR }}
 
