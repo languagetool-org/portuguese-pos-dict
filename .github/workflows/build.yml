@@ -27,6 +27,7 @@ jobs:
       with:
         path: ${{ env.PT_DICT_HOME }}
         repository: ${{ env.GITHUB_ACTION_REPOSITORY }}
+        fetch-depth: 0
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v3
       with:
