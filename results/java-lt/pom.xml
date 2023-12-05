@@ -5,7 +5,7 @@
 
     <groupId>org.languagetool</groupId>
     <artifactId>portuguese-pos-dict</artifactId>
-    <version>0.7</version>
+    <version>0.8</version>
     <url>http://github.com/languagetool-org/portuguese-dict-tools</url>
     <name>Portuguese part-of-speech dictionary</name>
     <description>A Portuguese part-of-speech (POS) dictionary as a Morfologik binary</description>
@@ -31,6 +31,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <gpg.keyname>${env.GPG_KEYNAME}</gpg.keyname>
+        <gpg.passphrase>${env.GPG_PASSPHRASE}</gpg.passphrase>
     </properties>
 
     <scm>
@@ -81,6 +83,12 @@
                                 <goals>
                                     <goal>sign</goal>
                                 </goals>
+                                <configuration>
+                                <gpgArguments>
+                                    <arg>--pinentry-mode</arg>
+                                    <arg>loopback</arg>
+                                </gpgArguments>
+                                </configuration>
                             </execution>
                         </executions>
                     </plugin>
