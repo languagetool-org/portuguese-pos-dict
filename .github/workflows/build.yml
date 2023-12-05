@@ -37,7 +37,17 @@ jobs:
         POETRY_HTTP_BASIC_GITLAB_USERNAME: "lt-ai-package-registry"
         POETRY_HTTP_BASIC_GITLAB_PASSWORD: ${{ secrets.POETRY_HTTP_BASIC_GITLAB_PASSWORD }}
     - name: Set dictionary version
-      run: echo "PT_DICT_VERSION=$(git describe --work-tree=${{ env.PT_DICT_HOME }} --tags --abrev=0 | sed 's/^v//g')" >> $GITHUB_ENV
+      run: |
+        echo ${{ env.PT_DICT_HOME }}/.git/HEAD
+        echo "PT_DICT_VERSION=$(git --work-tree=${{ env.PT_DICT_HOME }} describe --tags --abbrev=0 | sed 's/^v//g')" >> $GITHUB_ENV
+    - name: Set up Perl
+      uses: shogo82148/actions-setup-perl@v1
+      with:
+        perl-version: "5.38"
+    - name: Install Perl dependencies
+      run: cpan install "Switch" "Text::Unaccent::PurePerl"
+    - name: Install Hunspell
+      run: apt-get install hunspell
     - name: Build POS tagging dictionary
       run: |
         cd "${{ env.PT_DICT_HOME }}" && bash ./pos_tagger_scripts/build-lt.sh && cd -
