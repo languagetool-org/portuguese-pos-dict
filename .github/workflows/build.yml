@@ -39,9 +39,10 @@ jobs:
     - name: Set dictionary version
       run: echo "PT_DICT_VERSION=$(git describe --work-tree=${{ env.PT_DICT_HOME }} --tags --abrev=0 | sed 's/^v//g')" >> $GITHUB_ENV
     - name: Build POS tagging dictionary
-      run: bash ./pos_tagger_scripts/build-lt.sh
+      run: |
+        cd ${{ env.PT_DICT_HOME }} && bash ./pos_tagger_scripts/build-lt.sh && cd -
     - name: Build spelling dictionaries
-      run: poetry run -C ${{ env.PT_DICT_HOME }} python ./pt_dict/scripts/build_spelling_dicts.py
+      run: poetry run -C ${{ env.PT_DICT_HOME }} python ./${{ env.PT_DICT_HOME}/pt_dict/scripts/build_spelling_dicts.py
     - name: Checkout LT
       uses: actions/checkout@v3
       with:
