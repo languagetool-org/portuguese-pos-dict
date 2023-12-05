@@ -51,6 +51,27 @@ If you are an LT team member, you should have access to these credentials in a s
 is `SonaType`). If you are an opensource developer (i.e. not an LT employee or freelance collaborator) and would still
 like to release your own version of the dictionary, please contact the [maintainers](#maintainer).
 
+#### GPG setup
+
+The [pom.xml](./results/java-lt/pom.xml) file in thsi repo is set up to take GPG credentials from your environment:
+
+```xml
+    <!-- ... -->
+    <properties>
+        <!-- ... -->
+        <gpg.keyname>${env.GPG_KEYNAME}</gpg.keyname>
+        <gpg.passphrase>${env.GPG_PASSPHRASE}</gpg.passphrase>
+    </properties>
+    <!-- ... -->
+```
+
+But, of course, do **not** store your GPG credentials in plaintext. If you have the 1password CLI set up, make sure you
+handle your secrets with 1password and call the release command with `op run --`, like:
+
+```bash
+op run -- mvn clean deploy -P release
+```
+
 ### Versioning
 
 These dictionaries use [semantic versioning](https://semver.org), as they are essentially libraries that can be
