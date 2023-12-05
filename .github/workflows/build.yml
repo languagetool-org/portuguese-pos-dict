@@ -94,5 +94,5 @@ jobs:
       run: |
         mkdir -p "${{ env.LT_TMP_DIR }}/compounds"
         poetry run python "./pt_dict/scripts/build_spelling_dicts.py" \
-          --tmp-dir ${{ env.LT_TMP_DIR }}
-          --max-threads ${{ steps.cpu-cores.outputs.count }}
+          --tmp-dir "${{ env.LT_TMP_DIR }}" \
+          --max-threads "${{ steps.cpu-cores.outputs.count }}"
