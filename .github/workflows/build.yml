@@ -16,9 +16,9 @@ jobs:
       matrix:
         python-version: ["3.11"]
     env:
-      LT_HOME: lt/languagetool
-      PT_DICT_HOME: lt/portuguese-pos-dict
-      LT_TMP_DIR: lt/tmp
+      LT_HOME: ${GITHUB_WORKSPACE}/lt/languagetool
+      PT_DICT_HOME: ${GITHUB_WORKSPACE}/lt/portuguese-pos-dict
+      LT_TMP_DIR: ${GITHUB_WORKSPACE}/lt/tmp
     steps:
     - uses: actions/checkout@v3
       with:
@@ -31,16 +31,17 @@ jobs:
     - name: Set up Poetry
       uses: Gr1N/setup-poetry@v8
     - name: Check Poetry config
-      run: poetry check -C ${{ env.PT_DICT_HOME }}
+      working-directory: ${{ env.PT_DICT_HOME }}
+      run: poetry check
     - name: Install Python dependencies
-      run: poetry install -C ${{ env.PT_DICT_HOME }}
+      working-directory: ${{ env.PT_DICT_HOME }}
+      run: poetry install
       env:
         POETRY_HTTP_BASIC_GITLAB_USERNAME: "lt-ai-package-registry"
         POETRY_HTTP_BASIC_GITLAB_PASSWORD: ${{ secrets.POETRY_HTTP_BASIC_GITLAB_PASSWORD }}
     - name: Set dictionary version
-      run: |
-        cat ${{ env.PT_DICT_HOME }}/.git/HEAD
-        echo "PT_DICT_VERSION=$(git --work-tree=${{ env.PT_DICT_HOME }} describe --tags --abbrev=0 | sed 's/^v//g')" >> $GITHUB_ENV
+      working-directory: ${{ env.PT_DICT_HOME }}
+      run: echo "PT_DICT_VERSION=$(git describe --tags --abbrev=0 | sed 's/^v//g')" >> $GITHUB_ENV
     - name: Set up Perl
       uses: shogo82148/actions-setup-perl@v1
       with:
@@ -56,8 +57,9 @@ jobs:
         distribution: 'temurin'
         architecture: x64
     - name: Build POS tagging dictionary
+      working-directory: ${{ env.PT_DICT_HOME }}
       run: |
-        cd "${{ env.PT_DICT_HOME }}" && bash ./pos_tagger_scripts/build-lt.sh && cd -
+        bash ./pos_tagger_scripts/build-lt.sh
     - name: Checkout LT
       uses: actions/checkout@v3
       with:
@@ -65,9 +67,8 @@ jobs:
         path: ${{ env.LT_HOME }}
         token: ${{ secrets.LT_OS_TOKEN }}
     - name: Build spelling dictionaries
+      working-directory: ${{ env.PT_DICT_HOME }}
       run: |
         mkdir -p ${{ env.LT_TMP_DIR }}
-        poetry run -C ${{ env.PT_DICT_HOME }} \
-          python "${{ env.PT_DICT_HOME }}/pt_dict/scripts/build_spelling_dicts.py" \
-          --tmp-dir ${{ env.LT_TMP_DIR }}
+        poetry run python "./pt_dict/scripts/build_spelling_dicts.py" --tmp-dir ${{ env.LT_TMP_DIR }}
 
