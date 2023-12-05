@@ -18,7 +18,7 @@ jobs:
     steps:
     - name: Set paths
       run: |
-        lt_dir="${{ env.GITHUB_WORKSPACE }}/lt"
+        lt_dir="${{ github.workspace }}/lt"
         echo "LT_HOME=${lt_dir}/languagetool" >> $GITHUB_ENV
         echo "PT_DICT_HOME=${lt_dir}/portuguese-pos-dict" >> $GITHUB_ENV
         echo "LT_TMP_DIR=${lt_dir}/tmp" >> $GITHUB_ENV
