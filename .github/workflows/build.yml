@@ -69,5 +69,5 @@ jobs:
         mkdir -p ${{ env.LT_TMP_DIR }}
         poetry run -C ${{ env.PT_DICT_HOME }} \
           python "${{ env.PT_DICT_HOME }}/pt_dict/scripts/build_spelling_dicts.py" \
-          --temp-dir ${{ env.LT_TMP_DIR }}
+          --tmp-dir ${{ env.LT_TMP_DIR }}
 
