@@ -1,0 +1,44 @@
+name: Build
+
+on:
+  push:
+    paths:
+      - "data/**"
+      - ".github/workflows/build.yml"
+  pull_request:
+    branches:
+      - "main"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11"]
+    env:
+      LT_HOME: lt/languagetool
+      PT_DICT_HOME: lt/portuguese-pos-dict
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        path: ${{ env.PT_DICT_HOME }}
+        repository: ${{ env.GITHUB_ACTION_REPOSITORY }}
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v3
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Build spelling dictionaries
+      run: poetry run python ./pt_dict/scripts/build_spelling_dicts.py
+    - name: Build POS tagging dictionary
+      run: bash ./pos_tagger_scripts/build-lt.sh
+    - name: Set version
+      run: echo "PT_DICT_VERSION=$(git describe --work-tree=${{ env.PT_DICT_HOME }} --tags --abrev=0 | sed 's/^v//g')" >> $GITHUB_ENV
+    - name: Install new binaries
+      run: cd ./results/java-lt && mvn clean install && cd -
+    - name: Checkout LT
+      uses: actions/checkout@v3
+      with:
+        repository: languagetool-org/languagetool
+        path: ${{ env.LT_HOME }}
+        token: ${{ secrets.LT_OS_TOKEN }}
+
