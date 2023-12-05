@@ -84,6 +84,29 @@ changes:
 - in the `languagetool` project, the main `pom.xml` must have the Portuguese POS dict version updated;
 - the specific value to be updated is that of `<portuguese-pos-dict.version>`.
 
+To make things a little easier, in this repository you won't need to update the version in the `pom.xml` file yourself.
+The XML contains the following environment variable:
+
+```xml
+<version>${env.PT_DICT_VERSION}</version>
+```
+
+You can call `mvn` with the specific version you want to release like so:
+```bash
+PT_DICT_VERSION="foo" mvn clean install
+```
+
+Or you can set up your environment to smartly get the version from the latest tag in this repository. In your bash or
+zsh configuration file, add something like this:
+
+```bash
+export PT_DICT_HOME="${LT_ROOT}/portuguese-pos-dict"
+dict_version() {
+  git --work-tree "${PT_DICT_HOME}" describe --tags --abbrev=0 | sed 's/^v//g'
+}
+export PT_DICT_VERSION=$(dict_version)
+```
+
 ### Outline
 
 The release process involves a few steps:
