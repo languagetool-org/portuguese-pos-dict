@@ -31,7 +31,7 @@ jobs:
       uses: Gr1N/setup-poetry@v8
     - name: Check Poetry config
       run: poetry check -C ${{ env.PT_DICT_HOME }}
-    - name: Install dependencies
+    - name: Install Python dependencies
       run: poetry install -C ${{ env.PT_DICT_HOME }}
       env:
         POETRY_HTTP_BASIC_GITLAB_USERNAME: "lt-ai-package-registry"
@@ -47,7 +47,7 @@ jobs:
     - name: Install Perl dependencies
       run: cpan install "Switch" "Text::Unaccent::PurePerl"
     - name: Install Hunspell
-      run: apt-get install hunspell
+      run: sudo apt-get install hunspell
     - name: Build POS tagging dictionary
       run: |
         cd "${{ env.PT_DICT_HOME }}" && bash ./pos_tagger_scripts/build-lt.sh && cd -
