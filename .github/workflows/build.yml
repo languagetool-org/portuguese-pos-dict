@@ -22,6 +22,7 @@ jobs:
         echo "LT_HOME=${lt_dir}/languagetool" >> $GITHUB_ENV
         echo "PT_DICT_HOME=${lt_dir}/portuguese-pos-dict" >> $GITHUB_ENV
         echo "LT_TMP_DIR=${lt_dir}/tmp" >> $GITHUB_ENV
+        echo "HUNSPELL_DIR=${lt_dir}/hunspell" >> $GITHUB_ENV
     - uses: actions/checkout@v3
       with:
         path: ${{ env.PT_DICT_HOME }}
@@ -50,9 +51,20 @@ jobs:
         perl-version: "5.38"
     - name: Install Perl dependencies
       run: cpan install "Switch" "Text::Unaccent::PurePerl"
-    - name: Install Hunspell
+    - name: Checkout Hunspell
+      uses: actions/checkout@v3
+      with:
+        repository: hunspell/hunspell
+        path: ${{ env.HUNSPELL_DIR }}
+    - name: Compile Hunspell
+      working-directory: ${{ env.HUNSPELL_DIR }}
       run: |
-        sudo apt-get install hunspell
+        sudo apt-get install autoconf automake autopoint libtool
+        autoreconf -vfi
+        ./configure
+        make
+        sudo make install
+        sudo ldconfig
         which unmunch
     - name: Set up JDK 11 for x64
       uses: actions/setup-java@v3
