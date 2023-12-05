@@ -30,24 +30,21 @@ jobs:
     - name: Set up Poetry
       uses: Gr1N/setup-poetry@v8
     - name: Check Poetry config
-      run: poetry check
+      run: poetry check -C ${{ env.PT_DICT_HOME }}
     - name: Install dependencies
-      run: poetry install
+      run: poetry install -C ${{ env.PT_DICT_HOME }}
       env:
         POETRY_HTTP_BASIC_GITLAB_USERNAME: "lt-ai-package-registry"
         POETRY_HTTP_BASIC_GITLAB_PASSWORD: ${{ secrets.POETRY_HTTP_BASIC_GITLAB_PASSWORD }}
-    - name: Build spelling dictionaries
-      run: poetry run python ./pt_dict/scripts/build_spelling_dicts.py
+    - name: Set dictionary version
+      run: echo "PT_DICT_VERSION=$(git describe --work-tree=${{ env.PT_DICT_HOME }} --tags --abrev=0 | sed 's/^v//g')" >> $GITHUB_ENV
     - name: Build POS tagging dictionary
       run: bash ./pos_tagger_scripts/build-lt.sh
-    - name: Set version
-      run: echo "PT_DICT_VERSION=$(git describe --work-tree=${{ env.PT_DICT_HOME }} --tags --abrev=0 | sed 's/^v//g')" >> $GITHUB_ENV
-    - name: Install new binaries
-      run: cd ./results/java-lt && mvn clean install && cd -
+    - name: Build spelling dictionaries
+      run: poetry run -C ${{ env.PT_DICT_HOME }} python ./pt_dict/scripts/build_spelling_dicts.py
     - name: Checkout LT
       uses: actions/checkout@v3
       with:
         repository: languagetool-org/languagetool
         path: ${{ env.LT_HOME }}
         token: ${{ secrets.LT_OS_TOKEN }}
-
