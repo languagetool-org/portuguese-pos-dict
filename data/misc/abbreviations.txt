@@ -450,6 +450,8 @@ Dra.
 dram.
 drav.
 Drs.
+dto.
+dta.
 dualid.
 dur.
 dz.

@@ -90224,6 +90224,7 @@ teletipista=MF;src: LT;
 teletrabalhador teletrabalhadora=MF;src: LT;
 teletrabalho=M;src: LT;
 teletransmissão [pl. teletransmissões]=F;src: LT;
+teletransporte=M;src: LT;
 teleutospório=M;src: LT;
 televenda=F;src: LT;
 televisamento=M;src: LT;
