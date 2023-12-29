@@ -5,7 +5,7 @@ from typing import List
 
 import random
 
-from pt_dict.constants import LOGGER, LT_DIR, REPO_DIR, RESULTS_DIR
+from pt_dict.constants import LOGGER, LT_DIR, REPO_DIR, JAVA_RESULTS_DIR
 from pt_dict.dicts.dictionary import Dictionary
 from pt_dict.dicts.hunspell import HunspellDict
 from pt_dict.dicts.tagger import TaggerDict
@@ -31,7 +31,7 @@ def compile_lt_dev():
 def install_dictionaries():
     """Install our dictionaries, I hope."""
     LOGGER.info("Installing dictionaries...")
-    chdir(RESULTS_DIR)
+    chdir(JAVA_RESULTS_DIR)
     run_command("mvn clean install")
     chdir(REPO_DIR)  # Go back to the repo directory
 
@@ -58,6 +58,24 @@ def run_command_with_input(command: str, input_data: str) -> str:
         LOGGER.warn(msg)
         raise RuntimeError(msg)
     return stdout_data
+
+
+def run_command_with_output(command: str, env: dict) -> None:
+    """Execute the given shell command and print its output in real time."""
+    LOGGER.debug(f"Running command: {command}")
+    process = subprocess.Popen(shlex.split(command), stdout=subprocess.PIPE, stderr=subprocess.PIPE, env=env)
+    while True:
+        output = process.stdout.readline()
+        if output == b'' and process.poll() is not None:
+            break
+        if output:
+            print(output.decode().strip())
+    rc = process.poll()
+    if rc != 0:
+        stderr = process.stderr.read().decode()
+        msg = f"Command failed with error code {rc}: {stderr}"
+        LOGGER.warn(msg)
+        raise RuntimeError(msg)
 
 
 def print_sample(word_list: List[str], sample_size: int):

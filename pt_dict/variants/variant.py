@@ -1,7 +1,7 @@
 from os import path
 from typing import Optional, Literal
 
-from pt_dict.constants import HUNSPELL_DIR, DICT_DIR, OUTPUT_DIR, COMPOUNDS_DIR
+from pt_dict.constants import HUNSPELL_DIR, SPELLING_DICT_DIR, SPELLING_OUTPUT_DIR, COMPOUNDS_DIR
 
 
 class Variant:
@@ -58,7 +58,7 @@ class Variant:
             filename = f"{self.hyphenated_with_agreement}.dict"
         else:
             filename = f"{self.hyphenated}.dict"
-        return path.join(OUTPUT_DIR, filename)
+        return path.join(SPELLING_OUTPUT_DIR, filename)
 
     def info(self, directory: Literal['source', 'target']) -> str:
         """The path to the info file can be in the source (current repo) or destination (the java src).
@@ -69,9 +69,9 @@ class Variant:
         """
         filename = f"{self.hyphenated}.info"
         if directory == 'source':
-            directory = DICT_DIR
+            directory = SPELLING_DICT_DIR
         elif directory == 'target':
-            directory = OUTPUT_DIR
+            directory = SPELLING_OUTPUT_DIR
         if self.country == 'PT':
             filename = f"{self.hyphenated_with_agreement}.info"
         return path.join(directory, filename)
@@ -84,7 +84,7 @@ class Variant:
         return path.join(COMPOUNDS_DIR, f"{filename}.dic")
 
     def freq(self) -> str:
-        return path.join(DICT_DIR, f"{self.lang}_{self.association}_wordlist.xml")
+        return path.join(SPELLING_DICT_DIR, f"{self.lang}_{self.association}_wordlist.xml")
 
 
 PT_BR = Variant("pt-BR")

@@ -8,7 +8,7 @@ import concurrent.futures
 from tempfile import NamedTemporaryFile
 from os import path
 
-from pt_dict.constants import DICT_DIR, LT_JAR_PATH, LOGGER, LT_DIR, LT_VER, LATIN_1_ENCODING
+from pt_dict.constants import SPELLING_DICT_DIR, LT_JAR_PATH, LOGGER, LT_DIR, LT_VER, LATIN_1_ENCODING
 from pt_dict.utils import run_command, compile_lt_dev, run_command_with_input, install_dictionaries
 from pt_dict.variants.variant import Variant, DIC_VARIANTS
 
@@ -34,7 +34,7 @@ class CLI:
             formatter_class=argparse.RawTextHelpFormatter
         )
 
-        self.parser.add_argument('--tmp-dir', default=path.join(DICT_DIR, "tmp"),
+        self.parser.add_argument('--tmp-dir', default=path.join(SPELLING_DICT_DIR, "tmp"),
                                  help='Temporary directory for processing. Default is the "tmp" directory inside '
                                       'DICT_DIR.')
         self.parser.add_argument('--delete-tmp', action='store_true', default=False,
