@@ -15,3 +15,5 @@ morfologik-lt/*.txt
 **/test_utf.out
 **/compounds/*.aff
 test_words.txt
+**/*.swp
+**/*.swo
