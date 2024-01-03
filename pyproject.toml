@@ -16,6 +16,7 @@ chardet = "^5.2.0"
 termcolor = "^2.3.0"
 spacy = "^3.6.1"
 spacy_syllables = "^3.0.2"
+spylls = "^0.1.7"
 
 [tool.poetry.group.dev]
 optional = true
