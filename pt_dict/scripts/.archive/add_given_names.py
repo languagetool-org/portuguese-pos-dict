@@ -1,6 +1,5 @@
 import unicodedata
 from os import path
-from typing import Optional
 
 from pt_dict.constants import LATIN_1_ENCODING, DATA_DIR
 from pt_dict.dicts.dictionary import Dictionary

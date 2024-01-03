@@ -62,4 +62,3 @@ class ConsoleUtils:
             'pt90': self.pt90.lookup(word),
             'pt45': self.pt45.lookup(word),
         }
-
