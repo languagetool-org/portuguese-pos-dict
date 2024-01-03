@@ -9,7 +9,7 @@ from pt_dict.constants import TAGGER_BUILD_SCRIPT_PATH, FDIC_DIR, RESULT_POS_DIC
     POS_DICT_DIFF_FILEPATH, OLD_POS_DICT_FILEPATH, POS_DICT_JAVA_OUTPUT_PATH, POS_INFO_JAVA_OUTPUT_PATH, \
     POS_INFO_JAVA_INPUT_PATH, SYNTH_DICT_JAVA_OUTPUT_PATH, SYNTH_INFO_JAVA_OUTPUT_PATH, SYNTH_INFO_JAVA_INPUT_PATH, \
     REPO_DIR, TAGGER_DICT_DIR, LT_RESULTS_DIR, LT_JAR_PATH, JAVA_OUTPUT_DIR
-from pt_dict.utils import run_command_with_output, run_command
+from pt_dict.utils import run_command_with_output, run_command, compile_lt_dev
 
 
 def set_shell_env() -> dict[str, str]:
@@ -59,6 +59,7 @@ def build_synth_binary() -> None:
 
 def main():
     SHELL_ENV = set_shell_env()
+    compile_lt_dev()
     run_shell_script(SHELL_ENV)
     build_pos_binary()
     build_synth_binary()
