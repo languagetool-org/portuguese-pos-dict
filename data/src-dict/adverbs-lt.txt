@@ -271,6 +271,7 @@ offline	offline	RG
 ogano	ogano	RG
 oiro-fio	oiro-fio	RG
 on-line	on-line	RG
+off-line    off-line    RG
 onde	onde	RG
 online	online	RG
 ontem	ontem	RG
@@ -412,3 +413,4 @@ vilipendiosamante	vilipendiosamante	RG
 vis-à-vis	vis-à-vis	RG
 és-não-és	és-não-és	RG
 ínterim	ínterim	RG
+non-stop    non-stop    RG

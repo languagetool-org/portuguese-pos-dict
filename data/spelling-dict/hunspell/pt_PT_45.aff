@@ -119,8 +119,10 @@ SFX p   0               es              [rnzx]                         +N=p
 SFX p   0               es              [cs]h                          +N=p
 
 # Plural -þ- specifically for English words with straightforward -s plurals, e.g. surfer-surfers, jam-jams
-SFX þ Y 1
+SFX þ Y 3
 SFX þ   0     s        .
+SFX þ   y     ies      [qwrtypsdfhgjklzxcvnmb]y
+SFX þ   0     s        [aeiou]y
 
 SFX a Y 4
 SFX a   0               s               ão              +N=p

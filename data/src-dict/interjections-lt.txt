@@ -231,6 +231,7 @@ hail	hail	I
 heil	heil	I
 hem	hem	I
 heureca	heureca	I
+eureca  eureca  I
 him	him	I
 hip	hip	I
 homessa	homessa	I

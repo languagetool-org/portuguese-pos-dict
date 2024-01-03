@@ -3969,8 +3969,8 @@ Cinara	Cinara	NPFS000
 Cincia	Cincia	NPFS000
 Cincinata	Cincinato	NPFS000
 Cincinato	Cincinato	NPMS000
-Cinderela	Cinderela	NPFS000
 Cinderela	Cinderela	NPFSS00
+Cinderella	Cinderella	NPFSS00
 Cindy	Cindy	NPFSS00
 Cindys	Cindy	NPFPS00
 Cinegira	Cinegiro	NPFS000
@@ -14057,3 +14057,6 @@ Toulouse	Toulouse	NPCSS00
 Blagnac	Blagnac	NPCSS00
 Duckworth	Duckworth	NPCSS00
 Hodgkin Hodgkin NPCSS00
+Penalty Penalty NPCSO00
+Umbro   Umbro   NPCSO00
+Asics   Asics   NPCSO00
