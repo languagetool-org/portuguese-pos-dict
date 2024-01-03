@@ -85,7 +85,7 @@ jobs:
     - name: Build POS tagging dictionary
       working-directory: ${{ env.PT_DICT_HOME }}
       run: |
-        poetry run python "./pt_dict/scripts/build-tagger_dicts.py"
+        poetry run python "./pt_dict/scripts/build_tagger_dicts.py"
     - name: Build LT
       working-directory: ${{ env.LT_HOME }}
       run: mvn clean install -DskipTests
