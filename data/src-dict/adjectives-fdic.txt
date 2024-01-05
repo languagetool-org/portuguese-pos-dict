@@ -48539,3 +48539,6 @@ cross-country=AI;src: LT;
 trans-humano trans-humanas=A; src: LT;
 fair-play=AI; src: LT;
 ready-made=AI; src:LT;
+top-down=AI; src:LT;
+bottom-up=AI; src:LT;
+touch=AI; src:LT;

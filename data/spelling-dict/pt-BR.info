@@ -16,4 +16,4 @@ fsa.dict.speller.ignore-diacritics=true
 fsa.dict.speller.convert-case=true
 
 fsa.dict.speller.equivalent-chars=y i,i y,g j,j g,c ç,ç c,z s,s z,ã a,a ã,a â,â a,l u,u l,x z,z x,i í,u ú,ú u,í i,ô o,o ô,o ó,ó o,õ o,o õ,õ ô,ô õ,â ã,ã â,k c,w u,n m,m n,ü u,b v,v b
-fsa.dict.speller.replacement-pairs=vinhe vie,abess oubess,recad arrecad,ncia nça,nça ncia,difiss difíc,abto ábito,li lh,lh li,ni nh,nh ni,ch x,x ch,ph f,f ph,a ha,á há,b bi,deza deze,opn opin,mento mente,ment mente,ment mento,men mente,men mento,anti- antis,anti- antir,ante- antes,ante- anter,ue o,sc sç,şc sc,ss c,ss ç,ç ss,c ss,c xc,xc c,o ou,ô ou,ou ô,hu u,u hu,hú ú,ú hú,k qu,am ão,ão am,on ão,es é,ao ão,para- para,pára- para
+fsa.dict.speller.replacement-pairs=vinhe vie,abess oubess,recad arrecad,ncia nça,nça ncia,difiss difíc,abto ábito,li lh,lh li,ni nh,nh ni,ch x,x ch,ph f,f ph,a ha,á há,b bi,deza deze,opn opin,mento mente,ment mente,ment mento,men mente,men mento,anti- antis,anti- antir,ante- antes,ante- anter,ue o,sc sç,şc sc,ss c,ss ç,ç ss,c ss,c xc,xc c,o ou,ô ou,ou ô,hu u,u hu,hú ú,ú hú,k qu,am ão,ão am,on ão,es é,ao ão,para- para,pára- para,kitchen quitin,tt t
