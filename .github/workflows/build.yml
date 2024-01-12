@@ -28,6 +28,7 @@ jobs:
         path: ${{ env.PT_DICT_HOME }}
         repository: ${{ env.GITHUB_ACTION_REPOSITORY }}
         fetch-depth: 0
+        submodules: recursive
     - name: Get number of CPU cores
       uses: SimenB/github-actions-cpu-cores@v1
       id: cpu-cores
@@ -88,11 +89,11 @@ jobs:
     - name: Build POS tagging dictionary
       working-directory: ${{ env.PT_DICT_HOME }}
       run: |
-        poetry run python "./pt_dict/scripts/build_tagger_dicts.py"
+        poetry run python "./dictionary-tools/scripts/build_tagger_dicts.py"
     - name: Build spelling dictionaries
       working-directory: ${{ env.PT_DICT_HOME }}
       run: |
         mkdir -p "${{ env.LT_TMP_DIR }}/compounds"
-        poetry run python "./pt_dict/scripts/build_spelling_dicts.py" \
+        poetry run python "./dictionary-tools/scripts/build_spelling_dicts.py" \
           --tmp-dir "${{ env.LT_TMP_DIR }}" \
           --max-threads "${{ steps.cpu-cores.outputs.count }}"

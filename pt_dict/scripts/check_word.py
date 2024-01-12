@@ -8,7 +8,7 @@ from typing import List
 from pt_dict.constants import LATIN_1_ENCODING
 from pt_dict.dicts.dictionary import Dictionary
 from pt_dict.dicts.hunspell import HunspellDict
-from pt_dict.variants.variant import DIC_VARIANTS
+from dict_tools.lib.variant import VARIANT_MAPPING
 
 
 class CLI:
@@ -55,4 +55,5 @@ class LookUp:
 
 if __name__ == '__main__':
     cli = CLI()
+    DIC_VARIANTS = VARIANT_MAPPING.get('pt')
     LookUp(cli.args.words).run()

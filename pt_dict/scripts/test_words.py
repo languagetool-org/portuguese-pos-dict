@@ -5,7 +5,7 @@ from os import path
 from spylls.hunspell import Dictionary
 
 from pt_dict.constants import HUNSPELL_DIR
-from pt_dict.variants.variant import PT_BR
+from dict_tools.lib.variant import PT_BR
 
 
 def main():

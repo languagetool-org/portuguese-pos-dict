@@ -1,0 +1,3 @@
+[submodule "dict_tools"]
+	path = dict_tools
+	url = https://p-goulart@github.com/languagetool-org/dictionary-tools.git

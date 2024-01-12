@@ -4,7 +4,7 @@ from typing import Literal
 from spylls.hunspell import Dictionary
 
 from pt_dict.constants import HUNSPELL_DIR
-from pt_dict.variants.variant import PT_BR, Variant, PT_PT_90, PT_PT_45
+from dict_tools.lib.variant import Variant, PT_BR, PT_PT_90, PT_PT_45
 
 
 class ConsoleUtils:
@@ -36,14 +36,10 @@ class ConsoleUtils:
         self.mode = "main"
 
     def load_dictionary(self, variant: Variant) -> Dictionary:
-        if variant.country == 'BR':
-            variant_code = variant.underscored
-        else:
-            variant_code = variant.underscored_with_agreement
         if self.mode == 'compounds':
-            dict_path = path.join(HUNSPELL_DIR, "compounds", variant_code)
+            dict_path = path.join(HUNSPELL_DIR, "compounds", variant.underscored)
         else:
-            dict_path = path.join(HUNSPELL_DIR, variant_code)
+            dict_path = path.join(HUNSPELL_DIR, variant.underscored)
         return Dictionary.from_files(dict_path)
 
     def load_dictionaries(self):
