@@ -19,6 +19,8 @@ jobs:
       LT_HOME: foo/lt/home
     steps:
     - uses: actions/checkout@v3
+      with:
+        submodules: recursive
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v3
       with:
