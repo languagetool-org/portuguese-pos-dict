@@ -5,7 +5,7 @@ UNIMPLEMENTED: it also shows us how they're tagged and, if we pass an extra opti
 import argparse
 from typing import List
 
-from pt_dict.constants import LATIN_1_ENCODING
+from dict_tools.lib.constants import LATIN_1_ENCODING
 from pt_dict.dicts.dictionary import Dictionary
 from pt_dict.dicts.hunspell import HunspellDict
 from dict_tools.lib.variant import VARIANT_MAPPING

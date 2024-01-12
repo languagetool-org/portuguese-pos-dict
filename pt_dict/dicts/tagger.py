@@ -1,7 +1,7 @@
 import re
 from os import path
 
-from pt_dict.constants import TAGGER_DICT_DIR
+from dict_tools.lib.constants import TAGGER_DICT_DIR
 from pt_dict.dicts.dictionary import Dictionary
 
 

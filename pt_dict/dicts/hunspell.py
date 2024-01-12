@@ -1,6 +1,6 @@
 import re
 
-from pt_dict.constants import LATIN_1_ENCODING
+from dict_tools.lib.constants import LATIN_1_ENCODING
 from pt_dict.dicts.dictionary import Dictionary
 from dict_tools.lib.variant import VARIANT_MAPPING
 

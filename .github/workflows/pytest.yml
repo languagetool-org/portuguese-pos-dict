@@ -39,7 +39,7 @@ jobs:
     - name: Pytest
       uses: pavelzw/pytest-action@v2
       with:
-        custom-pytest: "poetry run pytest"
+        custom-pytest: "poetry run pytest test"
         emoji: true
         verbose: true
         job-summary: true
