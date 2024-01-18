@@ -3382,10 +3382,10 @@ SFX c   r      vas       uitar
 #                    e verbos terminados em ear com som aberto: 
 #                    idear, estrear
 
-SFX d Y 213
-SFX d   ar      á         ar
-SFX d   er      ê         er
-SFX d   or      ô         or
+SFX d Y 210
+# SFX d   ar      á         ar
+# SFX d   er      ê         er
+# SFX d   or      ô         or
 SFX d   r       0         rir
 SFX d   r       a         rir
 SFX d   r       ais       rir
@@ -4068,10 +4068,10 @@ SFX e   er      íeis         requerer
 
 # IRREGULARES -f- haver ir poder querer ser ter   
 
-SFX f Y 308
-SFX f   ar     á            ar
-SFX f   er     ê            er
-SFX f   or     ô            or
+SFX f Y 305
+# SFX f   ar     á            ar
+# SFX f   er     ê            er
+# SFX f   or     ô            or
 SFX f   r      i            for
 SFX f   r      mos          for
 SFX f   0      a            for
@@ -5335,8 +5335,8 @@ SFX h   ar       ou           [aeou]izar
 # VERBOS IRREGULARES -i- Terminação:  VIR  TRUIR      ERGIR      RER   QUIR
 #                                     vir  construir  convergir  crer  ressequir  
 
-SFX i Y 871
-SFX i   ar       á            ar
+SFX i Y 870
+# SFX i   ar       á            ar
 SFX i   er       ê            zer
 SFX i   or       ô            or
 SFX i   ir       eio          vir
@@ -6228,7 +6228,7 @@ SFX j   r       doronas    r
 
 # ÊNCLISES E MESÓCLISES -k- Para verbos da regra -a- 
 
-SFX k Y 1192
+SFX k Y 1188
 SFX k   0       -me            [aei]r
 SFX k   0       -te            [aei]r
 SFX k   0       -se            [aei]r
@@ -6236,12 +6236,8 @@ SFX k   0       -se-lhe        [aei]r
 SFX k   0       -se-lhes       [aei]r
 SFX k   0       -nos           [aei]r
 SFX k   0       -vos           [aei]r
-SFX k   0       -lha           [aei]r
 SFX k   0       -lhe           [aei]r
-SFX k   0       -lho           [aei]r
-SFX k   0       -lhas          [aei]r
 SFX k   0       -lhes          [aei]r
-SFX k   0       -lhos          [aei]r
 SFX k   0       a-me           [aei]r
 SFX k   0       a-te           [aei]r
 SFX k   0       a-se           [aei]r
@@ -6315,10 +6311,10 @@ SFX k   0       -nos-emos      [aei]r
 SFX k   0       -vos-emos      [aei]r
 SFX k   0       -lhe-emos      [aei]r
 SFX k   0       -lhes-emos     [aei]r
-SFX k   0       -la-emos       ir
-SFX k   0       -las-emos      ir
-SFX k   0       -lo-emos       ir
-SFX k   0       -los-emos      ir
+SFX k   r       -la-emos       ir
+SFX k   r       -las-emos      ir
+SFX k   r       -lo-emos       ir
+SFX k   r       -los-emos      ir
 SFX k   ar      á-la-emos      ar
 SFX k   ar      á-las-emos     ar
 SFX k   ar      á-lo-emos      ar
@@ -6350,12 +6346,12 @@ SFX k   0       -lhe-iam       [aei]r
 SFX k   0       -lhes-iam      [aei]r
 SFX k   0       íamos-te       [aei]r
 SFX k   0       íamo-nos       [aei]r
-SFX k   0       íamo-vos       [aei]r
+SFX k   0       íamos-vos       [aei]r
 SFX k   0       íamos-lhe      [aei]r
 SFX k   0       íamos-lhes     [aei]r
 SFX k   0       mos-te         [aei]r
 SFX k   0       mo-nos         [aei]r
-SFX k   0       mo-vos         [aei]r
+SFX k   0       mos-vos         [aei]r
 SFX k   0       mo-la          [aei]r
 SFX k   0       mo-las         [aei]r
 SFX k   0       mo-lo          [aei]r
@@ -6366,14 +6362,14 @@ SFX k   ar      á-la           ar
 SFX k   ar      á-las          ar
 SFX k   ar      á-lo           ar
 SFX k   ar      á-los          ar
-SFX k   r       -la-á          ar
-SFX k   r       -las-á         ar
-SFX k   r       -lo-á          ar
-SFX k   r       -los-á         ar
-SFX k   r       -la-ás         ar
-SFX k   r       -las-ás        ar
-SFX k   r       -lo-ás         ar
-SFX k   r       -los-ás        ar
+SFX k   ar      á-la-á          ar
+SFX k   ar      á-las-á         ar
+SFX k   ar      á-lo-á          ar
+SFX k   ar      á-los-á         ar
+SFX k   ar      á-la-ás         ar
+SFX k   ar      á-las-ás        ar
+SFX k   ar      á-lo-ás         ar
+SFX k   ar      á-los-ás        ar
 SFX k   ar      á-la-ei        ar
 SFX k   ar      á-las-ei       ar
 SFX k   ar      á-lo-ei        ar
@@ -6388,7 +6384,7 @@ SFX k   ar      á-lo-iam       ar
 SFX k   ar      á-los-iam      ar
 SFX k   ar      ávamos-te      ar
 SFX k   ar      ávamo-nos      ar
-SFX k   ar      ávamo-vos      ar
+SFX k   ar      ávamos-vos      ar
 SFX k   ar      ávamos-lhe     ar
 SFX k   ar      ávamos-lhes    ar
 SFX k   ar      ávamo-la       ar
@@ -6431,7 +6427,7 @@ SFX k   ar      em-no          [^cgç]ar
 SFX k   ar      em-nas         [^cgç]ar
 SFX k   ar      emos-te        [^cgç]ar
 SFX k   ar      emo-nos        [^cgç]ar
-SFX k   ar      emo-vos        [^cgç]ar
+SFX k   ar      emos-vos        [^cgç]ar
 SFX k   ar      emos-lhe       [^cgç]ar
 SFX k   ar      emos-lhes      [^cgç]ar
 SFX k   ar      emo-lo         [^cgç]ar
@@ -6462,7 +6458,7 @@ SFX k   ar      ou-o           ar
 SFX k   ar      ou-os          ar
 SFX k   arar    aramos-te      parar
 SFX k   arar    aramo-nos      parar
-SFX k   arar    aramo-vos      parar
+SFX k   arar    aramos-vos      parar
 SFX k   arar    aramos-lhe     parar
 SFX k   arar    aramos-lhes    parar
 SFX k   çar     ce-me          çar
@@ -6500,7 +6496,7 @@ SFX k   çar     cem-no         çar
 SFX k   çar     cem-nos        çar
 SFX k   çar     cemos-te       çar
 SFX k   çar     cemo-nos       çar
-SFX k   çar     cemo-vos       çar
+SFX k   çar     cemos-vos       çar
 SFX k   çar     cemos-lhe      çar
 SFX k   çar     cemos-lhes     çar
 SFX k   çar     cemo-la        çar
@@ -6542,7 +6538,7 @@ SFX k   car     quem-no        car
 SFX k   car     quem-nos       car
 SFX k   car     quemos-te      car
 SFX k   car     quemo-nos      car
-SFX k   car     quemo-vos      car
+SFX k   car     quemos-vos      car
 SFX k   car     quemos-lhe     car
 SFX k   car     quemos-lhes    car
 SFX k   car     quemo-la       car
@@ -6576,7 +6572,7 @@ SFX k   cer     çam-no         cer
 SFX k   cer     çam-nos        cer
 SFX k   cer     çamos-te       cer
 SFX k   cer     çamo-nos       cer
-SFX k   cer     çamo-vos       cer
+SFX k   cer     çamos-vos       cer
 SFX k   cer     çamos-lhe      cer
 SFX k   cer     çamos-lhes     cer
 SFX k   cer     ço-me          cer
@@ -6616,7 +6612,7 @@ SFX k   edir    idam-no        gredir
 SFX k   edir    idam-nos       gredir
 SFX k   edir    idamos-te      gredir
 SFX k   edir    idamo-nos      gredir
-SFX k   edir    idamo-vos      gredir
+SFX k   edir    idamos-vos      gredir
 SFX k   edir    idamos-lhe     gredir
 SFX k   edir    idamos-lhes    gredir
 SFX k   edir    ide-me         gredir
@@ -6679,7 +6675,7 @@ SFX k   entir   intam-nas      entir
 SFX k   entir   intam-no       entir
 SFX k   entir   intam-nos      entir
 SFX k   entir   intamo-nos     entir
-SFX k   entir   intamo-vos     entir
+SFX k   entir   intamos-vos     entir
 SFX k   entir   intamos-lhe    entir
 SFX k   entir   intamos-lhes   entir
 SFX k   entir   into-me        entir
@@ -6731,7 +6727,7 @@ SFX k   er      am-no          [^cgu]er
 SFX k   er      am-nos         [^cgu]er
 SFX k   er      amos-te        [^cgu]er
 SFX k   er      amo-nos        [^cgu]er
-SFX k   er      amo-vos        [^cgu]er
+SFX k   er      amos-vos        [^cgu]er
 SFX k   er      amos-lhe       [^cgu]er
 SFX k   er      amos-lhes      [^cgu]er
 SFX k   er      ê-la           er
@@ -6795,7 +6791,7 @@ SFX k   er      iam-no         er
 SFX k   er      iam-nos        er
 SFX k   er      íamos-te       er
 SFX k   er      íamo-nos       er
-SFX k   er      íamo-vos       er
+SFX k   er      íamos-vos       er
 SFX k   er      íamos-lhe      er
 SFX k   er      íamos-lhes     er
 SFX k   er      o-me           [^cgu]er
@@ -6834,7 +6830,7 @@ SFX k   ertir   irtam-no       vertir
 SFX k   ertir   irtam-nos      vertir
 SFX k   ertir   irtamos-te     vertir
 SFX k   ertir   irtamo-nos     vertir
-SFX k   ertir   irtamo-vos     vertir
+SFX k   ertir   irtamos-vos     vertir
 SFX k   ertir   irtamos-lhe    vertir
 SFX k   ertir   irtamos-lhes   vertir
 SFX k   ertir   irto-me        vertir
@@ -6873,7 +6869,7 @@ SFX k   ger     jam-no         ger
 SFX k   ger     jam-nos        ger
 SFX k   ger     jamos-te       ger
 SFX k   ger     jamo-nos       ger
-SFX k   ger     jamo-vos       ger
+SFX k   ger     jamos-vos       ger
 SFX k   ger     jamos-lhe      ger
 SFX k   ger     jamos-lhes     ger
 SFX k   ger     jo-me          ger
@@ -6913,7 +6909,7 @@ SFX k   guer    gam-no         guer
 SFX k   guer    gam-nos        guer
 SFX k   guer    gamos-te       guer
 SFX k   guer    gamo-nos       guer
-SFX k   guer    gamo-vos       guer
+SFX k   guer    gamos-vos       guer
 SFX k   guer    gamos-lhe      guer
 SFX k   guer    gamos-lhes     guer
 SFX k   guer    go-me          guer
@@ -6966,7 +6962,7 @@ SFX k   ir      am-no          ir
 SFX k   ir      am-nas         ir
 SFX k   ir      amos-te        ir
 SFX k   ir      amo-nos        ir
-SFX k   ir      amo-vos        ir
+SFX k   ir      amos-vos        ir
 SFX k   ir      amos-lhe       ir
 SFX k   ir      amos-lhes      ir
 SFX k   ulir    ole-me         ulir
@@ -7169,7 +7165,7 @@ SFX k   obrir   ubram-no       cobrir
 SFX k   obrir   ubram-nos      cobrir
 SFX k   obrir   ubramos-te     cobrir
 SFX k   obrir   ubramo-nos     cobrir
-SFX k   obrir   ubramo-vos     cobrir
+SFX k   obrir   ubramos-vos     cobrir
 SFX k   obrir   ubramos-lhe    cobrir
 SFX k   obrir   ubramos-lhes   cobrir
 SFX k   obrir   ubro-me        cobrir
@@ -7300,7 +7296,7 @@ SFX k   r       m-no           [ae]r
 SFX k   r       m-nos          [ae]r
 SFX k   r       mos-te         [aei]r
 SFX k   r       mo-nos         [aei]r
-SFX k   r       mo-vos         [aei]r
+SFX k   r       mos-vos         [aei]r
 SFX k   r       mos-lhe        [aei]r
 SFX k   r       mos-lhes       [aei]r
 SFX k   r       mo-la          [aei]r
@@ -7425,7 +7421,7 @@ SFX k   udir    odem-nos       cudir
 
 # ÊNCLISES E MESÓCLISES -m- Para verbos da regra -c- 
 #
-SFX m Y 4730
+SFX m Y 4728
 SFX m   er      ê-la-á         ter
 SFX m   er      ê-las-á        ter
 SFX m   0       -lhe-á         ter
@@ -7702,9 +7698,7 @@ SFX m   r       ve-lhes        ter
 SFX m   r       ve-nos         ter
 SFX m   r       ve-o           ter
 SFX m   r       ve-vos         ter
-SFX m   0       -lha           [aei]r
 SFX m   0       -lhe           [aei]r
-SFX m   0       -lho           [aei]r
 SFX m   0       -lhe-á         [aüu]ir
 SFX m   0       -lhe-á         boiar
 SFX m   0       -lhe-á         denegrir
@@ -9386,7 +9380,7 @@ SFX m   eguir   igam-te        eguir
 SFX m   eguir   igam-vos       eguir
 SFX m   eguir   igamos-lhe     eguir
 SFX m   eguir   igamos-lhes    eguir
-SFX m   eguir   igamos-nos     eguir
+SFX m   eguir   igamo-nos     eguir
 SFX m   eguir   igamos-te      eguir
 SFX m   eguir   igamos-vos     eguir
 SFX m   eguir   igo-a          eguir
@@ -9664,7 +9658,7 @@ SFX m   gir     jam-te         gir
 SFX m   gir     jam-vos        gir
 SFX m   gir     jamos-lhe      gir
 SFX m   gir     jamos-lhes     gir
-SFX m   gir     jamos-nos      gir
+SFX m   gir     jamo-nos      gir
 SFX m   gir     jamos-te       gir
 SFX m   gir     jamos-vos      gir
 SFX m   ir      e-a            gir
@@ -9733,7 +9727,7 @@ SFX m   guir    gam-te         nguir
 SFX m   guir    gam-vos        nguir
 SFX m   guir    gamos-lhe      nguir
 SFX m   guir    gamos-lhes     nguir
-SFX m   guir    gamos-nos      nguir
+SFX m   guir    gamo-nos      nguir
 SFX m   guir    gamos-te       nguir
 SFX m   guir    gamos-vos      nguir
 SFX m   guir    go-a           nguir
@@ -12212,12 +12206,12 @@ SFX n   r       am-se          rir
 SFX n   r       am-te          rir
 SFX n   r       am-vos         rir
 SFX n   r       amo-nos        rir
-SFX n   r       amo-vos        rir
+SFX n   r       amos-vos        rir
 SFX n   r       amos-lhe       rir
 SFX n   r       amos-lhes      rir
 SFX n   r       amos-te        rir
 SFX n   ir      íamo-nos       rir
-SFX n   ir      íamo-vos       rir
+SFX n   ir      íamos-vos       rir
 SFX n   ir      íamos-lhe      rir
 SFX n   ir      íamos-lhes     rir
 SFX n   ir      íamos-te       rir
@@ -12243,7 +12237,7 @@ SFX n   r       em-se          rir
 SFX n   r       em-te          rir
 SFX n   r       em-vos         rir
 SFX n   r       mo-nos         rir
-SFX n   r       mo-vos         rir
+SFX n   r       mos-vos         rir
 SFX n   r       mos-lhe        rir
 SFX n   r       mos-lhes       rir
 SFX n   r       mos-te         rir
@@ -12358,12 +12352,12 @@ SFX n   0       -se-iam        rir
 SFX n   0       -te-iam        rir
 SFX n   0       -vos-iam       rir
 SFX n   0       íamo-nos       rir
-SFX n   0       íamo-vos       rir
+SFX n   0       íamos-vos       rir
 SFX n   0       íamos-lhe      rir
 SFX n   0       íamos-lhes     rir
 SFX n   0       íamos-te       rir
 SFX n   0       mo-nos         rir
-SFX n   0       mo-vos         rir
+SFX n   0       mos-vos         rir
 SFX n   0       mos-lhe        rir
 SFX n   0       mos-lhes       rir
 SFX n   0       mos-te         rir
@@ -12463,7 +12457,7 @@ SFX n   r       am-se          [dl]ir
 SFX n   r       am-te          [dl]ir
 SFX n   r       am-vos         [dl]ir
 SFX n   ir      íamo-nos       [dl]ir
-SFX n   ir      íamo-vos       [dl]ir
+SFX n   ir      íamos-vos       [dl]ir
 SFX n   ir      íamos-lhe      [dl]ir
 SFX n   ir      íamos-lhes     [dl]ir
 SFX n   ir      íamos-te       [dl]ir
@@ -12479,7 +12473,7 @@ SFX n   r       do-se          [dl]ir
 SFX n   r       do-te          [dl]ir
 SFX n   r       do-vos         [dl]ir
 SFX n   r       mo-nos         [dl]ir
-SFX n   r       mo-vos         [dl]ir
+SFX n   r       mos-vos         [dl]ir
 SFX n   r       mos-lhe        [dl]ir
 SFX n   r       mos-lhes       [dl]ir
 SFX n   r       mos-te         [dl]ir
@@ -12584,12 +12578,12 @@ SFX n   0       -se-iam        [dl]ir
 SFX n   0       -te-iam        [dl]ir
 SFX n   0       -vos-iam       [dl]ir
 SFX n   0       íamo-nos       [dl]ir
-SFX n   0       íamo-vos       [dl]ir
+SFX n   0       íamos-vos       [dl]ir
 SFX n   0       íamos-lhe      [dl]ir
 SFX n   0       íamos-lhes     [dl]ir
 SFX n   0       íamos-te       [dl]ir
 SFX n   0       mo-nos         [dl]ir
-SFX n   0       mo-vos         [dl]ir
+SFX n   0       mos-vos         [dl]ir
 SFX n   0       mos-lhe        [dl]ir
 SFX n   0       mos-lhes       [dl]ir
 SFX n   0       mos-te         [dl]ir
@@ -12657,7 +12651,7 @@ SFX n   olir    ulam-se        olir
 SFX n   olir    ulam-te        olir
 SFX n   olir    ulam-vos       olir
 SFX n   olir    ulamo-nos      olir
-SFX n   olir    ulamo-vos      olir
+SFX n   olir    ulamos-vos      olir
 SFX n   olir    ulamos-lhe     olir
 SFX n   olir    ulamos-lhes    olir
 SFX n   olir    ulamos-te      olir
@@ -12691,7 +12685,7 @@ SFX n   odir    udam-se        odir
 SFX n   odir    udam-te        odir
 SFX n   odir    udam-vos       odir
 SFX n   odir    udamo-nos      odir
-SFX n   odir    udamo-vos      odir
+SFX n   odir    udamos-vos      odir
 SFX n   odir    udamos-lhe     odir
 SFX n   odir    udamos-lhes    odir
 SFX n   odir    udamos-te      odir
@@ -12757,7 +12751,7 @@ SFX n   r       am-se          erzir
 SFX n   r       am-te          erzir
 SFX n   r       am-vos         erzir
 SFX n   ir      íamo-nos       erzir
-SFX n   ir      íamo-vos       erzir
+SFX n   ir      íamos-vos       erzir
 SFX n   ir      íamos-lhe      erzir
 SFX n   ir      íamos-lhes     erzir
 SFX n   ir      íamos-te       erzir
@@ -12773,7 +12767,7 @@ SFX n   r       do-se          erzir
 SFX n   r       do-te          erzir
 SFX n   r       do-vos         erzir
 SFX n   r       mo-nos         erzir
-SFX n   r       mo-vos         erzir
+SFX n   r       mos-vos         erzir
 SFX n   r       mos-lhe        erzir
 SFX n   r       mos-lhes       erzir
 SFX n   r       mos-te         erzir
@@ -12878,12 +12872,12 @@ SFX n   0       -se-iam        erzir
 SFX n   0       -te-iam        erzir
 SFX n   0       -vos-iam       erzir
 SFX n   0       íamo-nos       erzir
-SFX n   0       íamo-vos       erzir
+SFX n   0       íamos-vos       erzir
 SFX n   0       íamos-lhe      erzir
 SFX n   0       íamos-lhes     erzir
 SFX n   0       íamos-te       erzir
 SFX n   0       mo-nos         erzir
-SFX n   0       mo-vos         erzir
+SFX n   0       mos-vos         erzir
 SFX n   0       mos-lhe        erzir
 SFX n   0       mos-lhes       erzir
 SFX n   0       mos-te         erzir
@@ -12949,7 +12943,7 @@ SFX n   erzir   irzam-se       erzir
 SFX n   erzir   irzam-te       erzir
 SFX n   erzir   irzam-vos      erzir
 SFX n   erzir   irzamo-nos     erzir
-SFX n   erzir   irzamo-vos     erzir
+SFX n   erzir   irzamos-vos     erzir
 SFX n   erzir   irzamos-lhe    erzir
 SFX n   erzir   irzamos-lhes   erzir
 SFX n   erzir   irzamos-te     erzir
@@ -12984,7 +12978,7 @@ SFX n   r       i-se           ear
 SFX n   r       i-te           ear
 SFX n   r       i-vos          ear
 SFX n   r       mo-nos         ear
-SFX n   r       mo-vos         ear
+SFX n   r       mos-vos         ear
 SFX n   r       mos-lhe        ear
 SFX n   r       mos-lhes       ear
 SFX n   r       mos-te         ear
@@ -13089,12 +13083,12 @@ SFX n   0       -se-iam        ear
 SFX n   0       -te-iam        ear
 SFX n   0       -vos-iam       ear
 SFX n   0       íamo-nos       ear
-SFX n   0       íamo-vos       ear
+SFX n   0       íamos-vos       ear
 SFX n   0       íamos-lhe      ear
 SFX n   0       íamos-lhes     ear
 SFX n   0       íamos-te       ear
 SFX n   0       mo-nos         ear
-SFX n   0       mo-vos         ear
+SFX n   0       mos-vos         ear
 SFX n   0       mos-lhe        ear
 SFX n   0       mos-lhes       ear
 SFX n   0       mos-te         ear
@@ -13151,7 +13145,7 @@ SFX n   r       vam-se         ear
 SFX n   r       vam-te         ear
 SFX n   r       vam-vos        ear
 SFX n   ar      ávamo-nos      ear
-SFX n   ar      ávamo-vos      ear
+SFX n   ar      ávamos-vos      ear
 SFX n   ar      ávamos-lhe     ear
 SFX n   ar      ávamos-lhes    ear
 SFX n   ar      ávamos-te      ear
@@ -13165,7 +13159,7 @@ SFX n   ar      ei-os          ear
 SFX n   ar      ei-te          ear
 SFX n   ar      ei-vos         ear
 SFX n   ar      emo-nos        ear
-SFX n   ar      emo-vos        ear
+SFX n   ar      emos-vos        ear
 SFX n   ar      emos-lhe       ear
 SFX n   ar      emos-lhes      ear
 SFX n   ar      emos-te        ear
@@ -13235,7 +13229,7 @@ SFX n   ar      ou-vos         ear
 
 # ÊNCLISES E MESÓCLISES -o- Para verbos da regra -e- 
 
-SFX o Y 2387
+SFX o Y 2391
 SFX o   0        -me             [aei]r
 SFX o   0        -te             [aei]r
 SFX o   0        -se             [aei]r
@@ -13448,17 +13442,17 @@ SFX o   0        -se-iam         star
 SFX o   0        -te-iam         star
 SFX o   0        -vos-iam        star
 SFX o   0        mo-nos          [ei]ar
-SFX o   0        mo-vos          [ei]ar
+SFX o   0        mos-vos          [ei]ar
 SFX o   0        mos-lhe         [ei]ar
 SFX o   0        mos-lhes        [ei]ar
 SFX o   0        mos-te          [ei]ar
 SFX o   0        mo-nos          dar
-SFX o   0        mo-vos          dar
+SFX o   0        mos-vos          dar
 SFX o   0        mos-lhe         dar
 SFX o   0        mos-lhes        dar
 SFX o   0        mos-te          dar
 SFX o   0        mo-nos          star
-SFX o   0        mo-vos          star
+SFX o   0        mos-vos          star
 SFX o   0        mos-lhe         star
 SFX o   0        mos-lhes        star
 SFX o   0        mos-te          star
@@ -13526,17 +13520,17 @@ SFX o   0        -se-ão          star
 SFX o   0        -te-ão          star
 SFX o   0        -vos-ão         star
 SFX o   0        íamo-nos        [ei]ar
-SFX o   0        íamo-vos        [ei]ar
+SFX o   0        íamos-vos        [ei]ar
 SFX o   0        íamos-lhe       [ei]ar
 SFX o   0        íamos-lhes      [ei]ar
 SFX o   0        íamos-te        [ei]ar
 SFX o   0        íamo-nos        dar
-SFX o   0        íamo-vos        dar
+SFX o   0        íamos-vos        dar
 SFX o   0        íamos-lhe       dar
 SFX o   0        íamos-lhes      dar
 SFX o   0        íamos-te        dar
 SFX o   0        íamo-nos        star
-SFX o   0        íamo-vos        star
+SFX o   0        íamos-vos        star
 SFX o   0        íamos-lhe       star
 SFX o   0        íamos-lhes      star
 SFX o   0        íamos-te        star
@@ -13586,17 +13580,17 @@ SFX o   ar       ejam-se         star
 SFX o   ar       ejam-te         star
 SFX o   ar       ejam-vos        star
 SFX o   ar       ejamo-nos       star
-SFX o   ar       ejamo-vos       star
+SFX o   ar       ejamos-vos       star
 SFX o   ar       ejamos-lhe      star
 SFX o   ar       ejamos-lhes     star
 SFX o   ar       ejamos-te       star
 SFX o   ar       emo-nos         dar
-SFX o   ar       emo-vos         dar
+SFX o   ar       emos-vos         dar
 SFX o   ar       emos-lhe        dar
 SFX o   ar       emos-lhes       dar
 SFX o   ar       emos-te         dar
 SFX o   ar       emo-nos         [ei]ar
-SFX o   ar       emo-vos         [ei]ar
+SFX o   ar       emos-vos         [ei]ar
 SFX o   ar       emos-lhe        [ei]ar
 SFX o   ar       emos-lhes       [ei]ar
 SFX o   ar       emos-te         [ei]ar
@@ -13639,7 +13633,7 @@ SFX o   ar       erem-se         dar
 SFX o   ar       erem-te         dar
 SFX o   ar       erem-vos        dar
 SFX o   ar       ermo-nos        dar
-SFX o   ar       ermo-vos        dar
+SFX o   ar       ermos-vos        dar
 SFX o   ar       ermos-lhe       dar
 SFX o   ar       ermos-lhes      dar
 SFX o   ar       ermos-te        dar
@@ -13739,7 +13733,7 @@ SFX o   ar       io-os           ear
 SFX o   ar       io-te           ear
 SFX o   ar       io-vos          ear
 SFX o   ar       ivemo-nos       star
-SFX o   ar       ivemo-vos       star
+SFX o   ar       ivemos-vos       star
 SFX o   ar       ivemos-lhe      star
 SFX o   ar       ivemos-lhes     star
 SFX o   ar       ivemos-te       star
@@ -13775,7 +13769,7 @@ SFX o   ar       iverem-se       star
 SFX o   ar       iverem-te       star
 SFX o   ar       iverem-vos      star
 SFX o   ar       ivermo-nos      star
-SFX o   ar       ivermo-vos      star
+SFX o   ar       ivermos-vos      star
 SFX o   ar       ivermos-lhe     star
 SFX o   ar       ivermos-lhes    star
 SFX o   ar       ivermos-te      star
@@ -13856,17 +13850,17 @@ SFX o   ar       á-las           star
 SFX o   ar       á-lo            star
 SFX o   ar       á-los           star
 SFX o   ar       ávamo-nos       [ei]ar
-SFX o   ar       ávamo-vos       [ei]ar
+SFX o   ar       ávamos-vos       [ei]ar
 SFX o   ar       ávamos-lhe      [ei]ar
 SFX o   ar       ávamos-lhes     [ei]ar
 SFX o   ar       ávamos-te       [ei]ar
 SFX o   ar       ávamo-nos       dar
-SFX o   ar       ávamo-vos       dar
+SFX o   ar       ávamos-vos       dar
 SFX o   ar       ávamos-lhe      dar
 SFX o   ar       ávamos-lhes     dar
 SFX o   ar       ávamos-te       dar
 SFX o   ar       ávamo-nos       star
-SFX o   ar       ávamo-vos       star
+SFX o   ar       ávamos-vos       star
 SFX o   ar       ávamos-lhe      star
 SFX o   ar       ávamos-lhes     star
 SFX o   ar       ávamos-te       star
@@ -14093,22 +14087,22 @@ SFX o   r        i-se            star
 SFX o   r        i-te            star
 SFX o   r        i-vos           star
 SFX o   r        mo-nos          [ei]ar
-SFX o   r        mo-vos          [ei]ar
+SFX o   r        mos-vos          [ei]ar
 SFX o   r        mos-lhe         [ei]ar
 SFX o   r        mos-lhes        [ei]ar
 SFX o   r        mos-te          [ei]ar
 SFX o   r        mo-nos          dar
-SFX o   r        mo-vos          dar
+SFX o   r        mos-vos          dar
 SFX o   r        mos-lhe         dar
 SFX o   r        mos-lhes        dar
 SFX o   r        mos-te          dar
 SFX o   r        mo-nos          star
-SFX o   r        mo-vos          star
+SFX o   r        mos-vos          star
 SFX o   r        mos-lhe         star
 SFX o   r        mos-lhes        star
 SFX o   r        mos-te          star
 SFX o   r        mo-nos          udar
-SFX o   r        mo-vos          udar
+SFX o   r        mos-vos          udar
 SFX o   r        mos-lhe         udar
 SFX o   r        mos-lhes        udar
 SFX o   r        mos-te          udar
@@ -14365,7 +14359,7 @@ SFX o   r        iam-se          ler
 SFX o   r        iam-te          ler
 SFX o   r        iam-vos         ler
 SFX o   r        iamo-nos        ler
-SFX o   r        iamo-vos        ler
+SFX o   r        iamos-vos        ler
 SFX o   r        iamos-lhe       ler
 SFX o   r        iamos-lhes      ler
 SFX o   r        iamos-te        ler
@@ -14378,7 +14372,7 @@ SFX o   r        io-o            ler
 SFX o   r        io-os           ler
 SFX o   r        io-te           ler
 SFX o   r        mo-nos          ler
-SFX o   r        mo-vos          ler
+SFX o   r        mos-vos          ler
 SFX o   r        mos-lhe         ler
 SFX o   r        mos-lhes        ler
 SFX o   r        mos-te          ler
@@ -14426,7 +14420,7 @@ SFX o   0        am-se           ler
 SFX o   0        am-te           ler
 SFX o   0        am-vos          ler
 SFX o   er       êramo-nos       ler
-SFX o   er       êramo-vos       ler
+SFX o   er       êramos-vos       ler
 SFX o   er       êramos-lhe      ler
 SFX o   er       êramos-lhes     ler
 SFX o   er       êramos-te       ler
@@ -14481,12 +14475,12 @@ SFX o   0        -se-iam         ler
 SFX o   0        -te-iam         ler
 SFX o   0        -vos-iam        ler
 SFX o   0        íamo-nos        ler
-SFX o   0        íamo-vos        ler
+SFX o   0        íamos-vos        ler
 SFX o   0        íamos-lhe       ler
 SFX o   0        íamos-lhes      ler
 SFX o   0        íamos-te        ler
 SFX o   0        mo-nos          ler
-SFX o   0        mo-vos          ler
+SFX o   0        mos-vos          ler
 SFX o   0        mos-lhe         ler
 SFX o   0        mos-lhes        ler
 SFX o   0        mos-te          ler
@@ -14565,7 +14559,7 @@ SFX o   er       iam-te          ler
 SFX o   er       iam-vos         ler
 SFX o   er       íamos-lhe       ler
 SFX o   er       íamos-lhes      ler
-SFX o   er       íamos-nos       ler
+SFX o   er       íamo-nos       ler
 SFX o   er       íamos-vos       ler
 SFX o   er       ido-a           ler
 SFX o   er       ido-as          ler
@@ -14632,7 +14626,7 @@ SFX o   r        am-se           servir
 SFX o   r        am-te           servir
 SFX o   r        am-vos          servir
 SFX o   ir       íamo-nos        servir
-SFX o   ir       íamo-vos        servir
+SFX o   ir       íamos-vos        servir
 SFX o   ir       íamos-lhe       servir
 SFX o   ir       íamos-lhes      servir
 SFX o   ir       íamos-te        servir
@@ -14648,7 +14642,7 @@ SFX o   r        do-se           servir
 SFX o   r        do-te           servir
 SFX o   r        do-vos          servir
 SFX o   r        mo-nos          servir
-SFX o   r        mo-vos          servir
+SFX o   r        mos-vos          servir
 SFX o   r        mos-lhe         servir
 SFX o   r        mos-lhes        servir
 SFX o   r        mos-te          servir
@@ -14746,12 +14740,12 @@ SFX o   0        -se-iam         servir
 SFX o   0        -te-iam         servir
 SFX o   0        -vos-iam        servir
 SFX o   0        íamo-nos        servir
-SFX o   0        íamo-vos        servir
+SFX o   0        íamos-vos        servir
 SFX o   0        íamos-lhe       servir
 SFX o   0        íamos-lhes      servir
 SFX o   0        íamos-te        servir
 SFX o   0        mo-nos          servir
-SFX o   0        mo-vos          servir
+SFX o   0        mos-vos          servir
 SFX o   0        mos-lhe         servir
 SFX o   0        mos-lhes        servir
 SFX o   0        mos-te          servir
@@ -14819,7 +14813,7 @@ SFX o   ervir    irvam-se        servir
 SFX o   ervir    irvam-te        servir
 SFX o   ervir    irvam-vos       servir
 SFX o   ervir    irvamo-nos      servir
-SFX o   ervir    irvamo-vos      servir
+SFX o   ervir    irvamos-vos      servir
 SFX o   ervir    irvamos-lhe     servir
 SFX o   ervir    irvamos-lhes    servir
 SFX o   ervir    irvamos-te      servir
@@ -14864,7 +14858,7 @@ SFX o   r        m-se            saber
 SFX o   r        m-te            saber
 SFX o   r        m-vos           saber
 SFX o   r        mo-nos          saber
-SFX o   r        mo-vos          saber
+SFX o   r        mos-vos          saber
 SFX o   r        mos-lhe         saber
 SFX o   r        mos-lhes        saber
 SFX o   r        mos-te          saber
@@ -14917,12 +14911,12 @@ SFX o   0        em-nos          saber
 SFX o   0        em-se           saber
 SFX o   0        em-te           saber
 SFX o   0        em-vos          saber
-SFX o   0        -la-emos        saber
-SFX o   0        -las-emos       saber
+SFX o   er        ê-la-emos        saber
+SFX o   er        ê-las-emos       saber
 SFX o   0        -lhe-emos       saber
 SFX o   0        -lhes-emos      saber
-SFX o   0        -lo-emos        saber
-SFX o   0        -los-emos       saber
+SFX o   er        ê-lo-emos        saber
+SFX o   er        ê-los-emos       saber
 SFX o   0        -nos-emos       saber
 SFX o   0        -te-emos        saber
 SFX o   0        -vos-emos       saber
@@ -14941,12 +14935,12 @@ SFX o   0        -se-iam         saber
 SFX o   0        -te-iam         saber
 SFX o   0        -vos-iam        saber
 SFX o   0        íamo-nos        saber
-SFX o   0        íamo-vos        saber
+SFX o   0        íamos-vos        saber
 SFX o   0        íamos-lhe       saber
 SFX o   0        íamos-lhes      saber
 SFX o   0        íamos-te        saber
 SFX o   0        mo-nos          saber
-SFX o   0        mo-vos          saber
+SFX o   0        mos-vos          saber
 SFX o   0        mos-lhe         saber
 SFX o   0        mos-lhes        saber
 SFX o   0        mos-te          saber
@@ -14973,7 +14967,7 @@ SFX o   er       iam-te          saber
 SFX o   er       iam-vos         saber
 SFX o   er       íamos-lhe       saber
 SFX o   er       íamos-lhes      saber
-SFX o   er       íamos-nos       saber
+SFX o   er       íamo-nos       saber
 SFX o   er       íamos-vos       saber
 SFX o   er       ido-a           saber
 SFX o   er       ido-as          saber
@@ -15000,7 +14994,7 @@ SFX o   ber      ibam-no         saber
 SFX o   ber      ibam-nos        saber
 SFX o   ber      ibam-se         saber
 SFX o   ber      ibamo-nos       saber
-SFX o   ber      ibamo-vos       saber
+SFX o   ber      ibamos-vos       saber
 SFX o   ber      ibamos-lhe      saber
 SFX o   ber      ibamos-lhes     saber
 SFX o   ber      ibamos-te       saber
@@ -15016,8 +15010,12 @@ SFX o   aber     oube-as         saber
 SFX o   aber     oube-o          saber
 SFX o   aber     oube-os         saber
 SFX o   aber     oube-se         saber
+SFX o   aber     oubé-lo		 saber
+SFX o   aber     oubé-la		 saber
+SFX o   aber     oubé-los		 saber
+SFX o   aber     oubé-las		 saber
 SFX o   aber     oubemo-nos      saber
-SFX o   aber     oubemo-vos      saber
+SFX o   aber     oubemos-vos      saber
 SFX o   aber     oubemos-lhe     saber
 SFX o   aber     oubemos-lhes    saber
 SFX o   aber     oubemos-te      saber
@@ -15060,7 +15058,7 @@ SFX o   aber     ouberem-se      saber
 SFX o   aber     ouberem-te      saber
 SFX o   aber     ouberem-vos     saber
 SFX o   aber     oubermo-nos     saber
-SFX o   aber     oubermo-vos     saber
+SFX o   aber     oubermos-vos     saber
 SFX o   aber     oubermos-lhe    saber
 SFX o   aber     oubermos-lhes   saber
 SFX o   aber     oubermos-te     saber
@@ -15118,7 +15116,7 @@ SFX o   der      cam-se          perder
 SFX o   der      cam-te          perder
 SFX o   der      cam-vos         perder
 SFX o   der      camo-nos        perder
-SFX o   der      camo-vos        perder
+SFX o   der      camos-vos        perder
 SFX o   der      camos-lhe       perder
 SFX o   der      camos-lhes      perder
 SFX o   der      camos-te        perder
@@ -15165,7 +15163,7 @@ SFX o   r        m-se            perder
 SFX o   r        m-te            perder
 SFX o   r        m-vos           perder
 SFX o   r        mo-nos          perder
-SFX o   r        mo-vos          perder
+SFX o   r        mos-vos          perder
 SFX o   r        mos-lhe         perder
 SFX o   r        mos-lhes        perder
 SFX o   r        mos-te          perder
@@ -15213,7 +15211,7 @@ SFX o   0        am-se           perder
 SFX o   0        am-te           perder
 SFX o   0        am-vos          perder
 SFX o   er       êramo-nos       perder
-SFX o   er       êramo-vos       perder
+SFX o   er       êramos-vos       perder
 SFX o   er       êramos-lhe      perder
 SFX o   er       êramos-lhes     perder
 SFX o   er       êramos-te       perder
@@ -15268,12 +15266,12 @@ SFX o   0        -se-iam         perder
 SFX o   0        -te-iam         perder
 SFX o   0        -vos-iam        perder
 SFX o   0        íamo-nos        perder
-SFX o   0        íamo-vos        perder
+SFX o   0        íamos-vos        perder
 SFX o   0        íamos-lhe       perder
 SFX o   0        íamos-lhes      perder
 SFX o   0        íamos-te        perder
 SFX o   0        mo-nos          perder
-SFX o   0        mo-vos          perder
+SFX o   0        mos-vos          perder
 SFX o   0        mos-lhe         perder
 SFX o   0        mos-lhes        perder
 SFX o   0        mos-te          perder
@@ -15352,7 +15350,7 @@ SFX o   er       iam-te          perder
 SFX o   er       iam-vos         perder
 SFX o   er       íamos-lhe       perder
 SFX o   er       íamos-lhes      perder
-SFX o   er       íamos-nos       perder
+SFX o   er       íamo-nos       perder
 SFX o   er       íamos-vos       perder
 SFX o   er       ido-a           perder
 SFX o   er       ido-as          perder
@@ -15387,7 +15385,7 @@ SFX o   rer      iram-se         requerer
 SFX o   rer      iram-te         requerer
 SFX o   rer      iram-vos        requerer
 SFX o   rer      iramo-nos       requerer
-SFX o   rer      iramo-vos       requerer
+SFX o   rer      iramos-vos       requerer
 SFX o   rer      iramos-lhe      requerer
 SFX o   rer      iramos-lhes     requerer
 SFX o   rer      iramos-te       requerer
@@ -15434,7 +15432,7 @@ SFX o   r        m-se            requerer
 SFX o   r        m-te            requerer
 SFX o   r        m-vos           requerer
 SFX o   r        mo-nos          requerer
-SFX o   r        mo-vos          requerer
+SFX o   r        mos-vos          requerer
 SFX o   r        mos-lhe         requerer
 SFX o   r        mos-lhes        requerer
 SFX o   r        mos-te          requerer
@@ -15482,7 +15480,7 @@ SFX o   0        am-se           requerer
 SFX o   0        am-te           requerer
 SFX o   0        am-vos          requerer
 SFX o   er       êramo-nos       requerer
-SFX o   er       êramo-vos       requerer
+SFX o   er       êramos-vos       requerer
 SFX o   er       êramos-lhe      requerer
 SFX o   er       êramos-lhes     requerer
 SFX o   er       êramos-te       requerer
@@ -15537,12 +15535,12 @@ SFX o   0        -se-iam         requerer
 SFX o   0        -te-iam         requerer
 SFX o   0        -vos-iam        requerer
 SFX o   0        íamo-nos        requerer
-SFX o   0        íamo-vos        requerer
+SFX o   0        íamos-vos        requerer
 SFX o   0        íamos-lhe       requerer
 SFX o   0        íamos-lhes      requerer
 SFX o   0        íamos-te        requerer
 SFX o   0        mo-nos          requerer
-SFX o   0        mo-vos          requerer
+SFX o   0        mos-vos          requerer
 SFX o   0        mos-lhe         requerer
 SFX o   0        mos-lhes        requerer
 SFX o   0        mos-te          requerer
@@ -15621,7 +15619,7 @@ SFX o   er       iam-te          requerer
 SFX o   er       iam-vos         requerer
 SFX o   er       íamos-lhe       requerer
 SFX o   er       íamos-lhes      requerer
-SFX o   er       íamos-nos       requerer
+SFX o   er       íamo-nos       requerer
 SFX o   er       íamos-vos       requerer
                               
 
@@ -15663,7 +15661,7 @@ SFX p   r      i-se            for
 SFX p   r      i-te            for
 SFX p   r      i-vos           for
 SFX p   r      mo-nos          for
-SFX p   r      mo-vos          for
+SFX p   r      mos-vos          for
 SFX p   r      mos-lhe         for
 SFX p   r      mos-lhes        for
 SFX p   r      mos-te          for
@@ -15699,7 +15697,7 @@ SFX p   0      em-se           for
 SFX p   0      em-te           for
 SFX p   0      em-vos          for
 SFX p   0      mo-nos          for
-SFX p   0      mo-vos          for
+SFX p   0      mos-vos          for
 SFX p   0      mos-lhe         for
 SFX p   0      mos-lhes        for
 SFX p   0      mos-te          for
@@ -15756,7 +15754,7 @@ SFX p   r      jam-se          ser
 SFX p   r      jam-te          ser
 SFX p   r      jam-vos         ser
 SFX p   r      jamo-nos        ser
-SFX p   r      jamo-vos        ser
+SFX p   r      jamos-vos        ser
 SFX p   r      jamos-lhe       ser
 SFX p   r      jamos-lhes      ser
 SFX p   r      jamos-te        ser
@@ -15812,7 +15810,7 @@ SFX p   0      -se-iam         ser
 SFX p   0      -te-iam         ser
 SFX p   0      -vos-iam        ser
 SFX p   0      mo-nos          ser
-SFX p   0      mo-vos          ser
+SFX p   0      mos-vos          ser
 SFX p   0      mos-lhe         ser
 SFX p   0      mos-lhes        ser
 SFX p   0      mos-te          ser
@@ -15858,7 +15856,7 @@ SFX p   0      -se-ão          ser
 SFX p   0      -te-ão          ser
 SFX p   0      -vos-ão         ser
 SFX p   0      íamo-nos        ser
-SFX p   0      íamo-vos        ser
+SFX p   0      íamos-vos        ser
 SFX p   0      íamos-lhe       ser
 SFX p   0      íamos-lhes      ser
 SFX p   0      íamos-te        ser
@@ -15874,7 +15872,7 @@ SFX p   er     ido-se          ser
 SFX p   er     ido-te          ser
 SFX p   er     ido-vos         ser
 SFX p   er     omo-nos         ser
-SFX p   er     omo-vos         ser
+SFX p   er     omos-vos         ser
 SFX p   er     omos-lhe        ser
 SFX p   er     omos-lhes       ser
 SFX p   er     omos-te         ser
@@ -15910,7 +15908,7 @@ SFX p   r      m-se-lhe        ter
 SFX p   r      m-te            ter
 SFX p   r      m-vos           ter
 SFX p   r      mo-nos          ter
-SFX p   r      mo-vos          ter
+SFX p   r      mos-vos          ter
 SFX p   r      mos-lhe         ter
 SFX p   r      mos-lhes        ter
 SFX p   r      mos-te          ter
@@ -15948,7 +15946,7 @@ SFX p   r      nham-se         ter
 SFX p   r      nham-te         ter
 SFX p   r      nham-vos        ter
 SFX p   r      nhamo-nos       ter
-SFX p   r      nhamo-vos       ter
+SFX p   r      nhamos-vos       ter
 SFX p   r      nhamos-lhe      ter
 SFX p   r      nhamos-lhes     ter
 SFX p   r      nhamos-te       ter
@@ -16001,7 +15999,7 @@ SFX p   0      -se-iam         ter
 SFX p   0      -te-iam         ter
 SFX p   0      -vos-iam        ter
 SFX p   0      mo-nos          ter
-SFX p   0      mo-vos          ter
+SFX p   0      mos-vos          ter
 SFX p   0      mos-lhe         ter
 SFX p   0      mos-lhes        ter
 SFX p   0      mos-te          ter
@@ -16047,7 +16045,7 @@ SFX p   0      -se-ão          ter
 SFX p   0      -te-ão          ter
 SFX p   0      -vos-ão         ter
 SFX p   0      ínhamo-nos      ter
-SFX p   0      ínhamo-vos      ter
+SFX p   0      ínhamos-vos      ter
 SFX p   0      ínhamos-lhe     ter
 SFX p   0      ínhamos-lhes    ter
 SFX p   0      ínhamos-te      ter
@@ -16097,7 +16095,7 @@ SFX p   er     inham-vos       ter
 SFX p   er     ivemo-la        ter
 SFX p   er     ivemo-lo        ter
 SFX p   er     ivemo-nos       ter
-SFX p   er     ivemo-vos       ter
+SFX p   er     ivemos-vos       ter
 SFX p   er     ivemos-lhe      ter
 SFX p   er     ivemos-lhes     ter
 SFX p   er     ivemos-te       ter
@@ -16133,7 +16131,7 @@ SFX p   er     iverem-se       ter
 SFX p   er     iverem-te       ter
 SFX p   er     iverem-vos      ter
 SFX p   er     ivermo-nos      ter
-SFX p   er     ivermo-vos      ter
+SFX p   er     ivermos-vos      ter
 SFX p   er     ivermos-lhe     ter
 SFX p   er     ivermos-lhes    ter
 SFX p   er     ivermos-te      ter
@@ -16201,7 +16199,7 @@ SFX p   ver    jam-se          haver
 SFX p   ver    jam-te          haver
 SFX p   ver    jam-vos         haver
 SFX p   ver    jamo-nos        haver
-SFX p   ver    jamo-vos        haver
+SFX p   ver    jamos-vos        haver
 SFX p   ver    jamos-lhe       haver
 SFX p   ver    jamos-lhes      haver
 SFX p   ver    jamos-te        haver
@@ -16217,7 +16215,7 @@ SFX p   r      i-se            aver
 SFX p   r      i-te            aver
 SFX p   r      i-vos           aver
 SFX p   r      mo-nos          aver
-SFX p   r      mo-vos          aver
+SFX p   r      mos-vos          aver
 SFX p   r      mos-lhe         aver
 SFX p   r      mos-lhes        aver
 SFX p   r      mos-te          aver
@@ -16273,7 +16271,7 @@ SFX p   0      -se-iam         aver
 SFX p   0      -te-iam         aver
 SFX p   0      -vos-iam        aver
 SFX p   0      mo-nos          aver
-SFX p   0      mo-vos          aver
+SFX p   0      mos-vos          aver
 SFX p   0      mos-lhe         aver
 SFX p   0      mos-lhes        aver
 SFX p   0      mos-te          aver
@@ -16299,7 +16297,7 @@ SFX p   0      -se-ão          aver
 SFX p   0      -te-ão          aver
 SFX p   0      -vos-ão         aver
 SFX p   0      íamo-nos        aver
-SFX p   0      íamo-vos        aver
+SFX p   0      íamos-vos        aver
 SFX p   0      íamos-lhe       aver
 SFX p   0      íamos-lhes      aver
 SFX p   0      íamos-te        aver
@@ -16337,7 +16335,7 @@ SFX p   er     ido-te          aver
 SFX p   er     ido-vos         aver
 SFX p   er     íamos-lhe       aver
 SFX p   er     íamos-lhes      aver
-SFX p   er     íamos-nos       aver
+SFX p   er     íamo-nos       aver
 SFX p   er     íamos-vos       aver
 SFX p   aver   ei-a            haver
 SFX p   aver   ei-as           haver
@@ -16350,7 +16348,7 @@ SFX p   aver   ei-os           haver
 SFX p   aver   ei-te           haver
 SFX p   aver   ei-vos          haver
 SFX p   aver   emo-nos         haver
-SFX p   aver   emo-vos         haver
+SFX p   aver   emos-vos         haver
 SFX p   aver   emos-lhe        haver
 SFX p   aver   emos-lhes       haver
 SFX p   aver   emos-te         haver
@@ -16366,7 +16364,7 @@ SFX p   aver   ouve-se         aver
 SFX p   aver   ouve-te         aver
 SFX p   aver   ouve-vos        aver
 SFX p   aver   ouvemo-nos      aver
-SFX p   aver   ouvemo-vos      aver
+SFX p   aver   ouvemos-vos      aver
 SFX p   aver   ouvemos-lhe     aver
 SFX p   aver   ouvemos-lhes    aver
 SFX p   aver   ouvemos-te      aver
@@ -16409,7 +16407,7 @@ SFX p   aver   ouverem-se      aver
 SFX p   aver   ouverem-te      aver
 SFX p   aver   ouverem-vos     aver
 SFX p   aver   ouvermo-nos     aver
-SFX p   aver   ouvermo-vos     aver
+SFX p   aver   ouvermos-vos     aver
 SFX p   aver   ouvermos-lhe    aver
 SFX p   aver   ouvermos-lhes   aver
 SFX p   aver   ouvermos-te     aver
@@ -16529,7 +16527,7 @@ SFX p   0      -se-iam         ir
 SFX p   0      -te-iam         ir
 SFX p   0      -vos-iam        ir
 SFX p   0      mo-nos          ir
-SFX p   0      mo-vos          ir
+SFX p   0      mos-vos          ir
 SFX p   0      mos-lhe         ir
 SFX p   0      mos-lhes        ir
 SFX p   0      mos-te          ir
@@ -16555,12 +16553,12 @@ SFX p   0      -se-ão          ir
 SFX p   0      -te-ão          ir
 SFX p   0      -vos-ão         ir
 SFX p   0      íamo-nos        ir
-SFX p   0      íamo-vos        ir
+SFX p   0      íamos-vos        ir
 SFX p   0      íamos-lhe       ir
 SFX p   0      íamos-lhes      ir
 SFX p   0      íamos-te        ir
 SFX p   ir     íamo-nos        ir
-SFX p   ir     íamo-vos        ir
+SFX p   ir     íamos-vos        ir
 SFX p   ir     íamos-lhe       ir
 SFX p   ir     íamos-lhes      ir
 SFX p   ir     íamos-te        ir
@@ -16569,7 +16567,7 @@ SFX p   á      ai-lhes         vá
 SFX p   á      ai-se           vá
 SFX p   á      ai-te           vá
 SFX p   á      amo-nos         vá
-SFX p   á      amo-vos         vá
+SFX p   á      amos-vos         vá
 SFX p   á      amos-lhe        vá
 SFX p   á      amos-lhes       vá
 SFX p   á      amos-te         vá
@@ -16603,7 +16601,7 @@ SFX p   r      m-se            poder
 SFX p   r      m-te            poder
 SFX p   r      m-vos           poder
 SFX p   r      mo-nos          poder
-SFX p   r      mo-vos          poder
+SFX p   r      mos-vos          poder
 SFX p   r      mos-lhe         poder
 SFX p   r      mos-lhes        poder
 SFX p   r      mos-te          poder
@@ -16659,7 +16657,7 @@ SFX p   0      -se-iam         poder
 SFX p   0      -te-iam         poder
 SFX p   0      -vos-iam        poder
 SFX p   0      mo-nos          poder
-SFX p   0      mo-vos          poder
+SFX p   0      mos-vos          poder
 SFX p   0      mos-lhe         poder
 SFX p   0      mos-lhes        poder
 SFX p   0      mos-te          poder
@@ -16685,7 +16683,7 @@ SFX p   0      -se-ão          poder
 SFX p   0      -te-ão          poder
 SFX p   0      -vos-ão         poder
 SFX p   0      íamo-nos        poder
-SFX p   0      íamo-vos        poder
+SFX p   0      íamos-vos        poder
 SFX p   0      íamos-lhe       poder
 SFX p   0      íamos-lhes      poder
 SFX p   0      íamos-te        poder
@@ -16723,7 +16721,7 @@ SFX p   er     ido-te          poder
 SFX p   er     ido-vos         poder
 SFX p   er     íamos-lhe       poder
 SFX p   er     íamos-lhes      poder
-SFX p   er     íamos-nos       poder
+SFX p   er     íamo-nos       poder
 SFX p   er     íamos-vos       poder
 SFX p   der    ssa-a           poder
 SFX p   der    ssa-as          poder
@@ -16747,7 +16745,7 @@ SFX p   der    ssam-se         poder
 SFX p   der    ssam-te         poder
 SFX p   der    ssam-vos        poder
 SFX p   der    ssamo-nos       poder
-SFX p   der    ssamo-vos       poder
+SFX p   der    ssamos-vos       poder
 SFX p   der    ssamos-lhe      poder
 SFX p   der    ssamos-lhes     poder
 SFX p   der    ssamos-te       poder
@@ -16773,7 +16771,7 @@ SFX p   oder   ude-se          poder
 SFX p   oder   ude-te          poder
 SFX p   oder   ude-vos         poder
 SFX p   oder   udemo-nos       poder
-SFX p   oder   udemo-vos       poder
+SFX p   oder   udemos-vos       poder
 SFX p   oder   udemos-lhe      poder
 SFX p   oder   udemos-lhes     poder
 SFX p   oder   udemos-te       poder
@@ -16816,7 +16814,7 @@ SFX p   oder   uderem-se       poder
 SFX p   oder   uderem-te       poder
 SFX p   oder   uderem-vos      poder
 SFX p   oder   udermo-nos      poder
-SFX p   oder   udermo-vos      poder
+SFX p   oder   udermos-vos      poder
 SFX p   oder   udermos-lhe     poder
 SFX p   oder   udermos-lhes    poder
 SFX p   oder   udermos-te      poder
@@ -16885,7 +16883,7 @@ SFX p   rer    iram-se         querer
 SFX p   rer    iram-te         querer
 SFX p   rer    iram-vos        querer
 SFX p   rer    iramo-nos       querer
-SFX p   rer    iramo-vos       querer
+SFX p   rer    iramos-vos       querer
 SFX p   rer    iramos-lhe      querer
 SFX p   rer    iramos-lhes     querer
 SFX p   rer    iramos-te       querer
@@ -16922,7 +16920,7 @@ SFX p   r      m-se            querer
 SFX p   r      m-te            querer
 SFX p   r      m-vos           querer
 SFX p   r      mo-nos          querer
-SFX p   r      mo-vos          querer
+SFX p   r      mos-vos          querer
 SFX p   r      mos-lhe         querer
 SFX p   r      mos-lhes        querer
 SFX p   r      mos-te          querer
@@ -16978,7 +16976,7 @@ SFX p   0      -se-iam         querer
 SFX p   0      -te-iam         querer
 SFX p   0      -vos-iam        querer
 SFX p   0      mo-nos          querer
-SFX p   0      mo-vos          querer
+SFX p   0      mos-vos          querer
 SFX p   0      mos-lhe         querer
 SFX p   0      mos-lhes        querer
 SFX p   0      mos-te          querer
@@ -17004,7 +17002,7 @@ SFX p   0      -se-ão          querer
 SFX p   0      -te-ão          querer
 SFX p   0      -vos-ão         querer
 SFX p   0      íamo-nos        querer
-SFX p   0      íamo-vos        querer
+SFX p   0      íamos-vos        querer
 SFX p   0      íamos-lhe       querer
 SFX p   0      íamos-lhes      querer
 SFX p   0      íamos-te        querer
@@ -17053,9 +17051,9 @@ SFX p   er     o-vos           querer
 SFX p   er     íamos-lhe       querer
 SFX p   er     íamos-lhes      querer
 SFX p   er     íamo-nos        querer
-SFX p   er     íamo-vos        querer
+SFX p   er     íamos-vos        querer
 SFX p   erer   isemo-nos       querer
-SFX p   erer   isemo-vos       querer
+SFX p   erer   isemos-vos       querer
 SFX p   erer   isemos-lhe      querer
 SFX p   erer   isemos-lhes     querer
 SFX p   erer   isemos-te       querer
@@ -17091,7 +17089,7 @@ SFX p   erer   iserem-se       querer
 SFX p   erer   iserem-te       querer
 SFX p   erer   iserem-vos      querer
 SFX p   erer   isermo-nos      querer
-SFX p   erer   isermo-vos      querer
+SFX p   erer   isermos-vos      querer
 SFX p   erer   isermos-lhe     querer
 SFX p   erer   isermos-lhes    querer
 SFX p   erer   isermos-te      querer
@@ -17183,7 +17181,7 @@ SFX q   r       am-se          olir
 SFX q   r       am-te          olir
 SFX q   r       am-vos         olir
 SFX q   ir      íamo-nos       olir
-SFX q   ir      íamo-vos       olir
+SFX q   ir      íamos-vos       olir
 SFX q   ir      íamos-lhe      olir
 SFX q   ir      íamos-lhes     olir
 SFX q   ir      íamos-te       olir
@@ -17199,7 +17197,7 @@ SFX q   r       do-se          olir
 SFX q   r       do-te          olir
 SFX q   r       do-vos         olir
 SFX q   r       mo-nos         olir
-SFX q   r       mo-vos         olir
+SFX q   r       mos-vos         olir
 SFX q   r       mos-lhe        olir
 SFX q   r       mos-lhes       olir
 SFX q   r       mos-te         olir
@@ -17297,12 +17295,12 @@ SFX q   0       -se-iam        olir
 SFX q   0       -te-iam        olir
 SFX q   0       -vos-iam       olir
 SFX q   0       íamo-nos       olir
-SFX q   0       íamo-vos       olir
+SFX q   0       íamos-vos       olir
 SFX q   0       íamos-lhe      olir
 SFX q   0       íamos-lhes     olir
 SFX q   0       íamos-te       olir
 SFX q   0       mo-nos         olir
-SFX q   0       mo-vos         olir
+SFX q   0       mos-vos         olir
 SFX q   0       mos-lhe        olir
 SFX q   0       mos-lhes       olir
 SFX q   0       mos-te         olir
@@ -17381,7 +17379,7 @@ SFX q   r       am-se          enir
 SFX q   r       am-te          enir
 SFX q   r       am-vos         enir
 SFX q   ir      íamo-nos       enir
-SFX q   ir      íamo-vos       enir
+SFX q   ir      íamos-vos       enir
 SFX q   ir      íamos-lhe      enir
 SFX q   ir      íamos-lhes     enir
 SFX q   ir      íamos-te       enir
@@ -17397,7 +17395,7 @@ SFX q   r       do-se          enir
 SFX q   r       do-te          enir
 SFX q   r       do-vos         enir
 SFX q   r       mo-nos         enir
-SFX q   r       mo-vos         enir
+SFX q   r       mos-vos         enir
 SFX q   r       mos-lhe        enir
 SFX q   r       mos-lhes       enir
 SFX q   r       mos-te         enir
@@ -17495,12 +17493,12 @@ SFX q   0       -se-iam        enir
 SFX q   0       -te-iam        enir
 SFX q   0       -vos-iam       enir
 SFX q   0       íamo-nos       enir
-SFX q   0       íamo-vos       enir
+SFX q   0       íamos-vos       enir
 SFX q   0       íamos-lhe      enir
 SFX q   0       íamos-lhes     enir
 SFX q   0       íamos-te       enir
 SFX q   0       mo-nos         enir
-SFX q   0       mo-vos         enir
+SFX q   0       mos-vos         enir
 SFX q   0       mos-lhe        enir
 SFX q   0       mos-lhes       enir
 SFX q   0       mos-te         enir
@@ -17568,7 +17566,7 @@ SFX q   enir    inam-se        enir
 SFX q   enir    inam-te        enir
 SFX q   enir    inam-vos       enir
 SFX q   enir    inamo-nos      enir
-SFX q   enir    inamo-vos      enir
+SFX q   enir    inamos-vos      enir
 SFX q   enir    inamos-lhe     enir
 SFX q   enir    inamos-lhes    enir
 SFX q   enir    inamos-te      enir
@@ -17659,7 +17657,7 @@ SFX q   r       am-se          elir
 SFX q   r       am-te          elir
 SFX q   r       am-vos         elir
 SFX q   ir      íamo-nos       elir
-SFX q   ir      íamo-vos       elir
+SFX q   ir      íamos-vos       elir
 SFX q   ir      íamos-lhe      elir
 SFX q   ir      íamos-lhes     elir
 SFX q   ir      íamos-te       elir
@@ -17675,7 +17673,7 @@ SFX q   r       do-se          elir
 SFX q   r       do-te          elir
 SFX q   r       do-vos         elir
 SFX q   r       mo-nos         elir
-SFX q   r       mo-vos         elir
+SFX q   r       mos-vos         elir
 SFX q   r       mos-lhe        elir
 SFX q   r       mos-lhes       elir
 SFX q   r       mos-te         elir
@@ -17773,12 +17771,12 @@ SFX q   0       -se-iam        elir
 SFX q   0       -te-iam        elir
 SFX q   0       -vos-iam       elir
 SFX q   0       íamo-nos       elir
-SFX q   0       íamo-vos       elir
+SFX q   0       íamos-vos       elir
 SFX q   0       íamos-lhe      elir
 SFX q   0       íamos-lhes     elir
 SFX q   0       íamos-te       elir
 SFX q   0       mo-nos         elir
-SFX q   0       mo-vos         elir
+SFX q   0       mos-vos         elir
 SFX q   0       mos-lhe        elir
 SFX q   0       mos-lhes       elir
 SFX q   0       mos-te         elir
@@ -17846,7 +17844,7 @@ SFX q   elir    ilam-se        elir
 SFX q   elir    ilam-te        elir
 SFX q   elir    ilam-vos       elir
 SFX q   elir    ilamo-nos      elir
-SFX q   elir    ilamo-vos      elir
+SFX q   elir    ilamos-vos      elir
 SFX q   elir    ilamos-lhe     elir
 SFX q   elir    ilamos-lhes    elir
 SFX q   elir    ilamos-te      elir
@@ -17881,7 +17879,7 @@ SFX q   ir      am-se          uir
 SFX q   ir      am-te          uir
 SFX q   ir      am-vos         uir
 SFX q   ir      amo-nos        uir
-SFX q   ir      amo-vos        uir
+SFX q   ir      amos-vos        uir
 SFX q   ir      amos-lhe       uir
 SFX q   ir      amos-lhes      uir
 SFX q   ir      amos-te        uir
@@ -17969,7 +17967,7 @@ SFX q   r       am-se          uir
 SFX q   r       am-te          uir
 SFX q   r       am-vos         uir
 SFX q   ir      íamo-nos       uir
-SFX q   ir      íamo-vos       uir
+SFX q   ir      íamos-vos       uir
 SFX q   ir      íamos-lhe      uir
 SFX q   ir      íamos-lhes     uir
 SFX q   ir      íamos-te       uir
@@ -17985,7 +17983,7 @@ SFX q   r       do-se          uir
 SFX q   r       do-te          uir
 SFX q   r       do-vos         uir
 SFX q   r       mo-nos         uir
-SFX q   r       mo-vos         uir
+SFX q   r       mos-vos         uir
 SFX q   r       mos-lhe        uir
 SFX q   r       mos-lhes       uir
 SFX q   r       mos-te         uir
@@ -18094,12 +18092,12 @@ SFX q   0       -se-iam        uir
 SFX q   0       -te-iam        uir
 SFX q   0       -vos-iam       uir
 SFX q   0       íamo-nos       uir
-SFX q   0       íamo-vos       uir
+SFX q   0       íamos-vos       uir
 SFX q   0       íamos-lhe      uir
 SFX q   0       íamos-lhes     uir
 SFX q   0       íamos-te       uir
 SFX q   0       mo-nos         uir
-SFX q   0       mo-vos         uir
+SFX q   0       mos-vos         uir
 SFX q   0       mos-lhe        uir
 SFX q   0       mos-lhes       uir
 SFX q   0       mos-te         uir
@@ -18220,7 +18218,7 @@ SFX q   r       am-se          tossir
 SFX q   r       am-te          tossir
 SFX q   r       am-vos         tossir
 SFX q   ir      íamo-nos       tossir
-SFX q   ir      íamo-vos       tossir
+SFX q   ir      íamos-vos       tossir
 SFX q   ir      íamos-lhe      tossir
 SFX q   ir      íamos-lhes     tossir
 SFX q   ir      íamos-te       tossir
@@ -18236,7 +18234,7 @@ SFX q   r       do-se          tossir
 SFX q   r       do-te          tossir
 SFX q   r       do-vos         tossir
 SFX q   r       mo-nos         tossir
-SFX q   r       mo-vos         tossir
+SFX q   r       mos-vos         tossir
 SFX q   r       mos-lhe        tossir
 SFX q   r       mos-lhes       tossir
 SFX q   r       mos-te         tossir
@@ -18334,12 +18332,12 @@ SFX q   0       -se-iam        tossir
 SFX q   0       -te-iam        tossir
 SFX q   0       -vos-iam       tossir
 SFX q   0       íamo-nos       tossir
-SFX q   0       íamo-vos       tossir
+SFX q   0       íamos-vos       tossir
 SFX q   0       íamos-lhe      tossir
 SFX q   0       íamos-lhes     tossir
 SFX q   0       íamos-te       tossir
 SFX q   0       mo-nos         tossir
-SFX q   0       mo-vos         tossir
+SFX q   0       mos-vos         tossir
 SFX q   0       mos-lhe        tossir
 SFX q   0       mos-lhes       tossir
 SFX q   0       mos-te         tossir
@@ -18407,7 +18405,7 @@ SFX q   ossir   ussam-se       tossir
 SFX q   ossir   ussam-te       tossir
 SFX q   ossir   ussam-vos      tossir
 SFX q   ossir   ussamo-nos     tossir
-SFX q   ossir   ussamo-vos     tossir
+SFX q   ossir   ussamos-vos     tossir
 SFX q   ossir   ussamos-lhe    tossir
 SFX q   ossir   ussamos-lhes   tossir
 SFX q   ossir   ussamos-te     tossir
@@ -18457,7 +18455,7 @@ SFX q   r       jam-se         prover
 SFX q   r       jam-te         prover
 SFX q   r       jam-vos        prover
 SFX q   r       jamo-nos       prover
-SFX q   r       jamo-vos       prover
+SFX q   r       jamos-vos       prover
 SFX q   r       jamos-lhe      prover
 SFX q   r       jamos-lhes     prover
 SFX q   r       jamos-te       prover
@@ -18472,7 +18470,7 @@ SFX q   r       jo-os          prover
 SFX q   r       jo-te          prover
 SFX q   r       jo-vos         prover
 SFX q   r       mo-nos         prover
-SFX q   r       mo-vos         prover
+SFX q   r       mos-vos         prover
 SFX q   r       mos-lhe        prover
 SFX q   r       mos-lhes       prover
 SFX q   r       mos-te         prover
@@ -18520,7 +18518,7 @@ SFX q   0       am-se          prover
 SFX q   0       am-te          prover
 SFX q   0       am-vos         prover
 SFX q   er      êramo-nos      prover
-SFX q   er      êramo-vos      prover
+SFX q   er      êramos-vos      prover
 SFX q   er      êramos-lhe     prover
 SFX q   er      êramos-lhes    prover
 SFX q   er      êramos-te      prover
@@ -18575,12 +18573,12 @@ SFX q   0       -se-iam        prover
 SFX q   0       -te-iam        prover
 SFX q   0       -vos-iam       prover
 SFX q   0       íamo-nos       prover
-SFX q   0       íamo-vos       prover
+SFX q   0       íamos-vos       prover
 SFX q   0       íamos-lhe      prover
 SFX q   0       íamos-lhes     prover
 SFX q   0       íamos-te       prover
 SFX q   0       mo-nos         prover
-SFX q   0       mo-vos         prover
+SFX q   0       mos-vos         prover
 SFX q   0       mos-lhe        prover
 SFX q   0       mos-lhes       prover
 SFX q   0       mos-te         prover
@@ -18659,7 +18657,7 @@ SFX q   er      iam-te         prover
 SFX q   er      iam-vos        prover
 SFX q   er      íamos-lhe      prover
 SFX q   er      íamos-lhes     prover
-SFX q   er      íamos-nos      prover
+SFX q   er      íamo-nos      prover
 SFX q   er      íamos-vos      prover
 SFX q   er      ido-a          prover
 SFX q   er      ido-as         prover
@@ -18686,7 +18684,7 @@ SFX q   r       do-se          gear
 
 # ÊNCLISES E MESÓCLISES -r- Para verbos da regra -h- 
 
-SFX r Y 3155
+SFX r Y 3163
 SFX r   0        -me             [aeio]r
 SFX r   0        -te             [aeio]r
 SFX r   0        -se             [aeio]r
@@ -18765,7 +18763,7 @@ SFX r   or       õem-se-lhes     or
 SFX r   or       õem-te          or
 SFX r   or       õem-vos         or
 SFX r   r        mo-nos          or
-SFX r   r        mo-vos          or
+SFX r   r        mos-vos          or
 SFX r   r        mos-lhe         or
 SFX r   r        mos-lhes        or
 SFX r   r        mos-te          or
@@ -18802,7 +18800,7 @@ SFX r   r        nham-se         or
 SFX r   r        nham-te         or
 SFX r   r        nham-vos        or
 SFX r   r        nhamo-nos       or
-SFX r   r        nhamo-vos       or
+SFX r   r        nhamos-vos       or
 SFX r   r        nhamos-lhe      or
 SFX r   r        nhamos-lhes     or
 SFX r   r        nhamos-te       or
@@ -18891,12 +18889,12 @@ SFX r   0        -se-iam         or
 SFX r   0        -te-iam         or
 SFX r   0        -vos-iam        or
 SFX r   0        íamo-nos        or
-SFX r   0        íamo-vos        or
+SFX r   0        íamos-vos        or
 SFX r   0        íamos-lhe       or
 SFX r   0        íamos-lhes      or
 SFX r   0        íamos-te        or
 SFX r   0        mo-nos          or
-SFX r   0        mo-vos          or
+SFX r   0        mos-vos          or
 SFX r   0        mos-lhe         or
 SFX r   0        mos-lhes        or
 SFX r   0        mos-te          or
@@ -18934,7 +18932,7 @@ SFX r   or       us-me           or
 SFX r   or       us-te           or
 SFX r   or       us-vos          or
 SFX r   or       usemo-nos       or
-SFX r   or       usemo-vos       or
+SFX r   or       usemos-vos       or
 SFX r   or       usemos-lhe      or
 SFX r   or       usemos-lhes     or
 SFX r   or       usemos-te       or
@@ -18942,6 +18940,10 @@ SFX r   or       usé-la          or
 SFX r   or       usé-las         or
 SFX r   or       usé-lo          or
 SFX r   or       usé-los         or
+SFX r   or       u-la          or
+SFX r   or       u-las         or
+SFX r   or       u-lo          or
+SFX r   or       u-los         or
 SFX r   or       user-lhe        or
 SFX r   or       user-lhes       or
 SFX r   or       user-me         or
@@ -18982,7 +18984,7 @@ SFX r   or       userem-te       or
 SFX r   or       userem-vos      or
 SFX r   or       usermos-lhe     or
 SFX r   or       usermos-lhes    or
-SFX r   or       usermos-nos     or
+SFX r   or       usermo-nos     or
 SFX r   or       usermos-te      or
 SFX r   or       usermos-vos     or
 SFX r   or       usesse-a        or
@@ -19068,7 +19070,7 @@ SFX r   vir      çam-se          ouvir
 SFX r   vir      çam-te          ouvir
 SFX r   vir      çam-vos         ouvir
 SFX r   vir      çamo-nos        ouvir
-SFX r   vir      çamo-vos        ouvir
+SFX r   vir      çamos-vos        ouvir
 SFX r   vir      çamos-lhe       ouvir
 SFX r   vir      çamos-lhes      ouvir
 SFX r   vir      çamos-te        ouvir
@@ -19093,12 +19095,12 @@ SFX r   r        -os             caber
 SFX r   r        -se             caber
 SFX r   r        -te             caber
 SFX r   r        -vos            caber
-SFX r   0        -la-á           caber
-SFX r   0        -las-á          caber
+SFX r   er        ê-la-á           caber
+SFX r   er        ê-las-á          caber
 SFX r   0        -lhe-á          caber
 SFX r   0        -lhes-á         caber
-SFX r   0        -lo-á           caber
-SFX r   0        -los-á          caber
+SFX r   er        ê-lo-á           caber
+SFX r   er        ê-los-á          caber
 SFX r   0        -me-á           caber
 SFX r   0        -nos-á          caber
 SFX r   0        -se-á           caber
@@ -19177,13 +19179,13 @@ SFX r   er       iam-se          caber
 SFX r   er       iam-te          caber
 SFX r   er       iam-vos         caber
 SFX r   0        íamo-nos        caber
-SFX r   0        íamo-vos        caber
+SFX r   0        íamos-vos        caber
 SFX r   0        íamos-lhe       caber
 SFX r   0        íamos-lhes      caber
 SFX r   0        íamos-te        caber
 SFX r   er       íamos-lhe       caber
 SFX r   er       íamos-lhes      caber
-SFX r   er       íamos-nos       caber
+SFX r   er       íamo-nos       caber
 SFX r   er       íamos-vos       caber
 SFX r   ber      iba-a           caber
 SFX r   ber      iba-as          caber
@@ -19199,7 +19201,7 @@ SFX r   ber      ibam-no         caber
 SFX r   ber      ibam-nos        caber
 SFX r   ber      ibam-se         caber
 SFX r   ber      ibamo-nos       caber
-SFX r   ber      ibamo-vos       caber
+SFX r   ber      ibamos-vos       caber
 SFX r   ber      ibamos-lhe      caber
 SFX r   ber      ibamos-lhes     caber
 SFX r   ber      ibamos-te       caber
@@ -19226,7 +19228,7 @@ SFX r   aber     oube-se         caber
 SFX r   aber     oube-te         caber
 SFX r   aber     oube-vos        caber
 SFX r   aber     oubemo-nos      caber
-SFX r   aber     oubemo-vos      caber
+SFX r   aber     oubemos-vos      caber
 SFX r   aber     oubemos-lhe     caber
 SFX r   aber     oubemos-lhes    caber
 SFX r   aber     oubemos-te      caber
@@ -19237,6 +19239,10 @@ SFX r   aber     ouber-nos       caber
 SFX r   aber     ouber-se        caber
 SFX r   aber     ouber-te        caber
 SFX r   aber     ouber-vos       caber
+SFX r   aber     oubé-lo		 caber
+SFX r   aber     oubé-la		 caber
+SFX r   aber     oubé-los		 caber
+SFX r   aber     oubé-las		 caber
 SFX r   aber     oubera-a        caber
 SFX r   aber     oubera-as       caber
 SFX r   aber     oubera-lhe      caber
@@ -19269,7 +19275,7 @@ SFX r   aber     ouberem-se      caber
 SFX r   aber     ouberem-te      caber
 SFX r   aber     ouberem-vos     caber
 SFX r   aber     oubermo-nos     caber
-SFX r   aber     oubermo-vos     caber
+SFX r   aber     oubermos-vos     caber
 SFX r   aber     oubermos-lhe    caber
 SFX r   aber     oubermos-lhes   caber
 SFX r   aber     oubermos-te     caber
@@ -19335,7 +19341,7 @@ SFX r   0        mo-lo           er
 SFX r   0        mo-las          er
 SFX r   0        mo-la           er
 SFX r   r        mo-nos          er
-SFX r   r        mo-vos          er
+SFX r   r        mos-vos          er
 SFX r   r        mos-lhe         er
 SFX r   r        mos-lhes        er
 SFX r   r        mos-te          er
@@ -19545,7 +19551,7 @@ SFX r   azer     izemo-las       fazer
 SFX r   azer     izemo-lo        fazer
 SFX r   azer     izemo-los       fazer
 SFX r   azer     izemo-nos       fazer
-SFX r   azer     izemo-vos       fazer
+SFX r   azer     izemos-vos       fazer
 SFX r   azer     izemos-lhe      fazer
 SFX r   azer     izemos-lhes     fazer
 SFX r   azer     izemos-te       fazer
@@ -19670,7 +19676,7 @@ SFX r   zer      çam-se          fazer
 SFX r   zer      çam-te          fazer
 SFX r   zer      çam-vos         fazer
 SFX r   zer      çamo-nos        fazer
-SFX r   zer      çamo-vos        fazer
+SFX r   zer      çamos-vos        fazer
 SFX r   zer      çamos-lhe       fazer
 SFX r   zer      çamos-lhes      fazer
 SFX r   zer      çamos-te        fazer
@@ -19705,7 +19711,7 @@ SFX r   zer      gam-se          dizer
 SFX r   zer      gam-te          dizer
 SFX r   zer      gam-vos         dizer
 SFX r   zer      gamo-nos        dizer
-SFX r   zer      gamo-vos        dizer
+SFX r   zer      gamos-vos        dizer
 SFX r   zer      gamos-lhe       dizer
 SFX r   zer      gamos-lhes      dizer
 SFX r   zer      gamos-te        dizer
@@ -19731,7 +19737,7 @@ SFX r   zer      sse-se          dizer
 SFX r   zer      sse-te          dizer
 SFX r   zer      sse-vos         dizer
 SFX r   zer      ssemo-nos       dizer
-SFX r   zer      ssemo-vos       dizer
+SFX r   zer      ssemos-vos       dizer
 SFX r   zer      ssemos-lhe      dizer
 SFX r   zer      ssemos-lhes     dizer
 SFX r   zer      ssemos-te       dizer
@@ -19776,7 +19782,7 @@ SFX r   zer      sserem-se       dizer
 SFX r   zer      sserem-te       dizer
 SFX r   zer      sserem-vos      dizer
 SFX r   zer      ssermo-nos      dizer
-SFX r   zer      ssermo-vos      dizer
+SFX r   zer      ssermos-vos      dizer
 SFX r   zer      ssermos-lhe     dizer
 SFX r   zer      ssermos-lhes    dizer
 SFX r   zer      ssermos-te      dizer
@@ -19839,7 +19845,7 @@ SFX r   erir     iram-se         erir
 SFX r   erir     iram-te         erir
 SFX r   erir     iram-vos        erir
 SFX r   erir     iramo-nos       erir
-SFX r   erir     iramo-vos       erir
+SFX r   erir     iramos-vos       erir
 SFX r   erir     iramos-lhe      erir
 SFX r   erir     iramos-lhes     erir
 SFX r   erir     iramos-te       erir
@@ -19999,12 +20005,12 @@ SFX r   0        -se-iam         ir
 SFX r   0        -te-iam         ir
 SFX r   0        -vos-iam        ir
 SFX r   0        íamo-nos        ir
-SFX r   0        íamo-vos        ir
+SFX r   0        íamos-vos        ir
 SFX r   0        íamos-lhe       ir
 SFX r   0        íamos-lhes      ir
 SFX r   0        íamos-te        ir
 SFX r   ir       íamo-nos        ir
-SFX r   ir       íamo-vos        ir
+SFX r   ir       íamos-vos        ir
 SFX r   ir       íamos-lhe       ir
 SFX r   ir       íamos-lhes      ir
 SFX r   ir       íamos-te        ir
@@ -20013,7 +20019,7 @@ SFX r   0        mo-las          ir
 SFX r   0        mo-lo           ir
 SFX r   0        mo-los          ir
 SFX r   0        mo-nos          ir
-SFX r   0        mo-vos          ir
+SFX r   0        mos-vos          ir
 SFX r   0        mos-lhe         ir
 SFX r   0        mos-lhes        ir
 SFX r   0        mos-te          ir
@@ -20022,7 +20028,7 @@ SFX r   r        mo-las          ir
 SFX r   r        mo-lo           ir
 SFX r   r        mo-los          ir
 SFX r   r        mo-nos          ir
-SFX r   r        mo-vos          ir
+SFX r   r        mos-vos          ir
 SFX r   r        mos-lhe         ir
 SFX r   r        mos-lhes        ir
 SFX r   r        mos-te          ir
@@ -20101,7 +20107,7 @@ SFX r   etir     itam-se         etir
 SFX r   etir     itam-te         etir
 SFX r   etir     itam-vos        etir
 SFX r   etir     itamo-nos       etir
-SFX r   etir     itamo-vos       etir
+SFX r   etir     itamos-vos       etir
 SFX r   etir     itamos-lhe      etir
 SFX r   etir     itamos-lhes     etir
 SFX r   etir     itamos-te       etir
@@ -20230,16 +20236,16 @@ SFX r   er       iam-se          ver
 SFX r   er       iam-te          ver
 SFX r   er       iam-vos         ver
 SFX r   0        íamo-nos        ver
-SFX r   0        íamo-vos        ver
+SFX r   0        íamos-vos        ver
 SFX r   0        íamos-lhe       ver
 SFX r   0        íamos-lhes      ver
 SFX r   0        íamos-te        ver
 SFX r   er       íamos-lhe       ver
 SFX r   er       íamos-lhes      ver
 SFX r   er       íamo-nos        ver
-SFX r   er       íamo-vos        ver
+SFX r   er       íamos-vos        ver
 SFX r   er       imo-nos         ver
-SFX r   er       imo-vos         ver
+SFX r   er       imos-vos         ver
 SFX r   er       imos-lhe        ver
 SFX r   er       imos-lhes       ver
 SFX r   er       imos-te         ver
@@ -20286,7 +20292,7 @@ SFX r   er       irem-se         ver
 SFX r   er       irem-te         ver
 SFX r   er       irem-vos        ver
 SFX r   er       irmo-nos        ver
-SFX r   er       irmo-vos        ver
+SFX r   er       irmos-vos        ver
 SFX r   er       irmos-lhe       ver
 SFX r   er       irmos-lhes      ver
 SFX r   er       irmos-te        ver
@@ -20354,14 +20360,14 @@ SFX r   r        jam-se          ver
 SFX r   r        jam-te          ver
 SFX r   r        jam-vos         ver
 SFX r   r        jamo-nos        ver
-SFX r   r        jamo-vos        ver
+SFX r   r        jamos-vos        ver
 SFX r   r        jamos-lhe       ver
 SFX r   r        jamos-lhes      ver
 SFX r   r        jamos-te        ver
 SFX r   r        jamo-la         ver
-SFX r   r        jamos-las       ver
-SFX r   r        jamos-lo        ver
-SFX r   r        jamos-los       ver
+SFX r   r        jamo-las       ver
+SFX r   r        jamo-lo        ver
+SFX r   r        jamo-los       ver
 SFX r   r        jo-a            ver
 SFX r   r        jo-as           ver
 SFX r   r        jo-lhe          ver
@@ -20417,7 +20423,7 @@ SFX r   r        m-se            oiar
 SFX r   r        m-te            oiar
 SFX r   r        m-vos           oiar
 SFX r   r        mo-nos          oiar
-SFX r   r        mo-vos          oiar
+SFX r   r        mos-vos          oiar
 SFX r   r        mos-lhe         oiar
 SFX r   r        mos-lhes        oiar
 SFX r   r        mos-te          oiar
@@ -20515,12 +20521,12 @@ SFX r   0        -se-iam         oiar
 SFX r   0        -te-iam         oiar
 SFX r   0        -vos-iam        oiar
 SFX r   0        íamo-nos        oiar
-SFX r   0        íamo-vos        oiar
+SFX r   0        íamos-vos        oiar
 SFX r   0        íamos-lhe       oiar
 SFX r   0        íamos-lhes      oiar
 SFX r   0        íamos-te        oiar
 SFX r   0        mo-nos          oiar
-SFX r   0        mo-vos          oiar
+SFX r   0        mos-vos          oiar
 SFX r   0        mos-lhe         oiar
 SFX r   0        mos-lhes        oiar
 SFX r   0        mos-te          oiar
@@ -20577,7 +20583,7 @@ SFX r   r        vam-se          oiar
 SFX r   r        vam-te          oiar
 SFX r   r        vam-vos         oiar
 SFX r   ar       ávamo-nos       oiar
-SFX r   ar       ávamo-vos       oiar
+SFX r   ar       ávamos-vos       oiar
 SFX r   ar       ávamos-lhe      oiar
 SFX r   ar       ávamos-lhes     oiar
 SFX r   ar       ávamos-te       oiar
@@ -20613,7 +20619,7 @@ SFX r   ar       em-se           oiar
 SFX r   ar       em-te           oiar
 SFX r   ar       em-vos          oiar
 SFX r   ar       emo-nos         oiar
-SFX r   ar       emo-vos         oiar
+SFX r   ar       emos-vos         oiar
 SFX r   ar       emos-lhe        oiar
 SFX r   ar       emos-lhes       oiar
 SFX r   ar       emos-te         oiar
@@ -20691,7 +20697,7 @@ SFX r   ular     úlam-se         abaular
 SFX r   ular     úlam-te         abaular
 SFX r   ular     úlam-vos        abaular
 SFX r   r        mo-nos          abaular
-SFX r   r        mo-vos          abaular
+SFX r   r        mos-vos          abaular
 SFX r   r        mos-lhe         abaular
 SFX r   r        mos-lhes        abaular
 SFX r   r        mos-te          abaular
@@ -20789,12 +20795,12 @@ SFX r   0        -se-iam         abaular
 SFX r   0        -te-iam         abaular
 SFX r   0        -vos-iam        abaular
 SFX r   0        íamo-nos        abaular
-SFX r   0        íamo-vos        abaular
+SFX r   0        íamos-vos        abaular
 SFX r   0        íamos-lhe       abaular
 SFX r   0        íamos-lhes      abaular
 SFX r   0        íamos-te        abaular
 SFX r   0        mo-nos          abaular
-SFX r   0        mo-vos          abaular
+SFX r   0        mos-vos          abaular
 SFX r   0        mos-lhe         abaular
 SFX r   0        mos-lhes        abaular
 SFX r   0        mos-te          abaular
@@ -20851,7 +20857,7 @@ SFX r   r        vam-se          abaular
 SFX r   r        vam-te          abaular
 SFX r   r        vam-vos         abaular
 SFX r   ar       ávamo-nos       abaular
-SFX r   ar       ávamo-vos       abaular
+SFX r   ar       ávamos-vos       abaular
 SFX r   ar       ávamos-lhe      abaular
 SFX r   ar       ávamos-lhes     abaular
 SFX r   ar       ávamos-te       abaular
@@ -20908,7 +20914,7 @@ SFX r   ular     úlem-se         abaular
 SFX r   ular     úlem-te         abaular
 SFX r   ular     úlem-vos        abaular
 SFX r   ar       emo-nos         abaular
-SFX r   ar       emo-vos         abaular
+SFX r   ar       emos-vos         abaular
 SFX r   ar       emos-lhe        abaular
 SFX r   ar       emos-lhes       abaular
 SFX r   ar       emos-te         abaular
@@ -20976,7 +20982,7 @@ SFX r   ustrar   ústram-se       austrar
 SFX r   ustrar   ústram-te       austrar
 SFX r   ustrar   ústram-vos      austrar
 SFX r   r        mo-nos          austrar
-SFX r   r        mo-vos          austrar
+SFX r   r        mos-vos          austrar
 SFX r   r        mos-lhe         austrar
 SFX r   r        mos-lhes        austrar
 SFX r   r        mos-te          austrar
@@ -21074,12 +21080,12 @@ SFX r   0        -se-iam         austrar
 SFX r   0        -te-iam         austrar
 SFX r   0        -vos-iam        austrar
 SFX r   0        íamo-nos        austrar
-SFX r   0        íamo-vos        austrar
+SFX r   0        íamos-vos        austrar
 SFX r   0        íamos-lhe       austrar
 SFX r   0        íamos-lhes      austrar
 SFX r   0        íamos-te        austrar
 SFX r   0        mo-nos          austrar
-SFX r   0        mo-vos          austrar
+SFX r   0        mos-vos          austrar
 SFX r   0        mos-lhe         austrar
 SFX r   0        mos-lhes        austrar
 SFX r   0        mos-te          austrar
@@ -21136,7 +21142,7 @@ SFX r   r        vam-se          austrar
 SFX r   r        vam-te          austrar
 SFX r   r        vam-vos         austrar
 SFX r   ar       ávamo-nos       austrar
-SFX r   ar       ávamo-vos       austrar
+SFX r   ar       ávamos-vos       austrar
 SFX r   ar       ávamos-lhe      austrar
 SFX r   ar       ávamos-lhes     austrar
 SFX r   ar       ávamos-te       austrar
@@ -21172,7 +21178,7 @@ SFX r   ustrar   ústrem-se       austrar
 SFX r   ustrar   ústrem-te       austrar
 SFX r   ustrar   ústrem-vos      austrar
 SFX r   ar       emo-nos         austrar
-SFX r   ar       emo-vos         austrar
+SFX r   ar       emos-vos         austrar
 SFX r   ar       emos-lhe        austrar
 SFX r   ar       emos-lhes       austrar
 SFX r   ar       emos-te         austrar
@@ -21240,7 +21246,7 @@ SFX r   r        m-se            uar
 SFX r   r        m-te            uar
 SFX r   r        m-vos           uar
 SFX r   r        mo-nos          uar
-SFX r   r        mo-vos          uar
+SFX r   r        mos-vos          uar
 SFX r   r        mos-lhe         uar
 SFX r   r        mos-lhes        uar
 SFX r   r        mos-te          uar
@@ -21338,12 +21344,12 @@ SFX r   0        -se-iam         uar
 SFX r   0        -te-iam         uar
 SFX r   0        -vos-iam        uar
 SFX r   0        íamo-nos        uar
-SFX r   0        íamo-vos        uar
+SFX r   0        íamos-vos        uar
 SFX r   0        íamos-lhe       uar
 SFX r   0        íamos-lhes      uar
 SFX r   0        íamos-te        uar
 SFX r   0        mo-nos          uar
-SFX r   0        mo-vos          uar
+SFX r   0        mos-vos          uar
 SFX r   0        mos-lhe         uar
 SFX r   0        mos-lhes        uar
 SFX r   0        mos-te          uar
@@ -21400,7 +21406,7 @@ SFX r   r        vam-se          uar
 SFX r   r        vam-te          uar
 SFX r   r        vam-vos         uar
 SFX r   ar       ávamo-nos       uar
-SFX r   ar       ávamo-vos       uar
+SFX r   ar       ávamos-vos       uar
 SFX r   ar       ávamos-lhe      uar
 SFX r   ar       ávamos-lhes     uar
 SFX r   ar       ávamos-te       uar
@@ -21554,7 +21560,7 @@ SFX r   inquar   ínquem-se       inquar
 SFX r   inquar   ínquem-te       inquar
 SFX r   inquar   ínquem-vos      inquar
 SFX r   uar      uemo-nos        uar
-SFX r   uar      uemo-vos        uar
+SFX r   uar      uemos-vos        uar
 SFX r   uar      uemos-lhe       uar
 SFX r   uar      uemos-lhes      uar
 SFX r   uar      uemos-te        uar
@@ -21621,7 +21627,7 @@ SFX r   izar     ízam-se         [aeou]izar
 SFX r   izar     ízam-te         [aeou]izar
 SFX r   izar     ízam-vos        [aeou]izar
 SFX r   r        mo-nos          [aeou]izar
-SFX r   r        mo-vos          [aeou]izar
+SFX r   r        mos-vos          [aeou]izar
 SFX r   r        mos-lhe         [aeou]izar
 SFX r   r        mos-lhes        [aeou]izar
 SFX r   r        mos-te          [aeou]izar
@@ -21719,12 +21725,12 @@ SFX r   0        -se-iam         [aeou]izar
 SFX r   0        -te-iam         [aeou]izar
 SFX r   0        -vos-iam        [aeou]izar
 SFX r   0        íamo-nos        [aeou]izar
-SFX r   0        íamo-vos        [aeou]izar
+SFX r   0        íamos-vos        [aeou]izar
 SFX r   0        íamos-lhe       [aeou]izar
 SFX r   0        íamos-lhes      [aeou]izar
 SFX r   0        íamos-te        [aeou]izar
 SFX r   0        mo-nos          [aeou]izar
-SFX r   0        mo-vos          [aeou]izar
+SFX r   0        mos-vos          [aeou]izar
 SFX r   0        mos-lhe         [aeou]izar
 SFX r   0        mos-lhes        [aeou]izar
 SFX r   0        mos-te          [aeou]izar
@@ -21781,7 +21787,7 @@ SFX r   r        vam-se          [aeou]izar
 SFX r   r        vam-te          [aeou]izar
 SFX r   r        vam-vos         [aeou]izar
 SFX r   ar       ávamo-nos       [aeou]izar
-SFX r   ar       ávamo-vos       [aeou]izar
+SFX r   ar       ávamos-vos       [aeou]izar
 SFX r   ar       ávamos-lhe      [aeou]izar
 SFX r   ar       ávamos-lhes     [aeou]izar
 SFX r   ar       ávamos-te       [aeou]izar
@@ -21817,7 +21823,7 @@ SFX r   izar     ízem-se         [aeou]izar
 SFX r   izar     ízem-te         [aeou]izar
 SFX r   izar     ízem-vos        [aeou]izar
 SFX r   ar       emo-nos         [aeou]izar
-SFX r   ar       emo-vos         [aeou]izar
+SFX r   ar       emos-vos         [aeou]izar
 SFX r   ar       emos-lhe        [aeou]izar
 SFX r   ar       emos-lhes       [aeou]izar
 SFX r   ar       emos-te         [aeou]izar
@@ -21919,7 +21925,7 @@ SFX s   ir      enham-se       vir
 SFX s   ir      enham-te       vir
 SFX s   ir      enham-vos      vir
 SFX s   ir      enhamo-nos     vir
-SFX s   ir      enhamo-vos     vir
+SFX s   ir      enhamos-vos     vir
 SFX s   ir      enhamos-lhe    vir
 SFX s   ir      enhamos-lhes   vir
 SFX s   ir      enhamos-te     vir
@@ -21935,7 +21941,7 @@ SFX s   ir      enho-se        vir
 SFX s   ir      enho-te        vir
 SFX s   ir      enho-vos       vir
 SFX s   r       emo-nos        vir
-SFX s   r       emo-vos        vir
+SFX s   r       emos-vos        vir
 SFX s   r       emos-lhe       vir
 SFX s   r       emos-lhes      vir
 SFX s   r       emos-te        vir
@@ -21977,7 +21983,7 @@ SFX s   r       erem-se        vir
 SFX s   r       erem-te        vir
 SFX s   r       erem-vos       vir
 SFX s   r       ermo-nos       vir
-SFX s   r       ermo-vos       vir
+SFX s   r       ermos-vos       vir
 SFX s   r       ermos-lhe      vir
 SFX s   r       ermos-lhes     vir
 SFX s   r       ermos-te       vir
@@ -22024,7 +22030,7 @@ SFX s   r       m-se           vir
 SFX s   r       m-te           vir
 SFX s   r       m-vos          vir
 SFX s   r       mo-nos         vir
-SFX s   r       mo-vos         vir
+SFX s   r       mos-vos         vir
 SFX s   r       mos-lhe        vir
 SFX s   r       mos-lhes       vir
 SFX s   r       mos-te         vir
@@ -22122,12 +22128,12 @@ SFX s   0       -se-iam        vir
 SFX s   0       -te-iam        vir
 SFX s   0       -vos-iam       vir
 SFX s   0       íamo-nos       vir
-SFX s   0       íamo-vos       vir
+SFX s   0       íamos-vos       vir
 SFX s   0       íamos-lhe      vir
 SFX s   0       íamos-lhes     vir
 SFX s   0       íamos-te       vir
 SFX s   0       mo-nos         vir
-SFX s   0       mo-vos         vir
+SFX s   0       mos-vos         vir
 SFX s   0       mos-lhe        vir
 SFX s   0       mos-lhes       vir
 SFX s   0       mos-te         vir
@@ -22153,7 +22159,7 @@ SFX s   ir      am-se          truir
 SFX s   ir      am-te          truir
 SFX s   ir      am-vos         truir
 SFX s   ir      amo-nos        truir
-SFX s   ir      amo-vos        truir
+SFX s   ir      amos-vos        truir
 SFX s   ir      amos-lhe       truir
 SFX s   ir      amos-lhes      truir
 SFX s   ir      amos-te        truir
@@ -22209,7 +22215,7 @@ SFX s   ir      íam-se         truir
 SFX s   ir      íam-te         truir
 SFX s   ir      íam-vos        truir
 SFX s   ir      íamo-nos       truir
-SFX s   ir      íamo-vos       truir
+SFX s   ir      íamos-vos       truir
 SFX s   ir      íamos-lhe      truir
 SFX s   ir      íamos-lhes     truir
 SFX s   ir      íamos-te       truir
@@ -22225,7 +22231,7 @@ SFX s   ir      ído-se         truir
 SFX s   ir      ído-te         truir
 SFX s   ir      ído-vos        truir
 SFX s   ir      ímo-nos        truir
-SFX s   ir      ímo-vos        truir
+SFX s   ir      ímos-vos        truir
 SFX s   ir      ímos-lhe       truir
 SFX s   ir      ímos-lhes      truir
 SFX s   ir      ímos-te        truir
@@ -22323,12 +22329,12 @@ SFX s   0       -se-iam        truir
 SFX s   0       -te-iam        truir
 SFX s   0       -vos-iam       truir
 SFX s   0       íamo-nos       truir
-SFX s   0       íamo-vos       truir
+SFX s   0       íamos-vos       truir
 SFX s   0       íamos-lhe      truir
 SFX s   0       íamos-lhes     truir
 SFX s   0       íamos-te       truir
 SFX s   0       mo-nos         truir
-SFX s   0       mo-vos         truir
+SFX s   0       mos-vos         truir
 SFX s   0       mos-lhe        truir
 SFX s   0       mos-lhes       truir
 SFX s   0       mos-te         truir
@@ -22460,7 +22466,7 @@ SFX s   r       am-se          ergir
 SFX s   r       am-te          ergir
 SFX s   r       am-vos         ergir
 SFX s   ir      íamo-nos       ergir
-SFX s   ir      íamo-vos       ergir
+SFX s   ir      íamos-vos       ergir
 SFX s   ir      íamos-lhe      ergir
 SFX s   ir      íamos-lhes     ergir
 SFX s   ir      íamos-te       ergir
@@ -22476,7 +22482,7 @@ SFX s   r       do-se          ergir
 SFX s   r       do-te          ergir
 SFX s   r       do-vos         ergir
 SFX s   r       mo-nos         ergir
-SFX s   r       mo-vos         ergir
+SFX s   r       mos-vos         ergir
 SFX s   r       mos-lhe        ergir
 SFX s   r       mos-lhes       ergir
 SFX s   r       mos-te         ergir
@@ -22574,12 +22580,12 @@ SFX s   0       -se-iam        ergir
 SFX s   0       -te-iam        ergir
 SFX s   0       -vos-iam       ergir
 SFX s   0       íamo-nos       ergir
-SFX s   0       íamo-vos       ergir
+SFX s   0       íamos-vos       ergir
 SFX s   0       íamos-lhe      ergir
 SFX s   0       íamos-lhes     ergir
 SFX s   0       íamos-te       ergir
 SFX s   0       mo-nos         ergir
-SFX s   0       mo-vos         ergir
+SFX s   0       mos-vos         ergir
 SFX s   0       mos-lhe        ergir
 SFX s   0       mos-lhes       ergir
 SFX s   0       mos-te         ergir
@@ -22647,7 +22653,7 @@ SFX s   ergir   irjam-se       ergir
 SFX s   ergir   irjam-te       ergir
 SFX s   ergir   irjam-vos      ergir
 SFX s   ergir   irjamo-nos     ergir
-SFX s   ergir   irjamo-vos     ergir
+SFX s   ergir   irjamos-vos     ergir
 SFX s   ergir   irjamos-lhe    ergir
 SFX s   ergir   irjamos-lhes   ergir
 SFX s   ergir   irjamos-te     ergir
@@ -22697,7 +22703,7 @@ SFX s   r        iam-se          rer
 SFX s   r        iam-te          rer
 SFX s   r        iam-vos         rer
 SFX s   r        iamo-nos        rer
-SFX s   r        iamo-vos        rer
+SFX s   r        iamos-vos        rer
 SFX s   r        iamos-lhe       rer
 SFX s   r        iamos-lhes      rer
 SFX s   r        iamos-te        rer
@@ -22710,7 +22716,7 @@ SFX s   r        io-o            rer
 SFX s   r        io-os           rer
 SFX s   r        io-te           rer
 SFX s   r        mo-nos          rer
-SFX s   r        mo-vos          rer
+SFX s   r        mos-vos          rer
 SFX s   r        mos-lhe         rer
 SFX s   r        mos-lhes        rer
 SFX s   r        mos-te          rer
@@ -22758,7 +22764,7 @@ SFX s   0        am-se           rer
 SFX s   0        am-te           rer
 SFX s   0        am-vos          rer
 SFX s   er       êramo-nos       rer
-SFX s   er       êramo-vos       rer
+SFX s   er       êramos-vos       rer
 SFX s   er       êramos-lhe      rer
 SFX s   er       êramos-lhes     rer
 SFX s   er       êramos-te       rer
@@ -22813,12 +22819,12 @@ SFX s   0        -se-iam         rer
 SFX s   0        -te-iam         rer
 SFX s   0        -vos-iam        rer
 SFX s   0        íamo-nos        rer
-SFX s   0        íamo-vos        rer
+SFX s   0        íamos-vos        rer
 SFX s   0        íamos-lhe       rer
 SFX s   0        íamos-lhes      rer
 SFX s   0        íamos-te        rer
 SFX s   0        mo-nos          rer
-SFX s   0        mo-vos          rer
+SFX s   0        mos-vos          rer
 SFX s   0        mos-lhe         rer
 SFX s   0        mos-lhes        rer
 SFX s   0        mos-te          rer
@@ -22897,7 +22903,7 @@ SFX s   er       iam-te          rer
 SFX s   er       iam-vos         rer
 SFX s   er       íamos-lhe       rer
 SFX s   er       íamos-lhes      rer
-SFX s   er       íamos-nos       rer
+SFX s   er       íamo-nos       rer
 SFX s   er       íamos-vos       rer
 SFX s   er       ido-a           rer
 SFX s   er       ido-as          rer
@@ -22943,7 +22949,7 @@ SFX s   r        am-se           [ner]quir
 SFX s   r        am-te           [ner]quir
 SFX s   r        am-vos          [ner]quir
 SFX s   ir       íamo-nos        [ner]quir
-SFX s   ir       íamo-vos        [ner]quir
+SFX s   ir       íamos-vos        [ner]quir
 SFX s   ir       íamos-lhe       [ner]quir
 SFX s   ir       íamos-lhes      [ner]quir
 SFX s   ir       íamos-te        [ner]quir
@@ -22959,7 +22965,7 @@ SFX s   r        do-se           [ner]quir
 SFX s   r        do-te           [ner]quir
 SFX s   r        do-vos          [ner]quir
 SFX s   r        mo-nos          [ner]quir
-SFX s   r        mo-vos          [ner]quir
+SFX s   r        mos-vos          [ner]quir
 SFX s   r        mos-lhe         [ner]quir
 SFX s   r        mos-lhes        [ner]quir
 SFX s   r        mos-te          [ner]quir
@@ -23057,12 +23063,12 @@ SFX s   0        -se-iam         [ner]quir
 SFX s   0        -te-iam         [ner]quir
 SFX s   0        -vos-iam        [ner]quir
 SFX s   0        íamo-nos        [ner]quir
-SFX s   0        íamo-vos        [ner]quir
+SFX s   0        íamos-vos        [ner]quir
 SFX s   0        íamos-lhe       [ner]quir
 SFX s   0        íamos-lhes      [ner]quir
 SFX s   0        íamos-te        [ner]quir
 SFX s   0        mo-nos          [ner]quir
-SFX s   0        mo-vos          [ner]quir
+SFX s   0        mos-vos          [ner]quir
 SFX s   0        mos-lhe         [ner]quir
 SFX s   0        mos-lhes        [ner]quir
 SFX s   0        mos-te          [ner]quir
@@ -23119,7 +23125,7 @@ SFX s   orquir   urca-se         orquir
 SFX s   orquir   urca-te         orquir
 SFX s   orquir   urca-vos        orquir
 SFX s   orquir   urcamo-nos      orquir
-SFX s   orquir   urcamo-vos      orquir
+SFX s   orquir   urcamos-vos      orquir
 SFX s   orquir   urcamos-lhe     orquir
 SFX s   orquir   urcamos-lhes    orquir
 SFX s   orquir   urcamos-te      orquir
@@ -23183,7 +23189,7 @@ SFX s   zer      gam-se          trazer
 SFX s   zer      gam-te          trazer
 SFX s   zer      gam-vos         trazer
 SFX s   zer      gamo-nos        trazer
-SFX s   zer      gamo-vos        trazer
+SFX s   zer      gamos-vos        trazer
 SFX s   zer      gamos-lhe       trazer
 SFX s   zer      gamos-lhes      trazer
 SFX s   zer      gamos-te        trazer
@@ -23321,7 +23327,7 @@ SFX s   r        m-se            trazer
 SFX s   r        m-te            trazer
 SFX s   r        m-vos           trazer
 SFX s   r        mo-nos          trazer
-SFX s   r        mo-vos          trazer
+SFX s   r        mos-vos          trazer
 SFX s   r        mos-lhe         trazer
 SFX s   r        mos-lhes        trazer
 SFX s   r        mos-te          trazer
@@ -23347,7 +23353,7 @@ SFX s   0        em-se           trazer
 SFX s   0        em-te           trazer
 SFX s   0        em-vos          trazer
 SFX s   0        mo-nos          trazer
-SFX s   0        mo-vos          trazer
+SFX s   0        mos-vos          trazer
 SFX s   0        mos-lhe         trazer
 SFX s   0        mos-lhes        trazer
 SFX s   0        mos-te          trazer
@@ -23374,7 +23380,7 @@ SFX s   er       iam-te          trazer
 SFX s   er       iam-vos         trazer
 SFX s   er       íamos-lhe       trazer
 SFX s   er       íamos-lhes      trazer
-SFX s   er       íamos-nos       trazer
+SFX s   er       íamo-nos       trazer
 SFX s   er       íamos-vos       trazer
 SFX s   er       ido-a           trazer
 SFX s   er       ido-as          trazer
@@ -23399,7 +23405,7 @@ SFX s   azer     ouxe-os         trazer
 SFX s   azer     ouxe-se         trazer
 SFX s   azer     ouxe-te         trazer
 SFX s   azer     ouxemo-nos      trazer
-SFX s   azer     ouxemo-vos      trazer
+SFX s   azer     ouxemos-vos      trazer
 SFX s   azer     ouxemos-lhe     trazer
 SFX s   azer     ouxemos-lhes    trazer
 SFX s   azer     ouxemos-te      trazer
@@ -23444,7 +23450,7 @@ SFX s   azer     ouxerem-se      trazer
 SFX s   azer     ouxerem-te      trazer
 SFX s   azer     ouxerem-vos     trazer
 SFX s   azer     ouxermo-nos     trazer
-SFX s   azer     ouxermo-vos     trazer
+SFX s   azer     ouxermos-vos     trazer
 SFX s   azer     ouxermos-lhe    trazer
 SFX s   azer     ouxermos-lhes   trazer
 SFX s   azer     ouxermos-te     trazer
@@ -23503,7 +23509,7 @@ SFX s   r      am-se          reunir
 SFX s   r      am-te          reunir
 SFX s   r      am-vos         reunir
 SFX s   ir     íamo-nos       reunir
-SFX s   ir     íamo-vos       reunir
+SFX s   ir     íamos-vos       reunir
 SFX s   ir     íamos-lhe      reunir
 SFX s   ir     íamos-lhes     reunir
 SFX s   ir     íamos-te       reunir
@@ -23519,7 +23525,7 @@ SFX s   r      do-se          reunir
 SFX s   r      do-te          reunir
 SFX s   r      do-vos         reunir
 SFX s   r      mo-nos         reunir
-SFX s   r      mo-vos         reunir
+SFX s   r      mos-vos         reunir
 SFX s   r      mos-lhe        reunir
 SFX s   r      mos-lhes       reunir
 SFX s   r      mos-te         reunir
@@ -23617,12 +23623,12 @@ SFX s   0      -se-iam        reunir
 SFX s   0      -te-iam        reunir
 SFX s   0      -vos-iam       reunir
 SFX s   0      íamo-nos       reunir
-SFX s   0      íamo-vos       reunir
+SFX s   0      íamos-vos       reunir
 SFX s   0      íamos-lhe      reunir
 SFX s   0      íamos-lhes     reunir
 SFX s   0      íamos-te       reunir
 SFX s   0      mo-nos         reunir
-SFX s   0      mo-vos         reunir
+SFX s   0      mos-vos         reunir
 SFX s   0      mos-lhe        reunir
 SFX s   0      mos-lhes       reunir
 SFX s   0      mos-te         reunir
@@ -23711,7 +23717,7 @@ SFX s   unir   únam-se        reunir
 SFX s   unir   únam-te        reunir
 SFX s   unir   únam-vos       reunir
 SFX s   ir     amo-nos        reunir
-SFX s   ir     amo-vos        reunir
+SFX s   ir     amos-vos        reunir
 SFX s   ir     amos-lhe       reunir
 SFX s   ir     amos-lhes      reunir
 SFX s   ir     amos-te        reunir
@@ -23758,7 +23764,7 @@ SFX s   cir    çam-se         cir
 SFX s   cir    çam-te         cir
 SFX s   cir    çam-vos        cir
 SFX s   cir    çamo-nos       cir
-SFX s   cir    çamo-vos       cir
+SFX s   cir    çamos-vos       cir
 SFX s   cir    çamos-lhe      cir
 SFX s   cir    çamos-lhes     cir
 SFX s   cir    çamos-te       cir
@@ -23816,7 +23822,7 @@ SFX s   r      am-se          cir
 SFX s   r      am-te          cir
 SFX s   r      am-vos         cir
 SFX s   ir     íamo-nos       cir
-SFX s   ir     íamo-vos       cir
+SFX s   ir     íamos-vos       cir
 SFX s   ir     íamos-lhe      cir
 SFX s   ir     íamos-lhes     cir
 SFX s   ir     íamos-te       cir
@@ -23832,7 +23838,7 @@ SFX s   r      do-se          cir
 SFX s   r      do-te          cir
 SFX s   r      do-vos         cir
 SFX s   r      mo-nos         cir
-SFX s   r      mo-vos         cir
+SFX s   r      mos-vos         cir
 SFX s   r      mos-lhe        cir
 SFX s   r      mos-lhes       cir
 SFX s   r      mos-te         cir
@@ -23930,12 +23936,12 @@ SFX s   0      -se-iam        cir
 SFX s   0      -te-iam        cir
 SFX s   0      -vos-iam       cir
 SFX s   0      íamo-nos       cir
-SFX s   0      íamo-vos       cir
+SFX s   0      íamos-vos       cir
 SFX s   0      íamos-lhe      cir
 SFX s   0      íamos-lhes     cir
 SFX s   0      íamos-te       cir
 SFX s   0      mo-nos         cir
-SFX s   0      mo-vos         cir
+SFX s   0      mos-vos         cir
 SFX s   0      mos-lhe        cir
 SFX s   0      mos-lhes       cir
 SFX s   0      mos-te         cir
@@ -24033,7 +24039,7 @@ SFX s   ucar   úcam-se        ucar
 SFX s   ucar   úcam-te        ucar
 SFX s   ucar   úcam-vos       ucar
 SFX s   r      mo-nos         ucar
-SFX s   r      mo-vos         ucar
+SFX s   r      mos-vos         ucar
 SFX s   r      mos-lhe        ucar
 SFX s   r      mos-lhes       ucar
 SFX s   r      mos-te         ucar
@@ -24131,12 +24137,12 @@ SFX s   0      -se-iam        ucar
 SFX s   0      -te-iam        ucar
 SFX s   0      -vos-iam       ucar
 SFX s   0      íamo-nos       ucar
-SFX s   0      íamo-vos       ucar
+SFX s   0      íamos-vos       ucar
 SFX s   0      íamos-lhe      ucar
 SFX s   0      íamos-lhes     ucar
 SFX s   0      íamos-te       ucar
 SFX s   0      mo-nos         ucar
-SFX s   0      mo-vos         ucar
+SFX s   0      mos-vos         ucar
 SFX s   0      mos-lhe        ucar
 SFX s   0      mos-lhes       ucar
 SFX s   0      mos-te         ucar
@@ -24193,7 +24199,7 @@ SFX s   r      vam-se         ucar
 SFX s   r      vam-te         ucar
 SFX s   r      vam-vos        ucar
 SFX s   ar     ávamo-nos      ucar
-SFX s   ar     ávamo-vos      ucar
+SFX s   ar     ávamos-vos      ucar
 SFX s   ar     ávamos-lhe     ucar
 SFX s   ar     ávamos-lhes    ucar
 SFX s   ar     ávamos-te      ucar
@@ -24247,7 +24253,7 @@ SFX s   ucar   úquem-se       ucar
 SFX s   ucar   úquem-te       ucar
 SFX s   ucar   úquem-vos      ucar
 SFX s   ucar   quemo-nos      ucar
-SFX s   ucar   quemo-vos      ucar
+SFX s   ucar   quemos-vos      ucar
 SFX s   ucar   quemos-lhe     ucar
 SFX s   ucar   quemos-lhes    ucar
 SFX s   ucar   quemos-te      ucar
@@ -24295,7 +24301,7 @@ SFX s   inar    ínam-se        [aeu]inar
 SFX s   inar    ínam-te        [aeu]inar
 SFX s   inar    ínam-vos       [aeu]inar
 SFX s   r       mo-nos         [aeu]inar
-SFX s   r       mo-vos         [aeu]inar
+SFX s   r       mos-vos         [aeu]inar
 SFX s   r       mos-lhe        [aeu]inar
 SFX s   r       mos-lhes       [aeu]inar
 SFX s   r       mos-te         [aeu]inar
@@ -24393,12 +24399,12 @@ SFX s   0       -se-iam        [aeu]inar
 SFX s   0       -te-iam        [aeu]inar
 SFX s   0       -vos-iam       [aeu]inar
 SFX s   0       íamo-nos       [aeu]inar
-SFX s   0       íamo-vos       [aeu]inar
+SFX s   0       íamos-vos       [aeu]inar
 SFX s   0       íamos-lhe      [aeu]inar
 SFX s   0       íamos-lhes     [aeu]inar
 SFX s   0       íamos-te       [aeu]inar
 SFX s   0       mo-nos         [aeu]inar
-SFX s   0       mo-vos         [aeu]inar
+SFX s   0       mos-vos         [aeu]inar
 SFX s   0       mos-lhe        [aeu]inar
 SFX s   0       mos-lhes       [aeu]inar
 SFX s   0       mos-te         [aeu]inar
@@ -24455,7 +24461,7 @@ SFX s   r       vam-se         [aeu]inar
 SFX s   r       vam-te         [aeu]inar
 SFX s   r       vam-vos        [aeu]inar
 SFX s   ar      ávamo-nos      [aeu]inar
-SFX s   ar      ávamo-vos      [aeu]inar
+SFX s   ar      ávamos-vos      [aeu]inar
 SFX s   ar      ávamos-lhe     [aeu]inar
 SFX s   ar      ávamos-lhes    [aeu]inar
 SFX s   ar      ávamos-te      [aeu]inar
@@ -24491,7 +24497,7 @@ SFX s   inar    ínem-se        [aeu]inar
 SFX s   inar    ínem-te        [aeu]inar
 SFX s   inar    ínem-vos       [aeu]inar
 SFX s   ar      emo-nos        [aeu]inar
-SFX s   ar      emo-vos        [aeu]inar
+SFX s   ar      emos-vos        [aeu]inar
 SFX s   ar      emos-lhe       [aeu]inar
 SFX s   ar      emos-lhes      [aeu]inar
 SFX s   ar      emos-te        [aeu]inar
@@ -24570,7 +24576,7 @@ SFX s   r       am-se          cernir
 SFX s   r       am-te          cernir
 SFX s   r       am-vos         cernir
 SFX s   ir      íamo-nos       cernir
-SFX s   ir      íamo-vos       cernir
+SFX s   ir      íamos-vos       cernir
 SFX s   ir      íamos-lhe      cernir
 SFX s   ir      íamos-lhes     cernir
 SFX s   ir      íamos-te       cernir
@@ -24586,7 +24592,7 @@ SFX s   r       do-se          cernir
 SFX s   r       do-te          cernir
 SFX s   r       do-vos         cernir
 SFX s   r       mo-nos         cernir
-SFX s   r       mo-vos         cernir
+SFX s   r       mos-vos         cernir
 SFX s   r       mos-lhe        cernir
 SFX s   r       mos-lhes       cernir
 SFX s   r       mos-te         cernir
@@ -24684,12 +24690,12 @@ SFX s   0       -se-iam        cernir
 SFX s   0       -te-iam        cernir
 SFX s   0       -vos-iam       cernir
 SFX s   0       íamo-nos       cernir
-SFX s   0       íamo-vos       cernir
+SFX s   0       íamos-vos       cernir
 SFX s   0       íamos-lhe      cernir
 SFX s   0       íamos-lhes     cernir
 SFX s   0       íamos-te       cernir
 SFX s   0       mo-nos         cernir
-SFX s   0       mo-vos         cernir
+SFX s   0       mos-vos         cernir
 SFX s   0       mos-lhe        cernir
 SFX s   0       mos-lhes       cernir
 SFX s   0       mos-te         cernir
@@ -24757,7 +24763,7 @@ SFX s   ernir   irnam-se       cernir
 SFX s   ernir   irnam-te       cernir
 SFX s   ernir   irnam-vos      cernir
 SFX s   ernir   irnamo-nos     cernir
-SFX s   ernir   irnamo-vos     cernir
+SFX s   ernir   irnamos-vos     cernir
 SFX s   ernir   irnamos-lhe    cernir
 SFX s   ernir   irnamos-lhes   cernir
 SFX s   ernir   irnamos-te     cernir
@@ -24824,7 +24830,7 @@ SFX s   r       am-se          dormir
 SFX s   r       am-te          dormir
 SFX s   r       am-vos         dormir
 SFX s   ir      íamo-nos       dormir
-SFX s   ir      íamo-vos       dormir
+SFX s   ir      íamos-vos       dormir
 SFX s   ir      íamos-lhe      dormir
 SFX s   ir      íamos-lhes     dormir
 SFX s   ir      íamos-te       dormir
@@ -24840,7 +24846,7 @@ SFX s   r       do-se          dormir
 SFX s   r       do-te          dormir
 SFX s   r       do-vos         dormir
 SFX s   r       mo-nos         dormir
-SFX s   r       mo-vos         dormir
+SFX s   r       mos-vos         dormir
 SFX s   r       mos-lhe        dormir
 SFX s   r       mos-lhes       dormir
 SFX s   r       mos-te         dormir
@@ -24938,12 +24944,12 @@ SFX s   0       -se-iam        dormir
 SFX s   0       -te-iam        dormir
 SFX s   0       -vos-iam       dormir
 SFX s   0       íamo-nos       dormir
-SFX s   0       íamo-vos       dormir
+SFX s   0       íamos-vos       dormir
 SFX s   0       íamos-lhe      dormir
 SFX s   0       íamos-lhes     dormir
 SFX s   0       íamos-te       dormir
 SFX s   0       mo-nos         dormir
-SFX s   0       mo-vos         dormir
+SFX s   0       mos-vos         dormir
 SFX s   0       mos-lhe        dormir
 SFX s   0       mos-lhes       dormir
 SFX s   0       mos-te         dormir
@@ -25047,7 +25053,7 @@ SFX s   r       am-se          fugir
 SFX s   r       am-te          fugir
 SFX s   r       am-vos         fugir
 SFX s   ir      íamo-nos       fugir
-SFX s   ir      íamo-vos       fugir
+SFX s   ir      íamos-vos       fugir
 SFX s   ir      íamos-lhe      fugir
 SFX s   ir      íamos-lhes     fugir
 SFX s   ir      íamos-te       fugir
@@ -25063,7 +25069,7 @@ SFX s   r       do-se          fugir
 SFX s   r       do-te          fugir
 SFX s   r       do-vos         fugir
 SFX s   r       mo-nos         fugir
-SFX s   r       mo-vos         fugir
+SFX s   r       mos-vos         fugir
 SFX s   r       mos-lhe        fugir
 SFX s   r       mos-lhes       fugir
 SFX s   r       mos-te         fugir
@@ -25161,12 +25167,12 @@ SFX s   0       -se-iam       fugir
 SFX s   0       -te-iam       fugir
 SFX s   0       -vos-iam      fugir
 SFX s   0       íamo-nos      fugir
-SFX s   0       íamo-vos      fugir
+SFX s   0       íamos-vos      fugir
 SFX s   0       íamos-lhe     fugir
 SFX s   0       íamos-lhes    fugir
 SFX s   0       íamos-te      fugir
 SFX s   0       mo-nos        fugir
-SFX s   0       mo-vos        fugir
+SFX s   0       mos-vos        fugir
 SFX s   0       mos-lhe       fugir
 SFX s   0       mos-lhes      fugir
 SFX s   0       mos-te        fugir
@@ -25235,7 +25241,7 @@ SFX s   gir     jam-te        fugir
 SFX s   gir     jam-vos       fugir
 SFX s   gir     jamos-lhe     fugir
 SFX s   gir     jamos-lhes    fugir
-SFX s   gir     jamos-nos     fugir
+SFX s   gir     jamo-nos     fugir
 SFX s   gir     jamos-te      fugir
 SFX s   gir     jamos-vos     fugir
 SFX s   gir     jo-a          fugir
@@ -25292,7 +25298,7 @@ SFX s   ir      am-se         sumir
 SFX s   ir      am-te         sumir
 SFX s   ir      am-vos        sumir
 SFX s   ir      amo-nos       sumir
-SFX s   ir      amo-vos       sumir
+SFX s   ir      amos-vos       sumir
 SFX s   ir      amos-lhe      sumir
 SFX s   ir      amos-lhes     sumir
 SFX s   ir      amos-te       sumir
@@ -25329,7 +25335,7 @@ SFX s   r       am-se         sumir
 SFX s   r       am-te         sumir
 SFX s   r       am-vos        sumir
 SFX s   ir      íamo-nos      sumir
-SFX s   ir      íamo-vos      sumir
+SFX s   ir      íamos-vos      sumir
 SFX s   ir      íamos-lhe     sumir
 SFX s   ir      íamos-lhes    sumir
 SFX s   ir      íamos-te      sumir
@@ -25345,7 +25351,7 @@ SFX s   r       do-se         sumir
 SFX s   r       do-te         sumir
 SFX s   r       do-vos        sumir
 SFX s   r       mo-nos        sumir
-SFX s   r       mo-vos        sumir
+SFX s   r       mos-vos        sumir
 SFX s   r       mos-lhe       sumir
 SFX s   r       mos-lhes      sumir
 SFX s   r       mos-te        sumir
@@ -25443,12 +25449,12 @@ SFX s   0       -se-iam       sumir
 SFX s   0       -te-iam       sumir
 SFX s   0       -vos-iam      sumir
 SFX s   0       íamo-nos      sumir
-SFX s   0       íamo-vos      sumir
+SFX s   0       íamos-vos      sumir
 SFX s   0       íamos-lhe     sumir
 SFX s   0       íamos-lhes    sumir
 SFX s   0       íamos-te      sumir
 SFX s   0       mo-nos        sumir
-SFX s   0       mo-vos        sumir
+SFX s   0       mos-vos        sumir
 SFX s   0       mos-lhe       sumir
 SFX s   0       mos-lhes      sumir
 SFX s   0       mos-te        sumir
@@ -25549,7 +25555,7 @@ SFX s   uchar   úcham-se      auchar
 SFX s   uchar   úcham-te      auchar
 SFX s   uchar   úcham-vos     auchar
 SFX s   r       mo-nos        auchar
-SFX s   r       mo-vos        auchar
+SFX s   r       mos-vos        auchar
 SFX s   r       mos-lhe       auchar
 SFX s   r       mos-lhes      auchar
 SFX s   r       mos-te        auchar
@@ -25647,12 +25653,12 @@ SFX s   0       -se-iam       auchar
 SFX s   0       -te-iam       auchar
 SFX s   0       -vos-iam      auchar
 SFX s   0       íamo-nos      auchar
-SFX s   0       íamo-vos      auchar
+SFX s   0       íamos-vos      auchar
 SFX s   0       íamos-lhe     auchar
 SFX s   0       íamos-lhes    auchar
 SFX s   0       íamos-te      auchar
 SFX s   0       mo-nos        auchar
-SFX s   0       mo-vos        auchar
+SFX s   0       mos-vos        auchar
 SFX s   0       mos-lhe       auchar
 SFX s   0       mos-lhes      auchar
 SFX s   0       mos-te        auchar
@@ -25709,7 +25715,7 @@ SFX s   r       vam-se        auchar
 SFX s   r       vam-te        auchar
 SFX s   r       vam-vos       auchar
 SFX s   ar      ávamo-nos     auchar
-SFX s   ar      ávamo-vos     auchar
+SFX s   ar      ávamos-vos     auchar
 SFX s   ar      ávamos-lhe    auchar
 SFX s   ar      ávamos-lhes   auchar
 SFX s   ar      ávamos-te     auchar
@@ -25745,7 +25751,7 @@ SFX s   uchar   úchem-se      auchar
 SFX s   uchar   úchem-te      auchar
 SFX s   uchar   úchem-vos     auchar
 SFX s   ar      emo-nos       auchar
-SFX s   ar      emo-vos       auchar
+SFX s   ar      emos-vos       auchar
 SFX s   ar      emos-lhe      auchar
 SFX s   ar      emos-lhes     auchar
 SFX s   ar      emos-te       auchar
@@ -25813,7 +25819,7 @@ SFX s   ir      am-se         upir
 SFX s   ir      am-te         upir
 SFX s   ir      am-vos        upir
 SFX s   ir      amo-nos       upir
-SFX s   ir      amo-vos       upir
+SFX s   ir      amos-vos       upir
 SFX s   ir      amos-lhe      upir
 SFX s   ir      amos-lhes     upir
 SFX s   ir      amos-te       upir
@@ -25850,7 +25856,7 @@ SFX s   r       am-se         upir
 SFX s   r       am-te         upir
 SFX s   r       am-vos        upir
 SFX s   ir      íamo-nos      upir
-SFX s   ir      íamo-vos      upir
+SFX s   ir      íamos-vos      upir
 SFX s   ir      íamos-lhe     upir
 SFX s   ir      íamos-lhes    upir
 SFX s   ir      íamos-te      upir
@@ -25866,7 +25872,7 @@ SFX s   r       do-se         upir
 SFX s   r       do-te         upir
 SFX s   r       do-vos        upir
 SFX s   r       mo-nos        upir
-SFX s   r       mo-vos        upir
+SFX s   r       mos-vos        upir
 SFX s   r       mos-lhe       upir
 SFX s   r       mos-lhes      upir
 SFX s   r       mos-te        upir
@@ -25964,12 +25970,12 @@ SFX s   0       -se-iam        upir
 SFX s   0       -te-iam        upir
 SFX s   0       -vos-iam       upir
 SFX s   0       íamo-nos       upir
-SFX s   0       íamo-vos       upir
+SFX s   0       íamos-vos       upir
 SFX s   0       íamos-lhe      upir
 SFX s   0       íamos-lhes     upir
 SFX s   0       íamos-te       upir
 SFX s   0       mo-nos         upir
-SFX s   0       mo-vos         upir
+SFX s   0       mos-vos         upir
 SFX s   0       mos-lhe        upir
 SFX s   0       mos-lhes       upir
 SFX s   0       mos-te         upir
@@ -26080,7 +26086,7 @@ SFX s   r       am-se          espir
 SFX s   r       am-te          espir
 SFX s   r       am-vos         espir
 SFX s   ir      íamo-nos       espir
-SFX s   ir      íamo-vos       espir
+SFX s   ir      íamos-vos       espir
 SFX s   ir      íamos-lhe      espir
 SFX s   ir      íamos-lhes     espir
 SFX s   ir      íamos-te       espir
@@ -26096,7 +26102,7 @@ SFX s   r       do-se          upir
 SFX s   r       do-te          upir
 SFX s   r       do-vos         upir
 SFX s   r       mo-nos         upir
-SFX s   r       mo-vos         upir
+SFX s   r       mos-vos         upir
 SFX s   r       mos-lhe        upir
 SFX s   r       mos-lhes       upir
 SFX s   r       mos-te         upir
@@ -26194,12 +26200,12 @@ SFX s   0       -se-iam        upir
 SFX s   0       -te-iam        upir
 SFX s   0       -vos-iam       upir
 SFX s   0       íamo-nos       upir
-SFX s   0       íamo-vos       upir
+SFX s   0       íamos-vos       upir
 SFX s   0       íamos-lhe      upir
 SFX s   0       íamos-lhes     upir
 SFX s   0       íamos-te       upir
 SFX s   0       mo-nos         upir
-SFX s   0       mo-vos         upir
+SFX s   0       mos-vos         upir
 SFX s   0       mos-lhe        upir
 SFX s   0       mos-lhes       upir
 SFX s   0       mos-te         upir
@@ -26310,7 +26316,7 @@ SFX s   r       am-se          espir
 SFX s   r       am-te          espir
 SFX s   r       am-vos         espir
 SFX s   ir      íamo-nos       espir
-SFX s   ir      íamo-vos       espir
+SFX s   ir      íamos-vos       espir
 SFX s   ir      íamos-lhe      espir
 SFX s   ir      íamos-lhes     espir
 SFX s   ir      íamos-te       espir
@@ -26326,7 +26332,7 @@ SFX s   r       do-se          espir
 SFX s   r       do-te          espir
 SFX s   r       do-vos         espir
 SFX s   r       mo-nos         espir
-SFX s   r       mo-vos         espir
+SFX s   r       mos-vos         espir
 SFX s   r       mos-lhe        espir
 SFX s   r       mos-lhes       espir
 SFX s   r       mos-te         espir
@@ -26424,12 +26430,12 @@ SFX s   0       -se-iam        espir
 SFX s   0       -te-iam        espir
 SFX s   0       -vos-iam       espir
 SFX s   0       íamo-nos       espir
-SFX s   0       íamo-vos       espir
+SFX s   0       íamos-vos       espir
 SFX s   0       íamos-lhe      espir
 SFX s   0       íamos-lhes     espir
 SFX s   0       íamos-te       espir
 SFX s   0       mo-nos         espir
-SFX s   0       mo-vos         espir
+SFX s   0       mos-vos         espir
 SFX s   0       mos-lhe        espir
 SFX s   0       mos-lhes       espir
 SFX s   0       mos-te         espir
@@ -26497,7 +26503,7 @@ SFX s   espir   ispam-se       espir
 SFX s   espir   ispam-te       espir
 SFX s   espir   ispam-vos      espir
 SFX s   espir   ispamo-nos     espir
-SFX s   espir   ispamo-vos     espir
+SFX s   espir   ispamos-vos     espir
 SFX s   espir   ispamos-lhe    espir
 SFX s   espir   ispamos-lhes   espir
 SFX s   espir   ispamos-te     espir
