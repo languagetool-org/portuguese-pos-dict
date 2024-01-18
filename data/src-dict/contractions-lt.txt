@@ -228,3 +228,11 @@ tos	tu:ele	PP2CSO00:PP3MPA00
 àqueloutros	a:aquele:outro	SPS00:PD0MP000:PI0MP000
 àquilo	a:aquilo	SPS00:PD0NN00
 às	a:o	SPS00:DA0FP0
+no-lo	eu:ele	PP1CPO00:PP3MSA00
+no-los	eu:ele	PP1CPO00:PP3MPA00
+no-la	eu:ele	PP1CPO00:PP3FSA00
+no-las	eu:ele	PP1CPO00:PP3FPA00
+vo-lo	tu:ele	PP2CPO00:PP3MSA00
+vo-los	tu:ele	PP2CPO00:PP3MPA00
+vo-la	tu:ele	PP2CPO00:PP3FSA00
+vo-las	tu:ele	PP2CPO00:PP3FPA00
