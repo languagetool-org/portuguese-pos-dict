@@ -5,7 +5,7 @@ r r ar VMN03S0 # atiçar
 r rmos ar VMN01P0 # atiçarmos
 r rdes ar VMN02P0 # atiçardes
 r rem ar VMN03P0 # atiçarem
-ar á ar VMN0000X # atiçá
+##ar á ar VMN0000X # atiçá
 r ndo ar VMG0000 # atiçando
 r do ar VMP00SM # atiçado
 r da ar VMP00SF # atiçada
@@ -14,7 +14,7 @@ r das ar VMP00PF # atiçadas
 ar o ar VMIP1S0 # atiço
 r s ar VMIP2S0 # atiças
 r 0 ar VMIP3S0 # atiça
-r mo ar VMIP1P0X # atiçamo
+##r mo ar VMIP1P0X # atiçamo
 r mos ar VMIP1P0 # atiçamos
 r is ar VMIP2P0 # atiçais
 r m ar VMIP3P0 # atiçam

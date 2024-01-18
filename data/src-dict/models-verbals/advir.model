@@ -5,7 +5,7 @@ r r ir VMN03S0 # advir
 r rmos ir VMN01P0 # advirmos
 r rdes ir VMN02P0 # advirdes
 r rem ir VMN03P0 # advirem
-r 0 ir VMN0000X # advi
+##r 0 ir VMN0000X # advi
 r ndo ir VMG0000 # advindo
 r ndo ir VMP00SM # advindo
 r nda ir VMP00SF # advinda
@@ -14,7 +14,7 @@ r ndas ir VMP00PF # advindas
 ir enho ir VMIP1S0 # advenho
 ir éns ir VMIP2S0 # advéns
 ir ém ir VMIP3S0 # advém
-r mo ir VMIP1P0X # advimo
+##r mo ir VMIP1P0X # advimo
 r mos ir VMIP1P0 # advimos
 r ndes ir VMIP2P0 # advindes
 ir êm ir VMIP3P0 # advêm

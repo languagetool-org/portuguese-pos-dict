@@ -5,13 +5,13 @@ r r er VMN03S0 # reaver
 r rmos er VMN01P0 # reavermos
 r rdes er VMN02P0 # reaverdes
 r rem er VMN03P0 # reaverem
-er ê er VMN0000X # reavê
+##er ê er VMN0000X # reavê
 r ndo er VMG0000 # reavendo
 er ido er VMP00SM # reavido
 er ida er VMP00SF # reavida
 er idos er VMP00PM # reavidos
 er idas er VMP00PF # reavidas
-r mo er VMIP1P0X # reavemo
+##r mo er VMIP1P0X # reavemo
 r mos er VMIP1P0 # reavemos
 r is er VMIP2P0 # reaveis
 er ia er VMII1S0 # reavia

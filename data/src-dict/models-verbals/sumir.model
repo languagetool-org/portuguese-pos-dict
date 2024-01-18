@@ -5,7 +5,7 @@ r r ir VMN03S0 # sumir
 r rmos ir VMN01P0 # sumirmos
 r rdes ir VMN02P0 # sumirdes
 r rem ir VMN03P0 # sumirem
-r 0 ir VMN0000X # sumi
+##r 0 ir VMN0000X # sumi
 r ndo ir VMG0000 # sumindo
 r do ir VMP00SM # sumido
 r da ir VMP00SF # sumida
@@ -14,7 +14,7 @@ r das ir VMP00PF # sumidas
 ir o ir VMIP1S0 # sumo
 umir omes ir VMIP2S0 # somes
 umir ome ir VMIP3S0 # some
-r mo ir VMIP1P0X # sumimo
+##r mo ir VMIP1P0X # sumimo
 r mos ir VMIP1P0 # sumimos
 r s ir VMIP2P0 # sumis
 umir omem ir VMIP3P0 # somem

@@ -5,7 +5,7 @@ r r ir VMN03S0 # vestir
 r rmos ir VMN01P0 # vestirmos
 r rdes ir VMN02P0 # vestirdes
 r rem ir VMN03P0 # vestirem
-r 0 ir VMN0000X # vesti
+##r 0 ir VMN0000X # vesti
 r ndo ir VMG0000 # vestindo
 r do ir VMP00SM # vestido
 r da ir VMP00SF # vestida
@@ -14,7 +14,7 @@ r das ir VMP00PF # vestidas
 estir isto ir VMIP1S0 # visto
 ir es ir VMIP2S0 # vestes
 ir e ir VMIP3S0 # veste
-r mo ir VMIP1P0X # vestimo
+##r mo ir VMIP1P0X # vestimo
 r mos ir VMIP1P0 # vestimos
 r s ir VMIP2P0 # vestis
 ir em ir VMIP3P0 # vestem

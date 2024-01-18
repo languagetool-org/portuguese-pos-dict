@@ -5,7 +5,7 @@ r r ar VMN03S0 # arear
 r rmos ar VMN01P0 # arearmos
 r rdes ar VMN02P0 # areardes
 r rem ar VMN03P0 # arearem
-ar á ar VMN0000X # areá
+##ar á ar VMN0000X # areá
 r ndo ar VMG0000 # areando
 r do ar VMP00SM # areado
 r da ar VMP00SF # areada
@@ -14,7 +14,7 @@ r das ar VMP00PF # areadas
 ar io ar VMIP1S0 # areio
 ar ias ar VMIP2S0 # areias
 ar ia ar VMIP3S0 # areia
-r mo ar VMIP1P0X # areamo
+##r mo ar VMIP1P0X # areamo
 r mos ar VMIP1P0 # areamos
 r is ar VMIP2P0 # areais
 ar iam ar VMIP3P0 # areiam

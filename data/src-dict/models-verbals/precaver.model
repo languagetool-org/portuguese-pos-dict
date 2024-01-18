@@ -5,13 +5,13 @@ r r er VMN03S0 # precaver
 r rmos er VMN01P0 # precavermos
 r rdes er VMN02P0 # precaverdes
 r rem er VMN03P0 # precaverem
-er ê er VMN0000X # precavê
+##er ê er VMN0000X # precavê
 r ndo er VMG0000 # precavendo
 er ido er VMP00SM # precavido
 er ida er VMP00SF # precavida
 er idos er VMP00PM # precavidos
 er idas er VMP00PF # precavidas
-r mo er VMIP1P0X # precavemo
+##r mo er VMIP1P0X # precavemo
 r mos er VMIP1P0 # precavemos
 r is er VMIP2P0 # precaveis
 er ia er VMII1S0 # precavia

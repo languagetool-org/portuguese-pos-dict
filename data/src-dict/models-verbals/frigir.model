@@ -5,7 +5,7 @@ r r ir VMN03S0 # frigir
 r rmos ir VMN01P0 # frigirmos
 r rdes ir VMN02P0 # frigirdes
 r rem ir VMN03P0 # frigirem
-r 0 ir VMN0000X # frigi
+##r 0 ir VMN0000X # frigi
 r ndo ir VMG0000 # frigindo
 r do ir VMP00SM # frigido
 gir to ir VMP00SM # frito
@@ -18,7 +18,7 @@ gir tas ir VMP00PF # fritas
 gir jo ir VMIP1S0 # frijo
 igir eges ir VMIP2S0 # freges
 igir ege ir VMIP3S0 # frege
-r mo ir VMIP1P0X # frigimo
+##r mo ir VMIP1P0X # frigimo
 r mos ir VMIP1P0 # frigimos
 r s ir VMIP2P0 # frigis
 igir egem ir VMIP3P0 # fregem

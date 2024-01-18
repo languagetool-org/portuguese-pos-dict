@@ -5,7 +5,7 @@ r r ar VMN03S0 # cegar
 r rmos ar VMN01P0 # cegarmos
 r rdes ar VMN02P0 # cegardes
 r rem ar VMN03P0 # cegarem
-ar á ar VMN0000X # cegá
+##ar á ar VMN0000X # cegá
 r ndo ar VMG0000 # cegando
 r do ar VMP00SM # cegado
 ar o ar VMP00SM # cego
@@ -18,7 +18,7 @@ r s ar VMP00PF # cegas
 ar o ar VMIP1S0 # cego
 r s ar VMIP2S0 # cegas
 r 0 ar VMIP3S0 # cega
-r mo ar VMIP1P0X # cegamo
+##r mo ar VMIP1P0X # cegamo
 r mos ar VMIP1P0 # cegamos
 r is ar VMIP2P0 # cegais
 r m ar VMIP3P0 # cegam

@@ -5,7 +5,7 @@ r r er VMN03S0 # raer
 r rmos er VMN01P0 # raermos
 r rdes er VMN02P0 # raerdes
 r rem er VMN03P0 # raerem
-er ê er VMN0000X # raê
+##er ê er VMN0000X # raê
 r ndo er VMG0000 # raendo
 er ído er VMP00SM # raído
 er ída er VMP00SF # raída
@@ -13,7 +13,7 @@ er ídos er VMP00PM # raídos
 er ídas er VMP00PF # raídas
 r s er VMIP2S0 # raes
 r 0 er VMIP3S0 # rae
-r mo er VMIP1P0X # raemo
+##r mo er VMIP1P0X # raemo
 r mos er VMIP1P0 # raemos
 r is er VMIP2P0 # raeis
 r m er VMIP3P0 # raem

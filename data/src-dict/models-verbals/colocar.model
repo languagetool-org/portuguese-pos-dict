@@ -5,7 +5,7 @@ r r ar VMN03S0 # colocar
 r rmos ar VMN01P0 # colocarmos
 r rdes ar VMN02P0 # colocardes
 r rem ar VMN03P0 # colocarem
-ar á ar VMN0000X # colocá
+##ar á ar VMN0000X # colocá
 r ndo ar VMG0000 # colocando
 r do ar VMP00SM # colocado
 r da ar VMP00SF # colocada
@@ -14,7 +14,7 @@ r das ar VMP00PF # colocadas
 ar o ar VMIP1S0 # coloco
 r s ar VMIP2S0 # colocas
 r 0 ar VMIP3S0 # coloca
-r mo ar VMIP1P0X # colocamo
+##r mo ar VMIP1P0X # colocamo
 r mos ar VMIP1P0 # colocamos
 r is ar VMIP2P0 # colocais
 r m ar VMIP3P0 # colocam

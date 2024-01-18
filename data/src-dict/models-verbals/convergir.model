@@ -5,7 +5,7 @@ r r ir VMN03S0 # convergir
 r rmos ir VMN01P0 # convergirmos
 r rdes ir VMN02P0 # convergirdes
 r rem ir VMN03P0 # convergirem
-r 0 ir VMN0000X # convergi
+##r 0 ir VMN0000X # convergi
 r ndo ir VMG0000 # convergindo
 r do ir VMP00SM # convergido
 r da ir VMP00SF # convergida
@@ -14,7 +14,7 @@ r das ir VMP00PF # convergidas
 ergir irjo ir VMIP1S0 # convirjo
 ir es ir VMIP2S0 # converges
 ir e ir VMIP3S0 # converge
-r mo ir VMIP1P0X # convergimo
+##r mo ir VMIP1P0X # convergimo
 r mos ir VMIP1P0 # convergimos
 r s ir VMIP2P0 # convergis
 ir em ir VMIP3P0 # convergem

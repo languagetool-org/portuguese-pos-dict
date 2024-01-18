@@ -5,7 +5,7 @@ r r ir VMN03S0 # lusquir
 r rmos ir VMN01P0 # lusquirmos
 r rdes ir VMN02P0 # lusquirdes
 r rem ir VMN03P0 # lusquirem
-r 0 ir VMN0000X # lusqui
+##r 0 ir VMN0000X # lusqui
 r ndo ir VMG0000 # lusquindo
 r do ir VMP00SM # lusquido
 r da ir VMP00SF # lusquida
@@ -14,7 +14,7 @@ r das ir VMP00PF # lusquidas
 ir o ir VMIP1S0 # lusquo
 r s ir VMIP2S0 # lusquis
 r 0 ir VMIP3S0 # lusqui
-r mo ir VMIP1P0X # lusquimo
+##r mo ir VMIP1P0X # lusquimo
 r mos ir VMIP1P0 # lusquimos
 r s ir VMIP2P0 # lusquis
 ir em ir VMIP3P0 # lusquem

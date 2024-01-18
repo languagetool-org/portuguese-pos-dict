@@ -5,7 +5,7 @@ r r er VMN03S0 # colher
 r rmos er VMN01P0 # colhermos
 r rdes er VMN02P0 # colherdes
 r rem er VMN03P0 # colherem
-er ê er VMN0000X # colhê
+##er ê er VMN0000X # colhê
 r ndo er VMG0000 # colhendo
 r ito er VMP00SM # colheito
 er ido er VMP00SM # colhido
@@ -18,7 +18,7 @@ er idas er VMP00PF # colhidas
 er o er VMIP1S0 # colho
 r s er VMIP2S0 # colhes
 r 0 er VMIP3S0 # colhe
-r mo er VMIP1P0X # colhemo
+##r mo er VMIP1P0X # colhemo
 r mos er VMIP1P0 # colhemos
 r is er VMIP2P0 # colheis
 r m er VMIP3P0 # colhem

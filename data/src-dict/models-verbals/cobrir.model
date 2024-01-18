@@ -5,7 +5,7 @@ r r ir VMN03S0 # cobrir
 r rmos ir VMN01P0 # cobrirmos
 r rdes ir VMN02P0 # cobrirdes
 r rem ir VMN03P0 # cobrirem
-r 0 ir VMN0000X # cobri
+##r 0 ir VMN0000X # cobri
 r ndo ir VMG0000 # cobrindo
 rir erto ir VMP00SM # coberto
 rir erta ir VMP00SF # coberta
@@ -14,7 +14,7 @@ rir ertas ir VMP00PF # cobertas
 obrir ubro ir VMIP1S0 # cubro
 ir es ir VMIP2S0 # cobres
 ir e ir VMIP3S0 # cobre
-r mo ir VMIP1P0X # cobrimo
+##r mo ir VMIP1P0X # cobrimo
 r mos ir VMIP1P0 # cobrimos
 r s ir VMIP2P0 # cobris
 ir em ir VMIP3P0 # cobrem

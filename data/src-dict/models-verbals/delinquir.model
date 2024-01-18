@@ -5,7 +5,7 @@ r r ir VMN03S0 # delinquir
 r rmos ir VMN01P0 # delinquirmos
 r rdes ir VMN02P0 # delinquirdes
 r rem ir VMN03P0 # delinquirem
-r 0 ir VMN0000X # delinqui
+##r 0 ir VMN0000X # delinqui
 r ndo ir VMG0000 # delinquindo
 r do ir VMP00SM # delinquido
 r da ir VMP00SF # delinquida
@@ -13,7 +13,7 @@ r dos ir VMP00PM # delinquidos
 r das ir VMP00PF # delinquidas
 r s ir VMIP2S0 # delinquis
 r 0 ir VMIP3S0 # delinqui
-r mo ir VMIP1P0X # delinquimo
+##r mo ir VMIP1P0X # delinquimo
 r mos ir VMIP1P0 # delinquimos
 ir ís ir VMIP2P0 # delinquís
 ir em ir VMIP3P0 # delinquem

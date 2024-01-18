@@ -5,7 +5,7 @@ r r er VMN03S0 # ater
 r rmos er VMN01P0 # atermos
 r rdes er VMN02P0 # aterdes
 r rem er VMN03P0 # aterem
-er ê er VMN0000X # atê
+##er ê er VMN0000X # atê
 r ndo er VMG0000 # atendo
 er ido er VMP00SM # atido
 er ida er VMP00SF # atida
@@ -14,7 +14,7 @@ er idas er VMP00PF # atidas
 r nho er VMIP1S0 # atenho
 er éns er VMIP2S0 # aténs
 er ém er VMIP3S0 # atém
-r mo er VMIP1P0X # atemo
+##r mo er VMIP1P0X # atemo
 r mos er VMIP1P0 # atemos
 r ndes er VMIP2P0 # atendes
 er êm er VMIP3P0 # atêm

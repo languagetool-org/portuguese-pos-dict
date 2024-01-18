@@ -5,7 +5,7 @@ r r or VMN03S0 # pospor
 r rmos or VMN01P0 # pospormos
 r rdes or VMN02P0 # pospordes
 r rem or VMN03P0 # posporem
-or ô or VMN0000X # pospô
+##or ô or VMN0000X # pospô
 r ndo or VMG0000 # pospondo
 r sto or VMP00SM # posposto
 r sta or VMP00SF # posposta
@@ -14,7 +14,7 @@ r stas or VMP00PF # pospostas
 r nho or VMIP1S0 # posponho
 or ões or VMIP2S0 # pospões
 or õe or VMIP3S0 # pospõe
-r mo or VMIP1P0X # pospomo
+##r mo or VMIP1P0X # pospomo
 r mos or VMIP1P0 # pospomos
 r ndes or VMIP2P0 # pospondes
 or õem or VMIP3P0 # pospõem
@@ -25,7 +25,7 @@ or únhamos or VMII1P0 # pospúnhamos
 or únheis or VMII2P0 # pospúnheis
 or unham or VMII3P0 # pospunham
 or us or VMIS1S0 # pospus
-or u or VMIS1S0X # pospu
+##or u or VMIS1S0X # pospu
 or useste or VMIS2S0 # pospuseste
 or ôs or VMIS3S0 # pospôs
 or usemos or VMIS1P0 # pospusemos

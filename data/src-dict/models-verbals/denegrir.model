@@ -5,7 +5,7 @@ r r ir VMN03S0 # denegrir
 r rmos ir VMN01P0 # denegrirmos
 r rdes ir VMN02P0 # denegrirdes
 r rem ir VMN03P0 # denegrirem
-r 0 ir VMN0000X # denegri
+##r 0 ir VMN0000X # denegri
 r ndo ir VMG0000 # denegrindo
 r do ir VMP00SM # denegrido
 r da ir VMP00SF # denegrida
@@ -14,7 +14,7 @@ r das ir VMP00PF # denegridas
 egrir igro ir VMIP1S0 # denigro
 egrir igres ir VMIP2S0 # denigres
 egrir igre ir VMIP3S0 # denigre
-r mo ir VMIP1P0X # denegrimo
+##r mo ir VMIP1P0X # denegrimo
 r mos ir VMIP1P0 # denegrimos
 r s ir VMIP2P0 # denegris
 egrir igrem ir VMIP3P0 # denigrem

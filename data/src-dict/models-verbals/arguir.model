@@ -5,7 +5,7 @@ r r ir VMN03S0 # arguir
 r rmos ir VMN01P0 # arguirmos
 r rdes ir VMN02P0 # arguirdes
 r rem ir VMN03P0 # arguirem
-r 0 ir VMN0000X # argui
+##r 0 ir VMN0000X # argui
 r ndo ir VMG0000 # arguindo
 r do ir VMP00SM # arguido
 r da ir VMP00SF # arguida
@@ -14,7 +14,7 @@ r das ir VMP00PF # arguidas
 ir o ir VMIP1S0 # arguo
 r s ir VMIP2S0 # arguis
 r 0 ir VMIP3S0 # argui
-r mo ir VMIP1P0X # arguimo
+##r mo ir VMIP1P0X # arguimo
 r mos ir VMIP1P0 # arguimos
 ir ís ir VMIP2P0 # arguís
 ir em ir VMIP3P0 # arguem

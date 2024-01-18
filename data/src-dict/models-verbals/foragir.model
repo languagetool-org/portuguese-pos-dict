@@ -5,13 +5,13 @@ r r ir VMN03S0 # foragir
 r rmos ir VMN01P0 # foragirmos
 r rdes ir VMN02P0 # foragirdes
 r rem ir VMN03P0 # foragirem
-r 0 ir VMN0000X # foragi
+##r 0 ir VMN0000X # foragi
 r ndo ir VMG0000 # foragindo
 r do ir VMP00SM # foragido
 r da ir VMP00SF # foragida
 r dos ir VMP00PM # foragidos
 r das ir VMP00PF # foragidas
-r mo ir VMIP1P0X # foragimo
+##r mo ir VMIP1P0X # foragimo
 r mos ir VMIP1P0 # foragimos
 r s ir VMIP2P0 # foragis
 r a ir VMII1S0 # foragia

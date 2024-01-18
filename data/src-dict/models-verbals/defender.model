@@ -5,7 +5,7 @@ r r er VMN03S0 # defender
 r rmos er VMN01P0 # defendermos
 r rdes er VMN02P0 # defenderdes
 r rem er VMN03P0 # defenderem
-er ê er VMN0000X # defendê
+##er ê er VMN0000X # defendê
 r ndo er VMG0000 # defendendo
 er ido er VMP00SM # defendido
 nder so er VMP00SM # defeso
@@ -18,7 +18,7 @@ nder sas er VMP00PF # defesas
 er o er VMIP1S0 # defendo
 r s er VMIP2S0 # defendes
 r 0 er VMIP3S0 # defende
-r mo er VMIP1P0X # defendemo
+##r mo er VMIP1P0X # defendemo
 r mos er VMIP1P0 # defendemos
 r is er VMIP2P0 # defendeis
 r m er VMIP3P0 # defendem

@@ -5,7 +5,7 @@ r r ar VMN03S0 # faiscar
 r rmos ar VMN01P0 # faiscarmos
 r rdes ar VMN02P0 # faiscardes
 r rem ar VMN03P0 # faiscarem
-ar á ar VMN0000X # faiscá
+##ar á ar VMN0000X # faiscá
 r ndo ar VMG0000 # faiscando
 r do ar VMP00SM # faiscado
 r da ar VMP00SF # faiscada
@@ -14,7 +14,7 @@ r das ar VMP00PF # faiscadas
 iscar ísco ar VMIP1S0 # faísco
 iscar íscas ar VMIP2S0 # faíscas
 iscar ísca ar VMIP3S0 # faísca
-r mo ar VMIP1P0X # faiscamo
+##r mo ar VMIP1P0X # faiscamo
 r mos ar VMIP1P0 # faiscamos
 r is ar VMIP2P0 # faiscais
 iscar íscam ar VMIP3P0 # faíscam

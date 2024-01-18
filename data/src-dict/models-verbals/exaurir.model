@@ -5,7 +5,7 @@ r r ir VMN03S0 # exaurir
 r rmos ir VMN01P0 # exaurirmos
 r rdes ir VMN02P0 # exaurirdes
 r rem ir VMN03P0 # exaurirem
-r 0 ir VMN0000X # exauri
+##r 0 ir VMN0000X # exauri
 r ndo ir VMG0000 # exaurindo
 r do ir VMP00SM # exaurido
 r da ir VMP00SF # exaurida
@@ -13,7 +13,7 @@ r dos ir VMP00PM # exauridos
 r das ir VMP00PF # exauridas
 ir es ir VMIP2S0 # exaures
 ir e ir VMIP3S0 # exaure
-r mo ir VMIP1P0X # exaurimo
+##r mo ir VMIP1P0X # exaurimo
 r mos ir VMIP1P0 # exaurimos
 r s ir VMIP2P0 # exauris
 ir em ir VMIP3P0 # exaurem

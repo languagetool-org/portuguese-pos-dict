@@ -5,7 +5,7 @@ r r ar VMN03S0 # embaucar
 r rmos ar VMN01P0 # embaucarmos
 r rdes ar VMN02P0 # embaucardes
 r rem ar VMN03P0 # embaucarem
-ar á ar VMN0000X # embaucá
+##ar á ar VMN0000X # embaucá
 r ndo ar VMG0000 # embaucando
 r do ar VMP00SM # embaucado
 r da ar VMP00SF # embaucada
@@ -14,7 +14,7 @@ r das ar VMP00PF # embaucadas
 ucar úco ar VMIP1S0 # embaúco
 ucar úcas ar VMIP2S0 # embaúcas
 ucar úca ar VMIP3S0 # embaúca
-r mo ar VMIP1P0X # embaucamo
+##r mo ar VMIP1P0X # embaucamo
 r mos ar VMIP1P0 # embaucamos
 r is ar VMIP2P0 # embaucais
 ucar úcam ar VMIP3P0 # embaúcam

@@ -5,7 +5,7 @@ r r er VMN03S0 # jazer
 r rmos er VMN01P0 # jazermos
 r rdes er VMN02P0 # jazerdes
 r rem er VMN03P0 # jazerem
-er ê er VMN0000X # jazê
+##er ê er VMN0000X # jazê
 r ndo er VMG0000 # jazendo
 er ido er VMP00SM # jazido
 er ida er VMP00SF # jazida
@@ -14,7 +14,7 @@ er idas er VMP00PF # jazidas
 er o er VMIP1S0 # jazo
 r s er VMIP2S0 # jazes
 er 0 er VMIP3S0 # jaz
-r mo er VMIP1P0X # jazemo
+##r mo er VMIP1P0X # jazemo
 r mos er VMIP1P0 # jazemos
 r is er VMIP2P0 # jazeis
 r m er VMIP3P0 # jazem

@@ -5,7 +5,7 @@ r r ir VMN03S0 # amarelir
 r rmos ir VMN01P0 # amarelirmos
 r rdes ir VMN02P0 # amarelirdes
 r rem ir VMN03P0 # amarelirem
-r 0 ir VMN0000X # amareli
+##r 0 ir VMN0000X # amareli
 r ndo ir VMG0000 # amarelindo
 r do ir VMP00SM # amarelido
 r da ir VMP00SF # amarelida
@@ -14,7 +14,7 @@ r das ir VMP00PF # amarelidas
 ir o ir VMIP1S0 # amarelo
 ir es ir VMIP2S0 # amareles
 ir e ir VMIP3S0 # amarele
-r mo ir VMIP1P0X # amarelimo
+##r mo ir VMIP1P0X # amarelimo
 r mos ir VMIP1P0 # amarelimos
 r s ir VMIP2P0 # amarelis
 ir em ir VMIP3P0 # amarelem

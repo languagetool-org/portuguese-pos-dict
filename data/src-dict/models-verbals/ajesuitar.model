@@ -5,7 +5,7 @@ r r ar VMN03S0 # ajesuitar
 r rmos ar VMN01P0 # ajesuitarmos
 r rdes ar VMN02P0 # ajesuitardes
 r rem ar VMN03P0 # ajesuitarem
-ar á ar VMN0000X # ajesuitá
+##ar á ar VMN0000X # ajesuitá
 r ndo ar VMG0000 # ajesuitando
 r do ar VMP00SM # ajesuitado
 r da ar VMP00SF # ajesuitada
@@ -14,7 +14,7 @@ r das ar VMP00PF # ajesuitadas
 itar íto ar VMIP1S0 # ajesuíto
 itar ítas ar VMIP2S0 # ajesuítas
 itar íta ar VMIP3S0 # ajesuíta
-r mo ar VMIP1P0X # ajesuitamo
+##r mo ar VMIP1P0X # ajesuitamo
 r mos ar VMIP1P0 # ajesuitamos
 r is ar VMIP2P0 # ajesuitais
 itar ítam ar VMIP3P0 # ajesuítam

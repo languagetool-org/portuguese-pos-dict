@@ -5,7 +5,7 @@ r r er VMN03S0 # corroer
 r rmos er VMN01P0 # corroermos
 r rdes er VMN02P0 # corroerdes
 r rem er VMN03P0 # corroerem
-er ê er VMN0000X # corroê
+##er ê er VMN0000X # corroê
 r ndo er VMG0000 # corroendo
 er ído er VMP00SM # corroído
 er ída er VMP00SF # corroída
@@ -14,7 +14,7 @@ er ídas er VMP00PF # corroídas
 er o er VMIP1S0 # corroo
 oer óis er VMIP2S0 # corróis
 oer ói er VMIP3S0 # corrói
-r mo er VMIP1P0X # corroemo
+##r mo er VMIP1P0X # corroemo
 r mos er VMIP1P0 # corroemos
 r is er VMIP2P0 # corroeis
 r m er VMIP3P0 # corroem

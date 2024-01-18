@@ -5,7 +5,7 @@ r r ir VMN03S0 # conduzir
 r rmos ir VMN01P0 # conduzirmos
 r rdes ir VMN02P0 # conduzirdes
 r rem ir VMN03P0 # conduzirem
-r 0 ir VMN0000X # conduzi
+##r 0 ir VMN0000X # conduzi
 r ndo ir VMG0000 # conduzindo
 r do ir VMP00SM # conduzido
 r da ir VMP00SF # conduzida
@@ -14,7 +14,7 @@ r das ir VMP00PF # conduzidas
 ir o ir VMIP1S0 # conduzo
 ir es ir VMIP2S0 # conduzes
 ir 0 ir VMIP3S0 # conduz
-r mo ir VMIP1P0X # conduzimo
+##r mo ir VMIP1P0X # conduzimo
 r mos ir VMIP1P0 # conduzimos
 r s ir VMIP2P0 # conduzis
 ir em ir VMIP3P0 # conduzem

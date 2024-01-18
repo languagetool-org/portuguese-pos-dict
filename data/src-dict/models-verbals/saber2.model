@@ -5,7 +5,7 @@
 2 mos r2 VMN01P0 # sabermos
 2 des r2 VMN02P0 # saberdes
 2 em r2 VMN03P0 # saberem
-er2 ê r2 VMN0000X # sabê
+##er2 ê r2 VMN0000X # sabê
 r2 ndo r2 VMG0000 # sabendo
 er2 ido r2 VMP00SM # sabido
 er2 ida r2 VMP00SF # sabida
@@ -14,7 +14,7 @@ er2 idas r2 VMP00PF # sabidas
 ber2 ibo r2 VMIP1S0 # saibo
 r2 s r2 VMIP2S0 # sabes
 r2 0 r2 VMIP3S0 # sabe
-r2 mo r2 VMIP1P0X # sabemo
+##r2 mo r2 VMIP1P0X # sabemo
 r2 mos r2 VMIP1P0 # sabemos
 r2 is r2 VMIP2P0 # sabeis
 r2 m r2 VMIP3P0 # sabem

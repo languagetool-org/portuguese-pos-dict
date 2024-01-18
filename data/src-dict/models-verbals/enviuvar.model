@@ -5,7 +5,7 @@ r r ar VMN03S0 # enviuvar
 r rmos ar VMN01P0 # enviuvarmos
 r rdes ar VMN02P0 # enviuvardes
 r rem ar VMN03P0 # enviuvarem
-ar á ar VMN0000X # enviuvá
+##ar á ar VMN0000X # enviuvá
 r ndo ar VMG0000 # enviuvando
 r do ar VMP00SM # enviuvado
 r da ar VMP00SF # enviuvada
@@ -14,7 +14,7 @@ r das ar VMP00PF # enviuvadas
 uvar úvo ar VMIP1S0 # enviúvo
 uvar úvas ar VMIP2S0 # enviúvas
 uvar úva ar VMIP3S0 # enviúva
-r mo ar VMIP1P0X # enviuvamo
+##r mo ar VMIP1P0X # enviuvamo
 r mos ar VMIP1P0 # enviuvamos
 r is ar VMIP2P0 # enviuvais
 uvar úvam ar VMIP3P0 # enviúvam

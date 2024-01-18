@@ -5,7 +5,7 @@ r r ar VMN03S0 # fartar
 r rmos ar VMN01P0 # fartarmos
 r rdes ar VMN02P0 # fartardes
 r rem ar VMN03P0 # fartarem
-ar á ar VMN0000X # fartá
+##ar á ar VMN0000X # fartá
 r ndo ar VMG0000 # fartando
 r do ar VMP00SM # fartado
 ar o ar VMP00SM # farto
@@ -18,7 +18,7 @@ r s ar VMP00PF # fartas
 ar o ar VMIP1S0 # farto
 r s ar VMIP2S0 # fartas
 r 0 ar VMIP3S0 # farta
-r mo ar VMIP1P0X # fartamo
+##r mo ar VMIP1P0X # fartamo
 r mos ar VMIP1P0 # fartamos
 r is ar VMIP2P0 # fartais
 r m ar VMIP3P0 # fartam

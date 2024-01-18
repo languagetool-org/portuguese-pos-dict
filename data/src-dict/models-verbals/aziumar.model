@@ -5,7 +5,7 @@ r r ar VMN03S0 # aziumar
 r rmos ar VMN01P0 # aziumarmos
 r rdes ar VMN02P0 # aziumardes
 r rem ar VMN03P0 # aziumarem
-ar á ar VMN0000X # aziumá
+##ar á ar VMN0000X # aziumá
 r ndo ar VMG0000 # aziumando
 r do ar VMP00SM # aziumado
 r da ar VMP00SF # aziumada
@@ -14,7 +14,7 @@ r das ar VMP00PF # aziumadas
 umar úmo ar VMIP1S0 # aziúmo
 umar úmas ar VMIP2S0 # aziúmas
 umar úma ar VMIP3S0 # aziúma
-r mo ar VMIP1P0X # aziumamo
+##r mo ar VMIP1P0X # aziumamo
 r mos ar VMIP1P0 # aziumamos
 r is ar VMIP2P0 # aziumais
 umar úmam ar VMIP3P0 # aziúmam

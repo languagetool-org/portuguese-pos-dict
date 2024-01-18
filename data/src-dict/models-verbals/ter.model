@@ -5,7 +5,7 @@ r r er VMN03S0 # ter
 r rmos er VMN01P0 # termos
 r rdes er VMN02P0 # terdes
 r rem er VMN03P0 # terem
-er ê er VMN0000X # tê
+##er ê er VMN0000X # tê
 r ndo er VMG0000 # tendo
 er ido er VMP00SM # tido
 er ida er VMP00SF # tida
@@ -14,7 +14,7 @@ er idas er VMP00PF # tidas
 r nho er VMIP1S0 # tenho
 r ns er VMIP2S0 # tens
 r m er VMIP3S0 # tem
-r mo er VMIP1P0X # temo
+##r mo er VMIP1P0X # temo
 r mos er VMIP1P0 # temos
 r ndes er VMIP2P0 # tendes
 er êm er VMIP3P0 # têm

@@ -13,7 +13,7 @@ r r ôr VMN03S0 # pôr
 ôr onho ôr VMIP1S0 # ponho
 ôr ões ôr VMIP2S0 # pões
 ôr õe ôr VMIP3S0 # põe
-ôr omo ôr VMIP1P0X # pomo
+### ôr omo ôr VMIP1P0X # pomo
 ôr omos ôr VMIP1P0 # pomos
 ôr ondes ôr VMIP2P0 # pondes
 ôr õem ôr VMIP3P0 # põem
@@ -24,7 +24,7 @@ r r ôr VMN03S0 # pôr
 ôr únheis ôr VMII2P0 # púnheis
 ôr unham ôr VMII3P0 # punham
 ôr us ôr VMIS1S0 # pus
-ôr u ôr VMIS1S0X # pu
+### ôr u ôr VMIS1S0X # pu
 ôr useste ôr VMIS2S0 # puseste
 r s ôr VMIS3S0 # pôs
 ôr usemos ôr VMIS1P0 # pusemos

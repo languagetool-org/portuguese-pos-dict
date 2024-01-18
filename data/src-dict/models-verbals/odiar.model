@@ -5,7 +5,7 @@ r r ar VMN03S0 # odiar
 r rmos ar VMN01P0 # odiarmos
 r rdes ar VMN02P0 # odiardes
 r rem ar VMN03P0 # odiarem
-ar á ar VMN0000X # odiá
+##ar á ar VMN0000X # odiá
 r ndo ar VMG0000 # odiando
 r do ar VMP00SM # odiado
 r da ar VMP00SF # odiada
@@ -14,7 +14,7 @@ r das ar VMP00PF # odiadas
 iar eio ar VMIP1S0 # odeio
 iar eias ar VMIP2S0 # odeias
 iar eia ar VMIP3S0 # odeia
-r mo ar VMIP1P0X # odiamo
+##r mo ar VMIP1P0X # odiamo
 r mos ar VMIP1P0 # odiamos
 r is ar VMIP2P0 # odiais
 iar eiam ar VMIP3P0 # odeiam

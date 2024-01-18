@@ -1,6 +1,6 @@
 r r ar VMN0000 # nevar
 r r ar VMN03S0 # nevar
-ar á ar VMN0000X # nevá
+##ar á ar VMN0000X # nevá
 r 0 ar VMIP3S0 # neva
 r va ar VMII3S0 # nevava
 ar ou ar VMIS3S0 # nevou

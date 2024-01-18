@@ -5,7 +5,7 @@ r r ar VMN03S0 # reusar
 r rmos ar VMN01P0 # reusarmos
 r rdes ar VMN02P0 # reusardes
 r rem ar VMN03P0 # reusarem
-ar á ar VMN0000X # reusá
+##ar á ar VMN0000X # reusá
 r ndo ar VMG0000 # reusando
 r do ar VMP00SM # reusado
 r da ar VMP00SF # reusada
@@ -14,7 +14,7 @@ r das ar VMP00PF # reusadas
 usar úso ar VMIP1S0 # reúso
 usar úsas ar VMIP2S0 # reúsas
 usar úsa ar VMIP3S0 # reúsa
-r mo ar VMIP1P0X # reusamo
+##r mo ar VMIP1P0X # reusamo
 r mos ar VMIP1P0 # reusamos
 r is ar VMIP2P0 # reusais
 usar úsam ar VMIP3P0 # reúsam

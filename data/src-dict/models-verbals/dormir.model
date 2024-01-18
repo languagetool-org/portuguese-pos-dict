@@ -5,7 +5,7 @@ r r ir VMN03S0 # dormir
 r rmos ir VMN01P0 # dormirmos
 r rdes ir VMN02P0 # dormirdes
 r rem ir VMN03P0 # dormirem
-r 0 ir VMN0000X # dormi
+##r 0 ir VMN0000X # dormi
 r ndo ir VMG0000 # dormindo
 r do ir VMP00SM # dormido
 r da ir VMP00SF # dormida
@@ -14,7 +14,7 @@ r das ir VMP00PF # dormidas
 ormir urmo ir VMIP1S0 # durmo
 ir es ir VMIP2S0 # dormes
 ir e ir VMIP3S0 # dorme
-r mo ir VMIP1P0X # dormimo
+##r mo ir VMIP1P0X # dormimo
 r mos ir VMIP1P0 # dormimos
 r s ir VMIP2P0 # dormis
 ir em ir VMIP3P0 # dormem

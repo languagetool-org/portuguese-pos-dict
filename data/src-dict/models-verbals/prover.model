@@ -5,7 +5,7 @@ r r er VMN03S0 # prover
 r rmos er VMN01P0 # provermos
 r rdes er VMN02P0 # proverdes
 r rem er VMN03P0 # proverem
-er ê er VMN0000X # provê
+##er ê er VMN0000X # provê
 r ndo er VMG0000 # provendo
 er ido er VMP00SM # provido
 er ida er VMP00SF # provida
@@ -14,7 +14,7 @@ er idas er VMP00PF # providas
 r jo er VMIP1S0 # provejo
 er ês er VMIP2S0 # provês
 er ê er VMIP3S0 # provê
-r mo er VMIP1P0X # provemo
+##r mo er VMIP1P0X # provemo
 r mos er VMIP1P0 # provemos
 r des er VMIP2P0 # provedes
 r em er VMIP3P0 # proveem

@@ -5,7 +5,7 @@ r r ir VMN03S0 # entanguir
 r rmos ir VMN01P0 # entanguirmos
 r rdes ir VMN02P0 # entanguirdes
 r rem ir VMN03P0 # entanguirem
-r 0 ir VMN0000X # entangui
+##r 0 ir VMN0000X # entangui
 r ndo ir VMG0000 # entanguindo
 r do ir VMP00SM # entanguido
 r da ir VMP00SF # entanguida
@@ -13,7 +13,7 @@ r dos ir VMP00PM # entanguidos
 r das ir VMP00PF # entanguidas
 ir es ir VMIP2S0 # entangues
 ir e ir VMIP3S0 # entangue
-r mo ir VMIP1P0X # entanguimo
+##r mo ir VMIP1P0X # entanguimo
 r mos ir VMIP1P0 # entanguimos
 r s ir VMIP2P0 # entanguis
 ir em ir VMIP3P0 # entanguem

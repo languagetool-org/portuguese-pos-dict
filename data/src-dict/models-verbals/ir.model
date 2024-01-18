@@ -5,7 +5,7 @@ r r ar VMN03S0 # ir
 r rmos ar VMN01P0 # irmos
 r rdes ar VMN02P0 # irdes
 r rem ar VMN03P0 # irem
-#r 0 ar VMN0000X # i
+###r 0 ar VMN0000X # i
 r ndo ar VMG0000 # indo
 r do ar VMP00SM # ido
 r da ar VMP00SF # ida
@@ -14,7 +14,7 @@ r das ar VMP00PF # idas
 ir vou ar VMIP1S0 # vou
 ir vais ar VMIP2S0 # vais
 ir vai ar VMIP3S0 # vai
-ir vamo ar VMIP1P0X # vamo
+##ir vamo ar VMIP1P0X # vamo
 ir vamos ar VMIP1P0 # vamos
 r des ar VMIP2P0 # ides
 ir vão ar VMIP3P0 # vão

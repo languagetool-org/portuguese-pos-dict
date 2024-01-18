@@ -5,7 +5,7 @@ r r ir VMN03S0 # convelir
 r rmos ir VMN01P0 # convelirmos
 r rdes ir VMN02P0 # convelirdes
 r rem ir VMN03P0 # convelirem
-r 0 ir VMN0000X # conveli
+##r 0 ir VMN0000X # conveli
 r ndo ir VMG0000 # convelindo
 r do ir VMP00SM # convelido
 r da ir VMP00SF # convelida
@@ -14,7 +14,7 @@ r das ir VMP00PF # convelidas
 elir ilo ir VMIP1S0 # convilo
 ir es ir VMIP2S0 # conveles
 ir e ir VMIP3S0 # convele
-r mo ir VMIP1P0X # convelimo
+##r mo ir VMIP1P0X # convelimo
 r mos ir VMIP1P0 # convelimos
 r s ir VMIP2P0 # convelis
 ir em ir VMIP3P0 # convelem

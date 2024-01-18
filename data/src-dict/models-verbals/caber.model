@@ -5,7 +5,7 @@ r r er VMN03S0 # caber
 r rmos er VMN01P0 # cabermos
 r rdes er VMN02P0 # caberdes
 r rem er VMN03P0 # caberem
-er ê er VMN0000X # cabê
+##er ê er VMN0000X # cabê
 r ndo er VMG0000 # cabendo
 er ido er VMP00SM # cabido
 er ida er VMP00SF # cabida
@@ -14,7 +14,7 @@ er idas er VMP00PF # cabidas
 ber ibo er VMIP1S0 # caibo
 r s er VMIP2S0 # cabes
 r 0 er VMIP3S0 # cabe
-r mo er VMIP1P0X # cabemo
+##r mo er VMIP1P0X # cabemo
 r mos er VMIP1P0 # cabemos
 r is er VMIP2P0 # cabeis
 r m er VMIP3P0 # cabem

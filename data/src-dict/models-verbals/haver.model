@@ -5,7 +5,7 @@ r r er VMN03S0 # haver
 r rmos er VMN01P0 # havermos
 r rdes er VMN02P0 # haverdes
 r rem er VMN03P0 # haverem
-er ê er VMN0000X # havê
+##er ê er VMN0000X # havê
 r ndo er VMG0000 # havendo
 er ido er VMP00SM # havido
 er ida er VMP00SF # havida
@@ -14,7 +14,7 @@ er idas er VMP00PF # havidas
 aver ei er VMIP1S0 # hei
 aver ás er VMIP2S0 # hás
 aver á er VMIP3S0 # há
-r mo er VMIP1P0X # havemo
+##r mo er VMIP1P0X # havemo
 r mos er VMIP1P0 # havemos
 r is er VMIP2P0 # haveis
 aver ão er VMIP3P0 # hão

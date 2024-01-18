@@ -1,7 +1,7 @@
 r r ar VMN0000 # trovejar
 r r ar VMN03S0 # trovejar
 r rem ar VMN03P0 # trovejarem
-ar á ar VMN0000X # trovejá
+##ar á ar VMN0000X # trovejá
 r ndo ar VMG0000 # trovejando
 r do ar VMP00SM # trovejado
 r da ar VMP00SF # trovejada
