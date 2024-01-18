@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="773b71dd-e685-418d-99b8-b922f586ce72" name="Changes" comment="Improve logging" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="tagging/clitics" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;p-goulart&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="4a002a9b-00ab-47f7-b5a1-c4b2d3d605f0" />
+        <option name="url" value="https://p-goulart@github.com/languagetool-org/portuguese-pos-dict.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2WqLqZ9NZL314RHzxrCw0XyDOtB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "database.data.extractors.current.export.id": "Tab-separated (TSV)_id",
+    "database.data.extractors.current.id": "Tab-separated (TSV)_id",
+    "git-widget-placeholder": "tagging/clitics",
+    "last_opened_file_path": "/Users/cheddar/lt/dicts/portuguese-pos-dict",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JSON"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/src-dict" />
+      <recent name="$PROJECT_DIR$/data/spelling-dict/hunspell/compounds" />
+      <recent name="$PROJECT_DIR$/data/spelling-dict/hunspell" />
+      <recent name="$PROJECT_DIR$/data/spelling-dict" />
+      <recent name="$PROJECT_DIR$/spelling-dict" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/ignore" />
+      <recent name="$PROJECT_DIR$/pt_dict/scripts/.archive" />
+      <recent name="$PROJECT_DIR$/data/misc" />
+      <recent name="$PROJECT_DIR$/data/spelling-dict/hunspell" />
+      <recent name="$PROJECT_DIR$/pos_tagger_scripts/.archive" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="Test unmunch pt-BR" />
+      <command value="Test Conjugation" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Shell Script.Test unmunch pt-PT-90">
+    <configuration name="Unnamed" type="CompoundRunConfigurationType">
+      <toRun name="build_spelling_dicts" type="PythonConfigurationType" />
+      <toRun name="build_tagger_dicts" type="PythonConfigurationType" />
+      <toRun name="Compile LT" type="ShConfigurationType" />
+      <toRun name="Compile LT dev" type="ShConfigurationType" />
+      <toRun name="Install binaries" type="ShConfigurationType" />
+      <method v="2" />
+    </configuration>
+    <configuration name="build_spelling_dicts" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="portuguese-pos-dict" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="./dict_tools/scripts/build_spelling_dicts.py" />
+      <option name="PARAMETERS" value="--language pt --verbosity debug --force-install --install-version $Prompt$" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="build_spelling_dicts_1k" type="PythonConfigurationType" factoryName="Python">
+      <module name="portuguese-pos-dict" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="./dict_tools/scripts/build_spelling_dicts.py" />
+      <option name="PARAMETERS" value="--sample 1000 --chunk-size 125 --language pt --no-force-compile --verbosity debug" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="build_tagger_dicts" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="portuguese-pos-dict" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="./dict_tools/scripts/build_tagger_dicts.py" />
+      <option name="PARAMETERS" value="--verbosity debug --language pt --force-install --install-version $Prompt$" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Compile LT dev" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="mvn clean compile assembly:single" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/../../languagetool/languagetool-dev" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="false" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Compile LT" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="mvn clean install -DskipTests" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/../../languagetool" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="false" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Install binaries" type="ShConfigurationType" editBeforeRun="true">
+      <option name="SCRIPT_TEXT" value="mvn clean install" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/results/java-lt" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="false" />
+      <envs>
+        <env name="PT_DICT_VERSION" value="&lt;&lt;CUSTOM_INSTALL_VERSION_HERE&gt;&gt;" />
+      </envs>
+      <method v="2" />
+    </configuration>
+    <configuration name="Test unmunch pt-BR" type="ShConfigurationType" activateToolWindowBeforeRun="false">
+      <option name="SCRIPT_TEXT" value="unmunch test.dic pt_BR.aff &gt; test.out &amp;&amp; iconv -t UTF-8 -f ISO-8859-1 test.out &gt; test_utf.out" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/data/spelling-dict/hunspell/test_br.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/data/spelling-dict/hunspell" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="false" />
+      <option name="EXECUTE_SCRIPT_FILE" value="false" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test unmunch pt-PT-90" type="ShConfigurationType" activateToolWindowBeforeRun="false">
+      <option name="SCRIPT_TEXT" value="unmunch test.dic pt_PT_90.aff &gt; test.out &amp;&amp; iconv -t UTF-8 -f ISO-8859-1 test.out &gt; test_utf.out" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/data/spelling-dict/hunspell/test_br.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/data/spelling-dict/hunspell" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="false" />
+      <option name="EXECUTE_SCRIPT_FILE" value="false" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test Conjugation" type="#PerlConfigurationType" factoryName="Perl" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="alternativeSdkName" />
+      <option name="compileTimeBreakpointsEnabled" value="false" />
+      <option name="consoleCharset" value="UTF-8" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="initCode" value="" />
+      <option name="nonInteractiveModeEnabled" value="false" />
+      <option name="passParentEnvs" value="true" />
+      <option name="perlArguments" value="" />
+      <option name="programParameters" value="verb-test-in.txt verb-test-out.tsv ../../data/src-dict/models-verbals/" />
+      <option name="projectPathOnTarget" />
+      <option name="requiredModules" value="" />
+      <option name="scriptCharset" value="utf8" />
+      <option name="scriptPath" value="$PROJECT_DIR$/pos_tagger_scripts/fdic-to-lt/conjugate-verbs.pl" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="startMode" value="RUN" />
+      <option name="useAlternativeSdk" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/pos_tagger_scripts/fdic-to-lt" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_alternation.TestAlternation.test_alternation_context_vowel" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="portuguese-pos-dict" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_alternation.TestAlternation.test_alternation_context_vowel&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Compound.Unnamed" />
+      <item itemvalue="Perl.Test Conjugation" />
+      <item itemvalue="Python.build_spelling_dicts_1k" />
+      <item itemvalue="Python.build_tagger_dicts" />
+      <item itemvalue="Python.build_spelling_dicts" />
+      <item itemvalue="Python tests.pytest for test_alternation.TestAlternation.test_alternation_context_vowel" />
+      <item itemvalue="Shell Script.Install binaries" />
+      <item itemvalue="Shell Script.Compile LT" />
+      <item itemvalue="Shell Script.Compile LT dev" />
+      <item itemvalue="Shell Script.Test unmunch pt-BR" />
+      <item itemvalue="Shell Script.Test unmunch pt-PT-90" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_alternation.TestAlternation.test_alternation_context_vowel" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="773b71dd-e685-418d-99b8-b922f586ce72" name="Changes" comment="" />
+      <created>1697455354656</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697455354656</updated>
+      <workItem from="1698054480008" duration="1684000" />
+      <workItem from="1698057378357" duration="17568000" />
+      <workItem from="1698091664517" duration="4000" />
+      <workItem from="1698131683649" duration="27330000" />
+      <workItem from="1698220720565" duration="26298000" />
+      <workItem from="1698310131052" duration="12123000" />
+      <workItem from="1698322415616" duration="6925000" />
+      <workItem from="1698339600095" duration="6398000" />
+      <workItem from="1698400314455" duration="125000" />
+      <workItem from="1698401439000" duration="13284000" />
+      <workItem from="1698417713853" duration="3363000" />
+      <workItem from="1699349819884" duration="52000" />
+      <workItem from="1699357241115" duration="25131000" />
+      <workItem from="1699433065804" duration="37000" />
+      <workItem from="1699433259481" duration="1720000" />
+      <workItem from="1699444295796" duration="18963000" />
+      <workItem from="1699521317480" duration="23684000" />
+      <workItem from="1699606279261" duration="5000" />
+      <workItem from="1699608017498" duration="21295000" />
+      <workItem from="1699865031124" duration="28998000" />
+      <workItem from="1699954261130" duration="20256000" />
+      <workItem from="1700040266417" duration="18784000" />
+      <workItem from="1700125477663" duration="2164000" />
+      <workItem from="1700131494635" duration="19972000" />
+      <workItem from="1700214470917" duration="646000" />
+      <workItem from="1700229481764" duration="1408000" />
+      <workItem from="1700469820525" duration="4442000" />
+      <workItem from="1700475905624" duration="33161000" />
+      <workItem from="1700556971120" duration="25481000" />
+      <workItem from="1700669353476" duration="2672000" />
+      <workItem from="1700748393690" duration="6173000" />
+      <workItem from="1701263587982" duration="108000" />
+      <workItem from="1701268404345" duration="8253000" />
+      <workItem from="1701336032837" duration="4000" />
+      <workItem from="1701342772310" duration="12972000" />
+      <workItem from="1701432535861" duration="11000" />
+      <workItem from="1701682605214" duration="59000" />
+      <workItem from="1701682674192" duration="14271000" />
+      <workItem from="1701770182224" duration="26739000" />
+      <workItem from="1701852413777" duration="10000" />
+      <workItem from="1701858675056" duration="8373000" />
+      <workItem from="1702395027063" duration="72000" />
+      <workItem from="1702560218224" duration="18000" />
+      <workItem from="1702906013814" duration="714000" />
+      <workItem from="1703669985690" duration="30504000" />
+      <workItem from="1703756049380" duration="21891000" />
+      <workItem from="1703842056214" duration="18413000" />
+      <workItem from="1704186165629" duration="16312000" />
+      <workItem from="1704272337946" duration="16267000" />
+      <workItem from="1704296008926" duration="2056000" />
+      <workItem from="1704358809127" duration="5924000" />
+      <workItem from="1704370571510" duration="5000" />
+      <workItem from="1704372526122" duration="18000" />
+      <workItem from="1704459939210" duration="10464000" />
+      <workItem from="1704723226968" duration="40000" />
+      <workItem from="1704725250546" duration="20000" />
+      <workItem from="1704817054666" duration="176000" />
+      <workItem from="1704817234459" duration="753000" />
+      <workItem from="1704895720572" duration="35000" />
+      <workItem from="1704895768213" duration="11000" />
+      <workItem from="1704900556145" duration="2299000" />
+      <workItem from="1705054724362" duration="1576000" />
+      <workItem from="1705056923336" duration="666000" />
+      <workItem from="1705070596944" duration="320000" />
+      <workItem from="1705070995646" duration="25000" />
+      <workItem from="1705071075871" duration="28000" />
+      <workItem from="1705071262730" duration="78000" />
+      <workItem from="1705071481714" duration="492000" />
+      <workItem from="1705071983748" duration="2783000" />
+      <workItem from="1705079086789" duration="12000" />
+      <workItem from="1705079120299" duration="44000" />
+      <workItem from="1705079435593" duration="1234000" />
+      <workItem from="1705080737311" duration="896000" />
+      <workItem from="1705081657079" duration="219000" />
+      <workItem from="1705081958339" duration="172000" />
+      <workItem from="1705082174080" duration="13000" />
+      <workItem from="1705082639042" duration="1178000" />
+      <workItem from="1705086415513" duration="44000" />
+      <workItem from="1705086505983" duration="419000" />
+      <workItem from="1705310673980" duration="220000" />
+      <workItem from="1705316744265" duration="519000" />
+      <workItem from="1705320287046" duration="1812000" />
+      <workItem from="1705331039678" duration="6841000" />
+      <workItem from="1705398336816" duration="435000" />
+      <workItem from="1705399342845" duration="2000" />
+      <workItem from="1705406829591" duration="168000" />
+      <workItem from="1705407121512" duration="325000" />
+      <workItem from="1705410139634" duration="9479000" />
+      <workItem from="1705423296931" duration="10367000" />
+      <workItem from="1705483464446" duration="27847000" />
+      <workItem from="1705567853208" duration="17595000" />
+    </task>
+    <task id="LOCAL-00001" summary="Fix typo in build.yml 🥴">
+      <option name="closed" value="true" />
+      <created>1704296036037</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704296036037</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Improve logging">
+      <option name="closed" value="true" />
+      <created>1705322072507</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705322072507</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fix typo in build.yml " />
+    <MESSAGE value="Improve logging" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve logging" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$pytest_in_test_syllabifier_py.coverage" NAME="pytest in test_syllabifier.py Coverage Results" MODIFIED="1698136651356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$diff_dicts.coverage" NAME="diff_dicts Coverage Results" MODIFIED="1699870408650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pt_dict/scripts" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$merge_pt.coverage" NAME="merge_pt Coverage Results" MODIFIED="1698314787924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pt_dict/scripts" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$add_given_names.coverage" NAME="add_given_names Coverage Results" MODIFIED="1701691425111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pt_dict/scripts" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$find_cities.coverage" NAME="normalise_cities Coverage Results" MODIFIED="1698225395677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pt_dict/scripts" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$diff_dicts__1_.coverage" NAME="diff_dicts Coverage Results" MODIFIED="1698072861343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pt_dict/scripts" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$build_tagger_dicts__1_.coverage" NAME="SM_build_tagger_dicts Coverage Results" MODIFIED="1705072425501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dictionary-tools/scripts" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$clean_replacements_files.coverage" NAME="clean_replacements_files Coverage Results" MODIFIED="1700151866509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pt_dict/scripts" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$syllabify.coverage" NAME="syllabify Coverage Results" MODIFIED="1698143918790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pt_dict/scripts" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$compounds.coverage" NAME="compounds Coverage Results" MODIFIED="1700050409836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pt_dict/scripts" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$pytest_for_test_inflector_TestInflector_test_plural.coverage" NAME="pytest for test_inflector.TestInflector.test_plural Coverage Results" MODIFIED="1705336364381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$pytest_for_test_alternation_TestAlternation_test_alternation_context_vowel.coverage" NAME="pytest for test_alternation.TestAlternation.test_alternation_context_vowel Coverage Results" MODIFIED="1701355216050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$final_stressed_mid_vowels.coverage" NAME="final_stressed_mid_vowels Coverage Results" MODIFIED="1699957120338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pt_dict/scripts" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$split_variants.coverage" NAME="split_variants Coverage Results" MODIFIED="1700041116530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pt_dict/scripts" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$upcased_duplicates.coverage" NAME="upcased_duplicates Coverage Results" MODIFIED="1700058599535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pt_dict/scripts" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$pytest_for_test_alternation_TestAlternation_test_alternation_context_whole.coverage" NAME="pytest for test_alternation.TestAlternation.test_alternation_context_whole Coverage Results" MODIFIED="1698141244697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$pytest_for_test_syllabifier_TestSyllabifier_test_syllabifier.coverage" NAME="pytest for test_syllabifier.TestSyllabifier.test_syllabifier Coverage Results" MODIFIED="1698136664581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$clean_migration_files.coverage" NAME="clean_migration_files Coverage Results" MODIFIED="1700579865373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pt_dict/scripts" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$build_spelling_dicts.coverage" NAME="build_spelling_dicts Coverage Results" MODIFIED="1705595153148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$extract_abbrev.coverage" NAME="extract_abbrev Coverage Results" MODIFIED="1699629349141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pt_dict/scripts" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$build_spelling_dicts__1_.coverage" NAME="build_spelling_dicts (1) Coverage Results" MODIFIED="1705071627269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dictionary-tools/scripts" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$pytest_for_test_inflector_TestInflector.coverage" NAME="pytest for test_inflector.TestInflector Coverage Results" MODIFIED="1705336568209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$migrate_to_tagger_dict.coverage" NAME="migrate_to_tagger_dict Coverage Results" MODIFIED="1700153313659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pt_dict/scripts" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$pytest_for_test_inflector_TestInflector_test_clitic_pronouns.coverage" NAME="pytest for test_inflector.TestInflector.test_clitic_pronouns Coverage Results" MODIFIED="1705337153628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$reps.coverage" NAME="reps Coverage Results" MODIFIED="1698242001868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pt_dict/scripts" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$extract_variants__1_.coverage" NAME="extract_variants Coverage Results" MODIFIED="1698073299183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pt_dict/scripts" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$build_spelling_dicts_1k.coverage" NAME="build_spelling_dicts_1k Coverage Results" MODIFIED="1705577728025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pt_dict/scripts" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$extract_variants.coverage" NAME="extract_variants Coverage Results" MODIFIED="1698154716883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pt_dict/scripts" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$pytest_in_test.coverage" NAME="pytest in test Coverage Results" MODIFIED="1698155173448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$dedupe_dictionaries.coverage" NAME="dedupe_dictionaries Coverage Results" MODIFIED="1700050587478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pt_dict/scripts" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$clean_pt_pt.coverage" NAME="clean_pt_pt Coverage Results" MODIFIED="1700049985893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pt_dict/scripts" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$pytest_for_test_alternation_TestAlternation_test_alternation.coverage" NAME="pytest for test_alternation.TestAlternation.test_alternation Coverage Results" MODIFIED="1698141321141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$pytest_for_test_alternation_TestAlternation_test_alternation_context_contains.coverage" NAME="pytest for test_alternation.TestAlternation.test_alternation_context_contains Coverage Results" MODIFIED="1698141197384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$parse_master_variants.coverage" NAME="parse_master_variants Coverage Results" MODIFIED="1699536161565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pt_dict/scripts" />
+    <SUITE FILE_PATH="coverage/portuguese_pos_dict$build_tagger_dicts.coverage" NAME="build_tagger_dicts Coverage Results" MODIFIED="1705592130146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pt_dict/scripts" />
+  </component>
+</project>
