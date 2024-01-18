@@ -1,6 +1,7 @@
 intermedi/
 tmp/
 results/lt/*
+results/java-lt/src/*
 target/
 *.dict
 morfologik-lt/*_lt.txt
