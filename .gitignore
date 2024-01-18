@@ -17,3 +17,4 @@ morfologik-lt/*.txt
 test_words.txt
 **/*.swp
 **/*.swo
+pos_tagger_scripts/fdic-to-lt/verb-test*

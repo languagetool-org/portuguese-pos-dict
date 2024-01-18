@@ -1,8 +1,0 @@
-[Pragmas]
-lib = .
-
-[Code]
-code[] = use VerbPronouns;
-
-[History]
-
