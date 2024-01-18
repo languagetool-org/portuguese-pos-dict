@@ -5,7 +5,7 @@ r r er VMN03S0 # pretender
 r rmos er VMN01P0 # pretendermos
 r rdes er VMN02P0 # pretenderdes
 r rem er VMN03P0 # pretenderem
-er ê er VMN0000X # pretendê
+##er ê er VMN0000X # pretendê
 r ndo er VMG0000 # pretendendo
 er ido er VMP00SM # pretendido
 der so er VMP00SM # pretenso
@@ -18,7 +18,7 @@ der sas er VMP00PF # pretensas
 er o er VMIP1S0 # pretendo
 r s er VMIP2S0 # pretendes
 r 0 er VMIP3S0 # pretende
-r mo er VMIP1P0X # pretendemo
+##r mo er VMIP1P0X # pretendemo
 r mos er VMIP1P0 # pretendemos
 r is er VMIP2P0 # pretendeis
 r m er VMIP3P0 # pretendem

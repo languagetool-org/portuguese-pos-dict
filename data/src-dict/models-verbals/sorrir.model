@@ -5,7 +5,7 @@ r r ir VMN03S0 # sorrir
 r rmos ir VMN01P0 # sorrirmos
 r rdes ir VMN02P0 # sorrirdes
 r rem ir VMN03P0 # sorrirem
-r 0 ir VMN0000X # sorri
+##r 0 ir VMN0000X # sorri
 r ndo ir VMG0000 # sorrindo
 r do ir VMP00SM # sorrido
 r da ir VMP00SF # sorrida
@@ -14,7 +14,7 @@ r das ir VMP00PF # sorridas
 r o ir VMIP1S0 # sorrio
 r s ir VMIP2S0 # sorris
 r 0 ir VMIP3S0 # sorri
-r mo ir VMIP1P0X # sorrimo
+##r mo ir VMIP1P0X # sorrimo
 r mos ir VMIP1P0 # sorrimos
 r des ir VMIP2P0 # sorrides
 r em ir VMIP3P0 # sorriem

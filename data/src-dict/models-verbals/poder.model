@@ -5,7 +5,7 @@ r r er VMN03S0 # poder
 r rmos er VMN01P0 # podermos
 r rdes er VMN02P0 # poderdes
 r rem er VMN03P0 # poderem
-er ê er VMN0000X # podê
+##er ê er VMN0000X # podê
 r ndo er VMG0000 # podendo
 er ido er VMP00SM # podido
 er ida er VMP00SF # podida
@@ -14,7 +14,7 @@ er idas er VMP00PF # podidas
 der sso er VMIP1S0 # posso
 r s er VMIP2S0 # podes
 r 0 er VMIP3S0 # pode
-r mo er VMIP1P0X # podemo
+##r mo er VMIP1P0X # podemo
 r mos er VMIP1P0 # podemos
 r is er VMIP2P0 # podeis
 r m er VMIP3P0 # podem

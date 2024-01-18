@@ -5,7 +5,7 @@ r r ir VMN03S0 # expelir
 r rmos ir VMN01P0 # expelirmos
 r rdes ir VMN02P0 # expelirdes
 r rem ir VMN03P0 # expelirem
-r 0 ir VMN0000X # expeli
+##r 0 ir VMN0000X # expeli
 r ndo ir VMG0000 # expelindo
 r do ir VMP00SM # expelido
 elir ulso ir VMP00SM # expulso
@@ -17,7 +17,7 @@ r das ir VMP00PF # expelidas
 elir ulsas ir VMP00PF # expulsas
 ir es ir VMIP2S0 # expeles
 ir e ir VMIP3S0 # expele
-r mo ir VMIP1P0X # expelimo
+##r mo ir VMIP1P0X # expelimo
 r mos ir VMIP1P0 # expelimos
 r s ir VMIP2P0 # expelis
 ir em ir VMIP3P0 # expelem

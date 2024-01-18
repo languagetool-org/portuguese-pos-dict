@@ -5,7 +5,7 @@ r r ir VMN03S0 # divertir
 r rmos ir VMN01P0 # divertirmos
 r rdes ir VMN02P0 # divertirdes
 r rem ir VMN03P0 # divertirem
-r 0 ir VMN0000X # diverti
+##r 0 ir VMN0000X # diverti
 r ndo ir VMG0000 # divertindo
 r do ir VMP00SM # divertido
 r da ir VMP00SF # divertida
@@ -14,7 +14,7 @@ r das ir VMP00PF # divertidas
 ertir irto ir VMIP1S0 # divirto
 ir es ir VMIP2S0 # divertes
 ir e ir VMIP3S0 # diverte
-r mo ir VMIP1P0X # divertimo
+##r mo ir VMIP1P0X # divertimo
 r mos ir VMIP1P0 # divertimos
 r s ir VMIP2P0 # divertis
 ir em ir VMIP3P0 # divertem

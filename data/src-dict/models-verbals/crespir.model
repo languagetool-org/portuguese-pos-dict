@@ -5,7 +5,7 @@ r r ir VMN03S0 # crespir
 r rmos ir VMN01P0 # crespirmos
 r rdes ir VMN02P0 # crespirdes
 r rem ir VMN03P0 # crespirem
-r 0 ir VMN0000X # crespi
+##r 0 ir VMN0000X # crespi
 r ndo ir VMG0000 # crespindo
 r do ir VMP00SM # crespido
 r da ir VMP00SF # crespida
@@ -14,7 +14,7 @@ r das ir VMP00PF # crespidas
 espir ispo ir VMIP1S0 # crispo
 ir es ir VMIP2S0 # crespes
 ir e ir VMIP3S0 # crespe
-r mo ir VMIP1P0X # crespimo
+##r mo ir VMIP1P0X # crespimo
 r mos ir VMIP1P0 # crespimos
 r s ir VMIP2P0 # crespis
 ir em ir VMIP3P0 # crespem

@@ -5,7 +5,7 @@ r r er VMN03S0 # crer
 r rmos er VMN01P0 # crermos
 r rdes er VMN02P0 # crerdes
 r rem er VMN03P0 # crerem
-er ê er VMN0000X # crê
+##er ê er VMN0000X # crê
 r ndo er VMG0000 # crendo
 er ido er VMP00SM # crido
 er ida er VMP00SF # crida
@@ -14,7 +14,7 @@ er idas er VMP00PF # cridas
 r io er VMIP1S0 # creio
 er ês er VMIP2S0 # crês
 er ê er VMIP3S0 # crê
-r mo er VMIP1P0X # cremo
+##r mo er VMIP1P0X # cremo
 r mos er VMIP1P0 # cremos
 r des er VMIP2P0 # credes
 r em er VMIP3P0 # creem

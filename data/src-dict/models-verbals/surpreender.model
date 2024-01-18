@@ -5,7 +5,7 @@ r r er VMN03S0 # surpreender
 r rmos er VMN01P0 # surpreendermos
 r rdes er VMN02P0 # surpreenderdes
 r rem er VMN03P0 # surpreenderem
-er ê er VMN0000X # surpreendê
+##er ê er VMN0000X # surpreendê
 r ndo er VMG0000 # surpreendendo
 er ido er VMP00SM # surpreendido
 ender so er VMP00SM # surpreso
@@ -18,7 +18,7 @@ ender sas er VMP00PF # surpresas
 er o er VMIP1S0 # surpreendo
 r s er VMIP2S0 # surpreendes
 r 0 er VMIP3S0 # surpreende
-r mo er VMIP1P0X # surpreendemo
+##r mo er VMIP1P0X # surpreendemo
 r mos er VMIP1P0 # surpreendemos
 r is er VMIP2P0 # surpreendeis
 r m er VMIP3P0 # surpreendem

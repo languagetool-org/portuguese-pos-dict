@@ -5,13 +5,13 @@ r r ir VMN03S0 # fretenir
 r rmos ir VMN01P0 # fretenirmos
 r rdes ir VMN02P0 # fretenirdes
 r rem ir VMN03P0 # fretenirem
-r 0 ir VMN0000X # freteni
+##r 0 ir VMN0000X # freteni
 r ndo ir VMG0000 # fretenindo
 r do ir VMP00SM # fretenido
 r da ir VMP00SF # fretenida
 r dos ir VMP00PM # fretenidos
 r das ir VMP00PF # fretenidas
-r mo ir VMIP1P0X # fretenimo
+##r mo ir VMIP1P0X # fretenimo
 r mos ir VMIP1P0 # fretenimos
 r s ir VMIP2P0 # fretenis
 r a ir VMII1S0 # fretenia

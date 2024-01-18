@@ -5,7 +5,7 @@ r r ar VMN03S0 # afiuzar
 r rmos ar VMN01P0 # afiuzarmos
 r rdes ar VMN02P0 # afiuzardes
 r rem ar VMN03P0 # afiuzarem
-ar á ar VMN0000X # afiuzá
+##ar á ar VMN0000X # afiuzá
 r ndo ar VMG0000 # afiuzando
 r do ar VMP00SM # afiuzado
 r da ar VMP00SF # afiuzada
@@ -14,7 +14,7 @@ r das ar VMP00PF # afiuzadas
 uzar úzo ar VMIP1S0 # afiúzo
 uzar úzas ar VMIP2S0 # afiúzas
 uzar úza ar VMIP3S0 # afiúza
-r mo ar VMIP1P0X # afiuzamo
+##r mo ar VMIP1P0X # afiuzamo
 r mos ar VMIP1P0 # afiuzamos
 r is ar VMIP2P0 # afiuzais
 uzar úzam ar VMIP3P0 # afiúzam

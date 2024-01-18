@@ -5,7 +5,7 @@ r r er VMN03S0 # ver
 r rmos er VMN01P0 # vermos
 r rdes er VMN02P0 # verdes
 r rem er VMN03P0 # verem
-er ê er VMN0000X # vê
+##er ê er VMN0000X # vê
 r ndo er VMG0000 # vendo
 er isto er VMP00SM # visto
 er ista er VMP00SF # vista
@@ -14,7 +14,7 @@ er istas er VMP00PF # vistas
 r jo er VMIP1S0 # vejo
 er ês er VMIP2S0 # vês
 er ê er VMIP3S0 # vê
-r mo er VMIP1P0X # vemo
+##r mo er VMIP1P0X # vemo
 r mos er VMIP1P0 # vemos
 r des er VMIP2P0 # vedes
 r em er VMIP3P0 # veem

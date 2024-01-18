@@ -5,7 +5,7 @@ r r ir VMN03S0 # cuspir
 r rmos ir VMN01P0 # cuspirmos
 r rdes ir VMN02P0 # cuspirdes
 r rem ir VMN03P0 # cuspirem
-r 0 ir VMN0000X # cuspi
+##r 0 ir VMN0000X # cuspi
 r ndo ir VMG0000 # cuspindo
 r do ir VMP00SM # cuspido
 r da ir VMP00SF # cuspida
@@ -14,7 +14,7 @@ r das ir VMP00PF # cuspidas
 ir o ir VMIP1S0 # cuspo
 uspir ospes ir VMIP2S0 # cospes
 uspir ospe ir VMIP3S0 # cospe
-r mo ir VMIP1P0X # cuspimo
+##r mo ir VMIP1P0X # cuspimo
 r mos ir VMIP1P0 # cuspimos
 r s ir VMIP2P0 # cuspis
 uspir ospem ir VMIP3P0 # cospem

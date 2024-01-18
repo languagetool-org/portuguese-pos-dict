@@ -5,7 +5,7 @@ r r er VMN03S0 # saber
 r rmos er VMN01P0 # sabermos
 r rdes er VMN02P0 # saberdes
 r rem er VMN03P0 # saberem
-er ê er VMN0000X # sabê
+##er ê er VMN0000X # sabê
 r ndo er VMG0000 # sabendo
 er ido er VMP00SM # sabido
 er ida er VMP00SF # sabida
@@ -14,7 +14,7 @@ er idas er VMP00PF # sabidas
 aber ei er VMIP1S0 # sei
 r s er VMIP2S0 # sabes
 r 0 er VMIP3S0 # sabe
-r mo er VMIP1P0X # sabemo
+##r mo er VMIP1P0X # sabemo
 r mos er VMIP1P0 # sabemos
 r is er VMIP2P0 # sabeis
 r m er VMIP3P0 # sabem

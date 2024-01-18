@@ -5,7 +5,7 @@ r r ar VMN03S0 # empeugar
 r rmos ar VMN01P0 # empeugarmos
 r rdes ar VMN02P0 # empeugardes
 r rem ar VMN03P0 # empeugarem
-ar á ar VMN0000X # empeugá
+##ar á ar VMN0000X # empeugá
 r ndo ar VMG0000 # empeugando
 r do ar VMP00SM # empeugado
 r da ar VMP00SF # empeugada
@@ -14,7 +14,7 @@ r das ar VMP00PF # empeugadas
 ugar úgo ar VMIP1S0 # empeúgo
 ugar úgas ar VMIP2S0 # empeúgas
 ugar úga ar VMIP3S0 # empeúga
-r mo ar VMIP1P0X # empeugamo
+##r mo ar VMIP1P0X # empeugamo
 r mos ar VMIP1P0 # empeugamos
 r is ar VMIP2P0 # empeugais
 ugar úgam ar VMIP3P0 # empeúgam

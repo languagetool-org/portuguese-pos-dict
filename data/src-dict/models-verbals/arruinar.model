@@ -5,7 +5,7 @@ r r ar VMN03S0 # arruinar
 r rmos ar VMN01P0 # arruinarmos
 r rdes ar VMN02P0 # arruinardes
 r rem ar VMN03P0 # arruinarem
-ar á ar VMN0000X # arruiná
+##ar á ar VMN0000X # arruiná
 r ndo ar VMG0000 # arruinando
 r do ar VMP00SM # arruinado
 r da ar VMP00SF # arruinada
@@ -14,7 +14,7 @@ r das ar VMP00PF # arruinadas
 inar íno ar VMIP1S0 # arruíno
 inar ínas ar VMIP2S0 # arruínas
 inar ína ar VMIP3S0 # arruína
-r mo ar VMIP1P0X # arruinamo
+##r mo ar VMIP1P0X # arruinamo
 r mos ar VMIP1P0 # arruinamos
 r is ar VMIP2P0 # arruinais
 inar ínam ar VMIP3P0 # arruínam

@@ -5,7 +5,7 @@ r r ir VMN03S0 # construir
 r rmos ir VMN01P0 # construirmos
 r rdes ir VMN02P0 # construirdes
 ir írem ir VMN03P0 # construírem
-ir í ir VMN0000X # construí
+##ir í ir VMN0000X # construí
 r ndo ir VMG0000 # construindo
 ir ído ir VMP00SM # construído
 ir ída ir VMP00SF # construída
@@ -16,7 +16,7 @@ r s ir VMIP2S0 # construis
 uir óis ir VMIP2S0 # constróis
 r 0 ir VMIP3S0 # construi
 uir ói ir VMIP3S0 # constrói
-ir ímo ir VMIP1P0X # construímo
+##ir ímo ir VMIP1P0X # construímo
 ir ímos ir VMIP1P0 # construímos
 ir ís ir VMIP2P0 # construís
 uir oem ir VMIP3P0 # constroem

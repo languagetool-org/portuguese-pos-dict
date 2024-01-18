@@ -5,7 +5,7 @@ r r ir VMN03S0 # prevenir
 r rmos ir VMN01P0 # prevenirmos
 r rdes ir VMN02P0 # prevenirdes
 r rem ir VMN03P0 # prevenirem
-r 0 ir VMN0000X # preveni
+##r 0 ir VMN0000X # preveni
 r ndo ir VMG0000 # prevenindo
 r do ir VMP00SM # prevenido
 r da ir VMP00SF # prevenida
@@ -14,7 +14,7 @@ r das ir VMP00PF # prevenidas
 enir ino ir VMIP1S0 # previno
 enir ines ir VMIP2S0 # prevines
 enir ine ir VMIP3S0 # previne
-r mo ir VMIP1P0X # prevenimo
+##r mo ir VMIP1P0X # prevenimo
 r mos ir VMIP1P0 # prevenimos
 r s ir VMIP2P0 # prevenis
 enir inem ir VMIP3P0 # previnem

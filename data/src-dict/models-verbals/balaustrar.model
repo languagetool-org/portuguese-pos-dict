@@ -5,7 +5,7 @@ r r ar VMN03S0 # balaustrar
 r rmos ar VMN01P0 # balaustrarmos
 r rdes ar VMN02P0 # balaustrardes
 r rem ar VMN03P0 # balaustrarem
-ar á ar VMN0000X # balaustrá
+##ar á ar VMN0000X # balaustrá
 r ndo ar VMG0000 # balaustrando
 r do ar VMP00SM # balaustrado
 r da ar VMP00SF # balaustrada
@@ -14,7 +14,7 @@ r das ar VMP00PF # balaustradas
 ustrar ústro ar VMIP1S0 # balaústro
 ustrar ústras ar VMIP2S0 # balaústras
 ustrar ústra ar VMIP3S0 # balaústra
-r mo ar VMIP1P0X # balaustramo
+##r mo ar VMIP1P0X # balaustramo
 r mos ar VMIP1P0 # balaustramos
 r is ar VMIP2P0 # balaustrais
 ustrar ústram ar VMIP3P0 # balaústram

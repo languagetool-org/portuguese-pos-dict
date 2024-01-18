@@ -5,7 +5,7 @@ r r ir VMN03S0 # buir
 r rmos ir VMN01P0 # buirmos
 r rdes ir VMN02P0 # buirdes
 ir írem ir VMN03P0 # buírem
-ir í ir VMN0000X # buí
+##ir í ir VMN0000X # buí
 r ndo ir VMG0000 # buindo
 ir ído ir VMP00SM # buído
 ir ída ir VMP00SF # buída
@@ -13,7 +13,7 @@ ir ídos ir VMP00PM # buídos
 ir ídas ir VMP00PF # buídas
 r s ir VMIP2S0 # buis
 r 0 ir VMIP3S0 # bui
-ir ímo ir VMIP1P0X # buímo
+##ir ímo ir VMIP1P0X # buímo
 ir ímos ir VMIP1P0 # buímos
 ir ís ir VMIP2P0 # buís
 ir em ir VMIP3P0 # buem

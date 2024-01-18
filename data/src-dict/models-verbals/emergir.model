@@ -5,7 +5,7 @@ r r ir VMN03S0 # emergir
 r rmos ir VMN01P0 # emergirmos
 r rdes ir VMN02P0 # emergirdes
 r rem ir VMN03P0 # emergirem
-r 0 ir VMN0000X # emergi
+##r 0 ir VMN0000X # emergi
 r ndo ir VMG0000 # emergindo
 r do ir VMP00SM # emergido
 gir so ir VMP00SM # emerso
@@ -18,7 +18,7 @@ gir sas ir VMP00PF # emersas
 gir jo ir VMIP1S0 # emerjo
 ir es ir VMIP2S0 # emerges
 ir e ir VMIP3S0 # emerge
-r mo ir VMIP1P0X # emergimo
+##r mo ir VMIP1P0X # emergimo
 r mos ir VMIP1P0 # emergimos
 r s ir VMIP2P0 # emergis
 ir em ir VMIP3P0 # emergem

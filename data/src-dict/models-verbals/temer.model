@@ -5,7 +5,7 @@ r r er VMN03S0 # temer
 r rmos er VMN01P0 # temermos
 r rdes er VMN02P0 # temerdes
 r rem er VMN03P0 # temerem
-er ê er VMN0000X # temê
+### er ê er VMN0000X # temê
 r ndo er VMG0000 # temendo
 er ido er VMP00SM # temido
 er ida er VMP00SF # temida
@@ -14,7 +14,7 @@ er idas er VMP00PF # temidas
 er o er VMIP1S0 # temo
 r s er VMIP2S0 # temes
 r 0 er VMIP3S0 # teme
-r mo er VMIP1P0X # tememo
+### r mo er VMIP1P0X # tememo
 r mos er VMIP1P0 # tememos
 r is er VMIP2P0 # temeis
 r m er VMIP3P0 # temem

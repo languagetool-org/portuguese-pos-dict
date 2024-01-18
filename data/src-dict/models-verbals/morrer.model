@@ -5,7 +5,7 @@ r r er VMN03S0 # morrer
 r rmos er VMN01P0 # morrermos
 r rdes er VMN02P0 # morrerdes
 r rem er VMN03P0 # morrerem
-er ê er VMN0000X # morrê
+##er ê er VMN0000X # morrê
 r ndo er VMG0000 # morrendo
 er ido er VMP00SM # morrido
 rer to er VMP00SM # morto
@@ -18,7 +18,7 @@ rer tas er VMP00PF # mortas
 er o er VMIP1S0 # morro
 r s er VMIP2S0 # morres
 r 0 er VMIP3S0 # morre
-r mo er VMIP1P0X # morremo
+##r mo er VMIP1P0X # morremo
 r mos er VMIP1P0 # morremos
 r is er VMIP2P0 # morreis
 r m er VMIP3P0 # morrem

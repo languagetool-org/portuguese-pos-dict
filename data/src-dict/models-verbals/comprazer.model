@@ -5,7 +5,7 @@ r r er VMN03S0 # comprazer
 r rmos er VMN01P0 # comprazermos
 r rdes er VMN02P0 # comprazerdes
 r rem er VMN03P0 # comprazerem
-er ê er VMN0000X # comprazê
+##er ê er VMN0000X # comprazê
 r ndo er VMG0000 # comprazendo
 er ido er VMP00SM # comprazido
 er ida er VMP00SF # comprazida
@@ -14,7 +14,7 @@ er idas er VMP00PF # comprazidas
 er o er VMIP1S0 # comprazo
 r s er VMIP2S0 # comprazes
 er 0 er VMIP3S0 # compraz
-r mo er VMIP1P0X # comprazemo
+##r mo er VMIP1P0X # comprazemo
 r mos er VMIP1P0 # comprazemos
 r is er VMIP2P0 # comprazeis
 r m er VMIP3P0 # comprazem

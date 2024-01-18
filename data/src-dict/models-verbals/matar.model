@@ -5,7 +5,7 @@ r r ar VMN03S0 # matar
 r rmos ar VMN01P0 # matarmos
 r rdes ar VMN02P0 # matardes
 r rem ar VMN03P0 # matarem
-ar á ar VMN0000X # matá
+##ar á ar VMN0000X # matá
 r ndo ar VMG0000 # matando
 r do ar VMP00SM # matado
 atar orto ar VMP00SM # morto
@@ -18,7 +18,7 @@ atar ortas ar VMP00PF # mortas
 ar o ar VMIP1S0 # mato
 r s ar VMIP2S0 # matas
 r 0 ar VMIP3S0 # mata
-r mo ar VMIP1P0X # matamo
+##r mo ar VMIP1P0X # matamo
 r mos ar VMIP1P0 # matamos
 r is ar VMIP2P0 # matais
 r m ar VMIP3P0 # matam

@@ -5,7 +5,7 @@
 2 mos r2 VMN01P0 # redarmos
 2 des r2 VMN02P0 # redardes
 2 em r2 VMN03P0 # redarem
-ar2 á r2 VMN0000X # redá
+##ar2 á r2 VMN0000X # redá
 r2 ndo r2 VMG0000 # redando
 r2 do r2 VMP00SM # redado
 r2 da r2 VMP00SF # redada
@@ -14,7 +14,7 @@ r2 das r2 VMP00PF # redadas
 ar2 o r2 VMIP1S0 # redo
 r2 s r2 VMIP2S0 # redas
 r2 0 r2 VMIP3S0 # reda
-r2 mo r2 VMIP1P0X # redamo
+##r2 mo r2 VMIP1P0X # redamo
 r2 mos r2 VMIP1P0 # redamos
 r2 is r2 VMIP2P0 # redais
 r2 m r2 VMIP3P0 # redam

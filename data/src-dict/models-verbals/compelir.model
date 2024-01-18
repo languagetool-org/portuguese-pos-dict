@@ -5,7 +5,7 @@ r r ir VMN03S0 # compelir
 r rmos ir VMN01P0 # compelirmos
 r rdes ir VMN02P0 # compelirdes
 r rem ir VMN03P0 # compelirem
-r 0 ir VMN0000X # compeli
+##r 0 ir VMN0000X # compeli
 r ndo ir VMG0000 # compelindo
 r do ir VMP00SM # compelido
 elir ulso ir VMP00SM # compulso
@@ -18,7 +18,7 @@ elir ulsas ir VMP00PF # compulsas
 elir ilo ir VMIP1S0 # compilo
 ir es ir VMIP2S0 # compeles
 ir e ir VMIP3S0 # compele
-r mo ir VMIP1P0X # compelimo
+##r mo ir VMIP1P0X # compelimo
 r mos ir VMIP1P0 # compelimos
 r s ir VMIP2P0 # compelis
 ir em ir VMIP3P0 # compelem

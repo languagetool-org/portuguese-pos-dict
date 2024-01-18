@@ -5,7 +5,7 @@ r r ir VMN03S0 # abolir
 r rmos ir VMN01P0 # abolirmos
 r rdes ir VMN02P0 # abolirdes
 r rem ir VMN03P0 # abolirem
-r 0 ir VMN0000X # aboli
+##r 0 ir VMN0000X # aboli
 r ndo ir VMG0000 # abolindo
 r do ir VMP00SM # abolido
 r da ir VMP00SF # abolida
@@ -13,7 +13,7 @@ r dos ir VMP00PM # abolidos
 r das ir VMP00PF # abolidas
 ir es ir VMIP2S0 # aboles
 ir e ir VMIP3S0 # abole
-r mo ir VMIP1P0X # abolimo
+##r mo ir VMIP1P0X # abolimo
 r mos ir VMIP1P0 # abolimos
 r s ir VMIP2P0 # abolis
 ir em ir VMIP3P0 # abolem

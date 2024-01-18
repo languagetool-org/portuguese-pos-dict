@@ -5,7 +5,7 @@ r r ar VMN03S0 # agraudar
 r rmos ar VMN01P0 # agraudarmos
 r rdes ar VMN02P0 # agraudardes
 r rem ar VMN03P0 # agraudarem
-ar á ar VMN0000X # agraudá
+##ar á ar VMN0000X # agraudá
 r ndo ar VMG0000 # agraudando
 r do ar VMP00SM # agraudado
 r da ar VMP00SF # agraudada
@@ -14,7 +14,7 @@ r das ar VMP00PF # agraudadas
 udar údo ar VMIP1S0 # agraúdo
 udar údas ar VMIP2S0 # agraúdas
 udar úda ar VMIP3S0 # agraúda
-r mo ar VMIP1P0X # agraudamo
+##r mo ar VMIP1P0X # agraudamo
 r mos ar VMIP1P0 # agraudamos
 r is ar VMIP2P0 # agraudais
 udar údam ar VMIP3P0 # agraúdam

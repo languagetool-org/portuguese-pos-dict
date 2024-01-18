@@ -5,7 +5,7 @@ r r er VMN03S0 # querer
 r rmos er VMN01P0 # querermos
 r rdes er VMN02P0 # quererdes
 r rem er VMN03P0 # quererem
-er ê er VMN0000X # querê
+##er ê er VMN0000X # querê
 r ndo er VMG0000 # querendo
 er ido er VMP00SM # querido
 er ida er VMP00SF # querida
@@ -14,7 +14,7 @@ er idas er VMP00PF # queridas
 er o er VMIP1S0 # quero
 r s er VMIP2S0 # queres
 er 0 er VMIP3S0 # quer
-r mo er VMIP1P0X # queremo
+##r mo er VMIP1P0X # queremo
 r mos er VMIP1P0 # queremos
 r is er VMIP2P0 # quereis
 r m er VMIP3P0 # querem
@@ -25,7 +25,7 @@ er íamos er VMII1P0 # queríamos
 er íeis er VMII2P0 # queríeis
 er iam er VMII3P0 # queriam
 erer is er VMIS1S0 # quis
-erer i er VMIS1S0X # qui
+##erer i er VMIS1S0X # qui
 erer iseste er VMIS2S0 # quiseste
 erer is er VMIS3S0 # quis
 erer isemos er VMIS1P0 # quisemos

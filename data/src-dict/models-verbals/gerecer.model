@@ -5,7 +5,7 @@ r r er VMN03S0 # gerecer
 r rmos er VMN01P0 # gerecermos
 r rdes er VMN02P0 # gerecerdes
 r rem er VMN03P0 # gerecerem
-er ê er VMN0000X # gerecê
+##er ê er VMN0000X # gerecê
 r ndo er VMG0000 # gerecendo
 er ido er VMP00SM # gerecido
 er ida er VMP00SF # gerecida
@@ -14,7 +14,7 @@ er idas er VMP00PF # gerecidas
 cer ço er VMIP1S0 # gereço
 r s er VMIP2S0 # gereces
 r 0 er VMIP3S0 # gerece
-r mo er VMIP1P0X # gerecemo
+##r mo er VMIP1P0X # gerecemo
 r mos er VMIP1P0 # gerecemos
 r is er VMIP2P0 # gereceis
 r m er VMIP3P0 # gerecem

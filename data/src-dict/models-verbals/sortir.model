@@ -5,7 +5,7 @@ r r ir VMN03S0 # sortir
 r rmos ir VMN01P0 # sortirmos
 r rdes ir VMN02P0 # sortirdes
 r rem ir VMN03P0 # sortirem
-r 0 ir VMN0000X # sorti
+##r 0 ir VMN0000X # sorti
 r ndo ir VMG0000 # sortindo
 r do ir VMP00SM # sortido
 r da ir VMP00SF # sortida
@@ -14,7 +14,7 @@ r das ir VMP00PF # sortidas
 ortir urto ir VMIP1S0 # surto
 ortir urtes ir VMIP2S0 # surtes
 ortir urte ir VMIP3S0 # surte
-r mo ir VMIP1P0X # sortimo
+##r mo ir VMIP1P0X # sortimo
 r mos ir VMIP1P0 # sortimos
 r s ir VMIP2P0 # sortis
 ortir urtem ir VMIP3P0 # surtem

@@ -5,13 +5,13 @@ r r ir VMN03S0 # florir
 r rmos ir VMN01P0 # florirmos
 r rdes ir VMN02P0 # florirdes
 r rem ir VMN03P0 # florirem
-r 0 ir VMN0000X # flori
+##r 0 ir VMN0000X # flori
 r ndo ir VMG0000 # florindo
 r do ir VMP00SM # florido
 r da ir VMP00SF # florida
 r dos ir VMP00PM # floridos
 r das ir VMP00PF # floridas
-r mo ir VMIP1P0X # florimo
+##r mo ir VMIP1P0X # florimo
 r mos ir VMIP1P0 # florimos
 r s ir VMIP2P0 # floris
 r a ir VMII1S0 # floria

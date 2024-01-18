@@ -5,7 +5,7 @@ r r ir VMN03S0 # abluir
 r rmos ir VMN01P0 # abluirmos
 r rdes ir VMN02P0 # abluirdes
 ir írem ir VMN03P0 # abluírem
-ir í ir VMN0000X # abluí
+##ir í ir VMN0000X # abluí
 r ndo ir VMG0000 # abluindo
 ir ído ir VMP00SM # abluído
 ir ída ir VMP00SF # abluída
@@ -14,7 +14,7 @@ ir ídas ir VMP00PF # abluídas
 ir o ir VMIP1S0 # abluo
 r s ir VMIP2S0 # abluis
 r 0 ir VMIP3S0 # ablui
-ir ímo ir VMIP1P0X # abluímo
+##ir ímo ir VMIP1P0X # abluímo
 ir ímos ir VMIP1P0 # abluímos
 ir ís ir VMIP2P0 # abluís
 ir em ir VMIP3P0 # abluem

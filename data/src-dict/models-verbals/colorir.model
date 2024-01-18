@@ -5,7 +5,7 @@ r r ir VMN03S0 # colorir
 r rmos ir VMN01P0 # colorirmos
 r rdes ir VMN02P0 # colorirdes
 r rem ir VMN03P0 # colorirem
-r 0 ir VMN0000X # colori
+##r 0 ir VMN0000X # colori
 r ndo ir VMG0000 # colorindo
 r do ir VMP00SM # colorido
 r da ir VMP00SF # colorida
@@ -13,7 +13,7 @@ r dos ir VMP00PM # coloridos
 r das ir VMP00PF # coloridas
 ir es ir VMIP2S0 # colores
 ir e ir VMIP3S0 # colore
-r mo ir VMIP1P0X # colorimo
+##r mo ir VMIP1P0X # colorimo
 r mos ir VMIP1P0 # colorimos
 r s ir VMIP2P0 # coloris
 ir em ir VMIP3P0 # colorem

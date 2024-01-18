@@ -5,7 +5,7 @@ r r ir VMN03S0 # pruir
 r rmos ir VMN01P0 # pruirmos
 r rdes ir VMN02P0 # pruirdes
 ir írem ir VMN03P0 # pruírem
-ir í ir VMN0000X # pruí
+##ir í ir VMN0000X # pruí
 r ndo ir VMG0000 # pruindo
 ir ído ir VMP00SM # pruído
 ir ída ir VMP00SF # pruída
@@ -13,7 +13,7 @@ ir ídos ir VMP00PM # pruídos
 ir ídas ir VMP00PF # pruídas
 r s ir VMIP2S0 # pruis
 r 0 ir VMIP3S0 # prui
-ir ímo ir VMIP1P0X # pruímo
+##ir ímo ir VMIP1P0X # pruímo
 ir ímos ir VMIP1P0 # pruímos
 ir ís ir VMIP2P0 # pruís
 ir em ir VMIP3P0 # pruem

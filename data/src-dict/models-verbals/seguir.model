@@ -5,7 +5,7 @@ r r ir VMN03S0 # seguir
 r rmos ir VMN01P0 # seguirmos
 r rdes ir VMN02P0 # seguirdes
 r rem ir VMN03P0 # seguirem
-r 0 ir VMN0000X # segui
+##r 0 ir VMN0000X # segui
 r ndo ir VMG0000 # seguindo
 r do ir VMP00SM # seguido
 r da ir VMP00SF # seguida
@@ -14,7 +14,7 @@ r das ir VMP00PF # seguidas
 eguir igo ir VMIP1S0 # sigo
 ir es ir VMIP2S0 # segues
 ir e ir VMIP3S0 # segue
-r mo ir VMIP1P0X # seguimo
+##r mo ir VMIP1P0X # seguimo
 r mos ir VMIP1P0 # seguimos
 r s ir VMIP2P0 # seguis
 ir em ir VMIP3P0 # seguem

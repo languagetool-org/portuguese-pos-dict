@@ -5,7 +5,7 @@ r r er VMN03S0 # valer
 r rmos er VMN01P0 # valermos
 r rdes er VMN02P0 # valerdes
 r rem er VMN03P0 # valerem
-er ê er VMN0000X # valê
+##er ê er VMN0000X # valê
 r ndo er VMG0000 # valendo
 er ido er VMP00SM # valido
 er ida er VMP00SF # valida
@@ -14,7 +14,7 @@ er idas er VMP00PF # validas
 er ho er VMIP1S0 # valho
 r s er VMIP2S0 # vales
 r 0 er VMIP3S0 # vale
-r mo er VMIP1P0X # valemo
+##r mo er VMIP1P0X # valemo
 r mos er VMIP1P0 # valemos
 r is er VMIP2P0 # valeis
 r m er VMIP3P0 # valem
