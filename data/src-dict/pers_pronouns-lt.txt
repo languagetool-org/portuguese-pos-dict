@@ -9,13 +9,13 @@ contigo	com:tu	SPS00:PP2CSO00
 # this is marked as N to aid in synthesis, even though they're N+O
 nós	eu	PP1CPN00
 nos	eu	PP1CPO00
-no	eu	PP1CPO00
+# no	eu	PP1CPO00
 conosco	com:eu	SPS00:PP1CPO00
 connosco	com:eu	SPS00:PP1CPO00
 # this is marked as N to aid in synthesis, even though they're N+O
-vós	vós	PP2CPN00
-vos	vós	PP2CPO00
-vo	vós	PP2CPO00
+vós	tu	PP2CPN00
+vos	tu	PP2CPO00
+# vo	tu	PP2CPO00
 convosco	com:vós	SPS00:PP2CPO00
 você	tu	PP2CS00P
 vocês	tu	PP2CP00P
