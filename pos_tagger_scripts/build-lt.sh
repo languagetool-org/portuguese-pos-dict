@@ -30,11 +30,11 @@ function sed_cmd {
 
 for pos in "nouns" "adjectives"; do
   echo "${pos}: FDIC to LT..."
-  perl "${FDIC_DIR}/flexiona.pl" "${DATA_SRC_DIR}/${pos}-fdic.txt" "${RESULTS_DIR}/${pos}-lt.txt"
+  perl "${FDIC_DIR}/inflect-nominals.pl" "${DATA_SRC_DIR}/${pos}-fdic.txt" "${RESULTS_DIR}/${pos}-lt.txt"
 done
 
 echo "verbs: FDIC to LT..."
-perl "${FDIC_DIR}/conjuga-verbs.pl" "${DATA_SRC_DIR}/verbs-fdic.txt" "${RESULTS_DIR}/verbs-lt.txt" "${DATA_SRC_DIR}/models-verbals/"
+perl "${FDIC_DIR}/conjugate-verbs.pl" "${DATA_SRC_DIR}/verbs-fdic.txt" "${RESULTS_DIR}/verbs-lt.txt" "${DATA_SRC_DIR}/models-verbals/"
 
 echo "remaining POS..."
 OTHERS_LT_PATH="${RESULTS_DIR}/others-lt.txt"

@@ -1,0 +1,16 @@
+# cantar=V;model:amar;src: LT;
+# beber=V;model:temer;src: LT;
+# partir=V;model:demitir;src: LT;
+# dar=V;model:dar;src: LT;
+# pôr=V;model:pôr;src: LT;
+# trazer=V;model:trazer;src: LT;
+# fazer=V;model:fazer;src: LT;
+# cair=V;model:cair;src: LT;
+# saber=V;model:saber;src: LT;
+# ser=V;model:ser;src: LT;
+# estar=V;model:estar;src: LT;
+# ter=V;model:ter;src: LT;
+# dizer=V;model:dizer;src: LT;
+# cegar=V;model:cegar;src: LT;
+
+amar=V;model:amar;src: LT;
