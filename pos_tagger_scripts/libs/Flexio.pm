@@ -7,9 +7,52 @@ use Text::Unaccent::PurePerl qw(unac_string);
 our $carac="[ôõãÅ₂²³a-zA-ZûêàéèíòóúïüäöîâëÄÖÀÈÉÍÒÓÚÏÜÎÂËçÇñÑáå·0-9'\-:]";
 our $number_exceptions="^(?i)(L2|P[345]|MP[34]|A[345]|goma-2|4x4|Covid-19|COVID-19|covid-19|SARS-CoV-2|N95|FFP2|Z80|x64|x86)\$";
 
-my $hacaspirada = "Haarlem|hack.*|Harlem|Haifa|haikus?|haima|haimes|halal|halar|hall.*|Halloweens?|Hamada|Hamas|Hamàs|hamilton.*|Hamlet.*|Hammond|Hampton|handicaps?|Hannover|Hanoi|Hans|Hansa|hardware|harolds?|Harrison|harrods?|harry|Hartmann?|Haruki|Harvard|Harz|Havilland|hawai.*|hawk.*|Haydn|Hayworth|Heard|hearst|Heathrow|heav.*|hegel.*|Heidelberg|Heide[gn].*|Heilig.*|hein.*|Heisen.*|Heitz|Helen|Heming.*|henna|hennes|Henry|Hepburn|herbert.*|Herder|Hereford|Hesse|Hessen|Hewlett.*|Hezboll.+|high.*|hilbert.*|Hilda|hinden.*|hinterlands?|Hitch.*|hitler.*|hobbes.*|hobby|hobbies|Hohen.*|holdings?|hollywood.*|Holmes.*|Holstein|Hong|hongk.+|Honolu.+|Honsh[uū]|h[òo]bbits?|hoover.*|hopkins|Hork.*|horst|H[ou]f.*|Houston|Howard|Hubble|humbold.*|Hume|hunting.*|husseinit.+|Higgs|high|Hill|Himmler|hip-hop|hippies|hippy|Hirado|His|Hubei|Hudson|Hunter|Husserl|Huygens|Utah";
+my $tag_joiner = ":";
 
-my $jointags = ":";
+our %pronouns;
+$pronouns{"o"}="PP3MSA00";
+$pronouns{"os"}="PP3MPA00";
+$pronouns{"a"}="PP3FSA00";
+$pronouns{"as"}="PP3FPA00";
+$pronouns{"lhe"}="PP3CSD00";
+$pronouns{"lhes"}="PP3CPD00";
+$pronouns{"me"}="PP1CSO00";
+$pronouns{"te"}="PP2CSO00";
+$pronouns{"se"}="PP3CNO00";
+$pronouns{"nos"}="PP1CPO00";
+$pronouns{"vos"}="PP2CPO00";
+$pronouns{"no-lo"}="PP1CPO00:PP3MSA00";
+$pronouns{"no-los"}="PP1CPO00:PP3MPA00";
+$pronouns{"no-la"}="PP1CPO00:PP3FSA00";
+$pronouns{"no-las"}="PP1CPO00:PP3FPA00";
+
+# These rare forms only appear with unelided verbs, we can rely on the current tokenisation logic
+# to identify them; we'll take the risk with mesoclitic forms... 'dar-lho-ei'? come on
+# $pronouns{"lha"}="PP3CSD00:PP3FSA00";
+# $pronouns{"lhas"}="PP3CSD00:PP3FPA00";
+# $pronouns{"lho"}="PP3CSD00:PP3MSA00";
+# $pronouns{"lhos"}="PP3CSD00:PP3MPA00";
+# $pronouns{"ma"}="PP1CSO00:PP3FSA00";
+# $pronouns{"mas"}="PP1CSO00:PP3FPA00";
+# $pronouns{"mo"}="PP1CSO00:PP3MSA00";
+# $pronouns{"mos"}="PP1CSO00:PP3MPA00";
+# $pronouns{"ta"}="PP2CSO00:PP3FSA00";
+# $pronouns{"tas"}="PP2CSO00:PP3FPA00";
+# $pronouns{"to"}="PP2CSO00:PP3MSA00";
+# $pronouns{"tos"}="PP2CSO00:PP3MPA00";
+# $pronouns{"vo-lo"}="PP2CPO00:PP3MSA00";
+# $pronouns{"vo-los"}="PP2CPO00:PP3MPA00";
+# $pronouns{"vo-la"}="PP2CPO00:PP3FSA00";
+# $pronouns{"vo-las"}="PP2CPO00:PP3FPA00";
+
+my @always_elision_pronouns = ("o", "os", "a", "as");
+my @never_elision_pronouns = ("lhe", "lhes", "me", "te", "se", "vos",
+                              # "vo-lo", "vo-los", "vo-la", "vo-las",
+                              # "lho", "lhos", "lha", "lhas", "mo", "mos", "ta", "tas", "to", "tos", "ma", "mas"
+                              );
+my @mos_elision_pronouns = ("nos", "no-lo", "no-los", "no-la", "no-las");
+my @rarely_elision_pronouns = @never_elision_pronouns;
+push(@rarely_elision_pronouns, @mos_elision_pronouns);
 
 # Genera el plural a partir del singular.
 # En alguns casos cal saber el gènere.
@@ -81,9 +124,6 @@ sub mascplural_partintdeduesformes {
 
     if ($ms =~ /^$fs$/) {
        $mp=Flexio::plural($ms); # aborigen
-    #}
-    #elsif ($ms =~ /.+([àéèíóòú]|[aàeéèiíoóòuú][sn]|ix)$/) {
-    #   $mp=Flexio::pluralMasc_del_fem($fs);
     } else {
        $mp=Flexio::plural($ms);
     }
@@ -100,7 +140,7 @@ sub desplega_femeni_amb_guionet {
     my $mot_fem = $term_fem;  # Si no hi ha guionet, serà la forma definitiva
     my $trobat = 1;
     #my $found;
-    
+
     if ($term_fem =~ /^-/) {
     $term_fem =~ s/-//;
     if ( $term_fem =~ /^a$/ ) {
@@ -123,309 +163,159 @@ sub desplega_femeni_amb_guionet {
         my $lenArrel=length($1);
         $mot_masc =~ /^(.{$lenArrel}).*$/; #recupera alguna dièresi (caïnià)
         $arrel=$1;
-        $mot_fem=$arrel.$term_fem;        
+        $mot_fem=$arrel.$term_fem;
         #$found=1;
             #Si la diferència entre masculí i femení és de més de dos caràcters.
             #Error probable.
         if ( abs(length($mot_fem)-length($mot_masc))>2) {
-        $trobat = 0; 
+        $trobat = 0;
         }
     }
     }
     return ($mot_fem, $trobat);
 }
 
-# Retorna 1 si un mot masculí s'ha d'apostrofar
-sub apostrofa_masculi {
-    my $mot = $_[0];
-    if ($mot =~ /^h?[aeiouàèéíòóú]/i && $mot !~ /^(h?[ui][aeioàèéóòu].*|[aeio]|host|$hacaspirada)$/i) {
-    return 1;
+sub r_elision {
+    my $form = $_[0];
+    my $elided_form = $form;
+    if ($form =~ /(fizer|trouxer|[sc]ouber|quiser|puser|tiver|vier|estiver|disser)$/ || $form =~ /^(der|(re)?quer)$/) {
+        $elided_form =~ s/er$/é/;
+        return $elided_form;
     }
-    if ($mot =~ /^(ió|ions|ionitza.+|h?uix.+|Iowa|Uialfàs|Iu)$/) {
-    return 1;
+    if ($form =~ /er$/) {
+        $elided_form =~ s/er$/ê/;
+        return $elided_form;
     }
-    return 0;
+    if ($form =~ /ar$/) {
+        $elided_form =~ s/ar$/á/;
+        return $elided_form;
+    }
+    if ($form =~ /[aeo]ir$/) {
+        $elided_form =~ s/ir$/í/;
+        return $elided_form;
+    }
+    if ($form =~ /ir$/) {
+        $elided_form =~ s/ir$/i/;
+        return $elided_form;
+    }
+    if ($form =~ /[oô]r$/) {
+        $elided_form =~ s/[oô]r$/ô/;
+        return $elided_form;
+    }
 }
 
-
-
-# Retorna 1 si un mot femení s'ha d'apostrofar amb "l'"
-sub apostrofa_femeni {
-    my $mot = $_[0];
-    if ($mot =~ /^(h?[aeoàèéíòóú].*|h?[ui][^aeiouàèéíòóúüï]+([aeiou]s?|[ei]n)|urbs|URSS|UJI|11a)$/i 
-    && $mot !~ /^(ouija|host|ira|inxa|[aeiou]|efa|hac|ela|ema|en|ena|ene|er|erra|erre|essa|una|$hacaspirada)$/i) {
-    return 1;
+sub z_elision {
+    my $form = $_[0];
+    my $elided_form = $form;
+    if ($form =~ /[ui]z$/) {
+        $elided_form =~ s/z$//;
+        return $elided_form;
     }
-    return 0;
+    if ($form =~ /ez$/) {
+        $elided_form =~ s/ez$/ê/;
+        return $elided_form;
+    }
+    if ($form =~ /az$/) {
+        $elided_form =~ s/az$/á/;
+        return $elided_form;
+    }
+}
+
+sub s_elision {
+    my $elided_form = $_[0];
+    $elided_form =~ s/s$//;
+    return $elided_form;
+}
+
+sub mesoclitic_form {
+    my $form = $_[0];
+    my $pron_form = $_[1];
+    my $elide = $_[2];
+    if ($form =~ /^(.+r)([^r]+)$/) {
+        my $stem = $1;
+        if ($elide == 1) {
+            $stem = r_elision($stem);
+        }
+        my $ending = $2;
+        return "$stem-$pron_form-$ending";
+    }
 }
 
 sub verb_pronouns {
+    # TODO: pronoun sequences, e.g. "mos", "lha", "vo-lo"
     my $form=$_[0];
     my $lemma=$_[1];
     my $postag=$_[2];
-    my %pronouns;
     my $result = "";
 
-    my $stem = $form;
-    $stem =~ s/ar$/ár/;
-    $stem =~ s/er$/ér/;
-    $stem =~ s/ir$/ír/;
-    $stem =~ s/ando$/ándo/;
-    $stem =~ s/endo$/éndo/;
-    #$stem =~ s/indo$/índo/;
+    # Perl is stupid and doesn't have closures, so we have to do this
+    my $add_enclitic_to_result = sub {
+        my $pron_form = $_[0];
+        my $stem = $_[1];
+        my $pron_tag = $_[2];
+        $result .= "$stem-$pron_form\t$lemma\t$postag$tag_joiner$pron_tag\n"
+    };
+    my $add_mesoclitic_to_result = sub {
+        my $pron_form = $_[0];
+        my $stem = $_[1];
+        my $pron_tag = $_[2];
+        my $elide = $_[3];
+        $result .= mesoclitic_form($stem, $pron_form, $elide) . "\t$lemma\t$postag$tag_joiner$pron_tag\n"
+    };
 
-    #$pronouns{"lo"}="PP3CNA00";
-    $pronouns{"lo"}="PP3MSA00";
-    $pronouns{"los"}="PP3MPA00";
-    $pronouns{"la"}="PP3FSA00";
-    $pronouns{"las"}="PP3FPA00";
-    $pronouns{"le"}="PP3CSD00";
-    $pronouns{"les"}="PP3CPD00";
-    
-    $pronouns{"me"}="PP1CS000";
-    $pronouns{"te"}="PP2CS000";
-    $pronouns{"se"}="PP3CN000";
-    $pronouns{"nos"}="PP1CP000";
-    $pronouns{"os"}="PP2CP000";
-   
-
-    if ($postag =~ /V.[NG].*/) {
-        foreach my $key ("me", "te", "se", "nos", "os", "lo", "los" , "la", "las" , "le", "les") {
-            my $stemhere = $form;
-            if ($postag =~ /V.G.*/) {$stemhere = $stem;}
-            $result .= "$stemhere$key $lemma $postag$jointags$pronouns{$key}\n"
+    if ($form =~ /r$/) {
+        foreach my $pron (@rarely_elision_pronouns) {
+            $add_enclitic_to_result->($pron, $form, $pronouns{$pron});
         }
-        foreach my $key1 ("me", "te", "se", "nos", "os") {
-            foreach my $key2 ("lo", "los" , "la", "las" , "le", "les") {
-                $result .= "$stem$key1$key2 $lemma $postag$jointags$pronouns{$key1}$jointags$pronouns{$key2}\n"
-            }   
+        foreach my $pron (@always_elision_pronouns) {
+            $add_enclitic_to_result->("l$pron", r_elision($form), $pronouns{$pron});
         }
-        #se+
-        foreach my $key3 ("me", "te", "nos", "os") {
-            $result .= "${stem}se$key3 $lemma $postag$jointags".$pronouns{"se"}."$jointags$pronouns{$key3}\n"
-               
+    } elsif ($postag =~ /^V.I[CF].+/) {
+        foreach my $pron (@rarely_elision_pronouns) {
+            $add_mesoclitic_to_result->($pron, $form, $pronouns{$pron}, 0);
         }
-        #te+
-        foreach my $key3 ("me", "nos") {
-            $result .= "${stem}te$key3 $lemma $postag$jointags".$pronouns{"te"}."$jointags$pronouns{$key3}\n"
-               
-        }                
-    } elsif ($postag =~ /V.M.1P./){ 
-        $stem =~ s/amos$/ámos/;
-        $stem =~ s/emos$/émos/;
-
-        foreach my $key ("me", "te", "nos", "os", "lo", "los" , "la", "las" , "le", "les") { #"se"
-            my $stemhere = $stem;
-            if ($key =~ /^(nos|os|se)$/) {$stemhere =~ s/s$//;}
-            $result .= "$stemhere$key $lemma $postag$jointags$pronouns{$key}\n"
+        foreach my $pron (@always_elision_pronouns) {
+            $add_mesoclitic_to_result->("l$pron", $form, $pronouns{$pron}, 1);
         }
-        foreach my $key1 ("me", "te", "se", "nos", "os") {
-            foreach my $key2 ("lo", "los" , "la", "las" , "le", "les") {
-                if ($key1 =~ /^se$/ && $key2 =~ /^les?$/) {next;}
-                my $stemhere = $stem;
-                if ($key1 =~ /^(nos|os|se)$/) {$stemhere =~ s/s$//;}
-                $result .= "$stemhere$key1$key2 $lemma $postag$jointags$pronouns{$key1}$jointags$pronouns{$key2}\n"
-            }   
+    } elsif ($form =~ /(m|ão|õe)$/) {
+        foreach my $pron (@rarely_elision_pronouns) {
+            $add_enclitic_to_result->($pron, $form, $pronouns{$pron});
         }
-        #te+
-        foreach my $key3 ("me", "nos") {
-            $result .= "${stem}te$key3 $lemma $postag$jointags".$pronouns{"te"}."$jointags$pronouns{$key3}\n"
-        }  
-
-    } elsif ($postag =~ /V.M.2P./){ 
-        $stem =~ s/ad$/ád/;
-        $stem =~ s/ed$/éd/;
-        $stem =~ s/id$/íd/;
-
-        foreach my $key ("me", "nos", "os", "lo", "los" , "la", "las" , "le", "les") { #"se"    apertium sí: "te",
-            my $stemhere = $form;
-            if ($key =~ /^(os)$/ && $lemma !~ /^ir$/)  {$stemhere =~ s/d$//; $stemhere =~ s/i$/í/; }  #partíos
-            $result .= "$stemhere$key $lemma $postag$jointags$pronouns{$key}\n"
+        foreach my $pron (@always_elision_pronouns) {
+            $add_enclitic_to_result->("n$pron", $form, $pronouns{$pron});
         }
-        foreach my $key1 ("me",  "se", "nos", "os") {  # apertium sí: "te",
-            foreach my $key2 ("lo", "los" , "la", "las" , "le", "les") {
-                if ($key1 =~ /^se$/ && $key2 =~ /^les?$/) {next;}
-                my $stemhere = $stem;
-                if ($key1 =~ /^os$/ && $lemma !~ /^ir$/) {$stemhere =~ s/d$//;}
-                $result .= "$stemhere$key1$key2 $lemma $postag$jointags$pronouns{$key1}$jointags$pronouns{$key2}\n"
-            }   
+    } elsif ($form =~ /mos$/) {
+        foreach my $pron (@never_elision_pronouns) {
+            $add_enclitic_to_result->($pron, $form, $pronouns{$pron});
         }
-        foreach my $key1 ("os") {  
-            foreach my $key2 ("me", "nos") {
-                my $stemhere = $stem;
-                if ($key1 =~ /^(os)$/ && $lemma !~ /^ir$/) {$stemhere =~ s/d$//;}
-                $result .= "$stemhere$key1$key2 $lemma $postag$jointags$pronouns{$key1}$jointags$pronouns{$key2}\n"
-            }   
+        foreach my $pron (@always_elision_pronouns) {
+            $add_enclitic_to_result->("l$pron", s_elision($form), $pronouns{$pron});
         }
-        #te+
-        foreach my $key3 ("me", "nos") {
-            $result .= "${stem}te$key3 $lemma $postag$jointags".$pronouns{"te"}."$jointags$pronouns{$key3}\n"  
-        }  
-
-    } elsif ($postag =~ /V.M.2V./){ 
-        $stem =~ s/a$/á/;
-        $stem =~ s/e$/é/;
-        $stem =~ s/i$/í/;
-
-        foreach my $key ("me", "nos", "os", "lo", "los" , "la", "las" , "le", "les", "te") { #"se"    apertium sí: "te",
-            my $stemhere = $form;
-            $stemhere =~ s/á$/a/;
-            $stemhere =~ s/é$/e/;
-            $stemhere =~ s/í$/i/;
-            if ($key =~ /^(os)$/ && $lemma !~ /^ir$/)  {$stemhere =~ s/i$/í/;}  #partíos
-            $result .= "$stemhere$key $lemma $postag$jointags$pronouns{$key}\n"
+        foreach my $pron (@mos_elision_pronouns) {
+            $add_enclitic_to_result->($pron, s_elision($form), $pronouns{$pron});
         }
-       
-        foreach my $key1 ("me",  "se", "nos", "os" , "te") {  # apertium sí: "te",
-            foreach my $key2 ("lo", "los" , "la", "las" , "le", "les") { # le, les infreqüents?
-                if ($key1 =~ /^se$/ && $key2 =~ /^les?$/) {next;}
-                my $stemhere = $stem;
-                if ($key1 =~ /^os$/ && $lemma !~ /^ir$/) {$stemhere =~ s/d$//;}
-                $result .= "$stemhere$key1$key2 $lemma $postag$jointags$pronouns{$key1}$jointags$pronouns{$key2}\n"
-            }   
+        $add_enclitic_to_result->("nos", s_elision($form), $pronouns{"nos"});
+    } elsif ($form =~ /[aeiouáéêóôíú]s$/ && $postag !~ /^V.P.+/) {
+        foreach my $pron (@rarely_elision_pronouns) {
+            $add_enclitic_to_result->($pron, $form, $pronouns{$pron});
         }
-=pod         
-        foreach my $key1 ("os") {  
-            foreach my $key2 ("me", "nos") {
-                my $stemhere = $stem;
-                if ($key1 =~ /^(os)$/ && $lemma !~ /^ir$/) {$stemhere =~ s/d$//;}
-                $result .= "$stemhere$key1$key2 $lemma $postag$jointags$pronouns{$key1}$jointags$pronouns{$key2}\n"
-            }   
+        foreach my $pron (@always_elision_pronouns) {
+            $add_enclitic_to_result->("l$pron", s_elision($form), $pronouns{$pron});
         }
-        #te+
-        foreach my $key3 ("me", "nos") {
-            $result .= "${stem}te$key3 $lemma $postag+".$pronouns{"te"}."$jointags$pronouns{$key3}\n"  
-        }  
-=cut
-    } elsif ($postag =~ /V.M.2S./) { #canta, teme, parte, peina, renueva, pinta, piensa, actúa # més: haz, pon, sal, di ...
-        #desáhuciala
-        if    ($stem !~ /[áéíóú]/) { $stem =~ s/a(huci[ae]n?)$/á$1/; }
-        if    ($stem !~ /[áéíóú]/) { $stem =~ s/a([^aeiouáéíóú]*([qg][uü])?[iu]?[ae]n?)$/á$1/; }
-        if ($stem !~ /[áéíóú]/) { $stem =~ s/e([^aeiouáéíóú]*([qg][uü])?[iu]?[ae]n?)$/é$1/; }
-        if ($stem !~ /[áéíóú]/) { $stem =~ s/o([^aeiouáéíóú]*([qg][uü])?[iu]?[ae]n?)$/ó$1/; }
-        if ($stem !~ /[áéíóú]/) { $stem =~ s/au([^aeiouáéíóú]*([qg][uü])?[iu]?[ae]n?)$/áu$1/; }
-        if ($stem !~ /[áéíóú]/) { $stem =~ s/eu([^aeiouáéíóú]*([qg][uü])?[iu]?[ae]n?)$/éu$1/; }
-        if ($stem !~ /[áéíóú]/) { $stem =~ s/ei([^aeiouáéíóú]*([qg][uü])?[iu]?[ae]n?)$/éi$1/; }
-        if ($stem !~ /[áéíóú]/) { $stem =~ s/ai([^aeiouáéíóú]*([qg][uü])?[iu]?[ae]n?)$/ái$1/; }
-        if ($stem !~ /[áéíóú]/) { $stem =~ s/oi([^aeiouáéíóú]*([qg][uü])?[iu]?[ae]n?)$/ói$1/; }
-        #lícuala, averíguala
-        if ($stem !~ /[áéíóú]/) { $stem =~ s/([^eaoéáó])i([^aeiouáéíóú]*([gqc][uü])[ae]n?)$/$1í$2/; }
-        #írguela
-        if ($stem !~ /[áéíóú]/) { $stem =~ s/^i([^aeiouáéíóú]*([gqc][uü])[ae]n?)$/í$1/; }
-        #anúnciala
-        if ($stem !~ /[áéíóú]/) { $stem =~ s/([^aeoéáó])u([^aeiouáéíóú]*([qg][uü])?[iu]?[ae]n?)$/$1ú$2/; }
-        if ($stem !~ /[áéíóú]/) { $stem =~ s/([^eaoéáó])i([^aeiouáéíóú]*([qg][uü])?[iu]?[ae]n?)$/$1í$2/; }
-        if ($stem !~ /[áéíóú]/) { $stem =~ s/^u([^aeiouáéíóú]*([qg][uü])?[iu]?[ae]n?)$/ú$1/; }
-        if ($stem !~ /[áéíóú]/) { $stem =~ s/^i([^aeiouáéíóú]*([qg][uü])?[iu]?[ae]n?)$/í$1/; }
-        
-
-        foreach my $key ("me", "nos", "te", "lo", "los" , "la", "las" , "le", "les") { 
-            if ($stem =~ /l$/ && $key =~ /^l/) { next;}  #exception: salle
-            my $stemhere = $stem;
-            # Exception: -> estame 
-            $stemhere =~ s/é$/e/;
-            $stemhere =~ s/én$/en/;
-            $stemhere =~ s/á$/a/;
-            $stemhere =~ s/án$/an/;
-            $stemhere =~ s/í$/i/;
-            $stemhere =~ s/ín$/in/;
-            $stemhere =~ s/ó$/o/;
-            $stemhere =~ s/ón$/on/;
-            $stemhere =~ s/ú$/u/;
-            $stemhere =~ s/ún$/un/;
-            $result .= "$stemhere$key $lemma $postag$jointags$pronouns{$key}\n"
+    } elsif ($form =~ /[aeiu]z$/) {
+        foreach my $pron (@rarely_elision_pronouns) {
+            $add_enclitic_to_result->($pron, $form, $pronouns{$pron});
         }
-        
-        if ($stem !~ /[áéíóú]/) {
-            $stem =~ s/az$/áz/;
-            $stem =~ s/on$/ón/;
-            $stem =~ s/i$/í/;
-            $stem =~ s/^da$/dá/;
-            $stem =~ s/e$/é/;
-            $stem =~ s/en$/én/;
+        foreach my $pron (@always_elision_pronouns) {
+            $add_enclitic_to_result->("l$pron", z_elision($form), $pronouns{$pron});
         }
-
-        if ($stem !~ /l$/) {
-            if ($stem =~ /^$form$/ && $form !~ /[áéíóú]/) {print "POSSIBLE ERROR EN: $form\n"};
-            foreach my $key1 ("me", "te", "se", "nos", ) { 
-                foreach my $key2 ("lo", "los" , "la", "las" , "le", "les") {
-                    if ($key1 =~ /^se$/ && $key2 =~ /^les?$/) {next;}
-                    $result .= "$stem$key1$key2 $lemma $postag$jointags$pronouns{$key1}$jointags$pronouns{$key2}\n"
-                }   
-            }
-            #te+
-            foreach my $key3 ("me", "nos") {
-                $result .= "${stem}te$key3 $lemma $postag$jointags".$pronouns{"te"}."$jointags$pronouns{$key3}\n"  
-            }    
-        }
-    } elsif ($postag =~ /V.M.3[SP]./) { 
-        #cante, tema, parta, peine, renueve, pinte, piense, actúe # més: haga, ponga, salga, diga ...
-        #canten, teman, partan, peinen, renueven, pinten, piensen, actúen
-        #desáhuciala
-        if    ($stem !~ /[áéíóú]/) { $stem =~ s/a(huci[ae]n?)$/á$1/; }
-        if    ($stem !~ /[áéíóú]/) { $stem =~ s/a([^aeiouáéíóú]*([qg][uü])?[iu]?[ae]n?)$/á$1/; }
-        if ($stem !~ /[áéíóú]/) { $stem =~ s/e([^aeiouáéíóú]*([qg][uü])?[iu]?[ae]n?)$/é$1/; }
-        if ($stem !~ /[áéíóú]/) { $stem =~ s/o([^aeiouáéíóú]*([qg][uü])?[iu]?[ae]n?)$/ó$1/; }
-        if ($stem !~ /[áéíóú]/) { $stem =~ s/au([^aeiouáéíóú]*([qg][uü])?[iu]?[ae]n?)$/áu$1/; }
-        if ($stem !~ /[áéíóú]/) { $stem =~ s/eu([^aeiouáéíóú]*([qg][uü])?[iu]?[ae]n?)$/éu$1/; }
-        if ($stem !~ /[áéíóú]/) { $stem =~ s/ei([^aeiouáéíóú]*([qg][uü])?[iu]?[ae]n?)$/éi$1/; }
-        if ($stem !~ /[áéíóú]/) { $stem =~ s/ai([^aeiouáéíóú]*([qg][uü])?[iu]?[ae]n?)$/ái$1/; }
-        if ($stem !~ /[áéíóú]/) { $stem =~ s/oi([^aeiouáéíóú]*([qg][uü])?[iu]?[ae]n?)$/ói$1/; }
-        #lícuala, averíguala
-        if ($stem !~ /[áéíóú]/) { $stem =~ s/([^eaoéáó])i([^aeiouáéíóú]*([gqc][uü])[ae]n?)$/$1í$2/; }
-        #írguela
-        if ($stem !~ /[áéíóú]/) { $stem =~ s/^i([^aeiouáéíóú]*([gqc][uü])[ae]n?)$/í$1/; }
-        #anúnciala
-        if ($stem !~ /[áéíóú]/) { $stem =~ s/([^aeoéáó])u([^aeiouáéíóú]*([qg][uü])?[iu]?[ae]n?)$/$1ú$2/; }
-        if ($stem !~ /[áéíóú]/) { $stem =~ s/([^eaoéáó])i([^aeiouáéíóú]*([qg][uü])?[iu]?[ae]n?)$/$1í$2/; }
-        if ($stem !~ /[áéíóú]/) { $stem =~ s/^u([^aeiouáéíóú]*([qg][uü])?[iu]?[ae]n?)$/ú$1/; }
-        if ($stem !~ /[áéíóú]/) { $stem =~ s/^i([^aeiouáéíóú]*([qg][uü])?[iu]?[ae]n?)$/í$1/; }
-
-        foreach my $key ("se", "me", "nos", "os", "te", "lo", "los" , "la", "las" , "le", "les") { 
-            if ($stem =~ /l$/ && $key =~ /^l/) { next;}
-            my $stemhere = $stem;
-            # Exception: dé -> deme, dele, estelo, estenla
-            $stemhere =~ s/é$/e/;
-            $stemhere =~ s/én$/en/;
-            $stemhere =~ s/á$/a/;
-            $stemhere =~ s/án$/an/;
-            $stemhere =~ s/í$/i/;
-            $stemhere =~ s/ín$/in/;
-            $stemhere =~ s/ó$/o/;
-            $stemhere =~ s/ón$/on/;
-            $stemhere =~ s/ú$/u/;
-            $stemhere =~ s/ún$/un/;
-            
-            $result .= "$stemhere$key $lemma $postag$jointags$pronouns{$key}\n"
-        }
-
-        $stem =~ s/^den$/dén/;
-        if ($stem =~ /^$form$/ && $form !~ /[áéíóú]/) {print "POSSIBLE ERROR EN: $form\n"};
-
-        if ($stem !~ /l$/) {
-            foreach my $key1 ("me", "te", "se", "nos", "os") { 
-                foreach my $key2 ("lo", "los" , "la", "las" , "le", "les") {
-                    $result .= "$stem$key1$key2 $lemma $postag$jointags$pronouns{$key1}$jointags$pronouns{$key2}\n"
-                }   
-            }
-            #se+
-            foreach my $key3 ("me", "te", "nos", "os") {
-                $result .= "${stem}se$key3 $lemma $postag$jointags".$pronouns{"se"}."$jointags$pronouns{$key3}\n"  
-            }  
-            #te+
-            foreach my $key3 ("me", "nos") {
-                $result .= "${stem}te$key3 $lemma $postag$jointags".$pronouns{"te"}."$jointags$pronouns{$key3}\n"  
-            }    
+    } elsif ($form =~ /[aeiouáéêóôíú]$/ && $postag !~ /^V.P.+/) {
+        foreach my $pron (keys %pronouns) {
+            $add_enclitic_to_result->($pron, $form, $pronouns{$pron});
         }
     }
-
-    # Formes no generades que Apertium sí que té: cantadte, cantádtela, cantádtelas, 
-    # cantádtele, cantádteles, cantádtelo, cantádtelos, cantándoosme, cantándoosnos, 
-    # cantárosme, cantárosnos, cantémoosme, cantémoosnos, cántenosme, cántenosnos, 
-    # cánteosme, cánteosnos
-
     return $result;
-
 }
 
+# lmao
 1;
