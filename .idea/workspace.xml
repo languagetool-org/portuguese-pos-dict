@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="773b71dd-e685-418d-99b8-b922f586ce72" name="Changes" comment="Improve logging" />
+    <list default="true" id="773b71dd-e685-418d-99b8-b922f586ce72" name="Changes" comment="Improve logging">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dict_tools/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/dict_tools/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pt_dict/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/pt_dict/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -422,7 +427,7 @@
       <workItem from="1705410139634" duration="9479000" />
       <workItem from="1705423296931" duration="10367000" />
       <workItem from="1705483464446" duration="27847000" />
-      <workItem from="1705567853208" duration="17595000" />
+      <workItem from="1705567853208" duration="18798000" />
     </task>
     <task id="LOCAL-00001" summary="Fix typo in build.yml 🥴">
       <option name="closed" value="true" />

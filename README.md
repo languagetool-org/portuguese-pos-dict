@@ -21,12 +21,16 @@ Portuguese has **two** separate sets of dictionaries, with separate source data 
 
 For more in-depth information about each type, check their respective READMEs.
 
-## Scripts
+## Structure
 
-This repository contains two independent sets of scripts:
+For Legacy Reasons™, this repository is structured as follows:
 - for work with the **POS tagger dictionary**, use the bash and Perl scripts in [/pos_tagger_scripts](./pos_tagger_scripts/README.md);
 - to build the **speller dictionary** and several other helper files that go in the LT repo, configure Poetry for this
-  project and use the Python scripts in [/pt_dict](./pt_dict/README.md).
+  project and use the Python scripts in [/dict_tools](./dict_tools/README.md).
+
+The folder [dict_tools](./dict_tools) is a Git submodule. In order for it to work as a Python package, you must define
+it as a **sources root**. In PyCharm, you can do this by right-clicking the folder and selecting
+`Mark Directory as > Sources Root`.
 
 ## Release
 
