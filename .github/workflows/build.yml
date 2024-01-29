@@ -114,7 +114,7 @@ jobs:
       working-directory: ${{ env.PT_DICT_HOME }}
       run: |
         poetry run python "dict_tools/scripts/update_pom.py" \
-          --new-version "${{ env.PT_DICT_VERSION }}"
+          --new-version "${{ env.PT_DICT_VERSION }}" \
           --package-name "portuguese-pos-dict"
 
       # This step will also re-compile LT with the new dictionary version in pom.xml
