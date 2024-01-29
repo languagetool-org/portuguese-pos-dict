@@ -47,7 +47,7 @@ jobs:
       working-directory: ${{ env.PT_DICT_HOME }}
       run: poetry check
 
-    # Ideally this will also install the 'dict_tools' submodule as a separate package
+    # Ideally this will also install the 'dict_tools' submodule as a separate package ('dictionary-tools')
     - name: Install Python dependencies
       working-directory: ${{ env.PT_DICT_HOME }}
       run: poetry install
