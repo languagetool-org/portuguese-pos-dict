@@ -2,7 +2,6 @@ intermedi/
 tmp/
 results/lt/*
 target/
-*.dict
 morfologik-lt/*_lt.txt
 morfologik-lt/*.txt
 .xpr
@@ -21,3 +20,4 @@ pos_tagger_scripts/fdic-to-lt/verb-test*
 
 # for the time being, these are committed to the repo, since there are issues with compiling on Windows
 # results/java-lt/src/*
+# *.dict
