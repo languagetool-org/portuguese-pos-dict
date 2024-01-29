@@ -1,0 +1,1 @@
+Day 1: This a very noob test, everything is weird on PyCharm, not the same as in IntelliJ. Might try to do a PR.
