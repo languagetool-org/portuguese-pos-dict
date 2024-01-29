@@ -104,7 +104,7 @@ jobs:
     - name: Build POS tagging dictionary
       working-directory: ${{ env.PT_DICT_HOME }}
       run: |
-        poetry run python "dictionary-tools/scripts/build_tagger_dicts.py" \
+        poetry run python "dict_tools/scripts/build_tagger_dicts.py" \
           --language pt \
           --force-install \
           --install-version "${{ env.PT_DICT_VERSION }}"
@@ -112,7 +112,7 @@ jobs:
     - name: Update dictionary version in LT pom.xml
       working-directory: ${{ env.PT_DICT_HOME }}
       run: |
-        poetry run python "dictionary-tools/scripts/update_pom.py" \
+        poetry run python "dict_tools/scripts/update_pom.py" \
           --new-version "${{ env.PT_DICT_VERSION }}"
           --package-name "portuguese-pos-dict"
 
@@ -121,7 +121,7 @@ jobs:
       working-directory: ${{ env.PT_DICT_HOME }}
       run: |
         mkdir -p "${{ env.LT_TMP_DIR }}/compounds"
-        poetry run python "dictionary-tools/scripts/build_spelling_dicts.py" \
+        poetry run python "dict_tools/scripts/build_spelling_dicts.py" \
           --language pt \
           --tmp-dir "${{ env.LT_TMP_DIR }}" \
           --force-install \
