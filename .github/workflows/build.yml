@@ -128,3 +128,5 @@ jobs:
           --force-install \
           --install-version "${{ env.PT_DICT_VERSION }}" \
           --max-threads "${{ steps.cpu-cores.outputs.count }}"
+
+    # The next step will be running the LT test script
