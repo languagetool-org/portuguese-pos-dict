@@ -1394,7 +1394,7 @@ SFX L   0               -vos-iam        r               +AP=2,AN=p,P=3,N=p,T=c
 SFX L   0               -vos-ia         r               +AP=2,AN=p,P=1_3,N=s,T=c
 SFX L   0               -vos-ias        r               +AP=2,AN=p,P=2,N=s,T=c
 
-SFX P Y 213
+SFX P Y 219
 SFX P   0               -o              [aeiouéê]       +G=m,AN=s
 SFX P   ns              m-lo            ns              +G=m,AN=s
 SFX P   s               -lo             [^ná]s          +G=m,AN=s
@@ -1608,6 +1608,12 @@ SFX P   r               -lo-ias         or              +P=2,N=s,T=c
 SFX P   r               -lo-íamos       or              +P=1,N=p,T=c
 SFX P   r               -lo-íeis        or              +P=2,N=p,T=c
 SFX P   r               -lo-iam         or              +P=3,N=p,T=c
+SFX P   r               mo-lo           [iu]r           +G=m,AN=s
+SFX P   r               mo-la           [iu]r           +G=f,AN=s
+SFX P   r               mo-los          [iu]r           +G=m,AN=p
+SFX P   r               mo-las          [iu]r           +G=f,AN=p
+SFX P   r               mo-nos          [iu]r           +G=m,AN=p
+SFX P   r               mos-vos         [iu]r           +G=m,AN=p
 
 SFX B Y 2
 SFX B   r               damente         [ia]r           +FSEM=vmente,CAT=adv,SUBCAT=modo
