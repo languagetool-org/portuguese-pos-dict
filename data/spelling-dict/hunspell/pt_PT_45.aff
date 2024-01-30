@@ -589,7 +589,20 @@ SFX v   ar              áveis           ar              +CAT=adj,G=_,N=p,FSEM=ve
 SFX v   er              íveis           er              +CAT=adj,G=_,N=p,FSEM=vel
 SFX v   ir              íveis           ir              +CAT=adj,G=_,N=p,FSEM=vel
 
-SFX X Y 161
+SFX X Y 174
+SFX X   r       -me            [aei]r
+SFX X   r       -te            [aei]r
+SFX X   r       -se            [ae]r
+SFX X   r       -se-lhe        [ae]r
+SFX X   r       -se-lhes       [ae]r
+SFX X   r       -nos           [ae]r
+SFX X   r       -vos           [ae]r
+SFX X   r       -lhe           [ae]r
+SFX X   r       -lhes          [ae]r
+SFX X   r       -a             [aei]r
+SFX X   r       -as            [aei]r
+SFX X   r       -o             [aei]r
+SFX X   r       -os            [aei]r
 SFX X   ar              o               [^-]ar          +P=1,N=s,T=p
 SFX X   r               s               ar              +P=2,N=s,T=p
 SFX X   ar              a               [^-]ar          +P=3,N=s,T=p
