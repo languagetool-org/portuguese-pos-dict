@@ -97,6 +97,8 @@ jobs:
         repository: languagetool-org/languagetool
         path: ${{ env.LT_HOME }}
         token: ${{ secrets.LT_OS_TOKEN }}
+        # TODO: remove this once the new tokenisation branch is merged into master!
+        branch: pt/dict/new_tokenisation
 
     - name: Build LT
       working-directory: ${{ env.LT_HOME }}
@@ -129,4 +131,8 @@ jobs:
           --install-version "${{ env.PT_DICT_VERSION }}" \
           --max-threads "${{ steps.cpu-cores.outputs.count }}"
 
-    # The next step will be running the LT test script
+    - name: Test LT
+      working-directory: ${{ env.LT_HOME }}
+      run: |
+        mvn clean install -DskipTests
+        ./build.sh pt test
