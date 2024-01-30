@@ -440,6 +440,28 @@ files = [
 ]
 
 [[package]]
+name = "dictionary-tools"
+version = "0.1.0"
+description = "LT Dictionary tools for building, compiling, and deploying binary dictionary files"
+optional = false
+python-versions = "^3.10, <3.12"
+files = []
+develop = false
+
+[package.dependencies]
+chardet = "^5.2.0"
+pytest = "^7.4.4"
+spacy = "^3.6.1"
+spacy_syllables = "^3.0.2"
+spylls = "^0.1.7"
+termcolor = "^2.3.0"
+tqdm = "^4.66.1"
+
+[package.source]
+type = "directory"
+url = "dict_tools"
+
+[[package]]
 name = "exceptiongroup"
 version = "1.2.0"
 description = "Backport of PEP 654 (exception groups)"
@@ -1969,4 +1991,4 @@ wasabi = ">=0.9.1,<1.2.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10, <3.12"
-content-hash = "55c5cfe4e15ef40da0b5fff41e56dfa508fffdbec728a66a7a0cbc767e3ab489"
+content-hash = "61aa825a1ca24397b7d100c9b22376cd3b1aea859c5bf23ed8c6859594b3f8e8"

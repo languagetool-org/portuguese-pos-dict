@@ -18,6 +18,9 @@ spacy = "^3.6.1"
 spacy_syllables = "^3.0.2"
 spylls = "^0.1.7"
 
+[tool.poetry.dependencies.dictionary-tools]
+path = "./dict_tools"
+
 [tool.poetry.group.dev]
 optional = true
 
