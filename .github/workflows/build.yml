@@ -131,6 +131,7 @@ jobs:
           --install-version "${{ env.PT_DICT_VERSION }}" \
           --max-threads "${{ steps.cpu-cores.outputs.count }}"
 
+# TODO: uncomment after testing
 #    - name: Test LT
 #      working-directory: ${{ env.LT_HOME }}
 #      # If it fails, keep going; TODO: change this to 'false' after testing
