@@ -57,7 +57,7 @@ jobs:
 
     - name: Set dictionary version
       working-directory: ${{ env.PT_DICT_HOME }}
-      run: echo "PT_DICT_VERSION=test-$(date "+%Y-%m-%d)-$RANDOM" >> $GITHUB_ENV
+      run: echo "PT_DICT_VERSION=test-$(date "+%Y-%m-%d")-$RANDOM" >> $GITHUB_ENV
 
     - name: Set up Perl
       uses: shogo82148/actions-setup-perl@v1
@@ -139,6 +139,7 @@ jobs:
 
     - name: Archive Java src for deployment
       # TODO: uncomment after this is tested to limit archiving to PRs to main
+      # TODO: add extra condition here to check for success of tests??
       # Only do it after a successful build and push to main
       if: github.event_name == 'push' && github.ref == 'refs/heads/main'
       uses: actions/upload-artifact@v2
