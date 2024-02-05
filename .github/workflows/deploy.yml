@@ -18,10 +18,15 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Download artifact
+    # Necessary since downloading artefacts with an 'overwrite' option is not supported
+    - name: Empty out src directory
+      run: rm -rf results/java-lt/src
+
+    - name: Download artefact
       uses: actions/download-artifact@v3
       with:
         name: src
+        path: results/java-lt/
 
     - name: Set dictionary version
       # TODO: remove 'test-' prefix!
@@ -45,5 +50,5 @@ jobs:
         GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
         SONATYPE_USERNAME: ${{ secrets.SONATYPE_USERNAME }}
         SONATYPE_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
-      run: |
-        mvn clean deploy -P release
+      working-directory: results/java-lt
+      run: mvn clean deploy -P release
