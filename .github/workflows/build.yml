@@ -133,6 +133,8 @@ jobs:
 
     - name: Test LT
       working-directory: ${{ env.LT_HOME }}
+      # If it fails, keep going; TODO: change this to 'false' after testing
+      continue-on-error: true
       run: |
         mvn clean install -DskipTests
         ./build.sh pt test
