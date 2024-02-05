@@ -1,6 +1,9 @@
 name: Deploy
 
 on:
+  push:
+    branches:
+      - workflows/deploy
   workflow_run:
     workflows: ["Build"]
     types:
