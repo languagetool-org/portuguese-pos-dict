@@ -159,11 +159,11 @@ jobs:
           --install-version "${{ env.PT_DICT_VERSION }}" \
           --max-threads "${{ steps.cpu-cores.outputs.count }}"
 
-#    - name: Test LT
-#      working-directory: ${{ env.LT_HOME }}
-#      run: |
-#        mvn clean install -DskipTests
-#        ./build.sh pt test
+    - name: Test LT
+      working-directory: ${{ env.LT_HOME }}
+      run: |
+        mvn clean install -DskipTests
+        ./build.sh pt test
 
     - name: Archive binaries
       if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v')
