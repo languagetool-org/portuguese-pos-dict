@@ -1,174 +1,81 @@
 name: Deploy
 
 on:
-  push:
-    tags:
-      - 'v*'
+  workflow_run:
+    workflows: ["Build"]
+    types:
+      - completed
+  workflow_dispatch:
+    inputs:
+      runid:
+        type: string
+        description: "The ID of the workflow run to download artefacts from"
+        required: true
+        # TODO: remove hardcoded id!
+        default: "7802717092"
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    if: >
+      (github.event_name == 'workflow_run' &&
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.head_branch == 'main' &&
+      github.event.workflow_run.event == 'push') ||
+      github.event_name == 'workflow_dispatch'
+
     steps:
-      - name: Set paths
-        run: |
-          lt_dir="${{ github.workspace }}/lt"
-          echo "LT_HOME=${lt_dir}/languagetool" >> $GITHUB_ENV
-          echo "PT_DICT_HOME=${lt_dir}/portuguese-pos-dict" >> $GITHUB_ENV
-          echo "LT_TMP_DIR=${lt_dir}/tmp" >> $GITHUB_ENV
-          echo "HUNSPELL_DIR=${lt_dir}/hunspell" >> $GITHUB_ENV
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
 
-      - uses: actions/checkout@v3
-        with:
-          path: ${{ env.PT_DICT_HOME }}
-          repository: ${{ env.GITHUB_ACTION_REPOSITORY }}
-          fetch-depth: 0
-          submodules: recursive
+    # Necessary since downloading artefacts with an 'overwrite' option is not supported
+    - name: Empty out src directory
+      run: rm -rf results/java-lt/src/*
 
-      - name: Get number of CPU cores
-        uses: SimenB/github-actions-cpu-cores@v1
-        id: cpu-cores
+    - name: Download artefact from upstream workflow
+      if: github.event_name == 'workflow_run'
+      uses: actions/download-artifact@v4
+      with:
+        name: src
+        path: results/java-lt/src/
+        run-id: ${{ github.event.workflow_run.id }}
+        github-token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v5
-        with:
-          python-version: ${{ matrix.python-version }}
+    - name: Debug run ID
+      if: github.event_name == 'workflow_dispatch'
+      run: |
+        echo "Run ID: ${{ github.event.inputs.runid }}"
 
-      - name: Set up Poetry
-        uses: Gr1N/setup-poetry@v8
+    - name: Download artefact from custom workflow
+      if: github.event_name == 'workflow_dispatch'
+      uses: actions/download-artifact@v4
+      with:
+        name: src
+        path: results/java-lt/src/
+        run-id: ${{ github.event.inputs.runid }}
+        github-token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Cache Poetry virtualenv
-        uses: actions/cache@v2
-        with:
-          path: ~/.cache/pypoetry/virtualenvs
-          key: ${{ runner.os }}-poetry-${{ hashFiles('**/poetry.lock') }}
+    - name: Set dictionary version
+      # TODO: remove 'test-' prefix!
+      run: echo "PT_DICT_VERSION=test-$(git describe --tags --abbrev=0 | sed 's/^v//g')" >> $GITHUB_ENV
 
-      - name: Check Poetry config
-        working-directory: ${{ env.PT_DICT_HOME }}
-        run: poetry check
+    - name: Set up JDK 11 for x64
+      uses: actions/setup-java@v3
+      with:
+        java-version: '11'
+        distribution: 'temurin'
+        architecture: x64
 
-      - name: Install Python dependencies
-        working-directory: ${{ env.PT_DICT_HOME }}
-        run: poetry install
-        env:
-          POETRY_HTTP_BASIC_GITLAB_USERNAME: "lt-ai-package-registry"
-          POETRY_HTTP_BASIC_GITLAB_PASSWORD: ${{ secrets.POETRY_HTTP_BASIC_GITLAB_PASSWORD }}
+    - name: Import GPG Key
+      run: echo "${{ secrets.GPG_PRIVATE_KEY }}" | gpg --batch --import
 
-      - name: Set dictionary version
-        # TODO: remove 'test-' prefix!
-        run: echo "PT_DICT_VERSION=test-$(git describe --tags --abbrev=0 | sed 's/^v//g')" >> $GITHUB_ENV
-
-      - name: Set up Perl
-        uses: shogo82148/actions-setup-perl@v1
-        with:
-          perl-version: "5.38"
-
-      - name: Install Perl dependencies
-        run: cpan install "Switch" "Text::Unaccent::PurePerl"
-
-      - name: Checkout Hunspell
-        uses: actions/checkout@v3
-        with:
-          repository: hunspell/hunspell
-          path: ${{ env.HUNSPELL_DIR }}
-
-      - name: Cache Hunspell
-        uses: actions/cache@v2
-        with:
-          path: |
-            /usr/local/bin/unmunch
-            /usr/local/bin/hunspell
-          key: hunspell-${{ hashFiles('lt/hunspell/**') }}
-        id: hunspell-cache
-
-      - name: Compile Hunspell
-        if: steps.hunspell-cache.outputs.cache-hit != 'true'
-        working-directory: ${{ env.HUNSPELL_DIR }}
-        run: |
-          sudo apt-get install autoconf automake autopoint libtool
-          autoreconf -vfi
-          ./configure
-          make
-          sudo make install
-          sudo ldconfig
-          which unmunch
-
-      - name: Set up JDK 11 for x64
-        uses: actions/setup-java@v3
-        with:
-          java-version: '11'
-          distribution: 'temurin'
-          architecture: x64
-
-      - name: Checkout LT
-        uses: actions/checkout@v3
-        with:
-          repository: languagetool-org/languagetool
-          path: ${{ env.LT_HOME }}
-          token: ${{ secrets.LT_OS_TOKEN }}
-          ref: pt/dict/new_tokenisation
-
-      - name: Cache LT Build
-        uses: actions/cache@v2
-        with:
-          path: |
-            ${{ env.LT_HOME }}/languagetool-standalone/target
-            ${{ env.LT_HOME }}/languagetool-dev/target
-            ~/.m2
-          key: lt-build-${{ hashFiles('lt/languagetool/pom.xml', 'lt/languagetool/**/*.java') }}
-        id: lt-cache
-
-      - name: Build LT
-        if: steps.lt-cache.outputs.cache-hit != 'true'
-        run: mvn clean install -DskipTests
-        working-directory: ${{ env.LT_HOME }}
-
-      - name: Build LT Dev
-        if: steps.lt-cache.outputs.cache-hit != 'true'
-        run: mvn clean compile assembly:single
-        working-directory: ${{ env.LT_HOME }}/languagetool-dev
-
-      - name: Build POS tagging dictionary
-        working-directory: ${{ env.PT_DICT_HOME }}
-        run: |
-          poetry run python "dict_tools/scripts/build_tagger_dicts.py" \
-            --language pt \
-            --no-force-compile \
-            --install-version "${{ env.PT_DICT_VERSION }}" \
-            --force-install
-
-      - name: Update dictionary version in LT pom.xml
-        working-directory: ${{ env.PT_DICT_HOME }}
-        run: |
-          poetry run python "dict_tools/scripts/update_pom.py" \
-            --new-version "${{ env.PT_DICT_VERSION }}" \
-            --package-name "portuguese-pos-dict"
-
-        # This step will also re-compile LT with the new dictionary version in pom.xml
-      - name: Build spelling dictionaries
-        working-directory: ${{ env.PT_DICT_HOME }}
-        run: |
-          mkdir -p "${{ env.LT_TMP_DIR }}/compounds"
-          poetry run python "dict_tools/scripts/build_spelling_dicts.py" \
-            --language pt \
-            --tmp-dir "${{ env.LT_TMP_DIR }}" \
-            --force-install \
-            --install-version "${{ env.PT_DICT_VERSION }}" \
-            --max-threads "${{ steps.cpu-cores.outputs.count }}"
-
-      - name: Test LT
-        working-directory: ${{ env.LT_HOME }}
-        run: |
-          mvn clean install -DskipTests
-          ./build.sh pt test
-
-      - name: Import GPG Key
-        run: echo "${{ secrets.GPG_PRIVATE_KEY }}" | gpg --batch --import
-
-      - name: Deploy to SonaType
-        env:
-          GPG_KEYNAME: ${{ secrets.GPG_KEYNAME }}
-          GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
-          SONATYPE_USERNAME: ${{ secrets.SONATYPE_USERNAME }}
-          SONATYPE_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
-        working-directory: ${{ env.PT_DICT_HOME }}/results/java-lt
-        run: mvn clean deploy -P release -s ${{ env.PT_DICT_HOME }}/results/java-lt/settings.xml
+    - name: Deploy to SonaType
+      env:
+        GPG_KEYNAME: ${{ secrets.GPG_KEYNAME }}
+        GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
+        SONATYPE_USERNAME: ${{ secrets.SONATYPE_USERNAME }}
+        SONATYPE_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
+      working-directory: results/java-lt
+      run: mvn clean deploy -P release -s ${{ github.workspace }}/results/java-lt/settings.xml
