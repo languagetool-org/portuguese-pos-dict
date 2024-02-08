@@ -1,3 +1,4 @@
+# This workflow is DEPRECATED. Both deployment and building are now handled in the Build workflow as separate jobs.
 name: Deploy
 
 on:

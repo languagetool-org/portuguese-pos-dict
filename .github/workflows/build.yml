@@ -132,6 +132,7 @@ jobs:
     - name: Build POS tagging dictionary
       working-directory: ${{ env.PT_DICT_HOME }}
       run: |
+        export PATH=$HOME/local/bin:$PATH
         poetry run python "dict_tools/scripts/build_tagger_dicts.py" \
           --language pt \
           --no-force-compile \
@@ -150,6 +151,7 @@ jobs:
       working-directory: ${{ env.PT_DICT_HOME }}
       run: |
         mkdir -p "${{ env.LT_TMP_DIR }}/compounds"
+        export PATH=$HOME/local/bin:$PATH
         poetry run python "dict_tools/scripts/build_spelling_dicts.py" \
           --language pt \
           --tmp-dir "${{ env.LT_TMP_DIR }}" \
@@ -212,12 +214,3 @@ jobs:
           SONATYPE_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
         working-directory: results/java-lt
         run: mvn clean deploy -P release -s ${{ github.workspace }}/results/java-lt/settings.xml
-
-      - name: Create Release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
-          draft: false
