@@ -76,8 +76,8 @@ jobs:
       uses: actions/cache@v2
       with:
         path: |
-          /usr/local/bin/unmunch
-          /usr/local/bin/hunspell
+          $HOME/local/bin/unmunch
+          $HOME/local/bin/hunspell
         key: hunspell-${{ hashFiles('lt/hunspell/**') }}
       id: hunspell-cache
 
@@ -87,10 +87,11 @@ jobs:
       run: |
         sudo apt-get install autoconf automake autopoint libtool
         autoreconf -vfi
-        ./configure
+        ./configure --prefix $HOME/local
         make
         sudo make install
         sudo ldconfig
+        export PATH=$HOME/local/bin:$PATH
         which unmunch
 
     - name: Set up JDK 11 for x64
