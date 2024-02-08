@@ -73,12 +73,13 @@ jobs:
         path: ${{ env.HUNSPELL_DIR }}
 
     - name: Cache Hunspell
-      uses: actions/cache@v2
+      uses: actions/cache@v4
       with:
         path: |
           $HOME/local/bin/unmunch
           $HOME/local/bin/hunspell
-        key: hunspell-${{ hashFiles('lt/hunspell/**') }}
+        key: hunspell-${{ hashFiles('lt/hunspell/src', 'lt/hunspell/po', 'lt/hunspell/m4', 'lt/hunspell/Makefile.am', 'lt/hunspell/configure.ac') }}
+        save-always: true
       id: hunspell-cache
 
     - name: Compile Hunspell
@@ -110,13 +111,14 @@ jobs:
         ref: pt/dict/new_tokenisation
 
     - name: Cache LT Build
-      uses: actions/cache@v2
+      uses: actions/cache@v4
       with:
         path: |
           ${{ env.LT_HOME }}/languagetool-standalone/target
           ${{ env.LT_HOME }}/languagetool-dev/target
           ~/.m2
         key: lt-build-${{ hashFiles('lt/languagetool/pom.xml', 'lt/languagetool/**/*.java') }}
+        save-always: true
       id: lt-cache
 
     - name: Build LT
