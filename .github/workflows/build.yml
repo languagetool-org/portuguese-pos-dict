@@ -167,10 +167,3 @@ jobs:
       run: |
         mvn clean install -DskipTests
         ./build.sh pt test
-
-    - name: Archive Java src for deployment
-      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-      uses: actions/upload-artifact@v4
-      with:
-        name: src
-        path: ${{ env.PT_DICT_HOME }}/results/java-lt/src
