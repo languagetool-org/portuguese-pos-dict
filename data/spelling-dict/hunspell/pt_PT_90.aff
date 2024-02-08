@@ -1394,7 +1394,27 @@ SFX L   0               -vos-iam        r               +AP=2,AN=p,P=3,N=p,T=c
 SFX L   0               -vos-ia         r               +AP=2,AN=p,P=1_3,N=s,T=c
 SFX L   0               -vos-ias        r               +AP=2,AN=p,P=2,N=s,T=c
 
-SFX P Y 219
+SFX P Y 239
+SFX P   erer            é-la            querer
+SFX P   erer            é-las           querer
+SFX P   erer            é-lo            querer
+SFX P   erer            é-los           querer
+SFX P   or              usé-la          por
+SFX P   or              usé-las         por
+SFX P   or              usé-lo          por
+SFX P   or              usé-los         por
+SFX P   azer            izé-la          fazer
+SFX P   azer            izé-las         fazer
+SFX P   azer            izé-lo          fazer
+SFX P   azer            izé-los         fazer
+SFX P   zer             ssé-la          dizer
+SFX P   zer             ssé-las         dizer
+SFX P   zer             ssé-lo          dizer
+SFX P   zer             ssé-los         dizer
+SFX P   azer            ouxé-la         trazer
+SFX P   azer            ouxé-las        trazer
+SFX P   azer            ouxé-lo         trazer
+SFX P   azer            ouxé-los        trazer
 SFX P   0               -o              [aeiouéê]       +G=m,AN=s
 SFX P   ns              m-lo            ns              +G=m,AN=s
 SFX P   s               -lo             [^ná]s          +G=m,AN=s
