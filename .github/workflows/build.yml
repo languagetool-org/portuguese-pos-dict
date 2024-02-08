@@ -45,6 +45,7 @@ jobs:
 
     - name: Cache Poetry virtualenv
       uses: actions/cache@v2
+      id: cache-poetry
       with:
         path: ~/.cache/pypoetry/virtualenvs
         key: ${{ runner.os }}-poetry-${{ hashFiles('**/poetry.lock') }}
@@ -56,6 +57,7 @@ jobs:
     - name: Install Python dependencies
       working-directory: ${{ env.PT_DICT_HOME }}
       run: poetry install
+      if: steps.cache-poetry.outputs.cache-hit != 'true'
       env:
         POETRY_HTTP_BASIC_GITLAB_USERNAME: "lt-ai-package-registry"
         POETRY_HTTP_BASIC_GITLAB_PASSWORD: ${{ secrets.POETRY_HTTP_BASIC_GITLAB_PASSWORD }}
