@@ -12,6 +12,7 @@ jobs:
           echo "LABELS: ${{ github.event.pull_request.labels[0].name }}"
           echo "LABELS CONTAINS?? ${{ contains(github.event.pull_request.labels.*.name, 'skip_lt_test') }}"
           echo "HEAD COMMIT MSG: ${{ github.event.pull_request.head.commit.message }}"
+          echo "Will it skip?? ${{ (contains(github.event.pull_request.head.commit.message, '[skip lt test]') == false) || (contains(github.event.pull_request.labels.*.name, 'skip_lt_test') == false) }}"
 
       - name: Skip if 'skip lt test'
         if: > 
