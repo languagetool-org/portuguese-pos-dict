@@ -1,5 +1,6 @@
 [![Flake8](https://github.com/languagetool-org/portuguese-pos-dict/actions/workflows/flake8.yml/badge.svg)](https://github.com/languagetool-org/portuguese-pos-dict/actions/workflows/flake8.yml)
 [![Pytest](https://github.com/languagetool-org/portuguese-pos-dict/actions/workflows/pytest.yml/badge.svg)](https://github.com/languagetool-org/portuguese-pos-dict/actions/workflows/pytest.yml)
+[![Build+Test](https://github.com/languagetool-org/portuguese-pos-dict/actions/workflows/build.yml/badge.svg)](https://github.com/languagetool-org/portuguese-pos-dict/actions/workflows/build.yml)
 
 # portuguese-pos-dict
 
