@@ -9,8 +9,6 @@ on:
       - "poetry.lock"
       - ".github/workflows/pytest.yml"
   pull_request:
-    branches:
-      - "main"
     paths:
       - "**/*.py"
       - "tests/"
