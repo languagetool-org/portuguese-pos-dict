@@ -11,6 +11,8 @@ This repository contains data and tools used to build dictionaries for Portugues
 The owner, maintainer, and main dev for this repository is @p-goulart. The shell and perl components may be better
 explained by @jaumeortola, though.
 
+For contribution guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## Dictionaries
 
 Portuguese has **two** separate sets of dictionaries, with separate source data and scripts to handle them:
@@ -35,82 +37,24 @@ it as a **sources root**. In PyCharm, you can do this by right-clicking the fold
 
 ## Release
 
-### Dependencies
+The release process is automated upon each new **tag** pushed to this repo.
 
-In order to release the dictionaries, you will need all dependencies listed for each set of scripts:
-- [here](./pos_tagger_scripts/README.md#requirements) are the requirements for the POS tagger dictionary;
-- and [here](./pt_dict/README.md#setup) are the dependencies for the speller.
+As of January 2024, the release only goes as far as deploying the binaries to **staging** repositories on SonaType.
 
-In addition to those, you will also need:
-- [Maven](https://maven.apache.org/install.html), to compile, install, and release the Java components;
-- some way of managing [GPG](https://www.gnupg.org/download/) keys;
-  - and, well, you will need to have your own key [generated](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key)
-    and [published](https://askubuntu.com/questions/220063/how-do-i-publish-a-gpg-key) to one or more key servers.
+In order to actually release the new version, you must log in to SonaType, navigate to the staging repositories, select
+the repository you'd like to deploy, and click `Release`. This does mean that, for now, only LT members with access
+to LT's Sonatype account can actually release new versions.
 
-### Necessary credentials
-
-In addition to being capable of GPG-signing your Maven deployments, you will also need the LT credentials to
-[SonaType](http://oss.sonatype.org/), so you can deploy the binaries.
-
-If you are an LT team member, you should have access to these credentials in a shared 1password vault (their name there
-is `SonaType`). If you are an opensource developer (i.e. not an LT employee or freelance collaborator) and would still
-like to release your own version of the dictionary, please contact the [maintainers](#maintainer).
-
-#### GPG setup
-
-The [pom.xml](./results/java-lt/pom.xml) file in thsi repo is set up to take GPG credentials from your environment:
-
-```xml
-    <!-- ... -->
-    <properties>
-        <!-- ... -->
-        <gpg.keyname>${env.GPG_KEYNAME}</gpg.keyname>
-        <gpg.passphrase>${env.GPG_PASSPHRASE}</gpg.passphrase>
-    </properties>
-    <!-- ... -->
-```
-
-But, of course, do **not** store your GPG credentials in plaintext. If you have the 1password CLI set up, make sure you
-handle your secrets with 1password and call the release command with `op run --`, like:
-
-```bash
-op run -- mvn clean deploy -P release
-```
+Soon, this will be no longer be the case, and they will be released automatically whenever a new tag is pushed to
+`main`. Since there are restrictions on who pushes to `main`, this should be safe.
 
 ### Versioning
 
 These dictionaries use [semantic versioning](https://semver.org), as they are essentially libraries that can be
-declared as dependencies by LT.
+declared as dependencies by LT. We only use major and minor, without a patch number, e.g. `0.9`.
 
-The version of a **new** release of the dictionary must be updated in **two** places for LT to actually use your
-changes:
-- in **this** repository, the [pom.xml](./results/java-lt/pom.xml) file must have `<version>` incremented
-  (⛔️ **not** `<modelVersion>` ⛔️);
-- in the `languagetool` project, the main `pom.xml` must have the Portuguese POS dict version updated;
-- the specific value to be updated is that of `<portuguese-pos-dict.version>`.
-
-To make things a little easier, in this repository you won't need to update the version in the `pom.xml` file yourself.
-The XML contains the following environment variable:
-
-```xml
-<version>${env.PT_DICT_VERSION}</version>
-```
-
-You can call `mvn` with the specific version you want to release like so:
-```bash
-PT_DICT_VERSION="foo" mvn clean install
-```
-
-Or you can set up your environment to smartly get the version from the latest tag in this repository. In your bash or
-zsh configuration file, add something like this:
-
-```bash
-export PT_DICT_HOME="${LT_ROOT}/portuguese-pos-dict"
-dict_version() {
-  git --work-tree "${PT_DICT_HOME}" describe --tags --abbrev=0 | sed 's/^v//g'
-}
-export PT_DICT_VERSION=$(dict_version)
-```
+Note that, in order for LT to actually use the newly released version, you'll need to update the version of the
+`portuguese-pos-dict` dependency in **LT**'s main `pom.xml` file.
 
 ### Outline
 
