@@ -2,12 +2,14 @@ name: Build
 
 on:
   push:
+    branches:
+      - main
+  pull_request:
     paths:
       - "data/**"
       - ".github/workflows/build.yml"
-  pull_request:
-    branches:
-      - "main"
+      - "pos_tagger_scripts/**"
+      - "dict_tools/**"
 
 jobs:
   build:
@@ -163,6 +165,9 @@ jobs:
 
     - name: Test LT
       working-directory: ${{ env.LT_HOME }}
+      if: > 
+        (contains(github.event.pull_request.head.commit.message, '[skip lt test]') == false) &&
+        (contains(github.event.pull_request.labels.*.name, 'skip_lt_test') == false)
       run: |
         mvn clean install -DskipTests
         ./build.sh pt test
