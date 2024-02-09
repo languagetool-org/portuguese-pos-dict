@@ -170,6 +170,7 @@ jobs:
 
     - name: Test LT
       working-directory: ${{ env.LT_HOME }}
+      if: contains(github.event.head_commit.message, '[skip lt test]') == false
       run: |
         mvn clean install -DskipTests
         ./build.sh pt test
