@@ -167,7 +167,7 @@ jobs:
       working-directory: ${{ env.LT_HOME }}
       if: > 
         (contains(github.event.head_commit.message, '[skip lt test]') == false) ||
-        github.event.label.name == 'skip_lt_test'
+        (contains(github.event.pull_request.labels.*.name, 'skip_lt_test') == false)
       run: |
         mvn clean install -DskipTests
         ./build.sh pt test
