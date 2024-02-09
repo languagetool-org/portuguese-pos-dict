@@ -7,6 +7,14 @@ on:
       - "pyproject.toml"
       - "poetry.lock"
       - ".github/workflows/flake8.yml"
+  pull_request:
+    branches:
+      - "main"
+    paths:
+      - "**/*.py"
+      - "pyproject.toml"
+      - "poetry.lock"
+      - ".github/workflows/flake8.yml"
 
 jobs:
   lint:

@@ -5,9 +5,16 @@ on:
     paths:
       - "data/**"
       - ".github/workflows/build.yml"
+      - "pos_tagger_scripts/**"
+      - "dict_tools/**"
   pull_request:
     branches:
       - "main"
+    paths:
+      - "data/**"
+      - ".github/workflows/build.yml"
+      - "pos_tagger_scripts/**"
+      - "dict_tools/**"
 
 jobs:
   build:
