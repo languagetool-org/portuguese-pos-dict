@@ -2,11 +2,8 @@ name: Build
 
 on:
   push:
-    paths:
-      - "data/**"
-      - ".github/workflows/build.yml"
-      - "pos_tagger_scripts/**"
-      - "dict_tools/**"
+    branches:
+      - main
   pull_request:
     paths:
       - "data/**"
