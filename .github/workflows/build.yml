@@ -10,6 +10,7 @@ on:
       - ".github/workflows/build.yml"
       - "pos_tagger_scripts/**"
       - "dict_tools/**"
+  workflow_dispatch: {}
 
 jobs:
   build:
