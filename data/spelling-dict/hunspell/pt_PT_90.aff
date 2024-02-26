@@ -1394,7 +1394,7 @@ SFX L   0               -vos-iam        r               +AP=2,AN=p,P=3,N=p,T=c
 SFX L   0               -vos-ia         r               +AP=2,AN=p,P=1_3,N=s,T=c
 SFX L   0               -vos-ias        r               +AP=2,AN=p,P=2,N=s,T=c
 
-SFX P Y 239
+SFX P Y 263
 SFX P   erer            é-la            querer
 SFX P   erer            é-las           querer
 SFX P   erer            é-lo            querer
@@ -1462,6 +1462,22 @@ SFX P   er              ê-lo            er              +G=m,N=s
 SFX P   er              ê-la            er              +G=f,N=s
 SFX P   er              ê-los           er              +G=m,N=p
 SFX P   er              ê-las           er              +G=f,N=p
+SFX P   er              ê-la-á          [^mr][^abrs]ter              +P=3,N=s,T=f
+SFX P   er              ê-la-ás         [^mr][^abrs]ter              +P=2,N=s,T=f
+SFX P   er              ê-la-ão         [^mr][^abrs]ter              +P=3,N=p,T=f
+SFX P   er              ê-la-ia         [^mr][^abrs]ter              +P=1_3,N=s,T=c
+SFX P   er              ê-la-ias        [^mr][^abrs]ter              +P=2,N=s,T=c
+SFX P   er              ê-la-íamos      [^mr][^abrs]ter              +P=1,N=p,T=c
+SFX P   er              ê-la-iam        [^mr][^abrs]ter              +P=3,N=p,T=c
+SFX P   er              ê-las-á         [^mr][^abrs]ter              +P=3,N=s,T=f
+SFX P   er              ê-las-ás        [^mr][^abrs]ter              +P=2,N=s,T=f
+SFX P   er              ê-las-ei        [^mr][^abrs]ter              +P=1,N=s,T=f
+SFX P   er              ê-las-eis       [^mr][^abrs]ter              +P=2,N=p,T=f
+SFX P   er              ê-las-ão        [^mr][^abrs]ter              +P=3,N=p,T=f
+SFX P   er              ê-las-ia        [^mr][^abrs]ter              +P=1_3,N=s,T=c
+SFX P   er              ê-las-ias       [^mr][^abrs]ter              +P=2,N=s,T=c
+SFX P   er              ê-las-íamos     [^mr][^abrs]ter              +P=1,N=p,T=c
+SFX P   er              ê-las-iam       [^mr][^abrs]ter              +P=3,N=p,T=c
 SFX P   er              ê-lo-ei         er              +P=1,N=s,T=f
 SFX P   er              ê-lo-ás         er              +P=2,N=s,T=f
 SFX P   er              ê-lo-á          er              +P=3,N=s,T=f
@@ -1473,6 +1489,14 @@ SFX P   er              ê-lo-ias        er              +P=2,N=s,T=c
 SFX P   er              ê-lo-íamos      er              +P=1,N=p,T=c
 SFX P   er              ê-lo-íeis       er              +P=2,N=p,T=c
 SFX P   er              ê-lo-iam        er              +P=3,N=p,T=c
+SFX P   er              ê-los-á         [^mr][^abrs]ter              +P=3,N=s,T=f
+SFX P   er              ê-los-ei        [^mr][^abrs]ter              +P=1,N=s,T=f
+SFX P   er              ê-los-eis       [^mr][^abrs]ter              +P=2,N=p,T=f
+SFX P   er              ê-los-ão        [^mr][^abrs]ter              +P=3,N=p,T=f
+SFX P   er              ê-los-ia        [^mr][^abrs]ter              +P=1_3,N=s,T=c
+SFX P   er              ê-los-ias       [^mr][^abrs]ter              +P=2,N=s,T=c
+SFX P   er              ê-los-íamos     [^mr][^abrs]ter              +P=1,N=p,T=c
+SFX P   er              ê-los-iam       [^mr][^abrs]ter              +P=3,N=p,T=c
 SFX P   zer             -lo          dizer           +P=1,N=s,T=f
 SFX P   zer             -la          dizer           +P=1,N=s,T=f
 SFX P   zer             -los          dizer           +P=1,N=s,T=f
