@@ -1349,7 +1349,7 @@ SFX L   0               -vos-iam        r               +AP=2,AN=p,P=3,N=p,T=c
 SFX L   0               -vos-ia         r               +AP=2,AN=p,P=1_3,N=s,T=c
 SFX L   0               -vos-ias        r               +AP=2,AN=p,P=2,N=s,T=c
 
-SFX P Y 263
+SFX P Y 287
 SFX P   erer            é-la            querer
 SFX P   erer            é-las           querer
 SFX P   erer            é-lo            querer
@@ -1413,6 +1413,30 @@ SFX P   ar              á-lo-ias        ar              +P=2,N=s,T=c
 SFX P   ar              á-lo-íamos      ar              +P=1,N=p,T=c
 SFX P   ar              á-lo-íeis       ar              +P=2,N=p,T=c
 SFX P   ar              á-lo-iam        ar              +P=3,N=p,T=c
+SFX P   er              ê-la-á          [^a]bater              +P=3,N=s,T=f
+SFX P   er              ê-la-ás         [^a]bater              +P=2,N=s,T=f
+SFX P   er              ê-la-ão         [^a]bater              +P=3,N=p,T=f
+SFX P   er              ê-la-ia         [^a]bater              +P=1_3,N=s,T=c
+SFX P   er              ê-la-ias        [^a]bater              +P=2,N=s,T=c
+SFX P   er              ê-la-íamos      [^a]bater              +P=1,N=p,T=c
+SFX P   er              ê-la-iam        [^a]bater              +P=3,N=p,T=c
+SFX P   er              ê-las-á         [^a]bater              +P=3,N=s,T=f
+SFX P   er              ê-las-ás        [^a]bater              +P=2,N=s,T=f
+SFX P   er              ê-las-ei        [^a]bater              +P=1,N=s,T=f
+SFX P   er              ê-las-eis       [^a]bater              +P=2,N=p,T=f
+SFX P   er              ê-las-ão        [^a]bater              +P=3,N=p,T=f
+SFX P   er              ê-las-ia        [^a]bater              +P=1_3,N=s,T=c
+SFX P   er              ê-las-ias       [^a]bater              +P=2,N=s,T=c
+SFX P   er              ê-las-íamos     [^a]bater              +P=1,N=p,T=c
+SFX P   er              ê-las-iam       [^a]bater              +P=3,N=p,T=c
+SFX P   er              ê-los-á         [^a]bater              +P=3,N=s,T=f
+SFX P   er              ê-los-ei        [^a]bater              +P=1,N=s,T=f
+SFX P   er              ê-los-eis       [^a]bater              +P=2,N=p,T=f
+SFX P   er              ê-los-ão        [^a]bater              +P=3,N=p,T=f
+SFX P   er              ê-los-ia        [^a]bater              +P=1_3,N=s,T=c
+SFX P   er              ê-los-ias       [^a]bater              +P=2,N=s,T=c
+SFX P   er              ê-los-íamos     [^a]bater              +P=1,N=p,T=c
+SFX P   er              ê-los-iam       [^a]bater              +P=3,N=p,T=c
 SFX P   er              ê-lo            er              +G=m,N=s
 SFX P   er              ê-la            er              +G=f,N=s
 SFX P   er              ê-los           er              +G=m,N=p
