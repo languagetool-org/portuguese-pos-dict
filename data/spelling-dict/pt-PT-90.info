@@ -16,4 +16,4 @@ fsa.dict.speller.ignore-diacritics=true
 fsa.dict.speller.convert-case=true
 
 fsa.dict.speller.equivalent-chars=y i,i y,g j,j g,c ç,ç c,z s,s z,ã a,a ã,a â,â a,l u,u l,x z,z x,b v,v b
-fsa.dict.speller.replacement-pairs=vinhe vie,abess oubess,recad arrecad,ncia nça,nça ncia,difiss difíc,li lh,lh li,ni nh,nh ni,ch x,x ch,ph f,f ph,a ha,á há,b bi,deze deza,anti- antis,anti- antir,ante- antes,ante- anter,o ou,ô ou,ou ô,es é,ao ão
+fsa.dict.speller.replacement-pairs=vinhe vie,abess oubess,recad arrecad,ncia nça,nça ncia,difiss difíc,li lh,lh li,ni nh,nh ni,ch x,x ch,ph f,f ph,a ha,á há,b bi,deze deza,anti- antis,anti- antir,ante- antes,ante- anter,o ou,ô ou,ou ô,es é,ao ão,me -me,te -te,se -se,lo -lo,la -la,los -los,las -las,nos -nos,nas -nas,no -no,na -na,vos -vos,lhe -lhe,lhes -lhes,sse -se,-se sse,alo á-lo,ala á-la,alos á-los,alas á-las,elo ê-lo,ela ê-la,elos ê-los,elas ê-las,elo é-lo,ela é-la,elos é-los,elas é-las,ilo i-lo,ila i-la,ilos i-los,ilas i-las
