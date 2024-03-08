@@ -631,20 +631,33 @@ SFX v   ar              áveis           ar              +CAT=adj,G=_,N=p,FSEM=ve
 SFX v   er              íveis           er              +CAT=adj,G=_,N=p,FSEM=vel
 SFX v   ir              íveis           ir              +CAT=adj,G=_,N=p,FSEM=vel
 
-SFX X Y 174
+SFX X Y 187
 SFX X   r       -me            [aei]r
 SFX X   r       -te            [aei]r
 SFX X   r       -se            [ae]r
 SFX X   r       -se-lhe        [ae]r
 SFX X   r       -se-lhes       [ae]r
-SFX X   r       -nos           [ae]r
-SFX X   r       -vos           [ae]r
-SFX X   r       -lhe           [ae]r
-SFX X   r       -lhes          [ae]r
+SFX X   r       -nos           [aei]r
+SFX X   r       -vos           [aei]r
+SFX X   r       -lhe           [aei]r
+SFX X   r       -lhes          [aei]r
 SFX X   r       -a             [aei]r
 SFX X   r       -as            [aei]r
 SFX X   r       -o             [aei]r
 SFX X   r       -os            [aei]r
+SFX X   ir       e-me            ir
+SFX X   ir       e-te            ir
+SFX X   ir       e-se            ir
+SFX X   ir       e-se-lhe        ir
+SFX X   ir       e-se-lhes       ir
+SFX X   ir       e-nos           ir
+SFX X   ir       e-vos           ir
+SFX X   ir       e-lhe           ir
+SFX X   ir       e-lhes          ir
+SFX X   ir       e-a             ir
+SFX X   ir       e-as            ir
+SFX X   ir       e-o             ir
+SFX X   ir       e-os            ir
 SFX X   ar              o               [^-]ar          +P=1,N=s,T=p
 SFX X   r               s               ar              +P=2,N=s,T=p
 SFX X   ar              a               [^-]ar          +P=3,N=s,T=p
@@ -1394,7 +1407,7 @@ SFX L   0               -vos-iam        r               +AP=2,AN=p,P=3,N=p,T=c
 SFX L   0               -vos-ia         r               +AP=2,AN=p,P=1_3,N=s,T=c
 SFX L   0               -vos-ias        r               +AP=2,AN=p,P=2,N=s,T=c
 
-SFX P Y 287
+SFX P Y 353
 SFX P   erer            é-la            querer
 SFX P   erer            é-las           querer
 SFX P   erer            é-lo            querer
@@ -1458,6 +1471,39 @@ SFX P   ar              á-lo-ias        ar              +P=2,N=s,T=c
 SFX P   ar              á-lo-íamos      ar              +P=1,N=p,T=c
 SFX P   ar              á-lo-íeis       ar              +P=2,N=p,T=c
 SFX P   ar              á-lo-iam        ar              +P=3,N=p,T=c
+SFX P   ar              á-los-ei         ar              +P=1,N=s,T=f
+SFX P   ar              á-los-ás         ar              +P=2,N=s,T=f
+SFX P   ar              á-los-á          ar              +P=3,N=s,T=f
+SFX P   ar              á-los-emos       ar              +P=1,N=p,T=f
+SFX P   ar              á-los-eis        ar              +P=2,N=p,T=f
+SFX P   ar              á-los-ão         ar              +P=3,N=p,T=f
+SFX P   ar              á-los-ia         ar              +P=1_3,N=s,T=c
+SFX P   ar              á-los-ias        ar              +P=2,N=s,T=c
+SFX P   ar              á-los-íamos      ar              +P=1,N=p,T=c
+SFX P   ar              á-los-íeis       ar              +P=2,N=p,T=c
+SFX P   ar              á-los-iam        ar              +P=3,N=p,T=c
+SFX P   ar              á-la-ei         ar              +P=1,N=s,T=f
+SFX P   ar              á-la-ás         ar              +P=2,N=s,T=f
+SFX P   ar              á-la-á          ar              +P=3,N=s,T=f
+SFX P   ar              á-la-emos       ar              +P=1,N=p,T=f
+SFX P   ar              á-la-eis        ar              +P=2,N=p,T=f
+SFX P   ar              á-la-ão         ar              +P=3,N=p,T=f
+SFX P   ar              á-la-ia         ar              +P=1_3,N=s,T=c
+SFX P   ar              á-la-ias        ar              +P=2,N=s,T=c
+SFX P   ar              á-la-íamos      ar              +P=1,N=p,T=c
+SFX P   ar              á-la-íeis       ar              +P=2,N=p,T=c
+SFX P   ar              á-la-iam        ar              +P=3,N=p,T=c
+SFX P   ar              á-las-ei         ar              +P=1,N=s,T=f
+SFX P   ar              á-las-ás         ar              +P=2,N=s,T=f
+SFX P   ar              á-las-á          ar              +P=3,N=s,T=f
+SFX P   ar              á-las-emos       ar              +P=1,N=p,T=f
+SFX P   ar              á-las-eis        ar              +P=2,N=p,T=f
+SFX P   ar              á-las-ão         ar              +P=3,N=p,T=f
+SFX P   ar              á-las-ia         ar              +P=1_3,N=s,T=c
+SFX P   ar              á-las-ias        ar              +P=2,N=s,T=c
+SFX P   ar              á-las-íamos      ar              +P=1,N=p,T=c
+SFX P   ar              á-las-íeis       ar              +P=2,N=p,T=c
+SFX P   ar              á-las-iam        ar              +P=3,N=p,T=c
 SFX P   er              ê-la-á          [^a]bater              +P=3,N=s,T=f
 SFX P   er              ê-la-ás         [^a]bater              +P=2,N=s,T=f
 SFX P   er              ê-la-ão         [^a]bater              +P=3,N=p,T=f
@@ -1661,6 +1707,39 @@ SFX P   r               -lo-ias         ir              +P=2,N=s,T=c
 SFX P   r               -lo-íamos       ir              +P=1,N=p,T=c
 SFX P   r               -lo-íeis        ir              +P=2,N=p,T=c
 SFX P   r               -lo-iam         ir              +P=3,N=p,T=c
+SFX P   r               -los-ei          ir              +P=1,N=s,T=f
+SFX P   r               -los-ás          ir              +P=2,N=s,T=f
+SFX P   r               -los-á           ir              +P=3,N=s,T=f
+SFX P   r               -los-emos        ir              +P=1,N=p,T=f
+SFX P   r               -los-eis         ir              +P=2,N=p,T=f
+SFX P   r               -los-ão          ir              +P=3,N=p,T=f
+SFX P   r               -los-ia          ir              +P=1_3,N=s,T=c
+SFX P   r               -los-ias         ir              +P=2,N=s,T=c
+SFX P   r               -los-íamos       ir              +P=1,N=p,T=c
+SFX P   r               -los-íeis        ir              +P=2,N=p,T=c
+SFX P   r               -los-iam         ir              +P=3,N=p,T=c
+SFX P   r               -la-ei          ir              +P=1,N=s,T=f
+SFX P   r               -la-ás          ir              +P=2,N=s,T=f
+SFX P   r               -la-á           ir              +P=3,N=s,T=f
+SFX P   r               -la-emos        ir              +P=1,N=p,T=f
+SFX P   r               -la-eis         ir              +P=2,N=p,T=f
+SFX P   r               -la-ão          ir              +P=3,N=p,T=f
+SFX P   r               -la-ia          ir              +P=1_3,N=s,T=c
+SFX P   r               -la-ias         ir              +P=2,N=s,T=c
+SFX P   r               -la-íamos       ir              +P=1,N=p,T=c
+SFX P   r               -la-íeis        ir              +P=2,N=p,T=c
+SFX P   r               -la-iam         ir              +P=3,N=p,T=c
+SFX P   r               -las-ei          ir              +P=1,N=s,T=f
+SFX P   r               -las-ás          ir              +P=2,N=s,T=f
+SFX P   r               -las-á           ir              +P=3,N=s,T=f
+SFX P   r               -las-emos        ir              +P=1,N=p,T=f
+SFX P   r               -las-eis         ir              +P=2,N=p,T=f
+SFX P   r               -las-ão          ir              +P=3,N=p,T=f
+SFX P   r               -las-ia          ir              +P=1_3,N=s,T=c
+SFX P   r               -las-ias         ir              +P=2,N=s,T=c
+SFX P   r               -las-íamos       ir              +P=1,N=p,T=c
+SFX P   r               -las-íeis        ir              +P=2,N=p,T=c
+SFX P   r               -las-iam         ir              +P=3,N=p,T=c
 SFX P   r               -lo             or              +G=m,N=s
 SFX P   r               -la             or              +G=f,N=s
 SFX P   r               -los            or              +G=m,N=p
