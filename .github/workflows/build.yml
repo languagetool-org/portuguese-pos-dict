@@ -2,14 +2,14 @@ name: Build
 
 on:
   push:
-    branches:
-      - main
-  pull_request:
     paths:
       - "data/**"
+      - "pos_tagger_scripts/build-lt.sh"
+      - "lt-changes/**"
       - ".github/workflows/build.yml"
-      - "pos_tagger_scripts/**"
-      - "dict_tools/**"
+  pull_request:
+    branches:
+      - "main"
   workflow_dispatch: {}
 
 jobs:
