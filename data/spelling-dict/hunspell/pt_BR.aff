@@ -3383,9 +3383,6 @@ SFX c   r      vas       uitar
 #                    idear, estrear
 
 SFX d Y 210
-# SFX d   ar      á         ar
-# SFX d   er      ê         er
-# SFX d   or      ô         or
 SFX d   r       0         rir
 SFX d   r       a         rir
 SFX d   r       ais       rir
@@ -4069,9 +4066,6 @@ SFX e   er      íeis         requerer
 # IRREGULARES -f- haver ir poder querer ser ter   
 
 SFX f Y 305
-# SFX f   ar     á            ar
-# SFX f   er     ê            er
-# SFX f   or     ô            or
 SFX f   r      i            for
 SFX f   r      mos          for
 SFX f   0      a            for
@@ -5336,7 +5330,6 @@ SFX h   ar       ou           [aeou]izar
 #                                     vir  construir  convergir  crer  ressequir  
 
 SFX i Y 870
-# SFX i   ar       á            ar
 SFX i   er       ê            zer
 SFX i   or       ô            or
 SFX i   ir       eio          vir
@@ -7499,8 +7492,7 @@ SFX k   udir    odem-no        cudir
 SFX k   udir    odem-nos       cudir
 
 
-# ÊNCLISES E MESÓCLISES -m- Para verbos da regra -c- 
-#
+# ÊNCLISES E MESÓCLISES -m- Para verbos da regra -c-
 SFX m Y 4892
 SFX m   er      ê-la-á         ter
 SFX m   er      ê-las-á        ter
