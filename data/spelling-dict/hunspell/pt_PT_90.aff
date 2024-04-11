@@ -99,6 +99,12 @@ PFX A   0               antir           r               PFSEM=anti+
 PFX A   0               antis           s               PFSEM=anti+
 PFX A   0               anti-           [hi]            PFSEM=anti+
 
+PFX Z Y 4
+PFX Z   0               auto            [^hors]         PFSEM=auto+
+PFX Z   0               autor           r               PFSEM=auto+
+PFX Z   0               autos           s               PFSEM=auto+
+PFX Z   0               auto-           [ho]            PFSEM=auto+
+
 PFX S Y 2
 PFX S   0               des             [^h]            PFSEM=not+
 PFX S   h               des             h               PFSEM=not+

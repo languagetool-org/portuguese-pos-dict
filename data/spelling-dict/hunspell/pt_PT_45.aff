@@ -57,6 +57,10 @@ PFX A Y 2
 PFX A   0               anti            [^hirs]         PFSEM=anti+
 PFX A   0               anti-           [hirs]          PFSEM=anti+
 
+PFX Z Y 2
+PFX Z   0               auto            [^hors]         PFSEM=auto+
+PFX Z   0               auto-           [hors]          PFSEM=auto+
+
 PFX S Y 2
 PFX S   0               des             [^h]            PFSEM=not+
 PFX S   h               des             h               PFSEM=not+

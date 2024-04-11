@@ -1,4 +1,4 @@
-59607
+59633
 oogaboogatestword
 oogaboogatestwordPT
 oogaboogatestwordPT45
@@ -783,6 +783,7 @@ agenciar/LP
 agenda/ph
 agendar/XYPLMR
 agente/pl
+bioagente/pl
 agigantar/XYPLM
 ágil/a
 agilidade/ph
@@ -16452,6 +16453,7 @@ helvécio/fp
 helvético/fp
 hemático/fp
 hematologia/ph
+hematologista/p
 hematoma/pl
 hematose/ph
 hemicíclico/fp
@@ -21066,6 +21068,7 @@ mesuradamente
 mesurar/XYL
 mesureiro/fpm
 metabólico/fp
+metabolicamente
 metabolismo/pl
 metabolizar/XYPLc
 metacarpo/pl
@@ -27129,6 +27132,7 @@ recuperar/XYPLcDv
 recuperativo/fpm
 recursivo/fpmd
 recurso/pl
+biorrecurso/pl
 recurvar/XYPL
 recurvo/fpm
 recusador/fp
@@ -27312,12 +27316,12 @@ regélido/fp
 regelo/pl
 regencial/pm
 regência/ph
-regenerabilidade/ph
-regenerador/fp
-regenerante/pm
-regenerar/XYPLcDnv
-regenerativo/fpm
-regenerescência/ph
+regenerabilidade/phZ
+regenerador/fpZ
+regenerante/pmZ
+regenerar/XYPLcDnvZ
+regenerativo/fpmZ
+regenerescência/phZ
 regente/p
 regerar/XYPL
 reger/XYPLMDn
@@ -53630,7 +53634,8 @@ excepcionalidade/p
 indefectivelmente
 interjectivo
 efracção/p
-electroacústico/p
+electroacústico/fp
+bioacústico/fp
 grupóide/p
 trombóide/p
 obovóide/p
@@ -56723,7 +56728,6 @@ Siri
 Németh
 Ling
 Daianys
-Story
 Betania
 Dinorah
 Navico
@@ -59618,3 +59622,13 @@ Williams
 touch
 Ístria
 stream/þ
+story/þ
+cardiomiócitos/p
+codesenvolvedor/fp
+heteroplasia/p
+HOP
+oncolítico/fp
+protista/p
+tiranossauro/p
+titanossauro/p
+viroterapia/p

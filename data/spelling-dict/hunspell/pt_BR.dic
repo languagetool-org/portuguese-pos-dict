@@ -1,4 +1,4 @@
-262021
+262033
 oogaboogatestword
 oogaboogatestwordBR
 o/B
@@ -7266,6 +7266,7 @@ agenório/DK
 agenossomia/B
 agenossomo/B
 agente/BPÀÍüÈÑ
+bioagente/B
 agentivo/DXJ
 ageometria/B
 ageometrosia/B
@@ -81538,7 +81539,8 @@ eco/D
 ecó/B
 ecô/B
 ecoacusia/B
-ecoacústica/B
+ecoacústico/D
+bioacústico/D
 ecoagência/B
 ecoar/akYMjLÀ
 ecoável/KXIB
@@ -122249,6 +122251,7 @@ hematolite/DPO
 hematolítico/DK13
 hematólito/B
 hematologia/B42
+hematologista/B
 hematólogo/D
 hematoma/B
 hematomancia/B
@@ -212709,7 +212712,8 @@ recursal
 recursão/BQW
 recursense/B
 Recursolândia
-recursos/P
+recurso/BP
+biorrecurso/B
 recurvação/BQW
 recurvifólio/D
 recurvirrostrídeo/D
@@ -262020,3 +262024,10 @@ solitude/B
 touch
 Ístria
 stream/þ
+story/þ
+verossimilhança/BÄ
+verossímil/CÄ
+codesenvolvedor/D
+HOP
+oncolítica/D
+viroterapia/B
