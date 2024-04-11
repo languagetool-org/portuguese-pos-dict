@@ -194,6 +194,10 @@ sub r_elision {
         $elided_form =~ s/ir$/í/;
         return $elided_form;
     }
+    if ($form =~ /[^qg]uir$/) {
+        $elided_form =~ s/ir$/í/;
+        return $elided_form;
+    }
     if ($form =~ /ir$/) {
         $elided_form =~ s/ir$/i/;
         return $elided_form;
