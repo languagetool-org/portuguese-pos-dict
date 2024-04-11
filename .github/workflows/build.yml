@@ -111,7 +111,7 @@ jobs:
         repository: languagetool-org/languagetool
         path: ${{ env.LT_HOME }}
         token: ${{ secrets.LT_OS_TOKEN }}
-        ref: pt/grammar/sundry_fixes
+        ref: pt/dict/v015
 
     - name: Cache LT Build
       uses: actions/cache@v4
