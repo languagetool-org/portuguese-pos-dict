@@ -18,6 +18,8 @@ jobs:
     strategy:
       matrix:
         python-version: ["3.11"]
+    env:
+      LT_BRANCH: "pt/dict/v015"
     steps:
     - name: Set paths
       run: |
@@ -111,7 +113,7 @@ jobs:
         repository: languagetool-org/languagetool
         path: ${{ env.LT_HOME }}
         token: ${{ secrets.LT_OS_TOKEN }}
-        ref: pt/dict/v015
+        ref: ${{ env.LT_BRANCH }}
 
     - name: Cache LT Build
       uses: actions/cache@v4

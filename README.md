@@ -56,30 +56,51 @@ declared as dependencies by LT. We only use major and minor, without a patch num
 Note that, in order for LT to actually use the newly released version, you'll need to update the version of the
 `portuguese-pos-dict` dependency in **LT**'s main `pom.xml` file.
 
-### Outline
+### Recommended workflow
 
-The release process involves a few steps:
+If you are not a maintainer but you want to contribute words to the dictionaries,
+it should be relatively simple. There are many steps, but they are all quite straightforward:
 
-- build a new POS tagger dictionary (see [here](./pos_tagger_scripts/README.md) to see how);
-- build a new speller dictionary (see [here](./pt_dict/README.md) to see how);
-- once all dictionaries are built, files in [/results/java-lt](./results/java-lt) will be updated;
-- install them with Maven inside that directory:
-  ```bash
-  mvn clean install
-  ```
-- and now, in the same directory, release them with:
-  ```bash
-  mvn clean deploy -P release
-  # doing this without setting up SonaType and GPG secrets may prompt you for credentials multiple times!
-  # make sure you are using 1password to handle secrets efficiently and securely ;)
-  ```
-- once this is done, you must log in to [SonaType](http://oss.sonatype.org/), navigate to the
-  [Staging Repositories](https://oss.sonatype.org/#stagingRepositories), select the repository you'd like to deploy,
-  and click `Release`.
+1. in the main [LanguageTool repo](https://github.com/languagetool-org/languagetool), branch out from `master`
+   and push it (even if it doesn't have any changes yet);
+   - if you know what you are doing, and your changes are a bit more complex, you may want to add
+     some custom tests to the `MorfologikPortugueseSpellerRuleTest` class;
 
-Parts of this process will probably be automated as a part of a GitHub Actions workflow soon (as of November 2023, this
-has not yet been done).
+2. copy the branch name and add that to the `LT_BRANCH` variable in the [build.yml](.github/workflows/build.yml)
+   workflow file in this repo:
 
-Note that, as per the instructions [here](#versioning), in order for your changes to be actually used by LT, you must
-first have updated all `pom.xml` versions.
+```yaml
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11"]
+    env:
+      LT_BRANCH: "pt/dict/v015" ## <- here, set this to the branch you created
+```
 
+3. branch out of `main` in this repo, and make your changes;
+
+4. commit and push your changes, and create a pull request;
+
+5. the test workflow will run, testing your changes against the LT branch you specified;
+
+6. if the tests pass and the PR is approved, merge it;
+
+7. create a new tag for the merged commit, and push it to the repo (the tag will be
+   the new dictionary version, so make sure it adhered to our versioning scheme!);
+
+8. the release workflow will run, deploying the new version to Sonatype;
+
+9. log in to Sonatype and release the new version (this part might be automated away in the future);
+
+10. wait 10-20 minutes — it takes a while for the new version to be propagated,
+    so it may not be immediately available to LT;
+
+11. update the `portuguese-pos-dict` dependency in LT's `pom.xml` file to the new version;
+
+12. push the changes to LT's repo, and wait for the CI to run all the tests;
+
+13. if everything is green, merge the changes to `main` in LT's repo; the new version of the dictionaries
+    should now be available to all LT users!
