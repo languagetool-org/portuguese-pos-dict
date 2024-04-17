@@ -19,7 +19,7 @@ jobs:
       matrix:
         python-version: ["3.11"]
     env:
-      LT_BRANCH: "pt/dict/v015"
+      LT_BRANCH: "pt/dict/v016"
     steps:
     - name: Set paths
       run: |
