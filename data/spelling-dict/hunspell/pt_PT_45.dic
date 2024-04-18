@@ -930,6 +930,7 @@ ajantarado/fpm
 ajardinar/XYPLM
 ajaulado/fpm
 ajeitar/XYPL
+reajeitar/XYPL
 ajoelhar/XYPLc
 ajornalar/XYPL
 ajoujar/XYPLM
@@ -3118,6 +3119,7 @@ assimulação/ph
 assinado/pl
 assinalante/pm
 assinalar/XYPLcMDnv
+reassinalar/XYPLcMDnv
 assinante/p
 assinar/XYPLcMnv
 assinatura/ph
@@ -7844,6 +7846,7 @@ comissariado/pl
 comissariar/XYPL
 comissário/fpu
 comissionar/XYPL
+recomissionar/XYPL
 comissionista/p
 comité/pl
 comitiva/ph
@@ -8036,6 +8039,7 @@ concatenar/XYPLcMDv
 concavidade/ph
 côncavo/fp
 conceber/XYPLMv
+autoconceber/XYPLMv
 concedente/p
 conceder/XYPLnv
 conceito/pl
@@ -8298,6 +8302,7 @@ congelabilidade/ph
 congelador/fp
 congelante/Ap
 congelar/XYPLScMDnv
+recongelar/XYPLScMDnv
 congelativo/fpm
 congelo/pl
 congeminante/pm
@@ -8849,6 +8854,7 @@ coorientador/fp
 copada/ph
 copado/fpm
 copa/ph
+recopa/ph
 copas
 copázio/pl
 copeira/ph
@@ -10370,6 +10376,7 @@ descrédito/pl
 descrença/ph
 descrente/p
 descrever/XYPL
+autodescrever/XYPL
 descrição/ph
 descriminar/XYPLc
 descritível/p
@@ -10497,7 +10504,9 @@ desenvolto/fpm
 desenvoltura/ph
 desenvolvente/pm
 desenvolver/XYPLMnuB
+redesenvolver/XYPLMnuB
 desenvolvimento/pl
+redesenvolvimento/pl
 desenxabir/XYPL
 desenxamear/ZYPL
 desenxofrar/XYPL
@@ -10584,6 +10593,7 @@ designação/ph
 designadamente
 designador/fp
 designar/XYPLcD
+autodesignar/XYPLcD
 designativo/fpm
 desígnio/pl
 desigual/pm
@@ -11151,6 +11161,7 @@ direito/fplh
 dirigente/xp
 dirigibilidade/ph
 dirigir/XYPLv
+redirigir/XYPLv
 dirigismo/pl
 discar/XYPL
 discência/ph
@@ -12193,11 +12204,13 @@ encolhedela/ph
 encolher/XYPLM
 encomenda/ph
 encomendar/XYPLSc
+reencomendar/XYPLSc
 encomendeiro/pl
 encompridar/XYPL
 encontradiço/fp
 encontrão/pl
 encontrar/XYPLRS
+autoencontrar/XYPLRS
 encontro/pl
 encorajar/XYPLSMD
 encordoar/XYPL
@@ -12347,6 +12360,7 @@ engalinhar/XYPL
 enganadiço/fp
 enganador/fp
 enganar/XYPLcD
+autoenganar/XYPLcD
 enganchar/XYPL
 engano/pl
 enganoso/fpm
@@ -17043,6 +17057,7 @@ imerso/fpm
 imersor/fp
 imigrante/px
 imigrar/XYLcn
+reimigrar/XYLcn
 imigratório/fp
 iminência/ph
 iminente/pm
@@ -17063,6 +17078,7 @@ imoderado/fpm
 imolador/fp
 imolante/pm
 imolar/XYPLcDn
+autoimolar/XYPLcDn
 imoral/ptid
 imoralidade/ph
 imoralismo/pl
@@ -17725,6 +17741,7 @@ indianologia/q
 indicação/ph
 indicador/fp
 indicar/XYPLcD
+reindicar/XYPLcD
 indicativo/fp
 indicatório/fp
 índice/pl
@@ -18335,6 +18352,7 @@ intendente/pl
 intender/XYPLn
 intensidade/ph
 intensificar/XYPLc
+reintensificar/XYPLc
 intensivo/fpm
 intenso/fpmds
 intentar/XYPL
@@ -18791,7 +18809,9 @@ isca/ph
 iscar/XYPL
 isco/pl
 isenção/ph
+autoisenção/ph
 isentar/XYPL
+autoisentar/XYPL
 isento/fpm
 islâmico/fpA
 islamismo/pl
@@ -19552,6 +19572,8 @@ lesbiano/fi
 lésbico/fp
 lésbio/fp
 lesionar/XYPLD
+autolesionar/XYPLD
+relesionar/XYPLD
 lesivo/fpm
 lesma/ph
 lesmar/XYL
@@ -21430,6 +21452,7 @@ míssil/a
 missionário/fp
 missionarismo/pl
 missionar/XYPLc
+remissionar/XYPLc
 mississipiano/pl
 missiva/ph
 missivo/fpm
@@ -25674,6 +25697,7 @@ pressupor/KPL
 pressuposição/ph
 pressuposto/fpm
 pressurizar/XYPLc
+repressurizar/XYPLc
 pressuroso/fpm
 prestabilidade/ph
 prestadio/fpm
@@ -26119,6 +26143,8 @@ provisório/fpH
 provocador/fp
 provocante/pm
 provocar/XYPLcDn
+autoprovocar/XYPLcDn
+reprovocar/XYPLcDn
 provocativo/fpm
 provocatório/fp
 proxeneta/i
@@ -26248,8 +26274,11 @@ punhal/pl
 punho/pl
 púnica/p
 punição/ph
+autopunição/ph
 punir/XYPLcDv
+autopunir/XYPLcDv
 punitivo/fpm
+autopunitivo/fpm
 punível/pd
 pupila/ph
 pupilar/pm
@@ -26426,6 +26455,7 @@ queixada/ph
 queixal
 queixa/ph
 queixar/XYL
+requeixar/XYL
 queixinhas
 queixo/pl
 queixoso/fp
@@ -53544,6 +53574,8 @@ redactorial/p
 lirióide/p
 arefacção/p
 manufacturar/XYPLv
+automanufacturar/XYPLv
+remanufacturar/XYPLv
 reacção/p
 correctivamente
 dendróide/p
@@ -53823,6 +53855,7 @@ autocorrecção/p
 calefacção/p
 autotractor
 colectar/XYPLv
+recolectar/XYPLv
 ceptrífero/p
 colectânea
 toxicóide/p
@@ -55023,6 +55056,7 @@ começo/LPRSp
 comer/DLPXYlpv
 complanar/LPXYcmp
 complementar/LPXYcdmp
+autocomplementar/LPXYcdmp
 composto/LPRfp
 comprazer/DLMlp
 conciliar/DLPRXYcmnpv
@@ -59632,3 +59666,4 @@ protista/p
 tiranossauro/p
 titanossauro/p
 viroterapia/p
+autotune
