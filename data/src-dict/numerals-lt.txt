@@ -13,6 +13,8 @@ duzentas	duzentos	Z0FP0
 duzentos	duzentos	Z0MP0
 mil	mil	Z0CP0
 milhão	milhão	Z0MS0
+milhar	milhar	Z0MS0
+milhares	milhar	Z0MP0
 nove	nove	Z0CP0
 novecentas	novecentos	Z0FP0
 novecentos	novecentos	Z0MP0
