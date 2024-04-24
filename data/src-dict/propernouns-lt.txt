@@ -8010,6 +8010,15 @@ Jerusalém	Jerusalém	NPMS000
 Jerónimo	Jerónimo	NPMS000
 Jerónimo	Jerónimo	NPMSS00
 Jerónimos	Jerónimos	NPMS000
+Jerônimo	Jerônimo	NPMS000
+Jerônimo	Jerônimo	NPMSS00
+Jerônimos	Jerônimos	NPMS000
+Gerónimo	Gerónimo	NPMS000
+Gerónimo	Gerónimo	NPMSS00
+Gerónimos	Gerónimos	NPMS000
+Gerônimo	Gerônimo	NPMS000
+Gerônimo	Gerônimo	NPMSS00
+Gerônimos	Gerônimos	NPMS000
 Jesana	Jesana	NPFS000
 Jesarela	Jesarela	NPFS000
 Jessélia	Jessélia	NPFS000
@@ -14061,3 +14070,5 @@ Penalty	Penalty	NPCSO00
 Umbro	Umbro	NPCSO00
 Asics	Asics	NPCSO00
 Saint-Étienne	Saint-Étienne	NPCSO00
+Mainz	Mainz	NPCSG00
+Mogúncia	Mogúncia	NPFSG00
