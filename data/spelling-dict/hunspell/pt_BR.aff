@@ -1424,10 +1424,13 @@ SFX B   m     ns       m
 SFX B   0     es       [cs]h
 
 # Plural -þ- specifically for English words with straightforward -s plurals, e.g. surfer-surfers, jam-jams
-SFX þ Y 3
-SFX þ   0     s        [^y]
+SFX þ Y 6
+SFX þ   0     s        [^yszxh]
 SFX þ   y     ies      [qwrtypsdfhgjklzxcvnmb]y
 SFX þ   0     s        [aeiou]y
+SFX þ   0     es       [szx]
+SFX þ   0     s        [^scz]h
+SFX þ   0     es       [scz]h
 
 # Plural -C-  - (ão ãos) - (el - éis) ...
 
