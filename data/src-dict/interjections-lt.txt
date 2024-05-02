@@ -351,3 +351,4 @@ zúquete	zúquete	I
 ápage	ápage	I
 ó	ó	I
 bye-bye	bye-bye	I
+pô	pô	I

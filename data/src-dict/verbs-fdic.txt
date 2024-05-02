@@ -14968,3 +14968,4 @@ zupar=V;model:amar;src: LT;
 zurpilhar=V;model:amar;src: LT;
 zurrar=V;model:amar;src: LT;
 zurzir=V;model:demitir;src: LT;
+curricularizar=V:model:amar;src: LT;
