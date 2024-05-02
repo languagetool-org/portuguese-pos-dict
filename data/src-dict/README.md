@@ -20,6 +20,10 @@ performance of the XML grammar rules.
 
 ### Format
 
+⚠️ For **all** files in this directory, make sure you *always* leave one blank line at the end of the file. If you fail
+to do this, the scripts that work on these files might merge some lines... There is a script that checks for this that
+is run in our build workflow. But still, try to remember to do this.
+
 Source data for inflected words follows a specific pattern.
 
 ```bash
