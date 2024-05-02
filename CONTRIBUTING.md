@@ -27,3 +27,7 @@ Note that the `Build` check can take a while to run, so please be patient. This 
 from source, compile LT from source, build the tagger dictionary... and then recompile LT with the new tagger logic,
 which is used by the spelling dictionary compilation scripts... And then, on top of that, run the LT tests, which can
 be quite time-consuming. With no caching, this can take up to ca. 17 minutes.
+
+We have a separate workflow specifically designed simply to check if all status are passing. Because of how long it
+takes to run the `Build` check, this workflow may sometimes fail because of a timeout. If that happens, you can simply
+re-trigger it once all statuses are passing and your PR will be good to go.

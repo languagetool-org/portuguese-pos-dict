@@ -51,7 +51,19 @@ Soon, this will be no longer be the case, and they will be released automaticall
 ### Versioning
 
 These dictionaries use [semantic versioning](https://semver.org), as they are essentially libraries that can be
-declared as dependencies by LT. We only use major and minor, without a patch number, e.g. `0.9`.
+declared as dependencies by LT.
+
+As of May 2024 (with release `v1.0.0`), we are using the following versioning scheme:
+- update the **major** (i.e. the first number) for *breaking* changes;
+    - these are changes that depend on **code** changes in LT, e.g.:
+      - changes to the way dictionaries built or loaded;
+      - changes to the logic of Portuguese word tokenisation, POS tagging, or spellchecking;
+      - changes that would necessitate **extensive** rewriting of the Portuguese XML rules.
+- update the **minor** (i.e. the second number) for *new features*;
+    - primarily, this will mean new words added to either the spelling or the tagging dictionary;
+- update the **patch** (i.e. the third number) for *bug fixes*;
+    - this includes typos, incorrect POS tags, or any other minor errors in the dictionaries that do not constitute
+      'new content'.
 
 Note that, in order for LT to actually use the newly released version, you'll need to update the version of the
 `portuguese-pos-dict` dependency in **LT**'s main `pom.xml` file.
