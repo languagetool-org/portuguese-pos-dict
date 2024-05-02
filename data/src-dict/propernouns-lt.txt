@@ -3810,6 +3810,7 @@ Champalimaud	Champalimaud	NPCS000
 Chamusca	Chamusca	NPCSG00
 ChanServ	ChanServ	NPMS000
 Chancelaria	Chancelaria	NPCSG00
+Chandler	Chandler	NPMS000
 Chanel	Chanel	NPFS000
 Chang	Chang	NPMSS00
 Chantais	Chantal	NPFPS00

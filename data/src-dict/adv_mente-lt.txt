@@ -1673,6 +1673,7 @@ ferventemente	ferventemente	RG
 fervorosamente	fervorosamente	RG
 festivamente	festivamente	RG
 feudalmente	feudalmente	RG
+fiavelmente	fiavelmente	RG
 ficcionalmente	ficcionalmente	RG
 ficticiamente	ficticiamente	RG
 fidalgamente	fidalgamente	RG
