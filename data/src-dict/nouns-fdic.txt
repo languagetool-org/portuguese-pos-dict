@@ -88414,6 +88414,7 @@ superaquecimento=M;src: LT;
 superatividade=F;src: LT;
 superavit [pl. superavits]=M;src: LT;
 superávit [pl. superávits]=M;src: LT;
+superávite [pl. superávites]=M;src: LT;
 superação [pl. superações]=F;src: LT;
 supercampeonato=M;src: LT;
 supercampeão [pl. supercampeões]=M;src: LT;
