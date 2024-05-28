@@ -100244,3 +100244,4 @@ katana=F; src:LT;
 kanban=MF; src:LT;
 workflow=M; src:LT;
 widget=M; src:LT;
+thread [pl. threads]=MF; src:LT;
