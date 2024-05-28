@@ -100245,3 +100245,4 @@ kanban=MF; src:LT;
 workflow=M; src:LT;
 widget=M; src:LT;
 thread [pl. threads]=MF; src:LT;
+setup [pl. setups]=M; src:LT;
