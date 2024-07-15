@@ -217,6 +217,25 @@ jobs:
       - name: Set dictionary version
         run: echo "PT_DICT_VERSION=$(git describe --tags --abbrev=0 | sed 's/^v//g')" >> $GITHUB_ENV
 
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Set up Poetry
+        uses: Gr1N/setup-poetry@v8
+
+      - name: Check Poetry config
+        working-directory: ${{ env.PT_DICT_HOME }}
+        run: poetry check
+
+      - name: Install Python dependencies
+        working-directory: ${{ env.PT_DICT_HOME }}
+        run: poetry install
+        env:
+          POETRY_HTTP_BASIC_GITLAB_USERNAME: "lt-ai-package-registry"
+          POETRY_HTTP_BASIC_GITLAB_PASSWORD: ${{ secrets.POETRY_HTTP_BASIC_GITLAB_PASSWORD }}
+
       - name: Add dictionary version to package pom
         run: |
           poetry run python "dict_tools/scripts/update_pom.py" \
