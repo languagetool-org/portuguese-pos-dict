@@ -100247,3 +100247,6 @@ widget=M; src:LT;
 thread [pl. threads]=MF; src:LT;
 setup [pl. setups]=M; src:LT;
 recall [pl. recalls]=M; src:LT;
+outback [pl. outbacks]=M; src:LT;
+benchmark [pl. benchmarks]=MF; src:LT;
+spinning=MI; src:LT;
