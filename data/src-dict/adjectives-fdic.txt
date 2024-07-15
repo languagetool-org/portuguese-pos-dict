@@ -48566,3 +48566,4 @@ antipetista=A;src: LT;
 antiplágio=AI;src: LT;
 antirresíduos=AI;src: LT;
 anti-resíduos=AI;src: LT;
+cajun=AI;src: LT;
